@@ -170,6 +170,16 @@ special_genes = {
 					1 = m_headgear_sec_ep3_byzantine_era2_nob_01
 					1 = m_headgear_sec_ep3_byzantine_era2_nob_02
 					1 = m_headgear_sec_ep3_byzantine_era1_com_01
+					#POL
+					1 = m_headgear_sec_pol_common_01
+					1 = m_headgear_sec_pol_common_02
+					1 = m_headgear_sec_pol_low_nob_01
+					1 = m_headgear_sec_pol_high_nob_01
+					1 = m_headgear_sec_pol_royalty_01
+					1 = m_headgear_sec_pol_imperial_01
+					1 = m_headgear_sec_pol_era1_war_nob_01
+					1 = m_headgear_sec_pol_era3_war_nob_01
+					1 = m_headgear_sec_pol_era4_war_nob_01
 					# CHC #
 					1 = male_headgear_secular_chinese_nobility_01
 					1 = male_headgear_secular_chinese_nobility_02
@@ -334,6 +344,16 @@ special_genes = {
 					1 = f_headgear_sec_ep3_byzantine_era2_nob_01
 					1 = f_headgear_sec_ep3_byzantine_era2_hi_nob_01
 					1 = f_headgear_sec_ep3_byzantine_era1_com_01
+					# POL
+					1 = f_headgear_sec_pol_common_01
+					1 = f_headgear_sec_pol_common_02
+					1 = f_headgear_sec_pol_low_nob_01
+					1 = f_headgear_sec_pol_high_nob_01
+					1 = f_headgear_sec_pol_royalty_01
+					1 = f_headgear_sec_pol_imperial_01
+					1 = f_headgear_sec_pol_era1_war_nob_01
+					1 = f_headgear_sec_pol_era3_war_nob_01
+					1 = f_headgear_sec_pol_era4_war_nob_01
 					# CHC #
 					1 = female_headgear_secular_chinese_nobility_01
 					1 = female_headgear_secular_chinese_nobility_02
@@ -2156,20 +2176,8 @@ special_genes = {
 				girl = female
 			}
 
-			reward_western_royalty = {
-				index = 126
-				male = {
-					1 = male_headgear_secular_western_royalty_03
-				}
-				female = {
-					1 = female_headgear_secular_western_royalty_03
-				}
-				boy = male
-				girl = male
-			}
-
 			# THIS IS USED FOR EMPTY AN SPACE = {
-			# 	index = 127
+			# 	index = 126
 
 			# 	male = {
 			# 		1 =
@@ -2186,7 +2194,7 @@ special_genes = {
 			## CE1 - Legends of the Dead ##
 
 			fp4_western_common = {
-				index = 128
+				index = 127
 				male = {
 					1 = empty
 					1 = m_headgear_sec_fp4_western_nob_01_com
@@ -2200,7 +2208,7 @@ special_genes = {
 			}
 
 			fp4_western_low_nobility = {
-				index = 129
+				index = 128
 				male = {
 					1 = m_headgear_sec_fp4_western_nob_01_lo
 					1 = m_headgear_sec_fp4_western_nob_02_lo
@@ -2213,7 +2221,7 @@ special_genes = {
 			}
 
 			fp4_western_royalty = {
-				index = 130
+				index = 129
 				male = {
 					1 = m_headgear_sec_fp4_western_roy_01
 				}
@@ -2225,7 +2233,7 @@ special_genes = {
 			}
 
 			fp4_western_cloak_hoods = {
-				index = 131
+				index = 130
 				male = {
 					1 = m_headgear_sec_fp4_western_era3_nob_03 # Hood specifically made to fit with the CE1 western era3 cloak, this one is pulled up on the head
 					# 1 = m_headgear_sec_fp4_western_era3_nob_04 # Same but pulled back, not covering the head
@@ -2239,7 +2247,7 @@ special_genes = {
 			}
 
 			fp4_western_era3_common = {
-				index = 132
+				index = 131
 				male = {
 					2 = empty
 					1 = m_headgear_sec_fp4_western_nob_01_com
@@ -2260,7 +2268,7 @@ special_genes = {
 			## FP3 - Legacy of Persia ##
 
 			fp3_iranian_royalty = {
-				index = 133
+				index = 132
 				male = {
 					1 = m_headgear_sec_fp3_iranian_roy_01
 				}
@@ -2272,7 +2280,7 @@ special_genes = {
 			}
 
 			fp3_iranian_low_nobility = {
-				index = 134
+				index = 133
 				male = {
 					1 = m_headgear_sec_fp3_iranian_nob_01
 				}
@@ -2284,7 +2292,7 @@ special_genes = {
 			}
 
 			fp3_iranian_nobility = {
-				index = 135
+				index = 134
 				male = {
 					1 = m_headgear_sec_fp3_iranian_nob_02
 				}
@@ -2296,7 +2304,7 @@ special_genes = {
 			}
 
 			fp3_iranian_war = {
-				index = 136
+				index = 135
 				male = {
 					1 = m_headgear_sec_fp3_iranian_war_nob_01
 				}
@@ -2308,7 +2316,7 @@ special_genes = {
 			}
 
 			fp3_iranian_imperial = {
-				index = 137
+				index = 136
 				male = {
 					1 = m_headgear_sec_fp3_iranian_imp_01
 				}
@@ -2322,7 +2330,7 @@ special_genes = {
 			## FP3 - Turkic ##
 
 			fp3_turkic_low_nobility = {
-				index = 138
+				index = 137
 				male = {
 					1 = m_headgear_sec_fp3_turkic_nob_01
 				}
@@ -2335,7 +2343,7 @@ special_genes = {
 			}
 
 			fp3_turkic_nobility = {
-				index = 139
+				index = 138
 				male = {
 					1 = m_headgear_sec_fp3_turkic_nob_02
 				}
@@ -2351,7 +2359,7 @@ special_genes = {
 			## AFR ##
 
 			afr_common = {
-				index = 140
+				index = 139
 				male = {
 					1 = m_headgear_sec_afr_common_01
 					1 = m_headgear_sec_afr_common_02
@@ -2365,7 +2373,7 @@ special_genes = {
 			}
 
 			afr_low_nobility = {
-				index = 141
+				index = 140
 				male = {
 					1 = m_headgear_sec_afr_low_nob_01
 					1 = m_headgear_sec_afr_low_nob_02
@@ -2379,7 +2387,7 @@ special_genes = {
 			}
 
 			afr_high_nobility = {
-				index = 142
+				index = 141
 				male = {
 					1 = m_headgear_sec_afr_high_nob_01
 				}
@@ -2391,7 +2399,7 @@ special_genes = {
 			}
 
 			afr_royalty = {
-				index = 143
+				index = 142
 				male = {
 					1 = m_headgear_sec_afr_royalty_01
 				}
@@ -2403,7 +2411,7 @@ special_genes = {
 			}
 
 			afr_imperial = {
-				index = 144
+				index = 143
 				male = {
 					1 = m_headgear_sec_afr_imperial_01
 				}
@@ -2415,7 +2423,7 @@ special_genes = {
 			}
 
 			afr_war = {
-				index = 145
+				index = 144
 				male = {
 					1 = m_headgear_sec_afr_war_nob_01
 				}
@@ -2430,7 +2438,7 @@ special_genes = {
 			## SP3 -  ##
 
 			sp3_western_high_nobility = {
-				index = 146
+				index = 145
 				male = {
 					1 = m_headgear_sec_sp3_western_hi_nob_01 # Vair fur brimmed hat
 				}
@@ -2442,7 +2450,7 @@ special_genes = {
 			}
 
 			sp3_western_nobility = {
-				index = 147
+				index = 146
 				male = {
 					# 1 = m_headgear_sec_sp3_western_hi_nob_01
 				}
@@ -2454,7 +2462,7 @@ special_genes = {
 			}
 
 			sp3_western_royalty = {
-				index = 148
+				index = 147
 				male = {
 					1 = m_headgear_sec_sp3_western_roy_01
 				}
@@ -2468,7 +2476,7 @@ special_genes = {
 			## EP3 - Byzantine ##
 
 			ep3_byzantine_era1_commoner = {
-				index = 149
+				index = 148
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era1_com_01
 				}
@@ -2480,7 +2488,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era1_low_nobility = {
-				index = 150
+				index = 149
 				male = {
 					1 = m_headgear_sec_ep3_byzantine_era1_nob_01
 				}
@@ -2492,7 +2500,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era1_high_nobility = {
-				index = 151
+				index = 150
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era1_hi_nob_01
 				}
@@ -2504,7 +2512,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era1_royalty = {
-				index = 152
+				index = 151
 				male = {
 					20 = m_headgear_sec_ep3_byzantine_era1_roy_01
 				}
@@ -2516,7 +2524,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era1_imperial = {
-				index = 153
+				index = 152
 				male = {
 					20 = m_headgear_sec_ep3_byzantine_era1_imp_01
 				}
@@ -2528,7 +2536,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era1_war_nobility = {
-				index = 154
+				index = 153
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era1_war_nob_01
 				}
@@ -2541,7 +2549,7 @@ special_genes = {
 			}	
 
 			ep3_byzantine_era2_low_nobility = {
-				index = 155
+				index = 154
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era2_nob_01
 					1 = m_headgear_sec_ep3_byzantine_era2_nob_02
@@ -2554,7 +2562,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era2_high_nobility = {
-				index = 156
+				index = 155
 				male = {
 					20 = m_headgear_sec_ep3_byzantine_era2_hi_nob_01
 				}
@@ -2566,7 +2574,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era2_war_nobility = {
-				index = 157
+				index = 156
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era2_war_nob_01
 				}
@@ -2578,7 +2586,7 @@ special_genes = {
 			}
 
 			ep3_byzantine_era2_imperial = {
-				index = 158
+				index = 157
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era2_imp_01
 				}
@@ -2590,7 +2598,7 @@ special_genes = {
 			}	
 
 			ep3_byzantine_era2_royalty = {
-				index = 159
+				index = 158
 				male = {
 				    1 = m_headgear_sec_ep3_byzantine_era2_roy_01
 				}
@@ -2600,6 +2608,86 @@ special_genes = {
 				boy = male
 				girl = female
 
+			}
+
+			## POL ##
+
+			pol_common = {
+				index = 159
+				male = {
+					1 = m_headgear_sec_pol_common_01
+					1 = m_headgear_sec_pol_common_02
+				}
+				female = {
+					1 = f_headgear_sec_pol_common_01
+					1 = f_headgear_sec_pol_common_02
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_low_nobility = {
+				index = 160
+				male = {
+					1 = m_headgear_sec_pol_low_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_low_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_high_nobility = {
+				index = 161
+				male = {
+					1 = m_headgear_sec_pol_high_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_high_nob_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_royalty = {
+				index = 162
+				male = {
+					1 = m_headgear_sec_pol_royalty_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_royalty_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_imperial = {
+				index = 163
+				male = {
+					1 = m_headgear_sec_pol_imperial_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_imperial_01
+				}
+				boy = male
+				girl = female
+			}
+
+			pol_war = {
+				index = 164
+				male = {
+					1 = m_headgear_sec_pol_era1_war_nob_01
+					1 = m_headgear_sec_pol_era3_war_nob_01
+					1 = m_headgear_sec_pol_era4_war_nob_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_era1_war_nob_01
+					1 = f_headgear_sec_pol_era3_war_nob_01
+					1 = f_headgear_sec_pol_era4_war_nob_01
+				}
+				boy = male
+				girl = female
 			}
 
 			
@@ -2816,6 +2904,7 @@ special_genes = {
 				girl = female
 
 			}
+		
 		}
 
 
@@ -2917,6 +3006,30 @@ special_genes = {
 					10 = f_headgear_sec_fp4_western_nob_01_lo
 				}
 
+				girl = female
+			}
+			
+			pol_crest = {
+				index = 7
+				male = {
+					1 = m_headgear_sec_pol_era3_war_crest_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_era3_war_crest_01
+				}
+				boy = male
+				girl = female
+			}
+			
+			pol_crown = {
+				index = 8
+				male = {
+					1 = m_headgear_sec_pol_era4_war_crown_01
+				}
+				female = {
+					1 = f_headgear_sec_pol_era4_war_crown_01
+				}
+				boy = male
 				girl = female
 			}
 

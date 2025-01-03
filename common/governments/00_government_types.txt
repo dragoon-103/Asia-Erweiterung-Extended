@@ -84,15 +84,9 @@ theocracy_government = {
 	}
 
 	can_get_government = {
-		NOT = {
-			OR = {
-				faith = {
-					has_doctrine = doctrine_theocracy_lay_clergy
-				}
-				faith = {
-					doctrine = special_doctrine_teachings_of_buddha # AEP added to exclude Shinto from being eligible
-				}
-			}
+		AND = {
+			NOT = { faith = { has_doctrine = doctrine_theocracy_lay_clergy } }
+			NOT = { faith = { has_doctrine = special_doctrine_teachings_of_buddha } }
 		}
 	}
 
