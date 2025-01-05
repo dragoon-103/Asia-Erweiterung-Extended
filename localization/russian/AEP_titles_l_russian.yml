@@ -142,7 +142,7 @@
  k_dachanghe: "Дачанхе" 
  k_lanxang: "Лангхан" 
  k_goryeo: "Корё" 
- k_guangxi: "Гуанси" 
+#[RM]  k_guangxi: "Гуанси" 
  k_jiangnanxi: "Цзяньнаньси" 
  k_jiangxi: "Цзянси" 
  k_hunan: "Хунань" 

@@ -63,9 +63,9 @@
  siraya_collective_noun:1 "시라야"
 
  #Kradai Group
- paiwanese:0 "파이완"
- paiwanese_prefix:0 "파이완계"
- paiwanese_collective_noun:1 "파이완"
+#[RM]  paiwanese:0 "파이완"
+#[RM]  paiwanese_prefix:0 "파이완계"
+#[RM]  paiwanese_collective_noun:1 "파이완"
  kradai_group:0 "크라다이"
  kradai_group_collective_noun:0 "크라다이"
  tai:0 "타이"

@@ -49,7 +49,7 @@
  e_maluku:0 "摩鹿加"
  e_panyupayana:0 "麻逸"
  e_amur:0 "黑龙"
- e_jurchen:0 "女真"
+#[RM]  e_jurchen:0 "女真"
  e_korea:0 "大韓"
  e_nippon:0 "大日本帝国"
  e_nippon_article:0 ""

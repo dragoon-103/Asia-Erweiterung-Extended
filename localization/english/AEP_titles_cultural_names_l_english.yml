@@ -194,7 +194,7 @@
  cn_d_kitaezo:0 "Kita Ezo"
  cn_d_minamiezo:0 "Minami Ezo"
  cn_d_higashiezo:0 "Higashi Ezo"
- cn_d_chishima:0 "Chishima"
+#[RM]  cn_d_chishima:0 "Chishima"
  cn_k_ryukyu:0 "Ryūkyū"
  cn_d_okinawa:0 "Okinawa"
  cn_c_hokuzan:0 "Hokuzan"

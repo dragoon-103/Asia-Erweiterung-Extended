@@ -194,7 +194,7 @@
  cn_d_kitaezo:0 "기타에조"
  cn_d_minamiezo:0 "미나미에조"
  cn_d_higashiezo:0 "히가시에조"
- cn_d_chishima:0 "지시마"
+#[RM]  cn_d_chishima:0 "지시마"
  cn_k_ryukyu:0 "류큐"
  cn_d_okinawa:0 "오키나와"
  cn_c_hokuzan:0 "호쿠잔"

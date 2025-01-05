@@ -25,13 +25,13 @@
  Bidam:0 "Bidam" #비담/非談
  Biryu2:0 "Biryu" #비류/沸流
  Biryu:0 "Biryu" #비류/比流
- Biryu:0 "Biryu" #비류/非流
+#[RM]  Biryu:0 "Biryu" #비류/非流
  Biyu:0 "Biyu" #비유/毗有
  Bo-yeon:0 "Bo-yeon" #보연/寶延
  Boban:0 "Boban" #보반/寶飯
  Bogo:0 "Bogo" #보고/普高
  Bojang:0 "Bojang" #보장/寶藏
- Bojang:0 "Bojang" #보장/普藏
+#[RM]  Bojang:0 "Bojang" #보장/普藏
  Bokho:0 "Bokho" #김복호/卜好
  Bokryeong:0 "Bokryeong" #복령/福靈
  Bom:0 "Bom" #봄/春
@@ -59,7 +59,7 @@
  Chimnyu:0 "Chimnyu" #침류/枕流
  Chisu:0 "Chisu" #치수/致秀
  Chogo:0 "Chogo" #초고/初高
- Chogo:0 "Chogo" #초고/肖古
+#[RM]  Chogo:0 "Chogo" #초고/肖古
  Chumo:0 "Chumo" #추모/鄒牟
  Chun-chu:0 "Chun-chu" #춘추/春秋
  Chunchu:0 "Chunchu" #춘추/春秋
@@ -75,7 +75,7 @@
  Damju:0 "Damju" #담주/潭柱
  Damyeong:0 "Damyeong" #다명/多鳴
  Daru:0 "Daru" #다루/多婁
- Daru:0 "Daru" #다루/多縷
+#[RM]  Daru:0 "Daru" #다루/多縷
  Deogheung:0 "Deogheung" #덕흥/德興
  Deokjong:0 "Deokjong" #덕종/德宗
  Deokman:0 "Deokman" #덕만/德曼
@@ -98,7 +98,7 @@
  Geon-mu:0 "Geon-mu" #건무/堅武
  Geon-un:0 "Geon-un" #왕건/王建
  Geon:0 "Geon" #건/健
- Geon:0 "Geon" #건운/乾運
+#[RM]  Geon:0 "Geon" #건운/乾運
  Geonhwang:0 "Geonhwang" #건황/虔晃
  Geonmu:0 "Geonmu" #건무/建武
  Georyeon:0 "Georyeon" #거련/巨連
@@ -109,7 +109,7 @@
  Geungusu:0 "Geungusu" #근구수/近仇首
  Gi2:0 "Gi" #기/璣
  Gi:0 "Gi" #기/基
- Gi:0 "Gi" #기/基
+#[RM]  Gi:0 "Gi" #기/基
  Girim:0 "Girim" #기림/基臨
  Giru:0 "Giru" #기루/己婁
  Go:0 "Go" #고/高
@@ -176,7 +176,7 @@
  Hira:0 "Hira" #히라/熙羅
  Hogong:0 "Hogong" #호공/好恭
  Hong:0 "Hong" #홍/洪
- Hong:0 "Hong" #홍/鴻
+#[RM]  Hong:0 "Hong" #홍/鴻
  Hongran:0 "Hongran" #홍란/紅蘭
  Hui2:0 "Hui" #희/熙
  Hui:0 "Hui" #희/僖
@@ -192,7 +192,7 @@
  Hyeokgeose:0 "Hyeokgeose" #혁거세/赫居世
  Hyeonbang:0 "Hyeonbang" #현방/賢方
  Hyeong:0 "Hyeong" #형/亨
- Hyeong:0 "Hyeong" #형/逈
+#[RM]  Hyeong:0 "Hyeong" #형/逈
  Hyeonjong:0 "Hyeonjong" #현종/顯宗
  Hyeonseok:0 "Hyeonseok" #현석/玄錫
  Hyobang:0 "Hyobang" #효방/孝芳
@@ -214,7 +214,7 @@
  Ingyeong:0 "Ingyeong" #인경/仁慶
  Injong:0 "Injong" # 인종/仁宗
  Inmun:0 "Inmun" #인문/仁問
- Inmun:0 "Inmun" #인문/仁文
+#[RM]  Inmun:0 "Inmun" #인문/仁文
  Inseon:0 "Inseon" #인선/諲譔
  Inyesundeok:0 "Inyesundeok" #인예순덕/仁睿順德
  Ipjong:0 "Ipjong" #입종/立宗
@@ -225,15 +225,15 @@
  Jaesa:0 "Jaesa" #/재사再思
  Jagyeon:0 "Jagyeon" #자견/自堅
  Jang:0 "Jang" #장/璋
- Jang:0 "Jang" #장/臧
+#[RM]  Jang:0 "Jang" #장/臧
  Janghwa:0 "Janghwa" #장화/章和
- Janghwa:0 "Janghwa" #장화/章華
+#[RM]  Janghwa:0 "Janghwa" #장화/章華
  Jangsu:0 "Jangsu" #장수/長壽
  Je-ryung:0 "Je-ryung" #제륭/悌隆
  Jeokgyeong:0 "Jeokgyeong" #적경/積慶
  Jeong-myeong:0 "Jeong-myeong" #정/定
  Jeong:0 "Jeong" #정/晸
- Jeong:0 "Jeong" #정명/政明
+#[RM]  Jeong:0 "Jeong" #정명/政明
  Jeonggan:0 "Jeonggan" #정간/靖簡
  Jeonggang:0 "Jeonggang" #정강/定康
  Jeonghwan:0 "Jeonghwan" #정환/貞環
@@ -253,7 +253,7 @@
  Jimong:0 "Jimong" #지몽/智夢
  Jin-Heung:0 "Jin-Heung" #진흥/振興
  Jin:0 "Jin" #진/振
- Jin:0 "Jin" #진/震
+#[RM]  Jin:0 "Jin" #진/震
  Jinam:0 "Jinam" #지남/知南
  Jindeok:0 "Jindeok" #진덕/眞德
  Jinheung:0 "Jinheung" #진흥/眞興
@@ -287,7 +287,7 @@
  Michu:0 "Michu" #미추/味鄒
  Miil:0 "Miil" #미일/美一
  Min:0 "Min" #민/岷
- Min:0 "Min" #민/民
+#[RM]  Min:0 "Min" #민/民
  Minae:0 "Minae" #민애/閔哀
  Mingong:0 "Mingong" #민공/敏恭
  Minjung:0 "Minjung" #민중/閔中
@@ -301,7 +301,7 @@
  Mosu:0 "Mosu" #모수/模守
  Moyong:0 "Moyong" #모용/模容
  Mu:0 "Mu" #무/武
- Mu:0 "Mu" #무/無
+#[RM]  Mu:0 "Mu" #무/無
  Muhyul:0 "Muhyul" #무휼/無恤
  Mun:0 "Mun" #문/文
  Mundeok:0 "Mundeok" #문덕/文德
@@ -312,14 +312,14 @@
  Munju:0 "Munju" #문주/文周
  Munmok:0 "Munmok" #문목/文穆
  Munmu:0 "Munmu" #문무/文武
- Munmu:0 "Munmu" #문무/文武
+#[RM]  Munmu:0 "Munmu" #문무/文武
  Munno:0 "Munno" #문노/文老
  Munseong2:0 "Munseong" #문성/文聖
  Munseong:0 "Munseong" #문성/文星
  Munui:0 "Munui" #문의/文懿
  Mureyong:0 "Mureyong" #무령/武寧
  Muyeol:0 "Muyeol" #무열/武烈
- Muyeol:0 "Muyeol" #무열/茂烈
+#[RM]  Muyeol:0 "Muyeol" #무열/茂烈
  Myeong-chung:0 "Myeong-chung" #명/明
  Myeong:0 "Myeong" #명충/明忠
  Myeongjong:0 "Myeongjong" #명종/明宗
@@ -340,7 +340,7 @@
  Ohno:0 "Ohno" #오노/五腦
  Ongmo:0 "Ongmo" #옥모/玉帽
  Onjo:0 "Onjo" #온조/溫照
- Onjo:0 "Onjo" #온조/溫祚
+#[RM]  Onjo:0 "Onjo" #온조/溫祚
  Pandeung:0 "Pandeung" #판득/判得
  Pasa:0 "Pasa" #파사/婆娑
  Pyeong-seong:0 "Pyeong-seong" #평성/平成
@@ -359,7 +359,7 @@
  Sansang:0 "Sansang" #산상/山上
  Saso:0 "Saso" #사소/四炤
  Sayu:0 "Sayu" #사유/思維
- Sayu:0 "Sayu" #사유/斯由
+#[RM]  Sayu:0 "Sayu" #사유/斯由
  Sejo:0 "Sejo" #세조/世祖
  Seo:0 "Seo" #서/瑞
  Seocheon:0 "Seocheon" #서천/西川
@@ -368,10 +368,10 @@
  Seolwon:0 "Seolwon" #설원/雪遠
  Seon:0 "Seon" #선/宣
  Seondeok:0 "Seondeok" #선덕/善德
- Seondeok:0 "Seondeok" #선덕/宣德
+#[RM]  Seondeok:0 "Seondeok" #선덕/宣德
  Seong2:0 "Seong" #성/聖
  Seong:0 "Seong" #성/城
- Seong:0 "Seong" #성/成
+#[RM]  Seong:0 "Seong" #성/成
  Seongbang:0 "Seongbang" #성방/聖邦
  Seongdeok:0 "Seongdeok" #성덕/聖德
  Seonghan:0 "Seonghan" #성한/星漢
@@ -475,12 +475,12 @@
  Yoon:0 "Yoon" #윤/潤
  Yu-shin:0 "Yu-shin" #유신/有信
  Yung:0 "Yung" #영/永
- Yung:0 "Yung" #융/隆
+#[RM]  Yung:0 "Yung" #융/隆
  Yungmo:0 "Yungmo" #영모/永模
  Yuri2:0 "Yuri" #유리/瑠璃
  Yuri:0 "Yuri" #유리/儒理
- Yuri:0 "Yuri" #유리/優利
- Yuri:0 "Yuri" #유리/由利
+#[RM]  Yuri:0 "Yuri" #유리/優利
+#[RM]  Yuri:0 "Yuri" #유리/由利
  Yurye:0 "Yurye" #유례/儒禮
  Yuryu:0 "Yuryu" #유류/儒留
  Yushin:0 "Yushin" #유신/有信

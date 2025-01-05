@@ -194,7 +194,7 @@
  cn_d_kitaezo: "Кита Эзо" 
  cn_d_minamiezo: "Минами Эзо" 
  cn_d_higashiezo: "Хигаси Эзо" 
- cn_d_chishima: "Тисима"
+#[RM]  cn_d_chishima: "Тисима"
  cn_k_ryukyu: "Рюкю" 
  cn_d_okinawa: "Окинава" 
  cn_c_hokuzan: "Хокудзан" 

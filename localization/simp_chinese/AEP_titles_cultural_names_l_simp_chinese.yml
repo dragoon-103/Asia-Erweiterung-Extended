@@ -194,7 +194,7 @@
  cn_d_kitaezo:0 "北蝦夷"
  cn_d_minamiezo:0 "南蝦夷"
  cn_d_higashiezo:0 "東蝦夷"
- cn_d_chishima:0 "千島"
+#[RM]  cn_d_chishima:0 "千島"
  cn_k_ryukyu:0 "琉球"
  cn_d_okinawa:0 "沖縄"
  cn_c_hokuzan:0 "北山"
