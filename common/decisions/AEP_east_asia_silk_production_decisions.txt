@@ -1,0 +1,140 @@
+﻿establish_east_asia_silk_production_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/ep3_decision_estate.dds"
+	}
+	sort_order = 120
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					is_chinese_emperor_trigger = yes
+					is_independent_ruler = yes
+				}
+				desc = establish_chinese_silk_production_decision_desc.emperor
+			}
+			triggered_desc = {
+				trigger = {
+					is_independent_ruler = yes
+				}
+				desc = establish_east_asia_silk_production_decision_desc.emperor
+			}
+			triggered_desc = {
+				trigger = {
+					is_independent_ruler = no
+					top_liege ?= { is_chinese_emperor_trigger = yes }
+				}
+
+				desc = establish_chinese_silk_production_decision_desc
+			}
+			desc = establish_east_asia_silk_production_decision_desc
+		}
+	}
+	selection_tooltip = establish_silk_production_decision_tooltip
+	decision_group_type = admin
+
+	is_shown = {
+		has_ep3_dlc_trigger = yes
+		government_allows = administrative
+		OR = {
+			this = house.house_head
+			AND = {
+				is_ai = no
+				house.house_head = top_liege
+			}
+		}
+		domicile ?= {
+			is_domicile_type = estate
+		}
+		top_liege ?= {
+			OR = {
+				# Generally East/Southeast Asia. Technically, all of India and parts of Central Asia had the knowledge too,
+				#   but that falls under the vanilla map and Paradox (presumably) has a reason for not including them.
+				has_title = title:e_korea
+				has_title = title:e_nippon
+				has_title = title:e_suvarnabhumi
+				has_title = title:e_nanzhong
+				has_title = title:e_bengal
+				has_title = title:e_tibet
+
+				# Because who actually knows what the title for that is?
+				is_chinese_emperor_trigger = yes
+			}
+		}
+		NOT = {
+			house = {
+				has_house_modifier = ep3_unlocked_silk
+			}
+		}
+	}
+
+	is_valid = {
+		trigger_if = {
+			limit = { is_independent_ruler = yes }
+			is_chinese_emperor_trigger = yes
+			OR = {
+				has_realm_law = imperial_bureaucracy_2
+				has_realm_law = imperial_bureaucracy_3
+			}
+		}
+		trigger_else = {
+			influence_level >= 3
+			OR = {
+				has_weak_hook = top_liege
+				has_strong_usable_hook = top_liege
+				AND = {
+					exists = house
+					top_liege.house ?= house
+				}
+			}
+		}
+	}
+
+	cost = {
+		# Initial is massive * 2; we use major here to model the fact that silk is much more readily available in the region.
+		gold = {
+			value = major_gold_value
+		}
+	}
+
+	effect = {
+		custom_tooltip = {
+			text = unlocked_estate_silk_buildings
+			house = { add_house_modifier = ep3_unlocked_silk }
+		}
+		send_interface_toast = {
+			type = msg_domicile_building_unlocked
+			title = unlocked_estate_silk_buildings_t
+		}
+		if = {
+			limit = {
+				is_independent_ruler = no
+				NOT = {
+					exists = house
+					top_liege.house ?= house
+				}
+			}
+			use_hook = top_liege
+		}
+	}
+
+	ai_potential = {
+		domicile ?= {
+			is_domicile_type = estate
+		}
+	}
+
+	ai_check_interval = 120
+
+	ai_will_do = {
+		base = 60
+		modifier = {
+			has_trait = arrogant
+			add = 15
+		}
+		modifier = {
+			has_trait = ambitious
+			add = 25
+		}
+	}
+}

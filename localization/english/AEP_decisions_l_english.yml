@@ -1,0 +1,12 @@
+﻿l_english: 
+ establish_east_asia_silk_production_decision: "Establish Silk Production"
+
+ # China flavor
+ establish_chinese_silk_production_decision_desc.boilerplate: "Since time immemorial, our people have been the world's greatest silkworm cultivators. Even so, the imperial court has much to gain from limiting the manufacture and sale of silk."
+ establish_chinese_silk_production_decision_desc.emperor: "$establish_chinese_silk_production_decision_desc.boilerplate$\n\nAs the head of the imperial family, I can grant myself and my successors the privilege of its manufacture with but a wave of the hand."
+ establish_chinese_silk_production_decision_desc: "$establish_chinese_silk_production_decision_desc.boilerplate$\n\nIt would be an expensive venture, but we could buy an imperial dispensation to be allowed to establish our own silk production in our family Estate."
+ 
+ # Generic East-ish Asian
+ establish_east_asia_silk_production_decision_desc.boilerplate: "Since the introduction of the first silkworms from China, silk manufacture and sale have always been tightly regulated."
+ establish_east_asia_silk_production_decision_desc.emperor: "$establish_east_asia_silk_production_decision_desc.boilerplate$\n\nAs the head of the imperial family, I can grant myself and my successors the privilege of its manufacture with but a wave of the hand."
+ establish_east_asia_silk_production_decision_desc: "$establish_east_asia_silk_production_decision_desc.boilerplate$\n\nIt would be an expensive venture, but we could buy an imperial dispensation to be allowed to establish our own silk production in our family Estate."
