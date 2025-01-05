@@ -11,16 +11,17 @@ aep_catalyst_events.0001 = {
 					involvement = involved
 					phase_has_catalyst = catalyst_major_natural_disaster
 				}
-				NOT = {
-					has_global_variable = recent_major_natural_disaster
-				}
 			}
 			
-			activate_struggle_catalyst = catalyst_major_natural_disaster
-			set_global_variable = {
-				name = recent_major_natural_disaster
-				value = yes
-				months = 6
+			every_character_struggle = {
+				involvement = involved
+				limit = {
+					phase_has_catalyst = catalyst_major_natural_disaster
+				}
+				activate_struggle_catalyst = {
+					catalyst = catalyst_major_natural_disaster
+					character = root
+				}
 			}
 		}
 	}
@@ -37,16 +38,17 @@ aep_catalyst_events.0002 = {
 					involvement = involved
 					phase_has_catalyst = catalyst_apocalyptic_natural_disaster
 				}
-				NOT = {
-					has_global_variable = recent_apocalyptic_natural_disaster
-				}
 			}
 			
-			activate_struggle_catalyst = catalyst_apocalyptic_natural_disaster
-			set_global_variable = {
-				name = recent_apocalyptic_natural_disaster
-				value = yes
-				months = 12
+			every_character_struggle = {
+				involvement = involved
+				limit = {
+					phase_has_catalyst = catalyst_apocalyptic_natural_disaster
+				}
+				activate_struggle_catalyst = {
+					catalyst = catalyst_apocalyptic_natural_disaster
+					character = root
+				}
 			}
 		}
 	}

@@ -17,3 +17,11 @@ aep_china_conqueror = {
 	opinion_of_different_faith = 15
 	opinion_of_different_culture = 15
 }
+
+aep_legitimate_dynasty = {
+	icon = prestige_positive
+
+	monthly_prestige_gain_mult = 0.2
+	direct_vassal_opinion = 15
+	vassal_tax_mult = 0.05
+}

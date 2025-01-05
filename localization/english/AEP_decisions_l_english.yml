@@ -10,3 +10,17 @@
  establish_east_asia_silk_production_decision_desc.boilerplate: "Since the introduction of the first silkworms from China, silk manufacture and sale have always been tightly regulated."
  establish_east_asia_silk_production_decision_desc.emperor: "$establish_east_asia_silk_production_decision_desc.boilerplate$\n\nAs the head of the imperial family, I can grant myself and my successors the privilege of its manufacture with but a wave of the hand."
  establish_east_asia_silk_production_decision_desc: "$establish_east_asia_silk_production_decision_desc.boilerplate$\n\nIt would be an expensive venture, but we could buy an imperial dispensation to be allowed to establish our own silk production in our family Estate."
+
+ # Struggle decisions
+ mandate_of_heaven_chinese_ending_decision:0 "Chinese Unity" # Unite China as a Chinese character
+ mandate_of_heaven_chinese_ending_decision_desc:0 "The unification of China has come at last. The Mandate of Heaven belongs to [ROOT.Char.GetHouse.GetName]!"
+ mandate_of_heaven_chinese_ending_decision_tooltip:0 "Claim the Mandate"
+ mandate_of_heaven_chinese_ending_decision_confirm:0 "Claim the Mandate"
+
+ mandate_of_heaven_barbarian_ending_decision:0 "$mandate_of_heaven_chinese_ending_decision$" # Unite China as a non-Chinese character
+ mandate_of_heaven_barbarian_ending_decision_desc:0 "The throme of China belongs not to the Han, but to the [ROOT.Char.GetCulture.GetName]!"
+ mandate_of_heaven_barbarian_ending_decision_tooltip:0 "$mandate_of_heaven_chinese_ending_decision_tooltip$"
+ mandate_of_heaven_barbarian_ending_decision_confirm:0 "$mandate_of_heaven_chinese_ending_decision_confirm$"
+
+ mandate_of_heaven_struggle_form_china_title_tt:0 "The dynasty begins..."
+ 

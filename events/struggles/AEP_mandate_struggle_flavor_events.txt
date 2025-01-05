@@ -1,5 +1,5 @@
 ﻿namespace = aep_mandate_struggle
 
 # Flavor Events start at 2000
-aep_mandate_struggle.2000 = {
-}
+#aep_mandate_struggle.2000 = {
+#}

@@ -60,7 +60,8 @@ mandate_of_heaven_chinese_ending_decision = {
 		prestige_level >= high_prestige_level
 
 		# Positive vassal opinion
-		every_powerful_vassal = {
+		any_powerful_vassal = {
+			count = all
 			opinion = {
 				target = root
 				value >= 0
@@ -79,20 +80,23 @@ mandate_of_heaven_chinese_ending_decision = {
 		
 		##### Major Effects #####
 		add_prestige = 20000
-		dynasty = { add_dynasty_prestige = 10000 }
+		dynasty = {
+			add_dynasty_prestige = 10000
+
+			add_dynasty_modifier = {
+				modifier = aep_legitimate_dynasty
+				years = 100
+			}
+		}
 
 		add_character_modifier = {
 			modifier = aep_china_reunifier
 		}
 
-		add_dynasty_modifier = {
-			modifier = aep_legitimate_dynasty
-			years = 100
+		custom_tooltip = {
+			text = mandate_of_heaven_struggle_form_china_title_tt
+			trigger_event = aep_mandate_struggle.0200
 		}
-
-		custom_tooltip = mandate_of_heaven_struggle_form_china_title_tt
-
-		trigger_event = aep_mandate_struggle.0200
 	}
 
 	cost = {}
@@ -166,7 +170,8 @@ mandate_of_heaven_barbarian_ending_decision = {
 		prestige_level >= high_prestige_level
 
 		# Positive vassal opinion
-		every_powerful_vassal = {
+		any_powerful_vassal = {
+			count = all
 			opinion = {
 				target = root
 				value >= 0
@@ -185,20 +190,24 @@ mandate_of_heaven_barbarian_ending_decision = {
 		
 		##### Major Effects #####
 		add_prestige = 20000
-		dynasty = { add_dynasty_prestige = 10000 }
+		dynasty = {
+			add_dynasty_prestige = 10000
+			
+			add_dynasty_modifier = {
+				modifier = aep_legitimate_dynasty
+				years = 100
+			}
+		}
 
 		add_character_modifier = {
 			modifier = aep_china_conqueror
 		}
 
-		add_dynasty_modifier = {
-			modifier = aep_legitimate_dynasty
-			years = 100
+		custom_tooltip = {
+			text = mandate_of_heaven_struggle_form_china_title_tt
+			trigger_event = aep_mandate_struggle.0200
 		}
 
-		custom_tooltip = mandate_of_heaven_struggle_form_china_title_tt
-
-		trigger_event = aep_mandate_struggle.0200
 	}
 
 	cost = {}

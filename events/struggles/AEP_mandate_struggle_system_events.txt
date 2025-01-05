@@ -279,7 +279,7 @@ aep_mandate_struggle.0200 = {
 
 		# Keep Current
 
-		ai_weight = {
+		ai_chance = {
 			base = 1
 		}
 	}
@@ -294,7 +294,7 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		ai_weight = {
+		ai_chance = {
 			base = 1
 			modifier = {
 				factor = 10
@@ -324,7 +324,7 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		ai_weight = {
+		ai_chance = {
 			base = 1
 			modifier = {
 				factor = 10
@@ -355,7 +355,7 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		ai_weight = {
+		ai_chance = {
 			base = 10
 			modifier = {
 				factor = 10
@@ -381,7 +381,7 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		ai_weight = {
+		ai_chance = {
 			base = 1
 			modifier = {
 				factor = 10
@@ -502,7 +502,7 @@ aep_mandate_struggle.0200 = {
 			add_to_list = players_to_notify
 		}
 
-		struggle:mandate_of_heaven_struggle = { end_struggle = mandate_of_heaven_chinese_ending_decision }
+		struggle:mandate_of_heaven_struggle = { end_struggle = yes }
 
 		every_in_list = {
 			list = players_to_notify
@@ -713,7 +713,7 @@ aep_mandate_struggle.0301 = {
 				exists = dynasty
 				exists = scope:china_emperor_scope.dynasty
 				dynasty = scope:china_emperor_scope.dynasty
-				multiply = 2
+				factor = 2
 			}
 
 			# If same house, more likely to stay
@@ -721,13 +721,13 @@ aep_mandate_struggle.0301 = {
 				exists = house
 				exists = scope:china_emperor_scope.house
 				house = scope:china_emperor_scope.house
-				multiply = 2
+				factor = 2
 			}
 
 			# If has alliance, much more unlikely to leave
 			modifier = {
 				is_allied_to = scope:china_emperor_scope
-				multiply = 5
+				factor = 5
 			}
 
 			ai_value_modifier = {

@@ -1,22 +1,22 @@
 ﻿l_english:
 
  struggle_mandate_of_heaven:0 "Struggle for China" #texts WIP
- struggle_mandate_of_heaven_desc:1 "The Mandate of Heaven is represented by a struggle describing the reign and dissolution of a ruling dynasty.."
+ struggle_mandate_of_heaven_desc:1 "The Mandate of Heaven is represented by a struggle describing the reign and dissolution of a ruling dynasty."
 
  struggle_mandate_of_heaven_phase_mandated_by_heaven:0 "Mandated by Heaven"
- struggle_mandate_of_heaven_phase_mandated_by_heaven_desc:0 "..."
+ struggle_mandate_of_heaven_phase_mandated_by_heaven_desc:0 "China is united under a righteous emperor."
 
  struggle_mandate_of_heaven_phase_precious_harmony:0 "Precious Harmony"
- struggle_mandate_of_heaven_phase_precious_harmony_desc:0 "."
+ struggle_mandate_of_heaven_phase_precious_harmony_desc:0 "China rests in relative peace."
 
  struggle_mandate_of_heaven_phase_wind_and_rain:0 "Wind And Rain"
- struggle_mandate_of_heaven_phase_wind_and_rain_desc:0 ",."
+ struggle_mandate_of_heaven_phase_wind_and_rain_desc:0 "The people feel restless, and the great figures of the land are in turmoil."
 
  struggle_mandate_of_heaven_phase_weapons_drawn:0 "Weapons Drawn"
- struggle_mandate_of_heaven_phase_weapons_drawn_desc:0 "."
+ struggle_mandate_of_heaven_phase_weapons_drawn_desc:0 "Open conflict has broken out across the land."
 
  struggle_mandate_of_heaven_phase_shared_defiance:0 "Shared Defiance"
- struggle_mandate_of_heaven_phase_shared_defiance_desc:0 ","
+ struggle_mandate_of_heaven_phase_shared_defiance_desc:0 "The imminent threat of invasion has temporarily united the people."
 
   ##################################################
   # Catalysts

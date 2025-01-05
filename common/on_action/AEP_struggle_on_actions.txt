@@ -15,36 +15,37 @@ aep_struggle_on_title_gain = {
 					scope:transfer_type = flag:created
 					scope:transfer_type = flag:inheritance
 				}
-                save_temporary_scope_as = new_holder
-                
-				scope:previous_holder ?= {
-                    # Go through all the struggles of the previous holder
-					every_character_struggle = {
-                        involvement = involved
-                        save_temporary_scope_as = temp_struggle
-                        limit = {
-                            # If the struggle cares about interlopers/uninvolved gaining titles...
-						    phase_has_catalyst = catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic
+			}
 
-                            # And the new holder is not involved in the struggle...
-                            NOT = {
-                                scope:new_holder = {
-                                    any_character_struggle = {
-                                        involvement = involved
-                                        this = scope:temp_struggle
-                                    }
+            save_temporary_scope_as = new_holder
+
+            scope:previous_holder = {
+                # Go through all the struggles of the previous holder
+                every_character_struggle = {
+                    involvement = involved
+                    save_temporary_scope_as = temp_struggle
+                    limit = {
+                        # If the struggle cares about interlopers/uninvolved gaining titles...
+                        phase_has_catalyst = catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic
+
+                        # And the new holder is not involved in the struggle...
+                        NOT = {
+                            scope:new_holder = {
+                                any_character_struggle = {
+                                    involvement = involved
+                                    this = scope:temp_struggle
                                 }
                             }
                         }
-                        
-                        # ...then activate the catalyst for the previous holder.
-                        activate_struggle_catalyst = {
-                            catalyst = catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic
-                            character = scope:previous_holder
-                        }
-					}
-				}
-			}
+                    }
+                    
+                    # ...then activate the catalyst for the previous holder.
+                    activate_struggle_catalyst = {
+                        catalyst = catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic
+                        character = scope:previous_holder
+                    }
+                }
+            }
 		}
     }
 }

@@ -62,11 +62,12 @@
 				chinese_emperor_exists_trigger = yes
 			}
 
-			# Event for splitting off vassals
-			trigger_event = aep_mandate_struggle.0300
 
 			title:d_heluo.holder.top_liege = {
 				add_legitimacy = -1000
+				
+				# Event for splitting off vassals
+				trigger_event = aep_mandate_struggle.0300
 			}
 		}
 
@@ -124,16 +125,16 @@
 					unlocks_enforce_truces_interaction = yes
 				}
 
-				involved_character_modifier = {
-					ai_war_chance = -0.5
-				}
-
 				interloper_parameters = {
 					truces_by_involved_or_interlopers_within_region_longer = yes
 				}
 
 				uninvolved_parameters = {
 					claims_in_region_more_expensive_to_press_for_uninvolved = yes
+				}
+
+				involved_character_modifier = {
+					ai_war_chance = -5
 				}
 			}
 
@@ -157,10 +158,6 @@
 			other_effects = {
 				name = OTHER_EFFECTS_NAME
 
-				all_county_modifier = {
-					travel_danger = -5
-				}
-
 				involved_character_modifier = {
 					enemy_hostile_scheme_success_chance_add = -10
 					county_opinion_add = 10
@@ -171,15 +168,16 @@
 					monthly_county_control_growth_factor = 0.1
 					build_speed = 0.2
 					garrison_size = -0.1
+					travel_danger = -5
+				}
+
+				uninvolved_county_modifier = {
+					monthly_county_control_growth_factor = -0.25
 				}
 
 				uninvolved_character_modifier = {
 					county_opinion_add = -10
 					tax_mult = -0.25
-				}
-
-				uninvolved_county_modifier = {
-					monthly_county_control_growth_factor = -0.25
 				}
 			}
 		}
@@ -196,7 +194,6 @@
 				struggle_mandate_of_heaven_phase_wind_and_rain = {
 					catalysts = {
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
-						catalyst_usurp_title = medium_struggle_catalyst_gain
 						catalyst_fabricating_duchy_level_claims = medium_struggle_catalyst_gain
 						catalyst_reveal_secret_important = minor_struggle_catalyst_gain
 						catalyst_becomes_rival_with_involved = medium_struggle_catalyst_gain
@@ -211,11 +208,6 @@
 						catalyst_minor_barbarian_control = medium_struggle_catalyst_over_time_gain
 						catalyst_major_barbarian_control = medium_struggle_catalyst_over_time_gain
 					}
-				}
-				
-				ending_decisions = {
-					mandate_of_heaven_chinese_ending_decision
-					mandate_of_heaven_barbarian_ending_decision
 				}
 			}
 
@@ -296,11 +288,15 @@
 					monthly_county_control_growth_factor = -0.25
 				}
 			}
+			
+			ending_decisions = {
+				mandate_of_heaven_chinese_ending_decision
+				mandate_of_heaven_barbarian_ending_decision
+			}
 		}
 
 		struggle_mandate_of_heaven_phase_wind_and_rain = {
 			future_phases = {
-
 				struggle_mandate_of_heaven_phase_precious_harmony = {
 					catalysts = {
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
@@ -322,7 +318,6 @@
 						catalyst_win_any_war_within_the_region = major_struggle_catalyst_gain
 						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
-						catalyst_usurp_title = major_struggle_catalyst_gain
 						catalyst_fabricating_duchy_level_claims = major_struggle_catalyst_gain
 						catalyst_reveal_secret_important = minor_struggle_catalyst_gain
 						catalyst_becomes_rival_with_involved = medium_struggle_catalyst_gain
@@ -414,6 +409,11 @@
 				involved_character_modifier = {
 					owned_hostile_scheme_success_chance_add = 20
 				}
+			}
+				
+			ending_decisions = {
+				mandate_of_heaven_chinese_ending_decision
+				mandate_of_heaven_barbarian_ending_decision
 			}
 		}
 
@@ -548,17 +548,20 @@
 					hostile_scheme_phase_duration_add = -10
 				}
 			}
+			
+			ending_decisions = {
+				mandate_of_heaven_chinese_ending_decision
+				mandate_of_heaven_barbarian_ending_decision
+			}
 		}
 
 		struggle_mandate_of_heaven_phase_shared_defiance = {
-			duration = {
-				points = 1000 # Do we want a shorter phase here?
-			}
-
 			future_phases = {
-				catalysts = {
-					catalyst_not_minor_barbarian_control = major_struggle_catalyst_over_time_gain
-					catalyst_not_major_barbarian_control = minor_struggle_catalyst_over_time_gain
+				struggle_mandate_of_heaven_phase_precious_harmony = {
+					catalysts = {
+						catalyst_not_minor_barbarian_control = major_struggle_catalyst_over_time_gain
+						catalyst_not_major_barbarian_control = minor_struggle_catalyst_over_time_gain
+					}
 				}
 			}
 
@@ -676,6 +679,7 @@
 			}
 
 			ending_decisions = {
+				mandate_of_heaven_chinese_ending_decision
 				mandate_of_heaven_barbarian_ending_decision
 			}
 		}
