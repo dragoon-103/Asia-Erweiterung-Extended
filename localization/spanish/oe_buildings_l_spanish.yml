@@ -252,10 +252,10 @@
  building_yankuang_1:1 "Mine de Sel"   
  building_yankuang_1_desc:1 "On y trouve un grand nombre de mines de sel et d'étangs. Bien que le rendement ne soit pas aussi bon que celui des zones côtières, le transport du sel côtier vers les villes de l'intérieur nécessite beaucoup de fret et le sel produit ici est non seulement de haute qualité, mais aussi bon marché."
 
- building_type_yankuang_1:0 "Mine de Sel"
+#[RM]  building_type_yankuang_1:0 "Mine de Sel"
  building_type_yankuang_1_desc:0 "Il y a d'abondants dépôts de sel ici. S'il peut être exploité, il soutiendra grandement votre économie et votre armée."
- building_yankuang_1:0 "Champ de Sel"
- building_yankuang_1_desc:0 "Le sel de surface est très facile à exploiter et est également propice au raffinage."
+#[RM]  building_yankuang_1:0 "Champ de Sel"
+#[RM]  building_yankuang_1_desc:0 "Le sel de surface est très facile à exploiter et est également propice au raffinage."
  building_yankuang_2:0 "Puits de Sel"
  building_yankuang_2_desc:1 "Il faut obtenir davantage de sel gemme sous terre en creusant un puits. C'est un processus difficile, mais indispensable."
  building_yankuang_3:0 "Saltern"

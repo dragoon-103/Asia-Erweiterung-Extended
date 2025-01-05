@@ -689,7 +689,7 @@
   
    # Princes (children of Kings/Emperors) 
  prince_male_bisaya: "Анак санг Раджах" 
- prince_female_tagalog: "Анак санг Раджах" 
+#[RM]  prince_female_tagalog: "Анак санг Раджах" 
  ## Idaya ## 
   
    # Rulers 

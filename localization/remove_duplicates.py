@@ -22,8 +22,8 @@ for file_path in file_paths:
         seen = set()
         with open(file_path, "w", encoding="utf-8") as f:
             for line in lines:
-                # Remove everything after first '#' character and then strip
-                stripped_line = line.split("#")[0].strip()
+                # Remove everything after first '#' character, then the first ":", and then strip
+                stripped_line = line.split("#")[0].split(":")[0].strip()
                 if stripped_line not in seen or (line.startswith("#[RM]") or line.startswith("#") or stripped_line == ""):
                     seen.add(stripped_line)
                     f.write(line)

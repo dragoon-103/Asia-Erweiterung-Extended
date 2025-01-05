@@ -295,8 +295,8 @@
   
  kaumaram_high_god_name: "Муруган" 
  kaumaram_high_god_name_possessive: "Муруган" 
- kaumaram_high_god_name: "Кумара" 
- kaumaram_high_god_name_possessive: "Кумара" 
+#[RM]  kaumaram_high_god_name: "Кумара" 
+#[RM]  kaumaram_high_god_name_possessive: "Кумара" 
   
  kaumaram_health_god_name: "Вайдьянатха" 
  kaumaram_health_god_name_possessive: "Вайдьянатха" 

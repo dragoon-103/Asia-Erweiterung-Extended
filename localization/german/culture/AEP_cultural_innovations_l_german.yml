@@ -33,7 +33,7 @@
  innovation_battleships_desc:0 "Entwickelt aus alten Kriegsschiffen, die außen mit Rindsleder und hohen Türmen auf dem Deck geschützt waren, waren diese Kriegsschiffe so groß, dass Soldaten darauf laufen und sogar auf einem Pferd reiten konnten."
  
  innovation_outrigger_boats:0 "Kanu"
- innovation_battleships_desc:0 "Wenn die Straße nicht gut genug ist, nutzen wir eben das Meer."
+#[RM]  innovation_battleships_desc:0 "Wenn die Straße nicht gut genug ist, nutzen wir eben das Meer."
 
  innovation_horse_archery:0 "Berittene Bogen Samurai"
  innovation_horse_archery_desc:0 "Japanische Bögen stammen aus prähistorischer Zeit der Jōmon-Zeit. Der lange, einzigartige asymmetrische Bogenstil mit dem Griff unterhalb der Mitte entstand in der Yayoi-Kultur. Bögen wurden zum Symbol für Autorität und Macht. Der legendäre erste Kaiser Japans, Kaiser Jimmu , wird immer mit einem Bogen dargestellt. Einige Emishi- Stämme, darunter der Hitakami-Stamm, praktizieren das Bogenschießen und wurden vom Yamato-Hof bemerkt und gefürchtet. Die ersten großen Versuche, die Emishi im 8. Jahrhundert zu unterwerfen, blieben weitgehend erfolglos. Die kaiserlichen Armeen, die den chinesischen Festlandarmeen nachempfunden waren, erwiesen sich angesichts der Guerilla-Taktik der Emishi als erfolglos. Nach der Einführung und Entwicklung des berittenen Bogenschießens und der von den Emishi verwendeten Guerilla-Taktiken durch die kaiserlichen Streitkräfte sah die Armee bald Erfolg, was schließlich zur Niederlage der Emishi führte.."
@@ -44,7 +44,7 @@
  mountain_pattern_armour:0 "Bergmusterrüstung"
  mountain_pattern_armour_desc:0 "Am Ende des 8. Jahrhunderts änderte sich die Doktrin der chinesischen kaiserlichen Armee von einer auf Kavallerie ausgerichteten zu einer auf Infanterie ausgerichteten Doktrin. Das Ineinandergreifen kleiner Eisen- und Stahlstücke auf Lederrücken ermöglichte es dem Han, eine flexible und bequeme, aber dennoch stark schützende Rüstung zu schaffen. Diese Rüstung ermöglichte es dem Han-Soldat, sowohl Kavallerie- als auch Bogenschützenangriffen zu widerstehen und gleichzeitig effektiv gegen Infanterie zu bleiben."
  
- innovation_outrigger_boats:1 "Tangon"
+#[RM]  innovation_outrigger_boats:1 "Tangon"
  innovation_outrigger_boats_desc:1 "Unsere Boote sind mit Stabilisatoren ausgestattet, die es ihnen ermöglichen, in rauen Gewässern stabil zu bleiben. Dies ermöglicht es uns, Ozeane mit Leichtigkeit zu überqueren und dabei schnell und wendig zu bleiben."
  innovation_indian_primogeniture:1 "Untrennbares Erbe"
  innovation_indian_primogeniture_desc:1 "Primogenitur ist seit jeher das Gesetz des Landes in Indien. Die Verantwortung des Königreichs geht wie die der Familie vom Vater auf den ältesten Sohn über, ohne sie zu teilen."

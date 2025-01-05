@@ -309,8 +309,8 @@
 
  kaumaram_high_god_name:0 "Murugan"
  kaumaram_high_god_name_possessive:0 "Murugan's"
- kaumaram_high_god_name:0 "Kumara"
- kaumaram_high_god_name_possessive:0 "Kumara's"
+#[RM]  kaumaram_high_god_name:0 "Kumara"
+#[RM]  kaumaram_high_god_name_possessive:0 "Kumara's"
 
  kaumaram_health_god_name:0 "Vaidyanatha"
  kaumaram_health_god_name_possessive:0 "Vaidyanatha's"
