@@ -16,3 +16,5 @@ catalyst_emperor_unification = {} # Requirement for current emperor unification 
 catalyst_emperor_indebted = {} # Emperor is in debt
 catalyst_emperor_low_legitimacy = {} # Emperor has low legitimacy
 catalyst_emperor_unstable_death = {} # Either unnatural death or death when feudal with multi-heir inheritance
+
+catalyst_aep_debug = {} # Debugging catalyst

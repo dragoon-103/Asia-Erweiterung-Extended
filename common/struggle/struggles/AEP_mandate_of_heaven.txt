@@ -59,14 +59,11 @@
 		if = {
 			# If Emperor of China exists, blow up the title!
 			limit = {
-				is_struggle_phase = struggle_mandate_of_heaven_phase_wind_and_rain
-				chinese_emperor_exists_trigger = yes
+				is_struggle_phase = struggle_mandate_of_heaven_phase_mandated_by_heaven
+				#chinese_emperor_exists_trigger = yes
 			}
 
-
 			title:d_heluo.holder.top_liege = {
-				add_legitimacy = -1000
-				
 				# Event for splitting off vassals
 				trigger_event = aep_mandate_struggle.0300
 			}
@@ -109,8 +106,9 @@
 						catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic = medium_struggle_catalyst_gain
 						catalyst_major_natural_disaster = major_struggle_catalyst_gain
 						catalyst_apocalyptic_natural_disaster = massive_struggle_catalyst_gain
-						catalyst_emperor_indebted = medium_struggle_catalyst_over_time_gain
-						catalyst_emperor_low_legitimacy = medium_struggle_catalyst_over_time_gain
+						catalyst_emperor_indebted = major_struggle_catalyst_over_time_gain
+						catalyst_emperor_low_legitimacy = major_struggle_catalyst_over_time_gain
+						catalyst_aep_debug = 1000
 					}
 				}
 
@@ -180,6 +178,11 @@
 					monthly_county_control_growth_factor = -0.25
 				}
 			}
+			
+			ending_decisions = {
+				mandate_of_heaven_chinese_ending_decision
+				mandate_of_heaven_barbarian_ending_decision
+			}
 		}
 
 		struggle_mandate_of_heaven_phase_precious_harmony = {
@@ -188,6 +191,7 @@
 					catalysts = {
 						catalyst_not_minor_barbarian_control = minor_struggle_catalyst_over_time_gain
 						catalyst_emperor_unification = minor_struggle_catalyst_over_time_gain
+						catalyst_aep_debug = 1000
 					}
 				}
 
@@ -211,85 +215,83 @@
 				}
 			}
 
+			war_effects = {
+				name = WAR_EFFECTS_NAME
 
+				involved_parameters = {
+					truces_by_involved_or_interlopers_within_region_longer = yes
+					struggle_cheaper_buy_truce = yes
+					apply_truce_when_sending_ward = yes
 
-#			war_effects = {
-#				name = WAR_EFFECTS_NAME
-#
-#				involved_parameters = {
-#					truces_by_involved_or_interlopers_within_region_longer = yes
-#					struggle_cheaper_buy_truce = yes
-#					apply_truce_when_sending_ward = yes
-#
-#					white_peace_acceptance_between_involved_or_interloper_with_region_easier = yes
-#					struggle_cb_cost_major = yes
-#					invasion_conquest_war_cannot_be_declared = yes
-#					unlocks_contract_assistance_interaction = yes
-#					unlocks_bargain_fealty_interaction = yes
-#					unlocks_enforce_truces_interaction = yes
-#				}
-#
-#				involved_character_modifier = {
-#					ai_war_chance = -0.25
-#					garrison_size = 0.2
-#				}
-#
-#				interloper_parameters = {
-#					truces_by_involved_or_interlopers_within_region_longer = yes
-#					white_peace_acceptance_between_involved_or_interloper_with_region_easier = yes
-#				}
-#
-#				uninvolved_parameters = {
-#					claims_in_region_more_expensive_to_press_for_uninvolved = yes
-#				}
-#			}
-#
-#			faith_effects = {
-#				name = FAITH_EFFECTS_NAME
-#
-#				common_parameters = {
-#					cheaper_to_convert_to_struggle_faith = yes
-#				}
-#			}
-#
-#			culture_effects = {
-#				name = CULTURE_EFFECTS_NAME
-#
-#				common_parameters = {
-#					cheaper_to_convert_to_struggle_culture = yes
-#				}
-#
-#				involved_parameters = {
-#					gain_acceptance_when_developing_other_culture_county = yes
-#				}
-#			
-#				involved_character_modifier = {
-#					cultural_head_acceptance_gain_mult = 0.2
-#					owned_personal_scheme_success_chance_add = 20
-#				}
-#			}
-#
-#			other_effects = {
-#				name = OTHER_EFFECTS_NAME
-#
-#				involved_parameters = {
-#					unlocks_truce_purchasing_interaction = yes
-#				}
-#				
-#				involved_character_modifier = {
-#					enemy_hostile_scheme_success_chance_add = -10
-#					county_opinion_add = 10
-#					tax_mult = 0.1
-#				}
-#
-#				involved_county_modifier = {
-#					monthly_county_control_growth_factor = 0.1
-#				}
-#
-#				uninvolved_county_modifier = {
-#					monthly_county_control_growth_factor = -0.25
-#				}
-#			}
+					white_peace_acceptance_between_involved_or_interloper_with_region_easier = yes
+					struggle_cb_cost_major = yes
+					invasion_conquest_war_cannot_be_declared = yes
+					unlocks_contract_assistance_interaction = yes
+					unlocks_bargain_fealty_interaction = yes
+					unlocks_enforce_truces_interaction = yes
+				}
+
+				involved_character_modifier = {
+					ai_war_chance = -0.25
+					garrison_size = 0.2
+				}
+
+				interloper_parameters = {
+					truces_by_involved_or_interlopers_within_region_longer = yes
+					white_peace_acceptance_between_involved_or_interloper_with_region_easier = yes
+				}
+
+				uninvolved_parameters = {
+					claims_in_region_more_expensive_to_press_for_uninvolved = yes
+				}
+			}
+
+			faith_effects = {
+				name = FAITH_EFFECTS_NAME
+
+				common_parameters = {
+					cheaper_to_convert_to_struggle_faith = yes
+				}
+			}
+
+			culture_effects = {
+				name = CULTURE_EFFECTS_NAME
+
+				common_parameters = {
+					cheaper_to_convert_to_struggle_culture = yes
+				}
+
+				involved_parameters = {
+					gain_acceptance_when_developing_other_culture_county = yes
+				}
+			
+				involved_character_modifier = {
+					cultural_head_acceptance_gain_mult = 0.2
+					owned_personal_scheme_success_chance_add = 20
+				}
+			}
+
+			other_effects = {
+				name = OTHER_EFFECTS_NAME
+
+				involved_parameters = {
+					unlocks_truce_purchasing_interaction = yes
+				}
+				
+				involved_character_modifier = {
+					enemy_hostile_scheme_success_chance_add = -10
+					county_opinion_add = 10
+					tax_mult = 0.1
+				}
+
+				involved_county_modifier = {
+					monthly_county_control_growth_factor = 0.1
+				}
+
+				uninvolved_county_modifier = {
+					monthly_county_control_growth_factor = -0.25
+				}
+			}
 			
 			ending_decisions = {
 				mandate_of_heaven_chinese_ending_decision
@@ -326,6 +328,7 @@
 						catalyst_using_a_hook_on_very_important_character = minor_struggle_catalyst_gain
 						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
 						catalyst_broke_truce_against_important_character = major_struggle_catalyst_gain
+						catalyst_aep_debug = 1000
 					}
 				}
 
@@ -432,11 +435,10 @@
 						catalyst_win_any_war_within_the_region = minor_struggle_catalyst_gain
 						catalyst_gift_independent_ruler = minor_struggle_catalyst_gain
 						catalyst_bought_important_truce = minor_struggle_catalyst_gain
+						catalyst_aep_debug = 1000
 					}
 				}
 			}
-
-
 
 			war_effects = {
 				name = WAR_EFFECTS_NAME
@@ -561,8 +563,6 @@
 					}
 				}
 			}
-
-
 
 			war_effects = {
 				name = WAR_EFFECTS_NAME

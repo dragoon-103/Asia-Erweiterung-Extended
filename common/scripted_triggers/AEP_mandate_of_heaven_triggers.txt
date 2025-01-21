@@ -32,7 +32,7 @@ controls_mandate_of_heaven_counties_trigger = {
 
 	any_in_list = {
 		list = mandate_county_list
-		percent >= 0.9
+		percent >= 0.8
 
 		holder.top_liege = root
 	}
