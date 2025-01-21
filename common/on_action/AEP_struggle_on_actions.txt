@@ -10,14 +10,17 @@ aep_struggle_on_title_gain = {
     effect = {
         if = {
 			limit = {
-				scope:title.tier >= tier_county
+                # TODO Revert to >=; the problem here is that at game start, the AI assigns a bunch of county titles (which are never created)
+                #  due to be over the title limit, which instantly adds 500+ progress to the phase.
+				#scope:title.tier >= tier_county
+                scope:title.tier > tier_county
 				NOR = {
 					scope:transfer_type = flag:created
 					scope:transfer_type = flag:inheritance
 				}
 			}
 
-            save_temporary_scope_as = new_holder
+            save_temporary_scope_as = new_tt_holder
 
             scope:previous_holder = {
                 # Go through all the struggles of the previous holder
@@ -30,7 +33,7 @@ aep_struggle_on_title_gain = {
 
                         # And the new holder is not involved in the struggle...
                         NOT = {
-                            scope:new_holder = {
+                            scope:new_tt_holder = {
                                 any_character_struggle = {
                                     involvement = involved
                                     this = scope:temp_struggle

@@ -72,3 +72,35 @@
  #struggle_mandate_of_heaven.0002.t:0
  #struggle_mandate_of_heaven.0002.desc:0
  
+ ##################################################
+  # Events
+  ##################################################
+
+aep_mandate_struggle.0100.t:0 "Title for event 0100"
+aep_mandate_struggle.0100.desc:0 "Description for event 0100"
+aep_mandate_struggle.0100.desc.involved:0 "Description for involved in event 0100"
+aep_mandate_struggle.0100.desc.interloper:0 "Description for interloper in event 0100"
+aep_mandate_struggle.0100.a:0 "Option A for event 0100"
+aep_mandate_struggle.0200.t:0 "Title for event 0200"
+aep_mandate_struggle.0200.desc:0 "Description for event 0200"
+aep_mandate_struggle.0200.a:0 "Option A for event 0200"
+aep_mandate_struggle.0200.b:0 "Option B for event 0200"
+aep_mandate_struggle.0200.c:0 "Option C for event 0200"
+aep_mandate_struggle.0200.d:0 "Option D for event 0200"
+aep_mandate_struggle.0200.e:0 "Option E for event 0200"
+aep_mandate_struggle.0300.t:0 "Title for event 0300"
+aep_mandate_struggle.0300.desc:0 "Description for event 0300"
+aep_mandate_struggle.0300.a:0 "Option A for event 0300"
+aep_mandate_struggle.0301.t:0 "Title for event 0301"
+aep_mandate_struggle.0301.desc:0 "Description for event 0301"
+aep_mandate_struggle.0301.a:0 "Option A for event 0301"
+aep_mandate_struggle.0301.b:0 "Option B for event 0301"
+aep_mandate_struggle.0310.t:0 "Title for event 0310"
+aep_mandate_struggle.0310.desc:0 "Description for event 0310"
+aep_mandate_struggle.0310.a:0 "Option A for event 0310"
+aep_mandate_struggle.0311.t:0 "Title for event 0311"
+aep_mandate_struggle.0311.desc:0 "Description for event 0311"
+aep_mandate_struggle.0311.a:0 "Option A for event 0311"
+aep_mandate_struggle.0320.t:0 "Title for event 0320"
+aep_mandate_struggle.0320.desc:0 "Description for event 0320"
+aep_mandate_struggle.0320.a:0 "Option A for event 0320"

@@ -213,7 +213,7 @@ aep_mandate_struggle.0100 = {
  	}
 
 	immediate = {
-		play_music_cue = "mx_Struggle_Opening"
+		#play_music_cue = "mx_Struggle_Opening"
 		add_character_flag = {
 			flag = mandate_of_heaven_struggle_intro_event_flag
 			years = 10
@@ -232,7 +232,6 @@ aep_mandate_struggle.0100 = {
 
 	option = {
 		name = aep_mandate_struggle.0100.a
-		clicksound = "event:/DLC/FP2/SFX/UI/fp2_struggle_start_select"
 
 		ai_chance = {
 			base = 1
