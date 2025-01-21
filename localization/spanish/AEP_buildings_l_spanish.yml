@@ -1,6 +1,6 @@
 ﻿l_spanish:
  building_type_AEP_great_wall_of_china:0 "Gran Muralla China" # 万里长城 - 损坏
- building_type_AEP_great_wall_of_china_desc:0 "La Gran Muralla China alcanzó prominencia durante la era del primer emperador de China, Qin Shi Huang Di, quien orquestó una ambiciosa iniciativa para unificar y extender los segmentos preexistentes de la muralla, formando una robusta fortificación defensiva contra las tribus nómadas del norte. \n\nSin embargo, a pesar de las expansiones continuas por parte de dinastías posteriores, gran parte de los segmentos más antiguos han declinado con el tiempo, reduciendo su importancia como estructura defensiva."
+ building_type_AEP_great_wall_of_china_desc:0 "La Gran Muralla China alcanzó prominencia durante la era del primer emperador de China, Qin Shi Huangdi, quien orquestó una ambiciosa iniciativa para unificar y extender los segmentos preexistentes de la muralla, formando una robusta fortificación defensiva contra las tribus nómadas del norte. \n\nSin embargo, a pesar de las expansiones continuas por parte de dinastías posteriores, gran parte de los segmentos más antiguos han declinado con el tiempo, reduciendo su importancia como estructura defensiva."
  building_AEP_great_wall_of_china:0 "$building_type_AEP_great_wall_of_china$"
  building_AEP_great_wall_of_china_desc:0 "$building_type_AEP_great_wall_of_china_desc$"
  

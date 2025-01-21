@@ -709,6 +709,164 @@
         }
 	}
 
+#----------------------------------------------------1066 Asia------------------------------------------------------------#
+
+isetaira_kiyomori = { # Daijō-daijin, Taira no Kiyomori
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = hairstyles
+            template = no_hairstyles
+            accessory = bald
+        }
+        accessory = {
+            mode = add
+            gene = beards
+            template = scripted_character_beards_01
+            accessory = empty
+        }
+    }
+    weight = {
+        base = 0
+        modifier = {
+            add = 100
+            exists = this
+            exists = character:isetaira_kiyomori
+            this = character:isetaira_kiyomori
+        }
+    }
+}
+
+kawachiminamoto_yoritomo = { # Future Shōgun, Minamoto no Yoritomo
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = hairstyles
+            template = japanese_hairstyles_straight
+            accessory = male_hair_japanese_01
+        }
+        accessory = {
+            mode = add
+            gene = beards
+            template = japanese_beards_straight
+            accessory = japanese_beard_01
+        }
+    }
+    weight = {
+        base = 0
+        modifier = {
+            add = 100
+            exists = this
+            exists = character:kawachiminamoto_yoritomo
+            this = character:kawachiminamoto_yoritomo
+        }
+    }
+}
+
+kawachiminamoto_yoshitsune = { # Brother of the future Shōgun, Minamoto no Yoritomo, and companion of the famed warrior monk Benkei
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = hairstyles
+            template = japanese_hairstyles_straight
+            accessory = male_hair_japanese_01
+        }
+        accessory = {
+            mode = add
+            gene = beards
+            template = japanese_beards_straight
+            accessory = japanese_beard_01
+        }
+    }
+    weight = {
+        base = 0
+        modifier = {
+            add = 100
+            exists = this
+            exists = character:kawachiminamoto_yoshitsune
+            this = character:kawachiminamoto_yoshitsune
+        }
+    }
+}
+
+kawachiominamoto_yoshinaka = { # Cousin and rival of the future Shōgun, Minamoto no Yoritomo
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = hairstyles
+            template = japanese_hairstyles_straight
+            accessory = male_hair_japanese_01
+        }
+        accessory = {
+            mode = add
+            gene = beards
+            template = scripted_character_beards_01
+            accessory = empty
+        }
+    }
+    weight = {
+        base = 0
+        modifier = {
+            add = 100
+            exists = this
+            exists = character:kawachiminamoto_yoshinaka
+            this = character:kawachiminamoto_yoshinaka
+        }
+    }
+}
+
+oshufujiwara_hidehira = { # Head of the Ōshū Fujiwara, Fujiwara no Hidehira
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = hairstyles
+            template = no_hairstyles
+            accessory = bald
+        }
+        accessory = {
+            mode = add
+            gene = beards
+            template = scripted_character_beards_01
+            accessory = empty
+        }
+    }
+    weight = {
+        base = 0
+        modifier = {
+            add = 100
+            exists = this
+            exists = character:oshufujiwara_hidehira
+            this = character:oshufujiwara_hidehira
+        }
+    }
+}
+
+musashibo_benkei = { # Renowned Warrior Monk, Benkei
+    dna_modifiers = {
+        accessory = {
+            mode = add
+            gene = hairstyles
+            template = no_hairstyles
+            accessory = bald
+        }
+        accessory = {
+            mode = add
+            gene = beards
+            template = scripted_character_beards_01
+            accessory = male_beard_western_07
+        }
+    }
+    weight = {
+        base = 0
+        modifier = {
+            add = 100
+            exists = this
+            exists = character:musashibo_benkei
+            this = character:musashibo_benkei
+        }
+    }
+}
+
 #----------------------------------------------------------------------# AEP Others (non-bookmarks) #----------------------------------------------------------------#
 
     xuanzong_huangdi = { # Emperor Xuanzong (唐宣) of Tang

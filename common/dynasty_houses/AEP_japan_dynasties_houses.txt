@@ -18,6 +18,10 @@ house_oshu-fujiwara = {
 	name = "dynn_oshu-fujiwara" 
 	dynasty = 40000001
 }
+house_ito-fujiwara = { 
+	name = "dynn_ito-fujiwara" 
+	dynasty = 40000001
+}
 house_yamato = { 
 	name = "dynn_yamato" 
 	dynasty = 40000101 
@@ -44,6 +48,10 @@ house_chichibuheishi = {
 }
 house_satsumaheishi = {
 	name = "dynn_satsumaheishi" 
+	dynasty = 40000201
+}
+house_chinzeiheishi = {
+	name = "dynn_chinzeiheishi" 
 	dynasty = 40000201
 }
 house_ninmyo-heishi = {
@@ -80,6 +88,14 @@ house_yamatogenji = {
 }
 house_kawachigenji = {
 	name = "dynn_kawachigenji"
+	dynasty = 40000208
+}
+house_kaigenji = {
+	name = "dynn_kaigenji"
+	dynasty = 40000208
+}
+house_kisogenji = {
+	name = "dynn_kisogenji"
 	dynasty = 40000208
 }
 house_minogenji = {
@@ -170,12 +186,64 @@ house_chiba = {
 	name = "dynn_chiba"
 	dynasty = 40000229
 }
+house_Soma = {
+	name = "dynn_Soma"
+	dynasty = 40000229
+}
+house_Takeishi = {
+	name = "dynn_Takeishi"
+	dynasty = 40000229
+}
+house_Osuga = {
+	name = "dynn_Osuga"
+	dynasty = 40000229
+}
+house_Kokubu = {
+	name = "dynn_Kokubu"
+	dynasty = 40000229
+}
+house_Tou = {
+	name = "dynn_Tou"
+	dynasty = 40000229
+}
 house_miura = {
 	name = "dynn_miura"
 	dynasty = 40000230
 }
+house_Wada = {
+	name = "dynn_Wada"
+	dynasty = 40000230
+}
+house_Asahina = {
+	name = "dynn_Asahina"
+	dynasty = 40000230
+}
 house_kamakura = {
 	name = "dynn_kamakura"
+	dynasty = 40000231
+}
+house_Ooba = {
+	name = "dynn_Ooba"
+	dynasty = 40000231
+}
+house_Matano = {
+	name = "dynn_Matano"
+	dynasty = 40000231
+}
+house_Kajiwara = {
+	name = "dynn_Kajiwara"
+	dynasty = 40000231
+}
+house_Nagae = {
+	name = "dynn_Nagae"
+	dynasty = 40000231
+}
+house_Itakura = {
+	name = "dynn_Itakura"
+	dynasty = 40000231
+}
+house_Nagao = {
+	name = "dynn_Nagao"
 	dynasty = 40000231
 }
 house_nagamine = {
@@ -229,4 +297,180 @@ house_fuhitoyamato = {
 house_sugano = {
 	name = "dynn_sugano"
 	dynasty = 40000244
+}
+house_Hojo = {
+	name = "dynn_Hojo"
+	dynasty = 40000245
+}
+house_Kudo = {
+	name = "dynn_Kudo"
+	dynasty = 40000246
+}
+house_Irie = {
+	name = "dynn_Irie"
+	dynasty = 40000246
+}
+house_Kikkawa = {
+	name = "dynn_Kikkawa"
+	dynasty = 40000246
+}
+house_Nikaido = {
+	name = "dynn_Nikaido"
+	dynasty = 40000246
+}
+house_Sagara = {
+	name = "dynn_Sagara"
+	dynasty = 40000246
+}
+house_Izu-Kudo = {
+	name = "dynn_Izu-Kudo"
+	dynasty = 40000246
+}
+house_Kano = {
+	name = "dynn_Kano"
+	dynasty = 40000246
+}
+house_Ito = {
+	name = "dynn_Ito"
+	dynasty = 40000246
+}
+house_Kawazu = {
+	name = "dynn_Kawazu"
+	dynasty = 40000246
+}
+house_Soga = {
+	name = "dynn_Soga"
+	dynasty = 40000246
+}
+house_Ichijo = {
+	name = "dynn_Ichijo"
+	dynasty = 40000247
+}
+house_Ono = {
+	name = "dynn_Ono"
+	dynasty = 40000248
+}
+house_Yokoyama = {
+	name = "dynn_Yokoyama"
+	dynasty = 40000248
+}
+house_Sasaki = {
+	name = "dynn_Sasaki"
+	dynasty = 40000249
+}
+house_Iwaki = {
+	name = "dynn_Iwaki"
+	dynasty = 40000250
+}
+house_Nitta = {
+	name = "dynn_Nitta"
+	dynasty = 40000251
+}
+house_Nakamura = {
+	name = "dynn_Nakamura"
+	dynasty = 40000252
+}
+house_Date = {
+	name = "dynn_Date"
+	dynasty = 40000252
+}
+house_Hatakeyama = {
+	name = "dynn_Hatakeyama" 
+	dynasty = 40000253
+}
+house_Oyamada = {
+	name = "dynn_Oyamada" 
+	dynasty = 40000254
+}
+house_Kazusa = {
+	name = "dynn_Kazusa" 
+	dynasty = 40000255
+}
+house_Satake = {
+	name = "dynn_Satake" 
+	dynasty = 40000256
+}
+house_Takeda = {
+	name = "dynn_Takeda" 
+	dynasty = 40000257
+}
+house_Takedaichijo = {
+	name = "dynn_Takedaichijo" 
+	dynasty = 40000257
+}
+house_Itagaki = {
+	name = "dynn_Itagaki" 
+	dynasty = 40000257
+}
+house_Jou = {
+	name = "dynn_Jou" 
+	dynasty = 40000258
+}
+house_Toki = {
+	name = "dynn_Toki" 
+	dynasty = 40000259
+}
+house_Shinanomurakami = {
+	name = "dynn_Shinanomurakami" 
+	dynasty = 40000260
+}
+house_Kisonakahara = {
+	name = "dynn_Kisonakahara" 
+	dynasty = 40000261
+}
+house_Iyotachibana = {
+	name = "dynn_Iyotachibana" 
+	dynasty = 40000262
+}
+house_Ii = {
+	name = "dynn_Ii" 
+	dynasty = 40000263
+}
+house_Isaku = {
+	name = "dynn_Isaku" 
+	dynasty = 40000264
+}
+house_Kimotsuki = {
+	name = "dynn_Kimotsuki" 
+	dynasty = 40000265
+}
+house_Tsuchimochi = {
+	name = "dynn_Tsuchimochi" 
+	dynasty = 40000266
+}
+house_Kikuchi = {
+	name = "dynn_Kikuchi" 
+	dynasty = 40000267
+}
+house_Nanba = {
+	name = "dynn_Nanba" 
+	dynasty = 40000268
+}
+house_Minase = {
+	name = "dynn_Minase" 
+	dynasty = 40000269
+}
+house_Hizentakagi = {
+	name = "dynn_Hizentakagi" 
+	dynasty = 40000270
+}
+house_Kono = {
+	name = "dynn_Kono" 
+	dynasty = 40000271
+}
+house_Yuasa = {
+	name = "dynn_Yuasa" 
+	dynasty = 40000272
+}
+house_Kujo = {
+	name = "dynn_Kujo" 
+	dynasty = 40000273
+}
+house_Yamamoto = {
+	name = "dynn_Yamamoto" 
+	dynasty = 40000274
+}
+house_Taguchi = {
+	name = "dynn_Taguchi" 
+	dynasty = 40000275
 }

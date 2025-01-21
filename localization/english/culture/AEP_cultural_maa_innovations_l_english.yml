@@ -10,8 +10,8 @@
  culture_parameter_unlock_maa_ksatra:0 "Can recruit [GetMaA('ksatra').GetName] as [men_at_arms|E]"
 
  #Military
- tradition_samurai_spirit_name:0 "Samurai Spirit" #侍気質
- tradition_samurai_spirit_desc:0 "The Samurai represent Japan's elite warrior class, who adhere to a stringent warrior code known as Bushidō. This code places great emphasis on virtues such as sincerity, martial valor, and unwavering loyalty to one's feudal lord, even in the face of death."
+ tradition_samurai_name:0 "Samurai" #侍
+ tradition_samurai_desc:0 "The Samurai represent Japan's elite warrior class, valued for their loyalty to their clan, martial prowess, and their service to powerful patrons. Their code emphasizes honor, courage, and dedication to those they protect, even in the face of death."
  samurai:0 "Samurai" #侍
  samurai_flavor:0 "Exhibiting exceptional discipline and rigorous training in the arts of horsemanship and archery, these warriors embody the epitome of the Japanese warrior ideal."
  sohei:0 "Sōhei" #僧兵

@@ -81,6 +81,7 @@
 	holding = tribal_holding
 	1060.1.1 = {
 		culture = pampangan
+		holding = castle_holding
 	}
 }
 12011 = { # Binwangan
@@ -189,6 +190,7 @@
     1060.1.1 = {
         culture = bisaya
 		religion = dayaw
+		holding = castle_holding
     }
 }
 12010 = { # Bongabong
@@ -516,6 +518,7 @@
 	holding = tribal_holding
     1060.1.1 = {
         culture = bisaya
+		holding = castle_holding
     }
 }
 

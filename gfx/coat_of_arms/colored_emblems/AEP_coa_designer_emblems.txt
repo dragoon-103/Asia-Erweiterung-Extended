@@ -125,6 +125,7 @@ cat_kr_goryeo_sea_horse.dds = { colors = 3 category = AEP_east_asian }
 cat_kr_goryeo_stamp.dds = { colors = 2 category = AEP_east_asian }
 cat_kr_gyeongju_choi_clan.dds = { colors = 3 category = AEP_east_asian }
 cat_kr_gyeongju_kim_clan.dds = { colors = 3 category = AEP_east_asian }
+cat_kr_hadong_jeong_clan.dds = { colors = 3 category = AEP_east_asian }
 cat_kr_jeju_go_clan.dds = { colors = 3 category = AEP_east_asian }
 cat_kr_jeonju_lee_clan.dds = { colors = 2 category = AEP_east_asian }
 cat_kr_jinju_kang_clan.dds = { colors = 3 category = AEP_east_asian }
@@ -947,6 +948,7 @@ ce_nashi_dc_1.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_nasu_cc_1.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_nasu_cc_2.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_nasu_cc_3.dds = { colors = 1 category = AEP_japanese_blazon }
+ce_nitta_cc_1.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_noshi_cc_1.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_noshi_cc_2.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_omodaka_cc_1.dds = { colors = 1 category = AEP_japanese_blazon }
@@ -1366,6 +1368,7 @@ ce_h_niimi.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_h_nikaido.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_h_niwa.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_h_nose.dds = { colors = 1 category = AEP_japanese_blazon }
+ce_h_oba.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_h_obata.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_h_ochi.dds = { colors = 1 category = AEP_japanese_blazon }
 ce_h_onishi.dds = { colors = 1 category = AEP_japanese_blazon }
@@ -1852,6 +1855,7 @@ ce_srivijaya_sun.dds = { colors = 3 category = AEP_southeast_asian }
 ce_stupa_01.dds = { colors = 1 category = AEP_southeast_asian }
 ce_stupa_02.dds = { colors = 1 category = AEP_southeast_asian }
 ce_stupa_03.dds = { colors = 1 category = AEP_southeast_asian }
+ce_sumatera_sun.dds = { colors = 2 category = AEP_southeast_asian }
 ce_surya_majapahit_01.dds = { colors = 1 category = AEP_southeast_asian }
 ce_tigmamanukan_01.dds = { colors = 1 category = AEP_southeast_asian }
 ce_wbuffalo_01.dds = { colors = 1 category = AEP_southeast_asian }

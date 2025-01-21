@@ -418,9 +418,14 @@
 10888 = {
 	holding = city_holding
 }
+
+###c_ganghwa
 #b_ganghwa
 10887 = {
+	culture = goguryeo
+	religion = mahayana
 	holding = castle_holding
+	918.7.25 = { culture = goryeon }
 }
 
 ###c_kaeseong 개성/開城 (Songak 송악/松嶽)

@@ -59,19 +59,19 @@
 }
 
 ###c_settsu
-11291 = {	#Osaka
+11359 = {	#Ubara
 	culture = yamato
 	religion = shinto
 	holding = castle_holding
+}
+11291 = {	#Osaka
+	holding = city_holding
 }
 11289 = {	#Mishima
 	holding = none
 }
 11212 = {	#Kawabe
 	holding = none
-}
-11359 = {	#Ubara
-	holding = city_holding
 }
 
 ##d_tosan ####################################
@@ -88,9 +88,18 @@
 }
 11297 = {	#Inukami
 	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+	1160.2.5 = {
+		holding = none
+	}
 }
 11298 = {	#Azai
 	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
 }
 
 ###c_mino 
@@ -131,13 +140,16 @@
 11369 = {	#Suwa
 	culture = yamato
 	religion = shinto
-	holding = castle_holding
+	holding = church_holding
 }
 11260 = {	#Azumi
 	holding = none
 }
 11176 = {	#Chikuma
 	holding = none
+	1151.1.1 = {
+		holding = castle_holding
+	}
 }
 
 ##d_tokai ####################################
@@ -289,6 +301,9 @@
 }
 11269 = {	#Kanbara
 	holding = none
+	1062.1.1 = {
+		holding = castle_holding
+	}
 }
 11271 = {	#Iwafune
 	holding = none
@@ -777,9 +792,7 @@
 	holding = tribal_holding
 	1071 = {
 		religion = shinto
-	}
-	1160 = {
-		culture = yamato
+		holding = castle_holding
 	}
 }
 12268 = {	#Inaka
@@ -793,9 +806,7 @@
 	holding = tribal_holding
 	1071 = {
 		religion = shinto
-	}
-	1160 = {
-		culture = yamato
+		holding = castle_holding
 	}
 }
 11222 = {	#Ninohe
@@ -809,9 +820,7 @@
 	holding = tribal_holding
 	1071 = {
 		religion = shinto
-	}
-	1160 = {
-		culture = yamato
+		holding = castle_holding
 	}
 }
 11252 = {	#Kesen
@@ -872,9 +881,7 @@
 	holding = tribal_holding
 	1071 = {
 		religion = shinto
-	}
-	1160 = {
-		culture = yamato
+		holding = castle_holding
 	}
 }
 11147 = {	#Kazuno
@@ -899,6 +906,9 @@
 }
 11294 = {	#Chichibu
 	holding = none
+	1130.1.1 = {
+		holding = castle_holding
+	}
 }
 11296 = {	#Iruma
 	holding = none
@@ -911,7 +921,7 @@
 	holding = castle_holding
 }
 11232 = {	#Ashigara
-	holding = city_holding
+	holding = church_holding
 }
 
 ###c_kozuke 
@@ -969,6 +979,9 @@
 }
 11345 = {	#Kuji
 	holding = none
+	1081.1.1 = {
+		holding = castle_holding
+	}
 }
 
 ###c_shimosa

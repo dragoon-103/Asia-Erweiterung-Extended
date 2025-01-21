@@ -6,12 +6,15 @@
  dynn_shikike-fujiwara:0 "Shikike-Fujiwara" # 藤原式家
  dynn_kyoke-fujiwara:0 "Kyōke-Fujiwara" # 藤原京家
  dynn_oshu-fujiwara:0 "Ōshū-Fujiwara" # 奥州藤原氏
+ dynn_ito-fujiwara:0 "Itō" # 伊藤氏
  dynn_saga-genji:0 "Saga-Genji" # 嵯峨源氏
  dynn_ninmyo-genji:0 "Ninmyō-Genji" # 仁明源氏
  dynn_montoku-genji:0 "Montoku-Genji" # 文徳源氏
  dynn_seiwa-genji:0 "Seiwa-Genji" # 清和源氏/摂津源氏
  dynn_yamatogenji:0 "Yamato-Genji" # 大和源氏
  dynn_kawachigenji:0 "Kawachi-Genji" # 河内源氏
+ dynn_kaigenji:0 "Kai-Genji" # 甲斐源氏
+ dynn_kisogenji:0 "Kiso-Genji" # 木曾源氏
  dynn_minogenji:0 "Mino-Genji" # 美濃源氏
  dynn_yozei-genji:0 "Yōzei-Genji" # 陽成源氏
  dynn_koko-genji:0 "Kōkō-Genji" # 光孝源氏
@@ -24,6 +27,7 @@
  dynn_kanmu-heishi:0 "Kanmu-Heishi" # 桓武平氏
  dynn_hitachiheishi:0 "Hitachi-Heishi" # 常陸平氏
  dynn_satsumaheishi:0 "Satsuma-Heishi" # 薩摩平氏
+ dynn_chinzeiheishi:0 "Chinzei-Heishi" # 鎮西平氏
  dynn_iseheishi:0 "Ise-Heishi" # 伊勢平氏
  dynn_bosoheishi:0 "Bōsō-Heishi" # 房総平氏
  dynn_chichibuheishi:0 "Chichibu Heishi" # 秩父平氏
@@ -32,6 +36,7 @@
  dynn_koko-heishi:0 "Kōkō-Heishi" # 光孝平氏
  dynn_tachibana:0 "Tachibana" # 橘氏
  dynn_soga:0 "Soga" # 蘇我氏
+ dynn_Soga:0 "Soga" # 曾我氏
  dynn_mononobe:0 "Mononobe" # 物部氏
  dynn_ki:0 "Ki" # 紀氏
  dynn_ariwara:0 "Ariwara" # 在原氏
@@ -132,6 +137,7 @@
  dynn_Hasekura:0 "Hasekura" # 支倉
  dynn_Hashida:0 "Hashida" # 羽志田
  dynn_Hasuike:0 "Hasuike" # 蓮池
+ dynn_Hatakeyama:0 "Hatakeyama" # 畠山
  dynn_Hatta:0 "Hatta" # 八田
  dynn_Hayama:0 "Hayama" # 速水
  dynn_Hayami:0 "Hayami" # 速水
@@ -149,17 +155,20 @@
  dynn_Hiroyama:0 "Hiroyama" # 広山
  dynn_Hishikari:0 "Hishikari" # 菱刈
  dynn_Hita:0 "Hita" # 日田
- dynn_Hojo:0 "Hojo" # 北条
+ dynn_Hizentakagi:0 "Takagi" # 高木
+ dynn_Hizume:0 "Hizume" # 樋爪
+ dynn_Hojo:0 "Hōjō" # 北条
  dynn_Honma:0 "Honma" # 本間
  dynn_Hori:0 "Hori" # 堀
  dynn_Horiguchi:0 "Horiguchi" # 堀口
  dynn_Ibusuki:0 "Ibusuki" # 揖宿
- dynn_Ichijo:0 "Ichijo" # 一条
+ dynn_Ichijo:0 "Ichijō" # 一条
  dynn_Ichikawa:0 "Ichikawa" # 市川
  dynn_Iga:0 "Iga" # 伊賀
  dynn_Igarame:0 "Igarame" # 五十嵐
  dynn_Iguchi:0 "Iguchi" # 井口
  dynn_Iho:0 "Iho" # 伊保
+ dynn_Ii:0 "Ii" # 井伊
  dynn_Iida:0 "Iida" # 飯田
  dynn_Iijima:0 "Iijima" # 飯島
  dynn_Ikarashi:0 "Ikarashi" # 斎箕
@@ -174,7 +183,9 @@
  dynn_Inoue:0 "Inoue" # 井上
  dynn_Into:0 "Into" # 井戸
  dynn_Inzai:0 "Inzai" # 印西
+ dynn_Irie:0 "Irie" # 入江
  dynn_Isa:0 "Isa" # 伊佐
+ dynn_Isaku:0 "Isaku" # 伊作
  dynn_Isawa:0 "Isawa" # 伊沢
  dynn_Ise:0 "Ise" # 伊勢
  dynn_Ishida:0 "Ishida" # 石田
@@ -184,20 +195,24 @@
  dynn_Ishimoda:0 "Ishimoda" # 石本田
  dynn_Itagaki:0 "Itagaki" # 板垣
  dynn_Itai:0 "Itai" # 板井
- dynn_Ito:0 "Ito" # 伊藤
+ dynn_Itakura:0 "Itakura" # 板倉
+ dynn_Ito:0 "Itō" # 伊藤
  dynn_Iwaki:0 "Iwaki" # 岩城
  dynn_Iwakuni:0 "Iwakuni" # 岩国
  dynn_Iwamatsu:0 "Iwamatsu" # 岩松
  dynn_Iwase:0 "Iwase" # 岩瀬
+ dynn_Iyotachibana:0 "Tachibana" # 橘
  dynn_Izaka:0 "Izaka" # 伊坂
+ dynn_Izu-Kudo:0 "Izu-Kudō" # 伊豆工藤
  dynn_Izumi:0 "Izumi" # 和泉
  dynn_Izusan:0 "Izusan" # 伊豆山
- dynn_Jo:0 "Jo" # 城
+ dynn_Jou:0 "Jō" # 城
  dynn_Kagawa:0 "Kagawa" # 香川
  dynn_Kai:0 "Kai" # 甲斐
  dynn_Kaji:0 "Kaji" # 梶
  dynn_Kajiwara:0 "Kajiwara" # 梶原
  dynn_Kakeda:0 "Kakeda" # 筧田
+ dynn_Kamakura:0 "Kamakura" # 鎌倉
  dynn_Kamei:0 "Kamei" # 亀井
  dynn_Kamitsumichi:0 "Kamitsumichi" # 上道
  dynn_Kanagami:0 "Kanagami" # 金神
@@ -207,6 +222,7 @@
  dynn_Kaneko:0 "Kaneko" # 金子
  dynn_Kanemaru:0 "Kanemaru" # 金丸
  dynn_Kaneuri:0 "Kaneuri" # 金売
+ dynn_Kano:0 "Kano" # 狩野
  dynn_Karita:0 "Karita" # 狩田
  dynn_Kasahara:0 "Kasahara" # 笠原
  dynn_Kasai:0 "Kasai" # 笠井
@@ -231,16 +247,22 @@
  dynn_Kawarada:0 "Kawarada" # 河原田
  dynn_Kawashima:0 "Kawashima" # 川島
  dynn_Kawawa:0 "Kawawa" # 川和
+ dynn_Kawazu:0 "Kawazu" # 河津
  dynn_Kazusa:0 "Kazusa" # 上総
  dynn_Kemanai:0 "Kemanai" # 毛間内
  dynn_Kenmotsu:0 "Kenmotsu" # 剣持
  dynn_Kida:0 "Kida" # 木田
+ dynn_Ki:0 "Ki" # 紀氏
  dynn_Kii:0 "Kii" # 木井
+ dynn_Kikuchi:0 "Kikuchi" # 菊池
+ dynn_Kimotsuki:0 "Kimotsuki" # 肝付
  dynn_Kinebuchi:0 "Kinebuchi" # 杵淵
  dynn_Kiryu:0 "Kiryu" # 桐生
  dynn_Kita:0 "Kita" # 北
  dynn_Kiuchi:0 "Kiuchi" # 木内
+ dynn_Kiyohara:0 "Kiyohara" # 清原
  dynn_Kiyotake:0 "Kiyotake" # 清武
+ dynn_Kisonakahara:0 "Nakahara" # 中原
  dynn_Kodama:0 "Kodama" # 児玉
  dynn_Koizumi:0 "Koizumi" # 小泉
  dynn_Kokubu:0 "Kokubu" # 国分
@@ -248,13 +270,16 @@
  dynn_Komuro:0 "Komuro" # 小室
  dynn_Kon:0 "Kon" # 今
  dynn_Kondo:0 "Kondo" # 近藤
+ dynn_Kono:0 "Kōno" # 河野
  dynn_Kori:0 "Kori" # 出
  dynn_Koshi:0 "Koshi" # 腰
  dynn_Kosuiji:0 "Kosuiji" # 古水路
  dynn_Koto:0 "Koto" # 琴
  dynn_Koyanagawa:0 "Koyanagawa" # 小柳川
  dynn_Kozuma:0 "Kozuma" # 小妻
+ dynn_Kudo:0 "Kudō" # 工藤
  dynn_Kuge:0 "Kuge" # 久家
+ dynn_Kujo:0 "Kujō" # 九条
  dynn_Kumabe:0 "Kumabe" # 熊部
  dynn_Kumagai:0 "Kumagai" # 熊谷
  dynn_Kumage:0 "Kumage" # 熊毛
@@ -275,6 +300,7 @@
  dynn_Manabe:0 "Manabe" # 眞鍋
  dynn_Mariyatsu:0 "Mariyatsu" # 万屋津
  dynn_Mashiko:0 "Mashiko" # 益子
+ dynn_Matano:0 "Matano" # 俣野
  dynn_Matsuba:0 "Matsuba" # 松葉
  dynn_Matsuda:0 "Matsuda" # 松田
  dynn_Matsumoto:0 "Matsumoto" # 松本
@@ -307,6 +333,7 @@
  dynn_Myoshinji:0 "Myoshinji" # 妙心寺
  dynn_Nagae:0 "Nagae" # 長江
  dynn_Nagano:0 "Nagano" # 長野
+ dynn_Nagao:0 "Nagao" # 長尾
  dynn_Naganuma:0 "Naganuma" # 長沼
  dynn_Nagasa:0 "Nagasa" # 長狭
  dynn_Nagasaki:0 "Nagasaki" # 長崎
@@ -321,6 +348,7 @@
  dynn_Nakura:0 "Nakura" # 中浦
  dynn_Namegata:0 "Namegata" # 行方
  dynn_Namioka:0 "Namioka" # 波岡
+ dynn_Nanba:0 "Nanba" # 難波
  dynn_Nanbu:0 "Nanbu" # 南部
  dynn_Naniwa:0 "Naniwa" # 浪速
  dynn_Narisawa:0 "Narisawa" # 成沢
@@ -335,13 +363,14 @@
  dynn_Nii:0 "Nii" # 新井
  dynn_Niida:0 "Niida" # 新井田
  dynn_Nikaho:0 "Nikaho" # にかほ
- dynn_Nikaido:0 "Nikaido" # 二階堂
+ dynn_Nikaido:0 "Nikaidō" # 二階堂
  dynn_Nikki:0 "Nikki" # 日記
  dynn_Nikko:0 "Nikko" # 日光
  dynn_Nimo:0 "Nimo" # 仁茂
  dynn_Ninomiya:0 "Ninomiya" # 二宮
  dynn_Nishiyama:0 "Nishiyama" # 西山
  dynn_Nita:0 "Nita" # 仁田
+ dynn_Nitta:0 "Nitta" # 新田
  dynn_Nobesawa:0 "Nobesawa" # 野辺沢
  dynn_Nogami:0 "Nogami" # 野上
  dynn_Nuka:0 "Nuka" # 糠
@@ -370,10 +399,11 @@
  dynn_Onjoji:0 "Onjoji" # 園城寺
  dynn_Ono:0 "Ono" # 小野
  dynn_Onodera:0 "Onodera" # 小野寺
+ dynn_Ooba:0 "Ōba" # 大庭
  dynn_Osada:0 "Osada" # 長田
  dynn_Osaki:0 "Osaki" # 大崎
  dynn_Osone:0 "Osone" # 大曽根
- dynn_Osuga:0 "Osuga" # 大須賀
+ dynn_Osuga:0 "Ōsuga" # 大須賀
  dynn_Ota:0 "Ota" # 太田
  dynn_Otawa:0 "Otawa" # 小田和
  dynn_Ouchi:0 "Ouchi" # 大内
@@ -381,11 +411,13 @@
  dynn_Oya:0 "Oya" # 親
  dynn_Oyake:0 "Oyake" # 大焼
  dynn_Oyama:0 "Oyama" # 小山
+ dynn_Oyamada:0 "Oyamada" # 小山田
  dynn_Ozawa:0 "Ozawa" # 小澤
  dynn_Oze:0 "Oze" # 尾瀬
  dynn_Rinsenji:0 "Rinsenji" # 霖仙寺
  dynn_Rusu:0 "Rusu" # 瑠巣
  dynn_Saeki:0 "Saeki" # 佐伯
+ dynn_Sagara:0 "Sagara" # 相良
  dynn_Sagoshi:0 "Sagoshi" # 佐越
  dynn_Sahara:0 "Sahara" # 佐原
  dynn_Saito:0 "Saito" # 斉藤
@@ -398,6 +430,7 @@
  dynn_Sanada:0 "Sanada" # 真田
  dynn_Sannohe:0 "Sannohe" # 三戸
  dynn_Sano:0 "Sano" # 佐野
+ dynn_Sasaki:0 "Sasaki" # 佐々木
  dynn_Satake:0 "Satake" # 佐竹
  dynn_Sato:0 "Sato" # 佐藤
  dynn_Satomi:0 "Satomi" # 里見
@@ -418,6 +451,7 @@
  dynn_Shimazaki:0 "Shimazaki" # 島崎
  dynn_Shimizu:0 "Shimizu" # 清水
  dynn_Shinagawa:0 "Shinagawa" # 品川
+ dynn_Shinanomurakami:0 "Murakami" # 村上
  dynn_Shindo:0 "Shindo" # 進藤
  dynn_Shineha:0 "Shineha" # 芝根葉
  dynn_Shingu:0 "Shingu" # 新宮
@@ -432,7 +466,7 @@
  dynn_Shitara:0 "Shitara" # 設楽
  dynn_Shuin:0 "Shuin" # 周防
  dynn_So:0 "So" # 宗
- dynn_Soma:0 "Soma" # 相馬
+ dynn_Soma:0 "Sōma" # 相馬
  dynn_Sonobe:0 "Sonobe" # 園部
  dynn_Sosa:0 "Sosa" # 曾佐
  dynn_Suda:0 "Suda" # 須田
@@ -446,6 +480,7 @@
  dynn_Tagawa:0 "Tagawa" # 田川
  dynn_Tagaya:0 "Tagaya" # 田賀谷
  dynn_Tago:0 "Tago" # 田郷
+ dynn_Taguchi:0 "Taguchi" # 田口
  dynn_Taima:0 "Taima" # 当麻
  dynn_Tairako:0 "Tairako" # 平良子
  dynn_Taizai:0 "Taizai" # 泰斎
@@ -455,6 +490,7 @@
  dynn_Takayama:0 "Takayama" # 高山
  dynn_Takechi:0 "Takechi" # 武智
  dynn_Takeda:0 "Takeda" # 武田
+ dynn_Takedaichijo:0 "Ichijō" # 一条
  dynn_Takei:0 "Takei" # 武井
  dynn_Takeishi:0 "Takeishi" # 武石
  dynn_Takusari:0 "Takusari" # 拓也
@@ -469,8 +505,10 @@
  dynn_Teramoto:0 "Teramoto" # 寺本
  dynn_Terui:0 "Terui" # 輝井
  dynn_Tezuka:0 "Tezuka" # 手塚
+ dynn_Tou:0 "Tō" # 東
  dynn_Tobe:0 "Tobe" # 戸部
  dynn_Togo:0 "Togo" # 東郷
+ dynn_Toki:0 "Toki" # 土岐
  dynn_Tokihara:0 "Tokihara" # 時原
  dynn_Tokuda:0 "Tokuda" # 徳田
  dynn_Tokugawa:0 "Tokugawa" # 徳川
@@ -484,6 +522,7 @@
  dynn_Toshima:0 "Toshima" # 利島
  dynn_Toyota:0 "Toyota" # 豊田
  dynn_Tozawa:0 "Tozawa" # 戸沢
+ dynn_Tsuchimochi:0 "Tsuchimochi" # 土持
  dynn_Tsuchiya:0 "Tsuchiya" # 土屋
  dynn_Tsuduki:0 "Tsuduki" # 津月
  dynn_Tsugaru:0 "Tsugaru" # 津軽
@@ -518,6 +557,7 @@
  dynn_Yamagata:0 "Yamagata" # 山形
  dynn_Yamaguchi:0 "Yamaguchi" # 山口
  dynn_Yamakawa:0 "Yamakawa" # 山川
+ dynn_Yamamoto:0 "Yamamoto" # 山本
  dynn_Yamanouchi:0 "Yamanouchi" # 山ノ内
  dynn_Yanada:0 "Yanada" # 矢名田
  dynn_Yashiro:0 "Yashiro" # 八代
@@ -544,6 +584,7 @@
  dynn_Go_Goguryeo:0 "Go" # 고씨/高氏
  dynn_Go_Tamna:0 "Go" # 고씨/高氏
  dynn_Tae:0 "Dae" # 대씨/大氏
+ dynn_Hadong_Jeong:0 "Jeong" # 정씨/鄭氏
 #Chinese
  dynn_Duo:0 "Duo" #铎
  dynn_La:0 "La" #羅

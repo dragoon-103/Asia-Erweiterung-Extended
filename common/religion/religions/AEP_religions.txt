@@ -12,14 +12,14 @@
 	#Marriage
 	doctrine = doctrine_concubines
 	doctrine = doctrine_divorce_allowed
-	doctrine = doctrine_bastardry_legitimization
-	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_cousins
 
 	#Crimes
 	doctrine = doctrine_homosexuality_accepted
 	doctrine = doctrine_adultery_men_shunned
 	doctrine = doctrine_adultery_women_shunned
-	doctrine = doctrine_kinslaying_shunned
+	doctrine = doctrine_kinslaying_any_dynasty_member_crime
 	doctrine = doctrine_deviancy_shunned
 	doctrine = doctrine_witchcraft_shunned
 
@@ -27,7 +27,7 @@
 	doctrine = doctrine_clerical_function_alms_and_pacification
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
-	doctrine = doctrine_clerical_succession_temporal_appointment
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
 	
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
@@ -39,14 +39,12 @@
 		virtues = {
 			generous
 			honest
-			patient
-			calm
+			just
 		}
 		sins = {
 			greedy
 			deceitful
-			impatient
-			wrathful
+			arrogant
 		}
 	}
 
@@ -228,6 +226,7 @@
 		shinto = {
 			color = { 110 0 0 }
 			icon = shinto
+			religious_head = d_koshitsu
 
 			holy_site = ise
 			holy_site = izumo
@@ -238,12 +237,15 @@
 			holy_site = fujisan
 			
 			#Tenets
-			doctrine = tenet_monasticism
+			doctrine = tenet_ancestor_worship
 			doctrine = tenet_dharmic_pacifism
-			doctrine = tenet_inner_journey
+			doctrine = tenet_monasticism
+
+			#Doctrines
+			doctrine = doctrine_temporal_head
 			
-			# SHOGUNATE teaching of buddhism
-			doctrine = special_doctrine_teachings_of_buddha
+			#Special Doctrines
+			doctrine = special_doctrine_teachings_of_buddha # (Courtesy of the Shogunate Mod)
 		}
 		utaki = {
 			color = { 232 293 203 }
@@ -254,12 +256,14 @@
 			holy_site = amami
 			holy_site = miyako
 			holy_site = fujisan
-			
-			doctrine = unreformed_faith_doctrine
 
 			#Tenets
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_ancestor_worship
+			doctrine = tenet_adorcism
+
+			#Doctrines
+			doctrine = unreformed_faith_doctrine
 			
 			localization = {
 				HighGodName = utaki_high_god_name

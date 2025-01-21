@@ -14,38 +14,44 @@
   count_administrative_female_japanese_group:0 "고쿠시" #国司
   count_administrative_male_japanese_group_tohoku:0 "군지" #郡司
   count_administrative_female_japanese_group_tohoku:0 "군지" #郡司
+  count_administrative_male_japanese_group_japan:0 "고쿠시" #国司
+  count_administrative_female_japanese_group_japan:0 "고쿠시" #国司
   duke_administrative_male_japanese_group:0 "소토쿠" #総督
   duke_administrative_female_japanese_group:0 "소토쿠" #総督
   duke_administrative_male_japanese_group_tohoku:0 "고쿠시" #国司
   duke_administrative_female_japanese_group_tohoku:0 "고쿠시" #国司
-  king_administrative_male_japanese_group:0 "소토쿠" #総督
-  king_administrative_female_japanese_group:0 "소토쿠" #総督
-  king_administrative_male_japanese_group_japan:0 "셋쇼" #摂政
-  king_administrative_female_japanese_group_japan:0 "셋쇼" #摂政
+  duke_administrative_male_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
+  duke_administrative_female_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
+  king_administrative_male_japanese_group_japan:0 "섭정" #摂政
+  king_administrative_female_japanese_group_japan:0 "섭정" #摂政
+  emperor_administrative_male_japanese_group_japan:0 "대섭정" #大摂政
+  emperor_administrative_female_japanese_group_japan:0 "대섭정" #大摂政
   
  # Rulers (Feudal/Clan/Tribal)
   baron_feudal_male_japanese_group:0 "조슈" #城主
   baron_feudal_female_japanese_group:0 "조슈" #城主
-  count_feudal_male_japanese_group:0 "슈고" #守護
-  count_feudal_female_japanese_group:0 "슈고" #守護
-  count_feudal_male_japanese_group_tohoku:0 "조슈" #城主
-  count_feudal_female_japanese_group_tohoku:0 "조슈" #城主
-  duke_feudal_male_japanese_group:0 "칸레이" #管領
-  duke_feudal_female_japanese_group:0 "칸레이" #管領
-  duke_feudal_male_japanese_group_tohoku:0 "슈고" #守護
-  duke_feudal_female_japanese_group_tohoku:0 "슈고" #守護
-  king_feudal_male_japanese_group:0 "다이 칸레이" #大管領
-  king_feudal_female_japanese_group:0 "다이 칸레이" #大管領
-  king_feudal_male_japanese_group_japan:0 "쇼군" #将軍
-  king_feudal_female_japanese_group_japan:0 "쇼군" #将軍
+  count_feudal_male_japanese_group:0 "다이묘" #大名
+  count_feudal_female_japanese_group:0 "다이묘" #大名
+  duke_feudal_male_japanese_group:0 "대다이묘" #大大名
+  duke_feudal_female_japanese_group:0 "대다이묘" #大大名
+  duke_feudal_male_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
+  duke_feudal_female_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
+  king_feudal_male_japanese_group_japan:0 "무가의 동량" #武門之棟梁
+  king_feudal_female_japanese_group_japan:0 "무가의 동량" #武門之棟梁
+  king_feudal_male_japanese_group_shogunate:0 "쇼군" #将軍
+  king_feudal_female_japanese_group_shogunate:0 "쇼군" #将軍
+  emperor_feudal_male_japanese_group_japan:0 "대쇼군" #大将軍
+  emperor_feudal_female_japanese_group_japan:0 "대쇼군" #大将軍
   
  # Rulers (General)
+  king_male_japanese_group_subordinate:0 "소토쿠" #総督
+  king_female_japanese_group_subordinate:0 "소토쿠" #総督
   king_male_japanese_group_independent:0 "오" #王
   king_female_japanese_group_independent:0 "조오" #王女
   emperor_male_japanese_group:0 "고테이" #皇帝
   emperor_female_japanese_group:0 "코고" #皇后
-  duke_male_japanese_group_yamato_imperial:0 "텐노" #天皇
-  duke_female_japanese_group_yamato_imperial:0 "텐노" #天皇
+  emperor_male_japanese_group_koshitsu:0 "덴노" #天皇
+  emperor_female_japanese_group_koshitsu:0 "덴노" #天皇
 
  # Titles
   barony_japanese_group:0 "코리"
@@ -59,16 +65,16 @@
   empire_japanese_group:0 "테이코쿠"
 
  # Princes (children of Kings/Emperors)
-  title_prince_male_japanese_group_yamato_imperial:0 "신노"
-  title_prince_female_japanese_group_yamato_imperial:0 "나이신노"
-  title_prince_male_japanese_group:0 "도노"
-  title_prince_female_japanese_group:0 "히메"
-  title_prince_male_japanese_group_empire:0 "도노"
-  title_prince_female_japanese_group_empire:0 "히메"
+  prince_male_japanese_group:0 "도노"
+  prince_female_japanese_group:0 "히메"
+  prince_male_japanese_group_empire:0 "도노"
+  prince_female_japanese_group_empire:0 "히메"
+  prince_male_japanese_group_koshitsu:0 "신노"
+  prince_female_japanese_group_koshitsu:0 "나이신노"
 
  # Spouses
-  title_spouse_female_yamato_imperial:0 "코고"
-  #title_spouse_female_yamato_group:0 "Hime" #姫
+  spouse_female_japanese_group:0 "히메"
+  spouse_female_yamato_imperial:0 "코고"
 
 ####################################################
 
@@ -99,13 +105,14 @@
   empire_chinese_group:0 "제국"
 
  # Princes (children of Kings/Emperors)
-  title_prince_male_chinese_group:0 "공자"
-  title_prince_female_chinese_group:0 "공녀"
-  title_prince_male_chinese_group_empire:0 "친왕"
-  title_prince_female_chinese_group_empire:0 "공후"
+  prince_male_chinese_group:0 "공자"
+  prince_female_chinese_group:0 "공녀"
+  prince_male_chinese_group_empire:0 "친왕"
+  prince_female_chinese_group_empire:0 "공후"
 
  # Spouses
-  #title_spouse_female_chinese_group:0 "Furen" #夫人
+  spouse_female_chinese_group:0 "푸렌"
+  spouse_female_chinese_group_imperial:0 "황후"
 
 ####################################################
 
@@ -134,13 +141,15 @@
   empire_korean_group:0 "제국"
 
  # Princes (children of Kings/Emperors)
-  title_prince_male_korean_group:0 "군"
-  title_prince_female_korean_group:0 "옹주"
-  title_prince_male_korean_group_empire:0 "군"
-  title_prince_female_korean_group_empire:0 "옹주"
+  prince_male_korean_group:0 "군"
+  prince_female_korean_group:0 "옹주"
+  prince_male_korean_group_empire:0 "군"
+  prince_female_korean_group_empire:0 "옹주"
 
  # Spouses
-  #title_spouse_female_korean_group:0 "Sugnyeo" #숙녀/淑女
+  spouse_female_korean_group:0 "숙녀"
+  spouse_female_korean_group_royal:0 "여왕"
+  spouse_female_korean_group_imperial:0 "황후"
 
 ####################################################
 
@@ -166,13 +175,15 @@
   empire_vietnamese_group:0 "데 쿠옥"
 
 # Princes (children of Kings/Emperors)
-  title_prince_male_vietnamese_group:0 "호앙 투"
-  title_prince_female_vietnamese_group:0 "콩 추아"
-  title_prince_male_vietnamese_group_empire:0 "호앙 투"
-  title_prince_female_vietnamese_group_empire:0 "콩 추아"
+  prince_male_vietnamese_group:0 "호앙 투"
+  prince_female_vietnamese_group:0 "콩 추아"
+  prince_male_vietnamese_group_empire:0 "호앙 투"
+  prince_female_vietnamese_group_empire:0 "콩 추아"
 
  # Spouses
-  #title_spouse_female_vietnamese_group:0 "Quý Bà"
+  spouse_female_vietnamese_group:0 "귀 바"
+  spouse_female_vietnamese_group_royal:0 "누 부옹"
+  spouse_female_vietnamese_group_imperial:0 "누 데"
  
 ####################################################
  
@@ -202,10 +213,10 @@
    empire_burman_group:0 "나잉간다우"
 
   # Princes (children of Kings/Emperors)
-   title_prince_male_burman_group:0 "민타"
-   title_prince_female_burman_group:0 "민타미"
-   title_prince_male_burman_group_empire:0 "민타"
-   title_prince_female_burman_group_empire:0 "민타미"
+   prince_male_burman_group:0 "민타"
+   prince_female_burman_group:0 "민타미"
+   prince_male_burman_group_empire:0 "민타"
+   prince_female_burman_group_empire:0 "민타미"
 
 ####################################################
 
@@ -261,8 +272,8 @@
   # Princes (children of Kings/Emperors)
   prince_male_khmer:0 "프레앙"
   prince_female_khmer:0 "프레네앙"
-  title_prince_male_khmer_empire:0 "프레앙"
-  title_prince_female_khmer_empire:0 "프레네앙"
+  prince_male_khmer_empire:0 "프레앙"
+  prince_female_khmer_empire:0 "프레네앙"
   # champion = Yuttochun
 
   # Khmer Empire
@@ -290,10 +301,10 @@
   empire_mon:0 "제국"
 
   # Princes (children of Kings/Emperors)
-  title_prince_male_mon:0 "빈야"
-  title_prince_female_mon:0 "반냐르"
-  title_prince_male_mon_empire:0 "빈야"
-  title_prince_female_mon_empire:0 "반냐르"
+  prince_male_mon:0 "빈야"
+  prince_female_mon:0 "반냐르"
+  prince_male_mon_empire:0 "빈야"
+  prince_female_mon_empire:0 "반냐르"
   # champion = Sagom
 
 ####################################################
@@ -320,10 +331,10 @@
   empire_tai_group:0 "크와엔 루앙"
 
   # Princes (children of Kings/Emperors) <- Based on Lanna Titles
-  title_prince_male_tai_group:0 "차오 노이"
-  title_prince_female_tai_group:0 "차오 노이"
-  title_prince_male_tai_group_empire:0 "차오 노이"
-  title_prince_female_tai_group_empire:0 "차오 노이"
+  prince_male_tai_group:0 "차오 노이"
+  prince_female_tai_group:0 "차오 노이"
+  prince_male_tai_group_empire:0 "차오 노이"
+  prince_female_tai_group_empire:0 "차오 노이"
 
 ## Shan Tai -> More Indian influence in general
 
@@ -837,10 +848,10 @@
   empire_loloish_group:0 "제국"
 
 # Princes (children of Kings/Emperors)
-  title_prince_male_loloish_group:0 "공작"
-  title_prince_female_loloish_group:0 "공녀"
-  title_prince_male_loloish_group_empire:0 "친왕"
-  title_prince_female_loloish_group_empire:0 "공주"
+  prince_male_loloish_group:0 "공작"
+  prince_female_loloish_group:0 "공녀"
+  prince_male_loloish_group_empire:0 "친왕"
+  prince_female_loloish_group_empire:0 "공주"
 
 ####################################################
 

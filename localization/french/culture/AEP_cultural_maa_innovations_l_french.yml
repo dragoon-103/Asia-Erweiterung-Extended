@@ -10,8 +10,8 @@
  culture_parameter_unlock_maa_ksatra:0 "Peut recruter des [GetMaA('ksatra').GetName] comme [men_at_arms|E]"
 
  #Military
- tradition_samurai_spirit_name:0 "Samouraï" #侍
- tradition_samurai_spirit_desc:0 "Les samouraïs sont la classe de guerriers d'élite du Japon et suivent un code guerrier strict connu plus tard sous le nom de Bushidō, mettant l'accent sur des notions telles que la sincérité, le courage martial et la loyauté envers son suzerain jusqu'à la mort."
+ tradition_samurai_name:0 "Samouraï" #侍
+ tradition_samurai_desc:0 "Les samouraïs incarnent l’élite de la classe guerrière japonaise, appréciés pour leur loyauté envers leur clan, leur maîtrise des arts martiaux et leur dévouement envers leurs puissants protecteurs. Leur code de conduite met en avant l’honneur, le courage et une fidélité inébranlable envers ceux qu’ils protègent, même face à la mort."
  samurai:0 "Samouraï" #騎士
  samurai_flavor:0 "Faisant preuve d'une discipline exceptionnelle et d'un entraînement rigoureux dans les arts de l'équitation et du tir à l'arc, ces guerriers incarnent la quintessence de l'idéal guerrier japonais."
  sohei:0 "Sōhei" #僧兵

@@ -1578,6 +1578,12 @@ xiaozong_huangdi = {
 	1127.11.27 = {
 		birth = yes
 	}
+	1162.7.24 = {
+		effect = {
+			set_realm_capital = title:c_hangzhou # Linan
+			set_primary_title_to = title:c_hangzhou
+		}
+	}
 	1194.6.28 = {
 		death = yes
 		name = Xiaozong # 孝宗

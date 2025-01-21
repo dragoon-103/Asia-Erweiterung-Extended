@@ -84,6 +84,16 @@
 		template = ep3_byzantine_nobility_legwear
 	}
 	
+	## POL ##
+	
+	add_accessory_modifiers = {
+		gene = legwear
+		is_valid_custom = {
+			has_pol_dlc_trigger = yes
+		}
+		template = pol_common_legwear
+	}
+	
 	## AFR ##
 	
 	add_accessory_modifiers = {
@@ -107,20 +117,5 @@
 	add_accessory_modifiers = {
 		gene = legwear
 		template = japanese_war_legwear
-	}
-
-	## Javanese (Credit: Majapahit Mod Jam Mod) ##
-	
-	add_accessory_modifiers = {
-		gene = legwear
-		template = javanese_common_legwear
-	}
-	add_accessory_modifiers = {
-		gene = legwear
-		template = javanese_nobility_legwear
-	}
-	add_accessory_modifiers = {
-		gene = legwear
-		template = javanese_royalty_legwear
 	}
 }

@@ -14,38 +14,44 @@
   count_administrative_female_japanese_group:0 "国司"
   count_administrative_male_japanese_group_tohoku:0 "郡司"
   count_administrative_female_japanese_group_tohoku:0 "郡司"
-  duke_administrative_male_japanese_group:0 "総督"
-  duke_administrative_female_japanese_group:0 "総督"
+  count_administrative_male_japanese_group_japan:0 "国司"
+  count_administrative_female_japanese_group_japan:0 "国司"
+  duke_administrative_male_japanese_group:0 "総国司"
+  duke_administrative_female_japanese_group:0 "総国司"
   duke_administrative_male_japanese_group_tohoku:0 "国司"
   duke_administrative_female_japanese_group_tohoku:0 "国司"
-  king_administrative_male_japanese_group:0 "総督"
-  king_administrative_female_japanese_group:0 "総督"
+  duke_administrative_male_japanese_group_dazaifu:0 "大宰帥"
+  duke_administrative_female_japanese_group_dazaifu:0 "大宰帥"
   king_administrative_male_japanese_group_japan:0 "摂政"
   king_administrative_female_japanese_group_japan:0 "摂政"
+  emperor_administrative_male_japanese_group_japan:0 "大摂政"
+  emperor_administrative_female_japanese_group_japan:0 "大摂政"
   
  # Rulers (Feudal/Clan/Tribal)
   baron_feudal_male_japanese_group:0 "城主"
   baron_feudal_female_japanese_group:0 "城主"
-  count_feudal_male_japanese_group:0 "守護"
-  count_feudal_female_japanese_group:0 "守護"
-  count_feudal_male_japanese_group_tohoku:0 "城主"
-  count_feudal_female_japanese_group_tohoku:0 "城主"
-  duke_feudal_male_japanese_group:0 "管領"
-  duke_feudal_female_japanese_group:0 "管領"
-  duke_feudal_male_japanese_group_tohoku:0 "守護"
-  duke_feudal_female_japanese_group_tohoku:0 "守護"
-  king_feudal_male_japanese_group:0 "大管領"
-  king_feudal_female_japanese_group:0 "大管領"
-  king_feudal_male_japanese_group_japan:0 "将軍"
-  king_feudal_female_japanese_group_japan:0 "将軍"
+  count_feudal_male_japanese_group:0 "大名"
+  count_feudal_female_japanese_group:0 "大名"
+  duke_feudal_male_japanese_group:0 "大大名"
+  duke_feudal_female_japanese_group:0 "大大名"
+  duke_feudal_male_japanese_group_dazaifu:0 "大宰帥"
+  duke_feudal_female_japanese_group_dazaifu:0 "大宰帥"
+  king_feudal_male_japanese_group_japan:0 "武門之棟梁"
+  king_feudal_female_japanese_group_japan:0 "武門之棟梁"
+  king_feudal_male_japanese_group_shogunate:0 "将軍"
+  king_feudal_female_japanese_group_shogunate:0 "将軍"
+  emperor_feudal_male_japanese_group_japan:0 "大将軍"
+  emperor_feudal_female_japanese_group_japan:0 "大将軍"
   
  # Rulers (General)
+  king_male_japanese_group_subordinate:0 "総督"
+  king_female_japanese_group_subordinate:0 "総督"
   king_male_japanese_group_independent:0 "王"
-  king_female_japanese_group_independent:0 "王女"
+  king_female_japanese_group_independent:0 "王"
   emperor_male_japanese_group:0 "皇帝"
   emperor_female_japanese_group:0 "皇后"
-  duke_male_japanese_group_yamato_imperial:0 "天皇"
-  duke_female_japanese_group_yamato_imperial:0 "天皇"
+  emperor_male_japanese_group_koshitsu:0 "天皇"
+  emperor_female_japanese_group_koshitsu:0 "天皇"
 
  # Titles
   barony_japanese_group:0 "郡"
@@ -59,16 +65,16 @@
   empire_japanese_group:0 "帝国"
 
  # Princes (children of Kings/Emperors)
-  title_prince_male_japanese_group_yamato_imperial:0 "親王"
-  title_prince_female_japanese_group_yamato_imperial:0 "内親王"
-  title_prince_male_japanese_group:0 "殿"
-  title_prince_female_japanese_group:0 "姫"
-  title_prince_male_japanese_group_empire:0 "殿"
-  title_prince_female_japanese_group_empire:0 "姫"
+  prince_male_japanese_group:0 "殿"
+  prince_female_japanese_group:0 "姫"
+  prince_male_japanese_group_empire:0 "殿"
+  prince_female_japanese_group_empire:0 "姫"
+  prince_male_japanese_group_koshitsu:0 "親王"
+  prince_female_japanese_group_koshitsu:0 "内親王"
 
  # Spouses
-  title_spouse_female_yamato_imperial:0 "皇后"
-  #title_spouse_female_yamato_group:0 "姫"
+  spouse_female_japanese_group:0 "姫"
+  spouse_female_yamato_imperial:0 "皇后"
 
 ####################################################
 
@@ -99,13 +105,14 @@
   empire_chinese_group:0 "帝国"
 
  # Princes (children of Kings/Emperors)
-  title_prince_male_chinese_group:0 "公子"
-  title_prince_female_chinese_group:0 "公女"
-  title_prince_male_chinese_group_empire:0 "親王"
-  title_prince_female_chinese_group_empire:0 "公主"
+  prince_male_chinese_group:0 "公子"
+  prince_female_chinese_group:0 "公女"
+  prince_male_chinese_group_empire:0 "親王"
+  prince_female_chinese_group_empire:0 "公主"
 
  # Spouses
-  #title_spouse_female_chinese_group:0 "夫人"
+  spouse_female_chinese_group:0 "夫人"
+  spouse_female_chinese_group_imperial:0 "皇帝"
 
 ####################################################
 
@@ -134,13 +141,15 @@
   empire_korean_group:0 "帝国" #제국
 
  # Princes (children of Kings/Emperors)
-  title_prince_male_korean_group:0 "君" #군
-  title_prince_female_korean_group:0 "翁主" #옹주
-  title_prince_male_korean_group_empire:0 "君" #군
-  title_prince_female_korean_group_empire:0 "翁主" #옹주
+  prince_male_korean_group:0 "君" #군
+  prince_female_korean_group:0 "翁主" #옹주
+  prince_male_korean_group_empire:0 "君" #군
+  prince_female_korean_group_empire:0 "翁主" #옹주
 
  # Spouses
-  #title_spouse_female_korean_group:0 "淑女" #숙녀
+  spouse_female_korean_group:0 "淑女" #숙녀
+  spouse_female_korean_group_royal:0 "女王" #여왕
+  spouse_female_korean_group_imperial:0 "皇后" #황후
 
 ####################################################
 
@@ -166,13 +175,15 @@
   empire_vietnamese_group:0 "帝国"
 
 # Princes (children of Kings/Emperors)
-  title_prince_male_vietnamese_group:0 "伯子"
-  title_prince_female_vietnamese_group:0 "公主"
-  title_prince_male_vietnamese_group_empire:0 "王子"
-  title_prince_female_vietnamese_group_empire:0 "帝子"
+  prince_male_vietnamese_group:0 "伯子"
+  prince_female_vietnamese_group:0 "公主"
+  prince_male_vietnamese_group_empire:0 "王子"
+  prince_female_vietnamese_group_empire:0 "帝子"
 
  # Spouses
-  #title_spouse_female_vietnamese_group:0 "女士"
+  spouse_female_vietnamese_group:0 "女士"
+  spouse_female_vietnamese_group_royal:0 "女王"
+  spouse_female_vietnamese_group_imperial:0 "女帝"
  
 ####################################################
  
@@ -202,10 +213,10 @@
    empire_burman_group:0 "奈干道"
 
   # Princes (children of Kings/Emperors)
-   title_prince_male_burman_group:0 "敏莎"
-   title_prince_female_burman_group:0 "敏萨米"
-   title_prince_male_burman_group_empire:0 "明达"
-   title_prince_female_burman_group_empire:0 "敏萨米"
+   prince_male_burman_group:0 "敏莎"
+   prince_female_burman_group:0 "敏萨米"
+   prince_male_burman_group_empire:0 "明达"
+   prince_female_burman_group_empire:0 "敏萨米"
 
 ####################################################
 
@@ -261,8 +272,8 @@
   # Princes (children of Kings/Emperors)
   prince_male_khmer:0 "普莱昂"
   prince_female_khmer:0 "普莱昂"
-  title_prince_male_khmer_empire:0 "普莱昂"
-  title_prince_female_khmer_empire:0 "普莱昂"
+  prince_male_khmer_empire:0 "普莱昂"
+  prince_female_khmer_empire:0 "普莱昂"
   # champion = Yuttochun
 
   # Khmer Empire
@@ -290,10 +301,10 @@
   empire_mon:0 "热牛嘎穆"
 
   # Princes (children of Kings/Emperors)
-  title_prince_male_mon:0 "宾尼亚"
-  title_prince_female_mon:0 "班尼亚尔"
-  title_prince_male_mon_empire:0 "宾尼亚"
-  title_prince_female_mon_empire:0 "班尼亚"
+  prince_male_mon:0 "宾尼亚"
+  prince_female_mon:0 "班尼亚尔"
+  prince_male_mon_empire:0 "宾尼亚"
+  prince_female_mon_empire:0 "班尼亚"
   # champion = Sagom
 
 ####################################################
@@ -320,10 +331,10 @@
   empire_tai_group:0 "关文銮"
 
   # Princes (children of Kings/Emperors) <- Based on Lanna Titles
-  title_prince_male_tai_group:0 "朝内"
-  title_prince_female_tai_group:0 "朝内"
-  title_prince_male_tai_group_empire:0 "朝内"
-  title_prince_female_tai_group_empire:0 "朝内"
+  prince_male_tai_group:0 "朝内"
+  prince_female_tai_group:0 "朝内"
+  prince_male_tai_group_empire:0 "朝内"
+  prince_female_tai_group_empire:0 "朝内"
 
 ## Shan Tai -> More Indian influence in general
 
@@ -838,10 +849,10 @@
   empire_loloish_group:0 "帝国"
 
 # Princes (children of Kings/Emperors)
-  title_prince_male_loloish_group:0 "公子"
-  title_prince_female_loloish_group:0 "公女"
-  title_prince_male_loloish_group_empire:0 "親王"
-  title_prince_female_loloish_group_empire:0 "公主"
+  prince_male_loloish_group:0 "公子"
+  prince_female_loloish_group:0 "公女"
+  prince_male_loloish_group_empire:0 "親王"
+  prince_female_loloish_group_empire:0 "公主"
 
 ####################################################
 

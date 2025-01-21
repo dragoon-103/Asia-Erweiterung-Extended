@@ -473,8 +473,8 @@ k_goryeo = {
 	1146.4.10 = {
 		holder = wang_uijong
 	}
-	1173.11.7 = {
-		holder = wang_myeongjong
+	1170.8.1 = {
+		holder = wang_myeongjong # Myeongjong installed as a puppet king by I Uibang
 	}
 }
 d_pyongyang = {
@@ -507,6 +507,9 @@ d_pyongyang = {
 		holder = pyongyang_placeholder_001
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = pyongyang_placeholder_002
 		liege = "k_goryeo"
@@ -538,6 +541,9 @@ c_pyongyang = {
 	871.1.1 = {
 		holder = 0
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_anju = {
 	756.1.1 = {
@@ -561,6 +567,9 @@ c_anju = {
 	871.1.1 = {
 		holder = 0
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_uiju = {
 	756.1.1 = {
@@ -583,6 +592,75 @@ c_uiju = {
 	} 
 	871.1.1 = {
 		holder = 0
+	}
+	1170.8.1 = {
+		government = feudal_government
+	}
+}
+c_nyongbyon = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	682.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = 120000005
+		liege = "k_balhae"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+	936.1.1 = {
+		de_jure_liege = "d_pyongyang"
+	}
+	1170.8.1 = {
+		government = feudal_government
+	}
+}
+c_yeongwon = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	682.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = 120000005
+		liege = "k_balhae"
+	}
+	871.1.1 = {
+		holder = 0
+	}
+	936.1.1 = {
+		de_jure_liege = "d_pyongyang"
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 }
 d_amnok = {
@@ -664,66 +742,6 @@ c_sakju_nk = {
 		holder = 0
 	}
 }
-c_nyongbyon = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 14 }
-	
-	682.1.1 = {
-		government = administrative_government
-		effect = {
-			if = {
-				limit = {
-					exists = holder
-					NOT = { has_dlc_feature = roads_to_power }
-				}
-				holder = {
-					change_government = feudal_government
-				}
-			}
-		}
-	}
-	866.1.1 = {
-		holder = 120000005
-		liege = "k_balhae"
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	936.1.1 = {
-		de_jure_liege = "d_pyongyang"
-	}
-}
-c_yeongwon = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 9 }
-	1178.1.1 = { change_development_level = 14 }
-	
-	682.1.1 = {
-		government = administrative_government
-		effect = {
-			if = {
-				limit = {
-					exists = holder
-					NOT = { has_dlc_feature = roads_to_power }
-				}
-				holder = {
-					change_government = feudal_government
-				}
-			}
-		}
-	}
-	866.1.1 = {
-		holder = 120000005
-		liege = "k_balhae"
-	}
-	871.1.1 = {
-		holder = 0
-	}
-	936.1.1 = {
-		de_jure_liege = "d_pyongyang"
-	}
-}
 d_okjeo = { 
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 8 }
@@ -781,6 +799,9 @@ d_donggye = {
 		holder = donggye_placeholder_001
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = donggye_placeholder_002
 		liege = "k_goryeo"
@@ -817,6 +838,9 @@ c_jeongju = {
 	1066.1.1 = {
 		holder = donggye_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = donggye_placeholder_002
 	}
@@ -852,6 +876,9 @@ c_wonsan = {
 	}
 	1066.1.1 = {
 		holder = donggye_placeholder_001
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = donggye_placeholder_002
@@ -895,6 +922,9 @@ d_hanju = {
 		holder = hanju_placeholder_002
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = hanju_placeholder_003
 		liege = "k_goryeo"
@@ -918,6 +948,9 @@ c_hanju = {
 				}
 			}
 		}
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 }
 c_dongju = {
@@ -944,6 +977,9 @@ c_dongju = {
 	1066.1.1 = {
 		holder = sakju_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = sakju_placeholder_002
 	}
@@ -967,6 +1003,9 @@ c_nanhanseong = {
 			}
 		}
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_geoseo = {
 	867.1.1 = { change_development_level = 10 }
@@ -986,6 +1025,36 @@ c_geoseo = {
 				}
 			}
 		}
+	}
+	1170.8.1 = {
+		government = feudal_government
+	}
+}
+c_ganghwa = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+
+	682.1.1 = {
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1170.8.1 = {
+		government = feudal_government
+	}
+	1174.1.1 = {
+		holder = jeong_jungbu
+		liege = "k_goryeo"
 	}
 }
 d_kaeseong = {
@@ -1060,7 +1129,7 @@ d_kaeseong = {
 	1146.4.10 = {
 		holder = wang_uijong
 	}
-	1173.11.7 = {
+	1170.8.1 = {
 		holder = wang_myeongjong
 	}
 }
@@ -1152,7 +1221,7 @@ c_kaeseong = {
 	1146.4.10 = {
 		holder = wang_uijong
 	}
-	1173.11.7 = {
+	1170.8.1 = {
 		holder = wang_myeongjong
 	}
 }
@@ -1178,6 +1247,9 @@ d_haeju = {
 	1066.1.1 = {
 		holder = haeju_placeholder_002
 		liege = "k_goryeo"
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = haeju_placeholder_003
@@ -1217,6 +1289,9 @@ c_paegangjin = {
 		holder = haeju_placeholder_002
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = haeju_placeholder_003
 		liege = "k_goryeo"
@@ -1255,6 +1330,9 @@ c_haeju = {
 		holder = haeju_placeholder_002
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = haeju_placeholder_003
 		liege = "k_goryeo"
@@ -1292,6 +1370,9 @@ c_hwanghae = {
 	1066.1.1 = {
 		holder = haeju_placeholder_002
 		liege = "k_goryeo"
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = haeju_placeholder_003
@@ -1357,6 +1438,9 @@ c_myeongju = {
 	1066.1.1 = {
 		holder = donggye_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = donggye_placeholder_002
 	}
@@ -1385,6 +1469,9 @@ c_sokcho = {
 	1066.1.1 = {
 		holder = donggye_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = donggye_placeholder_002
 	}
@@ -1412,6 +1499,9 @@ c_ulchin = {
 	}
 	1066.1.1 = {
 		holder = yangju_placeholder_001
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = yangju_placeholder_002
@@ -1452,6 +1542,9 @@ d_sakju = {
 		holder = sakju_placeholder_001
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = sakju_placeholder_002
 		liege = "k_goryeo"
@@ -1476,6 +1569,9 @@ c_sakju = {
 			}
 		}
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_cheorwan = {
 	867.1.1 = { change_development_level = 6 }
@@ -1495,6 +1591,9 @@ c_cheorwan = {
 				}
 			}
 		}
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 }
 c_wonju = {
@@ -1521,6 +1620,9 @@ c_wonju = {
 	}
 	1066.1.1 = {
 		holder = hanju_placeholder_002
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = hanju_placeholder_003
@@ -1553,6 +1655,9 @@ d_yangju = {
 		holder = yangju_placeholder_001
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = yangju_placeholder_002
 		liege = "k_goryeo"
@@ -1580,6 +1685,9 @@ c_gyeongju = {
 	866.1.1 = {
 		holder = 110000001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_yangju = {
 	867.1.1 = { change_development_level = 12 }
@@ -1603,6 +1711,9 @@ c_yangju = {
 	866.1.1 = {
 		holder = 110000001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_gimhae = {
 	867.1.1 = { change_development_level = 12 }
@@ -1622,6 +1733,9 @@ c_gimhae = {
 				}
 			}
 		}
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 }
 d_gangju = {
@@ -1675,6 +1789,9 @@ c_gangju = {
 	1066.1.1 = {
 		holder = yangju_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = yangju_placeholder_002
 	}
@@ -1703,6 +1820,9 @@ c_dalseong = {
 	}
 	1066.1.1 = {
 		holder = yangju_placeholder_001
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = yangju_placeholder_002
@@ -1759,6 +1879,9 @@ c_sangju = {
 	1066.1.1 = {
 		holder = yangju_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = yangju_placeholder_002
 	}
@@ -1787,6 +1910,9 @@ c_gochang = {
 	}
     1066.1.1 = {
 		holder = yangju_placeholder_001
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = yangju_placeholder_002
@@ -1847,6 +1973,9 @@ c_ungju = {
 	1066.1.1 = {
 		holder = hanju_placeholder_002
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = hanju_placeholder_003
 	}
@@ -1875,6 +2004,9 @@ c_cheongju = {
 	}
 	1066.1.1 = {
 		holder = hanju_placeholder_002
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = hanju_placeholder_003
@@ -1910,6 +2042,9 @@ d_jeonju = {
 		holder = jeonju_placeholder_001
 		liege = "k_goryeo"
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = jeonju_placeholder_002
 		liege = "k_goryeo"
@@ -1934,6 +2069,9 @@ c_jeonju = {
 			}
 		}
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 c_ogya = {
 	867.1.1 = { change_development_level = 10 }
@@ -1953,6 +2091,9 @@ c_ogya = {
 				}
 			}
 		}
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 }
 d_muju = {
@@ -2009,6 +2150,9 @@ c_muju = {
 	1066.1.1 = {
 		holder = jeonju_placeholder_001
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = jeonju_placeholder_002
 	}
@@ -2038,6 +2182,9 @@ c_geumsan = {
 	1066.1.1 = {
 		holder = jeonju_placeholder_001	
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 	1178.1.1 = {
 		holder = jeonju_placeholder_002
 	}
@@ -2066,6 +2213,9 @@ c_yeosu = {
 	}
 	1066.1.1 = {
 		holder = jeonju_placeholder_001	
+	}
+	1170.8.1 = {
+		government = feudal_government
 	}
 	1178.1.1 = {
 		holder = jeonju_placeholder_002
@@ -2182,6 +2332,9 @@ d_tamna = {
 			}
 		}
 	}
+	1170.8.1 = {
+		government = feudal_government
+	}
 }
 
 c_tamna = {
@@ -2218,5 +2371,12 @@ c_tamna = {
 	}
 	1101.1.1 = {
 		holder = 0
+	}
+	1170.8.1 = {
+		government = feudal_government
+	}
+	1174.1.1 = {
+		holder = jeong_jungbu
+		liege = "k_goryeo"
 	}
 }

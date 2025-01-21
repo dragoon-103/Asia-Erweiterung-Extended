@@ -94,10 +94,10 @@
 # c_limbang OR Pangkalan Tarap
 12186 = {
     # Misc
-	culture = brunei
-	religion = mahayana
+	culture = kayan
+	religion = kaharingan
 	holding = castle_holding
-    # History
+    #History
 	867.1.1 = {
 		buildings = {
 			plantations_01 # Pangkalan Tarap means a base for Tarap (a fruit in Borneo)
@@ -124,13 +124,10 @@
 	culture = kadazan
 	religion = kaharingan
 	holding = tribal_holding
-    # History
-	867.1.1 = {
-		buildings = {
-			common_tradeport_01
-		}
-	}
+    #History
 	1066.1.1 = {
+		religion = mahayana
+		holding = castle_holding
 		buildings = {
 			common_tradeport_01
 			plantations_01
@@ -195,9 +192,9 @@
 ###c_labuan (Labuan)
 12133 = {	# Labuan
 	# Misc
-	culture = brunei
-	religion = mahayana
-	holding = castle_holding
+	culture = kadazan
+	religion = kaharingan
+	holding = tribal_holding
 }
 
 # d_keningau ####################################
@@ -402,6 +399,10 @@
 	religion = kaharingan
 	holding = tribal_holding
     # History
+	1066.1.1 = {
+		religion = mahayana
+		holding = castle_holding
+	}
     1368.1.1 = { # Brunei Sultanate firm establishment
 		religion = ashari
 		holding = castle_holding
@@ -518,11 +519,11 @@
 ###c_berau (Berau)
 11440 = {	# Sangkulirang
 	culture = malay
-	religion = shaivism
-	holding = castle_holding
+	religion = malayic
+	holding = tribal_holding
 }
 12196 = {	# Lobang Kelatak
-	holding = city_holding
+	holding = none
 }
 
 ###c_kelay (Kelay)

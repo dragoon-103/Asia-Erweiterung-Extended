@@ -246,6 +246,9 @@ k_panjalu = {
 		holder = isyana011
 		de_jure_liege = "e_javadvipa"
 	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 
 	1240.1.1 = {
 		holder = rajasa_8
@@ -265,10 +268,10 @@ d_panjalu = {
 	}
 	1042.1.1 = {
 		holder = isyana011
-	}
-
-	1042.1.1 = {
 		de_jure_liege = "k_panjalu"
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 
 	1240.1.1 = {
@@ -288,6 +291,9 @@ c_wwatan = {
 	1042.1.1 = {
 		holder = isyana011
 	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 c_panjalu = {
 	867.1.1 = { change_development_level = 8 }
@@ -300,6 +306,9 @@ c_panjalu = {
 	}
 	1042.1.1 = {
 		holder = isyana011
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 	1240.1.1 = {
 		holder = isyana_12
@@ -317,6 +326,9 @@ c_jagaraga = {
 	1042.1.1 = {
 		holder = isyana011
 	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 	1240.1.1 = {
 		liege = "d_mataram"
 	}
@@ -329,6 +341,10 @@ k_janggala = {
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
 	}
+	1136.1.1 = {
+		holder = 0
+		de_jure_liege = 0
+	}
 }
 
 d_janggala = {
@@ -340,12 +356,17 @@ d_janggala = {
 		holder = sanjaya011 # Rakai Limus
 		liege = "k_java"
 	}
+	1045.1.1 = {
+		de_jure_liege = "k_janggala"
+	}
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
 	}
-
-	1045.1.1 = {
-		de_jure_liege = "k_janggala"
+	1136.1.1 = {
+		de_jure_liege = "k_panjalu"
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 }
 c_hujunggaluh = {
@@ -359,6 +380,9 @@ c_hujunggaluh = {
 	}
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 	1240.1.1 = {
 		liege = "d_panjalu"
@@ -375,6 +399,9 @@ c_kahuripan = {
 	}
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 	1240.1.1 = {
 		liege = "d_panjalu"
@@ -409,6 +436,9 @@ c_matahun = {
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
 	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 c_kambangputih = {
 	867.1.1 = {
@@ -417,6 +447,9 @@ c_kambangputih = {
 	}
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 }
 c_tumapel = {
@@ -444,6 +477,9 @@ d_madura = {
 	1045.1.1 = {
 		de_jure_liege = "k_janggala"
 	}
+	1136.1.1 = {
+		de_jure_liege = "k_panjalu"
+	}
 }
 
 c_ngaliyao = {
@@ -466,20 +502,35 @@ d_lumajang = {
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
 	}
+	1136.1.1 = {
+		de_jure_liege = "k_panjalu"
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 c_lumajang = {
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 }
 c_pakembangan = {
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
 	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 c_wirabhumi = {
 	1059.1.1 = {
 		holder = isyana025 # Samarotsaha
+	}
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
 	}
 }
 
@@ -530,7 +581,7 @@ k_sunda = { # Sunda-Galuh
 		holder = galuh039
 	}
 	1175.1.1 = {
-		holder = sunda_26
+		holder = sunda_placeholder_001
 	}
 }
 
@@ -592,7 +643,7 @@ d_sunda = {
 	}
 
 	1175.1.1 = {
-		holder = sunda_26
+		holder = sunda_placeholder_001
 		liege = "k_sunda"
 	}
 }
@@ -649,7 +700,7 @@ c_sunda = {
 	}
 
 	1175.1.1 = {
-		holder = sunda_26
+		holder = sunda_placeholder_001
 		liege = "d_sunda"
 	}
 }
@@ -706,7 +757,7 @@ c_wahanten = {
 	}
 
 	1175.1.1 = {
-		holder = sunda_26
+		holder = sunda_placeholder_001
 		liege = "d_sunda"
 	}
 }
@@ -763,7 +814,7 @@ c_salakanagara = {
 	}
 
 	1175.1.1 = {
-		holder = sunda_26
+		holder = sunda_placeholder_001
 		liege = "d_sunda"
 	}
 }
@@ -1053,7 +1104,7 @@ d_galuh = {
 	}
 
 	1175.1.1 = {
-		holder = sunda_26
+		holder = sunda_placeholder_001
 		liege = "k_sunda"
 	}
 }	
@@ -1251,6 +1302,9 @@ d_bali_sea = {
 	1088.1.1 = {
 		holder = bali012
 	}
+	1175.1.1 = {
+		holder = bali_placeholder_001
+	}
 	1240.1.1 = {
 		holder = bali_17
 	}
@@ -1264,6 +1318,9 @@ c_bedahulu = {
 	1066.1.1 = {
 		holder = bali010
 	}
+	1175.1.1 = {
+		holder = bali_placeholder_001
+	}
 	1240.1.1 = {
 		holder = bali_17
 	}
@@ -1272,6 +1329,9 @@ c_bedahulu = {
 c_lempuyang = {
 	1066.1.1 = {
 		holder = bali010
+	}
+	1175.1.1 = {
+		holder = bali_placeholder_001
 	}
 	1240.1.1 = {
 		holder = bali_17
@@ -1282,6 +1342,9 @@ c_manasa = {
 	1066.1.1 = {
 		holder = bali010
 	}
+	1175.1.1 = {
+		holder = bali_placeholder_001
+	}
 	1240.1.1 = {
 		holder = bali_17
 	}
@@ -1290,4 +1353,31 @@ c_manasa = {
 d_lombok = {
 	867.1.1 = { change_development_level = 4 }
 	1066.1.1 = { change_development_level = 8 }
+	1175.1.1 = {
+		holder = lombok_placeholder_001
+	}
+}
+
+c_pejanggik = {
+	1066.1.1 = {
+		holder = bali010
+	}
+	1175.1.1 = {
+		holder = lombok_placeholder_001
+	}
+}
+
+c_selaparang = {
+	1066.1.1 = {
+		holder = bali010
+	}
+	1175.1.1 = {
+		holder = lombok_placeholder_001
+	}
+}
+
+c_taliwang = {
+	1175.1.1 = {
+		holder = lombok_placeholder_001
+	}
 }

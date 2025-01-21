@@ -280,7 +280,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			base = 0
 			modifier = {
 				add = 200
-				has_title = title:d_yamato_imperial
+				has_title = title:d_koshitsu
 				NOR = {
 					AND = { is_ruler = yes government_has_flag = government_is_mercenary  }
 					government_has_flag = government_is_republic
@@ -554,7 +554,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = indian_commoner_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -574,7 +574,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = indian_low_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -595,7 +595,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = indian_high_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}       
@@ -618,7 +618,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_common
+				template = indian_commoner_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -644,7 +644,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_nobility
+				template = indian_low_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}   
@@ -671,7 +671,7 @@ aep_clothes = { # Special group for the ruler designer only. The game expects th
 			accessory = {
 				mode = add
 				gene = clothes
-				template = javanese_royalty
+				template = indian_high_nobility_clothes
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}       
@@ -1807,7 +1807,7 @@ aep_clothes_armor = {
             accessory = {
                 mode = add
                 gene = clothes
-                template = javanese_common
+                template = indian_commoner_clothes
 				range = { 0 1 } # For the randomness to work correctly
             }
         }

@@ -71,14 +71,14 @@ tradition_chinese_characters = {
 	}
 }
 
-tradition_samurai_spirit = {
+tradition_samurai = {
 	category = societal
 
 	layers = {
 		0 = martial
-		1 = samurai_spirit
+		1 = samurai.dds
 		3 = 1.dds
-		4 = tradition_samurai_spirit.dds
+		4 = tradition_samurai.dds
 	}
 	
 	is_shown = {

@@ -10,8 +10,8 @@
  culture_parameter_unlock_maa_ksatra:0 "[GetMaA('ksatra').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
 
  #Military
- tradition_samurai_spirit_name:0 "무사도"
- tradition_samurai_spirit_desc:0 "사무라이는 일본의 고위 전사 계급으로, 부시도라는 이름의 엄중한 무사도를 따릅니다. 무사도는 근면, 용맹, 주군을 향한 충성 등의 미덕을 절체절명의 위기에서도 따를 것을 강조합니다."
+ tradition_samurai_name:0 "사무라이"
+ tradition_samurai_desc:0 "사무라이는 일본의 엘리트 전사 계급으로, 가문에 대한 충성, 뛰어난 무예, 강력한 후원자에 대한 헌신으로 높은 평가를 받습니다. 그들의 정신적 가르침은 명예, 용기, 그리고 자신이 보호하는 사람들에 대한 헌신을 강조하며, 죽음 앞에서도 흔들리지 않습니다."
  samurai:0 "사무라이"
  samurai_flavor:0 "뛰어난 규율과 혹독한 기마술, 궁술 훈련을 통해 사무라이들은 일본 무사가 지향해야할 이상 그 자체가 되었습니다."
  sohei:0 "소헤"

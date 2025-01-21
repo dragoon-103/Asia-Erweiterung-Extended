@@ -54,3 +54,7 @@
 	name = "dynn_Son"
 	culture = "balhae"
 }
+61000008 = { # Hadong Jeong Clan 河東鄭氏
+	name = "dynn_Hadong_Jeong"
+	culture = "goryeon"
+}

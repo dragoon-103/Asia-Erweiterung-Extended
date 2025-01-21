@@ -315,6 +315,28 @@ ogachi_placeholder_001 = {
 		death = yes
 	}
 }
+settsu_placeholder_001 = {
+	name = Taneyasu
+	religion = shinto
+	culture = yamato
+	831.1.1 = {
+		birth = yes
+	}
+	886.1.1 = {
+		death = yes
+	}
+}
+iga_placeholder_001 = {
+	name = Chikatada
+	religion = shinto
+	culture = yamato
+	834.1.1 = {
+		birth = yes
+	}
+	888.1.1 = {
+		death = yes
+	}
+}
 
 #########################
 ### Silla Vassals 867 ###
@@ -703,9 +725,9 @@ tanintharyi_placeholder_001 = {
 	}
 }
 
-#################################
-### Mentawai Placeholders 867 ###
-#################################
+##################################
+### Nusantara Placeholders 867 ###
+##################################
 
 simeulue_placeholder_001 = {
 	name = Kirtisingha
@@ -1093,17 +1115,6 @@ shimotsuke_placeholder_001 = {
 		death = yes
 	}
 }
-kazusa_placeholder_001 = {
-	name = Toyosada
-	religion = shinto
-	culture = yamato
-	1029.1.1 = {
-		birth = yes
-	}
-	1080.1.1 = {
-		death = yes
-	}
-}
 wakasa_placeholder_002 = {
 	name = Terumoto
 	religion = shinto
@@ -1288,17 +1299,6 @@ hyuga_placeholder_002 = {
 		birth = yes
 	}
 	1086.1.1 = {
-		death = yes
-	}
-}
-osumi_placeholder_002 = {
-	name = Masamitsu
-	religion = shinto
-	culture = yamato
-	1033.1.1 = {
-		birth = yes
-	}
-	1074.1.1 = {
 		death = yes
 	}
 }
@@ -1844,7 +1844,7 @@ panai_placeholder_001 = {
 
 aceh_placeholder_001 = {
 	name = Syaari
-	religion = vaishnaist
+	religion = vaishnavism
 	culture = aceh
 	1031.1.1 = {
 		birth = yes
@@ -1856,7 +1856,7 @@ aceh_placeholder_001 = {
 
 perlak_placeholder_001 = {
 	name = Nor
-	religion = vaishnaist
+	religion = vaishnavism
 	culture = aceh
 	1031.1.1 = {
 		birth = yes
@@ -1868,7 +1868,7 @@ perlak_placeholder_001 = {
 
 pasai_placeholder_001 = {
 	name = Kertanagara
-	religion = vaishnaist
+	religion = vaishnavism
 	culture = aceh
 	1033.1.1 = {
 		birth = yes
@@ -2032,14 +2032,14 @@ tanintharyi_placeholder_002 = {
 	}
 }
 
-##################################
-### Mentawai Placeholders 1066 ###
-##################################
+###################################
+### Nusantara Placeholders 1066 ###
+###################################
 
 simeulue_placeholder_002 = {
 	name = Wisnu
 	religion = batak
-	culture = mentawai 
+	culture = simeulue 
 	1024.1.1 = {
 		birth = yes
 	}
@@ -2050,7 +2050,7 @@ simeulue_placeholder_002 = {
 nias_placeholder_002 = {
 	name = Danu
 	religion = batak
-	culture = mentawai 
+	culture = nias 
 	1017.1.1 = {
 		birth = yes
 	}
@@ -2061,7 +2061,7 @@ nias_placeholder_002 = {
 batu_islands_placeholder_002 = {
 	name = Langlangbumi
 	religion = batak
-	culture = mentawai 
+	culture = nias 
 	1043.1.1 = {
 		birth = yes
 	}
@@ -2094,8 +2094,310 @@ pagai_placeholder_002 = {
 enggano_placeholder_002 = {
 	name = Sarwaniwariwirya
 	religion = batak
-	culture = mentawai 
+	culture = enggano 
 	1013.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+betong_placeholder_001 = {
+	name = Sipet
+	religion = kaharingan
+	culture = iban
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+sarikei_placeholder_001 = {
+	name = Lisu
+	religion = kaharingan
+	culture = iban
+	1033.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+sibu_placeholder_001 = {
+	name = Rumbun
+	religion = kaharingan
+	culture = iban
+	1008.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+mukah_placeholder_001 = {
+	name = Baila
+	religion = mahayana
+	culture = melanau
+	1012.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+kuala_tatau_placeholder_001 = {
+	name = Lawai
+	religion = kaharingan
+	culture = iban
+	1026.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+kapit_placeholder_001 = {
+	name = Ngau
+	religion = kaharingan
+	culture = iban
+	1037.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+bintulu_placeholder_001 = {
+	name = Bakena
+	religion = kaharingan
+	culture = iban
+	1007.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+miri_placeholder_001 = {
+	name = Arai
+	religion = kaharingan
+	culture = iban
+	1032.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+labuan_placeholder_001 = {
+	name = Mahawangsa
+	religion = kaharingan
+	culture = kadazan 
+	1035.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+kuala_penyu_placeholder_001 = {
+	name = Hamen
+	religion = kaharingan
+	culture = kadazan 
+	1000.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+beaufort_placeholder_001 = {
+	name = Rumbun
+	religion = kaharingan
+	culture = murut 
+	1047.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+kota_kinabalu_placeholder_001 = {
+	name = Ampong
+	religion = mahayana
+	culture = kadazan 
+	1043.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+kota_belud_placeholder_001 = {
+	name = Danum
+	religion = kaharingan
+	culture = kadazan 
+	1009.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+
+####################################
+### Philippine Placeholders 1066 ###
+####################################
+
+tondo_placeholder_001 = {
+	name = Awat
+	religion = shaivism
+	culture = tagalog
+	1015.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+pangpang_placeholder_001 = {
+	name = Bayu
+	religion = malyari
+	culture = pampangan
+	1001.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+sambali_placeholder_001 = {
+	name = Dailisan
+	religion = malyari
+	culture = sambal
+	1019.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+maynila_placeholder_001 = {
+	name = Aguhu
+	religion = anito
+	culture = tagalog
+	1034.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+pila_ph_placeholder_001 = {
+	name = Banisa
+	religion = anito
+	culture = tagalog
+	1043.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+mait_placeholder_001 = {
+	name = Gayak
+	religion = shaivism
+	culture = tagalog
+	1013.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+malindug_placeholder_001 = {
+	name = Ligetas
+	religion = anito
+	culture = tagalog
+	1035.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+mamburao_placeholder_001 = {
+	name = Gudang
+	religion = anito
+	culture = tagalog
+	1039.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+minolo_placeholder_001 = {
+	name = Lindur
+	religion = anito
+	culture = tagalog
+	1035.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+tolay_placeholder_001 = {
+	name = Puyu
+	religion = anito
+	culture = tagalog
+	1033.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+balayan_placeholder_001 = {
+	name = Galang
+	religion = anito
+	culture = tagalog
+	1042.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+butuan_placeholder_001 = {
+	name = Narah
+	religion = vajrayana
+	culture = bisaya
+	1023.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+suligaw_placeholder_001 = {
+	name = Basi
+	religion = dayaw
+	culture = bisaya
+	1045.1.1 = {
+		birth = yes
+	}
+	1080.1.1 = {
+		death = yes
+	}
+}
+agusan_placeholder_001 = {
+	name = Tarutungan
+	religion = tulumanon
+	culture = manobo
+	1036.1.1 = {
 		birth = yes
 	}
 	1080.1.1 = {
@@ -2816,6 +3118,176 @@ luang_namtha_placeholder_002 = {
 	}
 }
 
+#############################
+### Japanese Vassals 1178 ###
+#############################
+
+sado_placeholder_001 = {
+	name = Fusanori
+	religion = shinto
+	culture = yamato
+	1155.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kaga_placeholder_001 = {
+	name = Hidemasa
+	religion = shinto
+	culture = yamato
+	1122.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+awaji_placeholder_001 = {
+	name = Tokiie
+	religion = shinto
+	culture = yamato
+	1130.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+suo_placeholder_001 = {
+	name = Tomozane
+	religion = shinto
+	culture = yamato
+	1144.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+aki_placeholder_001 = {
+	name = Yasutoshi
+	religion = shinto
+	culture = yamato
+	1146.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+bingo_placeholder_002 = {
+	name = Toyosuke
+	religion = shinto
+	culture = yamato
+	1137.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+bitchu_placeholder_001 = {
+	name = Tadayasu
+	religion = shinto
+	culture = yamato
+	1124.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+bizen_placeholder_002 = {
+	name = Masafusa
+	religion = shinto
+	culture = yamato
+	1158.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+mimasaka_placeholder_001 = {
+	name = Tokitsuna
+	religion = shinto
+	culture = yamato
+	1127.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+iwami_placeholder_003 = {
+	name = Ujitora
+	religion = shinto
+	culture = yamato
+	1132.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+izumo_placeholder_003 = {
+	name = Mochitaka
+	religion = shinto
+	culture = yamato
+	1110.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+hoki_placeholder_002 = {
+	name = Kiyotaka
+	religion = shinto
+	culture = yamato
+	1124.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+inaba_placeholder_003 = {
+	name = Mitsukore
+	religion = shinto
+	culture = yamato
+	1130.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+tsushima_placeholder_003 = {
+	name = Chikatada
+	religion = shinto
+	culture = yamato
+	1145.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+buzen_placeholder_002 = {
+	name = Korekage
+	religion = shinto
+	culture = yamato
+	1140.1.1 = {
+		birth = yes	
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
 #############################################
 ### Northern Manchurian Placeholders 1178 ###
 #############################################
@@ -2880,12 +3352,544 @@ lavo_placeholder_001 = {
 		death = yes
 	}
 }
-
 haripunjaya_placeholder_001 = {
 	name = Geissadiya
 	religion = theravada
 	culture = mon 
 	1145.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+arakan_placeholder_001 = {
+	name = Thurrein
+	religion = theravada
+	culture = rakhine 
+	1149.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+###################################
+### Nusantara Placeholders 1178 ###
+###################################
+
+srivijaya_placeholder_001 = {
+	name = Dhaneswara
+	religion = vajrayana
+	culture = malay
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+melayu_placeholder_001 = {
+	name = Brajawisesa
+	religion = vajrayana
+	culture = malay
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+gayo_placeholder_001 = {
+	name = Dhaneswara
+	religion = batak
+	culture = gayo 
+	1144.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+perlak_placeholder_002 = {
+	name = Madja
+	religion = vaishnavism
+	culture = aceh 
+	1143.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+pasai_placeholder_002 = {
+	name = Wijaya
+	religion = vaishnavism
+	culture = aceh 
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+simeulue_placeholder_003 = {
+	name = Sarweswara
+	religion = batak
+	culture = simeulue 
+	1147.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+nias_placeholder_003 = {
+	name = Kutur
+	religion = batak
+	culture = nias 
+	1153.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+batu_islands_placeholder_003 = {
+	name = Cempaku
+	religion = batak
+	culture = nias 
+	1143.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+siberut_placeholder_003 = {
+	name = Wadua
+	religion = batak
+	culture = mentawai 
+	1144.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+pagai_placeholder_003 = {
+	name = Sabdang
+	religion = batak
+	culture = mentawai 
+	1154.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+enggano_placeholder_003 = {
+	name = Kameswara
+	religion = batak
+	culture = enggano 
+	1160.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+sunda_placeholder_001 = {
+	name = Samaratungga
+	dynasty = house_Galuh
+	religion = shaivism
+	culture = sunda 
+	1151.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+panjalu_placeholder_001 = {
+	name = Dipenagara
+	dynasty = dynn_isyana
+	religion = shaivism
+	culture = java 
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+bali_placeholder_001 = {
+	name = Sajjana
+	dynasty = dynn_warmadewa
+	religion = shaivism
+	culture = bali 
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+lombok_placeholder_001 = {
+	name = Agrajasama
+	religion = shaivism
+	culture = sasak 
+	1154.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+santubong_placeholder_001 = {
+	name = Wirama
+    dynasty = house_Serawak
+	religion = mahayana
+	culture = malay 
+	1152.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+brunei_placeholder_001 = {
+	name = Suhtrisingha
+    dynasty = house_Barune
+	religion = mahayana
+	culture = brunei
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+nan_sarunai_placeholder_001 = {
+	name = Sarikaburangan
+	religion = vajrayana
+	culture = banjar
+	1145.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kutai_placeholder_001 = {
+	name = Walajayakertaningrat
+	dynasty = house_Warman
+	religion = shaivism
+	culture = malay
+	1160.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+betong_placeholder_002 = {
+	name = Labih
+	religion = kaharingan
+	culture = iban
+	1147.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+sarikei_placeholder_002 = {
+	name = Binti
+	religion = kaharingan
+	culture = iban
+	1133.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+sibu_placeholder_002 = {
+	name = Keling
+	religion = kaharingan
+	culture = iban
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+mukah_placeholder_002 = {
+	name = Pasukala
+	religion = mahayana
+	culture = melanau
+	1134.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kuala_tatau_placeholder_002 = {
+	name = Maharati
+	religion = kaharingan
+	culture = iban
+	1143.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kapit_placeholder_002 = {
+	name = Sipet
+	religion = kaharingan
+	culture = iban
+	1144.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+bintulu_placeholder_002 = {
+	name = Ngau
+	religion = kaharingan
+	culture = iban
+	1142.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+miri_placeholder_002 = {
+	name = Labih
+	religion = kaharingan
+	culture = iban
+	1137.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+labuan_placeholder_002 = {
+	name = Adhiswara
+	religion = kaharingan
+	culture = kadazan
+	1137.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kuala_penyu_placeholder_002 = {
+	name = Ullok
+	religion = kaharingan
+	culture = kadazan
+	1130.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+beaufort_placeholder_002 = {
+	name = Bakena
+	religion = kaharingan
+	culture = murut
+	1138.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kota_kinabalu_placeholder_002 = {
+	name = Djata
+	religion = mahayana
+	culture = kadazan
+	1132.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+kota_belud_placeholder_002 = {
+	name = Nanjan
+	religion = kaharingan
+	culture = kadazan
+	1144.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+
+####################################
+### Philippine Placeholders 1178 ###
+####################################
+
+tondo_placeholder_002 = {
+	name = Bakal
+	religion = shaivism
+	culture = tagalog
+	1152.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+pangpang_placeholder_002 = {
+	name = Gasang
+	religion = malyari
+	culture = pampangan
+	1139.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+sambali_placeholder_002 = {
+	name = Turingan
+	religion = malyari
+	culture = sambal
+	1132.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+maynila_placeholder_002 = {
+	name = Bakal
+	religion = anito
+	culture = tagalog
+	1138.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+pila_ph_placeholder_002 = {
+	name = Iruk
+	religion = anito
+	culture = tagalog
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+mait_placeholder_002 = {
+	name = Bugtung
+	religion = shaivism
+	culture = tagalog
+	1155.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+malindug_placeholder_002 = {
+	name = Ruwag
+	religion = anito
+	culture = tagalog
+	1145.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+mamburao_placeholder_002 = {
+	name = Karat
+	religion = anito
+	culture = tagalog
+	1137.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+minolo_placeholder_002 = {
+	name = Kinyang
+	religion = anito
+	culture = tagalog
+	1138.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+tolay_placeholder_002 = {
+	name = Kambang
+	religion = anito
+	culture = tagalog
+	1148.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+balayan_placeholder_002 = {
+	name = Alug
+	religion = anito
+	culture = tagalog
+	1140.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+butuan_placeholder_002 = {
+	name = Hilaw
+	religion = vajrayana
+	culture = bisaya
+	1148.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+suligaw_placeholder_002 = {
+	name = Dunung
+	religion = dayaw
+	culture = bisaya
+	1150.1.1 = {
+		birth = yes
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
+agusan_placeholder_002 = {
+	name = Banuang
+	religion = tulumanon
+	culture = manobo
+	1133.1.1 = {
 		birth = yes
 	}
 	1200.1.1 = {

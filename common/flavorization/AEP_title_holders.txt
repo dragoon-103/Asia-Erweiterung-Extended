@@ -86,6 +86,26 @@ count_administrative_female_japanese_group_tohoku = { # Special title given only
 	heritages = { heritage_japanese }
 	titles = { c_aizu c_iwase c_iwaki c_taga c_isawa c_shiwa c_mogami c_tagawa c_ogachi c_akita c_hinai c_nukanobu c_tsugaru }
 }
+count_administrative_male_japanese_group_japan = { # Special title given only to counts based in Japan
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 115
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { c_awa_so c_hitachi c_kazusa c_shimotsuke c_shimosa c_kozuke c_musashi c_sagami c_echigo c_kai c_sado c_shinano c_izu c_mikawa c_suruga c_totomi c_hida c_ise c_mino c_owari c_shima c_echizen c_etchu c_kaga c_noto c_wakasa c_iga c_izumi c_kawachi c_settsu c_yamashiro c_yamato c_omi c_hoki c_inaba c_tajima c_tanba c_tango c_bitchu c_bizen c_harima c_mimasaka c_aki c_bingo c_iwami c_izumo c_nagato c_oki c_suo c_awa c_awaji c_iyo c_kii c_sanuki c_tosa c_bungo c_buzen c_chikugo c_chikuzen c_hizen c_iki c_tsushima c_higo c_hyuga c_satsuma c_osumi }
+}
+count_administrative_female_japanese_group_japan = { # Special title given only to counts based in Japan
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 115
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { c_awa_so c_hitachi c_kazusa c_shimotsuke c_shimosa c_kozuke c_musashi c_sagami c_echigo c_kai c_sado c_shinano c_izu c_mikawa c_suruga c_totomi c_hida c_ise c_mino c_owari c_shima c_echizen c_etchu c_kaga c_noto c_wakasa c_iga c_izumi c_kawachi c_settsu c_yamashiro c_yamato c_omi c_hoki c_inaba c_tajima c_tanba c_tango c_bitchu c_bizen c_harima c_mimasaka c_aki c_bingo c_iwami c_izumo c_nagato c_oki c_suo c_awa c_awaji c_iyo c_kii c_sanuki c_tosa c_bungo c_buzen c_chikugo c_chikuzen c_hizen c_iki c_tsushima c_higo c_hyuga c_satsuma c_osumi }
+}
 duke_administrative_male_japanese_group = {
 	type = character
 	gender = male
@@ -124,23 +144,25 @@ duke_administrative_female_japanese_group_tohoku = { # Special title given only 
 	heritages = { heritage_japanese }
 	titles = { d_mutsu d_dewa }
 }
-king_administrative_male_japanese_group = {
+duke_administrative_male_japanese_group_dazaifu = { # Special title given only to dukes based in the Dazaifu
 	type = character
 	gender = male
 	special = holder
-	tier = kingdom
-	priority = 143
+	tier = duchy
+	priority = 124
 	governments = { administrative_government }
 	heritages = { heritage_japanese }
+	titles = { d_dazaifu }
 }
-king_administrative_female_japanese_group = {
+duke_administrative_female_japanese_group_dazaifu = { # Special title given only to dukes based in Dewa and Mutsu
 	type = character
 	gender = female
 	special = holder
-	tier = kingdom
-	priority = 143
+	tier = duchy
+	priority = 124
 	governments = { administrative_government }
 	heritages = { heritage_japanese }
+	titles = { d_dazaifu }
 }
 king_administrative_male_japanese_group_japan = { # Special title given only to regents of Japan
 	type = character
@@ -161,6 +183,26 @@ king_administrative_female_japanese_group_japan = { # Special title given only t
 	governments = { administrative_government }
 	heritages = { heritage_japanese }
 	titles = { k_nippon }
+}
+emperor_administrative_male_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
+}
+emperor_administrative_female_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
 }
 
 ### japanese Heritage ###
@@ -203,26 +245,6 @@ count_feudal_female_japanese_group = {
 	governments = { feudal_government clan_government tribal_government }
 	heritages = { heritage_japanese }
 }
-count_feudal_male_japanese_group_tohoku = { # Special title given only to counts based in Dewa and Mutsu
-	type = character
-	gender = male
-	special = holder
-	tier = county
-	priority = 114
-	governments = { feudal_government clan_government tribal_government }
-	heritages = { heritage_japanese }
-	titles = { c_aizu c_iwase c_iwaki c_taga c_isawa c_shiwa c_mogami c_tagawa c_ogachi c_akita c_hinai c_nukanobu c_tsugaru }
-}
-count_feudal_female_japanese_group_tohoku = { # Special title given only to counts based in Dewa and Mutsu
-	type = character
-	gender = female
-	special = holder
-	tier = county
-	priority = 114
-	governments = { feudal_government clan_government tribal_government }
-	heritages = { heritage_japanese }
-	titles = { c_aizu c_iwase c_iwaki c_taga c_isawa c_shiwa c_mogami c_tagawa c_ogachi c_akita c_hinai c_nukanobu c_tsugaru }
-}
 duke_feudal_male_japanese_group = {
 	type = character
 	gender = male
@@ -241,45 +263,27 @@ duke_feudal_female_japanese_group = {
 	governments = { feudal_government clan_government tribal_government }
 	heritages = { heritage_japanese }
 }
-duke_feudal_male_japanese_group_tohoku = { # Special title given only to dukes based in Dewa and Mutsu
+duke_feudal_male_japanese_group_dazaifu = { # Special title given only to dukes based in the Dazaifu
 	type = character
 	gender = male
 	special = holder
 	tier = duchy
 	priority = 124
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government }
 	heritages = { heritage_japanese }
-	titles = { d_mutsu d_dewa }
+	titles = { d_dazaifu }
 }
-duke_feudal_female_japanese_group_tohoku = { # Special title given only to dukes based in Dewa and Mutsu
+duke_feudal_female_japanese_group_dazaifu = { # Special title given only to dukes based in Dewa and Mutsu
 	type = character
 	gender = female
 	special = holder
 	tier = duchy
 	priority = 124
-	governments = { feudal_government clan_government tribal_government }
+	governments = { feudal_government }
 	heritages = { heritage_japanese }
-	titles = { d_mutsu d_dewa }
+	titles = { d_dazaifu }
 }
-king_feudal_male_japanese_group = {
-	type = character
-	gender = male
-	special = holder
-	tier = kingdom
-	priority = 143
-	governments = { feudal_government clan_government tribal_government }
-	heritages = { heritage_japanese }
-}
-king_feudal_female_japanese_group = {
-	type = character
-	gender = female
-	special = holder
-	tier = kingdom
-	priority = 143
-	governments = { feudal_government clan_government tribal_government }
-	heritages = { heritage_japanese }
-}
-king_feudal_male_japanese_group_japan = { # Special title given only to regents of Japan
+king_feudal_male_japanese_group_japan = { # Special title given only to feudal rulers of Japan
 	type = character
 	gender = male
 	special = holder
@@ -289,7 +293,7 @@ king_feudal_male_japanese_group_japan = { # Special title given only to regents 
 	heritages = { heritage_japanese }
 	titles = { k_nippon }
 }
-king_feudal_female_japanese_group_japan = { # Special title given only to regents of Japan
+king_feudal_female_japanese_group_japan = { # Special title given only to feudal rulers of Japan
 	type = character
 	gender = female
 	special = holder
@@ -298,29 +302,68 @@ king_feudal_female_japanese_group_japan = { # Special title given only to regent
 	governments = { feudal_government clan_government tribal_government }
 	heritages = { heritage_japanese }
 	titles = { k_nippon }
+}
+king_feudal_male_japanese_group_shogunate = { # Special title given only to Shōgunates
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { k_fukuhara_bakufu k_kamakura_bakufu k_muromachi_bakufu }
+}
+king_feudal_female_japanese_group_shogunate = { # Special title given only to Shōgunates
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { k_fukuhara_bakufu k_kamakura_bakufu k_muromachi_bakufu }
+}
+
+emperor_feudal_male_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
+}
+emperor_feudal_female_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
 }
 
 ### japanese Heritage ###
 # General
 
 # Rulers
-duke_male_japanese_group_yamato_imperial = { # Special title given only to the Emperor of Japan
+king_male_japanese_group_subordinate = {
 	type = character
 	gender = male
 	special = holder
-	tier = duchy
-	priority = 500
+	tier = kingdom
+	priority = 143
 	heritages = { heritage_japanese }
-	titles = { d_yamato_imperial }
 }
-duke_female_japanese_group_yamato_imperial = { # Special title given only to the Empress of Japan
+king_female_japanese_group_subordinate = {
 	type = character
 	gender = female
 	special = holder
-	tier = duchy
-	priority = 500
+	tier = kingdom
+	priority = 143
 	heritages = { heritage_japanese }
-	titles = { d_yamato_imperial }
 }
 king_male_japanese_group_independent = {
 	type = character
@@ -356,6 +399,22 @@ emperor_female_japanese_group = {
 	priority = 153
 	heritages = { heritage_japanese }
 }
+emperor_male_japanese_group_koshitsu = { # Special title given only to the Emperor of Japan
+	type = character
+	gender = male
+	special = holder
+	priority = 200
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
+}
+emperor_female_japanese_group_koshitsu = { # Special title given only to the Empress Regnant of Japan
+	type = character
+	gender = female
+	special = holder
+	priority = 200
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
+}
 
 # Titles
 barony_japanese_group = {
@@ -388,7 +447,7 @@ duchy_japanese_group_japan = {
 	tier = duchy
 	priority = 124
 	heritages = { heritage_japanese }
-	titles = { d_kinai d_sanin d_sanyo d_chugoku d_nankai d_north_kyushu d_south_kyushu d_chubu d_hokuriku d_tokai d_koshinetsu d_west_kanto d_east_kanto }
+	titles = { d_kinai d_chugoku d_north_kyushu d_south_kyushu d_chubu d_koshinetsu d_west_kanto d_east_kanto }
 }
 duchy_japanese_group_tohoku = {
 	type = title
@@ -544,7 +603,7 @@ emperor_male_chinese_group = {
 	tier = empire
 	priority = 153
 	governments = { administrative_government feudal_government clan_government tribal_government }
-	heritages = { heritage_chinese }
+	heritages = { heritage_chinese heritage_tungusic }
 }
 emperor_female_chinese_group = {
 	type = character
@@ -553,7 +612,7 @@ emperor_female_chinese_group = {
 	tier = empire
 	priority = 153
 	governments = { administrative_government feudal_government clan_government tribal_government }
-	heritages = { heritage_chinese }
+	heritages = { heritage_chinese heritage_tungusic }
 }
 
 # Titles

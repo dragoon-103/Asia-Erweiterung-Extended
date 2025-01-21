@@ -29,6 +29,9 @@ d_brunei = {
 	1066.1.1 = {
 		holder = barune_007
 	}
+	1178.1.1 = {
+		holder = brunei_placeholder_001
+	}
 }
 c_brunei = {
     700.1.1 = { change_development_level = 7 }
@@ -46,32 +49,84 @@ d_temburong = {
 	860.1.1 = {
         holder = barune_001
     }
+	900.1.1 = {
+		holder = barune_002
+	}
+	939.1.1 = {
+		holder = barune_003
+	}
+	968.1.1 = {
+		holder = barune_004
+	}
+	1000.1.1 = {
+		holder = barune_005
+	}
+	1033.1.1 = {
+		holder = barune_006
+	}
 	1066.1.1 = {
 		holder = barune_007
+	}
+	1178.1.1 = {
+		holder = brunei_placeholder_001
 	}
 }
 c_labuan = {
 	700.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 	
-	860.1.1 = {
-        holder = barune_001
-    }
 	1066.1.1 = {
-		holder = barune_007
+		holder = labuan_placeholder_001
+		liege = "d_brunei"
+	}
+	1178.1.1 = {
+		holder = labuan_placeholder_002
 	}
 }
 c_kuala_penyu = {
 	700.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
+
+	1066.1.1 = {
+		holder = kuala_penyu_placeholder_001
+		liege = "d_brunei"
+	}
+	1178.1.1 = {
+		holder = kuala_penyu_placeholder_002
+	}
+}
+c_beaufort = {
+	1066.1.1 = {
+		holder = beaufort_placeholder_001
+		liege = "d_brunei"
+	}
+	1178.1.1 = {
+		holder = beaufort_placeholder_002
+	}
 }
 c_kota_kinabalu = {
     700.1.1 = { change_development_level = 4 }
 	1066.1.1 = { change_development_level = 7 }
+
+	1066.1.1 = {
+		holder = kota_kinabalu_placeholder_001
+		liege = "d_brunei"
+	}
+	1178.1.1 = {
+		holder = kota_kinabalu_placeholder_002
+	}
 }
 c_kota_belud = {
 	700.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
+
+	1066.1.1 = {
+		holder = kota_belud_placeholder_001
+		liege = "d_brunei"
+	}
+	1178.1.1 = {
+		holder = kota_belud_placeholder_002
+	}
 }
 
 
@@ -106,6 +161,9 @@ d_santubong = {
 	1064.1.1 = {
 		holder = serawak_008
 	}
+    1178.1.1 = {
+        holder = santubong_placeholder_001
+    }
 }
 c_santubong = {
 	700.1.1 = { change_development_level = 7 }
@@ -121,39 +179,79 @@ c_betong = {
 	700.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 	
-	864.1.1 = {
-        holder = serawak_001
-    }
-	1064.1.1 = {
-		holder = serawak_008
+	1066.1.1 = {
+		holder = betong_placeholder_001
+		liege = "d_santubong"
 	}
+    1178.1.1 = {
+        holder = betong_placeholder_002
+    }
 }
 c_sarikei = {
-	864.1.1 = {
-        holder = serawak_001
-    }
-	1064.1.1 = {
-		holder = serawak_008
+	1066.1.1 = {
+		holder = sarikei_placeholder_001
+		liege = "d_santubong"
 	}
+    1178.1.1 = {
+        holder = sarikei_placeholder_002
+    }
 }
 c_sibu = {
-	864.1.1 = {
-        holder = serawak_001
-    }
-	1064.1.1 = {
-		holder = serawak_008
+	1066.1.1 = {
+		holder = sibu_placeholder_001
+		liege = "d_santubong"
 	}
+    1178.1.1 = {
+        holder = sibu_placeholder_002
+    }
 }
 c_mukah = {
 	700.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
 	
-	864.1.1 = {
-        holder = serawak_001
-    }
-	1064.1.1 = {
-		holder = serawak_008
+	1066.1.1 = {
+		holder = mukah_placeholder_001
+		liege = "d_santubong"
 	}
+    1178.1.1 = {
+        holder = mukah_placeholder_002
+    }
+}
+c_kuala_tatau = {
+	1066.1.1 = {
+		holder = kuala_tatau_placeholder_001
+		liege = "d_santubong"
+	}
+    1178.1.1 = {
+        holder = kuala_tatau_placeholder_002
+    }
+}
+c_kapit = {
+	1066.1.1 = {
+		holder = kapit_placeholder_001
+		liege = "d_santubong"
+	}
+    1178.1.1 = {
+        holder = kapit_placeholder_002
+    }
+}
+c_bintulu = {
+	1066.1.1 = {
+		holder = bintulu_placeholder_001
+		liege = "d_santubong"
+	}
+    1178.1.1 = {
+        holder = bintulu_placeholder_002
+    }
+}
+c_miri = {
+	1066.1.1 = {
+		holder = miri_placeholder_001
+		liege = "d_santubong"
+	}
+    1178.1.1 = {
+        holder = miri_placeholder_002
+    }
 }
 
 
@@ -179,6 +277,12 @@ d_tanjungpura = {
     }
 }
 
+c_kubu_raya = {
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
+}
+
 c_ketungau = {
     700.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 6 }
@@ -189,6 +293,9 @@ c_ketungau = {
 	1050.1.1 = {
         holder = tanjungpura_002
     }
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 
 c_sintang = {
@@ -229,6 +336,9 @@ d_ketapang = {
         holder = ketapang_002
 		liege = "0"
     }
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 
 c_ketapang = {
@@ -252,6 +362,9 @@ c_seruyan_hilir = {
 	1060.1.1 = {
         holder = ketapang_002
     }
+	1175.1.1 = {
+		holder = panjalu_placeholder_001
+	}
 }
 
 d_katingan_kuala = {
@@ -281,6 +394,9 @@ d_nan_sarunai = {
     }
 	1060.1.1 = {
 		holder = nan_sarunai_003
+	}
+	1060.1.1 = {
+		holder = nan_sarunai_placeholder_001
 	}
 }
 c_paser = {
@@ -358,6 +474,9 @@ d_east_kalimantan = { # Kutai
 	1020.1.1 = { 
 		holder = kutai020
 	}
+	1178.1.1 = { 
+		holder = kutai_placeholder_001
+	}
 }
 
 c_sengata = {
@@ -366,8 +485,8 @@ c_sengata = {
 }
 
 c_berau = {
-	700.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 7 }
+	700.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 6 }
 }
 
 c_kayan = {

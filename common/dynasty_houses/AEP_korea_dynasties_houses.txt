@@ -26,7 +26,7 @@ house_Go_Tamna = { # Go Dynasty of Tamna
 	name = "dynn_Go_Tamna"
 	dynasty = 60000007
 }
- house_Tae = { # House of Dae 大
+ house_Tae = { # House of Dae
     name = "dynn_Tae" 
     dynasty = 61000001
 }
@@ -53,4 +53,8 @@ house_Yangzhi = { # Placeholder
 house_Son = { # Placeholder
     name = "dynn_Son" 
     dynasty = 61000007
+}
+house_Hadong_Jeong = { # Hadong Jeong Clan
+    name = "dynn_Hadong_Jeong" 
+    dynasty = 61000008
 }

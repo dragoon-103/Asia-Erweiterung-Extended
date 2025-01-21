@@ -10,8 +10,8 @@
  culture_parameter_unlock_maa_ksatra:0 "Puede reclutar [GetMaA('ksatra').GetName] como [men_at_arms|E]"
 
  #Military
- tradition_samurai_spirit_name:0 "Samurai" #侍
- tradition_samurai_spirit_desc:0 "Los samuráis son la clase guerrera de élite de Japón y siguen un estricto código guerrero más tarde conocido como Bushidō, que enfatiza nociones como la sinceridad, el coraje marcial y la lealtad al señor supremo hasta la muerte."
+ tradition_samurai_name:0 "Samurai" #侍
+ tradition_samurai_desc:0 "Los samuráis representan la clase guerrera de élite de Japón, valorados por su lealtad a su clan, su destreza marcial y su servicio a poderosos señores. Su código resalta el honor, la valentía y una dedicación profunda hacia quienes protegen, incluso frente a la muerte."
  samurai:0 "Samurai" #騎士
  samurai_flavor:0 "Con una disciplina excepcional y un riguroso entrenamiento en las artes de la equitación y el tiro con arco, estos guerreros encarnan la quintaesencia del ideal guerrero japonés."
  sohei:0 "Sōhei" #僧兵

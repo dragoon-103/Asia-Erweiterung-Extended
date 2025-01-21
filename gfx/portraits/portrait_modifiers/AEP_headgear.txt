@@ -449,7 +449,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = no_headgear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}	
@@ -894,7 +894,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = no_headgear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -926,7 +926,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = no_headgear
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1009,7 +1009,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_common
+				template = indian_common
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1059,7 +1059,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_nobility
+				template = indian_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1086,7 +1086,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_high_nobility
+				template = indian_high_nobility
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1112,7 +1112,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_royalty
+				template = ep1_indian_royalty
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -1138,7 +1138,7 @@ aep_headgear = {
 			accessory = {
 				mode = add
 				gene = headgear
-				template = javanese_royalty
+				template = ep1_indian_imperial
 				range = { 0 1 } # For the randomness to work correctly
 			}
 		}
@@ -2311,8 +2311,8 @@ aep_headgear_armor = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = steppe_war
-                accessory = m_headgear_sec_steppe_war_nob_01_lo
+                template = cfp_indian_war
+                accessory = male_headgear_secular_indian_cfp_war_tibetan_01
 				range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -2341,8 +2341,8 @@ aep_headgear_armor = {
             accessory = {
                 mode = add
                 gene = headgear
-                template = steppe_war
-                accessory = m_headgear_sec_steppe_war_nob_01_hi
+                template = cfp_indian_war
+                accessory = male_headgear_secular_indian_cfp_war_tibetan_01
 				range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -2726,7 +2726,7 @@ aep_headgear_armor = {
             accessory = {
                 mode = add
 				gene = headgear
-				template = religious_african_high
+				template = cfp_african_religious_masks
 				range = { 0 1 } # For the randomness to work correctly
             }
         }
@@ -2755,7 +2755,7 @@ aep_headgear_armor = {
             accessory = {
                 mode = add
 				gene = headgear
-				template = religious_african_high
+				template = cfp_african_religious_masks
 				range = { 0 1 } # For the randomness to work correctly
             }
         }

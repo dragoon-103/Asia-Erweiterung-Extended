@@ -51,14 +51,14 @@
 		}
 	}
 	
-	# Fujiwara no Yoshifusa, Regent of Japan, ID: 1600001
+	# Seiwa Tennō, Emperor of Japan, ID: 1600004
 	character = {
 		name = "bookmark_far_east_japan"
-		history_id = 1600001
-		dynasty = 40000001
-		dynasty_splendor_level = 3
+		history_id = 1600004
+		dynasty = 40000101
+		dynasty_splendor_level = 7
 		type = male
-		birth = 804.1.1
+		birth = 850.5.12
 		title = k_nippon
 		government = administrative_government
 		culture = yamato
@@ -66,28 +66,24 @@
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		position = { 1150 650 }
 		
-		animation = personality_rational
+		animation = idle
 		
-		# (Seiwa, Emperor of Japan, 1600004) <- not dynastic
+		# Fujiwara no Yoshifusa, Regent of Japan, ID: 1600001 <- not dynastic
 		character = {
-			name = "bookmark_far_east_japan_alt_seiwa"
-			relation = "BOOKMARK_RELATION_GRANDSON"
-			history_id = 1600004
-			dynasty = 40000101
+			name = "bookmark_far_east_japan_alt_yoshifusa"
+			history_id = 1600001
+			dynasty = 40000001
 			type = male
-			birth = 850.5.12
-			title = d_yamato_imperial
-			government = administrative_government
+			birth = 804.1.1
 			culture = yamato
 			religion = shinto
 			
-			animation = idle
+			animation = personality_rational
 		}
 		
-		# Mototsune, adopted son and future regent of Japan, 1600001
+		# Mototsune, adopted son and future regent of Japan, 1600001 <- not dynastic
 		character = {
 			name = "bookmark_far_east_japan_alt_mototsune"
-			relation = "BOOKMARK_RELATION_SON"
 			history_id = 1600001
 			dynasty = 40000001
 			type = male
@@ -289,14 +285,14 @@ bm_1066_asia = {
 		}
 	}
 	
-	# Fujiwara no Yorimichi, Regent of Japan, ID: fujiwara_yorimichi
+	# Go-Reizei Tennō, Emperor of Japan, ID: goreizei_tenno
 	character = {
 		name = "bookmark_two_sons_japan"
-		history_id = fujiwara_yorimichi
-		dynasty = 40000001
-		dynasty_splendor_level = 5
+		history_id = goreizei_tenno
+		dynasty = 40000101
+		dynasty_splendor_level = 7
 		type = male
-		birth = 992.1.1
+		birth = 1025.8.28
 		title = k_nippon
 		government = administrative_government
 		culture = yamato
@@ -304,21 +300,20 @@ bm_1066_asia = {
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		position = { 1150 650 }
 		
-		animation = personality_greedy
+		animation = idle
 		
-		# (Go-Reizei, Emperor of Japan, ID: goreizei_tenno) <- not dynastic
+		# Fujiwara no Yorimichi, Regent of Japan, ID: fujiwara_yorimichi <- not dynastic
 		character = {
-			name = "bookmark_two_sons_japan_alt_goreizei"
-			history_id = goreizei_tenno
-			dynasty = 40000101
+			name = "bookmark_two_sons_japan_alt_yorimichi"
+			history_id = fujiwara_yorimichi
+			dynasty = 40000001
+			dynasty_splendor_level = 5
 			type = male
-			birth = 1025.8.28
-			title = d_yamato_imperial
-			government = administrative_government
+			birth = 992.1.1
 			culture = yamato
 			religion = shinto
 			
-			animation = idle
+			animation = personality_greedy
 		}
 		
 		# (Yoshiie, Chinjufu Shōgun, ID: kawachiminamoto_yoshiie) <- not dynastic

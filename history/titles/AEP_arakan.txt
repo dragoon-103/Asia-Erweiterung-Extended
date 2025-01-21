@@ -69,6 +69,9 @@ d_arakan = {
 	1066.1.1 = {
 		holder = arakan026 #Minlade
 	}
+	1178.1.1 = {
+		holder = arakan_placeholder_001
+	}
 }
 
 c_vaisali = { # AEP # Moved from k_pagan
@@ -137,6 +140,9 @@ c_vaisali = { # AEP # Moved from k_pagan
 	}
 	1066.1.1 = {
 		holder = arakan026 #Minlade
+	}
+	1178.1.1 = {
+		holder = arakan_placeholder_001
 	}
 }
 
@@ -207,6 +213,9 @@ c_akyab = { # Changed Name
 	1066.1.1 = {
 		holder = arakan026 #Minlade
 	}
+	1178.1.1 = {
+		holder = arakan_placeholder_001
+	}
 }
 
 c_sandoway = {
@@ -275,6 +284,9 @@ c_sandoway = {
 	}
 	1066.1.1 = {
 		holder = arakan026 #Minlade
+	}
+	1178.1.1 = {
+		holder = arakan_placeholder_001
 	}
 }
 

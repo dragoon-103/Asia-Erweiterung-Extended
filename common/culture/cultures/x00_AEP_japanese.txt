@@ -6,7 +6,7 @@
 	language = language_japanese
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_samurai_spirit
+		tradition_samurai
 		tradition_poetry
 		tradition_chinese_characters
 		tradition_philosopher_culture

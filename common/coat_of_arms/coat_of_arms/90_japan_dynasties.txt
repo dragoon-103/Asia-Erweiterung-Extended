@@ -53,6 +53,15 @@ house_oshu-fujiwara = {
 		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
 	}
 }
+house_ito-fujiwara = { 
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_fuji_cc_1.dds"
+		color1 = "red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
 40000201 = { # Kanmu-Heishi
 	pattern = "pattern_solid.dds"	
 	color1 = "white"
@@ -104,6 +113,15 @@ house_satsumaheishi = {
 	colored_emblem = {
 		texture = "ce_h_taira.dds"
 		color1 = "blue"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_chinzeiheishi = {
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_taira.dds"
+		color1 = "blue_light"
 		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
 	}
 }
@@ -185,6 +203,24 @@ house_kawachigenji = {
 	colored_emblem = {
 		texture = "ce_rindou_cc_2.dds"
 		color1 = "blue_light"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_kaigenji = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "red"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_kisogenji = {
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_rindou_cc_2.dds"
+		color1 = "purple"		
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
 	}
 }
@@ -392,8 +428,53 @@ house_minogenji = {
 	color1=white
 	colored_emblem={
 		texture="ce_tsuki_cc_3.dds"
-		color1 =black
+		color1 =orange
 		instance={ scale={ 0.8 0.8 } }
+	}
+}
+house_Soma = { #Sōma
+	pattern="pattern_solid.dds"	
+	color1=white
+	colored_emblem={
+		texture="ce_hoshi_cc_1.dds"
+		color1=yellow
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Takeishi = { #Takeishi
+	pattern="pattern_solid.dds"	
+	color1=white
+	colored_emblem={
+		texture="ce_hoshi_cc_1.dds"
+		color1=red
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Osuga = { #Ōsuga
+	pattern="pattern_solid.dds"	
+	color1=white
+	colored_emblem={
+		texture="ce_hoshi_cc_1.dds"
+		color1=green
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Kokubu = { #Kokubu
+	pattern="pattern_solid.dds"	
+	color1=white
+	colored_emblem={
+		texture="ce_hoshi_cc_1.dds"
+		color1=orange
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Tou = { #Tō
+	pattern="pattern_solid.dds"	
+	color1=white
+	colored_emblem={
+		texture="ce_hoshi_cc_1.dds"
+		color1=blue
+		instance = { position = { 0.5 0.5 }  }
 	}
 }
 40000230 = { #Miura
@@ -401,8 +482,31 @@ house_minogenji = {
 	color1=white
 	colored_emblem={
 		texture="ce_hikiryou_cn_8.dds"
-		color1=black
+		color1=green
 		instance={ scale={ 0.900000 0.900000 } }
+	}
+}
+house_Wada = { #Wada
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 }  }
+	}
+	colored_emblem = {
+		texture = "ce_yotsume_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.78 0.78 }  }
+	}
+}
+house_Asahina = { #Asahina
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_tomoe_cc_13.dds"
+		color1 = "purple"
+		instance = { position = { 0.50 0.50 }  }
 	}
 }
 40000231 = { #Kamakura
@@ -410,13 +514,72 @@ house_minogenji = {
 	color1=white
 	colored_emblem={
 		texture="ce_ume_cc_4.dds"
-		color1=black
+		color1=orange
 		instance={ scale={ 0.740000 0.740000 } }
 	}
 	colored_emblem={
 		texture="circular_combo_64.dds"
 		color1=black
 		instance={ depth=1.010000 }
+	}
+}
+house_Ooba = { #Ōba
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_h_oba.dds"
+		color1=green
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Matano = { #Matano
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_omodaka_cc_5.dds"
+		color1=yellow_light
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Kajiwara = { #Kajiwara
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_ya_cc_5.dds"
+		color1=yellow
+		instance={ scale={ 0.740000 0.740000 } }
+	}
+	colored_emblem={
+		texture="circular_combo_64.dds"
+		color1=black
+		instance={ depth=1.010000 }
+	}
+}
+house_Nagae = { #Nagae
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_kashiwa_cc_1.dds"
+		color1=blue
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Itakura = { #Itakura
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_h_nagao.dds"
+		color1=yellow
+		instance = { position = { 0.5 0.5 }  }
+	}
+}
+house_Nagao = { #Nagao
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_h_nagao.dds"
+		color1=orange
+		instance = { position = { 0.5 0.5 }  }
 	}
 }
 40000232 = { #Nagamine
@@ -524,7 +687,7 @@ house_minogenji = {
 	color1 = "white"
 	colored_emblem={
 		texture = "ce_hikiryou_cn_4.dds"
-		color1 = "black"
+		color1 = "red"
 		instance={ scale={ 0.9 0.9 } }
 	}
 }
@@ -544,5 +707,443 @@ house_minogenji = {
 		texture = "cat_kr_baekje_phoenix.dds"
 		color1 = "blue"
 		instance = { position = { 0.5 0.5 }  }		
+	}
+}
+40000245 = { #Hōjō Clan
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_uroko_cc_1.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000246 = { #Kudō Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ito.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+house_Irie = { #Irie Clan
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		color1=blue
+		texture="circular_combo_6.dds"
+		instance={ position={ 0.5 0.4 } scale={ 0.7 0.7 } depth=2.010000 }
+	}
+	colored_emblem={
+		color1=blue
+		texture="circular_combo_23.dds"
+		instance={ position={ 0.27 0.75 } scale={ 0.3 0.3 } }
+		instance={ position={ 0.73 0.75 } scale={ 0.3 0.3 } depth=1.010000 }
+	}
+	colored_emblem={
+		color1=blue
+		texture="ce_ishi_cc_6.dds"
+		instance={ position={ 0.5 0.4 } scale={ 0.7 0.7 } depth=3.010000 }
+	}
+}
+house_Kikkawa = { #Kikkawa Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_hikiryou_cn_6.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+house_Nikaido = { #Nikaidō Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_nikaido.dds"
+		color1 = "white"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_Sagara = { #Sagara Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_sagara.dds"
+		color1 = "red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+house_Izu-Kudo = { #Izu-Kudō Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ito.dds"
+		color1 = "green"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+house_Kano = { #Kano Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ito.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+house_Ito = { #Itō Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ito.dds"
+		color1 = "purple"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+house_Kawazu = { #Kawazu Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ito.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+house_Soga = { #Soga Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ito.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000247 = { #Ichijō Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_ichijo.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000248 = { #Ono Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+	colored_emblem = {
+		texture = "ce_manji_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+house_Yokoyama = { #Yokoyama Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "circular_combo_1.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+	colored_emblem = {
+		texture = "ce_manji_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+40000249 = { #Sasaki Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_yotsume_cc_1.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000250 = { #Iwaki Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_h_iwaki.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 1.1 1.1 } }
+	}
+}
+40000251 = { #Nitta Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_nitta_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000252 = { #Nakamura Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_sasa_cc_1.dds"
+		color1 = "white"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+house_Date = { #Date Clan
+	pattern = "pattern_solid.dds"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_h_date.dds"
+		color1 = "yellow"		
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000253 = { #Hatakeyama Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_ueno.dds"
+		color1 = "purple"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000254 = { #Oyamada Clan
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_omodaka_cc_1.dds"
+		color1 = "green"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000255 = { #Kazusa Clan
+	pattern="pattern_solid.dds"
+	color1=white
+	colored_emblem={
+		texture="ce_hoshi_cc_1.dds"
+		color1=purple
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000256 = { #Satake Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_ougi_cc_3.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000257 = { #Takeda Clan
+	pattern = "pattern_solid.dds"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_hishi_cc_8.dds"
+		color1 = "black"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_Takedaichijo = { #Ichijō Clan (Takeda)
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_fuji_cc_2.dds"
+		color1 = "yellow"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+house_Itagaki = { #Itagaki Clan
+	pattern = "pattern_solid.dds"
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_mokkou_dc_1.dds"
+		color1 = "yellow"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000258 = { #Jō Clan (Taira)
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "circular_combo_24.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+	colored_emblem = {
+		texture = "ce_katabami_cc_5.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.57 0.57 } }
+	}
+}
+40000259 = { #Toki Clan
+	pattern = "pattern_solid.dds"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_toki.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000260 = { #Shinano Murakami Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_murakami.dds"
+		color1 = "black"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000261 = { #Nakahara Clan (Kiso)
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_kaji_cc_4.dds"
+		color1 = "green"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }
+	}
+}
+40000262 = { #Tachibana Clan (Iyo)
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_tachibana_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.6 0.6 }  }
+	}
+	colored_emblem = {
+		texture = "circular_combo_24.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+40000263 = { #Ii Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "red"
+	colored_emblem = {
+		texture = "circular_combo_6.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_tachibana_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.68 0.68 }  }
+	}
+}
+40000264 = { #Isaku/Kawabe Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "circular_combo_6.dds"
+		color1 = "blue"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_h_taira.dds"
+		color1 = "blue"
+		instance = { position = { 0.50 0.50 } scale = { 0.8 0.8 }  }
+	}
+}
+40000265 = { #Kimotsuki Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_kimotsuki.dds"
+		color1 = "red"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+40000266 = { #Tsuchimochi Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_karabana_cc_1.dds"
+		color1 = "purple"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+}
+40000267 = { #Kikuchi Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_takanowa_cc_3.dds"
+		color1 = "yellow"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+40000268 = { #Nanba Clan
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_fuji_cc_2.dds"
+		color1 = "yellow"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000269 = { #Minase Clan
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_kiko_cc_6.dds"
+		color1 = "yellow"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000270 = { #Takagi Clan
+	color1 = "black"
+	colored_emblem = {
+		texture = "ce_kuruma_cn_3.dds"
+		color1 = "yellow"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000271 = { #Kōno Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "circular_combo_24.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
+	}
+	colored_emblem = {
+		texture = "ce_kaku_cc_1.dds"
+		color1 = "yellow"
+		instance = { position = { 0.5 0.5 } scale = { 0.57 0.57 }  }
+	}
+}
+40000272 = { #Yuasa Clan
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_fuji_cc_2.dds"
+		color1 = "green"	
+		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 } }		
+	}
+}
+40000273 = { #Kujō Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_h_kujo.dds"
+		color1 = "red"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+40000274 = { #Yamamoto Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_ougi_cc_3.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
+	}
+}
+40000275 = { #Taguchi Clan
+	pattern = "pattern_solid.dds"	
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_tachibana_cc_4.dds"
+		color1 = "black"
+		instance = { position = { 0.50 0.50 } scale = { 0.9 0.9 }  }
 	}
 }

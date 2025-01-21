@@ -5,47 +5,53 @@
  Tribe: "Племя" 
  Land: "Земля" 
   
- ### japanese Group ### 
-  
+### japanese Group ###
+ 
  # Rulers (Administrative)
-  baron_administrative_male_japanese_group: "Гунджи"
-  baron_administrative_female_japanese_group: "Гунджи"
-  count_administrative_male_japanese_group: "Кокуши"
-  count_administrative_female_japanese_group: "Кокуши"
-  count_administrative_male_japanese_group_tohoku: "Гунджи"
-  count_administrative_female_japanese_group_tohoku: "Гунджи"
-  duke_administrative_male_japanese_group: "Сотоку"
-  duke_administrative_female_japanese_group: "Сотоку"
-  duke_administrative_male_japanese_group_tohoku: "Кокуши"
-  duke_administrative_female_japanese_group_tohoku: "Кокуши"
-  king_administrative_male_japanese_group: "Сотоку"
-  king_administrative_female_japanese_group: "Сотоку"
-  king_administrative_male_japanese_group_japan: "Сэссё"
-  king_administrative_female_japanese_group_japan: "Сэссё"
+  baron_administrative_male_japanese_group: "Гунджи" #郡司
+  baron_administrative_female_japanese_group: "Гунджи" #郡司
+  count_administrative_male_japanese_group: "Кокуши" #国司
+  count_administrative_female_japanese_group: "Кокуши" #国司
+  count_administrative_male_japanese_group_tohoku: "Гунджи" #郡司
+  count_administrative_female_japanese_group_tohoku: "Гунджи" #郡司
+  count_administrative_male_japanese_group_japan: "Кокуши" #国司
+  count_administrative_female_japanese_group_japan: "Кокуши" #国司
+  duke_administrative_male_japanese_group: "Со-кокуши" #総国司
+  duke_administrative_female_japanese_group: "Со-кокуши" #総国司
+  duke_administrative_male_japanese_group_tohoku: "Кокуши" #国司
+  duke_administrative_female_japanese_group_tohoku: "Кокуши" #国司
+  duke_administrative_male_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
+  duke_administrative_female_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
+  king_administrative_male_japanese_group_japan: "Сэссё" #摂政
+  king_administrative_female_japanese_group_japan: "Сэссё" #摂政
+  emperor_administrative_male_japanese_group_japan: "Дай-сэссё" #大摂政
+  emperor_administrative_female_japanese_group_japan: "Дай-сэссё" #大摂政
   
  # Rulers (Feudal/Clan/Tribal)
-  baron_feudal_male_japanese_group: "Джошу"
-  baron_feudal_female_japanese_group: "Джошу"
-  count_feudal_male_japanese_group: "Сюго"
-  count_feudal_female_japanese_group: "Сюго"
-  count_feudal_male_japanese_group_tohoku: "Джошу"
-  count_feudal_female_japanese_group_tohoku: "Джошу"
-  duke_feudal_male_japanese_group: "Канрей"
-  duke_feudal_female_japanese_group: "Канрей"
-  duke_feudal_male_japanese_group_tohoku: "Сюго"
-  duke_feudal_female_japanese_group_tohoku: "Сюго"
-  king_feudal_male_japanese_group: "Дай Канрей"
-  king_feudal_female_japanese_group: "Дай Канрей"
-  king_feudal_male_japanese_group_japan: "Сёгун"
-  king_feudal_female_japanese_group_japan: "Сёгун"
+  baron_feudal_male_japanese_group: "Джошу" #城主
+  baron_feudal_female_japanese_group: "Джошу" #城主
+  count_feudal_male_japanese_group: "Даймё" #大名
+  count_feudal_female_japanese_group: "Даймё" #大名
+  duke_feudal_male_japanese_group: "Дай-даймё" #大大名
+  duke_feudal_female_japanese_group: "Дай-даймё" #大大名
+  duke_feudal_male_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
+  duke_feudal_female_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
+  king_feudal_male_japanese_group_japan: "Букэ-но-торё" #武門之棟梁
+  king_feudal_female_japanese_group_japan: "Букэ-но-торё" #武門之棟梁
+  king_feudal_male_japanese_group_shogunate: "Сёгун" #将軍
+  king_feudal_female_japanese_group_shogunate: "Сёгун" #将軍
+  emperor_feudal_male_japanese_group_japan: "Дай-сёгун" #大将軍
+  emperor_feudal_female_japanese_group_japan: "Дай-сёгун" #大将軍
   
  # Rulers (General)
-  king_male_japanese_group_independent: "О"
-  king_female_japanese_group_independent: "Джо"
-  emperor_male_japanese_group: "Котей"
-  emperor_female_japanese_group: "Кого"
-  duke_male_japanese_group_yamato_imperial: "Тенно"
-  duke_female_japanese_group_yamato_imperial: "Тенно"
+  king_male_japanese_group_subordinate: "Сотоку" #総督
+  king_female_japanese_group_subordinate: "Сотоку" #総督
+  king_male_japanese_group_independent: "О" #王
+  king_female_japanese_group_independent: "Джо" #王女
+  emperor_male_japanese_group: "Котей" #皇帝
+  emperor_female_japanese_group: "Кого" #皇后
+  emperor_male_japanese_group_koshitsu: "Тенно" #天皇
+  emperor_female_japanese_group_koshitsu: "Тенно" #天皇
   
   # Titles 
  barony_japanese_group: "Кори" 
@@ -59,16 +65,16 @@
  empire_japanese_group: "Тейкоку" 
   
   # Princes (children of Kings/Emperors) 
- title_prince_male_japanese_group_yamato_imperial: "Шинно" 
- title_prince_female_japanese_group_yamato_imperial: "Найсинно" 
- title_prince_male_japanese_group: "Доно" 
- title_prince_female_japanese_group: "Химэ" 
- title_prince_male_japanese_group_empire: "Доно" 
- title_prince_female_japanese_group_empire: "Химэ" 
-  
-  # Spouses 
- title_spouse_female_yamato_imperial: "Кого" 
- #title_spouse_female_yamato_group: "Химэ" 
+ prince_male_japanese_group: "Доно" 
+ prince_female_japanese_group: "Химэ" 
+ prince_male_japanese_group_empire: "Доно" 
+ prince_female_japanese_group_empire: "Химэ" 
+ prince_male_japanese_group_koshitsu: "Шинно" 
+ prince_female_japanese_group_koshitsu: "Найсинно" 
+
+ # Spouses
+  spouse_female_japanese_group: "Hime" #姫
+  spouse_female_yamato_imperial: "Kōgō" #皇后
   
  #################################################### 
   
@@ -99,13 +105,14 @@
  empire_chinese_group: "Дигуо" 
   
   # Princes (children of Kings/Emperors) 
- title_prince_male_chinese_group: "Гунцзы" 
- title_prince_female_chinese_group: "Гонгну" 
- title_prince_male_chinese_group_empire: "Циньван" 
- title_prince_female_chinese_group_empire: "Гонгзху" 
-  
-  # Spouses 
- #title_spouse_female_chinese_group: "Фурен" 
+ prince_male_chinese_group: "Гунцзы" 
+ prince_female_chinese_group: "Гонгну" 
+ prince_male_chinese_group_empire: "Циньван" 
+ prince_female_chinese_group_empire: "Гонгзху" 
+
+ # Spouses
+  spouse_female_chinese_group: "Фюрен" 
+  spouse_female_chinese_group_imperial: "Хуанхоу" 
   
  #################################################### 
   
@@ -134,13 +141,15 @@
  empire_korean_group: "Джегуг" 
   
   # Princes (children of Kings/Emperors) 
- title_prince_male_korean_group: "Ган" 
- title_prince_female_korean_group: "Онджу" 
- title_prince_male_korean_group_empire: "Ган" 
- title_prince_female_korean_group_empire: "Онджу" 
-  
-  # Spouses 
- #title_spouse_female_korean_group: "Сугнео" 
+ prince_male_korean_group: "Ган" 
+ prince_female_korean_group: "Онджу" 
+ prince_male_korean_group_empire: "Ган" 
+ prince_female_korean_group_empire: "Онджу" 
+
+ # Spouses
+  spouse_female_korean_group: "Сугнео" 
+  spouse_female_korean_group_royal: "Йеованг" 
+  spouse_female_korean_group_imperial: "Хванху" 
   
  #################################################### 
   
@@ -166,13 +175,15 @@
  empire_vietnamese_group: "Де Куок" 
   
  # Princes (children of Kings/Emperors) 
- title_prince_male_vietnamese_group: "Хоанг Ту" 
- title_prince_female_vietnamese_group: "Конг Чиа" 
- title_prince_male_vietnamese_group_empire: "Хоанг Ту" 
- title_prince_female_vietnamese_group_empire: "Конг Чиа" 
-  
-  # Spouses 
- #title_spouse_female_vietnamese_group: "Куи Ба" 
+ prince_male_vietnamese_group: "Хоанг Ту" 
+ prince_female_vietnamese_group: "Конг Чиа" 
+ prince_male_vietnamese_group_empire: "Хоанг Ту" 
+ prince_female_vietnamese_group_empire: "Конг Чиа" 
+
+ # Spouses
+  spouse_female_vietnamese_group: "Куи Ба" 
+  spouse_female_vietnamese_group_royal: "Ну Вонг" 
+  spouse_female_vietnamese_group_imperial: "Ну Де" 
   
  #################################################### 
   
@@ -202,10 +213,10 @@
  empire_burman_group: "Наинггандо" 
   
    # Princes (children of Kings/Emperors) 
- title_prince_male_burman_group: "Минтха" 
- title_prince_female_burman_group: "Минтхами" 
- title_prince_male_burman_group_empire: "Минтха" 
- title_prince_female_burman_group_empire: "Минтхами" 
+ prince_male_burman_group: "Минтха" 
+ prince_female_burman_group: "Минтхами" 
+ prince_male_burman_group_empire: "Минтха" 
+ prince_female_burman_group_empire: "Минтхами" 
   
  #################################################### 
   
@@ -261,8 +272,8 @@
    # Princes (children of Kings/Emperors) 
  prince_male_khmer: "Преанг" 
  prince_female_khmer: "Пренанг" 
- title_prince_male_khmer_empire: "Преанг" 
- title_prince_female_khmer_empire: "Пренанг" 
+ prince_male_khmer_empire: "Преанг" 
+ prince_female_khmer_empire: "Пренанг" 
    # champion = Yuttochun 
   
    # Khmer Empire 
@@ -290,10 +301,10 @@
  empire_mon: "Рениугум" 
   
    # Princes (children of Kings/Emperors) 
- title_prince_male_mon: "Бинния" 
- title_prince_female_mon: "Банняр" 
- title_prince_male_mon_empire: "Бинния" 
- title_prince_female_mon_empire: "Банняр" 
+ prince_male_mon: "Бинния" 
+ prince_female_mon: "Банняр" 
+ prince_male_mon_empire: "Бинния" 
+ prince_female_mon_empire: "Банняр" 
    # champion = Sagom 
   
  #################################################### 
@@ -320,10 +331,10 @@
  empire_tai_group: "Кхваен Луанг" 
   
    # Princes (children of Kings/Emperors) <- Based on Lanna Titles 
- title_prince_male_tai_group: "Чао Ной" 
- title_prince_female_tai_group: "Чао Ной" 
- title_prince_male_tai_group_empire: "Чао Ной" 
- title_prince_female_tai_group_empire: "Чао Ной" 
+ prince_male_tai_group: "Чао Ной" 
+ prince_female_tai_group: "Чао Ной" 
+ prince_male_tai_group_empire: "Чао Ной" 
+ prince_female_tai_group_empire: "Чао Ной" 
   
  ## Shan Tai -> More Indian influence in general 
   
@@ -838,10 +849,10 @@
  empire_loloish_group: "Дигуо" 
   
  # Princes (children of Kings/Emperors) 
- title_prince_male_loloish_group: "Гунцзы" 
- title_prince_female_loloish_group: "Гоннгу" 
- title_prince_male_loloish_group_empire: "Циньван" 
- title_prince_female_loloish_group_empire: "Гонгзху" 
+ prince_male_loloish_group: "Гунцзы" 
+ prince_female_loloish_group: "Гоннгу" 
+ prince_male_loloish_group_empire: "Циньван" 
+ prince_female_loloish_group_empire: "Гонгзху" 
   
  #################################################### 
   

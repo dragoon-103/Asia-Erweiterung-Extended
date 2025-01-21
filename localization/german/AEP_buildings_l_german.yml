@@ -1,6 +1,6 @@
 ﻿l_german:
  building_type_AEP_great_wall_of_china:0 "Chinesische Mauer" # 万里长城 - 损坏
- building_type_AEP_great_wall_of_china_desc:0 "Die Chinesische Mauer erlangte während der Ära des ersten chinesischen Kaisers, Qin Shi Huang Di, an Bedeutung. Er leitete eine ambitionierte Initiative ein, um vorhandene Abschnitte der Mauer zu vereinheitlichen und zu erweitern, wodurch eine robuste Verteidigungsanlage gegenüber den nördlichen nomadischen Stämmen entstand. \n\nAllerdings sind trotz fortgesetzter Erweiterungen durch nachfolgende Dynastien viele der älteren Abschnitte seitdem verfallen, was ihre Bedeutung als Verteidigungsstruktur verringert hat."
+ building_type_AEP_great_wall_of_china_desc:0 "Die Chinesische Mauer erlangte während der Ära des ersten chinesischen Kaisers, Qin Shi Huangdi, an Bedeutung. Er leitete eine ambitionierte Initiative ein, um vorhandene Abschnitte der Mauer zu vereinheitlichen und zu erweitern, wodurch eine robuste Verteidigungsanlage gegenüber den nördlichen nomadischen Stämmen entstand. \n\nAllerdings sind trotz fortgesetzter Erweiterungen durch nachfolgende Dynastien viele der älteren Abschnitte seitdem verfallen, was ihre Bedeutung als Verteidigungsstruktur verringert hat."
  building_AEP_great_wall_of_china:0 "$building_type_AEP_great_wall_of_china$"
  building_AEP_great_wall_of_china_desc:0 "$building_type_AEP_great_wall_of_china_desc$"
  

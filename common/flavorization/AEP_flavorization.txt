@@ -30,27 +30,7 @@
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_japanese_group_yamato_imperial = {
-	type = character
-	gender = male
-	special = ruler_child
-	tier = duchy
-	priority = 499
-	heritages = { heritage_japanese }
-	titles = { d_yamato_imperial }
-	top_liege = no
-}
-title_prince_female_japanese_group_yamato_imperial = {
-	type = character
-	gender = female
-	special = ruler_child
-	tier = duchy
-	priority = 499
-	heritages = { heritage_japanese }
-	titles = { d_yamato_imperial }
-	top_liege = no
-}
-title_prince_male_japanese_group = {
+prince_male_japanese_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -59,7 +39,7 @@ title_prince_male_japanese_group = {
 	heritages = { heritage_japanese }
 	top_liege = no
 }
-title_prince_female_japanese_group = {
+prince_female_japanese_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -68,7 +48,7 @@ title_prince_female_japanese_group = {
 	heritages = { heritage_japanese }
 	top_liege = no
 }
-title_prince_male_japanese_group_empire = {
+prince_male_japanese_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -77,25 +57,49 @@ title_prince_male_japanese_group_empire = {
 	heritages = { heritage_japanese }
 	top_liege = no
 }
-title_prince_female_japanese_group_empire = {
+prince_female_japanese_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child
 	tier = empire
 	priority = 140
 	heritages = { heritage_japanese }
+	top_liege = no
+}
+prince_male_japanese_group_koshitsu = {
+	type = character
+	gender = male
+	special = ruler_child
+	priority = 200
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
+	top_liege = no
+}
+prince_female_japanese_group_koshitsu = {
+	type = character
+	gender = female
+	special = ruler_child
+	priority = 200
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
 	top_liege = no
 }
 
 #Spouses
-title_spouse_female_yamato_imperial = {
+spouse_female_japanese_group = {
 	type = character
 	special = holder_spouse
-	tier = duchy
-	priority = 501
+	priority = 155
 	gender = female
 	heritages = { heritage_japanese }
-	titles = { d_yamato_imperial }
+}
+spouse_female_japanese_group_koshitsu = {
+	type = character
+	special = holder_spouse
+	priority = 201
+	gender = female
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
 }
 
 #############################################
@@ -104,7 +108,7 @@ title_spouse_female_yamato_imperial = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_chinese_group = {
+prince_male_chinese_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -113,7 +117,7 @@ title_prince_male_chinese_group = {
 	heritages = { heritage_chinese }
 	top_liege = no
 }
-title_prince_female_chinese_group = {
+prince_female_chinese_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -122,7 +126,7 @@ title_prince_female_chinese_group = {
 	heritages = { heritage_chinese }
 	top_liege = no
 }
-title_prince_male_chinese_group_empire = {
+prince_male_chinese_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -131,7 +135,7 @@ title_prince_male_chinese_group_empire = {
 	heritages = { heritage_chinese }
 	top_liege = no
 }
-title_prince_female_chinese_group_empire = {
+prince_female_chinese_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -139,6 +143,23 @@ title_prince_female_chinese_group_empire = {
 	priority = 140
 	heritages = { heritage_chinese }
 	top_liege = no
+}
+
+#Spouses
+spouse_female_chinese_group = {
+	type = character
+	special = holder_spouse
+	priority = 155
+	gender = female
+	heritages = { heritage_chinese }
+}
+spouse_female_chinese_group_imperial = {
+	type = character
+	special = holder_spouse
+	tier = empire
+	priority = 156
+	gender = female
+	heritages = { heritage_chinese }
 }
 
 #############################################
@@ -147,7 +168,7 @@ title_prince_female_chinese_group_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_korean_group = {
+prince_male_korean_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -156,7 +177,7 @@ title_prince_male_korean_group = {
 	heritages = { heritage_korean }
 	top_liege = no
 }
-title_prince_female_korean_group = {
+prince_female_korean_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -165,7 +186,7 @@ title_prince_female_korean_group = {
 	heritages = { heritage_korean }
 	top_liege = no
 }
-title_prince_male_korean_group_empire = {
+prince_male_korean_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -174,7 +195,7 @@ title_prince_male_korean_group_empire = {
 	heritages = { heritage_korean }
 	top_liege = no
 }
-title_prince_female_korean_group_empire = {
+prince_female_korean_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -182,6 +203,31 @@ title_prince_female_korean_group_empire = {
 	priority = 140
 	heritages = { heritage_korean }
 	top_liege = no
+}
+
+#Spouses
+spouse_female_korean_group = {
+	type = character
+	special = holder_spouse
+	priority = 155
+	gender = female
+	heritages = { heritage_korean }
+}
+spouse_female_korean_group_royal = {
+	type = character
+	special = holder_spouse
+	tier = kingdom
+	priority = 156
+	gender = female
+	heritages = { heritage_korean }
+}
+spouse_female_korean_group_imperial = {
+	type = character
+	special = holder_spouse
+	tier = empire
+	priority = 157
+	gender = female
+	heritages = { heritage_korean }
 }
 
 #############################################
@@ -190,7 +236,7 @@ title_prince_female_korean_group_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_loloish_group = {
+prince_male_loloish_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -199,7 +245,7 @@ title_prince_male_loloish_group = {
 	heritages = { heritage_loloish heritage_bai }
 	top_liege = no
 }
-title_prince_female_loloish_group = {
+prince_female_loloish_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -208,7 +254,7 @@ title_prince_female_loloish_group = {
 	heritages = { heritage_loloish heritage_bai }
 	top_liege = no
 }
-title_prince_male_loloish_group_empire = {
+prince_male_loloish_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -217,7 +263,7 @@ title_prince_male_loloish_group_empire = {
 	heritages = { heritage_loloish heritage_bai }
 	top_liege = no
 }
-title_prince_female_loloish_group_empire = {
+prince_female_loloish_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -233,7 +279,7 @@ title_prince_female_loloish_group_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_vietnamese_group = {
+prince_male_vietnamese_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -242,7 +288,7 @@ title_prince_male_vietnamese_group = {
 	heritages = { heritage_viet }
 	top_liege = no
 }
-title_prince_female_vietnamese_group = {
+prince_female_vietnamese_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -251,7 +297,7 @@ title_prince_female_vietnamese_group = {
 	heritages = { heritage_viet }
 	top_liege = no
 }
-title_prince_male_vietnamese_group_empire = {
+prince_male_vietnamese_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -260,7 +306,7 @@ title_prince_male_vietnamese_group_empire = {
 	heritages = { heritage_viet }
 	top_liege = no
 }
-title_prince_female_vietnamese_group_empire = {
+prince_female_vietnamese_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -268,6 +314,31 @@ title_prince_female_vietnamese_group_empire = {
 	priority = 140
 	heritages = { heritage_viet }
 	top_liege = no
+}
+
+#Spouses
+spouse_female_vietnamese_group = {
+	type = character
+	special = holder_spouse
+	priority = 155
+	gender = female
+	heritages = { heritage_viet }
+}
+spouse_female_vietnamese_group_royal = {
+	type = character
+	special = holder_spouse
+	tier = kingdom
+	priority = 156
+	gender = female
+	heritages = { heritage_viet }
+}
+spouse_female_vietnamese_group_imperial = {
+	type = character
+	special = holder_spouse
+	tier = empire
+	priority = 157
+	gender = female
+	heritages = { heritage_viet }
 }
 
 #############################################
@@ -276,7 +347,7 @@ title_prince_female_vietnamese_group_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_burman_group = {
+prince_male_burman_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -285,7 +356,7 @@ title_prince_male_burman_group = {
 	heritages = { heritage_burman heritage_palaungic }
 	top_liege = no
 }
-title_prince_female_burman_group = {
+prince_female_burman_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -294,7 +365,7 @@ title_prince_female_burman_group = {
 	heritages = { heritage_burman heritage_palaungic }
 	top_liege = no
 }
-title_prince_male_burman_group_empire = {
+prince_male_burman_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -303,7 +374,7 @@ title_prince_male_burman_group_empire = {
 	heritages = { heritage_burman heritage_palaungic }
 	top_liege = no
 }
-title_prince_female_burman_group_empire = {
+prince_female_burman_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -319,7 +390,7 @@ title_prince_female_burman_group_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_mon = {
+prince_male_mon = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -328,7 +399,7 @@ title_prince_male_mon = {
 	heritages = { heritage_mon }
 	top_liege = no
 }
-title_prince_female_mon = {
+prince_female_mon = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -337,7 +408,7 @@ title_prince_female_mon = {
 	heritages = { heritage_mon }
 	top_liege = no
 }
-title_prince_male_mon_empire = {
+prince_male_mon_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -346,7 +417,7 @@ title_prince_male_mon_empire = {
 	heritages = { heritage_mon }
 	top_liege = no
 }
-title_prince_female_mon_empire = {
+prince_female_mon_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -362,7 +433,7 @@ title_prince_female_mon_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_khmer = {
+prince_male_khmer = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -371,7 +442,7 @@ title_prince_male_khmer = {
 	heritages = { heritage_khmer heritage_katuic }
 	top_liege = no
 }
-title_prince_female_khmer = {
+prince_female_khmer = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -380,7 +451,7 @@ title_prince_female_khmer = {
 	heritages = { heritage_khmer heritage_katuic }
 	top_liege = no
 }
-title_prince_male_khmer_empire = {
+prince_male_khmer_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -389,7 +460,7 @@ title_prince_male_khmer_empire = {
 	heritages = { heritage_khmer heritage_katuic }
 	top_liege = no
 }
-title_prince_female_khmer_empire = {
+prince_female_khmer_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -405,7 +476,7 @@ title_prince_female_khmer_empire = {
 # Feudal / Clan / Tribal
 
 # Princes
-title_prince_male_tai_group = {
+prince_male_tai_group = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -414,7 +485,7 @@ title_prince_male_tai_group = {
 	heritages = { heritage_kradai }
 	top_liege = no
 }
-title_prince_female_tai_group = {
+prince_female_tai_group = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -423,7 +494,7 @@ title_prince_female_tai_group = {
 	heritages = { heritage_kradai }
 	top_liege = no
 }
-title_prince_male_tai_group_empire = {
+prince_male_tai_group_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -432,7 +503,7 @@ title_prince_male_tai_group_empire = {
 	heritages = { heritage_kradai }
 	top_liege = no
 }
-title_prince_female_tai_group_empire = {
+prince_female_tai_group_empire = {
 	type = character
 	gender = female
 	special = ruler_child

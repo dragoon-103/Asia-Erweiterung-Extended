@@ -10,8 +10,8 @@
  culture_parameter_unlock_maa_ksatra:0 "可以招募[GetMaA('ksatra').GetName]为[men_at_arms|E]"
 
  #Military
- tradition_samurai_spirit_name:0 "侍魂"
- tradition_samurai_spirit_desc:0 "武士代表着日本的精英武士阶级，他们奉行着被称为武士道的严格武士守则。这一法典极为强调诚实，武勇以及对封建领主的坚定忠诚等美德，即使在面对死亡时也不例外."
+ tradition_samurai_name:0 "侍"
+ tradition_samurai_desc:0 "侍代表了日本的精英武士阶级，因对氏族的忠诚、卓越的武艺和对强大主人的服务而备受推崇。他们的准则强调荣誉、勇气和对保护对象的坚定奉献，哪怕面对死亡也毫不退缩。"
  samurai:0 "侍"
  samurai_flavor:0 "这些武士在马术和射箭方面展现了卓越的纪律和严格的训练，体现了日本武士理想的典范。"
  sohei:0 "僧兵"

@@ -18,6 +18,7 @@
  Akiie:0 "Akiie" #顕家
  Akikage:0 "Akikage" #秋影
  Akikane:0 "Akikane" #秋金
+ Akikiyo:0 "Akikiyo" #顕清
  Akiko:0 "Akiko" #秋子
  Akikuni:0 "Akikuni" #昭国
  Akimoto:0 "Akimoto" #顕基
@@ -90,16 +91,22 @@
  Arakahi:0 "Arakahi" #麁鹿火
  Arayama:0 "Arayama" #荒山
  Ariakira:0 "Ariakira" #有明
+ Ariharu:0 "Ariharu" #有治
  Arika:0 "Arika" #有加
  Arikuni:0 "Arikuni" #有国
+ Arimichi:0 "Arimichi" #有道
  Arimitsu:0 "Arimitsu" #有光
+ Arimori:0 "Arimori" #有盛
+ Arinobu:0 "Arinobu" #有宜
  Ario:0 "Ario" #有雄
  Arioki:0 "Arioki" #在興
  Arisada:0 "Arisada" #有貞
+ Arito:0 "Aritō" #有遠
  Aritsune2:0 "Aritsune" #有常
  Aritsune:0 "Aritsune" #在躬
  Ariuji:0 "Ariuji" #有氏
  Ariyoshi:0 "Ariyoshi" #在良
+ Ariyoshi2:0 "Ariyoshi" #有義
  Asa:0 "Asa" #朝
  Asako:0 "Asako" #朝子
  Asayori:0 "Asayori" #朝頼
@@ -110,6 +117,7 @@
  Atsuhito:0 "Atsuhito" #敦仁
  Atsuko:0 "Atsuko" #敦子
  Atsumi:0 "Atsumi" #敦実
+ Atsumori:0 "Atsumori" #敦盛
  Atsumoto:0 "Atsumoto" #敦基
  Atsumoto2:0 "Atsumoto" #敦元
  Atsumune:0 "Atsumune" #敦宗
@@ -118,6 +126,7 @@
  Atsushige:0 "Atsushige" #淳茂
  Atsuyoshi:0 "Atsuyoshi" #篤義
  Atsuyuki:0 "Atsuyuki" #篤行
+ Awa:0 "Awa" #阿波
  Awakatsu:0 "Awakatsu" #栗勝
  Aya:0 "Aya" #彩
  Ayako:0 "Ayako" #文子
@@ -127,26 +136,35 @@
  Baigetsu:0 "Baigetsu" #梅月
  Bainan:0 "Bainan" #梅南
  Bairei:0 "Bairei" #梅齢
+ Benkei:0 "Benkei" #弁慶
  Bidatsu:0 "Bidatsu" #敏達
  Boku:0 "Boku" #墨
  Bun:0 "Bun" #文
  Buretsu:0 "Buretsu" #武烈
+ Boumon:0 "Bōmon" # 坊門
  Chifuru:0 "Chifuru" #千古
  Chikaaki:0 "Chikaaki" #近秋
  Chikaharu:0 "Chikaharu" #近晴
+ Chikaharu2:0 "Chikaharu" #親治
  Chikahide:0 "Chikahide" #近秀
  Chikahito:0 "Chikahito" #親仁
+ Chikahiro:0 "Chikahiro" #親弘
  Chikaie:0 "Chikaie" #近家
+ Chikaie2:0 "Chikaie" #親家
  Chikakage:0 "Chikakage" #近影
+ Chikakane:0 "Chikakane" #親兼
  Chikakatsu:0 "Chikakatsu" #近勝
  Chikakazu:0 "Chikakazu" #近和
  Chikaki:0 "Chikaki" #近樹
+ Chikakiyo:0 "Chikakiyo" #親清
  Chikako:0 "Chikako" #近子
+ Chikako2:0 "Chikako" #親子
  Chikakuni:0 "Chikakuni" #近国
  Chikamasa:0 "Chikamasa" #近正
  Chikamori:0 "Chikamori" #近盛
  Chikamoto:0 "Chikamoto" #近本
  Chikamune:0 "Chikamune" #近宗
+ Chikamune2:0 "Chikamune" #親宗
  Chikanaga:0 "Chikanaga" #近長
  Chikanao:0 "Chikanao" #近直
  Chikanobu:0 "Chikanobu" #親信
@@ -157,12 +175,15 @@
  Chikasue:0 "Chikasue" #近季
  Chikatada:0 "Chikatada" #近忠
  Chikataka:0 "Chikataka" #近隆
+ Chikataka2:0 "Chikataka" #親孝
  Chikatane:0 "Chikatane" #近胤
  Chikatoki:0 "Chikatoki" #近時
  Chikatsuna:0 "Chikatsuna" #近綱
+ Chikatsune:0 "Chikatsune" #親経
  Chikauji:0 "Chikauji" #近氏
  Chikayasu:0 "Chikayasu" #近安
  Chikayo:0 "Chikayo" #近代
+ Chikayori:0 "Chikayori" #周頼
  Chikayoshi:0 "Chikayoshi" #近義
  Chikazane:0 "Chikazane" #親真
  Chinshi:0 "Chinshi" #珍子
@@ -219,12 +240,14 @@
  Choyu:0 "Choyu" #長勇
  Chu:0 "Chu" #忠
  Chuai:0 "Chūai" #仲哀
+ Chukai:0 "Chūkai" #忠快
  Daigo:0 "Daigo" #醍醐
  Dentsuru:0 "Dentsuru" #伝鶴
  Ei:0 "Ei" #栄
  Eki:0 "Eki" #映木
  Eminooshikatsu:0 "Eminooshikatsu" #恵美押勝
  Emishi:0 "Emishi" #蝦夷
+ Emishi2:0 "Emishi" #毛人
  En:0 "En" #延
  Enen:0 "Enen" #延円
  Enkan:0 "Enkan" #円観
@@ -244,6 +267,8 @@
  Fujitsugu:0 "Fujitsugu" #藤嗣
  Fujiuji:0 "Fujiuji" #富士氏
  Fujiyori:0 "Fujiyori" #富士頼
+ Fukatsune:0 "Fukatsune" #深躬
+ Fukayabu:0 "Fukayabu" #深養父
  Fuko:0 "Fuko" #富子
  Fuku:0 "Fuku" #福
  Fukugan:0 "Fukugan" #福顔
@@ -255,6 +280,7 @@
  Fumimori:0 "Fumimori" #文範
  Fuminaga:0 "Fuminaga" #文脩
  Fumitoki:0 "Fumitoki" #文時
+ Fumiyuki:0 "Fumiyuki" #文行
  Funamori:0 "Funamori" #船守
  Furi:0 "Furi" #古里
  Furuhito:0 "Furuhito" #古人
@@ -299,6 +325,7 @@
  Gessei:0 "Gessei" #月生
  Gesshin:0 "Gesshin" #月心
  Getsurei:0 "Getsurei" #月麗
+ Gien:0 "Gien" #全成
  Ginkana:0 "Ginkana" #銀香
  Gisa:0 "Gisa" #儀佐
  Gishi:0 "Gishi" #儀子
@@ -317,6 +344,8 @@
  Hachimaru:0 "Hachimaru" #八丸
  Hamao:0 "Hamao" #濱雄
  Hana:0 "Hana" #花
+ Hanako:0 "Hanako" #花子
+ Hangaku:0 "Hangaku" #坂額
  Hanzei:0 "Hanzei" #反正
  Haru:0 "Haru" #春
  Haruchika:0 "Haruchika" #春千賀
@@ -369,7 +398,9 @@
  Hide2:0 "Hide" #頴
  Hidechika:0 "Hidechika" #秀近
  Hideharu:0 "Hideharu" #秀晴
+ Hidehira:0 "Hidehira" # 秀衡
  Hidehisa:0 "Hidehisa" #秀久
+ Hidehisa2:0 "Hidehisa" #秀栄
  Hideie:0 "Hideie" #秀家
  Hidekane:0 "Hidekane" #秀兼
  Hidekatsu:0 "Hidekatsu" #秀勝
@@ -393,6 +424,7 @@
  Hideyasu:0 "Hideyasu" #秀康
  Hideyori:0 "Hideyori" #秀頼
  Hideyoshi:0 "Hideyoshi" #秀吉
+ Hideyoshi2:0 "Hideyoshi" #秀義
  Hikari:0 "Hikari" #光
  Hikaru:0 "Hikaru" #光
  Hikofutsuoshinomakoto:0 "Hikofutsuoshinomakoto" #彦太忍信命
@@ -414,6 +446,7 @@
  Hiromitsu:0 "Hiromitsu" #広光
  Hiromori:0 "Hiromori" #広盛
  Hiromoto:0 "Hiromoto" #広元
+ Hiromoto2:0 "Hiromoto" #弘幹
  Hiromu:0 "Hiromu" #広武
  Hirona:0 "Hirona" #広名
  Hironari:0 "Hironari" #広業
@@ -422,6 +455,7 @@
  Hironori:0 "Hironori" #広則
  Hirosada:0 "Hirosada" #広貞
  Hiroshige:0 "Hiroshige" #広重
+ Hiroshige2:0 "Hiroshige" #広成
  Hirosue:0 "Hirosue" #広季
  Hirotada:0 "Hirotada" #広忠
  Hirotaka:0 "Hirotaka" #広隆
@@ -433,12 +467,14 @@
  Hirotsugu:0 "Hirotsugu" #広嗣
  Hirotsuna:0 "Hirotsuna" #広綱
  Hirotsune:0 "Hirotsune" #弘経
+ Hirotsune2:0 "Hirotsune" #広常
  Hirouji:0 "Hirouji" #広氏
  Hiroyasu:0 "Hiroyasu" #広康
  Hiroyo:0 "Hiroyo" #寛代
  Hiroyori:0 "Hiroyori" #広頼
  Hiroyoshi:0 "Hiroyoshi" #広義
  Hiroyuki:0 "Hiroyuki" #広行
+ Hirozumi:0 "Hirozumi" #広澄
  Hisaaki:0 "Hisaaki" #久明
  Hisafuyu:0 "Hisafuyu" #久冬
  Hisaharu:0 "Hisaharu" #久春
@@ -494,8 +530,10 @@
  Ido:0 "Ido" #井戸
  Ieakira:0 "Ieakira" #家明
  Iechika:0 "Iechika" #家近
+ Iechika2:0 "Iechika" #家周
  Ieharu:0 "Ieharu" #家春
  Iehide:0 "Iehide" #家秀
+ Iehira:0 "Iehira" #家衡
  Iehiro:0 "Iehiro" #家弘
  Iehisa:0 "Iehisa" #家久
  Iekage:0 "Iekage" #家景
@@ -514,6 +552,7 @@
  Ienao:0 "Ienao" #家直
  Ienori:0 "Ienori" #家範
  Ieoki:0 "Ieoki" #家興
+ Iesada:0 "Iesada" #家貞
  Iesue:0 "Iesue" #家季
  Iesuke:0 "Iesuke" #家助
  Ietada:0 "Ietada" #家忠
@@ -524,11 +563,13 @@
  Ietoshi:0 "Ietoshi" #家利
  Ietoyo:0 "Ietoyo" #家豊
  Ietsugu:0 "Ietsugu" #家継
+ Ietsugu2:0 "Ietsugu" #家次
  Ietsune:0 "Ietsune" #家経
  Ieuji:0 "Ieuji" #家氏
  Ieyasu:0 "Ieyasu" #家康
  Ieyori:0 "Ieyori" #家頼
  Ieyoshi:0 "Ieyoshi" #家義
+ Iezane:0 "Iezane" #家実
  Iezumi:0 "Iezumi" #家純
  Iitoyo:0 "Iitoyo" #飯豊青
  Ijira:0 "Ijira" #伊治良
@@ -543,7 +584,9 @@
  Ikumeiribikoisachinomikoto:0 "Ikumeiribikoisachi no Mikoto" #活目入彦五十狭茅命
  Ikyu:0 "Ikyu" #一休
  Imamori:0 "Imamori" #今守
+ Imawakamaru:0 "Imawakamaru" # 今若丸
  Imei:0 "Imei" #一明
+ Imoko:0 "Imoko" #妹子
  Ina:0 "Ina" #稲
  Iname:0 "Iname" #稲目
  Ingyo:0 "Ingyō" #允恭
@@ -626,16 +669,20 @@
  Kagechika:0 "Kagechika" #景親
  Kagefusa:0 "Kagefusa" #景房
  Kageharu:0 "Kageharu" #景春
+ Kagehide:0 "Kagehide" #景秀
  Kagehiro:0 "Kagehiro" #景広
  Kagehisa:0 "Kagehisa" #景久
  Kagehito:0 "Kagehito" #景仁
  Kageie:0 "Kageie" #景家
+ Kagekane:0 "Kagekane" #景兼
  Kagekatsu:0 "Kagekatsu" #景勝
+ Kagekiyo:0 "Kagekiyo" #景清
  Kagekore:0 "Kagekore" #景是
  Kagemasa:0 "Kagemasa" #景正
  Kagemichi:0 "Kagemichi" #景道
  Kagemochi:0 "Kagemochi" #景持
  Kagemune:0 "Kagemune" #景宗
+ Kagemura:0 "Kagemura" #景村
  Kagenaga:0 "Kagenaga" #景長
  Kagenaka:0 "Kagenaka" #景仲
  Kagenari:0 "Kagenari" #景成
@@ -643,6 +690,7 @@
  Kagenori:0 "Kagenori" #景則
  Kagesada:0 "Kagesada" #景貞
  Kageshige:0 "Kageshige" #景重
+ Kagesue:0 "Kagesue" #景季
  Kagesuke:0 "Kagesuke" #景助
  Kagetada:0 "Kagetada" #景忠
  Kagetaka:0 "Kagetaka" #景高
@@ -650,11 +698,15 @@
  Kagetame:0 "Kagetame" #景為
  Kagetoki:0 "Kagetoki" #景時
  Kagetora:0 "Kagetora" #景虎
+ Kagetoshi:0 "Kagetoshi" #景俊
+ Kagetsugu:0 "Kagetsugu" #景継
  Kagetsuna:0 "Kagetsuna" #景綱
  Kagetsune:0 "Kagetsune" #景経
  Kageuji:0 "Kageuji" #景氏
  Kageyori:0 "Kageyori" #景頼
  Kageyoshi:0 "Kageyoshi" #景吉
+ Kageyoshi2:0 "Kageyoshi" #景義
+ Kageyuki:0 "Kageyuki" #景行
  Kagezane:0 "Kagezane" #景真
  Kaika:0 "Kaika" #開化
  Kako:0 "Kako" #香子
@@ -676,6 +728,7 @@
  Kanehide:0 "Kanehide" #包秀
  Kanehira:0 "Kanehira" #懐平
  Kanehisa:0 "Kanehisa" #包久
+ Kanehisa2:0 "Kanehisa" #兼久
  Kanehito:0 "Kanehito" #懐仁
  Kaneie:0 "Kaneie" #兼家
  Kanemasu:0 "Kanemasu" #包益
@@ -685,22 +738,30 @@
  Kanemori:0 "Kanemori" #包盛
  Kanemoto:0 "Kanemoto" #包元
  Kanemune:0 "Kanemune" #包宗
+ Kanenobu:0 "Kanenobu" #兼信
  Kaneoki:0 "Kaneoki" #包興
  Kanesada:0 "Kanesada" #包貞
  Kaneshige:0 "Kaneshige" #包重
+ Kaneshige2:0 "Kaneshige" #兼重
  Kanesue:0 "Kanesue" #兼季
+ Kanesuke:0 "Kanesuke" #兼輔
  Kanetada:0 "Kanetada" #兼忠
+ Kaneto:0 "Kanetō" #兼遠
  Kanetada:0 "Kanetada" #包忠
  Kanetomo:0 "Kanetomo" #包朝
  Kanetoshi:0 "Kanetoshi" #包俊
  Kanetoyo:0 "Kanetoyo" #包豊
  Kanetsugu:0 "Kanetsugu" #包継
+ Kanetsuna:0 "Kanetsuna" #兼綱
  Kanetsune:0 "Kanetsune" #兼経
  Kanetsura:0 "Kanetsura" #包貫
  Kaneuji:0 "Kaneuji" #包氏
+ Kaneuji2:0 "Kaneuji" #兼氏
  Kaneyori:0 "Kaneyori" #包頼
  Kaneyoshi:0 "Kaneyoshi" #包能
+ Kaneyoshi2:0 "Kaneyoshi" #兼好
  Kaneyuki:0 "Kaneyuki" #包行
+ Kanezane:0 "Kanezane" #兼実
  Kanimatsu:0 "Kanimatsu" #金松
  Kanimeikazuchi:0 "Kanimeikazuchi" #迦邇米雷
  Kanmu:0 "Kanmu" #桓武
@@ -717,6 +778,7 @@
  Karu2:0 "Karu" #軽
  Karu:0 "Karu" #珂瑠
  Karunooiratsume:0 "Karunooiratsume" #軽大娘
+ Kasuga:0 "Kasuga" #春日
  Kasuganooiratsume:0 "Kasuganooiratsume" #春日大娘
  Kasumi:0 "Kasumi" #霞
  Kataharu:0 "Kataharu" #型春
@@ -765,12 +827,20 @@
  Kenshi:0 "Kenshi" #妍子
  Kenshinai:0 "Kenshinai" #儇子内
  Kenshitsu:0 "Kenshitsu" #憲室
+ Kenu:0 "Kenu" #毛野
  Kenzo:0 "Kenzo" #顕宗
  Ki:0 "Ki" #希
  Kichika:0 "Kichika" #吉親
  Kiku:0 "Kiku" #菊
  Kikuchiyo:0 "Kikuchiyo" #菊千代
+ Kimikiyo:0 "Kimikiyo" #公清
  Kimiko:0 "Kimiko" #君子
+ Kimimitsu:0 "Kimimitsu" #公光
+ Kimitaka:0 "Kimitaka" #公隆
+ Kimito:0 "Kimitō" #公遠
+ Kimisato:0 "Kimisato" #公郷
+ Kimisuke:0 "Kimisuke" #公澄
+ Kimiyuki:0 "Kimiyuki" #公行
  Kimpuku:0 "Kimpuku" #金福
  Kinashinokaru:0 "Kinashinokaru" #木梨軽
  Kinjiru:0 "Kinjiru" #金次郎
@@ -786,7 +856,8 @@
  Kitashi:0 "Kitashi" #堅塩
  Kiyo:0 "Kiyo" #清
  Kiyo2:0 "Kiyo" #潔
- Kiyohara:0 "Kiyohara" #清衡
+ Kiyofusa:0 "Kiyofusa" #清房
+ Kiyohira:0 "Kiyohira" #清衡
  Kiyoharu:0 "Kiyoharu" #清治
  Kiyoie:0 "Kiyoie" #清家
  Kiyokaze:0 "Kiyokaze" #清風
@@ -795,11 +866,13 @@
  Kiyokuni:0 "Kiyokuni" #清国
  Kiyomasa:0 "Kiyomasa" #清正
  Kiyomi:0 "Kiyomi" #浄三
+ Kiyomitsu:0 "Kiyomitsu" #清光
  Kiyomochi:0 "Kiyomochi" #清持
  Kiyomori:0 "Kiyomori" #清盛
  Kiyomoto:0 "Kiyomoto" #致幹
  Kiyomune:0 "Kiyomune" #清宗
  Kiyonari:0 "Kiyonari" #清成
+ Kiyonatsu:0 "Kiyonatsu" #清夏
  Kiyono2:0 "Kiyono" #清野
  Kiyono:0 "Kiyono" #浄野
  Kiyonobu:0 "Kiyonobu" #清信
@@ -811,6 +884,7 @@
  Kiyotaka:0 "Kiyotaka" #清隆
  Kiyotari:0 "Kiyotari" #浄足
  Kiyotomo:0 "Kiyotomo" #清友
+ Kiyotsuna:0 "Kiyotsuna" #清綱
  Kiyotsune:0 "Kiyotsune" #清経
  Kiyouji:0 "Kiyouji" #清王子
  Kiyoyasu:0 "Kiyoyasu" #清康
@@ -828,6 +902,7 @@
  Koma:0 "Koma" #高麗
  Konin:0 "Kōnin" #光仁
  Konoe:0 "Konoe" #近衛
+ Korechiyo:0 "Korechiyo" #維幾
  Koreeda:0 "Koreeda" #惟条
  Korehiko:0 "Korehiko" #惟彦
  Korehira:0 "Korehira" #維衡
@@ -836,6 +911,9 @@
  Korei:0 "Korei" #孝霊
  Koreie:0 "Koreie" #是家
  Korekage:0 "Korekage" #是景
+ Korekage2:0 "Korekage" #維景
+ Korekane:0 "Korekane" #維兼
+ Korekimi:0 "Korekimi" #是公
  Korekuni:0 "Korekuni" #是国
  Koremasa:0 "Koremasa" #維将
  Koremitsu:0 "Koremitsu" #是光
@@ -850,17 +928,25 @@
  Koreoka:0 "Koreoka" #惟岳
  Koresato:0 "Koresato" #是里
  Koretada:0 "Koretada" #是忠
+ Koretada2:0 "Koretada" #伊尹
  Koretaka:0 "Koretaka" #惟喬
  Koretane:0 "Koretane" #是胤
+ Koreto:0 "Koreto" #維遠
  Koretoki:0 "Koretoki" #維時
  Koretoshi:0 "Koretoshi" #維敏
  Koretoyo:0 "Koretoyo" #是豊
  Koretsugu:0 "Koretsugu" #是継
+ Koretsugu2:0 "Koretsugu" #維継
  Koretsuna2:0 "Koretsuna" #義綱
  Koretsuna:0 "Koretsuna" #是綱
  Koretsune:0 "Koretsune" #惟恒
+ Koretsune2:0 "Koretsune" #維職
+ Koretsune3:0 "Koretsune" #惟常
  Koreyasu:0 "Koreyasu" #是康
+ Koreyori:0 "Koreyori" #維頼
  Koreyoshi:0 "Koreyoshi" #是善
+ Koreyoshi2:0 "Koreyoshi" #維良
+ Koreyuki:0 "Koreyuki" #維行
  Korezane:0 "Korezane" #維城
  Korezumi:0 "Korezumi" #是住
  Kosemaro:0 "Kosemaro" #巨勢麻呂
@@ -878,6 +964,7 @@
  Kuniaki:0 "Kuniaki" #邦明
  Kunichika:0 "Kunichika" #国周
  Kunifusa:0 "Kunifusa" #国房
+ Kunihira:0 "Kunihira" #国衡
  Kunihisa:0 "Kunihisa" #国久
  Kunika:0 "Kunika" #國香
  Kunikiyo:0 "Kunikiyo" #国清
@@ -901,6 +988,7 @@
  Kunitora:0 "Kunitora" #国虎
  Kunitoyo:0 "Kunitoyo" #国豊
  Kunitsuna:0 "Kunitsuna" #国綱
+ Kunitsuna2:0 "Kunitsuna" #邦綱
  Kunitsune:0 "Kunitsune" #国経
  Kuniuji:0 "Kuniuji" #国氏
  Kuniyoshi:0 "Kuniyoshi" #国義
@@ -913,6 +1001,7 @@
  Kuwata:0 "Kuwata" #桑田
  Kuya:0 "Kuya" #久屋
  Kyo:0 "Kyo" #京
+ Kyoko:0 "Kyoko" #清子
  Kyojin:0 "Kyojin" #強人
  Kyu:0 "Kyu" #久
  Mabunari:0 "Mabunari" #真舩成
@@ -935,8 +1024,10 @@
  Manabi:0 "Manabi" #学
  Manashi:0 "Manashi" #愛
  Manatsu:0 "Manatsu" #真夏
+ Mangou:0 "Mangō" #満功
  Manyuku:0 "Manyuku" #万福
  Mareyo:0 "Mareyo" #希世
+ Mareyoshi:0 "Mareyoshi" # 希義
  Mari:0 "Mari" #麻里
  Marise:0 "Marise" #摩理勢
  Maro2:0 "Maro" #麻路
@@ -959,6 +1050,7 @@
  Masakazu:0 "Masakazu" #正一
  Masakiyo:0 "Masakiyo" #正清
  Masako:0 "Masako" #正子
+ Masako2:0 "Masako" #政子
  Masakore:0 "Masakore" #正是
  Masaku:0 "Masaku" #正宮
  Masakuni:0 "Masakuni" #将国
@@ -978,6 +1070,7 @@
  Masanobu:0 "Masanobu" #正信
  Masanori2:0 "Masanori" #正度
  Masanori3:0 "Masanori" #雅規
+ Masanori4:0 "Masanori" #政範
  Masanori:0 "Masanori" #正倫
  Masanru:0 "Masanru" #正流
  Masaoki:0 "Masaoki" #正興
@@ -1001,11 +1094,14 @@
  Masatoshi:0 "Masatoshi" #正利
  Masatoyo:0 "Masatoyo" #正豊
  Masatsuna:0 "Masatsuna" #正綱
+ Masatsuna2:0 "Masatsuna" #雅経
  Masatsune:0 "Masatsune" #将恒
  Masauji:0 "Masauji" #正氏
  Masayasu:0 "Masayasu" #正康
  Masayori:0 "Masayori" #正頼
+ Masayori2:0 "Masayori" #斉頼
  Masayoshi:0 "Masayoshi" #正義
+ Masayoshi2:0 "Masayoshi" #昌義
  Masayuki:0 "Masayuki" #正行
  Masazane:0 "Masazane" #雅信
  Masazumi:0 "Masazumi" #当澄
@@ -1013,6 +1109,7 @@
  Mashiho:0 "Mashiho" #真志保
  Masuie:0 "Masuie" #益家
  Masukane:0 "Masukane" #益包
+ Masumi:0 "Masumi" #益男
  Masunaga:0 "Masunaga" #益長
  Masusue:0 "Masusue" #益季
  Masuyoshi:0 "Masuyoshi" #益善
@@ -1039,21 +1136,28 @@
  Michifumi:0 "Michifumi" #道文
  Michifusa:0 "Michifusa" #通房
  Michiharu:0 "Michiharu" #道治
+ Michihira:0 "Michihira" #通衡
  Michihisa:0 "Michihisa" #道久
  Michikage:0 "Michikage" #道景
  Michikane:0 "Michikane" #道兼
  Michikata:0 "Michikata" #道方
+ Michikazu:0 "Michikazu" #通員
+ Michikiyo:0 "Michikiyo" #通清
  Michimasa:0 "Michimasa" #道正
  Michimori:0 "Michimori" #道盛
+ Michimoto:0 "Michimoto" # 通基
  Michinaga:0 "Michinaga" #道長
  Michinao:0 "Michinao" #道直
  Michino:0 "Michino" #賀陽
  Michinobu:0 "Michinobu" #道信
+ Michinobu2:0 "Michinobu" #通信
  Michinori:0 "Michinori" #道範
  Michinushi:0 "Michinushi" #道主
  Michio:0 "Michio" #道雄
+ Michisada:0 "Michisada" #通貞
  Michishige:0 "Michishige" #道重
  Michisue:0 "Michisue" #道季
+ Michisuke:0 "Michisuke" #通助
  Michitaka:0 "Michitaka" #道隆
  Michitane:0 "Michitane" #道胤
  Michiteru:0 "Michiteru" #道輝
@@ -1062,6 +1166,7 @@
  Michitomo:0 "Michitomo" #道朝
  Michitsugu:0 "Michitsugu" #道嗣
  Michitsuna:0 "Michitsuna" #道綱
+ Michitsune:0 "Michitsune" #通経
  Michiyasu:0 "Michiyasu" #道康
  Michiyo:0 "Michiyo" #三千代
  Michiyori:0 "Michiyori" #道頼
@@ -1077,15 +1182,20 @@
  Minami:0 "Minami" #南
  Minato:0 "Minato" #港
  Mineo:0 "Mineo" #峯緒
+ Minehide:0 "Minehide" #厳秀
+ Minemori:0 "Minemori" #岑守
  Minu:0 "Minu" #美努
  Mio:0 "Mio" #澪
  Misaki:0 "Misaki" #美咲
  Mitsu:0 "Mitsu" #光
  Mitsufusa:0 "Mitsufusa" #光房
  Mitsuharu:0 "Mitsuharu" #光治
+ Mitsuharu2:0 "Mitsuharu" #満治
  Mitsuhide:0 "Mitsuhide" #光秀
+ Mitsuhira:0 "Mitsuhira" #光衡
  Mitsuhiro:0 "Mitsuhiro" #光弘
  Mitsuie:0 "Mitsuie" #光家
+ Mitsukage:0 "Mitsukage" #光景
  Mitsukane:0 "Mitsukane" #光包
  Mitsukata:0 "Mitsukata" #光方
  Mitsukazu:0 "Mitsukazu" #光和
@@ -1095,21 +1205,25 @@
  Mitsukuni:0 "Mitsukuni" #光国
  Mitsumasa:0 "Mitsumasa" #光政
  Mitsumori:0 "Mitsumori" #光守
+ Mitsumori2:0 "Mitsumori" #光盛
  Mitsumoto:0 "Mitsumoto" #光基
  Mitsumune:0 "Mitsumune" #光宗
  Mitsumura:0 "Mitsumura" #光村
+ Mitsunaga:0 "Mitsunaga" #光長
  Mitsunaka:0 "Mitsunaka" #満仲
  Mitsunao:0 "Mitsunao" #光直
  Mitsunari:0 "Mitsunari" #光成
  Mitsunobu:0 "Mitsunobu" #光信
  Mitsunori:0 "Mitsunori" #光範
  Mitsusada:0 "Mitsusada" #光貞
+ Mitsusue:0 "Mitsusue" #満季
  Mitsusuke:0 "Mitsusuke" #光祐
  Mitsutaka:0 "Mitsutaka" #光隆
  Mitsutake:0 "Mitsutake" #光武
  Mitsutomo:0 "Mitsutomo" #光朝
  Mitsutsugu:0 "Mitsutsugu" #光嗣
  Mitsutsuna:0 "Mitsutsuna" #光綱
+ Mitsutsune:0 "Mitsutsune" #光経
  Mitsuuji:0 "Mitsuuji" #光氏
  Mitsuyasu:0 "Mitsuyasu" #光康
  Mitsuyori:0 "Mitsuyori" #光頼
@@ -1118,11 +1232,13 @@
  Mitsuzumi:0 "Mitsuzumi" #光純
  Miwako:0 "Miwako" #美和子
  Miyabi:0 "Miyabi" #雅
+ Miyagiku:0 "Miyagiku" #宮菊
  Miyako:0 "Miyako" #宮子
  Mizuhawake:0 "Mizuhawake" #瑞歯別
  Mizuki:0 "Mizuki" #瑞樹
  Mochiharu:0 "Mochiharu" #持治
  Mochihisa:0 "Mochihisa" #持久
+ Mochihito:0 "Mochihito" #以仁
  Mochiie:0 "Mochiie" #持家
  Mochikage:0 "Mochikage" #持景
  Mochikiyo:0 "Mochikiyo" #持清
@@ -1156,11 +1272,14 @@
  Morihisa:0 "Morihisa" #盛久
  Morihito:0 "Morihito" #守仁
  Morikane:0 "Morikane" #盛兼
+ Morikata:0 "Morikata" # 盛方
  Morikiyo:0 "Morikiyo" #盛清
  Moriko:0 "Moriko" #盛子
+ Morikuni:0 "Morikuni" #盛国
  Morimasa:0 "Morimasa" #盛正
  Morimichi:0 "Morimichi" #盛道
  Morimitsu:0 "Morimitsu" #盛光
+ Morimitsu2:0 "Morimitsu" #盛満
  Morimoto:0 "Morimoto" #盛基
  Morinaga:0 "Morinaga" #盛長
  Morinao:0 "Morinao" #盛直
@@ -1174,8 +1293,11 @@
  Moritaka:0 "Moritaka" #守隆
  Moritane:0 "Moritane" #盛胤
  Moritoki:0 "Moritoki" #盛時
+ Moritoshi:0 "Moritoshi" #盛俊
  Moritoyo:0 "Moritoyo" #盛豊
+ Moritsuna:0 "Moritsuna" #盛綱
  Moritsune:0 "Moritsune" #盛常
+ Moritsugu:0 "Moritsugu" #盛嗣
  Moriuji:0 "Moriuji" #盛氏
  Moriya:0 "Moriya" #守屋
  Moriyasu:0 "Moriyasu" #盛康
@@ -1190,11 +1312,15 @@
  Moromitsu:0 "Moromitsu" #師光
  Moronao:0 "Moronao" #師尚
  Moronari:0 "Moronari" #師成
+ Moronobu:0 "Moronobu" #師信
  Morosada:0 "Morosada" #師貞
+ Moroshige:0 "Moroshige" #師重
  Morosue:0 "Morosue" #師季
  Morosuke:0 "Morosuke" #師輔
  Morotada:0 "Morotada" #師尹
+ Morotaka:0 "Morotaka" #諸高
  Morotoki:0 "Morotoki" #盛時
+ Morotsune:0 "Morotsune" #師常
  Moroyoshi:0 "Moroyoshi" #盛義
  Moroyuki:0 "Moroyuki" #盛行
  Morozane:0 "Morozane" #師実
@@ -1205,13 +1331,16 @@
  Motofusa:0 "Motofusa" #元房
  Motoharu:0 "Motoharu" #元春
  Motohira:0 "Motohira" #基平
+ Motohira2:0 "Motohira" #基衡
  Motohiro:0 "Motohiro" #元弘
  Motohisa:0 "Motohisa" #元久
  Motoie:0 "Motoie" #元家
+ Motokage:0 "Motokage" #基景
  Motokane:0 "Motokane" #元包
  Motokatsu:0 "Motokatsu" #元勝
  Motoko:0 "Motoko" #元子
  Motokuni:0 "Motokuni" #元国
+ Motokuni2:0 "Motokuni" #基国
  Motomasa:0 "Motomasa" #元正
  Motomichi:0 "Motomichi" #本道
  Motomistu:0 "Motomistu" #元光
@@ -1224,12 +1353,14 @@
  Motonao:0 "Motonao" #元直
  Motonari:0 "Motonari" #元成
  Motonobu:0 "Motonobu" #元信
+ Motonobu2:0 "Motonobu" #基信
  Motonori:0 "Motonori" #元則
  Motooki:0 "Motooki" #元興
  Motosada:0 "Motosada" #元定
  Motosane:0 "Motosane" #元実
  Motoshige:0 "Motoshige" #元重
  Motosuke:0 "Motosuke" #元祐
+ Motosuke2:0 "Motosuke" #元輔
  Mototada:0 "Mototada" #元忠
  Mototaka:0 "Mototaka" #元高
  Mototeru:0 "Mototeru" #元輝
@@ -1242,6 +1373,7 @@
  Motouji:0 "Motouji" #元氏
  Motoyasu:0 "Motoyasu" #本康
  Motoyori:0 "Motoyori" #元頼
+ Motoyori2:0 "Motoyori" #基頼
  Motoyoshi:0 "Motoyoshi" #元義
  Motoyuki:0 "Motoyuki" #元行
  Motozane:0 "Motozane" #基実
@@ -1268,13 +1400,18 @@
  Munemoto:0 "Munemoto" #宗基
  Munemura:0 "Munemura" #宗村
  Munenaga:0 "Munenaga" #宗長
+ Munenaga2:0 "Munenaga" #頼経
+ Munenaga3:0 "Munenaga" #宗永
  Munenao:0 "Munenao" #宗直
  Munenari:0 "Munenari" #宗成
  Munenobu:0 "Munenobu" #宗信
+ Munenobu2:0 "Munenobu" #致信
  Munenori:0 "Munenori" #宗範
+ Munenori2:0 "Munenori" #頼教
  Munesada:0 "Munesada" #宗貞
  Munesada2:0 "Munesada" #棟貞
  Muneshige:0 "Muneshige" #宗重
+ Muneshige2:0 "Muneshige" #宗茂
  Munesuke:0 "Munesuke" #宗祐
  Munetada:0 "Munetada" #宗忠
  Munetaka:0 "Munetaka" #宗高
@@ -1290,6 +1427,8 @@
  Munetsune:0 "Munetsune" #宗常
  Muneyori:0 "Muneyori" #宗頼
  Muneyoshi:0 "Muneyoshi" #宗義
+ Muneyoshi2:0 "Muneyoshi" #宗良
+ Munezane:0 "Munezane" #宗実
  Muraaki:0 "Muraaki" #村明
  Murahide:0 "Murahide" #村秀
  Murakami:0 "Murakami" #村上
@@ -1299,6 +1438,7 @@
  Muranori:0 "Muranori" #村則
  Murao:0 "Murao" #村雄
  Murasaki:0 "Murasaki" #紫
+ Murasaki_Shikibu:0 "Murasaki Shikibu" #紫式部
  Murata:0 "Murata" #村田
  Murayoshi:0 "Murayoshi" #村義
  Mutsuko:0 "Mutsuko" #睦子
@@ -1322,10 +1462,13 @@
  Nagamasa:0 "Nagamasa" #長政
  Nagamasu:0 "Nagamasu" #長勝
  Nagamatsu:0 "Nagamatsu" #長松
+ Nagami:0 "Nagami" #永見
  Nagamochi:0 "Nagamochi" #長持
  Nagamori:0 "Nagamori" #永盛
  Nagamori2:0 "Nagamori" #長盛
  Nagamoto:0 "Nagamoto" #長本
+ Nagamoto2:0 "Nagamoto" #長幹
+ Nagamoto3:0 "Nagamoto" #永基
  Nagamune:0 "Nagamune" #長宗
  Naganao:0 "Naganao" #長直
  Naganari:0 "Naganari" #長成
@@ -1349,24 +1492,31 @@
  Nagaya:0 "Nagaya" #長屋
  Nagayasu:0 "Nagayasu" #長康
  Nagayori:0 "Nagayori" #永頼
+ Nagayori2:0 "Nagayori" #長頼
  Nagayoshi:0 "Nagayoshi" #長義
  Nagayuki:0 "Nagayuki" #長行
  Nagazane:0 "Nagazane" #長真
  Nagazumi:0 "Nagazumi" #長純
  Nagisa:0 "Nagisa" #渚
  Nakahira:0 "Nakahira" #仲平
+ Nakaie:0 "Nakaie" #仲家
  Nakaka:0 "Nakaka" #中加
  Nakakage:0 "Nakakage" #中景
  Nakakiyo:0 "Nakakiyo" #中清
+ Nakakiyo2:0 "Nakakiyo" #仲清
  Nakako:0 "Nakako" #中子
  Nakamaro:0 "Nakamaro" #仲麻呂
  Nakamasa:0 "Nakamasa" #中正
  Nakamune:0 "Nakamune" #仲統
+ Nakamune2:0 "Nakamune" #仲宗
  Nakano:0 "Nakano" #仲野
  Nakanobu:0 "Nakanobu" #中信
+ Nakashige:0 "Nakashige" #仲重
  Nakato:0 "Nakatō" #仲遠
+ Nakato2:0 "Nakatō" #仲任
  Nakatoshi:0 "Nakatoshi" #仲俊
  Nakatsu:0 "Nakatsu" #橘仲
+ Nakatsuna:0 "Nakatsuna" #仲経
  Nakitatsu:0 "Nakitatsu" #泣辰
  Nami:0 "Nami" #波
  Namitaka:0 "Namitaka" #比高
@@ -1387,6 +1537,7 @@
  Naomochi:0 "Naomochi" #直持
  Naomori:0 "Naomori" #直盛
  Naomoto:0 "Naomoto" #直基
+ Naomoto2:0 "Naomoto" #直幹
  Naomune:0 "Naomune" #直宗
  Naonaga:0 "Naonaga" #直長
  Naonobu:0 "Naonobu" #直信
@@ -1403,6 +1554,7 @@
  Nariaki:0 "Nariaki" #成章
  Nariakira:0 "Nariakira" #成明
  Nariharu:0 "Nariharu" #成治
+ Nariharu2:0 "Nariharu" #業治
  Narihide:0 "Narihide" #成秀
  Narihira2:0 "Narihira" #業平
  Narihira:0 "Narihira" #成衡
@@ -1413,6 +1565,7 @@
  Narimasa:0 "Narimasa" #成政
  Narimitsu:0 "Narimitsu" #成光
  Narimori:0 "Narimori" #成盛
+ Narimori2:0 "Narimori" #業盛
  Narimoto:0 "Narimoto" #成基
  Narimune:0 "Narimune" #成宗
  Narinobu:0 "Narinobu" #成信
@@ -1422,6 +1575,7 @@
  Narito:0 "Narito" #業遠
  Naritoki:0 "Naritoki" #済時
  Nariuji:0 "Nariuji" #成氏
+ Nariyori:0 "Nariyori" #成頼
  Nariyoshi:0 "Nariyoshi" #成義
  Natora:0 "Natora" #名虎
  Natsu:0 "Natsu" #夏
@@ -1452,17 +1606,23 @@
  Nobumasa:0 "Nobumasa" #信政
  Nobumichi:0 "Nobumichi" #信道
  Nobumitsu:0 "Nobumitsu" #信光
+ Nobumitsu2:0 "Nobumitsu" #信満
  Nobumori:0 "Nobumori" #信盛
  Nobumoto:0 "Nobumoto" #信基
  Nobumune:0 "Nobumune" #信宗
+ Nobumura:0 "Nobumura" #信村
  Nobunaga:0 "Nobunaga" #信長
  Nobunaka:0 "Nobunaka" #信仲
  Nobunao:0 "Nobunao" #信直
  Nobunari:0 "Nobunari" #信成
  Nobunori:0 "Nobunori" #信則
+ Nobunori2:0 "Nobunori" #惟規
  Nobuoki:0 "Nobuoki" #信興
  Nobusada:0 "Nobusada" #信貞
+ Nobusato:0 "Nobusato" #信郷
  Nobushige:0 "Nobushige" #信重
+ Nobushige2:0 "Nobushige" #信成
+ Nobusuke:0 "Nobusuke" #信輔
  Nobutada:0 "Nobutada" #信忠
  Nobutaka:0 "Nobutaka" #信隆
  Nobutake:0 "Nobutake" #信武
@@ -1476,6 +1636,7 @@
  Nobuuji:0 "Nobuuji" #信氏
  Nobuyasu:0 "Nobuyasu" #信康
  Nobuyoshi:0 "Nobuyoshi" #信良
+ Nobuyoshi2:0 "Nobuyoshi" #信義
  Nobuyuki:0 "Nobuyuki" #信之
  Nobuzane:0 "Nobuzane" #信実
  Norifusa:0 "Norifusa" #則房
@@ -1486,8 +1647,10 @@
  Noriie:0 "Noriie" #則家
  Norikage:0 "Norikage" #則景
  Noriko:0 "Noriko" #則子
+ Noriko2:0 "Noriko" #教子
  Norikore:0 "Norikore" #則是
  Norikuni:0 "Norikuni" #則国
+ Norikuni2:0 "Norikuni" #範国
  Norimasa:0 "Norimasa" #則政
  Norimichi2:0 "Norimichi" #教通
  Norimichi3:0 "Norimichi" #能通
@@ -1504,15 +1667,19 @@
  Norisue:0 "Norisue" #範季
  Norisuke:0 "Norisuke" #憲輔
  Noritada:0 "Noritada" #義忠
+ Noritaka:0 "Noritaka" #則隆
  Noritame:0 "Noritame" #則為
  Noritane:0 "Noritane" #則胤
  Norito:0 "Noritō" #則任
  Noritomo:0 "Noritomo" #則朝
  Noritoyo:0 "Noritoyo" #則豊
+ Noritsuna:0 "Noritsuna" #則綱
+ Noritsune:0 "Noritsune" #義経
  Noriuji:0 "Noriuji" #則氏
  Noriyasu:0 "Noriyasu" #則康
  Noriyori:0 "Noriyori" #則頼
  Noriyoshi:0 "Noriyoshi" #則良
+ Noriyoshi2:0 "Noriyoshi" #教能
  Noshi:0 "Nōshi" #濃子
  Nozomi:0 "Nozomi" #望
  Nukatabe:0 "Nukatabe" #額田部
@@ -1544,10 +1711,12 @@
  Okihisa:0 "Okihisa" #興久
  Okiie:0 "Okiie" #興家
  Okikane:0 "Okikane" #興包
+ Okikata:0 "Okikata" #息方
  Okiko:0 "Okiko" #興子
  Okimasa:0 "Okimasa" #興政
  Okimichi:0 "Okimichi" #興道
  Okimori:0 "Okimori" #興盛
+ Okimura:0 "Okimura" #息村
  Okimoto:0 "Okimoto" #興基
  Okina:0 "Okina" #上老
  Okinaga:0 "Okinaga" #息長
@@ -1555,6 +1724,7 @@
  Okinobu:0 "Okinobu" #興信
  Okitada:0 "Okitada" #興忠
  Okitomo:0 "Okitomo" #興朝
+ Okitoshi:0 "Okitoshi" #息利
  Okitsuna:0 "Okitsuna" #興綱
  Okitsune:0 "Okitsune" #興経
  Okiyo:0 "Okiyo" #興世
@@ -1576,11 +1746,15 @@
  Osuriki:0 "Osuriki" #雄蘇利紀
  Otarashihikooshirowakenomikoto:0 "Ōtarashihiko Oshirowake no Mikoto" #大足彦忍代別命
  Otari:0 "Otari" #小足
+ Otokawa:0 "Otokawa" #弟河
+ Otomaro:0 "Otomaro" #乙麻呂
  Otomo2:0 "Ōtomo" #大伴
+ Otomo3:0 "Ōtomo" #雄友
  Otomo:0 "Ōtomo" #大友
  Otomuro:0 "Otomuro" #乙牟漏
  Otondo:0 "Otondo" #音人
  Ototsugu:0 "Ototsugu" #乙継
+ Otowakamaru:0 "Otowakamaru" # 乙若丸
  Otsugu:0 "Otsugu" #緒嗣
  Otsutsukamiwaka:0 "Otsutsukamiwaka" #大筒木真若
  Ousu:0 "Ousu" #小碓
@@ -1661,31 +1835,42 @@
  Sadami:0 "Sadami" #定省
  Sadamichi:0 "Sadamichi" #定道
  Sadamitsu:0 "Sadamitsu" #定光
+ Sadamochi:0 "Sadamochi" #貞茂
  Sadamori2:0 "Sadamori" #貞盛
  Sadamori:0 "Sadamori" #貞守
  Sadamoto:0 "Sadamoto" #貞本
+ Sadamoto2:0 "Sadamoto" #貞元
  Sadamune:0 "Sadamune" #定宗
+ Sadanaga:0 "Sadanaga" #貞長
  Sadanobu:0 "Sadanobu" #定信
  Sadanori:0 "Sadanori" #定則
  Sadao:0 "Sadao" #貞雄
  Sadashige:0 "Sadashige" #定成
+ Sadashige2:0 "Sadashige" #定滋
  Sadasue:0 "Sadasue" #貞季
  Sadasuke:0 "Sadasuke" #定助
+ Sadasuke2:0 "Sadasuke" #定輔
  Sadatada:0 "Sadatada" #定忠
  Sadataka:0 "Sadataka" #定孝
  Sadato:0 "Sadatō" #貞任
+ Sadato2:0 "Sadatō" #定任
  Sadatoki:0 "Sadatoki" #定時
+ Sadatoki2:0 "Sadatoki" #貞時
  Sadatomo:0 "Sadatomo" #定朝
  Sadatoyo:0 "Sadatoyo" #定豊
  Sadatsugu:0 "Sadatsugu" #貞嗣
  Sadatsuna:0 "Sadatsuna" #定綱
  Sadatsune:0 "Sadatsune" #定経
+ Sadatsune2:0 "Sadatsune" #貞職
  Sadatsuru:0 "Sadatsuru" #定鶴
  Sadauji:0 "Sadauji" #貞氏
  Sadayasu:0 "Sadayasu" #定康
+ Sadayasu2:0 "Sadayasu" #貞保
  Sadayo:0 "Sadayo" #貞代
  Sadayori:0 "Sadayori" #定頼
+ Sadayori2:0 "Sadayori" #貞頼
  Sadayoshi:0 "Sadayoshi" #定義
+ Sadayoshi2:0 "Sadayoshi" #貞能
  Sadayuki:0 "Sadayuki" #定行
  Sadazane:0 "Sadazane" #定実
  Sadazumi:0 "Sadazumi" #貞純
@@ -1702,15 +1887,18 @@
  Sakura:0 "Sakura" #桜
  Saneaki:0 "Saneaki" #実明
  Sanechika:0 "Sanechika" #実親
+ Sanehira:0 "Sanehira" #真衡
  Sanehisa:0 "Sanehisa" #実久
  Sanekage:0 "Sanekage" #実景
  Sanekata:0 "Sanekata" #実方
+ Sanekatsu:0 "Sanekatsu" #真勝
  Saneki:0 "Saneki" #真材
  Sanekiyo:0 "Sanekiyo" #守清
  Saneko:0 "Saneko" #実子
  Sanekuni:0 "Sanekuni" #実国
  Sanemasa:0 "Sanemasa" #実政
  Sanemoto:0 "Sanemoto" #実基
+ Sanemune:0 "Sanemune" #実宗
  Sanenaga:0 "Sanenaga" #実長
  Sanenari:0 "Sanenari" #実成
  Sanenobu:0 "Sanenobu" #実信
@@ -1719,12 +1907,15 @@
  Saneshige:0 "Saneshige" #実重
  Sanesue:0 "Sanesue" #実季
  Sanesuke:0 "Sanesuke" #実助
+ Saneto:0 "Sanetō" #実遠
  Sanetomo:0 "Sanetomo" #実朝
  Sanetoshi:0 "Sanetoshi" #実利
  Saneuji:0 "Saneuji" #実氏
+ Saneyasu:0 "Saneyasu" #実保
  Saneyori:0 "Saneyori" #実頼
  Saneyoshi:0 "Saneyoshi" #実良
  Saneyuki:0 "Saneyuki" #実行
+ Saneyuki2:0 "Saneyuki" #実幸
  Sanjiru:0 "Sanjiru" #散次
  Sanjo:0 "Sanjō" #三条
  Sarashina:0 "Sarashina" #定義
@@ -1774,7 +1965,7 @@
  Seiyo:0 "Seiyo" #西洋
  Seiyu:0 "Seiyu" #声優
  Seizoku:0 "Seizoku" #清族
- Sen'i:0 "Sen'i" #鮮衣
+ Seni:0 "Sen'i" #鮮衣
  Sen:0 "Sen" #仙
  Sengaku:0 "Sengaku" #仙岳
  Senka:0 "Senka" #宣化
@@ -1785,6 +1976,7 @@
  Shigechika:0 "Shigechika" #重親
  Shigeharu:0 "Shigeharu" #重治
  Shigehide:0 "Shigehide" #重秀
+ Shigehide2:0 "Shigehide" #成秀
  Shigehira:0 "Shigehira" #重衡
  Shigehiro:0 "Shigehiro" #重弘
  Shigekage:0 "Shigekage" #重景
@@ -1796,37 +1988,50 @@
  Shigemasa:0 "Shigemasa" #重正
  Shigemichi:0 "Shigemichi" #重道
  Shigemitsu:0 "Shigemitsu" #重光
+ Shigemitsu2:0 "Shigemitsu" #重満
+ Shigemochi:0 "Shigemochi" #繁茂
  Shigemori:0 "Shigemori" #繁盛
  Shigemori2:0 "Shigemori" #重盛
  Shigemoto2:0 "Shigemoto" #重幹
+ Shigemoto3:0 "Shigemoto" #茂幹
  Shigemoto:0 "Shigemoto" #滋幹
  Shigemune:0 "Shigemune" #重宗
  Shigenaga:0 "Shigenaga" #重長
+ Shigenao:0 "Shigenao" #成直
  Shigenari:0 "Shigenari" #重成
  Shigenobu:0 "Shigenobu" #重信
+ Shigenobu2:0 "Shigenobu" #重能
  Shigenori:0 "Shigenori" #茂範
  Shigeoki:0 "Shigeoki" #重興
  Shigeru:0 "Shigeru" #茂
  Shigesada:0 "Shigesada" #重定
+ Shigesada2:0 "Shigesada" #重貞
  Shigesue:0 "Shigesue" #重季
+ Shigetada:0 "Shigetada" #重忠
  Shigetaka:0 "Shigetaka" #重隆
  Shigetake:0 "Shigetake" #重武
  Shigetane:0 "Shigetane" #重胤
  Shigeto:0 "Shigetō" #重任
  Shigetoki:0 "Shigetoki" #繁時
+ Shigetoki2:0 "Shigetoki" #重時
  Shigetomo:0 "Shigetomo" #重朝
  Shigetoshi:0 "Shigetoshi" #重利
  Shigetoyo:0 "Shigetoyo" #重豊
  Shigetsugu:0 "Shigetsugu" #重次
+ Shigetsugu2:0 "Shigetsugu" #重継
  Shigetsuna:0 "Shigetsuna" #重綱
+ Shigetsune:0 "Shigetsune" #重経
  Shigeuji:0 "Shigeuji" #重氏
  Shigeyasu:0 "Shigeyasu" #重安
+ Shigeyasu2:0 "Shigeyasu" #成安
  Shigeyori:0 "Shigeyori" #重頼
  Shigeyoshi:0 "Shigeyoshi" #重良
+ Shigeyoshi2:0 "Shigeyoshi" #成良
  Shigeyuki:0 "Shigeyuki" #重行
  Shigezane:0 "Shigezane" #重真
- Shiki2:0 "" #施基
+ Shigezumi:0 "Shigezumi" #重純
  Shiki:0 "Shiki" #斯帰
+ Shiki2:0 "Shiki" #施基
  Shikitsuhikotamateminomikoto:0 "Shikitsuhikotamateminomikoto" #磯城津彦玉手看天皇
  Shimadamaro:0 "Shimadamaro" #島田麻呂
  Shin:0 "Shin" #真
@@ -1869,6 +2074,7 @@
  Shokyu:0 "Shokyu" #初級
  Shomei:0 "Shomei" #昭明
  Shomu:0 "Shōmu" #聖武
+ Shonagon:0 "Shōnagon" #少納言
  Shori:0 "Shori" #勝利
  Shorin:0 "Shorin" #正倫
  Shoryo:0 "Shoryo" #承亮
@@ -1927,18 +2133,29 @@
  Sozoku:0 "Sozoku" #祖族
  Suechika:0 "Suechika" #末近
  Suefusa:0 "Suefusa" #季房
+ Sueharu:0 "Sueharu" #季治
+ Suehira:0 "Suehira" #季衡
  Suehiro:0 "Suehiro" #末広
  Sueie:0 "Sueie" #末家
+ Suekane:0 "Suekane" # 季兼
  Suekiyo:0 "Suekiyo" #末清
  Suemasa:0 "Suemasa" #末正
  Suemasu:0 "Suemasu" #末益
  Suemichi:0 "Suemichi" #清通
  Suemori:0 "Suemori" #末守
  Suemoro:0 "Suemoro" #末諸
+ Suemoto:0 "Suemoto" #清幹
+ Suemoto2:0 "Suemoto" #季基
+ Suemune:0 "Suemune" #季宗
+ Suenao:0 "Suenao" #季直
+ Suenori:0 "Suenori" # 季範
  Suesada:0 "Suesada" #末定
  Sueshige:0 "Sueshige" #末茂
  Suetada:0 "Suetada" #末忠
+ Suetaka:0 "Suetaka" #季孝
+ Suetaka2:0 "Suetaka" #祐隆
  Suetane:0 "Suetane" #末胤
+ Sueto:0 "Suetō" #季任
  Suetomo:0 "Suetomo" #末朝
  Suetsugu:0 "Suetsugu" #末嗣
  Suetsuna:0 "Suetsuna" #季綱
@@ -1950,38 +2167,52 @@
  Suinin:0 "Suinin" #垂仁
  Suizei:0 "Suizei" #綏靖
  Sujin:0 "Sujin" #崇神
+ Sukechika:0 "Sukechika" # 祐親
  Sukefusa:0 "Sukefusa" #助房
  Sukefuyu:0 "Sukefuyu" #助冬
  Sukegawa:0 "Sukegawa" #助川
  Sukeharu:0 "Sukeharu" #助春
  Sukehira:0 "Sukehira" #資平
  Sukeie:0 "Sukeie" #助家
+ Sukeie2:0 "Sukeie" #祐家
  Sukekage:0 "Sukekage" #助影
  Sukekane:0 "Sukekane" #助包
  Sukekiyo:0 "Sukekiyo" #助清
+ Sukekiyo2:0 "Sukekiyo" #祐清
  Sukeko:0 "Sukeko" #助子
  Sukekuni:0 "Sukekuni" #助国
+ Sukekuni2:0 "Sukekuni" #資国
  Sukemasa:0 "Sukemasa" #輔正
  Sukemichi:0 "Sukemichi" #輔道
  Sukemitsu:0 "Sukemitsu" #助光
  Sukemochi:0 "Sukemochi" #助持
+ Sukemochi2:0 "Sukemochi" #助茂
+ Sukemori:0 "Sukemori" #資盛
  Sukemoto:0 "Sukemoto" #助基
  Sukemune:0 "Sukemune" #助宗
  Sukenaga:0 "Sukenaga" #助長
+ Sukenaga2:0 "Sukenaga" #資永
+ Sukenaga3:0 "Sukenaga" #輔長
  Sukenaka:0 "Sukenaka" #資仲
  Sukenari:0 "Sukenari" #資業
+ Sukenobu:0 "Sukenobu" #祐信
  Sukenori:0 "Sukenori" #扶義
  Sukesada:0 "Sukesada" #助貞
  Suketada:0 "Suketada" #資忠
  Suketaka:0 "Suketaka" #助高
+ Suketaka2:0 "Suketaka" #祐隆
+ Suketaka3:0 "Suketaka" #資孝
  Suketane:0 "Suketane" #助胤
  Suketatsu:0 "Suketatsu" #助達
  Suketoki:0 "Suketoki" #助時
  Suketomo:0 "Suketomo" #助朝
  Suketoyo:0 "Suketoyo" #助豊
  Suketsugu:0 "Suketsugu" #助継
+ Suketsugu2:0 "Suketsugu" #祐継
  Suketsuna:0 "Suketsuna" #資綱
+ Suketsuna2:0 "Suketsuna" #祐綱
  Suketsune:0 "Suketsune" #助常
+ Suketsune2:0 "Suketsune" #祐経
  Sukeuji:0 "Sukeuji" #助氏
  Sukeyasu:0 "Sukeyasu" #助安
  Sukeyori:0 "Sukeyori" #助頼
@@ -2017,7 +2248,9 @@
  Suzushi:0 "Suzushi" #冷
  Tabino:0 "Tabino" #多比能
  Tachibana:0 "Tachibana" #橘
+ Tadaaki:0 "Tadaaki" #忠明
  Tadachika:0 "Tadachika" #忠親
+ Tadafusa:0 "Tadafusa" #忠房
  Tadaharu:0 "Tadaharu" #忠治
  Tadahide:0 "Tadahide" #忠秀
  Tadahira2:0 "Tadahira" #忠衡
@@ -2030,6 +2263,7 @@
  Tadakata:0 "Tadakata" #忠賢
  Tadakatsu:0 "Tadakatsu" #忠勝
  Tadakazu:0 "Tadakazu" #忠和
+ Tadakiyo:0 "Tadakiyo" #忠清
  Tadako:0 "Tadako" #忠子
  Tadakore:0 "Tadakore" #忠是
  Tadakuni:0 "Tadakuni" #忠国
@@ -2039,18 +2273,24 @@
  Tadamori:0 "Tadamori" #三守
  Tadamori2:0 "Tadamori" #忠盛
  Tadamoto:0 "Tadamoto" #忠元
+ Tadamoto2:0 "Tadamoto" #忠幹
  Tadamune:0 "Tadamune" #忠宗
+ Tadanaga:0 "Tadanaga" #忠永
+ Tadanao:0 "Tadanao" #忠直
  Tadanobu:0 "Tadanobu" #忠信
- Tadanori2:0 "Tadanori" #忠範
  Tadanori:0 "Tadanori" #忠度
+ Tadanori2:0 "Tadanori" #忠範
+ Tadanori3:0 "Tadanori" #忠教
  Tadanushi:0 "Tadanushi" #縄主
  Tadaoki:0 "Tadaoki" #忠興
  Tadaomi:0 "Tadaomi" #忠臣
  Tadasada:0 "Tadasada" #忠貞
  Tadashi:0 "Tadashi" #正
+ Tadashige:0 "Tadashige" #忠重
  Tadasue:0 "Tadasue" #忠季
  Tadasuke:0 "Tadasuke" #忠輔
  Tadataka:0 "Tadataka" #忠高
+ Tadataka2:0 "Tadataka" #忠隆
  Tadatoki:0 "Tadatoki" #忠時
  Tadatoshi:0 "Tadatoshi" #斉敏
  Tadatsugu:0 "Tadatsugu" #忠継
@@ -2061,6 +2301,7 @@
  Tadayo:0 "Tadayo" #忠代
  Tadayori:0 "Tadayori" #忠頼
  Tadayoshi:0 "Tadayoshi" #忠良
+ Tadayoshi2:0 "Tadayoshi" #忠吉
  Tadazane:0 "Tadazane" #忠実
  Tae:0 "Tae" #多恵
  Tagashimimi:0 "Tagashimimi" #手研耳命
@@ -2077,6 +2318,9 @@
  Takahide:0 "Takahide" #高秀
  Takahira:0 "Takahira" #孝平
  Takahira2:0 "Takahira" #尊成
+ Takahira3:0 "Takahira" #保衡
+ Takahira4:0 "Takahira" #高衡
+ Takahira5:0 "Takahira" #隆衡
  Takahiro:0 "Takahiro" #孝宏
  Takahisa:0 "Takahisa" #高久
  Takahito2:0 "Takahito" #高仁
@@ -2085,6 +2329,7 @@
  Takaiko:0 "Takaiko" #高子
  Takakage:0 "Takakage" #高景
  Takakai:0 "Takakai" #鷹養
+ Takakane:0 "Takakane" #孝兼
  Takakiyo:0 "Takakiyo" #高清
  Takako:0 "Takako" #尊子
  Takakuni:0 "Takakuni" #高国
@@ -2096,38 +2341,49 @@
  Takamitsu:0 "Takamitsu" #孝光
  Takamochi:0 "Takamochi" #高望
  Takamori:0 "Takamori" #高盛
+ Takamori2:0 "Takamori" #隆守
  Takamoto:0 "Takamoto" #孝元
  Takamune:0 "Takamune" #高棟
+ Takanaga:0 "Takanaga" #隆長
  Takanao:0 "Takanao" #孝直
+ Takanao2:0 "Takanao" #隆直
  Takano:0 "Takano" #高野
  Takanobu:0 "Takanobu" #高信
  Takanushi:0 "Takanushi" #鷹主
  Takaoka:0 "Takaoka" #高岳
  Takara:0 "Takara" #宝
  Takasada:0 "Takasada" #高貞
+ Takasada2:0 "Takasada" #隆定
  Takashi:0 "Takashi" #孝
  Takashige:0 "Takashige" #孝重
  Takasue:0 "Takasue" #孝標
  Takasuke:0 "Takasuke" #高助
+ Takasuke2:0 "Takasuke" #高扶
  Takatada:0 "Takatada" #高忠
  Takatane:0 "Takatane" #高胤
  Takatoki:0 "Takatoki" #高時
  Takatomo:0 "Takatomo" #高知
  Takatoshi:0 "Takatoshi" #乙叡
+ Takatoshi2:0 "Takatoshi" #隆俊
  Takatsu:0 "Takatsu" #高津
  Takatsuna:0 "Takatsuna" #高綱
  Takatsune:0 "Takatsune" #高経
  Takauji:0 "Takauji" #尊氏
+ Takauji2:0 "Takauji" #保氏
  Takayasu:0 "Takayasu" #孝康
+ Takayasu2:0 "Takayasu" #隆泰
  Takayo:0 "Takayo" #俊世
  Takayori:0 "Takayori" #孝頼
  Takayoshi:0 "Takayoshi" #孝良
+ Takayoshi2:0 "Takayoshi" #高能
+ Takayoshi3:0 "Takayoshi" #隆義
  Takayuki:0 "Takayuki" #孝之
  Takazane:0 "Takazane" #清実
  Takazumi:0 "Takazumi" #孝純
  Take:0 "Take" #武
  Takechi:0 "Takechi" #高市
  Takefusa:0 "Takefusa" #武房
+ Takehira:0 "Takehira" #武衡
  Takehito:0 "Takehito" #武仁
  Takekage:0 "Takekage" #武景
  Takekane:0 "Takekane" #武兼
@@ -2152,6 +2408,7 @@
  Tama:0 "Tama" #玉
  Tamafuchi:0 "Tamafuchi" #玉淵
  Tamaki:0 "Tamaki" #環
+ Tamasumi:0 "Tamasumi" #玉澄
  Tameaki:0 "Tameaki" #為章
  Tamefumi:0 "Tamefumi" #為文
  Tameie:0 "Tameie" #為家
@@ -2161,15 +2418,22 @@
  Tamekuni:0 "Tamekuni" #為国
  Tamemasa:0 "Tamemasa" #為雅
  Tamemichi:0 "Tamemichi" #為通
+ Tamemori:0 "Tamemori" #為盛
  Tamemoto:0 "Tamemoto" #為幹
  Tamemune:0 "Tamemune" #為宗
  Tamenaga:0 "Tamenaga" #為長
  Tamenobu:0 "Tamenobu" #為信
  Tamenori:0 "Tamenori" #為則
+ Tamenori2:0 "Tamenori" #為憲
  Tamesuke:0 "Tamesuke" #為輔
  Tametada:0 "Tametada" #為忠
+ Tametoki:0 "Tametoki" #為時
+ Tametomo:0 "Tametomo" #為朝
+ Tametoshi:0 "Tametoshi" #爲俊
  Tametsugu:0 "Tametsugu" #為継
+ Tametsuna:0 "Tametsuna" #為綱
  Tameyasu:0 "Tameyasu" #為康
+ Tameyo:0 "Tameyo" #為世
  Tameyoshi:0 "Tameyoshi" #為義
  Tamura:0 "Tamura" #田村
  Tamuramaro:0 "Tamuramaro" #田村麻呂
@@ -2186,11 +2450,14 @@
  Tanekore:0 "Tanekore" #種是
  Tanekuni:0 "Tanekuni" #種国
  Tanemasa:0 "Tanemasa" #種政
+ Tanemasa2:0 "Tanemasa" #胤正
  Tanemichi:0 "Tanemichi" #種道
  Tanemori:0 "Tanemori" #種盛
+ Tanemori2:0 "Tanemori" #胤盛
  Tanemune:0 "Tanemune" #種宗
  Tanenaga:0 "Tanenaga" #種長
  Tanenari:0 "Tanenari" #種成
+ Tanenobu:0 "Tanenobu" #胤信
  Tanenori:0 "Tanenori" #種則
  Taneshige:0 "Taneshige" #種重
  Tanesue:0 "Tanesue" #種末
@@ -2233,13 +2500,18 @@
  Toba:0 "Toba" #鳥羽
  Tokichika:0 "Tokichika" #時親
  Tokieda:0 "Tokieda" #時枝
+ Tokifumi:0 "Tokifumi" #時文
+ Tokifusa:0 "Tokifusa" #時房
  Tokihira:0 "Tokihira" #時平
  Tokihiro:0 "Tokihiro" #時広
  Tokiie:0 "Tokiie" #時家
  Tokikage:0 "Tokikage" #時景
+ Tokikane:0 "Tokikane" #時兼
+ Tokikata:0 "Tokikata" # 時方
  Tokiko:0 "Tokiko" #時子
  Tokikore:0 "Tokikore" #時是
  Tokimasa:0 "Tokimasa" #時政
+ Tokimasa2:0 "Tokimasa" #時理
  Tokimichi:0 "Tokimichi" #時道
  Tokimochi:0 "Tokimochi" #時望
  Tokimori:0 "Tokimori" #時盛
@@ -2253,6 +2525,7 @@
  Tokisuke:0 "Tokisuke" #時助
  Tokitada:0 "Tokitada" #時忠
  Tokitaka:0 "Tokitaka" #説孝
+ Tokitaka2:0 "Tokitaka" #時季
  Tokitake:0 "Tokitake" #時武
  Tokitane:0 "Tokitane" #時胤
  Tokiteru:0 "Tokiteru" #時輝
@@ -2264,6 +2537,7 @@
  Tokiyasu:0 "Tokiyasu" #時康
  Tokiyori:0 "Tokiyori" #時頼
  Tokiyoshi:0 "Tokiyoshi" #時吉
+ Tokizaru:0 "Tokizaru" #時邑
  Tokohito:0 "Tokohito" #言仁
  Toku:0 "Toku" #徳
  Tokudai:0 "Tokudai" #徳大
@@ -2278,9 +2552,11 @@
  Tomitane:0 "Tomitane" #富胤
  Tomo:0 "Tomo" #友
  Tomoaki:0 "Tomoaki" #友明
+ Tomochi:0 "Tōmochi" #遠茂
  Tomoe:0 "Tomoe" #巴
  Tomofusa:0 "Tomofusa" #友房
  Tomoharu:0 "Tomoharu" #智春
+ Tomoharu2:0 "Tomoharu" #共良
  Tomohira:0 "Tomohira" #具平
  Tomohiro:0 "Tomohiro" #智宏
  Tomohisa:0 "Tomohisa" #智久
@@ -2289,21 +2565,27 @@
  Tomokazu:0 "Tomokazu" #友一
  Tomoko:0 "Tomoko" #友子
  Tomomasa:0 "Tomomasa" #友政
+ Tomomasa2:0 "Tomomasa" #知昌
  Tomomichi:0 "Tomomichi" #友道
  Tomomiru:0 "Tomomiru" #具瞻
  Tomomitsu:0 "Tomomitsu" #友光
  Tomomochi:0 "Tomomochi" #友持
  Tomomori:0 "Tomomori" #知盛
  Tomomoto:0 "Tomomoto" #友基
+ Tomomoto2:0 "Tomomoto" #知基
  Tomomune:0 "Tomomune" #友宗
+ Tomomune2:0 "Tomomune" #朝宗
  Tomonaga:0 "Tomonaga" #友永
  Tomonao:0 "Tomonao" #友直
+ Tomonobu:0 "Tomonobu" #知信
  Tomonori:0 "Tomonori" #友則
+ Tomonori2:0 "Tomonori" #知度
  Tomooki:0 "Tomooki" #友興
  Tomosada:0 "Tomosada" #友定
  Tomoshige:0 "Tomoshige" #友重
  Tomosue:0 "Tomosue" #友季
  Tomosuke:0 "Tomosuke" #友助
+ Tomosuke2:0 "Tomosuke" #共資
  Tomotaka:0 "Tomotaka" #友孝
  Tomotake:0 "Tomotake" #友武
  Tomouji:0 "Tomouji" #友氏
@@ -2322,9 +2604,11 @@
  Torauji:0 "Torauji" #虎氏
  Torikai:0 "Torikai" #鳥養
  Toru:0 "Tōru" #融
- Toshie:0 "Toshie" #茂枝
+ Toshie:0 "Tōshie" #茂枝
  Toshifuji:0 "Toshifuji" #俊藤
+ Toshige:0 "Toshige" #遠重
  Toshiharu:0 "Toshiharu" #俊治
+ Toshihira:0 "Toshihira" #俊衡
  Toshihiro:0 "Toshihiro" #俊宏
  Toshihisa:0 "Toshihisa" #俊久
  Toshiie:0 "Toshiie" #俊家
@@ -2346,10 +2630,13 @@
  Toshitsune:0 "Toshitsune" #俊経
  Toshiuji:0 "Toshiuji" #俊氏
  Toshiyasu:0 "Toshiyasu" #俊康
+ Toshiyo:0 "Toshiyo" #利世
  Toshiyoshi:0 "Toshiyoshi" #俊義
  Toshizane:0 "Toshizane" #俊実
+ Totada:0 "Tōtada" #遠忠
  Totsune:0 "Tōtsune" #遠経
  Toyasawa:0 "Toyasawa" #豊沢
+ Toyasu:0 "Tōyasu" #遠保
  Toyohisa:0 "Toyohisa" #豊久
  Toyoie:0 "Toyoie" #豊家
  Toyokane:0 "Toyokane" #豊兼
@@ -2430,34 +2717,52 @@
  Tsunefusa2:0 "Tsunefusa" #経房
  Tsunefusa:0 "Tsunefusa" #常房
  Tsuneharu:0 "Tsuneharu" #常晴
+ Tsunehide:0 "Tsunehide" #常秀
  Tsunehisa:0 "Tsunehisa" #経久
  Tsuneie:0 "Tsuneie" #常家
+ Tsunekado:0 "Tsunekado" #常門
  Tsunekage:0 "Tsunekage" #恒蔭
+ Tsunekage2:0 "Tsunekage" #常景
  Tsunekane:0 "Tsunekane" #常兼
+ Tsunekane2:0 "Tsunekane" #経兼
+ Tsunekata:0 "Tsunekata" #経方
  Tsunekiyo:0 "Tsunekiyo" #経清
  Tsuneko:0 "Tsuneko" #経子
  Tsunekuni:0 "Tsunekuni" #経国
  Tsunemasa:0 "Tsunemasa" #常将
+ Tsunemasa2:0 "Tsunemasa" #経正
  Tsunemichi:0 "Tsunemichi" #経通
  Tsunemori:0 "Tsunemori" #経盛
+ Tsunemori2:0 "Tsunemori" #常盛
  Tsunemoto:0 "Tsunemoto" #経基
  Tsunemune:0 "Tsunemune" #経宗
  Tsunenaga:0 "Tsunenaga" #常長
+ Tsunenaga2:0 "Tsunenaga" #経長
+ Tsunenao:0 "Tsunenao" #経直
+ Tsunenari:0 "Tsunenari" #経業
  Tsunenori:0 "Tsunenori" #恒範
  Tsuneoki:0 "Tsuneoki" #経興
  Tsunesada:0 "Tsunesada" #経定
+ Tsuneshige:0 "Tsuneshige" #常重
+ Tsuneshige2:0 "Tsuneshige" #常茂
  Tsunesue:0 "Tsunesue" #経季
  Tsunesuke:0 "Tsunesuke" #経輔
  Tsunetada:0 "Tsunetada" #経忠
  Tsunetaka:0 "Tsunetaka" #経隆
+ Tsunetaka2:0 "Tsunetaka" #経高
  Tsunetake:0 "Tsunetake" #経武
+ Tsunetane:0 "Tsunetane" #常胤
  Tsunetoki:0 "Tsunetoki" #常遠
  Tsunetoshi:0 "Tsunetoshi" #経利
+ Tsunetoshi2:0 "Tsunetoshi" #経俊
+ Tsunetsugu:0 "Tsunetsugu" #常継
  Tsuneyasu:0 "Tsuneyasu" #経康
  Tsuneyo:0 "Tsuneyo" #経世
  Tsuneyori2:0 "Tsuneyori" #雅頼
  Tsuneyori:0 "Tsuneyori" #経頼
+ Tsuneyoshi:0 "Tsuneyoshi" #常義
  Tsunezumi:0 "Tsunezumi" #経純
+ Tsunezumi2:0 "Tsunezumi" #常澄
  Tsuno:0 "Tsuno" #角
  Tsurakane:0 "Tsurakane" #鶴兼
  Tsuratatsu:0 "Tsuratatsu" #鶴辰
@@ -2575,6 +2880,7 @@
  Washitori:0 "Washitori" #鷲取
  Watamo:0 "Watamo" #綿裳
  Woke:0 "Woke" #弘計
+ Yae:0 "Yae" #八重
  Yakamaro:0 "Yakamaro" #家麻呂
  Yaki:0 "Yaki" #宅媛
  Yamabe:0 "Yamabe" #山部
@@ -2594,6 +2900,7 @@
  Yasufuyu:0 "Yasufuyu" #康冬
  Yasuharu:0 "Yasuharu" #康春
  Yasuhide:0 "Yasuhide" #康秀
+ Yasuhira:0 "Yasuhira" # 泰衡
  Yasuhiro:0 "Yasuhiro" #康宏
  Yasuie:0 "Yasuie" #康家
  Yasukage:0 "Yasukage" #保蔭
@@ -2601,31 +2908,38 @@
  Yasukiyo:0 "Yasukiyo" #康清
  Yasuko:0 "Yasuko" #康子
  Yasukore:0 "Yasukore" #康是
+ Yasukuni:0 "Yasukuni" #安国
  Yasumaro:0 "Yasumaro" #安麻呂
  Yasumasa:0 "Yasumasa" #康正
  Yasumichi:0 "Yasumichi" #康道
  Yasumine:0 "Yasumine" #安嶺
  Yasumitsu:0 "Yasumitsu" #康光
  Yasumori:0 "Yasumori" #康守
+ Yasumori2:0 "Yasumori" #保盛
  Yasumoto:0 "Yasumoto" #康本
+ Yasumoto2:0 "Yasumoto" #安基
  Yasumura:0 "Yasumura" #康村
  Yasunaga:0 "Yasunaga" #康長
  Yasunobu:0 "Yasunobu" #康信
+ Yasunobu2:0 "Yasunobu" #安信
  Yasunori:0 "Yasunori" #保則
  Yasuo:0 "Yasuo" #安雄
  Yasusada:0 "Yasusada" #安貞
  Yasushige:0 "Yasushige" #康重
  Yasusue:0 "Yasusue" #康季
  Yasusuke:0 "Yasusuke" #康助
+ Yasusuke2:0 "Yasusuke" #保輔
  Yasutada2:0 "Yasutada" #安忠
  Yasutada:0 "Yasutada" #保忠
  Yasutaka:0 "Yasutaka" #康貴
  Yasutane:0 "Yasutane" #康胤
  Yasutoki:0 "Yasutoki" #康時
+ Yasutoki2:0 "Yasutoki" #泰遠
  Yasutomo:0 "Yasutomo" #康朝
  Yasutoshi:0 "Yasutoshi" #康俊
  Yasutsuna:0 "Yasutsuna" #康綱
  Yasutsune:0 "Yasutsune" #康常
+ Yasutsune2:0 "Yasutsune" #安躬
  Yasuuji:0 "Yasuuji" #泰氏
  Yasuyo:0 "Yasuyo" #安世
  Yasuyori:0 "Yasuyori" #康頼
@@ -2640,9 +2954,11 @@
  Yorifuji:0 "Yorifuji" #頼藤
  Yorifusa:0 "Yorifusa" #頼房
  Yoriharu:0 "Yoriharu" #頼春
+ Yoriharu2:0 "Yoriharu" #頼治
  Yorihide:0 "Yorihide" #頼秀
  Yorihira:0 "Yorihira" #頼平
  Yorihiro:0 "Yorihiro" #頼弘
+ Yorihiro2:0 "Yorihiro" #頼寛
  Yorihisa:0 "Yorihisa" #頼久
  Yoriie:0 "Yoriie" #頼家
  Yorikage:0 "Yorikage" #頼景
@@ -2655,19 +2971,24 @@
  Yorimitsu:0 "Yorimitsu" #頼光
  Yorimori:0 "Yorimori" #頼盛
  Yorimoto:0 "Yorimoto" #頼元
+ Yorimoto2:0 "Yorimoto" #頼基
  Yorimune:0 "Yorimune" #頼宗
  Yorinaga:0 "Yorinaga" #頼長
  Yorinaka:0 "Yorinaka" #頼仲
  Yorinari:0 "Yorinari" #頼成
+ Yorinari2:0 "Yorinari" #頼業
  Yorinobu:0 "Yorinobu" #頼信
  Yorinori:0 "Yorinori" #頼範
  Yorioki:0 "Yorioki" #頼興
  Yorisada:0 "Yorisada" #頼定
  Yorishige:0 "Yorishige" #頼重
+ Yorishige2:0 "Yorishige" #頼繁
  Yorisuke:0 "Yorisuke" #頼資
+ Yorisuke2:0 "Yorisuke" #頼輔
  Yorisumi:0 "Yorisumi" #頼純
  Yoritada:0 "Yoritada" #頼忠
  Yoritaka:0 "Yoritaka" #頼高
+ Yoritaka2:0 "Yoritaka" #頼隆
  Yoritake:0 "Yoritake" #頼武
  Yoritane:0 "Yoritane" #頼胤
  Yorito2:0 "Yoritō" #頼遠
@@ -2680,6 +3001,7 @@
  Yoritsugu:0 "Yoritsugu" #頼嗣
  Yoritsuna:0 "Yoritsuna" #頼綱
  Yoritsune:0 "Yoritsune" #頼常
+ Yoritsune2:0 "Yoritsune" #頼経
  Yoriuji:0 "Yoriuji" #頼氏
  Yoriyasu:0 "Yoriyasu" #頼安
  Yoriyoshi:0 "Yoriyoshi" #頼義
@@ -2695,18 +3017,26 @@
  Yoshifuchi:0 "Yoshifuchi" #善淵
  Yoshifumi:0 "Yoshifumi" #良文
  Yoshifusa:0 "Yoshifusa" #良房
+ Yoshifusa2:0 "Yoshifusa" #義房
  Yoshiharu:0 "Yoshiharu" #義春
+ Yoshiharu2:0 "Yoshiharu" #良春
+ Yoshiharu3:0 "Yoshiharu" #義治
  Yoshihide:0 "Yoshihide" #義秀
+ Yoshihira:0 "Yoshihira" # 義平
+ Yoshihira2:0 "Yoshihira" # 義衡
  Yoshihiro:0 "Yoshihiro" #義弘
  Yoshihisa:0 "Yoshihisa" #義久
  Yoshihito:0 "Yoshihito" #良仁
  Yoshiie:0 "Yoshiie" #義家
  Yoshikado:0 "Yoshikado" #良門
  Yoshikage:0 "Yoshikage" #好蔭
+ Yoshikage2:0 "Yoshikage" #義景
  Yoshikana:0 "Yoshikana" #義金
  Yoshikane:0 "Yoshikane" #義兼
  Yoshikane2:0 "Yoshikane" #良兼
  Yoshikata:0 "Yoshikata" #良方
+ Yoshikata2:0 "Yoshikata" #義賢
+ Yoshikata3:0 "Yoshikata" #好方
  Yoshikatsu:0 "Yoshikatsu" #義勝
  Yoshikazu:0 "Yoshikazu" #義一
  Yoshiki:0 "Yoshiki" #義貴
@@ -2715,40 +3045,54 @@
  Yoshikore:0 "Yoshikore" #義是
  Yoshikuni:0 "Yoshikuni" #義国
  Yoshimasa:0 "Yoshimasa" #良将
+ Yoshimasa2:0 "Yoshimasa" #義政
  Yoshimasu:0 "Yoshimasu" #義益
  Yoshimatsu:0 "Yoshimatsu" #義松
  Yoshimi:0 "Yoshimi" #良相
  Yoshimichi:0 "Yoshimichi" #義道
+ Yoshimichi2:0 "Yoshimichi" #良道
+ Yoshimine:0 "Yoshimine" #好峯
  Yoshimitsu:0 "Yoshimitsu" #義光
  Yoshimochi:0 "Yoshimochi" #義持
+ Yoshimochi2:0 "Yoshimochi" #義茂
  Yoshimori:0 "Yoshimori" #義守
+ Yoshimori2:0 "Yoshimori" #義盛
  Yoshimoro:0 "Yoshimoro" #義諸
  Yoshimoto:0 "Yoshimoto" #義基
+ Yoshimoto2:0 "Yoshimoto" #義幹
  Yoshimune:0 "Yoshimune" #善棟
  Yoshimune2:0 "Yoshimune" #義宗
  Yoshimune3:0 "Yoshimune" #良宗
  Yoshimura:0 "Yoshimura" #義村
  Yoshinaga:0 "Yoshinaga" #義長
  Yoshinaka:0 "Yoshinaka" #雅仲
+ Yoshinaka2:0 "Yoshinaka" #義仲
  Yoshinao:0 "Yoshinao" #義直
  Yoshinari:0 "Yoshinari" #義成
  Yoshino:0 "Yoshino" #吉野
  Yoshinobu:0 "Yoshinobu" #能信
+ Yoshinobu2:0 "Yoshinobu" #義信
  Yoshinori:0 "Yoshinori" #良範
  Yoshinushi:0 "Yoshinushi" #善主
  Yoshioki:0 "Yoshioki" #義興
  Yoshiomi:0 "Yoshiomi" #良臣
  Yoshisada:0 "Yoshisada" #義貞
+ Yoshisada2:0 "Yoshisada" #義定
  Yoshishige:0 "Yoshishige" #義重
  Yoshisue:0 "Yoshisue" #義季
  Yoshisuke:0 "Yoshisuke" #良輔
  Yoshitada:0 "Yoshitada" #善縄
  Yoshitada2:0 "Yoshitada" #義忠
+ Yoshitada3:0 "Yoshitada" #良忠
  Yoshitaka:0 "Yoshitaka" #義隆
+ Yoshitaka2:0 "Yoshitaka" #義孝
+ Yoshitaka3:0 "Yoshitaka" #義高
+ Yoshitaka4:0 "Yoshitaka" #能隆
  Yoshitake:0 "Yoshitake" #義武
  Yoshitane:0 "Yoshitane" #義胤
  Yoshitatsu:0 "Yoshitatsu" #義達
  Yoshito:0 "Yoshito" #義人
+ Yoshito2:0 "Yoshitō" #良遠
  Yoshitoki:0 "Yoshitoki" #義時
  Yoshitomo:0 "Yoshitomo" #義朝
  Yoshitoshi:0 "Yoshitoshi" #義利
@@ -2756,6 +3100,9 @@
  Yoshitsugu:0 "Yoshitsugu" #義継
  Yoshitsuna2:0 "Yoshitsuna" #良綱
  Yoshitsuna:0 "Yoshitsuna" #義綱
+ Yoshitsune:0 "Yoshitune" #義経
+ Yoshitsune2:0 "Yoshitune" #能常
+ Yoshitsune3:0 "Yoshitune" #良経
  Yoshitsura:0 "Yoshitsura" #義面
  Yoshiuji:0 "Yoshiuji" #義氏
  Yoshiyasu:0 "Yoshiyasu" #義康
@@ -2764,6 +3111,7 @@
  Yoshiyuki:0 "Yoshiyuki" #義行
  Yoshizane:0 "Yoshizane" #義真
  Yoshizumi:0 "Yoshizumi" #義純
+ Yoshizumi2:0 "Yoshizumi" #義澄
  Yozei:0 "Yōzei" #陽成
  Yui:0 "Yui" #結
  Yukari:0 "Yukari" #縁
@@ -2777,12 +3125,14 @@
  Yukihisa:0 "Yukihisa" #幸久
  Yukikane:0 "Yukikane" #幸兼
  Yukimasa:0 "Yukimasa" #幸政
+ Yukimasa2:0 "Yukimasa" #行政
  Yukimichi:0 "Yukimichi" #幸道
  Yukimitsu:0 "Yukimitsu" #幸光
  Yukimochi:0 "Yukimochi" #幸持
  Yukimori:0 "Yukimori" #幸守
  Yukimoro:0 "Yukimoro" #幸諸
  Yukimoto:0 "Yukimoto" #幸元
+ Yukimura:0 "Yukimura" #行村
  Yukinaga:0 "Yukinaga" #幸長
  Yukinobu:0 "Yukinobu" #幸信
  Yukisada:0 "Yukisada" #幸貞
@@ -2790,6 +3140,7 @@
  Yukitaka:0 "Yukitaka" #幸高
  Yukiteru:0 "Yukiteru" #幸輝
  Yukito:0 "Yukitō" #行任
+ Yukito2:0 "Yukitō" #行遠
  Yukitsuna:0 "Yukitsuna" #幸綱
  Yukiuji:0 "Yukiuji" #幸氏
  Yukiyori:0 "Yukiyori" #幸頼
@@ -2798,10 +3149,12 @@
  Yume:0 "Yume" #夢
  Yumi:0 "Yumi" #弓
  Yuminushi:0 "Yuminushi" #弓主
+ Yura:0 "Yura" # 由良
  Yuryaku:0 "Yūryaku" #雄略
  Yushi:0 "Yushi" #有子
  Yuu:0 "Yuu" #優
  Yuzu:0 "Yuzu" #柚
+ Zensei:0 "Zensei" # 全成
  Zenshitsu:0 "Zenshitsu" #前質
  Zu:0 "Zu" #図
  Zuishin:0 "Zuishin" #随心

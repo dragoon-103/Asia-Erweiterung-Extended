@@ -194,7 +194,12 @@
 		}
 		should_start_with = {
 			historical_succession_access_single_heir_succession_law_trigger = yes
-			NOT = { government_allows = administrative }
+			AND = {
+				OR = {
+					NOT = { government_allows = administrative }
+					culture = { has_innovation = innovation_centralization_of_authority }
+				}
+			}
 		}
 		succession = {
 			order_of_succession = inheritance
@@ -233,7 +238,10 @@
 		}
 
 		potential = {
-			NOT = { government_has_flag = government_is_administrative }
+			OR = {
+				NOT = { government_has_flag = government_is_administrative }
+				culture = { has_innovation = innovation_centralization_of_authority }
+			}
 		}
 	}
 

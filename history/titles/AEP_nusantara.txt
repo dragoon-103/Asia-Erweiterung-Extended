@@ -34,8 +34,18 @@
 	1045.1.1 = {
 		holder = sangramavijayottunggavarman_maharaja_srivijaya
 	}
+	1088.1.1 = {
+		holder = 0
+	}
 }
 
+
+e_sumatera = {
+	1178.1.1 = {
+		holder = melayu_placeholder_001
+		government = feudal_government
+	}
+}
 
 
 k_srivijaya = {
@@ -70,6 +80,16 @@ k_srivijaya = {
     }
 	835.1.1 = {
 		holder = balaputra_maharaja_srivijaya
+	}
+	1045.1.1 = {
+		holder = sangramavijayottunggavarman_maharaja_srivijaya
+	}
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
+	1178.1.1 = {
+		holder = srivijaya_placeholder_001
+		liege = 0
 	}
 }
 
@@ -247,6 +267,12 @@ c_indragiri = {
 }
 
 
+k_sumatera = {
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
+}
+
 d_jambi = {
 	700.1.1 = { change_development_level = 15 }
 	1066.1.1 = { change_development_level = 19 }
@@ -259,6 +285,9 @@ d_jambi = {
 	1066.1.1 = {
 		holder = jambi_placeholder_001
 		liege = "e_nusantara"
+	}
+	1178.1.1 = {
+		holder = melayu_placeholder_001
 	}
 }
 
@@ -315,6 +344,12 @@ c_kampar = {
 }
 
 
+k_aceh = {
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
+}
+
 d_aceh = {
 	850.1.1 = {
 		holder = aceh_001
@@ -357,6 +392,10 @@ c_perlak = {
 		holder = perlak_placeholder_001
 		liege = "e_nusantara"
 	}
+	1178.1.1 = {
+		holder = perlak_placeholder_002
+		liege = 0
+	}
 }
 
 c_pasai = {
@@ -371,6 +410,10 @@ c_pasai = {
 	1066.1.1 = {
 		holder = pasai_placeholder_001
 		liege = "e_nusantara"
+	}
+	1178.1.1 = {
+		holder = pasai_placeholder_002
+		liege = 0
 	}
 }
 
@@ -387,8 +430,18 @@ c_gayo = {
 		holder = gayo_002
 		liege = 0
 	}
+	1178.1.1 = {
+		holder = gayo_placeholder_001
+		liege = 0
+	}
 }
 
+
+k_panai = {	
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
+}
 
 d_panai = {
 	850.1.1 = {
@@ -439,6 +492,10 @@ c_deli = {
 k_mentawai = {
 	700.1.1 = { change_development_level = 2 }
 	1066.1.1 = { change_development_level = 4 }
+
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
 }
 
 c_simeulue = {
@@ -448,6 +505,10 @@ c_simeulue = {
 	}
 	1050.1.1 = {
 		holder = simeulue_placeholder_002
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = simeulue_placeholder_003
 		liege = 0
 	}
 }
@@ -461,6 +522,10 @@ c_nias = {
 		holder = nias_placeholder_002
 		liege = 0
 	}
+	1178.1.1 = {
+		holder = nias_placeholder_003
+		liege = 0
+	}
 }
 
 c_batu_islands = {
@@ -470,6 +535,10 @@ c_batu_islands = {
 	}
 	1050.1.1 = {
 		holder = batu_islands_placeholder_002
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = batu_islands_placeholder_003
 		liege = 0
 	}
 }
@@ -483,6 +552,10 @@ c_siberut = {
 		holder = siberut_placeholder_002
 		liege = 0
 	}
+	1178.1.1 = {
+		holder = siberut_placeholder_003
+		liege = 0
+	}
 }
 
 c_pagai = {
@@ -494,6 +567,10 @@ c_pagai = {
 		holder = pagai_placeholder_002
 		liege = 0
 	}
+	1178.1.1 = {
+		holder = pagai_placeholder_003
+		liege = 0
+	}
 }
 
 c_enggano = {
@@ -503,6 +580,10 @@ c_enggano = {
 	}
 	1050.1.1 = {
 		holder = enggano_placeholder_002
+		liege = 0
+	}
+	1178.1.1 = {
+		holder = enggano_placeholder_003
 		liege = 0
 	}
 }
@@ -567,6 +648,12 @@ c_mandailing = {
 }
 
 
+k_bintan = {
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
+}
+
 d_riau_islands = {
 	700.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 13 }
@@ -623,6 +710,12 @@ c_anambas = {
 }
 
 # Peninsula
+k_pahang = {
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
+	}
+}
+
 d_gelanggi = {
 	700.1.1 = { change_development_level = 6 }
 	1066.1.1 = { change_development_level = 10 }
@@ -696,6 +789,12 @@ d_gangga_negara = {
 	1066.1.1 = {
 		holder = bernam_placeholder_001
 		liege = "e_nusantara"
+	}
+}
+
+k_langkasuka = {
+	1088.1.1 = {
+		de_jure_liege = "e_sumatera"
 	}
 }
 

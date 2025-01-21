@@ -8831,7 +8831,7 @@
 }
 # b_suthri_eystridali 
 240 ={
-	winter_severity_bias = 8.0
+	winter_severity_bias = 0.8
 }
 ## c_gauldala 
 # b_gauldala 

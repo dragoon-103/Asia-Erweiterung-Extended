@@ -10,8 +10,8 @@
  culture_parameter_unlock_maa_ksatra:0 "Kann [GetMaA('ksatra').GetName] als [men_at_arms|E] rekrutieren"
 
  #Military
- tradition_samurai_spirit_name:0 "Samurai" #侍
- tradition_samurai_spirit_desc:0 "Die Samurai sind Japans Elite-Kriegerklasse und folgen einem strengen Kriegerkodex, der später als Bushidō bekannt wurde und Begriffe wie Aufrichtigkeit, Kampfmut und Loyalität gegenüber seinem Lehnsherrn bis zum Tod betont."
+ tradition_samurai_name:0 "Samurai" #侍
+ tradition_samurai_desc:0 "Die Samurai repräsentieren Japans Elitekriegerklasse, geschätzt für ihre Loyalität gegenüber ihrem Clan, ihre Kampfkunst und ihren Einsatz für mächtige Gönner. Ihr Ehrenkodex legt großen Wert auf Ehre, Mut und Hingabe gegenüber denen, die sie beschützen, selbst angesichts des Todes."
  samurai:0 "Samurai" #騎士
  samurai_flavor:0 "Diese Krieger zeigen außergewöhnliche Disziplin und rigoroses Training in den Künsten der Reitkunst und des Bogenschießens und verkörpern den Inbegriff des japanischen Kriegerideals."
  sohei:0 "Sōhei" #僧兵
