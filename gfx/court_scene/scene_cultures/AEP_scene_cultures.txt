@@ -2,12 +2,7 @@
 japanese = {
 	trigger = {
 		exists = capital_county
-		capital_county.culture = {
-			OR = {
-				has_graphical_japan_culture_group_trigger = yes
-				has_graphical_eastern_siberian_culture_group_trigger = yes
-			}
-		}
+		capital_county.culture = { has_graphical_japan_culture_group_trigger = yes }
 	}
 }
 
@@ -32,7 +27,6 @@ indian = {
 				has_graphical_india_culture_group_trigger = yes
 				has_graphical_tibet_culture_group_trigger = yes
 				has_graphical_southeast_asia_culture_group_trigger = yes
-				has_graphical_papua_culture_group_trigger = yes
 			}
 		}
 	}

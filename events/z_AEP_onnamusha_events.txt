@@ -1,0 +1,1347 @@
+﻿namespace = aep_onnamusha
+
+scripted_trigger valid_to_become_onnamusha_trigger = {
+	wrong_gender_for_fighting_in_faith_trigger = yes
+	isfemale = yes
+	is_available_ai_adult = yes
+	prowess >= decent_skill_rating
+	NOT = { has_trait = onnamusha }
+	NOT = { has_trait = craven }
+}
+
+scripted_trigger child_dreams_of_onnamushahood_trigger = {
+	valid_to_become_onnamusha_trigger = yes
+	is_courtier_of = root
+	location = root.location
+	has_character_flag = aep_dreams_of_onnamushadom
+}
+
+#	A wrong-gender courtier wishes to fight for you
+aep_onnamusha.0001 = {
+	type = character_event
+	title = aep_onnamusha.0001.t
+	desc = aep_onnamusha.0001.desc
+	theme = martial
+	left_portrait = {
+		character = scope:onnamusha
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = scope:challenged_knight
+		animation = dismissal
+	}
+	override_background = { reference = throne_room }
+
+	trigger = {
+		#DLC check.
+		has_fp1_dlc_trigger = yes
+		#Standard checks.
+		is_available_at_peace_adult = yes
+		is_landed = yes
+		NOT = { has_character_flag = had_event_aep_onnamusha_0001 }
+		#Has access to the appropriate cultural parameter.
+		culture = { has_cultural_parameter = has_access_to_onnamusha }
+		#Your society must consider one gender or the other lesser.
+		trigger_if = { # Has the Royal Court and thus can modify pillars
+			limit = { has_dlc_feature = diverge_culture }
+			culture = { NOT = { has_cultural_parameter = martial_custom_equal_combatant } }
+		}
+		trigger_else = {
+			faith = { NOT = { has_doctrine_parameter = combatant_can_be_either_gender_if_no_roco } }
+		}
+		#You've got to have at least one suitable courtier or guest.
+		any_courtier_or_guest = { valid_to_become_onnamusha_trigger = yes }
+		#Aaaand you need a decent knight to be challenged.
+		any_knight = {
+			is_available_ai_adult = yes
+			is_ruler = no
+			wrong_gender_for_fighting_in_faith_trigger = no
+			NOT = { has_trait = onnamusha }
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+
+		#More likely if you're a ruling wrong-gender person yourself.
+		modifier = {
+			add = 1
+			wrong_gender_for_fighting_in_faith_trigger = yes
+		}
+		#Even more so if you're actually a Onna-musha yourself.
+		modifier = {
+			add = 1
+			has_trait = onnamusha
+		}
+		# Weight up drastically if one of your children wishes to become a onnamusha.
+		modifier = {
+			add = 10
+			any_child = { child_dreams_of_onnamushahood_trigger = yes }
+		}
+	}
+
+	immediate = {
+		#Put the event on cooldown for a decade.
+		add_character_flag = {
+			flag = had_event_aep_onnamusha_0001
+			days = 3650
+		}
+		#Sort the best possible onnamusha.
+		ordered_courtier_or_guest = {
+			# Grab children who were promised first.
+			limit = {
+				is_child_of = root
+				child_dreams_of_onnamushahood_trigger = yes
+			}
+			# Otherwise, look down available courtiers.
+			alternative_limit = {
+				valid_to_become_onnamusha_trigger = yes
+				#Check that it makes sense for this character to ask to be your onnamusha.
+				OR = {
+					#Meaning they should either not be one already...
+					NOT = { has_trait = onnamusha }
+					#... or be a wandering onnamusha.
+					is_pool_guest = yes
+				}
+			}
+			order_by = {
+				value = prowess
+				if = {
+					limit = { has_trait = brave }
+					add = 10
+				}
+				if = {
+					limit = { has_trait = craven }
+					add = -10
+				}
+				if = {
+					limit = { has_trait = ambitious }
+					add = 10
+				}
+				if = {
+					limit = { has_trait = content }
+					add = -10
+				}
+				if = {
+					limit = { has_trait = arrogant }
+					add = 5
+				}
+				if = {
+					limit = { has_trait = humble }
+					add = -5
+				}
+				if = {
+					limit = { has_trait = gregarious }
+					add = 5
+				}
+				if = {
+					limit = { has_trait = shy }
+					add = -5
+				}
+			}
+			save_scope_as = onnamusha
+		}
+		#And a suitable knight.
+		ordered_knight = {
+			limit = {
+				is_available_ai_adult = yes
+				is_ruler = no
+				wrong_gender_for_fighting_in_faith_trigger = no
+				NOT = { has_trait = onnamusha }
+			}
+			order_by = prowess
+			save_scope_as = challenged_knight
+		}
+		#For reference, add all courtiers & vassals who are likely to be offended if you just let any old wrong-gender human defy societal gender norms.
+		every_courtier = {
+			limit = { likely_to_be_offended_list_trigger = yes }
+			add_to_list = prejudiced_courtiers_list
+		}
+		every_vassal = {
+			limit = { likely_to_be_offended_list_trigger = yes }
+			add_to_list = prejudiced_courtiers_list
+		}
+		#Finally, if scope:onnamusha has dreamt of this day, clear the dream. Hopefully it went positively!
+		scope:onnamusha = {
+			if = {
+				limit = { has_character_flag = aep_dreams_of_onnamushadom }
+				remove_character_flag = aep_dreams_of_onnamushadom
+			}
+		}
+	}
+
+	#You allow them to fight your knight.
+	option = {
+		name = aep_onnamusha.0001.a
+
+		scope:challenged_knight = {
+			#Your knight may hurt the prospective onnamusha.
+			scope:onnamusha = {
+				random = {
+					chance = scope:challenged_knight.prowess
+					increase_wounds_no_death_effect = { REASON = duel }
+				}
+			}
+			#And, depending on how fearsome they were, your knight may have been hurt right back.
+			random = {
+				chance = scope:onnamusha.prowess
+				increase_wounds_no_death_effect = { REASON = duel }
+			}
+
+			#Sort the duel.
+			duel = {
+				skill = prowess
+				target = scope:onnamusha
+				#Your knight defeats the prospective onnamusha.
+				40 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = 3.5
+						min = -49
+					}
+					desc = aep_onnamusha.0001.a.tt_success
+					root = {
+						send_interface_toast = {
+							title = aep_onnamusha.0001.a.tt_success
+							left_icon = scope:onnamusha
+							scope:onnamusha = {
+								#scope:onnamusha is a tad miffed.
+								add_opinion = {
+									target = scope:challenged_knight
+									modifier = angry_opinion
+									opinion = -20
+								}
+							}
+							#For your trouble, you and the knight split the prestige.
+							add_prestige = minor_prestige_gain
+							scope:challenged_knight = { add_prestige = minor_prestige_gain }
+						}
+					}
+				}
+				#Your knight is defeated.
+				60 = {
+					compare_modifier = {
+						value = scope:duel_value
+						multiplier = -3.5
+						min = -49
+					}
+					desc = aep_onnamusha.0001.a.tt_failure
+					root = {
+						send_interface_toast = {
+							title = aep_onnamusha.0001.a.tt_failure
+							left_icon = scope:onnamusha
+							scope:onnamusha = {
+								#Officially designated a Onna-musha!
+								add_trait = onnamusha
+								#Happy with the outcome of the duel.
+								add_opinion = {
+									target = scope:challenged_knight
+									modifier = pleased_opinion
+									opinion = 20
+								}
+								#If scope:onnamusha is a guest, you get them for free.
+								if = {
+									limit = { is_pool_guest = yes }
+									root = { add_courtier = scope:onnamusha }
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_honor = 0.25
+				ai_energy = -0.25
+				ai_boldness = -0.25
+			}
+			modifier = {	#Cowardly Onna-musha don't see the necessity of a fight.
+				add = -40
+				has_trait = onnamusha
+				has_trait = craven
+			}
+			modifier = {	#Brave Onna-musha, on the other hand, will insist you earn it (either way).
+				add = 20
+				has_trait = onnamusha
+				has_trait = brave
+			}
+		}
+	}
+
+	#You take the challenge yourself.
+	option = {
+		name = aep_onnamusha.0001.b
+
+		#You may have hurt the prospective Onna-musha in the duel.
+		scope:onnamusha = {
+			random = {
+				chance = root.prowess
+				increase_wounds_no_death_effect = { REASON = duel }
+			}
+		}
+		#Plus they may have hurt you right back.
+		random = {
+			chance = scope:onnamusha.prowess
+			increase_wounds_no_death_effect = { REASON = duel }
+		}
+
+		#Sort the duel.
+		duel = {
+			skill = prowess
+			target = scope:onnamusha
+			#You defeat the prospective onnamusha.
+			40 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = 3.5
+					min = -49
+				}
+				desc = aep_onnamusha.0001.b.tt_success
+				send_interface_toast = {
+					title = aep_onnamusha.0001.b.tt_success
+					left_icon = scope:onnamusha
+					scope:onnamusha = {
+						#scope:onnamusha is a tad miffed.
+						add_opinion = {
+							target = root
+							modifier = angry_opinion
+							opinion = -20
+						}
+					}
+					#Since you fought yourself, you get all the prestige.
+					add_prestige = medium_prestige_gain
+				}
+			}
+			#You are defeated.
+			60 = {
+				compare_modifier = {
+					value = scope:duel_value
+					multiplier = -3.5
+					min = -49
+				}
+				desc = aep_onnamusha.0001.b.tt_failure
+				send_interface_toast = {
+					title = aep_onnamusha.0001.b.tt_failure
+					left_icon = scope:onnamusha
+					scope:onnamusha = {
+						#Officially designated a Onna-musha!
+						add_trait = onnamusha
+						#Happy with the outcome of the duel.
+						add_opinion = {
+							target = root
+							modifier = pleased_opinion
+							opinion = 20
+						}
+						#If scope:onnamusha is a guest, you get them for free.
+						if = {
+							limit = { is_pool_guest = yes }
+							root = { add_courtier = scope:onnamusha }
+						}
+					}
+				}
+			}
+		}
+
+		stress_impact = {
+			brave = medium_stress_impact_loss
+			craven = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 0.5
+				ai_vengefulness = 0.25
+			}
+			modifier = {	#Weight up for stress.
+				add = 20
+				has_trait = brave
+			}
+			modifier = {	#Weight down for stress.
+				add = -20
+				has_trait = craven
+			}
+			modifier = {	#Cowardly Onna-musha don't see the necessity of a fight.
+				add = -40
+				has_trait = onnamusha
+				has_trait = craven
+			}
+			modifier = {	#Brave Onna-musha, on the other hand, will insist you earn it (either way).
+				add = 20
+				has_trait = onnamusha
+				has_trait = brave
+			}
+		}
+	}
+
+	#Accept them outright.
+	option = {
+		name = aep_onnamusha.0001.c
+
+		scope:onnamusha = {
+			#Grant the Onna-musha trait.
+			add_trait = onnamusha
+			#Opinion gain with new onnamusha.
+			add_opinion = {
+				target = root
+				modifier = aep_accepted_my_sword_opinion
+			}
+			#If scope:onnamusha is a guest, you get them for free.
+			if = {
+				limit = { is_pool_guest = yes }
+				root = { add_courtier = scope:onnamusha }
+			}
+		}
+		#Loyalty hook on the new Onna-musha for your trust.
+		if = {
+			limit = {
+				NOR = {
+					has_hook_of_type = {
+						target = scope:onnamusha
+						type = loyalty_hook
+					}
+					has_hook_of_type = {
+						target = scope:onnamusha
+						type = ritual_best_friend_hook
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_hook = scope:onnamusha
+				}
+				hidden_effect = { remove_hook = { target = scope:onnamusha } }
+			}
+			add_hook = {
+				type = loyalty_hook
+				target = scope:onnamusha
+			}
+		}
+		#Opinion loss with all courtiers who do not feel they should be able to fight.
+		if = {
+			limit = {
+				any_in_list = {
+					list = prejudiced_courtiers_list
+					count >= 1
+				}
+			}
+			every_in_list = {
+				list = prejudiced_courtiers_list
+				limit = {
+					#Exempt Onna-musha; we do this at this point, otherwise the Onna-musha themself will objet to their own Onna-mushadom.
+					NOT = { has_trait = onnamusha }
+				}
+				custom = aep_accepted_onnamusha_without_question
+				add_opinion = {
+					target = root
+					modifier = aep_defied_religious_traditions_opinion
+				}
+			}
+		}
+
+		stress_impact = {
+			arbitrary = minor_stress_impact_loss
+			just = minor_stress_impact_gain
+			arrogant = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_compassion = 0.5
+				ai_honor = 0.25
+				ai_zeal = -0.25
+			}
+			modifier = {	#Weight down for stress.
+				add = 10
+				has_trait = arbitrary
+			}
+			modifier = {	#Weight up for stress.
+				add = -10
+				has_trait = just
+			}
+			modifier = {	#Weight up for stress.
+				add = -20
+				has_trait = arrogant
+			}
+			modifier = {	#Cowardly Onna-musha don't see the necessity of a fight.
+				add = 40
+				has_trait = onnamusha
+				has_trait = craven
+			}
+			modifier = {	#Brave Onna-musha, on the other hand, will insist you earn it.
+				add = -40
+				has_trait = onnamusha
+				has_trait = brave
+			}
+		}
+	}
+
+	#Reject them outright.
+	option = {
+		name = aep_onnamusha.0001.d
+
+		#Hefty opinion loss.
+		reverse_add_opinion = {
+			target = scope:onnamusha
+			modifier = aep_rejected_my_sword_opinion
+		}
+
+		#Stepped rivalry between you and the potential onnamusha.
+		progress_towards_rival_effect = {
+			REASON = rival_onnamusha_declined
+			CHARACTER = scope:onnamusha
+			OPINION = 0
+		}
+
+		stress_impact = {
+			arbitrary = minor_stress_impact_loss
+			arrogant = medium_stress_impact_loss
+			just = minor_stress_impact_gain
+			humble = medium_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_zeal = 0.25
+				ai_compassion = -0.25
+				ai_honor = -0.25
+			}
+			modifier = {	#Weight up for stress.
+				add = 10
+				has_trait = arbitrary
+			}
+			modifier = {	#Weight up for stress.
+				add = 20
+				has_trait = arrogant
+			}
+			modifier = {	#Weight down for stress.
+				add = -10
+				has_trait = just
+			}
+			modifier = {	#Weight down for stress.
+				add = -20
+				has_trait = humble
+			}
+			modifier = {	#Onna-musha are, themselves, more likely to give someone a shot.
+				add = -40
+				has_trait = onnamusha
+			}
+		}
+	}
+}
+
+#	An Onna-musha stops your escape attempt in its tracks.
+aep_onnamusha.0011 = {
+	type = character_event
+	title = aep_onnamusha.0011.t
+	desc = aep_onnamusha.0011.desc
+	theme = prison
+	left_portrait = {
+		character = scope:prisoner
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:onnamusha
+		animation = disapproval
+	}
+
+	trigger = {
+		#DLC check.
+		has_fp1_dlc_trigger = yes
+		#Requires an Onna-musha to get going.
+		imprisoner = {
+			any_courtier = { suitable_onnamusha_gaoler_trigger = yes }
+		}
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_prison"
+		save_scope_as = prisoner
+		imprisoner = {
+			#Grab an appropriate onnamusha.
+			random_courtier = {
+				limit = { suitable_onnamusha_gaoler_trigger = yes }
+				save_scope_as = onnamusha
+			}
+			#Inform the imprisoner so that they're aware they're getting value for money.
+			trigger_event = aep_onnamusha.0012
+		}
+		scope:imprisoner = {
+			add_opinion = {
+				target = root
+				modifier = respect_opinion
+				opinion = -20
+			}
+		}
+	}
+
+	#The Onna-musha lay the smackdown.
+	option = {
+		name = aep_onnamusha.0011.a
+		increase_wounds_no_death_effect = { REASON = beaten }
+	}
+}
+
+#	An Onna-musha has stopped one of your prisoners escaping.
+aep_onnamusha.0012 = {
+	type = character_event
+	title = aep_onnamusha.0012.t
+	desc = aep_onnamusha.0012.desc
+	theme = prison
+	left_portrait = {
+		character = scope:prisoner
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:onnamusha
+		animation = disapproval
+	}
+
+	trigger = {
+		scope:prisoner = {
+			is_of_major_or_minor_interest_trigger = { CHARACTER = scope:imprisoner }
+		}
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_prison"
+		#Show the wounds.
+		show_as_tooltip = {
+			scope:prisoner = {
+				increase_wounds_effect = { REASON = beaten }
+			}
+		}
+	}
+
+	#Good job!
+	option = {
+		name = aep_onnamusha.0012.a
+		scope:onnamusha = {
+			add_opinion = {
+				target = scope:imprisoner
+				modifier = compliment_opinion
+				opinion = 10
+			}
+		}
+	}
+
+	#Bad job! [in case this was an overreaction]
+	option = {
+		name = aep_onnamusha.0012.b
+		scope:onnamusha = {
+			add_opinion = {
+				target = scope:imprisoner
+				modifier = annoyed_opinion
+				opinion = -10
+			}
+		}
+	}
+}
+
+scripted_trigger suitable_onnamusha_savior_trigger = {
+	has_trait = onnamusha
+	bodyguard_will_actually_do_job_trigger = yes
+}
+
+#	Scheme owner: Onna-musha intervenes in murder.
+aep_onnamusha.0021 = {
+	type = character_event
+	window = scheme_failed_event
+	title = aep_onnamusha.0021.t
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:hired_thugs }
+				desc = aep_onnamusha.0021.desc.thugs
+			}
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:riled_up_mob }
+				desc = aep_onnamusha.0021.desc.mob
+			}
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:lured_into_forest }
+				desc = aep_onnamusha.0021.desc.lured_into_forest
+			}
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:child_pushed }
+				desc = aep_onnamusha.0021.desc.child_pushed
+			}
+			desc =  aep_onnamusha.0021.desc.assassin
+		}
+		triggered_desc = {
+			trigger = { exists = local_var:onnamusha_dies }
+			desc = aep_onnamusha.0021.onnamusha_dies
+		}
+	}
+	theme = murder_scheme
+	left_portrait = {
+		character = scope:owner
+		triggered_animation = {
+			trigger = { exists = scope:scheme_discovered }
+			animation = fear
+		}
+		animation = stress
+	}
+	center_portrait = {
+		character = scope:bodyguard
+		triggered_animation = {
+			trigger = { is_alive = no }
+			animation = map_fear
+		}
+		animation = random_weapon_aggressive
+		camera = camera_event_center_pointing_left
+	}
+	right_portrait = {
+		character = scope:target
+		triggered_animation = {
+			trigger = { exists = scope:scheme_discovered }
+			animation = rage
+		}
+		animation = paranoia
+	}
+	widget = {
+		gui = "event_window_widget_scheme"
+		container = "custom_widgets_container"
+	}
+
+	trigger = {
+		#DLC check.
+		has_fp1_dlc_trigger = yes
+		scope:target = {
+			any_court_position_holder = {
+				type = bodyguard_court_position
+				suitable_onnamusha_savior_trigger = yes
+			}
+		}
+	}
+
+	immediate = {
+		# Select a murder method.
+		random_list = {
+			100 = {
+				save_scope_value_as = {
+					name = murder_method
+					value = flag:hired_assassin
+				}
+			}
+			100 = {
+				save_scope_value_as = {
+					name = murder_method
+					value = flag:hired_thugs
+				}
+			}
+			100 = {
+				save_scope_value_as = {
+					name = murder_method
+					value = flag:riled_up_mob
+				}
+			}
+			100 = {
+				save_scope_value_as = {
+					name = murder_method
+					value = flag:lured_into_forest
+				}
+			}
+			100 = {
+				save_scope_value_as = {
+					name = murder_method
+					value = flag:child_pushed
+				}
+				# Try to grab a suitable thing to lure them in with too.
+				rooftop_murder_lure_for_child_effect = yes
+			}
+		}
+		# Sort our Onna-musha
+		scope:target = {
+			ordered_court_position_holder = {
+				type = bodyguard_court_position
+				limit = { suitable_onnamusha_savior_trigger = yes }
+				order_by = { value = murder_weight_best_bodyguard_value }
+				save_scope_as = onnamusha
+			}
+		}
+		hidden_effect = {
+			if = {
+				limit = {
+					# Onna-musha can't die from some murder methods.
+					NOR = {
+						scope:murder_method = flag:lured_into_forest
+						scope:murder_method = flag:child_pushed
+					}
+				}
+				random = {
+					chance = {
+						value = 75
+						subtract = scope:onnamusha.prowess
+					}
+					set_local_variable = {
+						name = onnamusha_dies
+						value = yes
+					}
+				}
+			}
+		}
+		if = {
+			limit = { exists = local_var:onnamusha_dies }
+			show_as_tooltip = {
+				murder_interception_handle_extra_deaths_effect = {
+					VICTIM = scope:onnamusha
+					REASON = death_murder
+				}
+			}
+		}
+		random_dummy_gender_assassin_effect = yes
+		murder_failure_effect = yes
+	}
+
+	#It's over.
+	option = { name = aep_onnamusha.0021.a }
+
+	#It's not over till I say it's over!
+	option = {
+		name = aep_onnamusha.0021.b
+		trigger = {
+			NOT = { exists = scope:scheme_discovered }
+		}
+		restart_murder_scheme_effect = yes
+	}
+
+	# Fire the rest of the outcome.
+	after = {
+		scope:target = { trigger_event = aep_onnamusha.0022 }
+	}
+}
+
+# Onna-musha saves you from murder
+aep_onnamusha.0022 = {
+	type = character_event
+	window = scheme_target_event
+	title = aep_onnamusha.0022.t
+	desc = {
+		# This block is only for the setup of child_pushed.
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					scope:murder_method = flag:child_pushed
+					exists = scope:child_pushed_dog
+				}
+				desc = murder_outcome.5001.child_pushed_dog
+			}
+			triggered_desc = {
+				trigger = {
+					scope:murder_method = flag:child_pushed
+					exists = scope:child_pushed_cat
+				}
+				desc = murder_outcome.5001.child_pushed_cat
+			}
+			triggered_desc = {
+				trigger = {
+					scope:murder_method = flag:child_pushed
+					exists = scope:child_pushed_toy
+				}
+				desc = murder_outcome.5001.child_pushed_toy
+			}
+			triggered_desc = {
+				trigger = {
+					scope:murder_method = flag:child_pushed
+				}
+				desc = murder_outcome.5001.child_pushed
+			}
+		}
+		# Onna-musha saves you!
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:hired_thugs }
+				desc = aep_onnamusha.0022.desc.thugs
+			}
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:riled_up_mob }
+				desc = aep_onnamusha.0022.desc.mob
+			}
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:lured_into_forest }
+				desc = aep_onnamusha.0022.desc.lured_into_forest
+			}
+			triggered_desc = {
+				trigger = { scope:murder_method = flag:child_pushed }
+				desc = aep_onnamusha.0022.desc.child_pushed
+			}
+			desc =  aep_onnamusha.0022.desc.assassin
+		}
+		# ...but did they pay the ultimate price?
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					exists = local_var:onnamusha_dies
+					scope:murder_method = flag:hired_assassin
+				}
+				desc = aep_onnamusha.0022.desc.assassin.onnamusha_dies
+			}
+			triggered_desc = {
+				trigger = {
+					exists = local_var:onnamusha_dies
+					scope:murder_method = flag:hired_thugs
+				}
+				desc = aep_onnamusha.0022.desc.thugs.onnamusha_dies
+			}
+			triggered_desc = {
+				trigger = {
+					exists = local_var:onnamusha_dies
+					scope:murder_method = flag:riled_up_mob
+				}
+				desc = aep_onnamusha.0022.desc.mob.onnamusha_dies
+			}
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = local_var:onnamusha_dies }
+					scope:murder_method = flag:riled_up_mob
+				}
+				desc = aep_onnamusha.0022.desc.mob.onnamusha_lives
+			}
+		}
+		# And who was responsible!?
+		triggered_desc = {
+			trigger = { exists = scope:scheme_discovered }
+			desc = aep_onnamusha.0022.owner_discovered
+		}
+	}
+	theme = murder_scheme
+	override_background = {
+		trigger = { scope:murder_method = flag:hired_thugs }
+		reference = wilderness_scope
+	}
+	override_background = {
+		trigger = {
+			OR = {
+				scope:murder_method = flag:riled_up_mob
+				scope:murder_method = flag:child_pushed
+			}
+		}
+		reference = courtyard
+	}
+	override_background = {
+		trigger = { scope:murder_method = flag:lured_into_forest }
+		reference = wilderness_forest
+	}
+	left_portrait = {
+		character = scope:target
+		triggered_animation = {
+			trigger = { exists = scope:scheme_discovered }
+			animation = rage
+		}
+		animation = paranoia
+	}
+	center_portrait = {
+		character = scope:bodyguard
+		triggered_animation = {
+			trigger = { is_alive = no }
+			animation = map_fear
+		}
+		animation = random_weapon_aggressive
+	}
+	right_portrait = {
+		character = scope:owner_to_reveal
+		triggered_animation = {
+			trigger = { exists = scope:scheme_discovered }
+			animation = fear
+		}
+		animation = stress
+	}
+
+	immediate = {
+		if = {
+			limit = { scope:murder_method = flag:hired_thugs }
+			scope:home_province = {	save_scope_as = background_wilderness_scope }
+		}
+		# Handle the death of the Onna-musha if necessary
+		if = {
+			limit = { exists = local_var:onnamusha_dies }
+			murder_interception_handle_extra_deaths_effect = {
+				VICTIM = scope:onnamusha
+				REASON = death_murder
+			}
+		}
+	}
+
+	#Who could do such a thing?
+	option = {
+		name = aep_onnamusha.0022.a
+		trigger = {
+			NOT = { exists = scope:scheme_discovered }
+		}
+		custom_tooltip = murder_save.failure_unknown_owner_tt
+	}
+
+	#Vengeance!
+	option = {
+		name = aep_onnamusha.0022.b
+		trigger = { exists = scope:scheme_discovered }
+		custom_tooltip = murder_save.failure_known_owner_tt
+	}
+
+	after = {
+		add_character_modifier = {
+			modifier = watchful_modifier
+			days = watchful_modifier_duration
+		}
+	}
+}
+
+scripted_trigger valid_for_onnamusha_veterancy = {
+	# Must actually have the Onna-musha trait.
+	has_trait = onnamusha
+	# Must still be in a situation where Onna-mushadom is exceptional.
+	wrong_gender_for_fighting_in_faith_trigger = yes
+}
+
+scripted_trigger valid_for_onnamusha_level_up = {
+	# Are they an eligible Onna-musha?
+	valid_for_onnamusha_veterancy = yes
+	# Have they met the level up requirements?
+	has_variable = onnamusha_veterancy
+	this.var:onnamusha_veterancy >= onnamusha_veterancy_cap
+	# Already checked for a root Onna-musha, but we re-check for courtiers.
+	is_available_at_peace_adult = yes
+	# Finally, they mustn't have all the Onna-musha modifiers maxed out already.
+	NAND = {
+		has_character_modifier = onnamusha_level_martial_3_aep_modifier
+		has_character_modifier = onnamusha_level_prowess_3_aep_modifier
+		has_character_modifier = onnamusha_level_intrigue_3_aep_modifier
+	}
+}
+
+#	Track the number of valid battles as an Onna-musha a character has been in.
+aep_onnamusha.0031 = {
+	hidden = yes
+	scope = combat_side
+
+	trigger = {
+		#DLC check.
+		has_fp1_dlc_trigger = yes
+		OR = {
+			any_side_commander = { valid_for_onnamusha_veterancy = yes }
+			any_side_knight = { valid_for_onnamusha_veterancy = yes }
+		}
+	}
+
+	immediate = {
+		# Sort side commander Onna-musha.
+		every_side_commander = {
+			limit = { valid_for_onnamusha_veterancy = yes }
+			# Boost their veterancy if they already have it.
+			if = {
+				limit = { exists = var:onnamusha_veterancy }
+				change_variable = {
+					name = onnamusha_veterancy
+					add = 1
+				}
+			}
+			# Or else set it up otherwise.
+			else = {
+				set_variable = {
+					name = onnamusha_veterancy
+					value = 1
+				}
+			}
+		}
+		# Sort side knight Onna-musha.
+		every_side_knight = {
+			limit = { valid_for_onnamusha_veterancy = yes }
+			if = {
+				limit = { exists = var:onnamusha_veterancy }
+				change_variable = {
+					name = onnamusha_veterancy
+					add = 1
+				}
+			}
+			else = {
+				set_variable = {
+					name = onnamusha_veterancy
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+#	Your Onna-musha improves their skills.
+aep_onnamusha.0032 = {
+	type = character_event
+	title = aep_onnamusha.0032.t
+	desc = {
+		first_valid = {
+			# Am *I* the Onna-musha in question?
+			triggered_desc = {
+				trigger = { scope:onnamusha = root }
+				desc = aep_onnamusha.0032.desc.root
+			}
+			# Or is it a courtier?
+			desc = aep_onnamusha.0032.desc.courtier
+		}
+	}
+	theme = martial
+	left_portrait = {
+		character = scope:onnamusha
+		animation = rage
+	}
+	override_background = { reference = army_camp }
+
+	trigger = {
+		#DLC check.
+		has_fp1_dlc_trigger = yes
+		#Standard checks.
+		is_available_at_peace_adult = yes
+		NOT = { has_character_flag = had_event_aep_onnamusha_0032 }
+		# Must either be or have an Onna-musha who's at veterancy cap.
+		OR = {
+			valid_for_onnamusha_level_up = yes
+			any_courtier = { valid_for_onnamusha_level_up = yes }
+		}
+	}
+
+	weight_multiplier = {
+		base = 1
+
+		# Much more likely if you're an Onna-musha yourself.
+		modifier = {
+			add = 2
+			has_trait = onnamusha
+		}
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_positive_effect"
+		add_character_flag = {
+			flag = had_event_aep_onnamusha_0032
+			days = 1825
+		}
+		# Designate a valid onnamusha.
+		## First, we always level up root, if possible.
+		if = {
+			limit = { valid_for_onnamusha_level_up = yes }
+			save_scope_as = onnamusha
+		}
+		## Otherwise, we grab all relevant courtiers.
+		else = {
+			every_courtier = {
+				limit = { valid_for_onnamusha_level_up = yes }
+				add_to_list = veteran_onnamusha
+			}
+		}
+		## Select a suitable one from the list to be scope:onnamusha, prioritising the most veteran.
+		if = {
+			limit = {
+				NOT = { exists = scope:onnamusha }
+			}
+			ordered_in_list = {
+				list = veteran_onnamusha
+				order_by = var:onnamusha_veterancy
+				save_scope_as = onnamusha
+			}
+		}
+		# Next, we reduce scope:onnamusha's veterancy, as they'll be levelling it up in the event.
+		scope:onnamusha = {
+			change_variable = {
+				name = onnamusha_veterancy
+				subtract = onnamusha_veterancy_cap
+			}
+		}
+	}
+
+	# Martial: look how they command the Battlefield!
+	option = {
+		# Separate loc for first person POV.
+		name = {
+			trigger = { scope:onnamusha = root }
+			text = aep_onnamusha.0032.a.root
+		}
+		# Aaaaand third person POV.
+		name = {
+			trigger = {
+				NOT = { scope:onnamusha = root }
+			}
+			text = aep_onnamusha.0032.a.courtier
+		}
+		# Can't have the max-level version of this modifier.
+		trigger = {
+			NOT = {
+				scope:onnamusha = { has_character_modifier = onnamusha_level_martial_3_aep_modifier }
+			}
+		}
+
+		# Process the level-up modifier for this stat block.
+		scope:onnamusha = {
+			# If we have no level on this path, give us the first rank.
+			if = {
+				limit = {
+					NOR = {
+						has_character_modifier = onnamusha_level_martial_1_aep_modifier
+						has_character_modifier = onnamusha_level_martial_2_aep_modifier
+						has_character_modifier = onnamusha_level_martial_3_aep_modifier
+					}
+				}
+				add_character_modifier = onnamusha_level_martial_1_aep_modifier
+			}
+			# If have the first level, quietly remove it and add the second.
+			else_if = {
+				limit = { has_character_modifier = onnamusha_level_martial_1_aep_modifier }
+				hidden_effect = { remove_character_modifier = onnamusha_level_martial_1_aep_modifier }
+				add_character_modifier = onnamusha_level_martial_2_aep_modifier
+			}
+			# If we have the second level, quietly remove it and add the third.
+			else_if = {
+				limit = { has_character_modifier = onnamusha_level_martial_2_aep_modifier }
+				hidden_effect = { remove_character_modifier = onnamusha_level_martial_2_aep_modifier }
+				add_character_modifier = onnamusha_level_martial_3_aep_modifier
+			}
+
+		}
+
+		# No stress involved.
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_boldness = 0.25
+				ai_rationality = 0.25
+			}
+		}
+	}
+
+	# Prowess: see how they swing that sword!
+	option = {
+		# Separate loc for first person POV.
+		name = {
+			trigger = { scope:onnamusha = root }
+			text = aep_onnamusha.0032.b.root
+		}
+		# Aaaaand third person POV.
+		name = {
+			trigger = {
+				NOT = { scope:onnamusha = root }
+			}
+			text = aep_onnamusha.0032.b.courtier
+		}
+		# Can't have the max-level version of this modifier.
+		trigger = {
+			NOT = {
+				scope:onnamusha = { has_character_modifier = onnamusha_level_prowess_3_aep_modifier }
+			}
+		}
+
+		# Process the level-up modifier for this stat block.
+		scope:onnamusha = {
+			# If we have no level on this path, give us the first rank.
+			if = {
+				limit = {
+					NOR = {
+						has_character_modifier = onnamusha_level_prowess_1_aep_modifier
+						has_character_modifier = onnamusha_level_prowess_2_aep_modifier
+						has_character_modifier = onnamusha_level_prowess_3_aep_modifier
+					}
+				}
+				add_character_modifier = onnamusha_level_prowess_1_aep_modifier
+			}
+			# If have the first level, quietly remove it and add the second.
+			else_if = {
+				limit = { has_character_modifier = onnamusha_level_prowess_1_aep_modifier }
+				hidden_effect = { remove_character_modifier = onnamusha_level_prowess_1_aep_modifier }
+				add_character_modifier = onnamusha_level_prowess_2_aep_modifier
+			}
+			# If we have the second level, quietly remove it and add the third.
+			else_if = {
+				limit = { has_character_modifier = onnamusha_level_prowess_2_aep_modifier }
+				hidden_effect = { remove_character_modifier = onnamusha_level_prowess_2_aep_modifier }
+				add_character_modifier = onnamusha_level_prowess_3_aep_modifier
+			}
+
+		}
+
+		# No stress involved.
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_vengefulness = 0.25
+				ai_honor = 0.25
+			}
+		}
+	}
+
+	# Intrigue: never a finer backstabber!
+	option = {
+		# Separate loc for first person POV.
+		name = {
+			trigger = { scope:onnamusha = root }
+			text = aep_onnamusha.0032.c.root
+		}
+		# Aaaaand third person POV.
+		name = {
+			trigger = {
+				NOT = { scope:onnamusha = root }
+			}
+			text = aep_onnamusha.0032.c.courtier
+		}
+		# Can't have the max-level version of this modifier.
+		trigger = {
+			NOT = {
+				scope:onnamusha = { has_character_modifier = onnamusha_level_intrigue_3_aep_modifier }
+			}
+		}
+
+		# Process the level-up modifier for this stat block.
+		scope:onnamusha = {
+			# If we have no level on this path, give us the first rank.
+			if = {
+				limit = {
+					NOR = {
+						has_character_modifier = onnamusha_level_intrigue_1_aep_modifier
+						has_character_modifier = onnamusha_level_intrigue_2_aep_modifier
+						has_character_modifier = onnamusha_level_intrigue_3_aep_modifier
+					}
+				}
+				add_character_modifier = onnamusha_level_intrigue_1_aep_modifier
+			}
+			# If have the first level, quietly remove it and add the second.
+			else_if = {
+				limit = { has_character_modifier = onnamusha_level_intrigue_1_aep_modifier }
+				hidden_effect = { remove_character_modifier = onnamusha_level_intrigue_1_aep_modifier }
+				add_character_modifier = onnamusha_level_intrigue_2_aep_modifier
+			}
+			# If we have the second level, quietly remove it and add the third.
+			else_if = {
+				limit = { has_character_modifier = onnamusha_level_intrigue_2_aep_modifier }
+				hidden_effect = { remove_character_modifier = onnamusha_level_intrigue_2_aep_modifier }
+				add_character_modifier = onnamusha_level_intrigue_3_aep_modifier
+			}
+		}
+
+		# Minor stress revolving around paranoia: what if they backstab *YOU*, after all?
+		if = {
+			limit = {
+				NOT = { scope:onnamusha = root }
+			}
+			stress_impact = {
+				trusting = minor_stress_impact_loss
+				paranoid = minor_stress_impact_gain
+			}
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = {
+				ai_rationality = 0.5
+				ai_vengefulness = -0.5
+			}
+			modifier = {	#Weight up for stress.
+				add = 10
+				NOT = { scope:onnamusha = root }
+				has_trait = trusting
+			}
+			modifier = {	#Weight down for stress.
+				add = -10
+				NOT = { scope:onnamusha = root }
+				has_trait = paranoid
+			}
+		}
+	}
+}

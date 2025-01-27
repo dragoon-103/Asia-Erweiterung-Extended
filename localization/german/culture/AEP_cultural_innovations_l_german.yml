@@ -1,54 +1,7 @@
 ﻿l_german:
- innovation_yues_group:0 "Baiyue Ambitionen"
- innovation_yues_group_desc:0 "Baiyue bezieht sich im Allgemeinen auf alte ethnische Gruppen, die lange Küstengebiete und große Flüsse Ostasiens bewohnen. Sie waren die ersten Siedler dieses Landes und wanderten ständig ins Landesinnere. In der langen Geschichte haben sie sich nach und nach in die vereinigten Dynastien integriert, rebellierten jedoch manchmal."
- 
- innovation_java_group:0 "König der Tausend Inseln"
- innovation_java_group_desc:0 "Die austronesischen Stämme reisen über Tausende von Inseln begleitet von Gezeiten und Stürmen und beherrschen das Meer unter der Sonne."
- 
- innovation_tunguse_group:0 "Weißer Berg, Schwarzes Wasser"
- innovation_tunguse_group_desc:0 "Weite Gebiete des Nenjiang-Flusses, des Heilongjiang-Flusses und des gewundenen Xing'an-Gebirges ernährten viele Fischer- und Jagdstämme. Unter dem Segen ihrer Schutzpatronin „Weiden-Kaiserin“ wurden ihre Stämme größer und stärker und wanderten einer nach dem anderen aus dem Wald aus."
- 
- innovation_nanman_group:0 "Meister des Jungels"
- innovation_nanman_group_desc:0 "Im wilden Dschungel vom Ailao-Berg bis zum Wuyi-Berg gibt es mutige Jagdvolksgruppen. Der Krieg ihres Vorfahren Chiyou mit dem Gelben Kaiser mit dem Ziel, den Thron des alten China zu besteigen, ist zu einer Legende geworden, aber sie haben ihren Ruhm nie verloren."
-
- innovation_yamato_group:0 "Yamato Damashii"
- innovation_yamato_group_desc:0 "Seit dem Zeitalter der Mythologien glaubten die Leute aus Yamato fest daran, dass sie zum Himmel befohlen wurden, die Blumen fielen für einen Moment, es gab Zeit für Trauer und Freude, das Klavier für Tausende von Tagen und die Einheit von Schwert und Herz."
-
- innovation_goryeo_group:0 "Hochgebirge, Schöne Gewässer"
- innovation_goryeo_group_desc:0 "Ethnische Gruppen von Goryeo betrachteten sich als Nachkommen von Dangun und wurden vom Koguryo-Königreich wiederbelebt. Jahre nach der japanischen Invasion von 1592 verloren sie allmählich den Kontakt zur Tang-Dynastie und müssen sich dem Aufstieg des Nomadenregimes im Norden und der inneren Teilung stellen."
-
- innovation_mongolic_group:0 "Blauer Wolf, Weiße Hirschkuh"
- innovation_mongolic_group_desc:0 "Als Nachfahre des Blauen Wolfes und der Weißen Hirschkuh in den legendären Nomadenstämmen, die im weiten Grasland nördlich der Großen Mauer und südlich der Yinshan-Berge getrieben wurden, wird es, sobald sie sich vereinigen, eine große Bedrohung für alle umliegenden Königreiche und Imperien darstellen."
-
- innovation_centralization_of_authority:0 "Die große Vereinigung"
- innovation_centralization_of_authority_desc:0 "Als erster Kaiser Chinas verschmolz Qin Shi Huang nicht nur alle Königreiche, sondern vereinheitlichte auch Maße und Gewichte, Sprache und Schrift. Auf diese Weise wurde der Zusammenhalt der Han-Kultur beispiellos gestärkt, was es Menschen mit allen möglichen Akzenten und Gewohnheiten in diesem riesigen Territorium ermöglicht, zu kommunizieren, zu handeln und sich unter der Herrschaft eines Reiches zu vereinen."
- 
- innovation_world_cathay:0 "Militärsystem von Khitan"
- innovation_world_cathay_desc:0 "In der Geschichte wählte der Gründer der Liao-Dynastie, Khitan Khan, mehr als 1000 der tapfersten Krieger aus verschiedenen Stämmen zu seinen privaten Wachen. Sein Nachfolger Khan baute die Armee auf 300.000 aus und nannte sie PiShi-Armee."
-
- innovation_world_asia_korea:0 "Jäger aus Goryeo "
- innovation_world_asia_korea_desc:0 "Das Land der Goryeo ist von dichten Wäldern und Bergketten bedeckt, daher sind sie gut in der Herstellung von Jagdwerkzeugen, insbesondere Bögen. Wenn sie in die Armee eingezogen würden, wären sie sehr gute Bogenschützen."
- 
- innovation_battleships:0 "Großes Kriegsschiff"
- innovation_battleships_desc:0 "Entwickelt aus alten Kriegsschiffen, die außen mit Rindsleder und hohen Türmen auf dem Deck geschützt waren, waren diese Kriegsschiffe so groß, dass Soldaten darauf laufen und sogar auf einem Pferd reiten konnten."
- 
- innovation_outrigger_boats:0 "Kanu"
- innovation_battleships_desc:0 "Wenn die Straße nicht gut genug ist, nutzen wir eben das Meer."
-
- innovation_horse_archery:0 "Berittene Bogen Samurai"
- innovation_horse_archery_desc:0 "Japanische Bögen stammen aus prähistorischer Zeit der Jōmon-Zeit. Der lange, einzigartige asymmetrische Bogenstil mit dem Griff unterhalb der Mitte entstand in der Yayoi-Kultur. Bögen wurden zum Symbol für Autorität und Macht. Der legendäre erste Kaiser Japans, Kaiser Jimmu , wird immer mit einem Bogen dargestellt. Einige Emishi- Stämme, darunter der Hitakami-Stamm, praktizieren das Bogenschießen und wurden vom Yamato-Hof bemerkt und gefürchtet. Die ersten großen Versuche, die Emishi im 8. Jahrhundert zu unterwerfen, blieben weitgehend erfolglos. Die kaiserlichen Armeen, die den chinesischen Festlandarmeen nachempfunden waren, erwiesen sich angesichts der Guerilla-Taktik der Emishi als erfolglos. Nach der Einführung und Entwicklung des berittenen Bogenschießens und der von den Emishi verwendeten Guerilla-Taktiken durch die kaiserlichen Streitkräfte sah die Armee bald Erfolg, was schließlich zur Niederlage der Emishi führte.."
-
- master_of_bow:0 "Meister des Bogens"
- master_of_bow_desc:0 "Das Bogenschießen hat in der japanischen Kriegsführung eine lange Tradition und von jedem Samurai wurde erwartet, diese Kunst zu beherrschen. Weniger geschickte Krieger können dazu ausgebildet werden, in der Gruppe abzuschießen, doch präzise Schüsse erfordern Einsatz und Können, vor allem in der Hitze des Gefechts."
-
- mountain_pattern_armour:0 "Bergmusterrüstung"
- mountain_pattern_armour_desc:0 "Am Ende des 8. Jahrhunderts änderte sich die Doktrin der chinesischen kaiserlichen Armee von einer auf Kavallerie ausgerichteten zu einer auf Infanterie ausgerichteten Doktrin. Das Ineinandergreifen kleiner Eisen- und Stahlstücke auf Lederrücken ermöglichte es dem Han, eine flexible und bequeme, aber dennoch stark schützende Rüstung zu schaffen. Diese Rüstung ermöglichte es dem Han-Soldat, sowohl Kavallerie- als auch Bogenschützenangriffen zu widerstehen und gleichzeitig effektiv gegen Infanterie zu bleiben."
- 
- innovation_outrigger_boats:1 "Tangon"
+ innovation_outrigger_boats:1 "Auslegerkanu"
  innovation_outrigger_boats_desc:1 "Unsere Boote sind mit Stabilisatoren ausgestattet, die es ihnen ermöglichen, in rauen Gewässern stabil zu bleiben. Dies ermöglicht es uns, Ozeane mit Leichtigkeit zu überqueren und dabei schnell und wendig zu bleiben."
- innovation_indian_primogeniture:1 "Untrennbares Erbe"
- innovation_indian_primogeniture_desc:1 "Primogenitur ist seit jeher das Gesetz des Landes in Indien. Die Verantwortung des Königreichs geht wie die der Familie vom Vater auf den ältesten Sohn über, ohne sie zu teilen."
- 
- innovation_tiger_sons:1 "Die Söhne des Tigers"
- innovation_tiger_sons_desc:1 "Die Tigersöhne oder Luojuzi bildeten den Elitekern des Nanzhao-Militärs und wurden nur aus den stärksten Kriegern ausgewählt. Feigheit wurde bei den Luojuzi nicht geduldet, Rückzug wurde mit dem Tod bestraft."
- 
+ world_innovation_outrigger_boats:0 "Austronesia"
+ innovation_sinitic_bureaucracy:0 "Sinitische Bürokratie"
+ innovation_sinitic_bureaucracy_desc:0 "Die bürokratischen Innovationen der chinesischen Dynastien, wie das Kaiserliche Prüfungssystem und das Gleichfeld-System, machten China zur wohlhabendsten Nation des Mittelalters.\n\nDiese Reformen beeinflussten nicht nur die Regierungsführung in China, sondern auch in den Nachbarländern wie Japan, Korea und Vietnam, die diese Innovationen an ihre eigenen Bedürfnisse anpassten."
+ world_innovation_sinitic_bureaucracy:0 "Sinosphäre"

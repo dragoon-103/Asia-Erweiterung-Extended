@@ -10,6 +10,10 @@
  hmong_adherent:0 "Hmongist"
  hmong_adherent_plural:0 "Hmongisten"
  hmongism_desc:0 "Le hmongisme est la religion indigène des different peuples Hmong que l'on trouve dans tout le sud de la Chine et se concentre sur la croyance que le monde est habité par des dieux et des esprits qui peuvent être invoqués par la divination chamanique. Les Hmongistes entsprechen einer großen Bedeutung mit Respekt des Esprits der Ancêtres en laissant des Offrandes sur les autels familiaux oder à travers des rituels exécutés par des chamans ou le patriarche de la famille."
+ hmong_old:0 "Alte Hmongismus"
+ hmong_old_adj:0 "Alte Hmong"
+ hmong_old_adherent:0 "Alte Hmongist"
+ hmong_old_adherent_plural:0 "Alte Hmongisten"
  
  hmongism_high_god_name:0 "Yawm Saub"
  hmongism_high_god_name_possessive:0 "Yawm Saubs"

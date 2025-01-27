@@ -22,6 +22,8 @@
   duke_administrative_female_japanese_group_tohoku:0 "Kokushi" #国司
   duke_administrative_male_japanese_group_dazaifu:0 "Dazai-no-sochi" #大宰帥
   duke_administrative_female_japanese_group_dazaifu:0 "Dazai-no-sochi" #大宰帥
+  duke_administrative_male_japanese_group_chinjufu:0 "Chinjufu shōgun" #鎮守府将軍
+  duke_administrative_female_japanese_group_chinjufu:0 "Chinjufu shōgun" #鎮守府将軍
   king_administrative_male_japanese_group_japan:0 "Sesshō" #摂政
   king_administrative_female_japanese_group_japan:0 "Sesshō" #摂政
   emperor_administrative_male_japanese_group_japan:0 "Dai-sesshō" #大摂政
@@ -34,8 +36,8 @@
   count_feudal_female_japanese_group:0 "Daimyō" #大名
   duke_feudal_male_japanese_group:0 "Dai-daimyō" #大大名
   duke_feudal_female_japanese_group:0 "Dai-daimyō" #大大名
-  duke_feudal_male_japanese_group_dazaifu:0 "Dazai-no-sochi" #大宰帥
-  duke_feudal_female_japanese_group_dazaifu:0 "Dazai-no-sochi" #大宰帥
+  duke_feudal_male_japanese_group_chinjufu:0 "Chinjufu shōgun" #鎮守府将軍
+  duke_feudal_female_japanese_group_chinjufu:0 "Chinjufu shōgun" #鎮守府将軍
   king_feudal_male_japanese_group_japan:0 "Buke-no-tōryō" #武門之棟梁
   king_feudal_female_japanese_group_japan:0 "Buke-no-tōryō" #武門之棟梁
   king_feudal_male_japanese_group_shogunate:0 "Shōgun" #将軍

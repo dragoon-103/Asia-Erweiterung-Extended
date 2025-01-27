@@ -1,5 +1,5 @@
 name="Japanese_3_g3"
-culture="japanese"
+culture="yamato"
 visual_culture_level=3
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"
@@ -47,9 +47,9 @@ camera={ {
  {
 		description="Throne View"
 		fov=50.000000
-		position={ 160.000000 175.000000 275.000000 }
-		pitch=12.000000
-		yaw=-24.000000
+		position={ 0.000000 150.000000 400.000000 }
+		pitch=8.000000
+		yaw=180.000000
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
@@ -229,9 +229,9 @@ camera={ {
  {
 		description="artifact_throne_1"
 		fov=50.000000
-		position={ 160.000000 175.000000 275.000000 }
-		pitch=12.000000
-		yaw=-24.000000
+		position={ 118.800003 140.000000 310.800018 }
+		pitch=8.000000
+		yaw=-17.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -708,6 +708,7 @@ lights={ {
 	}
  }
 characters={ {
+		position={ 0.000000 25.000000 0.000000 }
 		locator="Ruler"
 		description="Ruler"
 		camera="Throne View"
@@ -831,6 +832,8 @@ characters={ {
 		roles={ inspired_person antiquarian jester poet flirty_flirts family low_prio_lone_courtier }
 	}
  {
+		position = { 0.000000 0.000000 362.000000 }
+		rotation = { 180.000000 10.000000 180.000000 }
 		locator="character_petitioner_kneeling"
 		description="Petitioner Kneeling"
 		roles={ kneeling }
@@ -1377,19 +1380,19 @@ artifacts={ {
 	}
  {
 		locator="artifact_wall_small_1"
-		position={ -429.000000 312.000000 567.099976 }
+		position={ -429.000000 312.000000 550.000000 }
 		direction=0.000010
 		slot="wall_small_1"
 	}
  {
 		locator="artifact_wall_small_2"
-		position={ 429.000000 312.000000 567.099976 }
+		position={ 429.000000 312.000000 550.000000 }
 		direction=0.000010
 		slot="wall_small_2"
 	}
  {
 		locator="artifact_wall_small_3"
-		position={ 429.000000 160.800003 567.099976 }
+		position={ 429.000000 160.800003 550.000000 }
 		slot="wall_small_3"
 	}
  {

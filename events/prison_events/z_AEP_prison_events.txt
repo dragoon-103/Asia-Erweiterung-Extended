@@ -1,0 +1,84 @@
+﻿namespace = prison
+
+prison.9000 = {
+	hidden = yes
+
+	immediate = {
+		imprisoner = {
+			save_scope_as = imprisoner
+		}
+		random_list = {
+			50 = {
+				trigger_event = {
+					on_action = escape_from_prison_success
+				}
+				min = 5
+				modifier = {
+					add = {
+						value = prowess
+						subtract = average_skill_rating
+						multiply = 2
+					}
+				}
+				modifier = {
+					add = 15
+					has_character_modifier = childhood_prison_escape
+				}
+				modifier = {
+					imprisoner.domicile ?= {
+						is_domicile_type = camp
+						NOT = { has_domicile_parameter = camp_reduced_prisoner_escape_chance }
+					}
+					factor = 2
+				}
+				ai_value_modifier = {
+					ai_energy = 0.5
+				}
+			}
+			50 = {
+				trigger_event = {
+					on_action = escape_from_prison_failure
+				}
+				min = 5
+				modifier = {
+					add = {
+						value = scope:imprisoner.intrigue
+						subtract = average_skill_rating
+						multiply = 2
+					}
+				}
+				modifier = {
+					add = 25
+					scope:imprisoner = {
+						any_courtier = { suitable_shieldmaiden_gaoler_trigger = yes }
+					}
+				}
+				modifier = {
+					add = 25
+					scope:imprisoner = {
+						any_courtier = { suitable_onnamusha_gaoler_trigger = yes }
+					}
+				}
+				modifier = {
+					add = 25
+					OR = {
+						has_trait = weak
+						has_trait = craven
+						has_trait = physique_bad_1
+					}
+				}
+				modifier = {
+					add = 50
+					OR = {
+						has_trait = physique_bad_2
+						has_trait = physique_bad_3
+					}
+				}
+				modifier = {
+					add = 25
+					is_in_prison_type = dungeon
+				}
+			}
+		}
+	}
+}

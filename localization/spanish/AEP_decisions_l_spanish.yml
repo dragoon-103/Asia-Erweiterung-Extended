@@ -1,0 +1,18 @@
+﻿l_spanish:
+#Japanese Decisions
+ form_kamakura_bakufu_decision:0 "Establecer el Shōgunato Kamakura"
+ form_kamakura_bakufu_decision_confirm:0 "¡Iza Kamakura!"
+ form_kamakura_bakufu_decision_desc:0 "Con nuestros enemigos en ruinas y la influencia de la Corte Imperial completamente mermada, el momento es propicio para que los Minamoto establezcan un nuevo orden.\n\nPor decreto del Emperador, yo daré inicio a una nueva era donde la armonía se asegure a través del poder de los samuráis, con el Shōgun como el verdadero gobernante de Japón."
+ form_kamakura_bakufu_decision_tooltip:0 "El Shōgunato Kamakura será establecido."
+ 
+ form_fukuhara_bakufu_decision:0 "Establecer el Shōgunato Fukuhara"
+ form_fukuhara_bakufu_decision_confirm:0 "¡Iza Fukuhara!"
+ form_fukuhara_bakufu_decision_desc:0 "Con nuestros enemigos en ruinas y la influencia de la Corte Imperial completamente mermada, el momento es propicio para que los Taira establezcan un nuevo orden.\n\nPor decreto del Emperador, yo daré inicio a una nueva era donde la armonía se asegure a través del poder de los samuráis, con el Shōgun como el verdadero gobernante de Japón."
+ form_fukuhara_bakufu_decision_tooltip:0 "El Shōgunato Fukuhara será establecido."
+ 
+ form_muromachi_bakufu_decision:0 "Establecer el Shōgunato Muromachi"
+ form_muromachi_bakufu_decision_confirm:0 "¡Iza Muromachi!"
+ form_muromachi_bakufu_decision_desc:0 "Con nuestros enemigos en ruinas y la influencia de la Corte Imperial completamente mermada, el momento es propicio para que los Ashikaga establezcan un nuevo orden.\n\nPor decreto del Emperador, yo daré inicio a una nueva era donde la armonía se asegure a través del poder de los samuráis, con el Shōgun como el verdadero gobernante de Japón."
+ form_muromachi_bakufu_decision_tooltip:0 "El Shōgunato Muromachi será establecido."
+ 
+ ritsuryo_dismantled_tt:0 "El Sistema Ritsuryō será abolido y todos los vasallos no imperiales [administrative|E] se convertirán en [feudal|E]."

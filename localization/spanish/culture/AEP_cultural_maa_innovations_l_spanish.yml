@@ -1,8 +1,9 @@
 ﻿l_spanish:
  #Tribal Era
  culture_parameter_unlock_maa_samurai:0 "Puede reclutar [GetMaA('samurai').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_sohei:0 "Puede reclutar [GetMaA('sohei').GetName] como [men_at_arms|E]"
  culture_parameter_unlock_maa_emishi:0 "Puede reclutar [GetMaA('emishi_riders').GetName] como [men_at_arms|E]"
- culture_parameter_unlock_maa_han:0 "Puede reclutar [GetMaA('chinese_pikemen').GetName] como [men_at_arms|E]"
+ culture_parameter_unlock_maa_ji_pikemen:0 "Puede reclutar [GetMaA('ji_pikemen').GetName] como [men_at_arms|E]"
  culture_parameter_unlock_maa_khitan:0 "Puede reclutar [GetMaA('heavy_khitan_cavalry').GetName] como [men_at_arms|E]"
  culture_parameter_unlock_maa_hwarang:0 "Puede reclutar [GetMaA('hwarang').GetName] como [men_at_arms|E]"
  culture_parameter_unlock_maa_gaemamusa:0 "Puede reclutar [GetMaA('gaemamusa').GetName] como [men_at_arms|E]"
@@ -22,10 +23,10 @@
  emishi_riders:0 "Jinetes emishi" #蝦夷騎
  emishi_riders_flavor:0 "Los Emishi son reconocidos como magníficos jinetes cuya ferocidad los ha llevado a la victoria en muchas batallas a pesar de ser superados en número."
  
- tradition_chinese_pikemen_name:0 "Piqueros chinos" #戟歩兵
- tradition_chinese_pikemen_desc:0 "Estos piqueros vestidos con armadura y equipados con la lanza Ji constituyen la columna vertebral de cualquier ejército chino."
- chinese_pikemen:0 "Piqueros chinos" #戟歩兵
- chinese_pikemen_flavor:0 "Estos piqueros blindados equipados con la lanza Ji forman la columna vertebral de cualquier ejército chino."
+ tradition_shumiyuan_name:0 "Shumiyuan" #樞密院
+ tradition_shumiyuan_desc:0 "El Shumiyuan, o Buró de Asuntos Militares, supervisa la gestión del Ejército Imperial con el objetivo principal de salvaguardar el imperio y, cuando sea necesario, proyectar poder más allá de sus fronteras."
+ ji_pikemen:0 "Ji Pikemen" #戟歩兵
+ ji_pikemen_flavor:0 "Estos piqueros con armadura, equipados con la lanza Ji, constituyen la columna vertebral de cualquier ejército chino."
  
  tradition_khitan_heavy_cavalry_name:0 "Caballería pesada khitan" #契丹鎧骑兵
  tradition_khitan_heavy_cavalry_desc:0 "Los khitanos son famosos por su caballería pesada, cuya destreza en el combate los ha llevado a salir victoriosos en muchas batallas con sus vecinos."
@@ -42,13 +43,13 @@
  gaemamusa:0 "Gaemamusa" #개마무사/鎧馬武士
  gaemamusa_flavor:0 "Distinguidos por sus plumas ornamentadas y armaduras pesadas, los Gaemamusa se destacan como una de las fuerzas de caballería más impresionantes del este de Asia."
  
- tradition_tiger_sons_name:0 "Sonidos de tigre"
- tradition_tiger_sons_desc:0 "Los Tiger Sons, o Luojuzi, formaron el núcleo de élite del ejército de Nanzhao y fueron elegidos solo entre los guerreros más fuertes. La cobardía no era tolerada entre los Luojuzi, y la retirada se castigaba con la muerte."
+ tradition_luojuzi_name:0 "Sonidos de tigre"
+ tradition_luojuzi_desc:0 "Los Tiger Sons, o Luojuzi, formaron el núcleo de élite del ejército de Nanzhao y fueron elegidos solo entre los guerreros más fuertes. La cobardía no era tolerada entre los Luojuzi, y la retirada se castigaba con la muerte."
  luojuzi:0 "Luojuzi" #罗苴子
  luojuzi_flavor:0 "Los Tiger Sons, o Luojuzi, formaron el núcleo de élite del ejército de Nanzhao y fueron elegidos solo entre los guerreros más fuertes. La cobardía no era tolerada entre los Luojuzi, y la retirada se castigaba con la muerte."
  
- tradition_warrior_caste_name:0 "Kṣatrá" #ក្សត្រ
- tradition_warrior_caste_desc:0 "Los kṣatrá eran la aristocracia guerrera del Imperio Khmer y eran bien conocidos por su destreza en el combate."
+ tradition_ksatra_name:0 "Kṣatrá" #ក្សត្រ
+ tradition_ksatra_desc:0 "Los kṣatrá eran la aristocracia guerrera del Imperio Khmer y eran bien conocidos por su destreza en el combate."
  ksatra:0 "Kṣatrá" #ក្សត្រ
  ksatra_flavor:0 "Los kṣatrá eran la aristocracia guerrera del Imperio Khmer y eran bien conocidos por su destreza en el combate."
  

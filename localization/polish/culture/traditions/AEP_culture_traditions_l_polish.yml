@@ -1,0 +1,14 @@
+﻿l_polish:
+ tradition_angkorian_architecture_name:0 "Angkorian Architecture"
+ tradition_angkorian_architecture_desc:1 "This culture finds constructing temples the most direct path to the divine. Fervent rulers are expected to build many, and grand, temples."
+ tradition_austronesian_seafarers_name:0 "Austronesian Seafarers"
+ tradition_austronesian_seafarers_desc:0 "Known for their great ocean-going sailing technologies, voyaging throughout the seas is a heritage proudly inherited by the descendants of the seafaring Austronesians."
+ tradition_migratory_name:0 "Migratory"
+ tradition_migratory_desc:0 "This culture is nomadic, accustomed to regularly moving from place to place, and can declare war on neighboring [rulers|E] to resettle the tribe."
+ tradition_chinese_characters_name:0 "Chinese Characters"
+ tradition_chinese_characters_desc:0 "The literati of this culture use Chinese characters, or Hanzi, which boasts a robust scholarly and literary tradition stretching back as far as the 27th Century BC."
+ 
+ # Tradition effects - Base Title
+ culture_parameter_can_enact_single_heir_succession_law:0 "Can enact the #single $single_heir_succession_law$#! [succession_law|E]"
+ culture_parameter_enable_baray_duchy_building:0 "Rulers can construct the #high $building_type_baray_01$#! [duchy_building|E]"
+ culture_parameter_enable_migration_cb:0 "Unlocks the Migratory [casus_belli|E]"

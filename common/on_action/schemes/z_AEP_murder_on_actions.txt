@@ -1,0 +1,14 @@
+﻿# Intercept methods that are either not used up during their event or can be easily replaced (like bodyguards).
+pick_repeatable_murder_intercept_on_action = {
+	random_events = {
+		# Old events.
+		300 = murder_save.0010		# A Varangian saves them
+		100 = murder_save.0006		# Their personal guard protects them from a band of thugs
+		100 = court_position.9001	# Saved from poisoned food by food taster
+		50 = court_position.9011	# Saved from poison by cup-bearer
+		5 = murder_save.0013		# Saved from poisoned food by gluttonous trait
+		100 = court_position.9021	# A Bodyguard saves you from an assassin
+		600 = fp1_shieldmaiden.0021	# A Shieldmaiden saves them
+		600 = aep_onnamusha.0021	# An Onna-musha saves them
+	}
+}

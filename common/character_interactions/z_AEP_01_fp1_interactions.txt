@@ -1,0 +1,239 @@
+﻿designate_onnamusha_interaction = {
+	icon = designate_onnamusha_interaction
+	category = interaction_category_friendly
+	common_interaction = yes
+
+	send_name = SEND_PROPOSAL
+
+	interface_priority = 120
+
+	ai_targets = {
+		ai_recipients = courtiers
+	}
+	ai_frequency = 180
+
+	is_shown = {
+		scope:actor = {
+			has_fp1_dlc_trigger = yes
+			is_physically_able_adult = yes
+			#Has access to the appropriate cultural parameter.
+			culture = { has_cultural_parameter = has_access_to_onnamusha }
+			trigger_if = { # Determined by Cultural Pillars
+				limit = { has_dlc_feature = diverge_culture }
+				culture = {
+					NOT = { has_cultural_parameter = martial_custom_equal_combatant }
+				}
+			}
+			trigger_else = {
+				NOT = {
+					faith = { has_doctrine = doctrine_gender_equal }
+				}
+			}
+		}
+		scope:recipient = {
+			NOT = { has_trait = incapable }
+			is_courtier_of = scope:actor
+			is_close_family_of = scope:actor
+			NOT = { has_trait = onnamusha }
+			trigger_if = { # Determined by Cultural Pillars
+				limit = { has_dlc_feature = diverge_culture }
+				AND = {
+					is_female = yes
+					culture = { has_cultural_parameter = martial_custom_male_only_combatant }
+				}
+			}
+			trigger_else = {
+				AND = {
+					is_female = yes
+					faith = { has_doctrine_parameter = combatant_must_be_male_if_no_roco }
+				}
+			}
+			
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		scope:recipient = {
+			prowess >= decent_skill_rating
+			is_adult = yes
+			is_imprisoned = no
+		}
+	}
+
+	desc = designate_onnamusha_interaction_desc
+
+	on_accept = {
+		scope:actor = {
+			stress_impact = {
+				arrogant = medium_stress_impact_gain
+				paranoid = minor_stress_impact_gain
+			}
+		}
+		scope:recipient = {
+			add_trait = onnamusha
+
+			add_opinion = {
+				target = scope:actor
+				modifier = fp1_accepted_my_sword_opinion
+			}
+		}
+		if = {
+			limit = { always = scope:hook }
+			scope:actor = { use_hook = scope:recipient }
+		}
+		hidden_effect = {
+			scope:actor = {
+				send_interface_toast = {
+					type = event_toast_effect_neutral
+					title = designate_onnamusha_interaction_notification
+
+					left_icon = scope:actor
+					right_icon = scope:recipient
+
+					show_as_tooltip = {
+						scope:recipient = {
+							add_trait_force_tooltip = onnamusha
+						}
+						stress_impact = {
+							arrogant = medium_stress_impact_gain
+							paranoid = minor_stress_impact_gain
+						}
+					}
+				}
+			}
+			scope:recipient = {
+				if = {
+					limit = { has_character_flag = aep_dreams_of_onnamushadom }
+					remove_character_flag = aep_dreams_of_onnamushadom
+				}
+			}
+		}
+	}
+
+	auto_accept = {
+		custom_description = {
+			text = "spending_hook"
+			subject = scope:actor
+			object = scope:recipient
+			AND = {
+				always = scope:hook
+				scope:actor = { has_strong_hook = scope:recipient }
+			}
+		}
+	}
+
+	send_option = {
+		is_valid = {
+			scope:actor = {
+				has_usable_hook = scope:recipient
+			}
+		}
+		flag = hook
+		localization = SCHEME_HOOK
+	}
+	should_use_extra_icon = {
+		scope:actor = { has_usable_hook = scope:recipient }
+	}
+	extra_icon = "gfx/interface/icons/character_interactions/hook_icon.dds"
+
+	send_options_exclusive = no
+
+	cost = {
+		prestige = scope:actor.minor_prestige_value
+	}
+
+	ai_potential = {
+		#Has access to the appropriate cultural parameter.
+		culture = { has_cultural_parameter = has_access_to_onnamusha }
+		prestige > major_prestige_value
+		has_fp1_dlc_trigger = yes
+		is_physically_able_adult = yes
+	}
+
+	auto_accept = no
+
+	ai_accept = {
+		base = 0
+
+		modifier = {
+			trigger = {
+				always = scope:hook
+			}
+			add = 100
+			desc = SCHEME_WEAK_HOOK_USED
+		}
+
+		modifier = {
+			trigger = {
+				has_education_martial_trigger = yes
+			}
+			add = 20
+			desc = INTERACTION_MARTIAL_EDUCATION
+		}
+
+		# Weight up for personality values.
+		ai_value_modifier = {
+			who = scope:recipient
+			ai_boldness = {
+				if = {
+					limit = {
+						scope:recipient = {
+							NOT = { ai_boldness = 0 }
+						}
+					}
+					value = 0.5
+				}
+			}
+			ai_compassion = {
+				if = {
+					limit = {
+						scope:recipient = {
+							NOT = { ai_compassion = 0 }
+						}
+					}
+					value = -0.5
+				}
+			}
+		}
+
+		modifier = {
+			add = -1000
+			has_trait = craven
+			desc = INTERACTION_CRAVEN
+		}
+
+		modifier = {
+			add = -50
+			has_trait = content
+			desc = INTERACTION_CONTENT
+		}
+
+		modifier = {
+			add = -50
+			has_trait = humble
+			desc = INTERACTION_HUMBLE
+		}
+
+		modifier = {
+			add = -50
+			has_trait = lazy
+			desc = INTERACTION_LAZY
+		}
+
+		modifier = {
+			add = 100
+			has_trait = brave
+			desc = INTERACTION_BRAVE
+		}
+
+		modifier = {
+			add = 25
+			has_trait = ambitious
+			desc = INTERACTION_AMBITIOUS
+		}
+	}
+
+	ai_will_do = {
+		base = 100
+	}
+}

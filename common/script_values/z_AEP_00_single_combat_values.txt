@@ -1,0 +1,49 @@
+﻿############################
+# MISC
+############################
+
+# Calculates a character's prowess, plus the number of traits they have with beneficial special combat moves.
+sce_has_single_combat_special_traits_value = {
+	value = prowess
+
+	# Blademaster.
+	if = {
+		limit = { has_trait = lifestyle_blademaster }
+		add = 10
+	}
+	# Hunter.
+	if = {
+		limit = { has_trait = lifestyle_hunter }
+		add = 10
+	}
+	# Berserker.
+	if = {
+		limit = { has_trait = berserker }
+		add = 10
+	}
+	# Shieldmaiden.
+	if = {
+		limit = { has_trait = shieldmaiden }
+		add = 10
+	}
+	# Onna-musha.
+	if = {
+		limit = { has_trait = onnamusha }
+		add = 10
+	}
+	# Varangian.
+	if = {
+		limit = { has_trait = varangian }
+		add = 10
+	}
+	# Deviant.
+	if = {
+		limit = { has_trait = deviant }
+		add = 10
+	}
+	# Viking.
+	if = {
+		limit = { has_trait = viking }
+		add = 10
+	}
+}

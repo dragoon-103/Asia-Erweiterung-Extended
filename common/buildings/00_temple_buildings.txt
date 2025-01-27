@@ -11,10 +11,8 @@
 @illustration_china = "gfx/interface/illustrations/holding_types/temple_china.dds"
 @illustration_korea = "gfx/interface/illustrations/holding_types/temple_korea.dds"
 @illustration_japan = "gfx/interface/illustrations/holding_types/temple_japan.dds"
-@illustration_eastern_siberia = "gfx/interface/illustrations/holding_types/temple_eastern_siberia.dds"
 @illustration_tibet = "gfx/interface/illustrations/holding_types/temple_tibet.dds"
 @illustration_southeast_asia = "gfx/interface/illustrations/holding_types/temple_southeast_asia.dds"
-@illustration_papua = "gfx/interface/illustrations/holding_types/temple_papua.dds" 
 
 temple_01 = {
 	construction_time = slow_construction_time
@@ -269,24 +267,6 @@ temple_01 = {
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/dharmic_temple" soundparameter = { "Tier" = 0 } }
 		graphical_faiths = { "dharmic_gfx" }
 		graphical_cultures = { southeast_asian_building_gfx }
-	}
-	# AEP Pagan variant for Eastern Siberians
-	asset = {
-		type = pdxmesh
-		name = "building_western_temple_pagan_01_mesh"
-		illustration = @illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { eastern_siberian_building_gfx }
-	}
-	# AEP Pagan variant for Papuans
-	asset = {
-		type = pdxmesh
-		name = "building_western_temple_pagan_01_mesh"
-		illustration = @illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Temples/pagan_temple" soundparameter = { "Tier" = 0 } }
-		graphical_faiths = { "pagan_gfx" }
-		graphical_cultures = { papuan_building_gfx }
 	}
 	### SHINTO ###
 	asset = {

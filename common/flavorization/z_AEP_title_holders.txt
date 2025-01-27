@@ -1,0 +1,2200 @@
+﻿# Accepted categories are: governments, cultures, culture_groups, faiths, religions
+# A Flavorization will apply if ALL specified categories have ANY of their entries
+# represented in the character/title
+# So for example:
+# governments = { feudal_government }
+# culture_groups = { mongolic_group central_germanic_group }
+# religions = { christianity_religion }
+# cultures = { norse }
+# faiths = { catholicism }
+# For this to apply a character MUST BE feudal, AND must also be EITHER altaic OR germanic
+# priority is used to determine priority, if they are the same then the LAST will be selected,
+# and honorifics will be prefered over landed titles. Default priority is 1
+# If a flavorization does not have a tier it can apply to all tiers of characters, too many non-tiered
+# flavorizations is bad for performance though, YOU HAVE BEEN WARNED!
+# 'top_liege = no' means that its the holder of the title causing the honorific that is tested for
+# the various categories, so for a prince it is the king that is tested, for a queen mother it is her son
+# if this is not specified ( or 'top_liege = yes' the default ) then it is the top liege of that character
+# that is tested, this means that most title flavor comes from the top liege of the title not the holder
+
+#sultan = { #Example
+#	gender = male
+#	special = holder
+#	tier = kingdom
+#	only_independent = yes
+#	governments = { feudal_government clan_government }
+#	religions = { islam_religion }
+#}
+
+### japanese Heritage ###
+# Administrative
+
+# Rulers
+baron_administrative_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+}
+baron_administrative_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+}
+count_administrative_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+}
+count_administrative_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+}
+count_administrative_male_japanese_group_tohoku = { # Special title given only to counts based in Dewa and Mutsu
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 114
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { c_aizu c_iwase c_iwaki c_taga c_isawa c_shiwa c_mogami c_tagawa c_ogachi c_akita c_hinai c_nukanobu c_tsugaru }
+}
+count_administrative_female_japanese_group_tohoku = { # Special title given only to counts based in Dewa and Mutsu
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 114
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { c_aizu c_iwase c_iwaki c_taga c_isawa c_shiwa c_mogami c_tagawa c_ogachi c_akita c_hinai c_nukanobu c_tsugaru }
+}
+count_administrative_male_japanese_group_japan = { # Special title given only to counts based in Japan
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 115
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { c_awa_so c_hitachi c_kazusa c_shimotsuke c_shimosa c_kozuke c_musashi c_sagami c_echigo c_kai c_sado c_shinano c_izu c_mikawa c_suruga c_totomi c_hida c_ise c_mino c_owari c_shima c_echizen c_etchu c_kaga c_noto c_wakasa c_iga c_izumi c_kawachi c_settsu c_yamashiro c_yamato c_omi c_hoki c_inaba c_tajima c_tanba c_tango c_bitchu c_bizen c_harima c_mimasaka c_aki c_bingo c_iwami c_izumo c_nagato c_oki c_suo c_awa c_awaji c_iyo c_kii c_sanuki c_tosa c_bungo c_buzen c_chikugo c_chikuzen c_hizen c_iki c_tsushima c_higo c_hyuga c_satsuma c_osumi }
+}
+count_administrative_female_japanese_group_japan = { # Special title given only to counts based in Japan
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 115
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { c_awa_so c_hitachi c_kazusa c_shimotsuke c_shimosa c_kozuke c_musashi c_sagami c_echigo c_kai c_sado c_shinano c_izu c_mikawa c_suruga c_totomi c_hida c_ise c_mino c_owari c_shima c_echizen c_etchu c_kaga c_noto c_wakasa c_iga c_izumi c_kawachi c_settsu c_yamashiro c_yamato c_omi c_hoki c_inaba c_tajima c_tanba c_tango c_bitchu c_bizen c_harima c_mimasaka c_aki c_bingo c_iwami c_izumo c_nagato c_oki c_suo c_awa c_awaji c_iyo c_kii c_sanuki c_tosa c_bungo c_buzen c_chikugo c_chikuzen c_hizen c_iki c_tsushima c_higo c_hyuga c_satsuma c_osumi }
+}
+duke_administrative_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+}
+duke_administrative_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+}
+duke_administrative_male_japanese_group_tohoku = { # Special title given only to dukes based in Dewa and Mutsu
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { d_mutsu d_dewa }
+}
+duke_administrative_female_japanese_group_tohoku = { # Special title given only to dukes based in Dewa and Mutsu
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { d_mutsu d_dewa }
+}
+duke_administrative_male_japanese_group_dazaifu = { # Special title given only to Dazai-no-sochi
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 125
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { d_saikai }
+}
+duke_administrative_female_japanese_group_dazaifu = { # Special title given only to Dazai-no-sochi
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 125
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { d_saikai }
+}
+duke_administrative_male_japanese_group_chinjufu = { # Special title given only to the Chinjufu Shogun
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 126
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { d_chinjufu }
+}
+duke_administrative_female_japanese_group_chinjufu = { # Special title given only to the Chinjufu Shogun
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 126
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { d_chinjufu }
+}
+king_administrative_male_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { k_nippon }
+}
+king_administrative_female_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { k_nippon }
+}
+emperor_administrative_male_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
+}
+emperor_administrative_female_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { administrative_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
+}
+
+### japanese Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_feudal_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+}
+baron_feudal_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+}
+count_feudal_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+}
+count_feudal_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+}
+duke_feudal_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+}
+duke_feudal_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+}
+duke_feudal_male_japanese_group_chinjufu = { # Special title given only to the Chinjufu Shogun
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government }
+	heritages = { heritage_japanese }
+	titles = { d_chinjufu }
+}
+duke_feudal_female_japanese_group_chinjufu = { # Special title given only to the Chinjufu Shogun
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { feudal_government }
+	heritages = { heritage_japanese }
+	titles = { d_chinjufu }
+}
+king_feudal_male_japanese_group_japan = { # Special title given only to feudal rulers of Japan
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { k_nippon }
+}
+king_feudal_female_japanese_group_japan = { # Special title given only to feudal rulers of Japan
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { k_nippon }
+}
+king_feudal_male_japanese_group_shogunate = { # Special title given only to Shōgunates
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 146
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { k_fukuhara_bakufu k_kamakura_bakufu k_muromachi_bakufu }
+}
+king_feudal_female_japanese_group_shogunate = { # Special title given only to Shōgunates
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 146
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { k_fukuhara_bakufu k_kamakura_bakufu k_muromachi_bakufu }
+}
+
+emperor_feudal_male_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
+}
+emperor_feudal_female_japanese_group_japan = { # Special title given only to regents of Japan
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	governments = { feudal_government clan_government tribal_government }
+	heritages = { heritage_japanese }
+	titles = { e_nippon }
+}
+
+### japanese Heritage ###
+# General
+
+# Rulers
+king_male_japanese_group_subordinate = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_japanese }
+}
+king_female_japanese_group_subordinate = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_japanese }
+}
+king_male_japanese_group_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	heritages = { heritage_japanese }
+	only_independent = yes
+}
+king_female_japanese_group_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	heritages = { heritage_japanese }
+	only_independent = yes
+}
+emperor_male_japanese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	heritages = { heritage_japanese }
+}
+emperor_female_japanese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	heritages = { heritage_japanese }
+}
+emperor_male_japanese_group_koshitsu = { # Special title given only to the Emperor of Japan
+	type = character
+	gender = male
+	special = holder
+	priority = 200
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
+}
+emperor_female_japanese_group_koshitsu = { # Special title given only to the Empress Regnant of Japan
+	type = character
+	gender = female
+	special = holder
+	priority = 200
+	heritages = { heritage_japanese }
+	titles = { d_koshitsu }
+}
+
+# Titles
+barony_japanese_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_japanese }
+}
+county_japanese_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_japanese }
+}
+county_japanese_group_tohoku = {
+	type = title
+	tier = county
+	priority = 114
+	heritages = { heritage_japanese }
+	titles = { c_aizu c_iwase c_iwaki c_taga c_isawa c_shiwa c_mogami c_tagawa c_ogachi c_akita c_hinai c_nukanobu c_tsugaru }
+}
+duchy_japanese_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_japanese }
+}
+duchy_japanese_group_japan = {
+	type = title
+	tier = duchy
+	priority = 124
+	heritages = { heritage_japanese }
+	titles = { d_kinai d_chugoku d_north_kyushu d_south_kyushu d_chubu d_koshinetsu d_west_kanto d_east_kanto }
+}
+duchy_japanese_group_tohoku = {
+	type = title
+	tier = duchy
+	priority = 124
+	heritages = { heritage_japanese }
+	titles = { d_mutsu d_dewa }
+}
+kingdom_japanese_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_japanese }
+}
+kingdom_japanese_group_independent = {
+	type = title
+	tier = kingdom
+	priority = 144
+	heritages = { heritage_japanese }
+	only_independent = yes
+}
+empire_japanese_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_japanese }
+}
+
+#############################################
+
+### Chinese Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_chinese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+baron_female_chinese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+count_male_chinese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+count_female_chinese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+duke_male_chinese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+duke_female_chinese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+king_male_chinese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+king_female_chinese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+}
+king_male_chinese_group_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 144
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+	only_independent = yes
+}
+king_female_chinese_group_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 144
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+	only_independent = yes
+}
+king_male_chinese_group_dao_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+	only_independent = yes
+	titles = { k_jingji k_hebei k_hedong k_guannei k_longyou k_qinfeng k_jiannan k_shannanxi k_duji k_henan k_shannandong k_huainan k_jiangnanxi k_jiangxi k_hunan k_jiangnandong k_fujian k_lingnan k_guangxi k_qianzhong k_kuizhou k_zizhou k_xia k_guiyi k_annan k_chanyu k_dongyi }
+}
+king_female_chinese_group_dao_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 145
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese }
+	only_independent = yes
+	titles = { k_jingji k_hebei k_hedong k_guannei k_longyou k_qinfeng k_jiannan k_shannanxi k_duji k_henan k_shannandong k_huainan k_jiangnanxi k_jiangxi k_hunan k_jiangnandong k_fujian k_lingnan k_guangxi k_qianzhong k_kuizhou k_zizhou k_xia k_guiyi k_annan k_chanyu k_dongyi }
+}
+emperor_male_chinese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese heritage_tungusic }
+}
+emperor_female_chinese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_chinese heritage_tungusic }
+}
+
+# Titles
+barony_chinese_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_chinese }
+}
+county_chinese_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_chinese }
+}
+duchy_chinese_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_chinese }
+}
+kingdom_chinese_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_chinese }
+}
+kingdom_chinese_group_independent = {
+	type = title
+	tier = kingdom
+	priority = 144
+	heritages = { heritage_chinese }
+	only_independent = yes
+}
+empire_chinese_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_chinese }
+}
+
+#############################################
+
+### Korean Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_korean_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+baron_female_korean_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+count_male_korean_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+count_female_korean_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+duke_male_korean_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+duke_female_korean_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+duke_male_korean_group_independent = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+	only_independent = yes
+}
+duke_female_korean_group_independent = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 124
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+	only_independent = yes
+}
+king_male_korean_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+king_female_korean_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+emperor_male_korean_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+emperor_female_korean_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_korean }
+}
+
+# Titles
+barony_korean_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_korean }
+}
+county_korean_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_korean }
+}
+duchy_korean_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_korean }
+}
+duchy_korean_group_independent = {
+	type = title
+	tier = duchy
+	priority = 124
+	heritages = { heritage_korean }
+	only_independent = yes
+}
+kingdom_korean_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_korean }
+}
+empire_korean_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_korean }
+}
+
+#############################################
+
+### Vietic Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_vietnamese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+baron_female_vietnamese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+count_male_vietnamese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+count_female_vietnamese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+duke_male_vietnamese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+duke_female_vietnamese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+king_male_vietnamese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+king_female_vietnamese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+emperor_male_vietnamese_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+emperor_female_vietnamese_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_viet }
+}
+
+# Titles
+barony_vietnamese_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_viet }
+}
+county_vietnamese_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_viet }
+}
+duchy_vietnamese_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_viet }
+}
+kingdom_vietnamese_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_viet }
+}
+empire_vietnamese_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_viet }
+}
+
+#############################################
+
+### Yi-Bai Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_loloish_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+baron_female_loloish_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+count_male_loloish_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+count_female_loloish_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+duke_male_loloish_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+duke_female_loloish_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+king_male_loloish_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+king_female_loloish_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+emperor_male_loloish_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+emperor_female_loloish_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_loloish heritage_bai }
+}
+
+# Titles
+barony_loloish_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_loloish heritage_bai }
+}
+county_loloish_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_loloish heritage_bai }
+}
+duchy_loloish_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_loloish heritage_bai }
+}
+kingdom_loloish_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_loloish heritage_bai }
+}
+empire_loloish_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_loloish heritage_bai }
+}
+
+#############################################
+
+### Burman-Palaungic Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_burman_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+baron_female_burman_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+count_male_burman_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+count_female_burman_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+duke_male_burman_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+duke_female_burman_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+king_male_burman_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+king_female_burman_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+emperor_male_burman_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+emperor_female_burman_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_burman heritage_palaungic }
+}
+
+# Titles
+barony_burman_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_burman heritage_palaungic }
+}
+county_burman_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_burman heritage_palaungic }
+}
+duchy_burman_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_burman heritage_palaungic }
+}
+kingdom_burman_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_burman heritage_palaungic }
+}
+empire_burman_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_burman heritage_palaungic }
+}
+
+#############################################
+
+### Mon Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+baron_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+count_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+count_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+duke_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+duke_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+king_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+king_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+emperor_male_mon = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+emperor_female_mon = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_mon }
+}
+
+# Titles
+barony_mon = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_mon }
+}
+county_mon = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_mon }
+}
+duchy_mon = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_mon }
+}
+kingdom_mon = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_mon }
+}
+empire_mon = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_mon }
+}
+
+#############################################
+
+### Khmer-Katuic Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+baron_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+count_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+count_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+duke_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+duke_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+king_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+king_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+emperor_male_khmer = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+emperor_female_khmer = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_khmer heritage_katuic }
+}
+emperor_male_khmer_empire = { # Special title given only to the Khmer Emperor
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 154
+	titles = { e_kambujadesa }
+}
+emperor_female_khmer_empire = { # Special title given only to the Khmer Empress
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 154
+	titles = { e_kambujadesa }
+}
+
+# Titles
+barony_khmer = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_khmer heritage_katuic }
+}
+county_khmer = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_khmer heritage_katuic }
+}
+duchy_khmer = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_khmer heritage_katuic }
+}
+kingdom_khmer = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_khmer heritage_katuic }
+}
+empire_khmer = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_khmer heritage_katuic }
+}
+
+#############################################
+
+### Kra-Dai Heritage ###
+# Feudal / Clan / Tribal
+
+# Rulers
+baron_male_tai_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+baron_female_tai_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+count_male_tai_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+count_female_tai_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 113
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+duke_male_tai_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+duke_female_tai_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 123
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+king_male_tai_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+king_female_tai_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 143
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+emperor_male_tai_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+emperor_female_tai_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 153
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = { heritage_kradai }
+}
+
+# Titles
+barony_tai_group = {
+	type = title
+	tier = barony
+	priority = 103
+	heritages = { heritage_kradai }
+}
+county_tai_group = {
+	type = title
+	tier = county
+	priority = 113
+	heritages = { heritage_kradai }
+}
+duchy_tai_group = {
+	type = title
+	tier = duchy
+	priority = 123
+	heritages = { heritage_kradai }
+}
+kingdom_tai_group = {
+	type = title
+	tier = kingdom
+	priority = 143
+	heritages = { heritage_kradai }
+}
+empire_tai_group = {
+	type = title
+	tier = empire
+	priority = 153
+	heritages = { heritage_kradai }
+}
+
+#############################################
+
+### Austronesian Heritages ###
+# Feudal / Clan / Tribal
+
+baron_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+baron_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = barony
+	priority = 7
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+barony_austronesian_group = {
+	type = title
+	tier = barony
+	priority = 501
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+count_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 18
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+count_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 18
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+count_male_muslim_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = county
+	priority = 19
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+count_female_muslim_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = county
+	priority = 19
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+county_austronesian_group = {
+	type = title
+	tier = county
+	priority = 18
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+county_muslim_austronesian_group = {
+	type = title
+	tier = county
+	priority = 19
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+duke_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+duke_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 27
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+duchy_austronesian_group = {
+	type = title
+	tier = duchy
+	priority = 28
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+duke_muslim_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+duke_muslim_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = duchy
+	priority = 29
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+duchy_muslim_austronesian_group = {
+	type = title
+	tier = duchy
+	priority = 29
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+king_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+king_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 47
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+kingdom_austronesian_group = {
+	type = title
+	tier = kingdom
+	priority = 47
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+kingdom_muslim_austronesian_group = {
+	type = title
+	tier = kingdom
+	priority = 48
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+king_muslim_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+king_muslim_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = kingdom
+	priority = 48
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+emperor_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+emperor_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 102
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+empire_austronesian_group = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+}
+emperor_muslim_male_austronesian_group = {
+	type = character
+	gender = male
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+emperor_muslim_female_austronesian_group = {
+	type = character
+	gender = female
+	special = holder
+	tier = empire
+	priority = 103
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+empire_muslim_austronesian_group = {
+	type = title
+	tier = empire
+	priority = 102
+	governments = { administrative_government feudal_government clan_government tribal_government }
+	heritages = {
+		heritage_formosan
+		heritage_malay
+		heritage_sumatran
+		heritage_chamic
+		heritage_javanese
+		heritage_dayak
+		heritage_north_borneo
+		heritage_filipino
+		heritage_sea_gypsy
+		heritage_sulawesi
+	}
+	religions = { islam_religion }
+}
+
+ #############################################
+#Fallback titles (should ideally never appear):
+
+Barony = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 500
+	holding = castle_holding
+}
+City = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 500
+	holding = city_holding
+}
+Temple = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 500
+	holding = church_holding
+}
+Tribe = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 500
+	holding = tribal_holding
+}
+Land = {
+	type = title
+	tier = barony
+	top_liege = no
+	priority = 499
+	holding = none
+}

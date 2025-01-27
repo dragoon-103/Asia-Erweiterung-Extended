@@ -22,6 +22,8 @@
   duke_administrative_female_japanese_group_tohoku: "Кокуши" #国司
   duke_administrative_male_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
   duke_administrative_female_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
+  duke_administrative_male_japanese_group_chinjufu: "Чинджуфу сёгун" #鎮守府将軍
+  duke_administrative_female_japanese_group_chinjufu: "Чинджуфу сёгун" #鎮守府将軍
   king_administrative_male_japanese_group_japan: "Сэссё" #摂政
   king_administrative_female_japanese_group_japan: "Сэссё" #摂政
   emperor_administrative_male_japanese_group_japan: "Дай-сэссё" #大摂政
@@ -34,8 +36,8 @@
   count_feudal_female_japanese_group: "Даймё" #大名
   duke_feudal_male_japanese_group: "Дай-даймё" #大大名
   duke_feudal_female_japanese_group: "Дай-даймё" #大大名
-  duke_feudal_male_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
-  duke_feudal_female_japanese_group_dazaifu: "Дазай-но-сочи" #大宰帥
+  duke_feudal_male_japanese_group_chinjufu: "Чинджуфу сёгун" #鎮守府将軍
+  duke_feudal_female_japanese_group_chinjufu: "Чинджуфу сёгун" #鎮守府将軍
   king_feudal_male_japanese_group_japan: "Букэ-но-торё" #武門之棟梁
   king_feudal_female_japanese_group_japan: "Букэ-но-торё" #武門之棟梁
   king_feudal_male_japanese_group_shogunate: "Сёгун" #将軍

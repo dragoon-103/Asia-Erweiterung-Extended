@@ -16,37 +16,41 @@
  utaki_adherent:0 "Utakiist" # 御嶽の弟子
  utaki_adherent_plural:0 "Utakiisten" # 御嶽の弟子達
  utaki_desc:0 "Der einheimische Glaube der Ryukyu-Inseln betont die Verehrung der Vorfahren und der Naturgeister. Die am meisten verehrten dieser Geister sind Utin, Jiichi und Ryūgū, die den Himmel als Vater, die Erde als Mutter und das Meer als Geburtsort allen Lebens symbolisieren. Sie werden in einem Utaki genannten Schrein verehrt, wobei besonderes Augenmerk auf die spirituelle Kraft der Frauen gelegt wird."
+ utaki_old:0 "Alte Utakiismus" # 御嶽
+ utaki_old_adj:0 "Alte Utaki" # 御嶽
+ utaki_old_adherent:0 "Alte Utakiist" # 御嶽の弟子
+ utaki_old_adherent_plural:0 "Alte Utakiisten" # 御嶽の弟子達
  
  shinto_high_god_name:0 "Kamisama" # 神様
- shinto_high_god_name_possessive:0 "Kamisamas" # 神様の
+ shinto_high_god_name_possessive:0 "des Kamisama" # 神様の
  shinto_high_god_alternate:0 "Tendō" # 天道
- shinto_high_god_alternate_possessive:0 "Tendōs" # 天道の
+ shinto_high_god_alternate_possessive:0 "des Tendō" # 天道の
  shinto_creator_god_name:0 "Izanagi" # イザナギ
- shinto_creator_god_name_possessive:0 "Izanagis" # イザナギの
+ shinto_creator_god_name_possessive:0 "des Izanagi" # イザナギの
  shinto_health_god_name:0 "Yakushi Nyorai" # 薬師如来
- shinto_health_god_name_possessive:0 "Yakushi Nyorais" # 薬師如来の
+ shinto_health_god_name_possessive:0 "des Yakushi Nyorai" # 薬師如来の
  shinto_fertility_god_name:0 "Inari" # 稲荷
- shinto_fertility_god_name_possessive:0 "Inaris" # 稲荷の
+ shinto_fertility_god_name_possessive:0 "des Inari" # 稲荷の
  shinto_wealth_god_name:0 "Daikokuten" # 大黒天
- shinto_wealth_god_name_possessive:0 "Daikokutens" # 大黒天の
+ shinto_wealth_god_name_possessive:0 "des Daikokuten" # 大黒天の
  shinto_household_god_name:0 "Kōjin" # 荒神
- shinto_household_god_name_possessive:0 "Kōjins" # 荒神の
+ shinto_household_god_name_possessive:0 "des Kōjin" # 荒神の
  shinto_fate_god_alternate:0 "Sarutahiko" # 猿田彦
- shinto_fate_god_alternate_possessive:0 "Sarutahikos" # 猿田彦の
+ shinto_fate_god_alternate_possessive:0 "des Sarutahiko" # 猿田彦の
  shinto_knowledge_god_name:0 "Omoikane" # 思金
- shinto_knowledge_god_name_possessive:0 "Omoikanes" # 思金の
+ shinto_knowledge_god_name_possessive:0 "des Omoikane" # 思金の
  shinto_war_god_name:0 "Bishamonten" # 毘沙門天
- shinto_war_god_name_possessive:0 "Bishamontens" # 毘沙門天の
+ shinto_war_god_name_possessive:0 "des Bishamonten" # 毘沙門天の
  shinto_trickster_god_name:0 "Kitsune" # 狐
- shinto_trickster_god_name_possessive:0 "Kitsunes" # 狐の
+ shinto_trickster_god_name_possessive:0 "des Kitsune" # 狐の
  shinto_night_god_name:0 "Tsukuyomi" # 月読
- shinto_night_god_name_possessive:0 "Tsukuyomis" # 月読の
+ shinto_night_god_name_possessive:0 "des Tsukuyomi" # 月読の
  shinto_water_god_name:0 "Suijin" # 水神
- shinto_water_god_name_possessive:0 "Suijins" # 水神の
+ shinto_water_god_name_possessive:0 "des Suijin" # 水神の
  shinto_devil_name:0 "Oni" # 鬼
- shinto_devil_name_possessive:0 "Onis" # 鬼の
+ shinto_devil_name_possessive:0 "des Oni" # 鬼の
  shinto_death_god_name:0 "Shinigami" # 死神
- shinto_death_god_name_possessive:0 "Shinigamis" # 死神の
+ shinto_death_god_name_possessive:0 "des Shinigami" # 死神の
  shinto_witch_god_name:0 "$shinto_trickster_god_name$"
  shinto_witch_god_name_possessive:0 "$shinto_trickster_god_name_possessive$"
  shinto_devotee_male:0 "Sō" #　僧
@@ -65,25 +69,25 @@
  shinto_afterlife:0 "Tengoku" # 天国
  shinto_negative_afterlife:0 "Jigoku" # 地獄
  
- utaki_high_god_name:0 "Utin"
+ utaki_high_god_name:0 "Utin" # ウティン/天霊
  utaki_high_god_name_2:0 "$utaki_high_god_name$" # Optional translation alt
- utaki_high_god_name_possessive:0 "Utin's"
- utaki_high_god_name_alternate:0 "Jiichi"
- utaki_high_god_name_alternate_possessive:0 "Jiichi's"
+ utaki_high_god_name_possessive:0 "des Utin"
+ utaki_high_god_name_alternate:0 "Jiichi" # ジーチ/地霊
+ utaki_high_god_name_alternate_possessive:0 "des Jiichi"
  utaki_good_god_father_sky:0 "$utaki_trickster_god_name$"
- utaki_good_god_ancestors:0 "futuchi"
- utaki_devil_name:0 "korruption"
- utaki_devil_name_possessive:0 "korruptions"
- utaki_devil_shehe:0 "es"
- utaki_devil_herselfhimself:0 "selbst"
- utaki_devil_herhis:0 "es ist"
- utaki_evil_god_decay:0 "fäulnis"
- utaki_evil_god_decay_possessive:0 "fäulnis"
- utaki_evil_god_drought:0 "dürre"
- utaki_death_deity_name:0 "tod"
- utaki_death_deity_name_possessive:0 "tods"
- utaki_death_deity_herhis:0 "es ist"
- utaki_mother_earth_father_sky:0 "Utin und Jiichi"
+ utaki_good_god_ancestors:0 "Futuchi" # フツチ/火霊
+ utaki_devil_name:0 "Majin" # マージン/魔神
+ utaki_devil_name_possessive:0 "des Majin"
+ utaki_devil_shehe:0 "sie"
+ utaki_devil_herselfhimself:0 "sich selbst"
+ utaki_devil_herhis:0 "ihr"
+ utaki_evil_god_decay:0 "Akanma" # アカンマ/赤魔
+ utaki_evil_god_decay_possessive:0 "des Akanma"
+ utaki_evil_god_drought:0 "Kunukafu" # クヌカフ/乾神
+ utaki_death_deity_name:0 "Hinukan" # ヒヌカン/火神
+ utaki_death_deity_name_possessive:0 "des Hinukan"
+ utaki_death_deity_herhis:0 "ihr"
+ utaki_mother_earth_father_sky:0 "Utin und Jiichi" # ウティンやジーチ/天霊や地霊
  utaki_mother_earth_father_sky_2:0 "$utaki_mother_earth_father_sky$" # Optional translation alt
  utaki_mother_earth_father_sky_3:0 "$utaki_mother_earth_father_sky$" # Optional translation alt
 
@@ -97,44 +101,48 @@
  utaki_wealth_god_name_possessive:0 "$utaki_high_god_name_possessive$"
  utaki_household_god_name:0 "$utaki_high_god_name$"
  utaki_household_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_fate_god_name:0 "das Schicksal"
- utaki_fate_god_name_possessive:0 "das Schicksals"
+ utaki_fate_god_name:0 "Fukugami" # フクガミ/福神
+ utaki_fate_god_name_possessive:0 "des Fukugami"
  utaki_knowledge_god_name:0 "$utaki_high_god_name$"
  utaki_knowledge_god_name_possessive:0 "$utaki_high_god_name_possessive$"
  utaki_war_god_name:0 "$utaki_high_god_name$"
  utaki_war_god_name_possessive:0 "$utaki_high_god_name_possessive$"
- utaki_trickster_god_name:0 "Kijimunaa"
- utaki_trickster_god_name_possessive:0 "Kijimunaas"
+ utaki_trickster_god_name:0 "Kijimunā" # キジムナー/木霊
+ utaki_trickster_god_name_possessive:0 "des Kijimunā"
  utaki_night_god_name:0 "$utaki_trickster_god_name$"
  utaki_night_god_name_possessive:0 "$utaki_trickster_god_name_possessive$"
- utaki_water_god_name:0 "Ryūgū"
- utaki_water_god_name_possessive:0 "Ryūgūs"
+ utaki_water_god_name:0 "Ryūgū" # 竜宮
+ utaki_water_god_name_possessive:0 "des Ryūgū"
 
- utaki_house_of_worship:0 "utaki"
+ utaki_house_of_worship:0 "utaki" # 御嶽
  utaki_house_of_worship_2:0 "$utaki_house_of_worship$" # Optional translation alt
  utaki_house_of_worship_3:0 "$utaki_house_of_worship$" # Optional translation alt
- utaki_house_of_worship_plural:0 "utakis"
- utaki_religious_symbol:0 "sangwaa"
+ utaki_house_of_worship_plural:0 "utaki" # 御嶽達
+ utaki_religious_symbol:0 "Sangwā" # サングァー
  utaki_religious_symbol_2:0 "$utaki_religious_symbol$" # Optional translation alt
  utaki_religious_symbol_3:0 "$utaki_religious_symbol$" # Optional translation alt
- utaki_religious_text:0 "heilige geschichten"
+ utaki_religious_text:0 "Norito" # 祝詞
  utaki_religious_text_2:0 "$utaki_religious_text$" # Optional translation alt
  utaki_religious_text_3:0 "$utaki_religious_text$" # Optional translation alt
- utaki_religious_head_title:0 "Hohepriesterin"
- utaki_religious_head_title_name:0 "Hoher Rat"
- utaki_devotee:0 "anhänger"
- utaki_devoteeplural:0 "anhängeren"
- utaki_priest:0 "nuuru"
- utaki_priest_plural:0 "nuurus"
- utaki_priest_alternate_plural:1 "ältesten"
- utaki_divine_realm:0 "Nirai Kanai"
+ utaki_religious_head_title:0 "Kikoe-ōgimi" # 聞得大君
+ utaki_religious_head_title_name:0 "Kikoe-ōgimi" # 聞得大君
+ utaki_devotee_male:0 "Yuta" # ユタ
+ utaki_devotee_female:0 "Kaminchu" # 神人
+ utaki_devotee_male_plural:0 "Yuta" # ユタ達
+ utaki_devotee_female_plural:0 "Kaminchu" # 神人達
+ utaki_priest_male:0 "Yuta" # ユタ
+ utaki_priest_female:0 "Noro" # 祝女
+ utaki_priest_male_plural:0 "Yuta" # ユタ達
+ utaki_priest_female_plural:0 "Noro" # 祝女達
+ utaki_priest_alternate_plural:1 "chōrō" # 長老
+ utaki_divine_realm:0 "Niraikanai" # ニライ加那井
  utaki_divine_realm_2:0 "$utaki_divine_realm$" # Optional translation alt
  utaki_divine_realm_3:0 "$utaki_divine_realm$" # Optional translation alt
- utaki_afterlife:0 "die Unterwelt"
+ utaki_afterlife:0 "Niraikanai" # ニライ加那井
  utaki_afterlife_2:0 "$utaki_afterlife$" # Optional translation alt
  utaki_afterlife_3:0 "$utaki_afterlife$" # Optional translation alt
- witchgodname_utaki_the_shadow:0 "der Schatten"
- witchgodname_utaki_the_shadow_possessive:0 "der Schattens"
+ witchgodname_utaki_the_shadow:0 "Noroi" # 呪い
+ witchgodname_utaki_the_shadow_possessive:0 "des Noroi"
  
  #Purely Shinto
  #shinto_devotee_male:0 "Fugeki" # 巫覡

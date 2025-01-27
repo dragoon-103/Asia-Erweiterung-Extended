@@ -1,0 +1,1099 @@
+﻿### Chinese Dynasties
+
+house_Li = { # House Li 李
+    name = "dynn_Li" 
+    dynasty = 80000001
+}
+house_Lu = { 
+    name = "dynn_Lu" 
+    dynasty = 80000004
+}
+house_Duo = { 
+    name = "dynn_Duo" 
+    dynasty = 80000005
+}
+house_Gao = { # House of Gao 高
+    name = "dynn_Gao" 
+    dynasty = 80000006
+}
+house_Hao = { 
+    name = "dynn_Hao" 
+    dynasty = 80000007
+}
+house_La = { 
+    name = "dynn_La" 
+    dynasty = 80000008
+}
+house_Wang = { 
+    name = "dynn_Wang" 
+    dynasty = 80000009
+}
+house_Heng = { 
+    name = "dynn_Heng" 
+    dynasty = 80000011
+}
+house_Qian = { 
+    name = "dynn_Qian" 
+    dynasty = 80000012
+}
+house_Tuoba = { 
+    name = "dynn_Tuoba" 
+    dynasty = 80000013
+}
+house_Ping = { 
+    name = "dynn_Ping" 
+    dynasty = 80000015
+}
+house_Zheng = { 
+    name = "dynn_Zheng" 
+    dynasty = 80000020
+}
+house_Du = { 
+    name = "dynn_Du" 
+    dynasty = 80000021
+}
+house_Xiahou = { 
+    name = "dynn_Xiahou" 
+    dynasty = 80000022
+}
+house_He = { 
+    name = "dynn_He" 
+    dynasty = 80000023
+}
+house_Kong = { 
+    name = "dynn_Kong" 
+    dynasty = 80000027
+}
+house_Zhong = { 
+    name = "dynn_Zhong" 
+    dynasty = 80000028
+}
+house_Chiau = { 
+    name = "dynn_Chiau" 
+    dynasty = 80000029
+}
+house_Zhao = { # House Zhao 趙
+    name = "dynn_Zhao"
+    dynasty = 80000030
+}
+
+### Khitan Dynasties
+
+house_yaonian = { # House of Yaonian 遥辇氏
+    name = "dynn_Yaonian" 
+    dynasty = 46600007
+}
+
+### Jurchen Dynasties
+
+house_wanyan = { # House of Wanyan 完顏氏
+    name = "dynn_Wanyan" 
+    dynasty = 80000031
+}
+
+### Japanese Dynasties
+
+house_fujiwara = { 
+	name = "dynn_fujiwara" 
+	dynasty = 40000001
+}
+house_nanke-fujiwara = { 
+	name = "dynn_nanke-fujiwara" 
+	dynasty = 40000001
+}
+house_shikike-fujiwara = { 
+	name = "dynn_shikike-fujiwara" 
+	dynasty = 40000001
+}
+house_kyoke-fujiwara = { 
+	name = "dynn_kyoke-fujiwara" 
+	dynasty = 40000001
+}
+house_oshu-fujiwara = { 
+	name = "dynn_oshu-fujiwara" 
+	dynasty = 40000001
+}
+house_ito-fujiwara = { 
+	name = "dynn_ito-fujiwara" 
+	dynasty = 40000001
+}
+house_yamato = { 
+	name = "dynn_yamato" 
+	dynasty = 40000101 
+}
+house_kanmu-heishi = {
+	name = "dynn_kanmu-heishi" 
+	dynasty = 40000201
+}
+house_hitachiheishi = {
+	name = "dynn_hitachiheishi" 
+	dynasty = 40000201
+}
+house_iseheishi = {
+	name = "dynn_iseheishi" 
+	dynasty = 40000201
+}
+house_bosoheishi = {
+	name = "dynn_bosoheishi" 
+	dynasty = 40000201
+}
+house_chichibuheishi = {
+	name = "dynn_chichibuheishi" 
+	dynasty = 40000201
+}
+house_satsumaheishi = {
+	name = "dynn_satsumaheishi" 
+	dynasty = 40000201
+}
+house_chinzeiheishi = {
+	name = "dynn_chinzeiheishi" 
+	dynasty = 40000201
+}
+house_ninmyo-heishi = {
+	name = "dynn_ninmyo-heishi" 
+	dynasty = 40000202
+}
+house_montoku-heishi = {
+	name = "dynn_montoku-heishi" 
+	dynasty = 40000203
+}
+house_koko-heishi = {
+	name = "dynn_koko-heishi" 
+	dynasty = 40000204
+}
+house_saga-genji = { 
+	name = "dynn_saga-genji" 
+	dynasty = 40000205
+}
+house_ninmyo-genji = { 
+	name = "dynn_ninmyo-genji"
+	dynasty = 40000206
+}
+house_montoku-genji = { 
+	name = "dynn_montoku-genji"
+	dynasty = 40000207
+}
+house_seiwa-genji = { 
+	name = "dynn_seiwa-genji"
+	dynasty = 40000208
+}
+house_yamatogenji = {
+	name = "dynn_yamatogenji"
+	dynasty = 40000208
+}
+house_kawachigenji = {
+	name = "dynn_kawachigenji"
+	dynasty = 40000208
+}
+house_kaigenji = {
+	name = "dynn_kaigenji"
+	dynasty = 40000208
+}
+house_kisogenji = {
+	name = "dynn_kisogenji"
+	dynasty = 40000208
+}
+house_minogenji = {
+	name = "dynn_minogenji"
+	dynasty = 40000208
+}
+house_yozei-genji = { 
+	name = "dynn_yozei-genji"
+	dynasty = 40000209
+}
+house_koko-genji = { 
+	name = "dynn_koko-genji"
+	dynasty = 40000210
+}
+house_uda-genji = { 
+	name = "dynn_uda-genji"
+	dynasty = 40000211
+}
+house_daigo-genji = { 
+	name = "dynn_daigo-genji"
+	dynasty = 40000212
+}
+house_murakami-genji = { 
+	name = "dynn_murakami-genji"
+	dynasty = 40000213
+}
+house_reizei-genji = { 
+	name = "dynn_reizei-genji"
+	dynasty = 40000214
+}
+house_kazan-genji = { 
+	name = "dynn_kazan-genji"
+	dynasty = 40000215
+}
+house_sanjo-genji = { 
+	name = "dynn_sanjo-genji"
+	dynasty = 40000216
+}
+house_tachibana = { 
+	name = "dynn_tachibana" 
+	dynasty = 40000217 
+}
+house_soga = {
+	name = "dynn_soga"
+	dynasty = 40000218
+}
+house_mononobe = {
+	name = "dynn_mononobe"
+	dynasty = 40000219
+}
+house_ki = {
+	name = "dynn_ki"
+	dynasty = 40000220
+}
+house_ariwara = {
+	name = "dynn_ariwara" 
+	dynasty = 40000221
+}
+house_kiyohara = {
+	name = "dynn_kiyohara"
+	dynasty = 40000222
+}
+house_sakanoue = {
+	name = "dynn_sakanoue"
+	dynasty = 40000223
+}
+house_kibi = {
+	name = "dynn_kibi"
+	dynasty = 40000224
+}
+house_oe = {
+	name = "dynn_oe"
+	dynasty = 40000225
+}
+house_funya = {
+	name = "dynn_funya"
+	dynasty = 40000226
+}
+house_yoshimine = {
+	name = "dynn_yoshimine"
+	dynasty = 40000227
+}
+house_mutsuishikawa = {
+	name = "dynn_mutsuishikawa"
+	dynasty = 40000228
+}
+house_chiba = {
+	name = "dynn_chiba"
+	dynasty = 40000229
+}
+house_Soma = {
+	name = "dynn_Soma"
+	dynasty = 40000229
+}
+house_Takeishi = {
+	name = "dynn_Takeishi"
+	dynasty = 40000229
+}
+house_Osuga = {
+	name = "dynn_Osuga"
+	dynasty = 40000229
+}
+house_Kokubu = {
+	name = "dynn_Kokubu"
+	dynasty = 40000229
+}
+house_Tou = {
+	name = "dynn_Tou"
+	dynasty = 40000229
+}
+house_miura = {
+	name = "dynn_miura"
+	dynasty = 40000230
+}
+house_Wada = {
+	name = "dynn_Wada"
+	dynasty = 40000230
+}
+house_Asahina = {
+	name = "dynn_Asahina"
+	dynasty = 40000230
+}
+house_kamakura = {
+	name = "dynn_kamakura"
+	dynasty = 40000231
+}
+house_Ooba = {
+	name = "dynn_Ooba"
+	dynasty = 40000231
+}
+house_Matano = {
+	name = "dynn_Matano"
+	dynasty = 40000231
+}
+house_Kajiwara = {
+	name = "dynn_Kajiwara"
+	dynasty = 40000231
+}
+house_Nagae = {
+	name = "dynn_Nagae"
+	dynasty = 40000231
+}
+house_Itakura = {
+	name = "dynn_Itakura"
+	dynasty = 40000231
+}
+house_Nagao = {
+	name = "dynn_Nagao"
+	dynasty = 40000231
+}
+house_nagamine = {
+	name = "dynn_nagamine"
+	dynasty = 40000232
+}
+house_harusumi = {
+	name = "dynn_harusumi"
+	dynasty = 40000233
+}
+house_sugawara = {
+	name = "dynn_sugawara"
+	dynasty = 40000234
+}
+house_shimada = {
+	name = "dynn_shimada"
+	dynasty = 40000235
+}
+house_oo = {
+	name = "dynn_oo"
+	dynasty = 40000236
+}
+house_abe = {
+	name = "dynn_abe"
+	dynasty = 40000237
+}
+house_yoshimichi = {
+	name = "dynn_yoshimichi"
+	dynasty = 40000238
+}
+house_miyoshi = {
+	name = "dynn_miyoshi"
+	dynasty = 40000239
+}
+house_takashina = {
+	name = "dynn_takashina"
+	dynasty = 40000240
+}
+house_okasuga = {
+	name = "dynn_okasuga"
+	dynasty = 40000241
+}
+house_okasuga = {
+	name = "dynn_ashikaga"
+	dynasty = 40000242
+}
+house_fuhitoyamato = {
+	name = "dynn_fuhitoyamato"
+	dynasty = 40000243
+}
+house_sugano = {
+	name = "dynn_sugano"
+	dynasty = 40000244
+}
+house_Hojo = {
+	name = "dynn_Hojo"
+	dynasty = 40000245
+}
+house_Kudo = {
+	name = "dynn_Kudo"
+	dynasty = 40000246
+}
+house_Irie = {
+	name = "dynn_Irie"
+	dynasty = 40000246
+}
+house_Kikkawa = {
+	name = "dynn_Kikkawa"
+	dynasty = 40000246
+}
+house_Nikaido = {
+	name = "dynn_Nikaido"
+	dynasty = 40000246
+}
+house_Sagara = {
+	name = "dynn_Sagara"
+	dynasty = 40000246
+}
+house_Izu-Kudo = {
+	name = "dynn_Izu-Kudo"
+	dynasty = 40000246
+}
+house_Kano = {
+	name = "dynn_Kano"
+	dynasty = 40000246
+}
+house_Ito = {
+	name = "dynn_Ito"
+	dynasty = 40000246
+}
+house_Kawazu = {
+	name = "dynn_Kawazu"
+	dynasty = 40000246
+}
+house_Soga = {
+	name = "dynn_Soga"
+	dynasty = 40000246
+}
+house_Ichijo = {
+	name = "dynn_Ichijo"
+	dynasty = 40000247
+}
+house_Ono = {
+	name = "dynn_Ono"
+	dynasty = 40000248
+}
+house_Yokoyama = {
+	name = "dynn_Yokoyama"
+	dynasty = 40000248
+}
+house_Sasaki = {
+	name = "dynn_Sasaki"
+	dynasty = 40000249
+}
+house_Iwaki = {
+	name = "dynn_Iwaki"
+	dynasty = 40000250
+}
+house_Nitta = {
+	name = "dynn_Nitta"
+	dynasty = 40000251
+}
+house_Nakamura = {
+	name = "dynn_Nakamura"
+	dynasty = 40000252
+}
+house_Date = {
+	name = "dynn_Date"
+	dynasty = 40000252
+}
+house_Hatakeyama = {
+	name = "dynn_Hatakeyama" 
+	dynasty = 40000253
+}
+house_Oyamada = {
+	name = "dynn_Oyamada" 
+	dynasty = 40000254
+}
+house_Kazusa = {
+	name = "dynn_Kazusa" 
+	dynasty = 40000255
+}
+house_Satake = {
+	name = "dynn_Satake" 
+	dynasty = 40000256
+}
+house_Takeda = {
+	name = "dynn_Takeda" 
+	dynasty = 40000257
+}
+house_Takedaichijo = {
+	name = "dynn_Takedaichijo" 
+	dynasty = 40000257
+}
+house_Itagaki = {
+	name = "dynn_Itagaki" 
+	dynasty = 40000257
+}
+house_Jou = {
+	name = "dynn_Jou" 
+	dynasty = 40000258
+}
+house_Toki = {
+	name = "dynn_Toki" 
+	dynasty = 40000259
+}
+house_Shinanomurakami = {
+	name = "dynn_Shinanomurakami" 
+	dynasty = 40000260
+}
+house_Kisonakahara = {
+	name = "dynn_Kisonakahara" 
+	dynasty = 40000261
+}
+house_Iyotachibana = {
+	name = "dynn_Iyotachibana" 
+	dynasty = 40000262
+}
+house_Ii = {
+	name = "dynn_Ii" 
+	dynasty = 40000263
+}
+house_Isaku = {
+	name = "dynn_Isaku" 
+	dynasty = 40000264
+}
+house_Kimotsuki = {
+	name = "dynn_Kimotsuki" 
+	dynasty = 40000265
+}
+house_Tsuchimochi = {
+	name = "dynn_Tsuchimochi" 
+	dynasty = 40000266
+}
+house_Kikuchi = {
+	name = "dynn_Kikuchi" 
+	dynasty = 40000267
+}
+house_Nanba = {
+	name = "dynn_Nanba" 
+	dynasty = 40000268
+}
+house_Minase = {
+	name = "dynn_Minase" 
+	dynasty = 40000269
+}
+house_Hizentakagi = {
+	name = "dynn_Hizentakagi" 
+	dynasty = 40000270
+}
+house_Kono = {
+	name = "dynn_Kono" 
+	dynasty = 40000271
+}
+house_Yuasa = {
+	name = "dynn_Yuasa" 
+	dynasty = 40000272
+}
+house_Kujo = {
+	name = "dynn_Kujo" 
+	dynasty = 40000273
+}
+house_Yamamoto = {
+	name = "dynn_Yamamoto" 
+	dynasty = 40000274
+}
+house_Taguchi = {
+	name = "dynn_Taguchi" 
+	dynasty = 40000275
+}
+house_Musashibo = {
+	name = "dynn_Musashibo" 
+	dynasty = 40000276
+}
+
+### Korean Dynasties
+
+house_Gyeongju_Kim = { # Gyeongju Kim Clan
+	name = "dynn_Gyeongju_Kim"
+	dynasty = 60000001
+}
+house_Miryang_Park = { # Miryang Park Clan
+	name = "dynn_Miryang_Park"
+	dynasty = 60000002
+}
+house_Wolseong_Seok = { # Wolseong Seok Clan
+	name = "dynn_Wolseong_Seok"
+	dynasty = 60000003
+}
+house_Buyeo = { # Buyeo Dynasty of Baekje
+	name = "dynn_Buyeo"
+	dynasty = 60000004
+}
+house_Go_Goguryeo = { # Go Dynasty of Goguryeo
+	name = "dynn_Go_Goguryeo"
+	dynasty = 60000005
+}
+house_Wang = { # Wang Dynasty of Goryeo
+	name = "dynn_Wang"
+	dynasty = 60000006
+}
+house_Go_Tamna = { # Go Dynasty of Tamna
+	name = "dynn_Go_Tamna"
+	dynasty = 60000007
+}
+ house_Tae = { # House of Dae
+    name = "dynn_Tae" 
+    dynasty = 61000001
+}
+house_Zhi = { # Placeholder
+    name = "dynn_Zhi" 
+    dynasty = 61000002
+}
+house_Yin= { # Placeholder
+    name = "dynn_Yin" 
+    dynasty = 61000003
+}
+house_Zhang = { # Placeholder
+    name = "dynn_Zhang" 
+    dynasty = 61000004
+}
+house_Shou = { # Placeholder
+    name = "dynn_Shou" 
+    dynasty = 61000005
+}
+house_Yangzhi = { # Placeholder
+    name = "dynn_Yangzhi" 
+    dynasty = 61000006
+}
+house_Son = { # Placeholder
+    name = "dynn_Son" 
+    dynasty = 61000007
+}
+house_Hadong_Jeong = { # Hadong Jeong Clan
+    name = "dynn_Hadong_Jeong" 
+    dynasty = 61000008
+}
+
+### Vietnamese Dynasties
+
+house_Khuc = {
+    name = "dynn_Khuc_vn"
+    dynasty = 50000001
+}
+house_Hoang = {
+    name = "dynn_Hoang_vn"
+    dynasty = 50000002
+}
+house_Pham = {
+    name = "dynn_Pham_vn"
+    dynasty = 50000003
+}
+house_Duong = {
+    name = "dynn_Duong_vn"
+    dynasty = 50000004
+}
+house_Kieu = {
+    name = "dynn_Kieu_vn"
+    dynasty = 50000005
+}
+house_Ngo = {
+    name = "dynn_Ngo_vn"
+    dynasty = 50000006
+}
+house_Ho = {
+    name = "dynn_Ho_vn"
+    dynasty = 50000007
+}
+house_Le = {
+    name = "dynn_Le_vn"
+    dynasty = 50000008
+}
+house_Dinh = {
+    name = "dynn_Dinh_vn"
+    dynasty = 50000009
+}
+house_Ly = {
+    name = "dynn_Ly_vn"
+    dynasty = 50000010
+}
+house_Tran = {
+    name = "dynn_Tran_vn"
+    dynasty = 50000011
+}
+house_Luu = {
+    name = "dynn_Luu_vn"
+    dynasty = 50000012
+}
+house_Bui = {
+    name = "dynn_Bui_vn"
+	dynasty = 50000013
+}
+house_Buu = {
+    name = "dynn_Buu_vn"
+	dynasty = 50000014
+}
+house_Cheng = {
+    name = "dynn_Cheng_vn"
+	dynasty = 50000015
+}
+house_Chon = {
+    name = "dynn_Chon_vn"
+	dynasty = 50000016
+}
+house_Chuc = {
+    name = "dynn_Chuc_vn"
+	dynasty = 50000017
+}
+house_Chung = {
+    name = "dynn_Chung_vn"
+	dynasty = 50000018
+}
+house_Cu = {
+    name = "dynn_Cu_vn"
+	dynasty = 50000019
+}
+house_Cun = {
+    name = "dynn_Cun_vn"
+	dynasty = 50000020
+}
+house_Dam = {
+    name = "dynn_Dam_vn"
+	dynasty = 50000021
+}
+house_Dang = {
+    name = "dynn_Dang_vn"
+	dynasty = 50000022
+}
+house_Danh = {
+    name = "dynn_Danh_vn"
+	dynasty = 50000023
+}
+house_Dao = {
+    name = "dynn_Dao_vn"
+	dynasty = 50000024
+}
+house_Den = {
+    name = "dynn_Den_vn"
+	dynasty = 50000025
+}
+house_Dich = {
+    name = "dynn_Dich_vn"
+	dynasty = 50000026
+}
+house_Diem = {
+    name = "dynn_Diem_vn"
+	dynasty = 50000027
+}
+house_Do = {
+    name = "dynn_Do_vn"
+	dynasty = 50000028
+}
+house_Doan = {
+    name = "dynn_Doan_vn"
+	dynasty = 50000029
+}
+house_Giang = {
+    name = "dynn_Giang_vn"
+	dynasty = 50000030
+}
+house_Giap = {
+    name = "dynn_Giap_vn"
+	dynasty = 50000031
+}
+house_Hai = {
+    name = "dynn_Hai_vn"
+	dynasty = 50000032
+}
+house_Han = {
+    name = "dynn_Han_vn"
+	dynasty = 50000033
+}
+house_Hanh = {
+    name = "dynn_Hanh_vn"
+	dynasty = 50000034
+}
+house_Hong = {
+    name = "dynn_Hong_vn"
+	dynasty = 50000035
+}
+house_Hua = {
+    name = "dynn_Hua_vn"
+	dynasty = 50000036
+}
+house_Huan = {
+    name = "dynn_Huan_vn"
+	dynasty = 50000037
+}
+house_Hue = {
+    name = "dynn_Hue_vn"
+	dynasty = 50000038
+}
+house_Huu = {
+    name = "dynn_Huu_vn"
+	dynasty = 50000039
+}
+house_Huynh = {
+    name = "dynn_Huynh_vn"
+	dynasty = 50000040
+}
+house_Hy = {
+    name = "dynn_Hy_vn"
+	dynasty = 50000041
+}
+house_Ken = {
+    name = "dynn_Ken_vn"
+	dynasty = 50000042
+}
+house_Khac = {
+    name = "dynn_Khac_vn"
+	dynasty = 50000043
+}
+house_Khuong = {
+    name = "dynn_Khuong_vn"
+	dynasty = 50000044
+}
+house_Kimi = {
+    name = "dynn_Kimi_vn"
+	dynasty = 50000045
+}
+house_Kiu = {
+    name = "dynn_Kiu_vn"
+	dynasty = 50000046
+}
+house_Kuo = {
+    name = "dynn_Kuo_vn"
+	dynasty = 50000047
+}
+house_Lam = {
+    name = "dynn_Lam_vn"
+	dynasty = 50000048
+}
+house_Lan = {
+    name = "dynn_Lan_vn"
+	dynasty = 50000049
+}
+house_Le_Thi = {
+    name = "dynn_Le_Thi_vn"
+	dynasty = 50000050
+}
+house_Lenh = {
+    name = "dynn_Lenh_vn"
+	dynasty = 50000051
+}
+house_Li = {
+    name = "dynn_Li_vn"
+	dynasty = 50000052
+}
+house_Lien = {
+    name = "dynn_Lien_vn"
+	dynasty = 50000053
+}
+house_Lieu = {
+    name = "dynn_Lieu_vn"
+	dynasty = 50000054
+}
+house_Lin = {
+    name = "dynn_Lin_vn"
+	dynasty = 50000055
+}
+house_Loi = {
+    name = "dynn_Loi_vn"
+	dynasty = 50000056
+}
+house_Luong = {
+    name = "dynn_Luong_vn"
+	dynasty = 50000057
+}
+house_Luy = {
+    name = "dynn_Luy_vn"
+	dynasty = 50000058
+}
+house_Ma = {
+    name = "dynn_Ma_vn"
+	dynasty = 50000059
+}
+house_Man = {
+    name = "dynn_Man_vn"
+	dynasty = 50000060
+}
+house_Mom = {
+    name = "dynn_Mom_vn"
+	dynasty = 50000061
+}
+house_My = {
+    name = "dynn_My_vn"
+	dynasty = 50000062
+}
+house_Ngan = {
+    name = "dynn_Ngan_vn"
+	dynasty = 50000063
+}
+house_Nghi = {
+    name = "dynn_Nghi_vn"
+	dynasty = 50000064
+}
+house_Nghiem = {
+    name = "dynn_Nghiem_vn"
+	dynasty = 50000065
+}
+house_Nguyen = {
+    name = "dynn_Nguyen_vn"
+	dynasty = 50000066
+}
+house_Nguyenthanh = {
+    name = "dynn_Nguyenthanh_vn"
+	dynasty = 50000066
+}
+house_Nguyentran = {
+    name = "dynn_Nguyentran_vn"
+	dynasty = 50000066
+}
+house_Nguyenvan = {
+    name = "dynn_Nguyenvan_vn"
+	dynasty = 50000066
+}
+house_Nhung = {
+    name = "dynn_Nhung_vn"
+	dynasty = 50000067
+}
+house_Ninh = {
+    name = "dynn_Ninh_vn"
+	dynasty = 50000068
+}
+house_Nong = {
+    name = "dynn_Nong_vn"
+	dynasty = 50000069
+}
+house_Ong = {
+    name = "dynn_Ong_vn"
+	dynasty = 50000070
+}
+house_Phi = {
+    name = "dynn_Phi_vn"
+	dynasty = 50000071
+}
+house_Phong = {
+    name = "dynn_Phong_vn"
+	dynasty = 50000072
+}
+house_Phuong = {
+    name = "dynn_Phuong_vn"
+	dynasty = 50000073
+}
+house_Qu = {
+    name = "dynn_Qu_vn"
+	dynasty = 50000074
+}
+house_Qui = {
+    name = "dynn_Qui_vn"
+	dynasty = 50000075
+}
+house_Quy = {
+    name = "dynn_Quy_vn"
+	dynasty = 50000076
+}
+house_Sa = {
+    name = "dynn_Sa_vn"
+	dynasty = 50000077
+}
+house_Sam = {
+    name = "dynn_Sam_vn"
+	dynasty = 50000078
+}
+house_Tang = {
+    name = "dynn_Tang_vn"
+	dynasty = 50000079
+}
+house_Tanh = {
+    name = "dynn_Tanh_vn"
+	dynasty = 50000080
+}
+house_Tat = {
+    name = "dynn_Tat_vn"
+	dynasty = 50000081
+}
+house_Thi = {
+    name = "dynn_Thi_vn"
+	dynasty = 50000082
+}
+house_Thich = {
+    name = "dynn_Thich_vn"
+	dynasty = 50000083
+}
+house_Toan = {
+    name = "dynn_Toan_vn"
+	dynasty = 50000084
+}
+house_Ton = {
+    name = "dynn_Ton_vn"
+	dynasty = 50000085
+}
+house_Tong = {
+    name = "dynn_Tong_vn"
+	dynasty = 50000086
+}
+house_Tonthat = {
+    name = "dynn_Tonthat_vn"
+	dynasty = 50000087
+}
+house_Tra = {
+    name = "dynn_Tra_vn"
+	dynasty = 50000088
+}
+house_Trac = {
+    name = "dynn_Trac_vn"
+	dynasty = 50000089
+}
+house_Trannguyen = {
+    name = "dynn_Trannguyen_vn"
+	dynasty = 50000090
+}
+house_Trung = {
+    name = "dynn_Trung_vn"
+	dynasty = 50000091
+}
+house_Truong = {
+    name = "dynn_Truong_vn"
+	dynasty = 50000092
+}
+house_Tuong = {
+    name = "dynn_Tuong_vn"
+	dynasty = 50000093
+}
+house_Uo = {
+    name = "dynn_Uo_vn"
+	dynasty = 50000094
+}
+house_Van = {
+    name = "dynn_Van_vn"
+	dynasty = 50000095
+}
+house_Vi = {
+    name = "dynn_Vi_vn"
+	dynasty = 50000096
+}
+house_Vinh = {
+    name = "dynn_Vinh_vn"
+	dynasty = 50000097
+}
+house_Vo = {
+    name = "dynn_Vo_vn"
+	dynasty = 50000098
+}
+house_Vu = {
+    name = "dynn_Vu_vn"
+	dynasty = 50000099
+}
+house_Xa = {
+    name = "dynn_Xa_vn"
+	dynasty = 50000100
+}
+house_Xuan = {
+    name = "dynn_Xuan_vn"
+	dynasty = 50000101
+}
+house_Yen = {
+    name = "dynn_Yen_vn"
+	dynasty = 50000102
+}
+house_Hau = {
+    name = "dynn_Hau_vn"
+	dynasty = 50000103
+}
+
+### Mường Dynasties
+
+house_Phan = {
+    name = "dynn_Phan_vn"
+    dynasty = 50000104
+}
+house_Chu = {
+    name = "dynn_Chu_vn"
+    dynasty = 50000105
+}
+house_Vo = {
+    name = "dynn_Vo__vn"
+    dynasty = 50000106
+}
+house_Mai = {
+    name = "dynn_Mai_vn"
+    dynasty = 50000107
+}
+house_Quach = {
+    name = "dynn_Quach_vn"
+    dynasty = 50000108
+}
+house_Trinh = {
+    name = "dynn_Trinh_vn"
+    dynasty = 50000109
+}
+
+### Thổ Dynasties
+
+house_Chu = {
+    name = "dynn_Chu_vn"
+    dynasty = 50000110
+}

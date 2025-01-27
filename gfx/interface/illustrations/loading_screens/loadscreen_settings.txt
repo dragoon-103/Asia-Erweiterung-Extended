@@ -1,0 +1,28 @@
+﻿assassin = { priority = 1 }
+baghdad = { priority = 1 }
+castle = { priority = 1 }
+council = { priority = 1 }
+duel = { priority = 1 }
+Danwon_1 = {  priority = 2 } # Gunseondo left print by Danwon
+Danwon_2 = {  priority = 2 } # Gunseondo right print by Danwon
+Hiroshige_1 = {  priority = 2 } # A shrine among trees on a moor by Hiroshige
+Hiroshige_2 = {  priority = 2 } # Descending Geese by Hiroshige
+Hiroshige_3 = {  priority = 2 } # Hakone by Hiroshige
+Hiroshige_4 = {  priority = 2 } # Kanbara by Hiroshige
+Hiroshige_5 = {  priority = 2 } # Returning Sails at Tsukuda by Hiroshige
+Hiroshige_6 = {  priority = 2 } # Sokokura by Hiroshige
+Hiroshige_7 = {  priority = 2 } # Travellers surprised by sudden rain by Hiroshige
+Hiroshige_8 = {  priority = 2 } # View of the Whirlpools at Awa by Hiroshige
+Hogen_no_Ran = {  priority = 2 } # Hogen no Ran by an unknown author
+Hokusai_1 = {  priority = 2 } # Choshi in Shimosha by Hokusai
+Hokusai_2 = {  priority = 2 } # Kajikazawa in Kai province by Hokusai
+Hokusai_3 = {  priority = 2 } # Red Fuji by Hokusai
+Hokusai_4 = {  priority = 2 } # Tenma Bridge at Settsu Province by Hokusai
+Hokusai_5 = {  priority = 2 } # The Great Wave off Kanagawa by Hokusai
+Hokusai_6 = {  priority = 2 } # Tiger in the Snow by Hokusai
+Kano_Motonobu_1 = {  priority = 2 } # Genpei Kassen by Kano Motonobu
+Ma_Yuan_1 = {  priority = 2 } # Dancing and Singing Peasants Returning from Work by Ma Yuan
+Ma_Yuan_2 = {  priority = 2 } # Walking on a Mountain Path in Spring by Ma Yuan
+Shen_Zhou_1 = {  priority = 2 } # Poet on a Mountaintop by Shen Zhou
+Shen_Zhou_2 = {  priority = 2 } # Poetic Feeling of Fallen Flowers by Shen Zhou
+Soami_1 = {  priority = 2 } # Landscape of the Four Seasons by Soami

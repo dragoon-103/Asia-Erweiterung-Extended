@@ -1,0 +1,3904 @@
+﻿namespace = single_combat
+
+scripted_effect select_special_tier_move_effect = {
+	#First, we flag that the character now has a special move option.
+	set_local_variable = {
+		name = combat_move_special_slot_used_flag
+		value = yes
+	}
+	#Then, we pick which move they get.
+	random_list = {
+		# High Secondary Skill moves
+		## Reason You Suck Speech
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_reason_you_suck_speech_flag }
+				diplomacy >= very_high_skill_rating
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:reason_you_suck_speech
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:reason_you_suck_speech
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_reason_you_suck_speech_flag
+				value = yes
+			}
+		}
+		## Technique from Legend
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_technique_from_legend_flag }
+				learning >= very_high_skill_rating
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:technique_from_legend
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:technique_from_legend
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_technique_from_legend_flag
+				value = yes
+			}
+		}
+		## Like a Viper
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_like_a_viper_flag }
+				intrigue >= very_high_skill_rating
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:like_a_viper
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:like_a_viper
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_like_a_viper_flag
+				value = yes
+			}
+		}
+		## Pocket Silver
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_pocket_silver_flag }
+				stewardship >= very_high_skill_rating
+				short_term_gold >= combat_move_pocket_silver_value
+				# Move essentially requires two arms, I'm afraid.
+				NOT = { has_trait = maimed }
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:pocket_silver
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:pocket_silver
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_pocket_silver_flag
+				value = yes
+			}
+		}
+		## Martial Voice
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_martial_voice_flag }
+				martial >= very_high_skill_rating
+				# For now, the loc relies on your opponent being noble, so you ironically can't use your peasant-commanding voice on actual peasants.
+				OR = {
+					AND = {
+						this = scope:sc_defender
+						scope:sc_attacker = {
+							exists = house
+							NOR = {
+								has_trait = peasant_leader
+								government_has_flag = government_is_republic
+							}
+						}
+					}
+					AND = {
+						this = scope:sc_attacker
+						scope:sc_defender = {
+							exists = house
+							NOR = {
+								has_trait = peasant_leader
+								government_has_flag = government_is_republic
+							}
+						}
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:martial_voice
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:martial_voice
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_martial_voice_flag
+				value = yes
+			}
+		}
+		## Mocking Boast
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_mocking_boast_flag }
+				OR = {
+					AND = {
+						this = scope:sc_attacker
+						scope:sc_attacker.prestige_level > scope:sc_defender.prestige_level
+						# A humble opponent doesn't give two shits.
+						scope:sc_defender = {
+							NOT = { has_trait = humble }
+						}
+					}
+					AND = {
+						this = scope:sc_defender
+						scope:sc_defender.prestige_level > scope:sc_attacker.prestige_level
+						# A humble opponent doesn't give two shits.
+						scope:sc_attacker = {
+							NOT = { has_trait = humble }
+						}
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:mocking_boast
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:mocking_boast
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_mocking_boast_flag
+				value = yes
+			}
+		}
+		# Location-Specific moves
+		## Is that a Crocodile?!
+		1 = {	#Super-rare, pretty much an instant kill.
+			trigger = {
+				NOT = { exists = local_var:combat_move_is_that_a_crocodile_flag }
+				# Must be happening in a wild environment.
+				scope:locale = flag:terrain_scope
+				# Can't have already had a crocodile used by either party this duel.
+				NOT = { exists = scope:had_crocodile }
+				# Must be in a place that has crocodiles.
+				single_combat_location_has_crocodilians_trigger = yes
+				# Duel must be one that would end in fatality.
+				duel_will_end_in_opponent_death_trigger = yes
+			}
+			set_local_variable = {
+				name = combat_move_is_that_a_crocodile_flag
+				value = yes
+			}
+			# No down-weight for something that's already 0.001%.
+		}
+		## Desert Warrior
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_desert_warrior_flag }
+				has_trait = desert_warrior
+				# Must be happening in a wild environment.
+				scope:locale = flag:terrain_scope
+				#Both characters being experts cancel each other out.
+				NAND = {
+					scope:sc_attacker = { has_trait = desert_warrior }
+					scope:sc_defender = { has_trait = desert_warrior }
+				}
+				scope:sc_defender.location = {
+					OR = {
+						terrain = desert
+						terrain = drylands
+						terrain = oasis
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:desert_warrior
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:desert_warrior
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_desert_warrior_flag
+				value = yes
+			}
+		}
+		## Jungle Stalker
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_jungle_stalker_flag }
+				has_trait = jungle_stalker
+				# Must be happening in a wild environment.
+				scope:locale = flag:terrain_scope
+				#Both characters being experts cancel each other out.
+				NAND = {
+					scope:sc_attacker = { has_trait = jungle_stalker }
+					scope:sc_defender = { has_trait = jungle_stalker }
+				}
+				scope:sc_defender.location = {
+					terrain = jungle
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:jungle_stalker
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:jungle_stalker
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_jungle_stalker_flag
+				value = yes
+			}
+		}
+		## Open Terrain Expert
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_open_terrain_expert_flag }
+				has_trait = open_terrain_expert
+				# Must be happening in a wild environment.
+				scope:locale = flag:terrain_scope
+				#Both characters being experts cancel each other out.
+				NAND = {
+					scope:sc_attacker = { has_trait = open_terrain_expert }
+					scope:sc_defender = { has_trait = open_terrain_expert }
+				}
+				scope:sc_defender.location = {
+					OR = {
+						terrain = farmlands
+						terrain = plains
+						terrain = steppe
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:open_terrain_expert
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:open_terrain_expert
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_open_terrain_expert_flag
+				value = yes
+			}
+		}
+		## Rough Terrain Expert
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_rough_terrain_expert_flag }
+				has_trait = rough_terrain_expert
+				# Must be happening in a wild environment.
+				scope:locale = flag:terrain_scope
+				#Both characters being experts cancel each other out.
+				NAND = {
+					scope:sc_attacker = { has_trait = rough_terrain_expert }
+					scope:sc_defender = { has_trait = rough_terrain_expert }
+				}
+				scope:sc_defender.location = {
+					OR = {
+						terrain = hills
+						terrain = mountains
+						terrain = desert_mountains	#Technically a desert, but not for single combat purposes.
+						terrain = wetlands
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:rough_terrain_expert
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:rough_terrain_expert
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_rough_terrain_expert_flag
+				value = yes
+			}
+		}
+		## Forest Fighter
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_forest_fighter_flag }
+				has_trait = forest_fighter
+				# Must be happening in a wild environment.
+				scope:locale = flag:terrain_scope
+				#Both characters being experts cancel each other out.
+				NAND = {
+					scope:sc_attacker = { has_trait = forest_fighter }
+					scope:sc_defender = { has_trait = forest_fighter }
+				}
+				scope:sc_defender.location = {
+					OR = {
+						terrain = forest
+						terrain = taiga
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:forest_fighter
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:forest_fighter
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_forest_fighter_flag
+				value = yes
+			}
+		}
+		# Trait-Specific moves
+		## RAAARGH!
+		5000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_raaargh_flag }
+				has_trait = berserker
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:raaargh
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:raaargh
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_raaargh_flag
+				value = yes
+			}
+		}
+		## Hard Grit
+		2000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_hard_grit_flag }
+				OR = {
+					has_trait = shieldmaiden
+					has_trait = onnamusha
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:hard_grit
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:hard_grit
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_hard_grit_flag
+				value = yes
+			}
+		}
+		## Feint & Stab
+		2000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_feint_and_stab_flag }
+				has_trait = lifestyle_hunter
+				# Move specifically requires two arms, I'm afraid.
+				NOT = { has_trait = maimed }
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:feint_and_stab
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:feint_and_stab
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_feint_and_stab_flag
+				value = yes
+			}
+		}
+		## Butchery
+		2000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_butchery_flag }
+				has_trait = viking
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:butchery
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:butchery
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_butchery_flag
+				value = yes
+			}
+		}
+		## Stoic Veteran
+		2000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_stoic_veteran_flag }
+				has_trait = varangian
+				# Can't use the Varangian trait against the Eastern Roman Emperor, as that's just not cricket.
+				NOR = {
+					AND = {
+						this = scope:sc_defender
+						scope:sc_attacker = { has_title = title:e_byzantium }
+					}
+					AND = {
+						this = scope:sc_attacker
+						scope:sc_defender = { has_title = title:e_byzantium }
+					}
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:stoic_veteran
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:stoic_veteran
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_stoic_veteran_flag
+				value = yes
+			}
+		}
+		## Blade Dance
+		2000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_blade_dance_flag }
+				has_trait = lifestyle_blademaster
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:blade_dance
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:blade_dance
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_blade_dance_flag
+				value = yes
+			}
+		}
+		## Wrath of [HighGod]
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_wrath_of_highgod_flag }
+				has_trait = zealous
+				faith = {
+					NOT = { has_doctrine_parameter = holy_wars_forbidden }
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:wrath_of_highgod
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:wrath_of_highgod
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_wrath_of_highgod_flag
+				value = yes
+			}
+		}
+		## Hurt Me Better
+		2000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_hurt_me_better_flag }
+				OR = {
+					has_trait = deviant
+					any_secret = { secret_type = secret_deviant }
+				}
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:hurt_me_better
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:hurt_me_better
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_hurt_me_better_flag
+				value = yes
+			}
+		}
+		# Misc moves
+		## Kick a rock at their shin.
+		1 = {	#Fallback move; we don't really ever want to see this.
+			trigger = {
+				NOT = { exists = local_var:combat_move_special_fallback_flag }
+				#Fallback, always available.
+			}
+			set_local_variable = {
+				name = combat_move_special_fallback_flag
+				value = yes
+			}
+			# No down-weight for something that's already 0.001%.
+		}
+		## Something to Hide
+		1000 = {
+			trigger = {
+				NOT = { exists = local_var:combat_move_something_to_hide_flag }
+				OR = {
+					AND = {
+						this = scope:sc_attacker
+						has_usable_hook = scope:sc_defender
+					}
+					AND = {
+						this = scope:sc_defender
+						has_usable_hook = scope:sc_attacker
+					}
+				}
+				# The single combat cannot be fatal, or this is moot.
+				duel_will_end_in_opponent_death_trigger = no
+				# Block special moves twice in a row.
+				NOR = {
+					AND = {
+						exists = scope:sc_defender_last_move
+						this = scope:sc_defender
+						scope:sc_defender_last_move = flag:something_to_hide
+					}
+					AND = {
+						exists = scope:sc_attacker_last_move
+						this = scope:sc_attacker
+						scope:sc_attacker_last_move = flag:something_to_hide
+					}
+				}
+			}
+			set_local_variable = {
+				name = combat_move_something_to_hide_flag
+				value = yes
+			}
+		}
+	}
+}
+
+single_combat.0001 = {
+	type = character_event
+	window = duel_event
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { this = scope:sc_defender }
+				desc = single_combat.0001.t
+			}
+			triggered_desc = {
+				trigger = { this = scope:sc_attacker }
+				desc = single_combat.0011.t
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			#If we're scope:sc_defender, give us defensive descs.
+			triggered_desc = {
+				trigger = { this = scope:sc_defender }
+				desc = {
+					# First round.
+					## We just play an intro spiel.
+					triggered_desc = {
+						trigger = { scope:sc_defender.var:current_round = 1 }
+						desc = single_combat.0001.desc.sc_defender.intro
+					}
+					## Slightly different capstone speeches, depending on how deadly the duel is expected to be.
+					triggered_desc = {
+						trigger = {
+							scope:sc_defender.var:current_round = 1
+							duel_will_end_in_opponent_death_trigger = no
+						}
+						desc = single_combat.0001.desc.capstone.intro.first_blood
+					}
+					triggered_desc = {
+						trigger = {
+							scope:sc_defender.var:current_round = 1
+							duel_will_end_in_opponent_death_trigger = yes
+						}
+						desc = single_combat.0001.desc.capstone.intro.deadly
+					}
+					# Scope:sc_defender feedback.
+					## So you can see a bit of fairly-static feedback on how your selected combat move went.
+					triggered_desc = {
+						trigger = { exists = scope:sc_defender_last_move }
+						desc = {
+							first_valid = {
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:wait_and_hope
+										duel_will_end_in_my_death_trigger = yes
+										NOT = { has_trait = brave }
+									}
+									desc = single_combat.0001.desc.my_feedback.wait_and_hope.will_die
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:wait_and_hope
+										OR = {
+											duel_will_end_in_my_death_trigger = no
+											has_trait = brave
+										}
+									}
+									desc = single_combat.0001.desc.my_feedback.wait_and_hope.will_live
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:unsure_attack }
+									desc = single_combat.0001.desc.my_feedback.unsure_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:enthusiastic_onslaught }
+									desc = single_combat.0001.desc.my_feedback.enthusiastic_onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:hail_mary }
+									desc = single_combat.0001.desc.my_feedback.hail_mary
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:pocket_sand }
+									desc = single_combat.0001.desc.my_feedback.pocket_sand
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:nut_em }
+									desc = single_combat.0001.desc.my_feedback.nut_em
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:guard }
+									desc = single_combat.0001.desc.my_feedback.guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:probing_attack }
+									desc = single_combat.0001.desc.my_feedback.probing_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:onslaught }
+									desc = single_combat.0001.desc.my_feedback.onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:surprise_attack }
+									desc = single_combat.0001.desc.my_feedback.surprise_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:taunt }
+									desc = single_combat.0001.desc.my_feedback.taunt
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:put_the_boot_in }
+									desc = single_combat.0001.desc.my_feedback.put_the_boot_in
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:strict_guard }
+									desc = single_combat.0001.desc.my_feedback.strict_guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:confident_attack }
+									desc = single_combat.0001.desc.my_feedback.confident_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:expert_onslaught }
+									desc = single_combat.0001.desc.my_feedback.expert_onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:attempt_disarm }
+									desc = single_combat.0001.desc.my_feedback.attempt_disarm
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:lightning_assault }
+									desc = single_combat.0001.desc.my_feedback.lightning_assault
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:tire_opponent }
+									desc = single_combat.0001.desc.my_feedback.tire_opponent
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:reason_you_suck_speech }
+									desc = single_combat.0001.desc.my_feedback.reason_you_suck_speech
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:technique_from_legend }
+									desc = single_combat.0001.desc.my_feedback.technique_from_legend
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:like_a_viper }
+									desc = single_combat.0001.desc.my_feedback.like_a_viper
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:pocket_silver }
+									desc = single_combat.0001.desc.my_feedback.pocket_silver
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:martial_voice }
+									desc = single_combat.0001.desc.my_feedback.martial_voice
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:mocking_boast }
+									desc = single_combat.0001.desc.my_feedback.mocking_boast
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:is_that_a_crocodile }
+									desc = single_combat.0001.desc.my_feedback.is_that_a_crocodile
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:desert_warrior }
+									desc = single_combat.0001.desc.my_feedback.desert_warrior
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:jungle_stalker }
+									desc = single_combat.0001.desc.my_feedback.jungle_stalker
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:open_terrain_expert }
+									desc = single_combat.0001.desc.my_feedback.open_terrain_expert
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { rocky_locale_trigger = yes }
+									}
+									desc = single_combat.0001.desc.my_feedback.rough_terrain_expert.rocky
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { terrain = wetlands }
+									}
+									desc = single_combat.0001.desc.my_feedback.rough_terrain_expert.boggy
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:forest_fighter }
+									desc = single_combat.0001.desc.my_feedback.forest_fighter
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:raaargh }
+									desc = single_combat.0001.desc.my_feedback.raaargh
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:hard_grit }
+									desc = single_combat.0001.desc.my_feedback.hard_grit
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:feint_and_stab }
+									desc = single_combat.0001.desc.my_feedback.feint_and_stab
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:butchery }
+									desc = single_combat.0001.desc.my_feedback.butchery
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:stoic_veteran }
+									desc = single_combat.0001.desc.my_feedback.stoic_veteran
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:blade_dance }
+									desc = single_combat.0001.desc.my_feedback.blade_dance
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:wrath_of_highgod }
+									desc = single_combat.0001.desc.my_feedback.wrath_of_highgod
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:hurt_me_better }
+									desc = single_combat.0001.desc.my_feedback.hurt_me_better
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:special_fallback }
+									desc = single_combat.0001.desc.my_feedback.special_fallback
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:something_to_hide }
+									desc = single_combat.0001.desc.my_feedback.something_to_hide
+								}
+							}
+						}
+					}
+					# Scope:sc_attacker responses.
+					## What move did your opponent pick, and how does that play out from your POV?
+					triggered_desc = {
+						trigger = { exists = scope:sc_attacker_last_move }
+						desc = {
+							first_valid = {
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:wait_and_hope }
+									desc = single_combat.0001.desc.opponent_response.wait_and_hope
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:unsure_attack }
+									desc = single_combat.0001.desc.opponent_response.unsure_attack
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:enthusiastic_onslaught
+										scope:sc_attacker = { house_not_allowed_to_yell_motto_trigger = yes }
+									}
+									desc = single_combat.0001.desc.opponent_response.enthusiastic_onslaught.banned_house
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:enthusiastic_onslaught
+										scope:sc_attacker.house = scope:sc_defender.house
+									}
+									desc = single_combat.0001.desc.opponent_response.enthusiastic_onslaught.own_house
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:enthusiastic_onslaught
+										#Otherwise, we can shout the motto.
+									}
+									desc = single_combat.0001.desc.opponent_response.enthusiastic_onslaught.motto
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:hail_mary }
+									desc = single_combat.0001.desc.opponent_response.hail_mary
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:pocket_sand }
+									desc = single_combat.0001.desc.opponent_response.pocket_sand
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:nut_em }
+									desc = single_combat.0001.desc.opponent_response.nut_em
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:guard }
+									desc = single_combat.0001.desc.opponent_response.guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:probing_attack }
+									desc = single_combat.0001.desc.opponent_response.probing_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:onslaught }
+									desc = single_combat.0001.desc.opponent_response.onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:surprise_attack }
+									desc = single_combat.0001.desc.opponent_response.surprise_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:taunt }
+									desc = single_combat.0001.desc.opponent_response.taunt
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:put_the_boot_in }
+									desc = single_combat.0001.desc.opponent_response.put_the_boot_in
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:strict_guard }
+									desc = single_combat.0001.desc.opponent_response.strict_guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:confident_attack }
+									desc = single_combat.0001.desc.opponent_response.confident_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:expert_onslaught }
+									desc = single_combat.0001.desc.opponent_response.expert_onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:attempt_disarm }
+									desc = single_combat.0001.desc.opponent_response.attempt_disarm
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:lightning_assault }
+									desc = single_combat.0001.desc.opponent_response.lightning_assault
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:tire_opponent }
+									desc = single_combat.0001.desc.opponent_response.tire_opponent
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:reason_you_suck_speech }
+									desc = single_combat.0001.desc.opponent_response.reason_you_suck_speech
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:technique_from_legend }
+									desc = single_combat.0001.desc.opponent_response.technique_from_legend
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:like_a_viper }
+									desc = single_combat.0001.desc.opponent_response.like_a_viper
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:pocket_silver }
+									desc = single_combat.0001.desc.opponent_response.pocket_silver
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:martial_voice }
+									desc = single_combat.0001.desc.opponent_response.martial_voice
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:mocking_boast }
+									desc = single_combat.0001.desc.opponent_response.mocking_boast
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:is_that_a_crocodile }
+									desc = single_combat.0001.desc.opponent_response.is_that_a_crocodile
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:desert_warrior }
+									desc = single_combat.0001.desc.opponent_response.desert_warrior
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:jungle_stalker }
+									desc = single_combat.0001.desc.opponent_response.jungle_stalker
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:open_terrain_expert }
+									desc = single_combat.0001.desc.opponent_response.open_terrain_expert
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { rocky_locale_trigger = yes }
+									}
+									desc = single_combat.0001.desc.opponent_response.rough_terrain_expert.rocky
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { terrain = wetlands }
+									}
+									desc = single_combat.0001.desc.opponent_response.rough_terrain_expert.boggy
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:forest_fighter }
+									desc = single_combat.0001.desc.opponent_response.forest_fighter
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:raaargh }
+									desc = single_combat.0001.desc.opponent_response.raaargh
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:hard_grit }
+									desc = single_combat.0001.desc.opponent_response.hard_grit
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:feint_and_stab }
+									desc = single_combat.0001.desc.opponent_response.feint_and_stab
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:butchery }
+									desc = single_combat.0001.desc.opponent_response.butchery
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:stoic_veteran }
+									desc = single_combat.0001.desc.opponent_response.stoic_veteran
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:blade_dance }
+									desc = single_combat.0001.desc.opponent_response.blade_dance
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:wrath_of_highgod }
+									desc = single_combat.0001.desc.opponent_response.wrath_of_highgod
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:hurt_me_better }
+									desc = single_combat.0001.desc.opponent_response.hurt_me_better
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:special_fallback }
+									desc = single_combat.0001.desc.opponent_response.special_fallback
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:something_to_hide }
+									desc = single_combat.0001.desc.opponent_response.something_to_hide
+								}
+							}
+						}
+					}
+					# Duel status updates.
+					triggered_desc = {
+						trigger = { scope:sc_defender.var:current_round > 1 }
+						desc = {
+							first_valid = {
+								# Injury updates.
+								## For scope:sc_defender.
+								### Injury chance very unlikely.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_very_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.personal.very_unlikely
+								}
+								### Injury chance unlikely.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.personal.unlikely
+								}
+								### Injury chance moderate.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_neutral_value }
+									desc = single_combat.0001.desc.injury_check.personal.moderate
+								}
+								### Injury chance likely.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_likely_value }
+									desc = single_combat.0001.desc.injury_check.personal.likely
+								}
+								### Injury chance very likely.
+								desc = single_combat.0001.desc.injury_check.personal.very_likely
+							}
+							first_valid = {
+								## For scope:sc_attacker.
+								### Injury chance very unlikely.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_very_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.opponent.very_unlikely
+								}
+								### Injury chance unlikely.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.opponent.unlikely
+								}
+								### Injury chance moderate.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_neutral_value }
+									desc = single_combat.0001.desc.injury_check.opponent.moderate
+								}
+								### Injury chance likely.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_likely_value }
+									desc = single_combat.0001.desc.injury_check.opponent.likely
+								}
+								### Injury chance very likely.
+								desc = single_combat.0001.desc.injury_check.opponent.very_likely
+							}
+							first_valid = {
+								# Success updates.
+								## Victory almost impossible.
+								triggered_desc = {
+									trigger = { scope:sc_defender.var:sc_defender_success_check <= single_combat_success_almost_impossible_value }
+									desc = single_combat.0001.desc.success_check.almost_impossible
+								}
+								## Victory very unlikely.
+								triggered_desc = {
+									trigger = { scope:sc_defender.var:sc_defender_success_check <= single_combat_success_very_unlikely_value }
+									desc = single_combat.0001.desc.success_check.very_unlikely
+								}
+								## Victory unlikely.
+								triggered_desc = {
+									trigger = { scope:sc_defender.var:sc_defender_success_check <= single_combat_success_unlikely_value }
+									desc = single_combat.0001.desc.success_check.unlikely
+								}
+								## Victory in the balance.
+								triggered_desc = {
+									trigger = { scope:sc_defender.var:sc_defender_success_check <= single_combat_success_likely_value }
+									desc = single_combat.0001.desc.success_check.moderate
+								}
+								## Victory likely.
+								triggered_desc = {
+									trigger = { scope:sc_defender.var:sc_defender_success_check <= single_combat_success_very_likely_value }
+									desc = single_combat.0001.desc.success_check.likely
+								}
+								## Victory very likely.
+								triggered_desc = {
+									trigger = { scope:sc_defender.var:sc_defender_success_check <= single_combat_success_almost_certain_value }
+									desc = single_combat.0001.desc.success_check.very_likely
+								}
+								## Victory almost certain.
+								desc = single_combat.0001.desc.success_check.almost_certain
+							}
+						}
+					}
+				}
+			}
+			#Otherwise, give us the offensive descs. Triggered_desc kept for indenting.
+			triggered_desc = {
+				trigger = { this = scope:sc_attacker }
+				desc = {
+					# First round.
+					## We just play an intro spiel.
+					triggered_desc = {
+						trigger = { scope:sc_defender.var:current_round = 1 }
+						desc = single_combat.0001.desc.sc_attacker.intro
+					}
+					## Slightly different capstone speeches, depending on how deadly the duel is expected to be.
+					triggered_desc = {
+						trigger = {
+							scope:sc_defender.var:current_round = 1
+							duel_will_end_in_opponent_death_trigger = no
+						}
+						desc = single_combat.0001.desc.capstone.intro.first_blood
+					}
+					triggered_desc = {
+						trigger = {
+							scope:sc_defender.var:current_round = 1
+							duel_will_end_in_opponent_death_trigger = yes
+						}
+						desc = single_combat.0001.desc.capstone.intro.deadly
+					}
+					triggered_desc = {
+						trigger = { scope:sc_defender.var:current_round = 1 }
+						desc = single_combat.0001.desc.sc_attacker.intro.epilogue
+					}
+					# Scope:sc_attacker feedback.
+					## So you can see a bit of fairly-static feedback on how your selected combat move went.
+					triggered_desc = {
+						trigger = { exists = scope:sc_attacker_last_move }
+						desc = {
+							first_valid = {
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:wait_and_hope
+										duel_will_end_in_my_death_trigger = yes
+										NOT = { has_trait = brave }
+									}
+									desc = single_combat.0001.desc.my_feedback.wait_and_hope.will_die
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:wait_and_hope
+										OR = {
+											duel_will_end_in_my_death_trigger = no
+											has_trait = brave
+										}
+									}
+									desc = single_combat.0001.desc.my_feedback.wait_and_hope.will_live
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:unsure_attack }
+									desc = single_combat.0001.desc.my_feedback.unsure_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:enthusiastic_onslaught }
+									desc = single_combat.0001.desc.my_feedback.enthusiastic_onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:hail_mary }
+									desc = single_combat.0001.desc.my_feedback.hail_mary
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:pocket_sand }
+									desc = single_combat.0001.desc.my_feedback.pocket_sand
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:nut_em }
+									desc = single_combat.0001.desc.my_feedback.nut_em
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:guard }
+									desc = single_combat.0001.desc.my_feedback.guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:probing_attack }
+									desc = single_combat.0001.desc.my_feedback.probing_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:onslaught }
+									desc = single_combat.0001.desc.my_feedback.onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:surprise_attack }
+									desc = single_combat.0001.desc.my_feedback.surprise_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:taunt }
+									desc = single_combat.0001.desc.my_feedback.taunt
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:put_the_boot_in }
+									desc = single_combat.0001.desc.my_feedback.put_the_boot_in
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:strict_guard }
+									desc = single_combat.0001.desc.my_feedback.strict_guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:confident_attack }
+									desc = single_combat.0001.desc.my_feedback.confident_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:expert_onslaught }
+									desc = single_combat.0001.desc.my_feedback.expert_onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:attempt_disarm }
+									desc = single_combat.0001.desc.my_feedback.attempt_disarm
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:lightning_assault }
+									desc = single_combat.0001.desc.my_feedback.lightning_assault
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:tire_opponent }
+									desc = single_combat.0001.desc.my_feedback.tire_opponent
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:reason_you_suck_speech }
+									desc = single_combat.0001.desc.my_feedback.reason_you_suck_speech
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:technique_from_legend }
+									desc = single_combat.0001.desc.my_feedback.technique_from_legend
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:like_a_viper }
+									desc = single_combat.0001.desc.my_feedback.like_a_viper
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:pocket_silver }
+									desc = single_combat.0001.desc.my_feedback.pocket_silver
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:martial_voice }
+									desc = single_combat.0001.desc.my_feedback.martial_voice
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:mocking_boast }
+									desc = single_combat.0001.desc.my_feedback.mocking_boast
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:is_that_a_crocodile }
+									desc = single_combat.0001.desc.my_feedback.is_that_a_crocodile
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:desert_warrior }
+									desc = single_combat.0001.desc.my_feedback.desert_warrior
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:jungle_stalker }
+									desc = single_combat.0001.desc.my_feedback.jungle_stalker
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:open_terrain_expert }
+									desc = single_combat.0001.desc.my_feedback.open_terrain_expert
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { rocky_locale_trigger = yes }
+									}
+									desc = single_combat.0001.desc.my_feedback.rough_terrain_expert.rocky
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_attacker_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { terrain = wetlands }
+									}
+									desc = single_combat.0001.desc.my_feedback.rough_terrain_expert.boggy
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:forest_fighter }
+									desc = single_combat.0001.desc.my_feedback.forest_fighter
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:raaargh }
+									desc = single_combat.0001.desc.my_feedback.raaargh
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:hard_grit }
+									desc = single_combat.0001.desc.my_feedback.hard_grit
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:feint_and_stab }
+									desc = single_combat.0001.desc.my_feedback.feint_and_stab
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:butchery }
+									desc = single_combat.0001.desc.my_feedback.butchery
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:stoic_veteran }
+									desc = single_combat.0001.desc.my_feedback.stoic_veteran
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:blade_dance }
+									desc = single_combat.0001.desc.my_feedback.blade_dance
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:wrath_of_highgod }
+									desc = single_combat.0001.desc.my_feedback.wrath_of_highgod
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:hurt_me_better }
+									desc = single_combat.0001.desc.my_feedback.hurt_me_better
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:special_fallback }
+									desc = single_combat.0001.desc.my_feedback.special_fallback
+								}
+								triggered_desc = {
+									trigger = { scope:sc_attacker_last_move = flag:something_to_hide }
+									desc = single_combat.0001.desc.my_feedback.something_to_hide
+								}
+							}
+						}
+					}
+					# Scope:sc_defender responses.
+					## What move did your opponent pick, and how does that play out from your POV?
+					triggered_desc = {
+						trigger = { exists = scope:sc_defender_last_move }
+						desc = {
+							first_valid = {
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:wait_and_hope }
+									desc = single_combat.0001.desc.opponent_response.wait_and_hope
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:unsure_attack }
+									desc = single_combat.0001.desc.opponent_response.unsure_attack
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:enthusiastic_onslaught
+										scope:sc_defender = { house_not_allowed_to_yell_motto_trigger = yes }
+									}
+									desc = single_combat.0001.desc.opponent_response.enthusiastic_onslaught.banned_house
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:enthusiastic_onslaught
+										scope:sc_defender.house = scope:sc_attacker.house
+									}
+									desc = single_combat.0001.desc.opponent_response.enthusiastic_onslaught.own_house
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:enthusiastic_onslaught
+										#Otherwise, we can shout the motto.
+									}
+									desc = single_combat.0001.desc.opponent_response.enthusiastic_onslaught.motto
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:hail_mary }
+									desc = single_combat.0001.desc.opponent_response.hail_mary
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:pocket_sand }
+									desc = single_combat.0001.desc.opponent_response.pocket_sand
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:nut_em }
+									desc = single_combat.0001.desc.opponent_response.nut_em
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:guard }
+									desc = single_combat.0001.desc.opponent_response.guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:probing_attack }
+									desc = single_combat.0001.desc.opponent_response.probing_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:onslaught }
+									desc = single_combat.0001.desc.opponent_response.onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:surprise_attack }
+									desc = single_combat.0001.desc.opponent_response.surprise_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:taunt }
+									desc = single_combat.0001.desc.opponent_response.taunt
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:put_the_boot_in }
+									desc = single_combat.0001.desc.opponent_response.put_the_boot_in
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:strict_guard }
+									desc = single_combat.0001.desc.opponent_response.strict_guard
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:confident_attack }
+									desc = single_combat.0001.desc.opponent_response.confident_attack
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:expert_onslaught }
+									desc = single_combat.0001.desc.opponent_response.expert_onslaught
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:attempt_disarm }
+									desc = single_combat.0001.desc.opponent_response.attempt_disarm
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:lightning_assault }
+									desc = single_combat.0001.desc.opponent_response.lightning_assault
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:tire_opponent }
+									desc = single_combat.0001.desc.opponent_response.tire_opponent
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:reason_you_suck_speech }
+									desc = single_combat.0001.desc.opponent_response.reason_you_suck_speech
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:technique_from_legend }
+									desc = single_combat.0001.desc.opponent_response.technique_from_legend
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:like_a_viper }
+									desc = single_combat.0001.desc.opponent_response.like_a_viper
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:pocket_silver }
+									desc = single_combat.0001.desc.opponent_response.pocket_silver
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:martial_voice }
+									desc = single_combat.0001.desc.opponent_response.martial_voice
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:mocking_boast }
+									desc = single_combat.0001.desc.opponent_response.mocking_boast
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:is_that_a_crocodile }
+									desc = single_combat.0001.desc.opponent_response.is_that_a_crocodile
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:desert_warrior }
+									desc = single_combat.0001.desc.opponent_response.desert_warrior
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:jungle_stalker }
+									desc = single_combat.0001.desc.opponent_response.jungle_stalker
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:open_terrain_expert }
+									desc = single_combat.0001.desc.opponent_response.open_terrain_expert
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { rocky_locale_trigger = yes }
+									}
+									desc = single_combat.0001.desc.opponent_response.rough_terrain_expert.rocky
+								}
+								triggered_desc = {
+									trigger = {
+										scope:sc_defender_last_move = flag:rough_terrain_expert
+										scope:sc_defender.location = { terrain = wetlands }
+									}
+									desc = single_combat.0001.desc.opponent_response.rough_terrain_expert.boggy
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:forest_fighter }
+									desc = single_combat.0001.desc.opponent_response.forest_fighter
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:raaargh }
+									desc = single_combat.0001.desc.opponent_response.raaargh
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:hard_grit }
+									desc = single_combat.0001.desc.opponent_response.hard_grit
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:feint_and_stab }
+									desc = single_combat.0001.desc.opponent_response.feint_and_stab
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:butchery }
+									desc = single_combat.0001.desc.opponent_response.butchery
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:stoic_veteran }
+									desc = single_combat.0001.desc.opponent_response.stoic_veteran
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:blade_dance }
+									desc = single_combat.0001.desc.opponent_response.blade_dance
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:wrath_of_highgod }
+									desc = single_combat.0001.desc.opponent_response.wrath_of_highgod
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:hurt_me_better }
+									desc = single_combat.0001.desc.opponent_response.hurt_me_better
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:special_fallback }
+									desc = single_combat.0001.desc.opponent_response.special_fallback
+								}
+								triggered_desc = {
+									trigger = { scope:sc_defender_last_move = flag:something_to_hide }
+									desc = single_combat.0001.desc.opponent_response.something_to_hide
+								}
+							}
+						}
+					}
+					# Duel status updates.
+					triggered_desc = {
+						trigger = { scope:sc_defender.var:current_round > 1 }
+						desc = {
+							first_valid = {
+								# Injury updates.
+								## For scope:sc_attacker.
+								### Injury chance very unlikely.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_very_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.personal.very_unlikely
+								}
+								### Injury chance unlikely.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.personal.unlikely
+								}
+								### Injury chance moderate.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_neutral_value }
+									desc = single_combat.0001.desc.injury_check.personal.moderate
+								}
+								### Injury chance likely.
+								triggered_desc = {
+									trigger = { sc_attacker_injury_check_actual <= single_combat_injury_likely_value }
+									desc = single_combat.0001.desc.injury_check.personal.likely
+								}
+								### Injury chance very likely.
+								desc = single_combat.0001.desc.injury_check.personal.very_likely
+							}
+							first_valid = {
+								## For scope:sc_defender.
+								### Injury chance very unlikely.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_very_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.opponent.very_unlikely
+								}
+								### Injury chance unlikely.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_unlikely_value }
+									desc = single_combat.0001.desc.injury_check.opponent.unlikely
+								}
+								### Injury chance moderate.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_neutral_value }
+									desc = single_combat.0001.desc.injury_check.opponent.moderate
+								}
+								### Injury chance likely.
+								triggered_desc = {
+									trigger = { sc_defender_injury_check_actual <= single_combat_injury_likely_value }
+									desc = single_combat.0001.desc.injury_check.opponent.likely
+								}
+								### Injury chance very likely.
+								desc = single_combat.0001.desc.injury_check.opponent.very_likely
+							}
+							first_valid = {
+								# Success updates.
+								## Victory almost impossible.
+								triggered_desc = {
+									trigger = { scope:sc_attacker.var:sc_attacker_success_check <= single_combat_success_almost_impossible_value }
+									desc = single_combat.0001.desc.success_check.almost_impossible
+								}
+								## Victory very unlikely.
+								triggered_desc = {
+									trigger = { scope:sc_attacker.var:sc_attacker_success_check <= single_combat_success_very_unlikely_value }
+									desc = single_combat.0001.desc.success_check.very_unlikely
+								}
+								## Victory unlikely.
+								triggered_desc = {
+									trigger = { scope:sc_attacker.var:sc_attacker_success_check <= single_combat_success_unlikely_value }
+									desc = single_combat.0001.desc.success_check.unlikely
+								}
+								## Victory in the balance.
+								triggered_desc = {
+									trigger = { scope:sc_attacker.var:sc_attacker_success_check <= single_combat_success_likely_value }
+									desc = single_combat.0001.desc.success_check.moderate
+								}
+								## Victory likely.
+								triggered_desc = {
+									trigger = { scope:sc_attacker.var:sc_attacker_success_check <= single_combat_success_very_likely_value }
+									desc = single_combat.0001.desc.success_check.likely
+								}
+								## Victory very likely.
+								triggered_desc = {
+									trigger = { scope:sc_attacker.var:sc_attacker_success_check <= single_combat_success_almost_certain_value }
+									desc = single_combat.0001.desc.success_check.very_likely
+								}
+								## Victory almost certain.
+								desc = single_combat.0001.desc.success_check.almost_certain
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+	theme = martial
+	left_portrait = {
+		character = scope:myself
+		scripted_animation = duel_wield_weapon
+	}
+	right_portrait = {
+		character = scope:my_foe
+		scripted_animation = duel_wield_weapon
+	}
+	artifact = {
+		target = scope:myself.var:signature_weapon_scope
+		position = lower_left_portrait
+		trigger = { exists = scope:myself.var:signature_weapon_scope }
+	}
+
+	artifact = {
+		target = scope:my_foe.var:signature_weapon_scope
+		position = lower_right_portrait
+		trigger = { exists = scope:my_foe.var:signature_weapon_scope }
+	}
+
+	# Background Logic
+	override_background = {
+		trigger = { scope:locale = flag:terrain_scope }
+		reference = terrain_scope
+	}
+	override_background = {
+		trigger = { scope:locale = flag:battlefield }
+		reference = battlefield
+	}
+	override_background = {
+		trigger = { scope:locale = flag:alley_night }
+		reference = alley_night
+	}
+	override_background = {
+		trigger = { scope:locale = flag:alley_day }
+		reference = alley_day
+	}
+	override_background = {
+		trigger = { scope:locale = flag:temple }
+		reference = temple
+	}
+	override_background = {
+		trigger = { scope:locale = flag:corridor_night }
+		reference = corridor_night
+	}
+	override_background = {
+		trigger = { scope:locale = flag:corridor_day }
+		reference = corridor_day
+	}
+	override_background = {
+		trigger = { scope:locale = flag:courtyard }
+		reference = courtyard
+	}
+	override_background = {
+		trigger = { scope:locale = flag:dungeon }
+		reference = dungeon
+	}
+	override_background = {
+		trigger = { scope:locale = flag:docks }
+		reference = docks
+	}
+	override_background = {
+		trigger = { scope:locale = flag:feast }
+		reference = feast
+	}
+	override_background = {
+		trigger = { scope:locale = flag:market }
+		reference = market
+	}
+	override_background = {
+		trigger = { scope:locale = flag:tavern }
+		reference = tavern
+	}
+	override_background = {
+		trigger = { scope:locale = flag:throne_room }
+		reference = throne_room
+	}
+	override_background = {
+		trigger = { scope:locale = flag:army_camp }
+		reference = army_camp
+	}
+	override_background = {
+		trigger = { scope:locale = flag:ep2_travel_bridge }
+		reference = ep2_travel_bridge
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_combat_stinger"
+		# Generate combat options.
+		select_combat_options_from_pool_effect = yes
+		# Set up portraits for this event, putting the current actor always on the left.
+		if = {
+			limit = { this = scope:sc_defender }
+			scope:sc_defender = { save_scope_as = myself }
+			scope:sc_attacker = { save_scope_as = my_foe }
+		}
+		else = {
+			scope:sc_attacker = { save_scope_as = myself }
+			scope:sc_defender = { save_scope_as = my_foe }
+		}
+
+		# Show opponent's move effect.
+		if = {
+			# Check that there's a last move kicking about to look at.
+			limit = {
+				OR = {
+					exists = scope:sc_attacker_last_move
+					exists = scope:sc_defender_last_move
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:wait_and_hope
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:wait_and_hope
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_wait_and_hope_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:unsure_attack
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:unsure_attack
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_unsure_attack_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:enthusiastic_onslaught
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:enthusiastic_onslaught
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_enthusiastic_onslaught_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:hail_mary
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:hail_mary
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_hail_mary_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:pocket_sand
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:pocket_sand
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_pocket_sand_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:nut_em
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:nut_em
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_nut_em_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:guard
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:guard
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_guard_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:probing_attack
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:probing_attack
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_probing_attack_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:onslaught
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:onslaught
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_onslaught_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:surprise_attack
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:surprise_attack
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_surprise_attack_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:taunt
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:taunt
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_taunt_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:put_the_boot_in
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:put_the_boot_in
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_put_the_boot_in_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:strict_guard
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:strict_guard
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_strict_guard_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:confident_attack
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:confident_attack
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_confident_attack_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:expert_onslaught
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:expert_onslaught
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_expert_onslaught_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:attempt_disarm
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:attempt_disarm
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_attempt_disarm_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:lightning_assault
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:lightning_assault
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_lightning_assault_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:tire_opponent
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:tire_opponent
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_tire_opponent_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:reason_you_suck_speech
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:reason_you_suck_speech
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_reason_you_suck_speech_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:technique_from_legend
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:technique_from_legend
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_technique_from_legend_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:like_a_viper
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:like_a_viper
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_like_a_viper_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:pocket_silver
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:pocket_silver
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_pocket_silver_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:martial_voice
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:martial_voice
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_martial_voice_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:mocking_boast
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:mocking_boast
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_mocking_boast_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:is_that_a_crocodile
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:is_that_a_crocodile
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_is_that_a_crocodile_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:desert_warrior
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:desert_warrior
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_desert_warrior_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:jungle_stalker
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:jungle_stalker
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_jungle_stalker_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:open_terrain_expert
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:open_terrain_expert
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_open_terrain_expert_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:rough_terrain_expert
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:rough_terrain_expert
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_rough_terrain_expert_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:forest_fighter
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:forest_fighter
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_forest_fighter_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:raaargh
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:raaargh
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_raaargh_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:hard_grit
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:hard_grit
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_hard_grit_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:feint_and_stab
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:feint_and_stab
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_feint_and_stab_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:butchery
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:butchery
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_butchery_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:stoic_veteran
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:stoic_veteran
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_stoic_veteran_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:blade_dance
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:blade_dance
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_blade_dance_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:wrath_of_highgod
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:wrath_of_highgod
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_wrath_of_highgod_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:hurt_me_better
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:hurt_me_better
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_hurt_me_better_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:special_fallback
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:special_fallback
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_special_fallback_effect = yes }
+				}
+			}
+			if = {
+				limit = {
+					OR = {
+						AND = {
+							this = scope:sc_defender
+							scope:sc_attacker_last_move = flag:something_to_hide
+						}
+						AND = {
+							this = scope:sc_attacker
+							scope:sc_defender_last_move = flag:something_to_hide
+						}
+					}
+				}
+				scope:my_foe = {
+					show_as_tooltip = { combat_move_something_to_hide_effect = yes }
+				}
+			}
+		}
+	}
+
+	# Stress_impact in the options is deliberately left out of the ai_chance weightings. It's not a huge amount for anyone (typically miniscule for standard moves, minor for special ones), since many of these options can repeat within one combat, and it's no bad thing to have characters come out of duels increasingly stressed.
+
+	#Wait and Hope
+	option = {
+		name = single_combat.0001.wait_and_hope
+		trigger = { exists = local_var:combat_move_wait_and_hope_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.wait_and_hope
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_wait_and_hope_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_wait_and_hope_effect = yes }
+		}
+
+		stress_impact = {
+			patient = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			impatient = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_timid_personality_scripted_modifier = yes
+		}
+	}
+
+	#Unsure Attack
+	option = {
+		name = {
+			trigger = { scope:fatality = flag:yes }
+			text = single_combat.0001.unsure_attack
+		}
+		name = {
+			trigger = { scope:fatality = flag:no }
+			text = single_combat.0001.unsure_attack_non_fatal
+		}
+		trigger = { exists = local_var:combat_move_unsure_attack_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.unsure_attack
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_unsure_attack_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_unsure_attack_effect = yes }
+		}
+
+		# No stress for middle-ground standard options.
+		ai_chance = {
+			base = 100
+			sce_rational_personality_scripted_modifier = yes
+		}
+	}
+
+	#Enthusiastic Onslaught
+	option = {
+		# Since we yell the house motto here, we need slight separation between variants.
+		## Firstly, if your house is on the banned list, you use a fallback.
+		name = {
+			trigger = { house_not_allowed_to_yell_motto_trigger = yes }
+			text = single_combat.0001.enthusiastic_onslaught.banned_house
+		}
+		## Secondly, if you're fighting another member of your own house, you use a different fallback.
+		name = {
+			trigger = {
+				house_not_allowed_to_yell_motto_trigger = no
+				scope:sc_attacker.house = scope:sc_defender.house
+			}
+			text = single_combat.0001.enthusiastic_onslaught.own_house
+		}
+		## Thirdly, if you're a shouty house who isn't fighting another person from your shouty house, then you use your motto.
+		name = {
+			trigger = {
+				house_not_allowed_to_yell_motto_trigger = no
+				NOT = { scope:sc_attacker.house = scope:sc_defender.house }
+			}
+			text = single_combat.0001.enthusiastic_onslaught.motto
+		}
+		trigger = { exists = local_var:combat_move_enthusiastic_onslaught_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.enthusiastic_onslaught
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_enthusiastic_onslaught_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_enthusiastic_onslaught_effect = yes }
+		}
+
+		stress_impact = {
+			impatient = miniscule_stress_impact_loss
+			wrathful = miniscule_stress_impact_loss
+			patient = miniscule_stress_impact_gain
+			calm = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Hail Mary
+	option = {
+		name = single_combat.0001.hail_mary
+		trigger = { exists = local_var:combat_move_hail_mary_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.hail_mary
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_hail_mary_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_hail_mary_effect = yes }
+		}
+
+		stress_impact = {
+			impatient = miniscule_stress_impact_loss
+			brave = minor_stress_impact_loss
+			patient = miniscule_stress_impact_gain
+			craven = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Pocket Sand
+	option = {
+		name = single_combat.0001.pocket_sand
+		trigger = { exists = local_var:combat_move_pocket_sand_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.pocket_sand
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_pocket_sand_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_pocket_sand_effect = yes }
+		}
+
+		stress_impact = {
+			deceitful = miniscule_stress_impact_loss
+			arbitrary = miniscule_stress_impact_loss
+			honest = miniscule_stress_impact_gain
+			just = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_timid_personality_scripted_modifier = yes
+		}
+	}
+
+	#Nut 'em
+	option = {
+		name = single_combat.0001.nut_em
+		trigger = { exists = local_var:combat_move_nut_em_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.nut_em
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_nut_em_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_nut_em_effect = yes }
+		}
+
+		stress_impact = {
+			deceitful = miniscule_stress_impact_loss
+			arbitrary = miniscule_stress_impact_loss
+			honest = miniscule_stress_impact_gain
+			just = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Guard
+	option = {
+		name = single_combat.0001.guard
+		trigger = { exists = local_var:combat_move_guard_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.guard
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_guard_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_guard_effect = yes }
+		}
+
+		stress_impact = {
+			patient = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			impatient = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_timid_personality_scripted_modifier = yes
+		}
+	}
+
+	#Probing Attack
+	option = {
+		name = single_combat.0001.probing_attack
+		trigger = { exists = local_var:combat_move_probing_attack_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.probing_attack
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_probing_attack_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_probing_attack_effect = yes }
+		}
+
+		# No stress for middle-ground standard options.
+		ai_chance = {
+			base = 100
+			sce_rational_personality_scripted_modifier = yes
+		}
+	}
+
+	#Onslaught
+	option = {
+		name = single_combat.0001.onslaught
+		trigger = { exists = local_var:combat_move_onslaught_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.onslaught
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_onslaught_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_onslaught_effect = yes }
+		}
+
+		stress_impact = {
+			impatient = miniscule_stress_impact_loss
+			wrathful = miniscule_stress_impact_loss
+			patient = miniscule_stress_impact_gain
+			calm = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Surprise Attack
+	option = {
+		name = single_combat.0001.surprise_attack
+		trigger = { exists = local_var:combat_move_surprise_attack_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.surprise_attack
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_surprise_attack_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_surprise_attack_effect = yes }
+		}
+
+		# No need for stress weighting here; fairly standard tactic that anyone would try.
+		ai_chance = {
+			base = 100
+			sce_preferred_rational_personality_scripted_modifier = yes
+		}
+	}
+
+	#Taunt
+	option = {
+		name = single_combat.0001.taunt
+		trigger = { exists = local_var:combat_move_taunt_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.taunt
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_taunt_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_taunt_effect = yes }
+		}
+
+		stress_impact = {
+			callous = miniscule_stress_impact_loss
+			sadistic = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_timid_personality_scripted_modifier = yes
+		}
+	}
+
+	#Put the Boot In
+	option = {
+		name = single_combat.0001.put_the_boot_in
+		trigger = { exists = local_var:combat_move_put_the_boot_in_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.put_the_boot_in
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_put_the_boot_in_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_put_the_boot_in_effect = yes }
+		}
+
+		stress_impact = {
+			impatient = miniscule_stress_impact_loss
+			brave = minor_stress_impact_loss
+			patient = miniscule_stress_impact_gain
+			craven = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Strict Guard
+	option = {
+		name = single_combat.0001.strict_guard
+		trigger = { exists = local_var:combat_move_strict_guard_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.strict_guard
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_strict_guard_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_strict_guard_effect = yes }
+		}
+
+		stress_impact = {
+			patient = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			impatient = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_timid_personality_scripted_modifier = yes
+		}
+	}
+
+	#Confident Attack
+	option = {
+		name = single_combat.0001.confident_attack
+		trigger = { exists = local_var:combat_move_confident_attack_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.confident_attack
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_confident_attack_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_confident_attack_effect = yes }
+		}
+
+		# No stress for middle-ground standard options.
+		ai_chance = {
+			base = 100
+			sce_rational_personality_scripted_modifier = yes
+		}
+	}
+
+	#Expert Onslaught
+	option = {
+		name = single_combat.0001.expert_onslaught
+		trigger = { exists = local_var:combat_move_expert_onslaught_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.expert_onslaught
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_expert_onslaught_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_expert_onslaught_effect = yes }
+		}
+
+		stress_impact = {
+			impatient = miniscule_stress_impact_loss
+			wrathful = miniscule_stress_impact_loss
+			patient = miniscule_stress_impact_gain
+			calm = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Attempt Disarm
+	option = {
+		name = single_combat.0001.attempt_disarm
+		trigger = { exists = local_var:combat_move_attempt_disarm_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.attempt_disarm
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_attempt_disarm_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_attempt_disarm_effect = yes }
+		}
+
+		stress_impact = {
+			patient = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			impatient = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_timid_personality_scripted_modifier = yes
+		}
+	}
+
+	#Lightning Assault
+	option = {
+		name = single_combat.0001.lightning_assault
+		trigger = { exists = local_var:combat_move_lightning_assault_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.lightning_assault
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_lightning_assault_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_lightning_assault_effect = yes }
+		}
+
+		stress_impact = {
+			impatient = miniscule_stress_impact_loss
+			diligent = miniscule_stress_impact_loss
+			patient = miniscule_stress_impact_gain
+			lazy = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_aggressive_personality_scripted_modifier = yes
+		}
+	}
+
+	#Tire Opponent
+	option = {
+		name = single_combat.0001.tire_opponent
+		trigger = { exists = local_var:combat_move_tire_opponent_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.tire_opponent
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_tire_opponent_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_tire_opponent_effect = yes }
+		}
+
+		stress_impact = {
+			diligent = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_rational_personality_scripted_modifier = yes
+		}
+	}
+
+	#Reason You Suck Speech
+	option = {
+		name = single_combat.0001.reason_you_suck_speech
+		trigger = { exists = local_var:combat_move_reason_you_suck_speech_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.reason_you_suck_speech
+
+		#Spawn Info
+		skill = diplomacy
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_reason_you_suck_speech_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_reason_you_suck_speech_effect = yes }
+		}
+
+		stress_impact = {
+			callous = miniscule_stress_impact_loss
+			sadistic = miniscule_stress_impact_loss
+			gregarious = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_enjoys_arrogant_speeches_scripted_modifier = yes
+		}
+	}
+
+	#Technique from Legend
+	option = {
+		name = single_combat.0001.technique_from_legend
+		trigger = { exists = local_var:combat_move_technique_from_legend_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.technique_from_legend
+
+		#Spawn Info
+		skill = learning
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_technique_from_legend_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_technique_from_legend_effect = yes }
+		}
+
+		stress_impact = {
+			brave = minor_stress_impact_loss
+			trusting = minor_stress_impact_loss	# A trusting character *totally* believes the legends are both true and accurate!
+			craven = minor_stress_impact_gain
+			paranoid = minor_stress_impact_gain # Whereas a paranoid character is 99% sure they're bullshit, but is hoping against hope anyway.
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+			# Weight up relevant traits: scholar
+			modifier = {
+				add = sce_ai_mod_trait_weight_medium
+				has_trait = scholar
+			}
+			# Weight up relevant traits: theologian
+			modifier = {
+				add = sce_ai_mod_trait_weight_light
+				has_trait = theologian
+			}
+		}
+	}
+
+	#Like a Viper
+	option = {
+		name = single_combat.0001.like_a_viper
+		trigger = { exists = local_var:combat_move_like_a_viper_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.like_a_viper
+
+		#Spawn Info
+		skill = intrigue
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_like_a_viper_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_like_a_viper_effect = yes }
+		}
+
+		stress_impact = {
+			deceitful = minor_stress_impact_loss
+			arbitrary = minor_stress_impact_loss
+			honest = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+			# Weight up relevant traits: schemer
+			modifier = {
+				add = sce_ai_mod_trait_weight_heavy
+				has_trait = schemer
+			}
+			# Weight up relevant traits: torturer
+			modifier = {
+				add = sce_ai_mod_trait_weight_medium
+				has_trait = torturer
+			}
+		}
+	}
+
+	#Pocket Silver
+	option = {
+		name = single_combat.0001.pocket_silver
+		trigger = { exists = local_var:combat_move_pocket_silver_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.pocket_silver
+
+		#Spawn Info
+		skill = stewardship
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_pocket_silver_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_pocket_silver_effect = yes }
+		}
+
+		stress_impact = {
+			deceitful = miniscule_stress_impact_loss
+			arbitrary = miniscule_stress_impact_loss
+			generous = miniscule_stress_impact_loss
+			honest = miniscule_stress_impact_gain
+			just = miniscule_stress_impact_gain
+			greedy = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			ai_value_modifier = { ai_greed = -0.5 }
+			# Weight up relevant traits: avaricious
+			modifier = {
+				add = sce_ai_mod_trait_down_weight_medium
+				has_trait = avaricious
+			}
+		}
+	}
+
+	#Martial Voice
+	option = {
+		name = single_combat.0001.martial_voice
+		trigger = { exists = local_var:combat_move_martial_voice_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.martial_voice
+
+		#Spawn Info
+		skill = martial
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_martial_voice_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_martial_voice_effect = yes }
+		}
+
+		stress_impact = {
+			callous = miniscule_stress_impact_loss
+			sadistic = miniscule_stress_impact_loss
+			gregarious = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_gain
+			shy = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_enjoys_arrogant_speeches_scripted_modifier = yes
+			# Weight up relevant traits: strategist
+			modifier = {
+				add = sce_ai_mod_trait_weight_medium
+				has_trait = strategist
+			}
+		}
+	}
+
+	#Mocking Boast
+	option = {
+		name = single_combat.0001.mocking_boast
+		trigger = { exists = local_var:combat_move_mocking_boast_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.mocking_boast
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_mocking_boast_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_mocking_boast_effect = yes }
+		}
+
+		stress_impact = {
+			callous = miniscule_stress_impact_loss
+			sadistic = miniscule_stress_impact_loss
+			arrogant = miniscule_stress_impact_loss
+			compassionate = miniscule_stress_impact_gain
+			humble = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_enjoys_arrogant_speeches_scripted_modifier = yes
+		}
+	}
+
+	#Is that a Crocodile?!
+	option = {
+		name = single_combat.0001.is_that_a_crocodile
+		trigger = { exists = local_var:combat_move_is_that_a_crocodile_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.is_that_a_crocodile
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_is_that_a_crocodile_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_is_that_a_crocodile_effect = yes }
+		}
+
+		# Though it might be stressful for your opponent, a crocodile is not stressful for you.
+		ai_chance = {
+			base = 300
+			# If you get the good option, use the good option.
+		}
+	}
+
+	#Desert Warrior
+	option = {
+		name = single_combat.0001.desert_warrior
+		trigger = { exists = local_var:combat_move_desert_warrior_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.desert_warrior
+
+		#Spawn Info
+		trait = desert_warrior
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_desert_warrior_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_desert_warrior_effect = yes }
+		}
+
+		stress_impact = {
+			diligent = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Jungle Stalker
+	option = {
+		name = single_combat.0001.jungle_stalker
+		trigger = { exists = local_var:combat_move_jungle_stalker_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.jungle_stalker
+
+		#Spawn Info
+		trait = jungle_stalker
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_jungle_stalker_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_jungle_stalker_effect = yes }
+		}
+
+		stress_impact = {
+			diligent = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Open Terrain Expert
+	option = {
+		name = single_combat.0001.open_terrain_expert
+		trigger = { exists = local_var:combat_move_open_terrain_expert_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.open_terrain_expert
+
+		#Spawn Info
+		trait = open_terrain_expert
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_open_terrain_expert_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_open_terrain_expert_effect = yes }
+		}
+
+		stress_impact = {
+			diligent = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Rough Terrain Expert
+	option = {
+		name = single_combat.0001.rough_terrain_expert
+		trigger = { exists = local_var:combat_move_rough_terrain_expert_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.rough_terrain_expert
+
+		#Spawn Info
+		trait = rough_terrain_expert
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_rough_terrain_expert_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_rough_terrain_expert_effect = yes }
+		}
+
+		stress_impact = {
+			diligent = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Forest Fighter
+	option = {
+		name = single_combat.0001.forest_fighter
+		trigger = { exists = local_var:combat_move_forest_fighter_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.forest_fighter
+
+		#Spawn Info
+		trait = forest_fighter
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_forest_fighter_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_forest_fighter_effect = yes }
+		}
+
+		stress_impact = {
+			diligent = miniscule_stress_impact_loss
+			calm = miniscule_stress_impact_loss
+			lazy = miniscule_stress_impact_gain
+			wrathful = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#RAAARGH!
+	option = {
+		name = single_combat.0001.raaargh
+		trigger = { exists = local_var:combat_move_raaargh_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.raaargh
+
+		#Spawn Info
+		trait = berserker
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_raaargh_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_raaargh_effect = yes }
+		}
+
+		# No stress for RAAARGH!, as it gives stress loss.
+		ai_chance = {
+			base = 100
+			sce_preferred_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Hard Grit
+	option = {
+		name = single_combat.0001.hard_grit
+		trigger = { exists = local_var:combat_move_hard_grit_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.hard_grit
+
+		#Spawn Info
+		if = {
+			limit = {
+				culture = { has_cultural_parameter = has_access_to_shieldmaidens }
+			}
+			trait = shieldmaiden
+		}
+		else_if = {
+			limit = {
+				culture = { has_cultural_parameter = has_access_to_onnamusha }
+			}
+			trait = onnamusha
+		}
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_hard_grit_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_hard_grit_effect = yes }
+		}
+
+		# Loc here implies stoic professionalism, so doesn't seem fair to apply stress over that.
+		ai_chance = {
+			base = 100
+			sce_preferred_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Feint & Stab
+	option = {
+		name = single_combat.0001.feint_and_stab
+		trigger = { exists = local_var:combat_move_feint_and_stab_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.feint_and_stab
+
+		#Spawn Info; use individual traits so that the unlock trait shows in the option UI.
+		trait = lifestyle_hunter
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_feint_and_stab_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_feint_and_stab_effect = yes }
+		}
+
+		stress_impact = {
+			deceitful = minor_stress_impact_loss
+			arbitrary = minor_stress_impact_loss
+			honest = minor_stress_impact_gain
+			just = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Butchery
+	option = {
+		name = single_combat.0001.butchery
+		trigger = { exists = local_var:combat_move_butchery_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.butchery
+
+		#Spawn Info
+		trait = viking
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_butchery_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_butchery_effect = yes }
+		}
+
+		stress_impact = {
+			callous = minor_stress_impact_loss
+			sadistic = minor_stress_impact_loss
+			compassionate = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_preferred_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Stoic Veteran
+	option = {
+		name = {
+			trigger = {
+				NOT = {
+					scope:my_foe = { has_trait = varangian }
+				}
+			}
+			text = single_combat.0001.stoic_veteran.general
+		}
+		name = {
+			trigger = {
+				scope:my_foe = { has_trait = varangian }
+			}
+			text = single_combat.0001.stoic_veteran.other_varangian
+		}
+		trigger = { exists = local_var:combat_move_stoic_veteran_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.stoic_veteran
+
+		#Spawn Info
+		trait = varangian
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_stoic_veteran_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_stoic_veteran_effect = yes }
+		}
+
+		# Loc here implies stoic professionalism, so doesn't seem fair to apply stress over that.
+		ai_chance = {
+			base = 100
+			sce_preferred_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Blade Dance
+	option = {
+		name = {
+			text = single_combat.0001.blade_dance
+			trigger = { is_landed = yes }
+		}
+		name = {
+			text = single_combat.0001.blade_dance_unlanded
+			trigger = { is_landed = no }
+		}
+		trigger = { exists = local_var:combat_move_blade_dance_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.blade_dance
+
+		#Spawn Info; use individual traits so that the unlock trait shows in the option UI.
+		trait = lifestyle_blademaster
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_blade_dance_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_blade_dance_effect = yes }
+		}
+
+		# No appropriate stress loss for blade dance; arguably arrogant, as we portray them as haughty in the loc, but it's a bit mean to both hit the player verbally and mechanically for something that's up for interpretation.
+		ai_chance = {
+			base = 100
+			sce_preferred_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Wrath of [HighGod]
+	option = {
+		name = single_combat.0001.wrath_of_highgod
+		trigger = { exists = local_var:combat_move_wrath_of_highgod_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.wrath_of_highgod
+
+		#Spawn Info
+		trait = zealous
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_wrath_of_highgod_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_wrath_of_highgod_effect = yes }
+		}
+
+		stress_impact = {
+			# Takes a bold human to stop fighting entirely and pray, however loudly, in the middle of a duel.
+			craven = miniscule_stress_impact_loss
+			brave = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_enjoys_arrogant_speeches_scripted_modifier = yes
+		}
+	}
+
+	#Hurt Me Better
+	option = {
+		name = single_combat.0001.hurt_me_better
+		trigger = { exists = local_var:combat_move_hurt_me_better_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.hurt_me_better
+
+		#Spawn Info
+		trait = deviant
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_hurt_me_better_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_hurt_me_better_effect = yes }
+		}
+
+		# We draw the line at stress loss/gain for lustful/chaste: we're already being a bit mean to deviant characters here, no need to ramp up the Hellraiser vibes *that* much.
+		ai_chance = {
+			base = 100
+			sce_shrewd_fighter_scripted_modifier = yes
+		}
+	}
+
+	#Special Fallback: kick 'em in the shin
+	option = {
+		name = single_combat.0001.special_fallback
+		trigger = { exists = local_var:combat_move_special_fallback_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.special_fallback
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_special_fallback_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_special_fallback_effect = yes }
+		}
+
+		# Shins, and the kicking thereof, have no particularly stressful effects on the human psyche.
+		ai_chance = {
+			base = 100
+			# Errr... I can't even begin to imagine how you'd set AI preferences for this.
+		}
+	}
+
+	#Something to Hide
+	option = {
+		name = single_combat.0001.something_to_hide
+		trigger = { exists = local_var:combat_move_something_to_hide_flag }
+
+		#Move clarification
+		custom_tooltip = single_combat.0001.tt.something_to_hide
+
+		#Move effects
+		## First, we show the move's effects with no guff.
+		show_as_tooltip = { combat_move_something_to_hide_effect = yes }
+		## Then, we check to make sure if scope:my_foe is still around to suffer the effects. This prevents errors if they die mid-combat.
+		if = {
+			limit = {
+				scope:my_foe = { is_alive = yes }
+			}
+			hidden_effect = { combat_move_something_to_hide_effect = yes }
+		}
+
+		stress_impact = {
+			deceitful = miniscule_stress_impact_loss
+			arbitrary = miniscule_stress_impact_loss
+			honest = miniscule_stress_impact_gain
+			just = miniscule_stress_impact_gain
+		}
+		ai_chance = {
+			base = 100
+			sce_enjoys_arrogant_speeches_scripted_modifier = yes
+			# Weight up relevant traits: schemer
+			modifier = {
+				add = sce_ai_mod_trait_weight_light
+				has_trait = schemer
+			}
+		}
+	}
+
+	#Work out the post-event effects.
+	after = {
+		# First, see if the next round is still valid.
+		if = {
+			limit = {
+				OR = {
+					scope:sc_attacker = { is_alive = no }
+					scope:sc_defender = { is_alive = no }
+				}
+			}
+			# First, clean up assorted things around the duels.
+			hidden_effect = { remove_single_combat_info_effect = yes }
+			# Then manually clear the duelling flag.
+			scope:sc_defender = {
+				if = {
+					# Restrict to live characters to prevent errors.
+					limit = { is_alive = yes }
+					remove_variable = engaged_in_single_combat 
+				}
+			}
+			scope:sc_attacker = {
+				if = {
+					# Restrict to live characters to prevent errors.
+					limit = { is_alive = yes }
+					remove_variable = engaged_in_single_combat 
+				}
+			}
+			# Finally, fire the invalidation cleanup event.
+			scope:sc_attacker = {
+				#trigger_event = { saved_event_id = scope:invalidation_event }
+				trigger_event = single_combat.1006
+			}
+		}
+		# Otherwise, we can go through the usual flow.
+		else = {
+			#If either character has had an edge modifier added, update character skills to account for duel edge stuff.
+			scope:sc_attacker = {
+				if = {
+					limit = { has_character_flag = sce_needs_forced_recalc_flag }
+					force_character_skill_recalculation = yes
+					remove_character_flag = sce_needs_forced_recalc_flag
+				}
+			}
+			scope:sc_defender = {
+				if = {
+					limit = { has_character_flag = sce_needs_forced_recalc_flag }
+					force_character_skill_recalculation = yes
+					remove_character_flag = sce_needs_forced_recalc_flag
+				}
+			}
+			#Calculate injury risks for descs.
+			calculate_injury_risks_effect = yes
+			#And success chances.
+			calculate_success_chances_effect = yes
+			#If we're scope:sc_defender, send scope:sc_attacker their instance of the event.
+			if = {
+				limit = { this = scope:sc_defender }
+				scope:sc_attacker = { trigger_event = single_combat.0001 }
+			}
+			#Otherwise we're scope:sc_attacker, so end the round.
+			else = { trigger_event = single_combat.0021 }
+		}
+	}
+}

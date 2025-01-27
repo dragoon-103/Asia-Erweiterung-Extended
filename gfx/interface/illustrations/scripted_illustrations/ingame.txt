@@ -184,6 +184,238 @@ character_view_bg = {
 		}
 	}
 
+	#### AEP ####
+
+	####
+	# China
+	####
+	texture = {
+		reference = "event_scenes/prison_china.dds"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_china_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_china_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_china_culture_group_trigger = yes }
+				}
+				betrothed ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_china_culture_group_trigger = yes }
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						is_in_prison_type = dungeon
+						imprisoner.culture = { has_graphical_china_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Korea
+	####
+	texture = {
+		reference = "event_scenes/prison_korea.dds"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_korea_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_korea_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_korea_culture_group_trigger = yes }
+				}
+				betrothed ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_korea_culture_group_trigger = yes }
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						is_in_prison_type = dungeon
+						imprisoner.culture = { has_graphical_korea_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Japan
+	####
+	texture = {
+		reference = "event_scenes/prison_japan.dds"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_japan_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_japan_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_japan_culture_group_trigger = yes }
+				}
+				betrothed ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_japan_culture_group_trigger = yes }
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						is_in_prison_type = dungeon
+						imprisoner.culture = { has_graphical_japan_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Tibet
+	####
+	texture = {
+		reference = "event_scenes/prison_tibet.dds"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_tibet_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_tibet_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_tibet_culture_group_trigger = yes }
+				}
+				betrothed ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_tibet_culture_group_trigger = yes }
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						is_in_prison_type = dungeon
+						imprisoner.culture = { has_graphical_tibet_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Southeast Asia
+	####
+	texture = {
+		reference = "event_scenes/prison_southeast_asia.dds"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			is_in_prison_type = dungeon
+			imprisoner.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp2_prison"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+				}
+				betrothed ?= {
+					is_in_prison_type = dungeon
+					imprisoner.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						is_in_prison_type = dungeon
+						imprisoner.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
 	####
 	# western
 	####
@@ -547,6 +779,298 @@ character_view_bg = {
 		}
 	}
 
+	#### AEP ####
+
+	####
+	# tournament, China
+	####
+	texture = {
+		reference = "event_scenes/tournament_china.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_china }
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_china }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_china }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_china }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_china }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# tournament, Korea
+	####
+	texture = {
+		reference = "event_scenes/tournament_korea.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_korea }
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_korea }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_korea }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_korea }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_korea }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# tournament, Japan
+	####
+	texture = {
+		reference = "event_scenes/tournament_japan.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_japan }
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_japan }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_japan }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_japan }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_japan }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# tournament, Tibet
+	####
+	texture = {
+		reference = "event_scenes/tournament_tibet.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_tibet }
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_tibet }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_tibet }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_tibet }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_tibet }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# tournament, Southeast Asia
+	####
+	texture = {
+		reference = "event_scenes/tournament_southeast_asia.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_southeast_asia }
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_tournament }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location = { geographical_region = graphical_southeast_asia }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_mecca"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_southeast_asia }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_southeast_asia }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_tournament }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location = { geographical_region = graphical_southeast_asia }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
 	####
 	# tournament, western
 	####
@@ -693,6 +1217,298 @@ character_view_bg = {
 		}
 	}
 
+	#### AEP ####
+
+	####
+	# University, China
+	####
+	texture = {
+		reference = "event_scenes/university_china.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_china_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_china_culture_group_trigger = yes }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_china_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_china_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_china_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# University, Korea
+	####
+	texture = {
+		reference = "event_scenes/university_korea.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_korea_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_korea_culture_group_trigger = yes }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_korea_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_korea_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_korea_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# University, Japan
+	####
+	texture = {
+		reference = "event_scenes/university_japan.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_japan_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_japan_culture_group_trigger = yes }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_japan_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_japan_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_japan_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# University, Tibet
+	####
+	texture = {
+		reference = "event_scenes/university_tibet.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_tibet_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_tibet_culture_group_trigger = yes }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_tibet_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_tibet_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_tibet_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# University, Southeast Asia
+	####
+	texture = {
+		reference = "event_scenes/university_southeast_asia.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_adult_education }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_bp2_university"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_adult_education }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_graphical_southeast_asia_culture_group_trigger = yes }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
 	####
 	# university, indian
 	####
@@ -721,6 +1537,8 @@ character_view_bg = {
 			location ?= involved_activity.activity_location
 			involved_activity.activity_location.culture = {
 				has_graphical_india_culture_group_trigger = yes
+				has_graphical_tibet_culture_group_trigger = yes
+				has_graphical_southeast_asia_culture_group_trigger = yes
 			}
 			is_character_window_main_character = yes
 		}
@@ -738,6 +1556,8 @@ character_view_bg = {
 						location ?= involved_activity.activity_location
 						involved_activity.activity_location.culture = {
 							has_graphical_india_culture_group_trigger = yes
+							has_graphical_tibet_culture_group_trigger = yes
+							has_graphical_southeast_asia_culture_group_trigger = yes
 						}
 					}
 				}
@@ -748,6 +1568,8 @@ character_view_bg = {
 						location ?= involved_activity.activity_location
 						involved_activity.activity_location.culture = {
 							has_graphical_india_culture_group_trigger = yes
+							has_graphical_tibet_culture_group_trigger = yes
+							has_graphical_southeast_asia_culture_group_trigger = yes
 						}
 					}
 				}
@@ -758,6 +1580,8 @@ character_view_bg = {
 						location ?= involved_activity.activity_location
 						involved_activity.activity_location.culture = {
 							has_graphical_india_culture_group_trigger = yes
+							has_graphical_tibet_culture_group_trigger = yes
+							has_graphical_southeast_asia_culture_group_trigger = yes
 						}
 					}
 				}
@@ -1010,6 +1834,298 @@ character_view_bg = {
 						involved_activity ?= { has_activity_type = activity_feast }
 						location ?= involved_activity.activity_location
 						involved_activity.activity_location.culture = { has_building_gfx = indian_building_gfx }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	#### AEP ####
+
+	####
+	# Feast, China
+	####
+	texture = {
+		reference = "event_scenes/feast_china.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = chinese_building_gfx }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = chinese_building_gfx }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = chinese_building_gfx }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = chinese_building_gfx }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = chinese_building_gfx }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Feast, Korea
+	####
+	texture = {
+		reference = "event_scenes/feast_korea.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = korean_building_gfx }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = korean_building_gfx }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = korean_building_gfx }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = korean_building_gfx }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = korean_building_gfx }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Feast, Japan
+	####
+	texture = {
+		reference = "event_scenes/feast_japan.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = japanese_building_gfx }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = japanese_building_gfx }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = japanese_building_gfx }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = japanese_building_gfx }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = japanese_building_gfx }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Feast, Tibet
+	####
+	texture = {
+		reference = "event_scenes/feast_tibet.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = tibetan_building_gfx }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = tibetan_building_gfx }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = tibetan_building_gfx }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = tibetan_building_gfx }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = tibetan_building_gfx }
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	####
+	# Feast, Southeast Asia
+	####
+	texture = {
+		reference = "event_scenes/feast_southeast_asia.dds"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = southeast_asian_building_gfx }
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			involved_activity ?= { has_activity_type = activity_feast }
+			location ?= involved_activity.activity_location
+			involved_activity.activity_location.culture = { has_building_gfx = southeast_asian_building_gfx }
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_feast"
+
+		trigger = {
+			OR = {
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = southeast_asian_building_gfx }
+					}
+				}
+				AND = {
+					exists = betrothed
+					betrothed = {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = southeast_asian_building_gfx }
+					}
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						involved_activity ?= { has_activity_type = activity_feast }
+						location ?= involved_activity.activity_location
+						involved_activity.activity_location.culture = { has_building_gfx = southeast_asian_building_gfx }
 					}
 				}
 			}
@@ -1989,7 +3105,24 @@ character_view_bg = {
 				NOT = { location = involved_activity.activity_location }
 			}
 			location.county ?= title:c_byzantion
-			NOT = { primary_title = title:e_byzantium }
+			NOR = { 
+				primary_title = title:e_byzantium 
+				AND = {
+					exists = primary_spouse
+					primary_spouse = {
+						exists = location
+						trigger_if = {
+							limit = {
+								exists = involved_activity
+							}
+							NOT = { location = involved_activity.activity_location }
+						}
+						location.county ?= title:c_byzantion
+						primary_title = title:e_byzantium
+					}
+				}
+			}
+			
 			is_imprisoned = no
 			is_character_window_main_character = yes
 		}
@@ -6028,6 +7161,282 @@ character_view_bg = {
 
 	##########################################
 
+	texture = { # Hinduism
+		reference = "event_scenes/hindu_temple.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:hinduism_religion
+		}
+	}
+
+	environment = {
+		reference = "environment_event_mosque"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:hinduism_religion
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_mosque"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:hinduism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:hinduism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:hinduism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
+	texture = { # Jainism
+		reference = "event_scenes/jain_temple.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:jainism_religion
+		}
+	}
+
+	environment = {
+		reference = "environment_event_mosque"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:jainism_religion
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_mosque"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:jainism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:jainism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:jainism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
+	texture = { # Buddhist
+		reference = "event_scenes/buddhist_temple.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:buddhism_religion
+		}
+	}
+
+	environment = {
+		reference = "environment_event_mosque"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:buddhism_religion
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_mosque"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:buddhism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:buddhism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:buddhism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
+	texture = { # Taoism
+		reference = "event_scenes/taoist_temple.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:taoism_religion
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp3_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:taoism_religion
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp3_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:taoism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:taoism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:taoism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
+	texture = { # Confucianism
+		reference = "event_scenes/confucian_temple.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:confucianism_religion
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp3_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:confucianism_religion
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp3_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:confucianism_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:confucianism_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:confucianism_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
+	texture = { # Shintoism
+		reference = "event_scenes/shinto_temple.dds"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:japonic_religion
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp3_temple"
+
+		trigger = {
+			should_use_temple_character_background_trigger = yes
+			religion = religion:japonic_religion
+			is_character_window_main_character = yes
+		}
+	}
+
+	environment = {
+		reference = "environment_event_fp3_temple"
+
+		trigger = {
+			OR = {
+				primary_spouse ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:japonic_religion
+				}
+				betrothed ?= {
+					should_use_temple_character_background_trigger = yes
+					religion = religion:japonic_religion
+				}
+				AND = {
+					liege.diarch ?= this
+					liege ?= {
+						should_use_temple_character_background_trigger = yes
+						religion = religion:japonic_religion
+					}
+				}
+			}
+			is_character_window_main_character = no
+		}
+	}
+
+	##########################################
+
 	texture = { # Fallback
 		reference = "event_scenes/temple.dds"
 
@@ -7228,7 +8637,7 @@ character_view_bg = {
 	}
 
 	environment = {
-		reference = "environment_cw_fp2_iberian_throneroom_main"
+		reference = "environment_cw_fp3_iranian_throneroom_main"
 
 		trigger = {
 			has_fp3_dlc_trigger = yes
@@ -7240,7 +8649,7 @@ character_view_bg = {
 	}
 
 	environment = {
-		reference = "environment_cw_fp2_iberian_throneroom_main"
+		reference = "environment_cw_fp3_iranian_throneroom_spouse"
 
 		trigger = {
 			OR = {
@@ -8111,126 +9520,6 @@ character_view_bg = {
 
 	##########################################
 
-	# Eastern Siberia, high rank
-	texture = {
-		reference = "character_view/throneroom_eastern_siberia.dds"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_empire
-			has_graphical_eastern_siberia_region_trigger = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_west"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_empire
-			has_graphical_eastern_siberia_region_trigger = yes
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_west_spouse"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						has_graphical_eastern_siberia_region_trigger = yes
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						has_graphical_eastern_siberia_region_trigger = yes
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						has_graphical_eastern_siberia_region_trigger = yes
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
-
-	# Eastern Siberia, regular
-	texture = {
-		reference = "character_view/eastern_siberia.dds"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_eastern_siberia_region_trigger = yes }
-			}
-			trigger_else = { has_graphical_eastern_siberia_region_trigger = yes }
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_west"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_eastern_siberia_region_trigger = yes }
-			}
-			trigger_else = { has_graphical_eastern_siberia_region_trigger = yes }
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_west_spouse"
-
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner = { has_graphical_eastern_siberia_region_trigger = yes }
-					}
-					trigger_else = { has_graphical_eastern_siberia_region_trigger = yes }
-				}
-				betrothed ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner = { has_graphical_eastern_siberia_region_trigger = yes }
-					}
-					trigger_else = { has_graphical_eastern_siberia_region_trigger = yes }
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						trigger_if = {
-							limit = { is_in_prison_type = house_arrest }
-							imprisoner = { has_graphical_eastern_siberia_region_trigger = yes }
-						}
-						trigger_else = { has_graphical_eastern_siberia_region_trigger = yes }
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
-
 	# Tibet, high rank
 	texture = {
 		reference = "character_view/throneroom_tibet.dds"
@@ -8462,126 +9751,6 @@ character_view_bg = {
 							imprisoner = { has_graphical_southeast_asia_region_trigger = yes }
 						}
 						trigger_else = { has_graphical_southeast_asia_region_trigger = yes }
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
-
-	# Papua, high rank
-	texture = {
-		reference = "character_view/throneroom_papua.dds"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_empire
-			has_graphical_papua_region_trigger = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_india_throneroom_main"
-
-		trigger = {
-			exists = primary_title
-			primary_title.tier >= tier_empire
-			has_graphical_papua_region_trigger = yes
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_india_throneroom_spouse"
-
-		trigger = {
-			OR = {
-				AND = {
-					exists = primary_spouse
-					primary_spouse = {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						has_graphical_papua_region_trigger = yes
-					}
-				}
-				AND = {
-					exists = betrothed
-					betrothed = {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						has_graphical_papua_region_trigger = yes
-					}
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						exists = primary_title
-						primary_title.tier >= tier_empire
-						has_graphical_papua_region_trigger = yes
-					}
-				}
-			}
-			is_character_window_main_character = no
-		}
-	}
-
-	##########################################
-
-	# Papua, regular
-	texture = {
-		reference = "character_view/papua.dds"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_papua_region_trigger = yes }
-			}
-			trigger_else = { has_graphical_papua_region_trigger = yes }
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_india_main"
-
-		trigger = {
-			trigger_if = {
-				limit = { is_in_prison_type = house_arrest }
-				imprisoner = { has_graphical_papua_region_trigger = yes }
-			}
-			trigger_else = { has_graphical_papua_region_trigger = yes }
-			is_character_window_main_character = yes
-		}
-	}
-
-	environment = {
-		reference = "environment_cw_india_spouse"
-
-		trigger = {
-			OR = {
-				primary_spouse ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner = { has_graphical_papua_region_trigger = yes }
-					}
-					trigger_else = { has_graphical_papua_region_trigger = yes }
-				}
-				betrothed ?= {
-					trigger_if = {
-						limit = { is_in_prison_type = house_arrest }
-						imprisoner = { has_graphical_papua_region_trigger = yes }
-					}
-					trigger_else = { has_graphical_papua_region_trigger = yes }
-				}
-				AND = {
-					liege.diarch ?= this
-					liege ?= {
-						trigger_if = {
-							limit = { is_in_prison_type = house_arrest }
-							imprisoner = { has_graphical_papua_region_trigger = yes }
-						}
-						trigger_else = { has_graphical_papua_region_trigger = yes }
 					}
 				}
 			}
@@ -8979,10 +10148,48 @@ character_location_exterior = {
 		reference = "event_scenes/market_east.dds"
 
 		trigger = {
+			NOT = { government_has_flag = government_is_tribal }
 			exists = capital_province
 			capital_province = {
-				geographical_region = world_steppe
+				OR = {
+					geographical_region = world_steppe
+					geographical_region = world_tibet
+					geographical_region = world_burma
+					geographical_region = world_indochina
+					geographical_region = world_nusantara
+					geographical_region = world_papua
+				}
 			}
+		}
+	}
+
+	texture = {
+		reference = "event_scenes/market_china.dds"
+
+		trigger = {
+			NOT = { government_has_flag = government_is_tribal }
+			exists = capital_province
+			capital_province = { geographical_region = world_china }
+		}
+	}
+
+	texture = {
+		reference = "event_scenes/market_korea.dds"
+
+		trigger = {
+			NOT = { government_has_flag = government_is_tribal }
+			exists = capital_province
+			capital_province = { geographical_region = world_korea }
+		}
+	}
+
+	texture = {
+		reference = "event_scenes/market_japan.dds"
+
+		trigger = {
+			NOT = { government_has_flag = government_is_tribal }
+			exists = capital_province
+			capital_province = { geographical_region = world_japan }
 		}
 	}
 
@@ -9122,6 +10329,86 @@ character_religion_interior = {
 		reference = "environment_event_fp1_tribal_temple"
 	}
 
+	# Hinduism
+
+	texture = {
+		trigger = { religion = religion:hinduism_religion }
+		reference = "event_scenes/hindu_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:hinduism_religion }
+		reference = "environment_event_mosque"
+	}
+
+	# Jainism
+
+	texture = {
+		trigger = { religion = religion:jainism_religion }
+		reference = "event_scenes/jain_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:jainism_religion }
+		reference = "environment_event_mosque"
+	}
+
+	# Buddhist
+
+	texture = {
+		trigger = { religion = religion:buddhism_religion }
+		reference = "event_scenes/buddhist_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:buddhism_religion }
+		reference = "environment_event_mosque"
+	}
+
+	# Taoism
+
+	texture = {
+		trigger = {
+			religion = religion:taoism_religion
+		}
+		reference = "event_scenes/taoist_temple.dds"
+	}
+
+	environment = {
+		trigger = {
+			religion = religion:taoism_religion
+		}
+		reference = "environment_event_fp3_temple"
+	}
+
+	# Confucianism
+
+	texture = {
+		trigger = {
+			religion = religion:confucianism_religion
+		}
+		reference = "event_scenes/confucian_temple.dds"
+	}
+
+	environment = {
+		trigger = {
+			religion = religion:confucianism_religion
+		}
+		reference = "environment_event_fp3_temple"
+	}
+
+	# Shintoism
+
+	texture = {
+		trigger = { religion = religion:japonic_religion }
+		reference = "event_scenes/shinto_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:japonic_religion }
+		reference = "environment_event_fp3_temple"
+	}
+
 	# Fallback
 
 	texture = { reference = "event_scenes/temple.dds" }
@@ -9227,6 +10514,86 @@ religion_interior = {
 	environment = { # FP1
 		trigger = { religion = religion:germanic_religion }
 		reference = "environment_event_fp1_tribal_temple"
+	}
+
+	# Hinduism
+
+	texture = {
+		trigger = { religion = religion:hinduism_religion }
+		reference = "event_scenes/hindu_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:hinduism_religion }
+		reference = "environment_event_mosque"
+	}
+
+	# Jainism
+
+	texture = {
+		trigger = { religion = religion:jainism_religion }
+		reference = "event_scenes/jain_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:jainism_religion }
+		reference = "environment_event_mosque"
+	}
+
+	# Buddhist
+
+	texture = {
+		trigger = { religion = religion:buddhism_religion }
+		reference = "event_scenes/buddhist_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:buddhism_religion }
+		reference = "environment_event_mosque"
+	}
+
+	# Taoism
+
+	texture = {
+		trigger = {
+			religion = religion:taoism_religion
+		}
+		reference = "event_scenes/taoist_temple.dds"
+	}
+
+	environment = {
+		trigger = {
+			religion = religion:taoism_religion
+		}
+		reference = "environment_event_fp3_temple"
+	}
+
+	# Confucianism
+
+	texture = {
+		trigger = {
+			religion = religion:confucianism_religion
+		}
+		reference = "event_scenes/confucian_temple.dds"
+	}
+
+	environment = {
+		trigger = {
+			religion = religion:confucianism_religion
+		}
+		reference = "environment_event_fp3_temple"
+	}
+
+	# Shintoism
+
+	texture = {
+		trigger = { religion = religion:japonic_religion }
+		reference = "event_scenes/shinto_temple.dds"
+	}
+
+	environment = {
+		trigger = { religion = religion:japonic_religion }
+		reference = "environment_event_fp3_temple"
 	}
 
 	# Fallback
@@ -9345,6 +10712,73 @@ title_holding = {
 		}
 		reference = "holding_types/castle_mena.dds"
 	}
+	### AEP Start ###
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_china_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_china.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_korea_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_korea.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_japan_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_japan.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_tibet_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_tibet.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = castle_holding
+				exists = culture
+				culture = {
+					has_graphical_southeast_asia_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/castle_southeast_asia.dds"
+	}
+	### AEP End ###
 	texture = {
 		trigger = {
 			title_illustration_save_province_temporary = yes
@@ -9439,6 +10873,73 @@ title_holding = {
 		}
 		reference = "holding_types/city_mena.dds"
 	}
+	### AEP Start ###
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_china_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_china.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_korea_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_korea.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_japan_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_japan.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_tibet_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_tibet.dds"
+	}
+	texture = {
+		trigger = {
+			title_illustration_save_province_temporary = yes
+			scope:province = {
+				has_holding_type = city_holding
+				exists = culture
+				culture = {
+					has_graphical_southeast_asia_culture_group_trigger = yes
+				}
+			}
+		}
+		reference = "holding_types/city_southeast_asia.dds"
+	}
+	### AEP End ###
 	texture = {
 		trigger = {
 			title_illustration_save_province_temporary = yes

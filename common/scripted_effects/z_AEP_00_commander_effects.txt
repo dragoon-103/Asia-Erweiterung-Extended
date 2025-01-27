@@ -1,0 +1,89 @@
+﻿onnamusha_kill_version_randomisation_effect = {
+	random_list = {
+		10 = {
+			scope:combat_side = {
+				battle_event = {
+					key = "onnamusha_skill_killed_enemy_no_trait_v1"
+					left_portrait = root
+					right_portrait = scope:enemy_knight
+					type = death
+					target_right = yes
+				}
+			}
+			scope:enemy_knight = {
+				death = {
+					death_reason = death_decapitated
+					killer = root
+				}
+			}
+		}
+		10 = {
+			scope:combat_side = {
+				battle_event = {
+					key = "onnamusha_skill_killed_enemy_no_trait_v2"
+					left_portrait = root
+					right_portrait = scope:enemy_knight
+					type = death
+					target_right = yes
+				}
+			}
+			scope:enemy_knight = {
+				death = {
+					death_reason = death_cloven_in_half
+					killer = root
+				}
+			}
+		}
+		10 = {
+			scope:combat_side = {
+				battle_event = {
+					key = "onnamusha_skill_killed_enemy_no_trait_v3"
+					left_portrait = root
+					right_portrait = scope:enemy_knight
+					type = death
+					target_right = yes
+				}
+			}
+			scope:enemy_knight = {
+				death = {
+					death_reason = death_viciously_dismembered
+					killer = root
+				}
+			}
+		}
+		10 = {
+			scope:combat_side = {
+				battle_event = {
+					key = "onnamusha_skill_killed_enemy_no_trait_v4"
+					left_portrait = root
+					right_portrait = scope:enemy_knight
+					type = death
+					target_right = yes
+				}
+			}
+			scope:enemy_knight = {
+				death = {
+					death_reason = death_piteously_cut_down
+					killer = root
+				}
+			}
+		}
+		10 = {
+			scope:combat_side = {
+				battle_event = {
+					key = "onnamusha_skill_killed_enemy_no_trait_v5"
+					left_portrait = root
+					right_portrait = scope:enemy_knight
+					type = death
+					target_right = yes
+				}
+			}
+			scope:enemy_knight = {
+				death = {
+					death_reason = death_chopped_to_pieces
+					killer = root
+				}
+			}
+		}
+	}
+}

@@ -20,17 +20,15 @@
  innovation_mongolic_group:0 "Blue Wolf, White Doe"
  innovation_mongolic_group_desc:0 "Descended from the Blue Wolf and White Doe in the legendary nomadic tribes that were herded in the vast grasslands north of the Great Wall and south of the Yinshan Mountains, once they unite, it will pose a great threat to all surrounding Kingdoms and Empires."
 
- innovation_centralization_of_authority:0 "The Great Union"
- innovation_centralization_of_authority_desc:0 "The first Emperor of China, Qin Shi Huang, not only merged all kingdoms, but also unified weights, measurements, languages and scripts. In this way, the cohesion of the Han culture has been strengthened in an unprecedented way, allowing people with all possible accents and habits in this vast territory to communicate, trade and unite under the rule of one Emperor."
+ innovation_sinitic_bureaucracy:0 "Sinitic Bureaucracy"
+ innovation_sinitic_bureaucracy_desc:0 "The Chinese Dynasties' bureaucratic innovations, like the Imperial Examination System and Equal-Field System, made China the most prosperous nation in the Middle Ages.\n\nThese reforms influenced governance not only in China but also in neighboring countries like Japan, Korea, and Vietnam, who adapted these innovations to fit their own unique needs."
+ world_innovation_sinitic_bureaucracy:0 "Sinosphere"
  
  innovation_world_cathay:0 "Khitan's Military System"
  innovation_world_cathay_desc:0 "In history, the founder of the Liao Dynasty, Khitan Khan, chose more than 1,000 of the bravest warriors from various tribes as his private guards. His successor Khan expanded the army to 300,000 and called it the PiShi Army."
 
  innovation_world_asia_korea:0 "Hunters from Goryeo"
  innovation_world_asia_korea_desc:0 "The land of the Goryeo is covered in thick forests and mountain ranges, so they are good at making hunting tools, especially bows. If they were drafted into the army they would be very good archers."
- 
- innovation_battleships:0 "Large Warship"
- innovation_battleships_desc:0 "Developed from old warships, and protected with cowhide on the outside and tall towers on the deck, these warships were so large that soldiers could walk on them and even ride horses."
 
  innovation_horse_archery:0 "Mounted Bow Samurai"
  innovation_horse_archery_desc:0 "Japanese arches date from prehistoric times, the Jōmon period. The long, unique asymmetrical bow style with the handle below the center originated in the Yayoi culture. Arches became a symbol of authority and power. The legendary first emperor of Japan, Emperor Jimmu, is always depicted with a bow. Some Emishi tribes, including the Hitakami tribe, practice archery and have been noticed and feared by the Yamato court. The first major attempts to subdue the Emishi in the 8th century were largely unsuccessful. The imperial armies, modeled on the Chinese mainland armies, proved unsuccessful in the face of the Emishi guerrilla tactics. Following the introduction and development of mounted archery and the guerrilla tactics used by the Emishi by the Imperial forces, the army soon saw success, which eventually led to the defeat of the Emishi."
@@ -43,6 +41,8 @@
  
  innovation_outrigger_boats:1 "Outriggers"
  innovation_outrigger_boats_desc:1 "Our boats are equipped with outriggers to keep them stable in rough waters. This allows us to cross the oceans with ease while still remaining swift and maneuverable."
+ world_innovation_outrigger_boats:0 "Austronesia"
+ 
  innovation_indian_primogeniture:1 "Impartible Inheritance"
  innovation_indian_primogeniture_desc:1 "Primogeniture has been the law of the land in India since time immemorial. The responsibility for the realm, like responsibility for the family, passes from father to eldest son, undivided."
  

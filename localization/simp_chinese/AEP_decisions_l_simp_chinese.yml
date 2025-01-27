@@ -1,0 +1,18 @@
+﻿l_simp_chinese:
+#Japanese Decisions
+ form_kamakura_bakufu_decision:0 "建立鎌倉幕府"
+ form_kamakura_bakufu_decision_confirm:0 "伊佐鎌倉!"
+ form_kamakura_bakufu_decision_desc:0 "随着我们的敌人化为废墟，皇室的影响力彻底削弱，现在是源氏建立新秩序的时机。\n\n根据皇帝的诏令，我将开启一个新时代，通过武士的力量确保和谐，以将军为日本的真正统治者。"
+ form_kamakura_bakufu_decision_tooltip:0 "将建立鎌倉幕府。"
+ 
+ form_fukuhara_bakufu_decision:0 "建立福原幕府"
+ form_fukuhara_bakufu_decision_confirm:0 "伊佐福原!"
+ form_fukuhara_bakufu_decision_desc:0 "随着我们的敌人化为废墟，皇室的影响力彻底削弱，现在是平氏建立新秩序的时机。\n\n根据皇帝的诏令，我将开启一个新时代，通过武士的力量确保和谐，以将军为日本的真正统治者。"
+ form_fukuhara_bakufu_decision_tooltip:0 "将建立福原幕府。"
+ 
+ form_muromachi_bakufu_decision:0 "建立室町幕府"
+ form_muromachi_bakufu_decision_confirm:0 "伊佐室町!"
+ form_muromachi_bakufu_decision_desc:0 "随着我们的敌人化为废墟，皇室的影响力彻底削弱，现在是足利氏建立新秩序的时机。\n\n根据皇帝的诏令，我将开启一个新时代，通过武士的力量确保和谐，以将军为日本的真正统治者。"
+ form_muromachi_bakufu_decision_tooltip:0 "将建立室町幕府。"
+ 
+ ritsuryo_dismantled_tt:0 "律令制度将被废除，所有非皇室的[administrative|E]附庸将转变为[feudal|E]"

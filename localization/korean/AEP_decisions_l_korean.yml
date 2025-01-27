@@ -1,0 +1,18 @@
+﻿l_korean:
+#Japanese Decisions
+ form_kamakura_bakufu_decision:0 "카마쿠라 쇼군을 수립하다"
+ form_kamakura_bakufu_decision_confirm:0 "이자 카마쿠라!"
+ form_kamakura_bakufu_decision_desc:0 "우리의 적들이 폐허가 되고 황실의 영향력이 철저히 약화된 지금, 미나모토 가문이 새로운 질서를 세울 때가 무르익었습니다.\n\n황제의 칙령에 따라, 나는 사무라이의 힘으로 조화를 확보하고 쇼군을 일본의 진정한 통치자로 하는 새로운 시대를 열 것입니다."
+ form_kamakura_bakufu_decision_tooltip:0 "카마쿠라 쇼군이 수립될 것이다."
+ 
+ form_fukuhara_bakufu_decision:0 "후쿠하라 쇼군을 수립하다"
+ form_fukuhara_bakufu_decision_confirm:0 "이자 후쿠하라!"
+ form_fukuhara_bakufu_decision_desc:0 "우리의 적들이 폐허가 되고 황실의 영향력이 철저히 약화된 지금, 다이라 가문이 새로운 질서를 세울 때가 무르익었습니다.\n\n황제의 칙령에 따라, 나는 사무라이의 힘으로 조화를 확보하고 쇼군을 일본의 진정한 통치자로 하는 새로운 시대를 열 것입니다."
+ form_fukuhara_bakufu_decision_tooltip:0 "후쿠하라 쇼군이 수립될 것이다."
+ 
+ form_muromachi_bakufu_decision:0 "무로마치 쇼군을 수립하다"
+ form_muromachi_bakufu_decision_confirm:0 "이자 무로마치!"
+ form_muromachi_bakufu_decision_desc:0 "우리의 적들이 폐허가 되고 황실의 영향력이 철저히 약화된 지금, 아시카가 가문이 새로운 질서를 세울 때가 무르익었습니다.\n\n황제의 칙령에 따라, 나는 사무라이의 힘으로 조화를 확보하고 쇼군을 일본의 진정한 통치자로 하는 새로운 시대를 열 것입니다."
+ form_muromachi_bakufu_decision_tooltip:0 "무로마치 쇼군이 수립될 것이다."
+ 
+ ritsuryo_dismantled_tt:0 "리쓰료 시스템은 폐지되고 모든 비제국 [administrative|E] 신하는 [feudal|E]로 전환될 것입니다."

@@ -52,7 +52,9 @@
  river_gan_yujue:0 "赣"
  river_urja:0 "乌尔贾"
  river_wangji:0 "王吉"
+ river_red_river:0 "红河"
  river_chao_phraya:0 "昭披耶"
+ river_tanintharyi:0 "德林达依河"
  river_yangtze:0 "长江"
  river_yellow_river:0 "黄河"
  river_mekong:0 "湄公"
@@ -62,6 +64,7 @@
  river_bahan:0 "巴汉"
  river_kayan:0 "卡延"
  river_amur:0 "黑龙"
+ river_pearl_river:0 "粵江"
  
  # SEA ZONES
  sea_east_china_sea:0 "东海"

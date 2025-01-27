@@ -1,8 +1,9 @@
 ﻿l_russian:
   #Tribal Era 
  culture_parameter_unlock_maa_samurai: "Может завербовать [GetMaA('samurai').GetName] как [men_at_arms|E]" 
+ culture_parameter_unlock_maa_sohei: "Может завербовать [GetMaA('sohei').GetName] как [men_at_arms|E]" 
  culture_parameter_unlock_maa_emishi: "Может завербовать [GetMaA('emishi_riders').GetName] как [men_at_arms|E]" 
- culture_parameter_unlock_maa_han: "Может завербовать [GetMaA('chinese_pikemen').GetName] как [men_at_arms|E]" 
+ culture_parameter_unlock_maa_ji_pikemen: "Может завербовать [GetMaA('ji_pikemen').GetName] как [men_at_arms|E]" 
  culture_parameter_unlock_maa_khitan: "Может завербовать [GetMaA('heavy_khitan_cavalry').GetName] как [men_at_arms|E]" 
  culture_parameter_unlock_maa_hwarang: "Может завербовать [GetMaA('hwarang').GetName] как [men_at_arms|E]" 
  culture_parameter_unlock_maa_gaemamusa: "Может завербовать [GetMaA('gaemamusa').GetName] как [men_at_arms|E]" 
@@ -22,10 +23,10 @@
  emishi_riders: "Всадники Эмиши" 
  emishi_riders_flavor: "Эмиши известны как превосходные кавалеристы, чья свирепость привела их к победе в многочисленных сражениях, несмотря на значительное превосходство в численности." 
   
- tradition_chinese_pikemen_name: "Китайские пикинеры" 
- tradition_chinese_pikemen_desc: "Эти закованные в броню пикинеры, вооруженные копьем Цзи, составляют костяк любой китайской армии." 
- chinese_pikemen: "Китайские пикинеры" 
- chinese_pikemen_flavor: "Эти закованные в броню пикинеры, вооруженные копьем Цзи, составляют костяк любой китайской армии." 
+ tradition_shumiyuan_name: "Шумиюань" 
+ tradition_shumiyuan_desc: "Шумиюань, или Бюро военных дел, курирует управление Императорской армией, с основным акцентом на защиту империи и, при необходимости, проекцию силы за её пределы." 
+ ji_pikemen: "Ji Pikemen" 
+ ji_pikemen_flavor: "Эти закованные в броню пикинёры, вооружённые копьём Цзи, составляют основу любой китайской армии." 
   
  tradition_khitan_heavy_cavalry_name: "Кхитайская тяжелая кавалерия" 
  tradition_khitan_heavy_cavalry_desc: "Кхитанцы славятся своей тяжелой кавалерией, благодаря которой они не раз выходили победителями из схваток с соседями." 
@@ -42,13 +43,13 @@
  gaemamusa: "Гэмамуса" 
  gaemamusa_flavor: "Отличаясь богато украшенными плюмажами и тяжелыми доспехами, гаемамусы являются одной из самых впечатляющих кавалерийских сил в Восточной Азии." 
   
- tradition_tiger_sons_name: "Сыновья тигра" 
- tradition_tiger_sons_desc: "Сыны Тигра, или Лоцзюзи, составляли элитное ядро армии Наньчжао и отбирались только из самых сильных воинов. Трусость была нетерпима среди луоцзюйцев, отступление каралось смертью." 
+ tradition_luojuzi_name: "Сыновья тигра" 
+ tradition_luojuzi_desc: "Сыны Тигра, или Лоцзюзи, составляли элитное ядро армии Наньчжао и отбирались только из самых сильных воинов. Трусость была нетерпима среди луоцзюйцев, отступление каралось смертью." 
  luojuzi: "Луодзюзи" 
  luojuzi_flavor: "Сыны Тигра, или Лоцзюзи, составляли элитное ядро армии Наньчжао и отбирались только из самых сильных воинов. Трусость была нетерпима среди луоцзюйцев, отступление каралось смертью." 
   
- tradition_warrior_caste_name: "Кшатра" 
- tradition_warrior_caste_desc: "Кшатры составляли воинскую аристократию Кхмерской империи и были хорошо известны своей доблестью в бою." 
+ tradition_ksatra_name: "Кшатра" 
+ tradition_ksatra_desc: "Кшатры составляли воинскую аристократию Кхмерской империи и были хорошо известны своей доблестью в бою." 
  ksatra: "Кшатра" 
  ksatra_flavor: "Кшатры составляли воинскую аристократию Кхмерской империи и были хорошо известны своей доблестью в бою." 
   

@@ -1,8 +1,9 @@
 ﻿l_simp_chinese:
  # Tribal Era
  culture_parameter_unlock_maa_samurai:0 "可以招募[GetMaA('samurai').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_sohei:0 "可以招募[GetMaA('sohei').GetName]为[men_at_arms|E]"
  culture_parameter_unlock_maa_emishi:0 "可以招募[GetMaA('emishi_riders').GetName]为[men_at_arms|E]"
- culture_parameter_unlock_maa_han:0 "可以招募[GetMaA('chinese_pikemen').GetName]为[men_at_arms|E]"
+ culture_parameter_unlock_maa_ji_pikemen:0 "可以招募[GetMaA('ji_pikemen').GetName]为[men_at_arms|E]"
  culture_parameter_unlock_maa_khitan:0 "可以招募[GetMaA('heavy_khitan_cavalry').GetName]为[men_at_arms|E]"
  culture_parameter_unlock_maa_hwarang:0 "可以招募[GetMaA('hwarang').GetName]为[men_at_arms|E]"
  culture_parameter_unlock_maa_gaemamusa:0 "可以招募[GetMaA('gaemamusa').GetName]为[men_at_arms|E]"
@@ -22,10 +23,10 @@
  emishi_riders:0 "虾夷骑马者"
  emishi_riders_flavor:0 "虾夷以精湛的骑兵而闻名，他们的凶猛战斗能力使他们在寡不敌众的情况下赢得了无数次战斗。"
  
- tradition_chinese_pikemen_name:0 "中国长枪兵"
- tradition_chinese_pikemen_desc:0 "这些长枪兵身着铠甲，手持冀矛，是中国军队的核心力量。"
- chinese_pikemen:0 "中国长枪兵"
- chinese_pikemen_flavor:0 "这些身穿铠甲的长枪兵手持冀矛，是中国军队的中坚力量。"
+ tradition_shumiyuan_name:0 "樞密院"
+ tradition_shumiyuan_desc:0 "枢密院负责监督帝国军队的管理，其主要目标是保卫帝国，并在必要时将实力投射到帝国以外的地区。"
+ ji_pikemen:0 "戟歩兵"
+ ji_pikemen_flavor:0 "这些身披铠甲、手持戟的长枪兵是任何中国军队的中坚力量。"
  
  tradition_khitan_heavy_cavalry_name:0 "契丹重骑兵"
  tradition_khitan_heavy_cavalry_desc:0 "契丹以强大的重骑兵闻名，他们卓越的战斗能力在多次与邻国的较量中取得了胜利。"
@@ -42,13 +43,13 @@
  gaemamusa:0 "鎧馬武士" #개마무사
  gaemamusa_flavor:0 "鎧馬武士以华丽的羽毛和厚重的重甲而闻名，是东亚最令人印象深刻的骑兵部队之一。"
  
- tradition_tiger_sons_name:0 "老虎之子"
- tradition_tiger_sons_desc:0 "虎子是南诏军的精锐核心，只从最强大的战士中选拔出来。他们勇武无比，绝不容许懦弱和退却。"
+ tradition_luojuzi_name:0 "老虎之子"
+ tradition_luojuzi_desc:0 "虎子是南诏军的精锐核心，只从最强大的战士中选拔出来。他们勇武无比，绝不容许懦弱和退却。"
  luojuzi:0 "老虎之子"
  luojuzi_flavor:0 "虎子是南诏军队的精锐核心，他们只从最强大的战士中选拔而成。洛居子不容许懦弱，一旦退却必定以死谢罪。"
  
- tradition_warrior_caste_name:0 "刹帝" #क्षत्र
- tradition_warrior_caste_desc:0 "刹帝构成了高棉帝国的武士贵族，以在战斗中的英勇而闻名。"
+ tradition_ksatra_name:0 "刹帝" #क्षत्र
+ tradition_ksatra_desc:0 "刹帝构成了高棉帝国的武士贵族，以在战斗中的英勇而闻名。"
  ksatra:0 "刹帝" #क्षत्र
  ksatra_flavor:0 "刹帝是高棉帝国的武士贵族，以在战斗中的英勇而著称。"
  

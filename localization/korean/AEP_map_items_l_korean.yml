@@ -52,7 +52,9 @@
  river_gan_yujue:0 "간"
  river_urja:0 "우르자"
  river_wangji:0 "왕지"
+ river_red_river:0 "홍강"
  river_chao_phraya:0 "짜오프라야"
+ river_tanintharyi:0 "따닝다이강"
  river_yangtze:0 "장하"
  river_yellow_river:0 "황하"
  river_mekong:0 "메콩"
@@ -62,6 +64,7 @@
  river_bahan:0 "바한"
  river_kayan:0 "카얀"
  river_amur:0 "아무르"
+ river_pearl_river:0 "주강"
  
  # SEA ZONES
  sea_east_china_sea:0 "동중국해"

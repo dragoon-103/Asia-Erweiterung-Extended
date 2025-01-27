@@ -1,13 +1,30 @@
 ﻿l_german:
-#Japanese
- councillor_court_chaplain_shinto:0 "Shasō" #社僧
- councillor_court_chaplain_shinto_possessive:0 "Shaso" #社僧
-#Purely Shinto
- #councillor_court_chaplain_shinto:0 "Gūji" #宮司
- #councillor_court_chaplain_shinto_possessive:0 "Gūji" #宮司
-#Korean
- councillor_court_chaplain_koreanic_religion:0 "Mudang" #무당/巫堂
- councillor_court_chaplain_koreanic_religion_possessive:0 "Mudang" #무당/巫堂
-#Tai
- councillor_court_chaplain_tai_religion:0 "Mophi" # หมอผี
- councillor_court_chaplain_tai_religion_possessive:0 "Mophi" # หมอผี
+#Shintoism
+ councillor_court_chaplain_shinto_county:0 "Shasō" #社僧
+ councillor_court_chaplain_shinto_county_possessive:0 "des Shasō"
+ councillor_court_chaplain_shinto_duchy:0 "Shasō" #社僧
+ councillor_court_chaplain_shinto_duchy_possessive:0 "des Shasō"
+ councillor_court_chaplain_shinto_kingdom:0 "Saishu" #祭主
+ councillor_court_chaplain_shinto_kingdom_possessive:0 "des Saishu"
+ councillor_court_chaplain_shinto_empire:0 "Saishu" #祭主
+ councillor_court_chaplain_shinto_empire_possessive:0 "des Saishu"
+
+#Utaki Shintoism
+ councillor_court_chaplain_utaki_county:0 "Noro" #祝女
+ councillor_court_chaplain_utaki_county_possessive:0 "des Noro"
+ councillor_court_chaplain_utaki_duchy:0 "Noro" #祝女
+ councillor_court_chaplain_utaki_duchy_possessive:0 "des Noro"
+ councillor_court_chaplain_utaki_kingdom:0 "Ufu-Noro" #大祝女
+ councillor_court_chaplain_utaki_kingdom_possessive:0 "des Ufu-Noro"
+ councillor_court_chaplain_utaki_empire:0 "Ufu-Noro" #大祝女
+ councillor_court_chaplain_utaki_empire_possessive:0 "des Ufu-Noro"
+
+#Korean Shamanism (Muism)
+ councillor_court_chaplain_muism_county:0 "Mudang" #무당/巫堂
+ councillor_court_chaplain_muism_county_possessive:0 "des Mudang"
+ councillor_court_chaplain_muism_duchy:0 "Mudang" #무당/巫堂
+ councillor_court_chaplain_muism_duchy_possessive:0 "des Mudang"
+ councillor_court_chaplain_muism_kingdom:0 "Cheonmudang" #천무당/天巫堂
+ councillor_court_chaplain_muism_kingdom_possessive:0 "des Cheonmudang"
+ councillor_court_chaplain_muism_empire:0 "Cheonmudang" #천무당/天巫堂
+ councillor_court_chaplain_muism_empire_possessive:0 "des Cheonmudang"

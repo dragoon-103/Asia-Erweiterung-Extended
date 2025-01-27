@@ -1,0 +1,114 @@
+﻿l_polish:
+ koreanic_religion:0 "Muism" # 무/巫俗
+ koreanic_religion_adj:0 "Musok" # 무속/巫俗
+ koreanic_religion_adherent:0 "Muist" # 무속신자/巫弟子
+ koreanic_religion_adherent_plural:0 "Muists" # 무속신자/巫弟子
+ koreanic_religion_desc:0 "Muism, also known as Korean shamanism, is a folk religion in Korea that revolves around the practice of baksu-mudang, or simply mudang for both male and female shamans. Mudang, specifically referring to female shamans, and baksu, denoting male shamans, play a central role in Muism. They act as intermediaries between humans and the divine realm.\n\nMudang engage in negotiations with the gods, seeking their guidance and assistance in various human matters. They accomplish this through the performance of rituals known as gut. These gut rituals are significant occasions, often observed as festive events that encompass entire villages, fostering a sense of community and celebration."
+ 
+ musok:0 "Muism" # 무/巫俗
+ musok_adj:0 "Musok" # 무속/巫俗
+ musok_adherent:0 "Muist" # 무속신자/巫弟子
+ musok_adherent_plural:0 "Muists" # 무속신자/巫弟子
+ musok_desc:0 "Muism, also known as Korean shamanism, is a folk religion in Korea that revolves around the practice of baksu-mudang, or simply mudang for both male and female shamans. Mudang, specifically referring to female shamans, and baksu, denoting male shamans, play a central role in Muism. They act as intermediaries between humans and the divine realm.\n\nMudang engage in negotiations with the gods, seeking their guidance and assistance in various human matters. They accomplish this through the performance of rituals known as gut. These gut rituals are significant occasions, often observed as festive events that encompass entire villages, fostering a sense of community and celebration."
+ musok_old:0 "Old Muism"
+ musok_old_adj:0 "Old Muism"
+ musok_old_adherent:0 "Old Muist"
+ musok_old_adherent_plural:0 "Old Muists"
+ 
+ tamna_musok:0 "Tamna Muism" # 탐라무/耽羅巫俗
+ tamna_musok_adj:0 "Tamna Musok" # 탐라무/耽羅巫俗
+ tamna_musok_adherent:0 "Tamna Muist" # 탐라무신자/耽羅巫弟子
+ tamna_musok_adherent_plural:0 "Tamna Muists" # 탐라무신자/耽羅巫弟子
+ tamna_musok_desc:0 "Muism practiced in Tamna has a distinct character, primarily influenced by its geographical separation from the mainland Korean Peninsula. Muists in Tamna hold beliefs centered around the heavenly god Cheonjiwang, along with his two sons. The eldest son, Daebyeolwang, is regarded as the ruler of the netherworld, while the second son, Sobyeolwang, governs the earthly realm. According to their beliefs, the source of worldly chaos stems from Sobyeolwang's cunning actions, through which he managed to seize control of the earth, despite Daebyeolwang being more capable and deserving of the role."
+ tamna_musok_old:0 "Old Tamna Muism"
+ tamna_musok_old_adj:0 "Old Tamna Muism"
+ tamna_musok_old_adherent:0 "Old Tamna Muist"
+ tamna_musok_old_adherent_plural:0 "Old Tamna Muists"
+ 
+ dongmyeong_sinhwa:0 "Dongmyeong Sinhwa" # 동명신화/東明神話
+ dongmyeong_sinhwa_adj:0 "Dongmyeong Sinhwa" # 동명신화/東明神話
+ dongmyeong_sinhwa_adherent:0 "Dongmyeong Sinhwa Adherent" # 동명신화신자/東明神話弟子
+ dongmyeong_sinhwa_adherent_plural:0 "Dongmyeong Sinhwa Adherent" # 동명신화신자/東明神話弟子
+ dongmyeong_sinhwa_desc:0 "King Dongmyeong, the grandson of the Heavenly Emperor, is revered as the founder of Buyeo and Goguryeo, having a mythical origin tale. Legend has it that he was born from an egg and eventually ascended to heaven. His first son succeeded him as the ruler, while his sons from a second wife ventured southward and established Baekje.\n\nIn addition to its historical significance, Korean folk religion, which incorporates elements of Muism, holds a loose focal point around shamans known as baksu-mudang or simply mudang. Female shamans are referred to as mudang, while male shamans are called baksu. Mudang play a crucial role as intermediaries between humans and the divine realm. They engage in negotiations with the gods and seek their guidance in human affairs through sacred rituals known as gut. These rituals often take the form of vibrant village-wide festivals, celebrating the connection between the spiritual and human realms."
+ dongmyeong_sinhwa_old:0 "Old Dongmyeong Sinhwa"
+ dongmyeong_sinhwa_old_adj:0 "Old Dongmyeong Sinhwa"
+ dongmyeong_sinhwa_old_adherent:0 "Old Dongmyeong Sinhwa Adherent"
+ dongmyeong_sinhwa_old_adherent_plural:0 "Old Dongmyeong Sinhwa Adherent"
+ 
+ silla_sinhwa:0 "Silla Sinhwa" # 신라신화/新羅神話
+ silla_sinhwa_adj:0 "Silla Sinhwa" # 신라신화/新羅神話
+ silla_sinhwa_adherent:0 "Silla Sinhwa Adherent" # 신라신화신자/新羅神話弟子
+ silla_sinhwa_adherent_plural:0 "Silla Sinhwa Adherent" # 신라신화신자/新羅神話弟子
+ silla_sinhwa_desc:0 "Early Silla possessed a unique political system characterized by the rotation of power among three branches of the Pak dynasty, leading to the emergence of three distinct founding narratives. Hyeokgeose, hailing from the Pak house, is attributed as the founder of Silla. According to the legend, he was born from a remarkable oversized egg, hence receiving the name "Pak," which means "gourd" in reference to the egg's appearance.\n\nOn the other hand, the progenitor of the Seok clan was Talhae, a prince from a foreign kingdom situated in the northeastern region across the East Sea. His birth, believed to be accompanied by ill omens, led the king to order his abandonment on a ship. Fate guided the ship to the shores of Silla, where Talhae was discovered. His surname was derived from the magpie that perched on the ship, a symbolic connection to his fortuitous arrival.\n\nThe ancestor of the Kim lineage, which would later monopolize the Silla throne, was Alji. He was reputedly discovered inside a golden chest, bestowing upon him an air of mystique and grandeur."
+ silla_sinhwa_old:0 "Old Silla Sinhwa"
+ silla_sinhwa_old_adj:0 "Old Silla Sinhwa"
+ silla_sinhwa_old_adherent:0 "Old Silla Sinhwa Adherent"
+ silla_sinhwa_old_adherent_plural:0 "Old Silla Sinhwa Adherent"
+ 
+ goryeo_sinhwa:0 "Goryeo Sinhwa" # 고려신화/高麗神話
+ goryeo_sinhwa_adj:0 "Goryeo Sinhwa" # 고려신화/高麗神話
+ goryeo_sinhwa_adherent:0 "Goryeo Sinhwa Adherent" # 고려신화신자/高麗神話弟子
+ goryeo_sinhwa_adherent_plural:0 "Goryeo Sinhwa Adherent" # 고려신화신자/高麗神話弟子
+ goryeo_sinhwa_desc:0 "The establishment of Goryeo is rooted in a rich tapestry of ancestral veneration for Geon Wang, the founder of Goryeo. Geon's lineage can be traced back to Hogeyong, his sixth-generation predecessor, who is known to have entered into a sacred union with the mountain goddess.\n\nAmong all the esteemed ancestors, the most prominent figure is Jegeon, Geon's grandfather. According to legend, Jegeon was believed to be the illegitimate son of Suzong, a ruler from the Tang Dynasty. It is said that he gained the favor of the Dragon King and was rewarded by marrying a dragoness. This union was considered a significant exchange, solidifying his connection with the divine realm and invoking the blessings of the Dragon King."
+ goryeo_sinhwa_old:0 "Old Goryeo Sinhwa"
+ goryeo_sinhwa_old_adj:0 "Old Goryeo Sinhwa"
+ goryeo_sinhwa_old_adherent:0 "Old Goryeo Sinhwa Adherent"
+ goryeo_sinhwa_old_adherent_plural:0 "Old Goryeo Sinhwa Adherent"
+
+ musok_high_god_name:0 "Hwanin" # 환인/桓因, Sky-God
+ musok_high_god_name_possessive:0 "Hwanin's"
+ musok_high_god_name_alternate:0 "Okhwangcheonjon" # 옥황천존/玉皇天尊
+ musok_high_god_name_alternate_possessive:0 "Okhwangcheonjon's"
+ musok_good_god_pungbaek:0 "Pungbaek" # 풍백/風伯
+ musok_good_god_usa:0 "Usa" # 우사/雨師
+ musok_good_god_unsa:0 "Unsa" # 운사/雲師
+ musok_good_god_hwanung:0 "Hwanung" #환웅/桓雄
+ musok_devil_name:0 "Yeokkwi" # 역귀/疫鬼, Plague-Ghost
+ musok_devil_name_possessive:0 "Yeokkwi's"
+ musok_evil_god_kumiho:0 "Kumiho" # 구미호/九尾狐, nine-tailed fox who can transform into beautiful girl - wait, does this count as a furry?
+ musok_evil_god_dueoksini:0 "Dueoksini" # 두억신/頭抑神, somewhat similar to yakṣa
+ musok_death_deity_name:0 "Yeomna Daewang" # 염나대왕/閻羅大王
+ musok_death_deity_name_possessive:0 "Yeomna Daewang's"
+ musok_religious_symbol:0 "Samtaeguek" # 삼태극/三太極
+ musok_religious_text:0 "Bonpuri" # 본풀이
+ musok_religious_text_2:0 "Taryeong" # 타령
+ musok_religious_text_3:0 "Sori" # 소리
+ musok_witchgodname:0 "Baridegi" # 발공주/鉢里公主
+ musok_witchgodname_possessive:0 "Baridegi's"
+
+ musok_creator_god_name:0 "Magohalmi" # 마고대모/麻姑大母(?), Giantess
+ musok_creator_god_name_possessive:0 "Mago's"
+ musok_health_god_name:0 "Cheoyong" # 처용/處容, 867 is kinda too early but it fits I guess
+ musok_health_god_name_possessive:0 "Cheoyong's"
+ musok_fertility_god_name:0 "Samshinhalmi" # 삼신대모/三神大母(?), Goddess of birth 
+ musok_fertility_god_name_possessive:0 "Samshinhalmi's"
+ musok_wealth_god_name:0 "Chilseongsin" # 칠성신/七星神, Gods of Big Dipper
+ musok_wealth_god_name_possessive:0 "Chilseongsin's"
+ musok_household_god_name:0 "Seongjusin" # 성주신/城主神
+ musok_household_god_name_possessive:0 "Seongjusin's"
+ musok_fate_god_name:0 "Gameunjang-agi" # 감은장아기
+ musok_fate_god_name_possessive:0 "Gameunjang-agi's"
+ musok_knowledge_god_name:0 "Sansinnyeong" # 산신영/山神靈
+ musok_knowledge_god_name_possessive:0 "Sansinnyeong's"
+ musok_war_god_name:0 "Jakdusinjang" # 작도신장/斫刀神將
+ musok_war_god_name_possessive:0 "Jakdusinjang's"
+ musok_trickster_god_name:0 "Dokkaebi" # 도깨비
+ musok_trickster_god_name_possessive:0 "Dokkaebi's"
+ musok_night_god_name:0 "$musok_high_god_name$" # Alternatively Ilwol or Taebyeol and Sobyeol, Iljijeong and Woljijeong # Yeonorang and Seonyeo represent the sun and the moon and are recorded as male and female, who were exiled(?) to Japan and became the rulers
+ musok_night_god_name_possessive:0 "$musok_high_god_name_possessive$"
+ musok_water_god_name:0 "Yongwang" # 용왕/龍王
+ musok_water_god_name_possessive:0 "Yongwang's"
+ 
+ musok_pantheon_name:0 "Cheonjisinmyeong" # 천지신명/天地神明
+ musok_house_of_worship:0 "Seonangdang" # 성황당/城隍堂
+ musok_house_of_worship_plural:0 "Seonangdang"
+ musok_religious_head_title:0 "Chachaung" # 차차웅/次次雄
+ musok_religious_head_title_name:0 "Chachaung" # 차차웅/次次雄
+ musok_devotee_male:0 "Baksu" # 박수/博數
+ musok_devotee_male_plural:0 "Baksu"
+ musok_devotee_female:0 "Mudang" # 무당/巫堂
+ musok_devotee_female_plural:0 "Mudang"
+ musok_alt_priest_term:0 "Mudang"
+ musok_divine_realm:0 "Cheonsang" # 천상/天上
+ musok_positive_afterlife:0 "Geungnak" # 극낙/極樂
+ musok_negative_afterlife:0 "Jiok" # 지옥/地獄

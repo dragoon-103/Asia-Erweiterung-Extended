@@ -1,0 +1,65 @@
+﻿l_polish:
+ building_type_AEP_wat_phu_01:0 "Wat Phu"
+ building_type_AEP_wat_phu_01_desc:0 "Wat Phu, dedicated to the Hindu god Shiva, attracted devotees who paid homage through rituals and prayers, serving as a symbol of the power and authority of the Khmer elite. The construction of grand temples, like Wat Phu, played a role in transmitting religious and cultural knowledge, including rituals and traditional craftsmanship."
+ building_AEP_wat_phu_01:0 "Wat Phu (Early)"
+ building_AEP_wat_phu_01_desc:0 "$building_type_AEP_wat_phu_01_desc$"
+ 
+ building_type_AEP_wat_phu_02:0 "Wat Phu"
+ building_type_AEP_wat_phu_02_desc:0 "$building_type_AEP_wat_phu_01_desc$"
+ building_AEP_wat_phu_02:0 "$building_type_AEP_wat_phu_02$"
+ building_AEP_wat_phu_02_desc:0 "$building_type_AEP_wat_phu_02_desc$"
+
+ building_type_AEP_muaro_jambi_temple_01:0 "Muaro Jambi Temple"
+ building_type_AEP_muaro_jambi_temple_01_desc:0 "The Muaro Jambi Temple complex, showcasing a fusion of Hindu and Buddhist styles, served as a vital cultural and spiritual hub in the Srivijaya Empire. These grand temple complexes symbolized political and economic dominance, also functioning as centers of education where monks and scholars taught various aspects of culture, art, science, and religion."
+ building_AEP_muaro_jambi_temple_01:0 "$building_type_AEP_muaro_jambi_temple_01$"
+ building_AEP_muaro_jambi_temple_01_desc:0 "$building_type_AEP_muaro_jambi_temple_01_desc$"
+
+ building_type_AEP_preah_vihear_01:0 "Preah Vihear"
+ building_type_AEP_preah_vihear_01_desc:0 "Preah Vihear, dedicated to the Hindu god Shiva in the form of Najatara, stands atop a cliff with a narrow stairway, symbolizing the uphill path of faith. The complex, serving as a ritual and royal ceremony site, also houses libraries where historical archives of the kingdom are recorded."
+ building_AEP_preah_vihear_01:0 "Preah Vihear (Early)"
+ building_AEP_preah_vihear_01_desc:0 "$building_type_AEP_preah_vihear_01_desc$"
+ 
+ building_type_AEP_preah_vihear_02:0 "Preah Vihear"
+ building_type_AEP_preah_vihear_02_desc:0 "$building_type_AEP_preah_vihear_01_desc$"
+ building_AEP_preah_vihear_02:0 "$building_type_AEP_preah_vihear_02$"
+ building_AEP_preah_vihear_02_desc:0 "$building_type_AEP_preah_vihear_02_desc$"
+ 
+ building_type_AEP_muang_sua_01:0 "Muang Sua" # Luang Prabang
+ building_type_AEP_muang_sua_01_desc:0 "Due to its rich history and strategic location at the confluence of the Mekong and Nam Khan rivers, the ancient city of Muang Sua is a cultural treasure displayed in its well-preserved temples and structures."
+ building_AEP_muang_sua_01:0 "$building_type_AEP_muang_sua_01$"
+ building_AEP_muang_sua_01_desc:0 "$building_type_AEP_muang_sua_01_desc$"
+ 
+ building_type_AEP_kandarpapura_01:0 "Kandarpapura" # Huế
+ building_type_AEP_kandarpapura_01_desc:0 "Kandarpapura, the cradle of a royal lineage, was a pivotal center in the fertile Gio Linh area at Navap, symbolized by the statue-linga in the temple dedicated to Indrakanteshvara, signifying its role as the political, religious, and cultural hub of its time."
+ building_AEP_kandarpapura_01:0 "$building_type_AEP_kandarpapura_01$"
+ building_AEP_kandarpapura_01_desc:0 "$building_type_AEP_kandarpapura_01_desc$"
+ 
+ building_type_AEP_angkor_wat_01:0 "Angkor Wat"
+ building_type_AEP_angkor_wat_01_desc:0 "Angkor Wat, the famed city of temples, is a revered religious site devoted to Vishnu. Its intricate bas-reliefs, towering spires, and expansive courtyards distinguish it among holy places. Representing Mount Meru, the abode of gods, Angkor Wat's five towers symbolize its peaks, the walls represent surrounding mountain ranges, and the moat signifies the sea."
+ building_AEP_angkor_wat_01:0 "$building_type_AEP_angkor_wat_01$"
+ building_AEP_angkor_wat_01_desc:0 "$building_type_AEP_angkor_wat_01_desc$"
+
+ building_type_AEP_borobudur_01:0 "Borobudur"
+ building_type_AEP_borobudur_01_desc:0 "Borobudur is a temple constructed to honor Buddha and guide pilgrims on a spiritual journey to enlightenment. Its architectural layout symbolizes Buddhist cosmology, with nine stacked platforms representing the stages of enlightenment."
+ building_AEP_borobudur_01:0 "$building_type_AEP_borobudur_01$"
+ building_AEP_borobudur_01_desc:0 "$building_type_AEP_borobudur_01_desc$"
+
+ building_type_AEP_si_thep_01:0 "Si Thep"
+ building_type_AEP_si_thep_01_desc:0 "Si Thep is a unique pair of twin towns surrounded by moats, showcasing ancient landmarks like Khao Klang Nok and Khao Thamorrat Cave. These sites proudly display the architectural, artistic, and religious heritage of the Dvaravati culture, heavily influenced by Hinduism. The Si Thep School of Art, inspired by these traditions, has influenced the artistic practices of later Southeast Asian civilizations."
+ building_AEP_si_thep_01:0 "Si Thep (Early)"
+ building_AEP_si_thep_01_desc:0 "$building_type_AEP_si_thep_01_desc$"
+ 
+ building_type_AEP_si_thep_02:0 "Si Thep"
+ building_type_AEP_si_thep_02_desc:0 "$building_type_AEP_si_thep_01_desc$"
+ building_AEP_si_thep_02:0 "$building_type_AEP_si_thep_02$"
+ building_AEP_si_thep_02_desc:0 "$building_type_AEP_si_thep_02_desc$"
+ 
+ building_type_AEP_sukhothai_01:0 "Sukhothai"
+ building_type_AEP_sukhothai_01_desc:0 "Sukhothai, initially a Khmer outpost, became the capital of the Kingdom of Sukhothai in 1238 following a rebellion led by Pho Khun Bangklanghao (later known as Si Indradit). Despite not being the earliest Thai center of power, the establishment of Sukhothai traditionally marks the beginning of the Thai nation, and is celebrated among the Thais for its historical significance."
+ building_AEP_sukhothai_01:0 "$building_type_AEP_sukhothai_01$"
+ building_AEP_sukhothai_01_desc:0 "$building_type_AEP_sukhothai_01_desc$"
+
+ building_type_AEP_phra_prang_sam_yot_01:0 "Phra Prang Sam Yot"
+ building_type_AEP_phra_prang_sam_yot_01_desc:0 "Phra Prang Sam Yot temple is renowned for its unique architecture, featuring three towers adorned with intricate carvings dedicated to the Hindu deity Shiva. Skilled craftsmanship is evident in detailed sculptures depicting scenes from epic narratives and stories of gods. The façade is decorated with mythical creatures, divine beings, and symbolic motifs, adding to its charm."
+ building_AEP_phra_prang_sam_yot_01:0 "$building_type_AEP_phra_prang_sam_yot_01$"
+ building_AEP_phra_prang_sam_yot_01_desc:0 "$building_type_AEP_phra_prang_sam_yot_01_desc$"

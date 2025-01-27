@@ -1,0 +1,60 @@
+﻿scripted_trigger wrong_gender_for_fighting_in_faith_trigger = {
+	#Has access to the appropriate cultural parameter.
+	OR = {
+		culture = { has_cultural_parameter = has_access_to_shieldmaidens }
+		culture = { has_cultural_parameter = has_access_to_onnamusha }
+	}
+	trigger_if = { # Has the Royal Court and thus can modify pillars
+		limit = {
+			has_dlc_feature = diverge_culture # Can modify pillars
+		}
+		OR = {
+			AND = {
+				culture = { has_cultural_parameter = martial_custom_male_only_combatant }
+				is_female = yes
+			}
+			AND = {
+				culture = { has_cultural_parameter = martial_custom_female_only_combatant }
+				is_male = yes
+			}
+		}
+	}
+	trigger_else = { # Does not have the Royal Court and thus combatant is governed by faith
+		OR = {
+			AND = {
+				faith = { has_doctrine_parameter = combatant_must_be_male_if_no_roco }
+				is_female = yes
+			}
+			AND = {
+				faith = { has_doctrine_parameter = combatant_must_be_female_if_no_roco }
+				is_male = yes
+			}
+		}
+	}
+}
+
+scripted_trigger likely_to_be_offended_list_trigger = {
+	trigger_if = { # Has the Royal Court and thus can modify pillars
+		limit = { has_dlc_feature = diverge_culture }
+		culture = {
+			NOT = { has_cultural_parameter = martial_custom_equal_combatant	}
+		}
+	}
+	trigger_else = {
+		#Separate religions already think your ways are terrible already, co-religionists think you're making them look bad.
+		religion = root.religion
+		#No bias, no problem.
+		faith = {
+			NOT = { has_doctrine_parameter = combatant_can_be_either_gender_if_no_roco }
+		}
+	}
+	culture = {
+		# Warrior by merit, if strong enought you can be a warrior regardless of gender
+		NOT = { has_cultural_parameter = high_prowess_ignores_knight_restrictions }
+	}
+	#Existing shieldmaidens cut slack.
+	NOT = { has_trait = shieldmaiden }
+	#Existing Onna-musha cut slack.
+	NOT = { has_trait = onnamusha }
+	age >= childhood_education_start_age
+}

@@ -1,0 +1,606 @@
+﻿###############################
+# WARFARE CULTURAL TRADITIONS #
+###############################
+
+tradition_samurai = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = japanese
+		3 = 1.dds
+		4 = samurai.dds
+	}
+	
+	is_shown = {
+		has_cultural_pillar = heritage_japanese
+		NOR = { # Shouldn't be combined with the following traditions
+			has_cultural_tradition = tradition_fp1_trials_by_combat
+			has_cultural_tradition = tradition_fp1_the_right_to_prove
+			has_cultural_tradition = tradition_fp1_performative_honour
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_japanese
+		NOR = { # Shouldn't be combined with the following traditions
+			has_cultural_tradition = tradition_fp1_trials_by_combat
+			has_cultural_tradition = tradition_fp1_the_right_to_prove
+			has_cultural_tradition = tradition_fp1_performative_honour
+		}
+	}
+
+	parameters = {
+		unlock_maa_samurai = yes
+		unlock_maa_sohei = yes
+		has_access_to_onnamusha = yes
+		blademaster_trait_bonuses = yes
+		knights_slightly_more_prone_to_injury = yes
+		can_duel_rivals = yes
+		loyal_trait_more_common = yes
+		unlock_voluntary_laampdom = yes # Rōnin
+	}
+	
+	character_modifier = {
+		archer_cavalry_damage_mult = 0.1
+		archer_cavalry_screen_mult = 0.1
+		opinion_of_liege = 10
+		knight_effectiveness_mult = 0.2
+		negate_prowess_penalty_add = 5 # Wounded knights fight better!
+		accolade_glory_gain_mult = 0.1
+	}
+	
+	county_modifier = {
+		county_opinion_add = 5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_stoic_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_emishi_riders = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = default_todo2.dds
+		3 = 4.dds
+		4 = emishi_cav.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_jomon
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_jomon
+	}
+	
+	parameters = {
+		unlock_maa_emishi = yes
+		forest_fighter_trait_more_common = yes
+		forest_trait_bonuses = yes
+		can_recruit_forest_specialist = yes
+	}
+
+	character_modifier = {
+		light_cavalry_damage_mult = 0.1
+		light_cavalry_screen_mult = 0.1
+		forest_cancel_negative_supply = yes
+		supply_duration = 1
+		movement_speed = 0.1
+		movement_speed_land_raiding = 0.3
+		hostile_county_attrition_raiding = -0.5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_shumiyuan = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = default_todo.dds
+		3 = 3.dds
+		4 = shumiyuan.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_chinese
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_chinese
+	}
+	
+	parameters = {
+		unlock_maa_ji_pikemen = yes
+		unlock_maa_chu_ko_nu = yes
+		unlock_voluntary_laampdom = yes # Youxia
+		can_travel_along_rivers = yes
+		frugal_blacksmith_maa_size = yes
+	}
+
+	province_modifier = {
+		levy_size = 0.25
+	}
+
+	character_modifier = {
+		army_maintenance_mult = -0.1
+		men_at_arms_recruitment_cost = -0.1
+		knight_effectiveness_mult = -0.2
+		levy_toughness = -6
+		pikemen_max_size_add = 2
+		archers_max_size_add = 4
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_khitan_heavy_cavalry = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = default_todo.dds
+		3 = 2.dds
+		4 = heavy_cav_khitan.dds
+	}
+
+	is_shown = {
+		this = culture:khitan
+	}
+	
+	can_pick = {
+		this = culture:khitan
+	}
+	
+	parameters = {
+		unlock_maa_khitan = yes
+		martial_education_more_valued = yes
+		blademaster_trait_bonuses = yes
+		knights_slightly_more_prone_to_injury = yes
+	}
+
+	character_modifier = {
+		negate_prowess_penalty_add = 5
+		accolade_glory_gain_mult = 0.1
+		heavy_cavalry_max_size_add = 2
+		heavy_cavalry_damage_mult = 0.1
+		heavy_cavalry_toughness_mult = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_hwarang = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = default_todo3.dds
+		3 = 6.dds
+		4 = hwarang.dds
+	}
+	
+	is_shown = {
+		has_cultural_pillar = heritage_korean
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_korean
+	}
+	
+	parameters = {
+		unlock_maa_hwarang = yes
+		knights_slightly_more_prone_to_injury = yes
+		loyal_trait_more_common = yes
+		can_recruit_hill_specialist = yes
+		rough_terrain_expert_trait_more_common = yes
+	}
+
+	character_modifier = {
+		opinion_of_liege = 10
+		knight_effectiveness_mult = 0.1
+		negate_prowess_penalty_add = 5 # Wounded knights fight better!
+		heavy_infantry_damage_mult = 0.1
+		heavy_infantry_screen_mult = 0.1
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_gaemamusa = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = default_todo3.dds
+		3 = 4.dds
+		4 = gaemamusa.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_korean
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_korean
+	}
+	
+	parameters = {
+		unlock_maa_gaemamusa = yes
+		can_recruit_hill_specialist = yes
+		rough_terrain_expert_trait_more_common = yes
+	}
+
+	province_modifier = {
+		garrison_size = 0.25
+	}
+
+	character_modifier = {
+		knight_effectiveness_mult = 0.1
+		heavy_cavalry_damage_mult = 0.1
+		heavy_cavalry_toughness_mult = 0.1
+		defender_advantage = 5
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+	}
+}
+
+tradition_luojuzi = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = indian
+		3 = 2.dds
+		4 = luojuzi.dds
+	}
+
+	is_shown = {
+		has_cultural_pillar = heritage_loloish
+	}
+	can_pick = {
+		culture_not_pacifistic_trigger = yes
+		has_cultural_pillar = heritage_loloish
+	}
+
+	parameters = {
+		unlock_maa_luojuzi = yes
+		martial_education_more_valued = yes
+		prowess_traits_more_valued = yes
+		blademaster_trait_bonuses = yes
+		craven_and_content_traits_looked_down_upon = yes
+		knights_slightly_more_prone_to_injury = yes
+		can_duel_rivals = yes
+	}
+
+	character_modifier = {
+		knight_limit = 2
+		negate_prowess_penalty_add = 5 # Wounded knights fight better!
+		skirmishers_damage_mult = 0.1
+		skirmishers_toughness_mult = 0.1
+		accolade_glory_gain_mult = 0.2
+		owned_legend_spread_mult = 0.05
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_stoic_desc
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						scope:character = {
+							any_knight = {
+								count >= 6
+								prowess >= 12
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = knights_with_prowess_desc
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOT = {
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
+				}
+			}
+			multiply = 0.25
+		}
+	}
+}
+
+tradition_ksatra = {
+	category = regional
+
+	layers = {
+		0 = martial
+		1 = indian
+		3 = 4.dds
+		4 = ksatra.dds
+	}
+
+	is_shown = {
+		OR = {
+			this = culture:khmer
+			any_parent_culture_or_above = {
+				this = culture:khmer
+			}
+		}
+	}
+
+	can_pick = {
+		OR = {
+			this = culture:khmer
+			any_parent_culture_or_above = {
+				this = culture:khmer
+			}
+		}
+	}
+
+	parameters = {
+		unlock_maa_ksatra = yes
+		prowess_from_religious_traits = yes
+		culture_clergy_can_fight = yes
+	}
+	character_modifier = {
+		prowess_per_piety_level = 1
+		negate_prowess_penalty_add = 5 # Wounded knights fight better!
+		heavy_infantry_damage_mult = 0.1
+		heavy_infantry_screen_mult = 0.1
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_spiritual_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							scope:character = {
+								save_temporary_scope_as = culture_head_link
+								faith = {
+									any_faith_character = {
+										count >= 15
+										culture = scope:culture_head_link.culture
+										prowess >= 10
+										OR = {
+											is_clergy = yes
+											has_education_learning_trigger = yes
+										}
+									}
+								}
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = culture_head_faith_clergy_prowess_desc
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				NOR = {
+					culture_pillar:ethos_bellicose = { is_in_list = traits }
+					culture_pillar:ethos_spiritual = { is_in_list = traits }
+				}
+			}
+			multiply = 0.25
+		}
+	}
+}

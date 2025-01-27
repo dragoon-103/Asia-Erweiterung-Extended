@@ -1,0 +1,36 @@
+﻿can_be_marshal_trigger = {
+	can_be_councillor_basics_trigger = yes
+	is_hostage = no	
+	NAND = {
+		has_council_position = councillor_court_chaplain
+		faith = { has_doctrine_parameter = clerical_appointment_fixed }
+	}
+	NOT = {
+		OR = { 
+			has_council_position = councillor_spouse
+			AND = {
+				this = liege.diarch
+				liege = { has_diarchy_active_parameter = diarchy_is_vizierate }
+			}
+		}
+	}
+	OR = {
+		is_ruler = yes
+		AND = {
+			is_female = yes
+			$COURT_OWNER$.faith = { NOT = { has_doctrine_parameter = male_dominated_council } }
+		}
+		AND = {
+			is_male = yes
+			$COURT_OWNER$.faith = { NOT = { has_doctrine_parameter = female_dominated_council } }
+		}
+		AND = {
+			has_trait = shieldmaiden
+			$COURT_OWNER$.culture = { has_cultural_parameter = has_access_to_shieldmaidens }
+		}
+		AND = {
+			has_trait = onnamusha
+			$COURT_OWNER$.culture = { has_cultural_parameter = has_access_to_onnamusha }
+		}
+	}
+}

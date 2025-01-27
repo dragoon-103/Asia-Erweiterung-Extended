@@ -81,6 +81,9 @@
 # world_japan
 # > world_japan_proper
 # > world_japan_ryukyu
+# > custom_japan_togoku
+# > custom_japan_kigoku
+# > custom_japan_saigoku
 
 # world_eastern_siberia
 # > world_eastern_siberia_manchuria
@@ -726,12 +729,10 @@ world_korea = {
 
 world_japan_proper = {
 	duchies = {
-		#Saigoku
-		d_kinai d_nankai d_north_kyushu d_south_kyushu
+		d_kinai d_nankai d_saikai d_kumaso
 		d_sanin d_sanyo d_chugoku
-		#Tōgoku
 		d_chubu d_tokai d_hokuriku d_koshinetsu
-		d_west_kanto d_east_kanto d_dewa d_mutsu
+		d_kanto d_soshu d_dewa d_mutsu
 	}
 }
 
@@ -746,6 +747,32 @@ world_japan = {
 	regions = { 
 		world_japan_proper
 		world_japan_ryukyu
+	}
+}
+
+custom_japan_togoku = {
+	counties = {
+		c_totomi c_suruga c_izu
+	}
+	duchies = {
+		d_koshinetsu d_kanto d_soshu
+		d_dewa d_mutsu
+	}
+}
+custom_japan_kigoku = {
+	counties = {
+		c_mikawa c_kii c_awaji c_harima c_tanba c_tango c_tajima
+	}
+	duchies = {
+		d_kinai d_chubu d_hokuriku
+	}
+}
+custom_japan_saigoku = {
+	counties = {
+		c_inaba c_hoki c_mimasaka c_bizen c_bitchu c_sanuki c_awa c_iyo c_tosa
+	}
+	duchies = {
+		d_saikai d_kumaso d_chugoku
 	}
 }
 
@@ -2310,7 +2337,7 @@ graphical_korea = {
 	graphical = yes
 	color = { 30 30 125 }
 	regions = {
-		world_korea
+		world_korea world_eastern_siberia_manchuria
 	}
 }
 
@@ -2318,15 +2345,7 @@ graphical_japan = {
 	graphical = yes
 	color = { 125 0 0 }
 	regions = {
-		world_japan
-	}
-}
-
-graphical_eastern_siberia = {
-	graphical = yes
-	color = { 0 0 0 }
-	regions = {
-		world_eastern_siberia
+		world_japan world_eastern_siberia_ezo
 	}
 }
 
@@ -2342,15 +2361,7 @@ graphical_southeast_asia = {
 	graphical = yes
 	color = { 0 255 60 }
 	regions = {
-		world_indochina world_burma world_nusantara
-	}
-}
-
-graphical_papua = {
-	graphical = yes
-	color = { 125 125 125 }
-	regions = {
-		world_papua
+		world_burma world_indochina world_nusantara world_papua
 	}
 }
 
@@ -2374,17 +2385,17 @@ world_innovation_camels = {
 	}
 }
 
-world_innovation_outrigger_boats = { #Austronesians should get Catamarans
+world_innovation_outrigger_boats = {
 	generate_modifiers = yes
 	regions = {
 		world_nusantara custom_champa
 	}
 }
 
-world_innovation_chinese = { #The Sinosphere should only use Primogeniture Succession
+world_innovation_sinitic_bureaucracy = {
 	generate_modifiers = yes
 	regions = {
-		world_china world_korea world_japan
+		world_china world_korea_proper world_japan
 	}
 }
 
@@ -4003,27 +4014,27 @@ ghw_region_hexi = {
 ghw_region_japan = {
 	duchies = {
 		#Japan Proper
-		d_kinai d_nankai d_north_kyushu
-		d_south_kyushu d_sanin d_sanyo d_chugoku
+		d_kinai d_nankai d_saikai
+		d_kumaso d_sanin d_sanyo d_chugoku
 		d_chubu d_tokai d_hokuriku d_koshinetsu
-		d_west_kanto d_east_kanto d_dewa d_mutsu
+		d_kanto d_soshu d_dewa d_mutsu
 	}
 }
 
 ghw_region_japan_yamato = {
 	duchies = {
 		#Core territories of Yamato Ōken
-		d_kinai d_nankai d_north_kyushu
+		d_kinai d_nankai d_saikai
 		d_sanin d_sanyo d_chugoku
 		d_chubu d_tokai d_hokuriku d_koshinetsu
-		d_west_kanto d_east_kanto
+		d_kanto d_soshu
 	}
 }
 
 ghw_region_japan_nonyamato = {
 	duchies = {
 		#Frontier territories of Yamato Ōken
-		d_south_kyushu d_dewa d_mutsu
+		d_kumaso d_dewa d_mutsu
 	}
 }
 

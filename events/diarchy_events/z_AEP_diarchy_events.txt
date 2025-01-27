@@ -1,0 +1,23 @@
+﻿namespace = diarchy
+
+scripted_trigger diarchy_2211_valid_pool_character_trigger = {
+	# Are they eligible to be a knight at all?
+	can_be_knight_trigger = { ARMY_OWNER = scope:liege }
+	# Do they some quality that marks them out as a particularly noteworthy knight?
+	OR = {
+		# Either they're just a solid fighter.
+		prowess >= very_high_skill_rating
+		# Or they have some useful special trait.
+		AND = {
+			prowess >= high_skill_rating
+			OR = {
+				has_trait = berserker
+				has_trait = shieldmaiden
+				has_trait = onnamusha
+				has_trait = varangian
+				has_trait = lifestyle_blademaster
+				number_of_commander_traits >= 1
+			}
+		}
+	}
+}

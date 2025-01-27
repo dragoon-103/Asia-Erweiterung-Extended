@@ -1,4 +1,14 @@
-﻿@frontend_light_radius = 260
+﻿#########################################################################
+#########################################################################
+#																		#
+#								MAIN MENU								#
+#																		#
+#########################################################################
+#########################################################################
+# These environment names must match the .dds filenames in scripted_illustrations/front_end.txt: environment_[filename]_main
+# Positions: Heir, Main, Secondary
+
+@frontend_light_radius = 260
 @frontend_light_height = 300
 @frontend_light_angle = 30
 

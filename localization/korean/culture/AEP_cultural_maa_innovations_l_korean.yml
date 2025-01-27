@@ -1,8 +1,9 @@
 ﻿l_korean:
  #Tribal Era
  culture_parameter_unlock_maa_samurai:0 "[GetMaA('samurai').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_sohei:0 "[GetMaA('sohei').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
  culture_parameter_unlock_maa_emishi:0 "[GetMaA('emishi_riders').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
- culture_parameter_unlock_maa_han:0 "[GetMaA('chinese_pikemen').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
+ culture_parameter_unlock_maa_ji_pikemen:0 "[GetMaA('ji_pikemen').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
  culture_parameter_unlock_maa_khitan:0 "[GetMaA('heavy_khitan_cavalry').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
  culture_parameter_unlock_maa_hwarang:0 "[GetMaA('hwarang').GetName]을 [men_at_arms|E]으로 모집할 수 있음"
  culture_parameter_unlock_maa_gaemamusa:0 "[GetMaA('gaemamusa').GetName]를 [men_at_arms|E]으로 모집할 수 있음"
@@ -22,10 +23,10 @@
  emishi_riders:0 "에조 기병"
  emishi_riders_flavor:0 "에조들은 아무리 열세인 전투에서든 용맹을 십분 발휘해 수많은 승리를 거둔 훌륭한 기병으로 명성이 자자합니다."
  
- tradition_chinese_pikemen_name:0 "중국 극병"
- tradition_chinese_pikemen_desc:0 "갑옷을 입고 극창을 든 창병 극병들은 왕조를 가리지 않고 중화 군대의 중추가 되었습니다."
- chinese_pikemen:0 "중국 극병"
- chinese_pikemen_flavor:0 "갑옷을 입고 극창을 든 창병 극병들은 왕조를 가리지 않고 중화 군대의 중추가 되었습니다."
+ tradition_shumiyuan_name:0 "수미위안"
+ tradition_shumiyuan_desc:0 "수미위안 또는 군사국은 제국군의 관리를 감독하며, 주요 목적은 제국을 보호하고 필요할 경우 국경 너머로 군사력을 투사하는 것입니다."
+ ji_pikemen:0 "미늘창 보병"
+ ji_pikemen_flavor:0 "지창을 장비한 이 갑옷을 입은 장창병들은 모든 중국군의 중추를 이룹니다."
  
  tradition_khitan_heavy_cavalry_name:0 "거란 중기병"
  tradition_khitan_heavy_cavalry_desc:0 "거란의 이름을 드높인 중기병들의 무예는 수많은 전투에서 승리를 거두는 원동력이 되었습니다."
@@ -42,13 +43,13 @@
  gaemamusa:0 "개마무사"
  gaemamusa_flavor:0 "화려한 깃털과 무거운 갑옷으로 유명한 개마무사만큼이나 인상적인 기병부대를 동아시아에서 찾기란 쉬운 일이 아닙니다."
  
- tradition_tiger_sons_name:0 "호랑이의 아들들"
- tradition_tiger_sons_desc:0 "호랑이의 아들이라는 뜻의 나저자는 남조군의 핵심이었으며 가장 강력한 전사들로 이루어져 있습니다. 나저자들에게 비겁함은 용납되지 않았고, 퇴각은 사형에 처해질 수 있었습니다."
+ tradition_luojuzi_name:0 "호랑이의 아들들"
+ tradition_luojuzi_desc:0 "호랑이의 아들이라는 뜻의 나저자는 남조군의 핵심이었으며 가장 강력한 전사들로 이루어져 있습니다. 나저자들에게 비겁함은 용납되지 않았고, 퇴각은 사형에 처해질 수 있었습니다."
  luojuzi:0 "나저자"
  luojuzi_flavor:0 "호랑이의 아들이라는 뜻의 나저자는 남조군의 핵심이었으며 가장 강력한 전사들로 이루어져 있습니다. 나저자들에게 비겁함은 용납되지 않았고, 퇴각은 사형에 처해질 수 있었습니다."
  
- tradition_warrior_caste_name:0 "크샤트라"
- tradition_warrior_caste_desc:0 "크메르 제국의 전사 귀족 계급을 구성한 크샤트라는 무위가 높기로 자자합니다."
+ tradition_ksatra_name:0 "크샤트라"
+ tradition_ksatra_desc:0 "크메르 제국의 전사 귀족 계급을 구성한 크샤트라는 무위가 높기로 자자합니다."
  ksatra:0 "크샤트라"
  ksatra_flavor:0 "크메르 제국의 전사 귀족 계급을 구성한 크샤트라는 무위가 높기로 자자합니다."
  

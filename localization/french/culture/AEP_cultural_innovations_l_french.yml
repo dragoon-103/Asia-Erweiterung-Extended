@@ -1,51 +1,7 @@
 ﻿l_french:
- innovation_yues_group:0 "Ambitions de Baiyue"
- innovation_yues_group_desc:0 "Baiyue désigne généralement les anciens groupes ethniques qui habitent les longues zones côtières et les grands fleuves d'Asie du Sud et de l'Est. Ils ont été les premiers colons de cette région et ont constamment migré vers l'intérieur des terres. Au cours de l'histoire, ils se sont progressivement intégrés aux dynasties unies, mais ont encore opposé une certaine résistance."
- 
- innovation_java_group:0 "Le roi des Mille-Îles"
- innovation_java_group_desc:0 "Les tribus austronésiennes traversent des milliers d'îles, accompagnées de marées et de tempêtes. Ils règnent sur la mer sous le soleil."
- 
- innovation_tunguse_group:0 "Montagne blanche, Eau noire"
- innovation_tunguse_group_desc:0 "De vastes zones du fleuve Nenjiang, du fleuve Heilongjiang et des montagnes sinueuses du Xing'an ont nourri de nombreuses tribus de pêcheurs et de chasseurs. Sous la bénédiction de leur sainte patronne "l'Impératrice des Saules", leurs tribus se sont agrandies et renforcées et ont émigré une à une de la forêt."
- 
- innovation_nanman_group:0 "Les maîtres de la Jungle"
- innovation_nanman_group_desc:0 "Dans la jungle sauvage, des monts Ailao aux monts Wuyi, il y avait des groupes de chasseurs courageux. La guerre de leur ancêtre Chiyou avec l'Empereur Jaune pour monter sur le trône de la Chine ancienne est devenue une légende. Cependant, même après des siècles, ils n'ont jamais perdu leur renommée ni leur férocité."
-
- innovation_yamato_group:0 "Yamato Damashii"
- innovation_yamato_group_desc:0 "Depuis l'âge de la mythologie, le peuple Yamato croyait fermement qu'il était commandé par le ciel, les fleurs tombaient un moment, Qu'il y avait un temps pour la tristesse et la joie, le piano pour des milliers de jours, et l'unité de l'épée et du cœur."
-
- innovation_goryeo_group:0 "Hautes Montagnes, les Eaux Magnifiques"
- innovation_goryeo_group_desc:0 "Les groupes ethniques Goryeo se considéraient comme les descendants du dieu-roi Dangun, le premier roi de Corée, et ont été ressuscités par le royaume de Koguryo. Ils ont résisté à d'innombrables invasions et incursions étrangères. Quelques années seulement après l'invasion japonaise de 1592, ils ont progressivement perdu le contact avec la dynastie Tang et ont été confrontés à la montée du régime nomade dans le nord et à la division interne."
-
- innovation_mongolic_group:0 "Loup Bleu, Biche Blanche"
- innovation_mongolic_group_desc:0 "Descendant du loup bleu et de la biche blanche des légendaires tribus nomades qui vivaient dans les vastes prairies au nord de la Grande Muraille et au sud des monts Yinshan, une fois unis, ils représenteront une grande menace pour tous les royaumes et empires environnants."
-
- innovation_centralization_of_authority:0 "La Grande Union"
- innovation_centralization_of_authority_desc:0 "Le premier empereur de Chine, Qin Shi Huang, a non seulement fusionné tous les royaumes, mais a également unifié les poids, les mesures, les langues et les écritures. La cohésion de la culture Han a ainsi été renforcée de manière inédite, permettant aux personnes ayant tous les accents et habitudes possibles sur ce vaste territoire de communiquer, de commercer et de s'unir sous le règne d'un seul empereur."
- 
- innovation_world_cathay:0 "Le Système Militaire Khitan"
- innovation_world_cathay_desc:0 "Dans l'histoire, le fondateur de la dynastie Liao, Khitan Khan, a choisi plus de 1 000 guerriers parmi les plus courageux de diverses tribus pour former sa garde privée. Son successeur Khan a porté cette armée à 300 000 hommes et l'a appelée l'armée PiShi."
-
- innovation_world_asia_korea:0 "Chasseurs de Goryeo"
- innovation_world_asia_korea_desc:0 "Le pays des Goryeo est couvert d'épaisses forêts et de chaînes de montagnes. Ils sont donc doués pour fabriquer des outils de chasse, notamment des arcs. S'ils étaient enrôlés dans l'armée, ils seraient de très bons archers."
- 
- innovation_battleships:0 "Grand Navire de Guerre"
- innovation_battleships_desc:0 "Développés à partir d'anciens navires de guerre, et protégés par une peau de vache à l'extérieur et de hautes tours sur le pont, ces navires de guerre étaient si grands que les soldats pouvaient marcher dessus et même monter à cheval."
-
- innovation_horse_archery:0 "Samouraï à l'Arc Monté"
- innovation_horse_archery_desc:0 "Les arcs japonais datent de la préhistoire, de la période Jōmon. Le style d'arc asymétrique long et unique, avec la poignée sous le centre, est né dans la culture Yayoi. Les arcs sont devenus un symbole d'autorité et de pouvoir. Le légendaire premier empereur du Japon, l'empereur Jimmu, est toujours représenté avec un arc. Certaines tribus Emishi, dont la tribu Hitakami, pratiquent le tir à l'arc et ont été remarquées et craintes par la cour Yamato. Les premières grandes tentatives pour soumettre les Emishi au 8e siècle ont été largement infructueuses. Les armées impériales, calquées sur celles de la Chine continentale, se sont révélées inefficaces face aux tactiques de guérilla des Emishi. Suite à l'introduction et au développement du tir à l'arc monté et des tactiques de guérilla utilisées par les Emishi par les forces impériales, l'armée a rapidement connu le succès, ce qui a finalement conduit à la défaite des Emishi."
-
- master_of_bow:0 "Les maîtres de l'arc"
- master_of_bow_desc:0 "Le tir à l'arc a une longue histoire dans la guerre japonaise et chaque samouraï était censé maîtriser cet art. Les guerriers moins expérimentés peuvent être entraînés à tirer en groupe, mais la précision des tirs exige dévouement et habileté, surtout dans le feu de l'action."
- 
- mountain_pattern_armour:0 "Armure à Motif de Montagne"
- mountain_pattern_armour_desc:0 "À la fin du VIIIe siècle, la doctrine de l'armée impériale chinoise est passée d'une doctrine axée sur la cavalerie à une doctrine axée sur l'infanterie. L'emboîtement de petites pièces de fer et d'acier sur un support en cuir a permis aux Han de créer une armure souple et confortable, mais néanmoins très protectrice. Cette armure permettait au soldat Han de résister aux attaques de la cavalerie et des archers, tout en restant efficace contre l'infanterie."
- 
- innovation_outrigger_boats:1 "Tangon"
- innovation_outrigger_boats_desc:1 "Nos bateaux sont équipés de stabilisateurs qui leur permettent de rester stables dans les eaux agitées. Cela nous permet de traverser les océans avec facilité tout en restant rapides et maniables."
- innovation_indian_primogeniture:1 "Héritage Impartageable"
- innovation_indian_primogeniture_desc:1 "La primogéniture est la loi du pays en Inde depuis des temps immémoriaux. La responsabilité du royaume, comme celle de la famille, passe du père au fils aîné, sans partage."
- 
- innovation_tiger_sons:1 "Les Fils du Tigre"
- innovation_tiger_sons_desc:1 "Les Tiger Sons, ou Luojuzi, formaient le noyau d'élite de l'armée de Nanzhao et n'étaient choisis que parmi les guerriers les plus forts. La lâcheté n'était pas tolérée chez les Luojuzi, la retraite étant passible de la peine de mort."
- 
+ innovation_outrigger_boats:1 "Pirogue à balancier"
+ innovation_outrigger_boats_desc:1 "Nos bateaux sont équipés de balanciers, une caractéristique distinctive de l'innovation austronésienne, offrant une stabilité et une rapidité remarquables même dans les mers les plus agitées. Ces embarcations nous permettront de maîtriser le Pacifique et potentiellement de coloniser des terres lointaines."
+ world_innovation_outrigger_boats:0 "Austronésie"
+ innovation_sinitic_bureaucracy:0 "Bureaucratie Sinitique"
+ innovation_sinitic_bureaucracy_desc:0 "Les innovations bureaucratiques des dynasties chinoises, comme le système des examens impériaux et le système des champs égaux, ont fait de la Chine la nation la plus prospère du Moyen Âge.\n\nCes réformes ont influencé la gouvernance non seulement en Chine, mais aussi dans les pays voisins comme le Japon, la Corée et le Vietnam, qui ont adapté ces innovations à leurs besoins spécifiques."
+ world_innovation_sinitic_bureaucracy:0 "Sinosphère"

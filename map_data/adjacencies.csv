@@ -229,6 +229,11 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 9599;9626;river_large;8607;-1;-1;-1;-1;Krapan-Bogale
 9633;9626;river_large;8606;-1;-1;-1;-1;Myaungmya-Bogale
 9556;9568;river_large;8610;-1;-1;-1;-1;Ava-Sagaing
+11872;11708;river_large;12544;-1;-1;-1;-1;Myeik-Tanangsi
+#VIETNAM;;;;;;;;
+10438;11885;river_large;12541;-1;-1;-1;-1;Thang Long-Tan Hung
+10438;10430;river_large;12541;-1;-1;-1;-1;Thang Long-Thai Binh
+10429;10430;river_large;12542;-1;-1;-1;-1;Trang An-Thai Binh
 #MEKONG;;;;;;;;
 11753;11754;river_large;11893;-1;-1;-1;-1;Kottinagara-Sadek
 11748;12107;river_large;11893;-1;-1;-1;-1;Angkor Borei-Kiri Vong
@@ -243,6 +248,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 #SIAM;;;;;;;;
 11400;12041;river_large;10983;-1;-1;-1;-1;Thonburi-Ayutthaya
 11399;11689;river_large;10983;-1;-1;-1;-1;Singhapura-Lavapura
+11690;11734;river_large;12543;-1;-1;-1;-1;Nakhon Sawan-Lopburi
 11701;11702;sea;11900;7175;1160;7175;1157;Takola-Salang
 #CHINA;;;;;;;;
 10175;10162;river_large;11037;-1;-1;-1;-1;Jiangning-Hezhou
@@ -272,12 +278,12 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 11336;11160;sea;11979;7867;1857;7864;1872;Nagato-Buzen
 11285;10925;sea;11092;7867;1857;7864;1872;Sachi-Miyako
 #BORNEO;;;;;;;;
-12193;11453;river_large;11906;7930;690;7932;687;Ketungau Hilir-Sintang
-11459;11458;river_large;11906;7978;725;7980;720;Badau-Bunut
+12193;11453;river_large;12546;7930;690;7932;687;Ketungau Hilir-Sintang
+11459;11458;river_large;12545;7978;725;7980;720;Badau-Bunut
 11417;11418;river_large;12152;7978;515;7984;515;Seruyan Hilir-Baambang
 11407;12202;river_large;12151;8130;550;8135;552;Kapuas Kuala-Paju Epat
-11408;12204;river_large;12151;8132;610;8128;606;Lahei-Mantangai
-12158;11413;river_large;12151;8098;640;8101;645;Permata Intan-Sumbar Barito
+11408;12204;river_large;12548;8132;610;8128;606;Lahei-Mantangai
+12203;11413;river_large;12547;8101;645;8099;641;Permata Intan-Sumbar Barito
 11440;11439;river_large;12206;8283;851;8281;855;Sangkulirang-Palas
 12133;12153;sea;11924;8156;993;8161;993;Labuan-Menumbok
 12155;12143;sea;11931;8260;1095;8261;1088;Central Banggi-Pitas

@@ -1,0 +1,111 @@
+﻿l_polish:
+#
+ building_type_AEP_great_wall_of_china:0 "Great Wall of China" # 万里长城 - 损坏
+ building_type_AEP_great_wall_of_china_desc:0 "The Great Wall of China rose to prominence during the era of China's first Emperor, Qin Shi Huangdi, who orchestrated an ambitious initiative to unify and extend pre-existing segments of the wall, forming a robust defensive fortification against the northern nomadic tribes. \n\nHowever, despite continued expansions by subsequent dynasties, much of the older segments have since declined, reducing their importance as a defensive structure."
+ building_AEP_great_wall_of_china:0 "$building_type_AEP_great_wall_of_china$"
+ building_AEP_great_wall_of_china_desc:0 "$building_type_AEP_great_wall_of_china_desc$"
+ 
+ building_type_AEP_giant_wild_goose_pagoda:0 "Giant Wild Goose Pagoda" # 大雁塔
+ building_type_AEP_giant_wild_goose_pagoda_desc:0 "The Giant Wild Goose Pagoda was originally constructed in 649 AD during the reign of Emperor Gaozong of Tang to house the Buddhist scriptures brought to China by the monk and scholar Xuanzang. \n\nSince it's construction, it has become a renowned landmark along the Silk Road and represents the enduring cultural and religious significance of Buddhism."
+ building_AEP_giant_wild_goose_pagoda:0 "$building_type_AEP_giant_wild_goose_pagoda$"
+ building_AEP_giant_wild_goose_pagoda_desc:0 "$building_type_AEP_giant_wild_goose_pagoda_desc$"
+ 
+ building_type_AEP_longmen_grottoes_01:0 "Longmen Grottoes" # 龙门石窟 - 第一阶段
+ building_type_AEP_longmen_grottoes_01_desc:0 "Construction of the Longmen Grottoes began during the Northern Wei dynasty when Emperor Xiaowen shifted the capital from Dàtóng to Luoyang and initiated the construction of the Guyangdong (Shiku) Temple, the first cave temple of its kind. \n\nLater, out of a sense of filial piety, Emperor Xuanwu excavated the "Three Binyang Caves," which constitute over 30% of the caves currently found at Longmen and took 24 years to complete."
+ building_AEP_longmen_grottoes_01:0 "Longmen Grottoes - 1st Phase"
+ building_AEP_longmen_grottoes_01_desc:0 "$building_type_AEP_longmen_grottoes_01_desc$"
+ 
+ building_type_AEP_longmen_grottoes_02:0 "Longmen Grottoes" # 龙门石窟 - 第二阶段
+ building_type_AEP_longmen_grottoes_02_desc:0 "The second phase of construction, which took place between 524 and 626, saw slower development of the caves due to regional strife and conflicts. \n\nThis period, encompassing the reign of the Sui dynasty (581–618) and the early part of the Tang dynasty (618–907), experienced interruptions and hindered progress in the creation of the grottoes."
+ building_AEP_longmen_grottoes_02:0 "Longmen Grottoes - 2nd Phase"
+ building_AEP_longmen_grottoes_02_desc:0 "$building_type_AEP_longmen_grottoes_02_desc$"
+ 
+ building_type_AEP_longmen_grottoes_03:0 "Longmen Grottoes" # 龙门石窟 - 第三阶段
+ building_type_AEP_longmen_grottoes_03_desc:0 "The third phase of construction, which took place between 626 and 755, was overseen by the Tang dynasty who witnessed the peak period of the grotto's creation at Longmen, with Chinese Buddhism flourishing and leading to the proliferation of caves and carvings. \n\nApproximately 60% of the caves at Longmen were created during this period, with the completion of the Fengxiansi Cave in 675 showcasing the remarkable artistry and grandeur of Tang dynasty on the southern floor of the Western Hill."
+ building_AEP_longmen_grottoes_03:0 "Longmen Grottoes - 3rd Phase"
+ building_AEP_longmen_grottoes_03_desc:0 "$building_type_AEP_longmen_grottoes_03_desc$"
+ 
+ building_type_AEP_longmen_grottoes_04:0 "Longmen Grottoes" # 龙门石窟 - 第四阶段
+ building_type_AEP_longmen_grottoes_04_desc:0 "The fourth and final phase of construction of the Longmen Grottoes took place during the later part of the Tang dynasty and extended into the rule of the Northern Song dynasty, but it saw a decline in grotto creation due to internecine wars between the Jin and Yuan dynasties."
+ building_AEP_longmen_grottoes_04:0 "Longmen Grottoes - Final Phase"
+ building_AEP_longmen_grottoes_04_desc:0 "$building_type_AEP_longmen_grottoes_04_desc$"
+ 
+ building_type_AEP_imperial_palace_kyoto:0 "Kyōto Imperial Palace" # 京都御所
+ building_type_AEP_imperial_palace_kyoto_desc:0 "The Kyōto Imperial Palace serves as the residence of the Imperial family and is rich with features of traditional Japanese architecture, serene gardens, and meticulously crafted structures that reflect the elegance and grandeur of the imperial court. \n\nNestled in the heart of Kyoto, the palace offers passersby a glimpse into the splendor of the Imperial court and stands as a testament to the refined aesthetics of the Heian Period."
+ building_AEP_imperial_palace_kyoto:0 "$building_type_AEP_imperial_palace_kyoto$"
+ building_AEP_imperial_palace_kyoto_desc:0 "$building_type_AEP_imperial_palace_kyoto_desc$"
+ 
+ building_type_AEP_tongguan:0 "Tong Pass" # Tongguan - 潼关
+ building_type_AEP_tongguan_desc:0 "Constructed in 196 AD by Cao Cao during the Eastern Han Dynasty, the Tong Pass, located in Shaanxi Province, serves as a vital chokepoint defending Chang'an and the Guanzhong region from the North China Plain. \n\nOver time, the Tong Pass replaced the Hangu Pass as the principal strategic post between Guanzhong and the North China Plain, with its fall in 756 to An Lushan's rebels leading to the capture of the capital Chang'an."
+ building_AEP_tongguan:0 "$building_type_AEP_tongguan$"
+ building_AEP_tongguan_desc:0 "$building_type_AEP_tongguan_desc$"
+ 
+ building_type_AEP_yumenguan:0 "Yumen Pass" # Yumenguan - 玉门关
+ building_type_AEP_yumenguan_desc:0 "The Yumen Pass, also known as the Jade Gate, was established during the Western Han Dynasty by Emperor Wudi around 121 BC, and served as the primary route for the Silk Road, connecting Central Asia with East Asia. \n\nThe Pass marked the end of a defensive line running from Jiuquan to the Jade Gate Pass, with travelers to the west departing from China through this famed gateway."
+ building_AEP_yumenguan:0 "$building_type_AEP_yumenguan$"
+ building_AEP_yumenguan_desc:0 "$building_type_AEP_yumenguan_desc$"
+ 
+ building_type_AEP_mogao_caves:0 "Mogao Caves" # 莫高窟
+ building_type_AEP_mogao_caves_desc:0 "The Mogao Caves, also known as the Caves of the Thousand Buddhas, were initially constructed during the reign of the Xuanzhao Emperor of Former Qin and subsequently expanded over the course of subsequent dynasties to encompass a vast array of 735 caves featuring 45,000 square meters of murals, and 2,415 clay-colored sculptures, making it the largest Buddhist art site in the world."
+ building_AEP_mogao_caves:0 "$building_type_AEP_mogao_caves$"
+ building_AEP_mogao_caves_desc:0 "$building_type_AEP_mogao_caves_desc$"
+ 
+ building_type_AEP_yueyang_tower:0 "Yueyang Tower" # 岳陽樓
+ building_type_AEP_yueyang_tower_desc:0 "Situated on the shores of Lake Dongting, Yueyang Tower, one of the Three Great Towers of Jiangnan, has endured multiple instances of damage, including fires, wars, and various disasters, prompting successive rulers from different dynasties to undertake its reconstruction."
+ building_AEP_yueyang_tower:0 "$building_type_AEP_yueyang_tower$"
+ building_AEP_yueyang_tower_desc:0 "$building_type_AEP_yueyang_tower_desc$"
+ 
+ building_type_AEP_prince_teng_pavilion:0 "Pavilion of Prince Teng" # 滕王閣
+ building_type_AEP_prince_teng_pavilion_desc:0 "Ranked foremost among the Three Great Towers of Jiangnan, the Pavilion of Prince Teng stands at the confluence of the Ganjiang River and the old Fu River, with its magnificence and grandeur celebrated by Wang Bo, a leader of the four excellences in the early Tang Dynasty, in his renowned work Preface to Tengwang Pavilion, ensuring the pavilion's enduring global fame and prestige through the ages."
+ building_AEP_prince_teng_pavilion:0 "$building_type_AEP_prince_teng_pavilion$"
+ building_AEP_prince_teng_pavilion_desc:0 "$building_type_AEP_prince_teng_pavilion_desc$"
+ 
+ building_type_AEP_yellow_crane_tower:0 "Yellow Crane Tower" # 黃鶴樓
+ building_type_AEP_yellow_crane_tower_desc:0 "Perched atop Snake Hill overlooking Wuhan, the Yellow Crane Tower, one of the Three Great Towers of Jiangnan, traces its origins back to 223 A.D. during the Three Kingdoms period and functioned as a social hub for gatherings of eminent figures and poets. The Tower was further popularized by the renowned Tang dynasty poet Cui Hao through his poem Yellow Crane Tower."
+ building_AEP_yellow_crane_tower:0 "$building_type_AEP_yellow_crane_tower$"
+ building_AEP_yellow_crane_tower_desc:0 "$building_type_AEP_yellow_crane_tower_desc$"
+ 
+ building_type_AEP_xi_lake:0 "West Lake" # 黃鶴樓
+ building_type_AEP_xi_lake_desc:0 "West Lake, evolving from the Qiantang River, saw transformative interventions during the Tang and Song dynasties, undertaken by figures such as Bai Juyi and Su Shi, who transformed the lake into a renowned destination for its scenic beauty and cultural significance, attracting tourists, poets, and artists alike."
+ building_AEP_xi_lake:0 "$building_type_AEP_xi_lake$"
+ building_AEP_xi_lake_desc:0 "$building_type_AEP_xi_lake_desc$"
+ 
+ building_type_dojo_01:0 "Keikojō" # 稽古場
+ building_type_dojo_01_desc:0 "Keikojō were the training grounds of Japan's ancient warriors throughout much of Japanese history. These spaces were vital in allowing the warrior to refine their martial prowess, learn various strategies, and hone their mental discipline. \n\nKeikojō also played a significant role in facilitating the development of traditional Japanese martial arts, such as Jūdō, Kendō, Aikidō, etc."
+ building_dojo_01:0 "$building_type_dojo_01$"
+ building_dojo_01_desc:0 "$building_type_dojo_01_desc$"
+ 
+ building_type_dojo_02:0 "Jūdō Tatami" # 柔道畳
+ building_type_dojo_02_desc:0 "Every good Keikojō requires equally good tatami flooring, but no ordinary Tatami will do, considering the stresses it will be put under. Instead, we need to acquire special Jūdō Tatami made out of a specific kind of sedge known in Japan as Shichitō for use in our Keikojō."
+ building_dojo_02:0 "$building_type_dojo_02$"
+ building_dojo_02_desc:0 "$building_type_dojo_02_desc$"
+ 
+ building_type_dojo_03:0 "Practice Weapons" # 練習武器
+ building_type_dojo_03_desc:0 "What would a Keikojō be without quality practice weapons our students can use to allow them to train without risking injury?"
+ building_dojo_03:0 "$building_type_dojo_03$"
+ building_dojo_03_desc:0 "$building_type_dojo_03_desc$"
+ 
+ building_type_dojo_04:0 "Sōji" # 掃除
+ building_type_dojo_04_desc:0 "The practice of Sōji, which involves the ritual cleaning of the Keikojō, plays an essential role not only in keeping our Keikojō in immaculate condition but also serves in honing the mental discipline of our students and also serves as a reminder of their collective responsibilities in the upkeep of the school as a whole."
+ building_dojo_04:0 "$building_type_dojo_04$"
+ building_dojo_04_desc:0 "$building_type_dojo_04_desc$"
+ 
+ building_type_dojo_05:0 "Kamidana" # 神棚
+ building_type_dojo_05_desc:0 "Placing a Kamidana Shrine in the Keikojō to honor and pay respects to the spirits as well as seeking their protection will further enrich the Keikojō coupled with serving as an important muse for our students."
+ building_dojo_05:0 "$building_type_dojo_05$"
+ building_dojo_05_desc:0 "$building_type_dojo_05_desc$"
+ 
+ building_type_dojo_06:0 "Shodōjiku" #書道軸
+ building_type_dojo_06_desc:0 "Having our Keikojō Adorned with Shodōjiku or Calligraphy Scrolls would provide further inspiration for our students, motivating and inspiring their martial spirits with famous historical scenes, philosophical phrases, and martial arts legends."
+ building_dojo_06:0 "$building_type_dojo_06$"
+ building_dojo_06_desc:0 "$building_type_dojo_06_desc$"
+ 
+ building_type_dojo_07:0 "Keikogi" # 稽古着
+ building_type_dojo_07_desc:0 "Acquiring specialized uniforms for our students that features the name of our school will help us stand out from other's and will better serve our students in a practical sense as well."
+ building_dojo_07:0 "$building_type_dojo_07$"
+ building_dojo_07_desc:0 "$building_type_dojo_07_desc$"
+ 
+ building_type_dojo_08:0 "Expanded Halls"
+ building_type_dojo_08_desc:0 "Our Keikojō has grown to become one of the largest in the realm. This growth necessitates the further expansion of the Keikojō to accommodate the swelling number of students flocking to join our school. The expansion will not only serve to support our continued growth, but will also ensure we have ample training space available for our students."
+ building_dojo_08:0 "$building_type_dojo_08$"
+ building_dojo_08_desc:0 "$building_type_dojo_08_desc$"

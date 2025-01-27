@@ -10,6 +10,10 @@
  hmong_adherent:0 "몽교 신자"
  hmong_adherent_plural:0 "몽교 신자들"
  hmong_religion_desc:0 "몽교는 중국 남부 전역에서 발견되는 다양한 몽족의 토착 종교이며, 샤머니즘 점술을 통해 세상에 신과 영혼이 살고 있다는 믿음에 중심을 두고 있습니다. 몽교는 가문의 제단에 제물을 바치거나 무당 또는 가장에 의해 행해지는 의식을 통해 조상의 영혼에 대한 경외감을 표현합니다."
+ hmong_old:0 "옛 몽교"
+ hmong_old_adj:0 "옛 몽"
+ hmong_old_adherent:0 "옛 몽교 신자"
+ hmong_old_adherent_plural:0 "옛 몽교 신자들"
  
  hmongism_high_god_name:0 "야움 사우브"
  hmongism_high_god_name_possessive:0 "야움 사우브의"

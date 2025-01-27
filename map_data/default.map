@@ -309,11 +309,14 @@ sea_zones = RANGE { 12028 12039 }
 river_provinces = RANGE { 11028 11038 } # Yangtze River
 river_provinces = RANGE { 11041 11046 } # Yellow River
 river_provinces = RANGE { 12530 12537 } # Amur River
+river_provinces = RANGE { 12538 12540 } # Pearl River
 
 #Southeast Asia
 river_provinces = LIST { 11893 11894 11895 11975 11976 11977 11978 }  #Mekong River
-river_provinces = LIST { 11906 12151 12152 12159 12206 }  #Bornean Rivers
-river_provinces = LIST { 10983 }  #Chao Phraya River
+river_provinces = LIST { 11906 12151 12152 12159 12206 12545 12546 12547 12548 }  #Bornean Rivers
+river_provinces = LIST { 10983 12543 }  #Chao Phraya River
+river_provinces = LIST { 12541 12542 }  #Red River
+river_provinces = LIST { 12544 }  #Tanintharyi River
 
 ########
 # LAKES

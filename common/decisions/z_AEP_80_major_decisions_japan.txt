@@ -1,0 +1,308 @@
+﻿#Creating Kamakura Bakufu
+form_kamakura_bakufu_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_shogunate.dds"
+	}
+	desc = form_kamakura_bakufu_decision_desc
+	selection_tooltip = form_kamakura_bakufu_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		game_start_date >= 1178.10.1 #1178 Start Date Exclusive.
+		is_ruler = yes
+		exists = title:k_nippon.holder
+		NOT = { exists = title:k_kamakura_bakufu.holder }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_kamakura_bakufu
+			}
+		}
+		faith.religion = faith:shinto.religion # Shintō
+		culture = { has_cultural_pillar = heritage_japanese }
+		capital_province = { geographical_region = world_japan_proper }
+		OR = {	#Character must belong to the Genji
+			dynasty = dynasty:40000205	#Saga-Genji 嵯峨源氏
+			dynasty = dynasty:40000206  #Ninmyō-Genji 仁明源氏
+			dynasty = dynasty:40000207  #Montoku-Genji 文徳源氏
+			dynasty = dynasty:40000208  #Seiwa-Genji 清和源氏
+			dynasty = dynasty:40000209  #Yōzei-Genji 陽成源氏
+			dynasty = dynasty:40000210  #Kōkō-Genji 光孝源氏
+			dynasty = dynasty:40000211  #Uda-Genji 宇多源氏
+			dynasty = dynasty:40000212  #Daigo-Genji 醍醐源氏
+			dynasty = dynasty:40000213  #Murakami-Genji 村上源氏
+			dynasty = dynasty:40000214  #Reizei-Genji 冷泉源氏
+			dynasty = dynasty:40000215  #Kazan-Genji 花山源氏
+			dynasty = dynasty:40000216  #Sanjō-Genji 三条源氏
+		}
+		exists = faith.religious_head
+		NOT = { root = faith.religious_head }
+	}
+
+	is_valid = {
+		#Standard requirements.
+		prestige_level >= 4
+		government_has_flag = government_is_feudal
+		#Title ownership conditions.
+		completely_controls_region = world_japan_proper
+		has_title = title:k_nippon
+		#HoF preference conditions.
+		OR = {
+			faith.religious_head = {
+				opinion = {
+					target = root
+					value >= high_positive_opinion
+				}
+			}
+			root = { has_strong_usable_hook = faith.religious_head }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 250
+		piety = 100
+	}
+
+	effect = {
+		show_as_tooltip = {
+			form_kamakura_bakufu_scripted_effect = yes
+		}
+		trigger_event = {
+			id = japan_decisions.0001
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_kamakura_bakufu
+			}
+			set_global_variable = {
+				name = flag_formed_kamakura_bakufu
+				value = root
+			}
+		}
+	}
+	
+	ai_potential = {
+		is_independent_ruler = yes
+		highest_held_title_tier = tier_kingdom
+	}
+
+	ai_will_do = {
+		base = 0
+
+		# Only ambitious characters should attempt this.
+		modifier = {
+			add = 100
+			has_trait = ambitious
+		}
+	}
+}
+
+#Creating Fukuhara Bakufu
+form_fukuhara_bakufu_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_shogunate.dds"
+	}
+	desc = form_fukuhara_bakufu_decision_desc
+	selection_tooltip = form_fukuhara_bakufu_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		game_start_date >= 1178.10.1 #1178 Start Date Exclusive.
+		is_ruler = yes
+		exists = title:k_nippon.holder
+		NOT = { exists = title:k_fukuhara_bakufu.holder }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_fukuhara_bakufu
+			}
+		}
+		faith.religion = faith:shinto.religion # Shintō
+		culture = { has_cultural_pillar = heritage_japanese }
+		capital_province = { geographical_region = world_japan_proper }
+		OR = {	#Character must belong to the Heishi
+			dynasty = dynasty:40000201	#Kanmu Heishi 桓武平氏
+			dynasty = dynasty:40000202  #Ninmyō-Heishi 仁明平氏
+			dynasty = dynasty:40000203  #Montoku-Heishi 文徳平氏
+			dynasty = dynasty:40000204  #Kōkō-Heishi 光孝平氏
+		}
+		exists = faith.religious_head
+		NOT = { root = faith.religious_head }
+	}
+
+	is_valid = {
+		#Standard requirements.
+		prestige_level >= 4
+		government_has_flag = government_is_feudal
+		#Title ownership conditions.
+		completely_controls_region = world_japan_proper
+		has_title = title:k_nippon
+		#HoF preference conditions.
+		OR = {
+			faith.religious_head = {
+				opinion = {
+					target = root
+					value >= high_positive_opinion
+				}
+			}
+			root = { has_strong_usable_hook = faith.religious_head }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 250
+		piety = 100
+	}
+
+	effect = {
+		show_as_tooltip = {
+			form_fukuhara_bakufu_scripted_effect = yes
+		}
+		trigger_event = {
+			id = japan_decisions.0003
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_fukuhara_bakufu
+			}
+			set_global_variable = {
+				name = flag_formed_fukuhara_bakufu
+				value = root
+			}
+		}
+	}
+	
+	ai_potential = {
+		is_independent_ruler = yes
+		highest_held_title_tier = tier_kingdom
+	}
+
+	ai_will_do = {
+		base = 0
+
+		# Only ambitious characters should attempt this.
+		modifier = {
+			add = 100
+			has_trait = ambitious
+		}
+	}
+}
+
+#Creating Muromachi Bakufu
+form_muromachi_bakufu_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_found_shogunate.dds"
+	}
+	desc = form_muromachi_bakufu_decision_desc
+	selection_tooltip = form_muromachi_bakufu_decision_tooltip
+	decision_group_type = major
+
+	ai_check_interval = 120
+
+	is_shown = {
+		game_start_date >= 1178.10.1 #1178 Start Date Exclusive.
+		is_ruler = yes
+		exists = title:k_nippon.holder
+		NOT = { exists = title:k_muromachi_bakufu.holder }
+		NOT = {  #Can only do it once.
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_muromachi_bakufu
+			}
+		}
+		faith.religion = faith:shinto.religion # Shintō
+		culture = { has_cultural_pillar = heritage_japanese }
+		capital_province = { geographical_region = world_japan_proper }
+		dynasty = dynasty:40000242  #Ashikaga Clan 足利氏
+		exists = faith.religious_head
+		NOT = { root = faith.religious_head }
+	}
+
+	is_valid = {
+		#Standard requirements.
+		prestige_level >= 4
+		government_has_flag = government_is_feudal
+		#Title ownership conditions.
+		completely_controls_region = world_japan_proper
+		has_title = title:k_nippon
+		#HoF preference conditions.
+		OR = {
+			faith.religious_head = {
+				opinion = {
+					target = root
+					value >= high_positive_opinion
+				}
+			}
+			root = { has_strong_usable_hook = faith.religious_head }
+		}
+	}
+
+	is_valid_showing_failures_only = {
+		is_landed = yes
+		is_capable_adult = yes
+		is_imprisoned = no
+		is_independent_ruler = yes
+		is_at_war = no
+	}
+
+	cost = {
+		gold = 250
+		piety = 100
+	}
+
+	effect = {
+		show_as_tooltip = {
+			form_muromachi_bakufu_scripted_effect = yes
+		}
+		trigger_event = {
+			id = japan_decisions.0005
+		}
+		hidden_effect = {
+			add_to_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_formed_muromachi_bakufu
+			}
+			set_global_variable = {
+				name = flag_formed_muromachi_bakufu
+				value = root
+			}
+		}
+	}
+	
+	ai_potential = {
+		is_independent_ruler = yes
+		highest_held_title_tier = tier_kingdom
+	}
+
+	ai_will_do = {
+		base = 0
+
+		# Only ambitious characters should attempt this.
+		modifier = {
+			add = 100
+			has_trait = ambitious
+		}
+	}
+}

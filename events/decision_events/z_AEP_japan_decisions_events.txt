@@ -1,0 +1,214 @@
+﻿
+namespace = japan_decisions
+
+##################################################
+
+### Japan Major Decision Events
+
+# 0001 - Forming the Kamakura Bakufu
+# 0003 - Forming the Fukuhara Bakufu
+# 0005 - Forming the Muromachi Bakufu
+
+##################################################
+
+##################################################
+# Japan "Kingdoms"
+##################################################
+
+##################################################
+# Forming the Kamakura Bakufu
+##################################################
+
+japan_decisions.0001 = {
+	type = character_event
+	title = japan_decisions.0001.t
+	desc = japan_decisions.0001.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = faith.religious_head
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		form_kamakura_bakufu_scripted_effect = yes
+		legend_seed_new_title_effect = yes
+	}
+	option = {
+		name = japan_decisions.0001.a
+
+		# Send narrative fluff to other players (if any).
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				top_liege = scope:former_liege
+			}
+			trigger_event = japan_decisions.0002
+		}
+	}
+}
+
+japan_decisions.0002 = {
+	type = character_event
+	title = japan_decisions.0001.t
+	desc = {
+		first_valid = {
+			# Everybody reaction.
+			triggered_desc = {
+				trigger = {
+					NOT = { has_title = title:k_nippon }
+				}
+				desc = japan_decisions.0002.desc.others
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = faith.religious_head
+		animation = personality_zealous
+	}
+
+	option = {
+		name = japan_decisions.0002.a
+	}
+}
+
+##################################################
+# Forming the Fukuhara Bakufu
+##################################################
+
+japan_decisions.0003 = {
+	type = character_event
+	title = japan_decisions.0003.t
+	desc = japan_decisions.0003.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = faith.religious_head
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		form_fukuhara_bakufu_scripted_effect = yes
+		legend_seed_new_title_effect = yes
+	}
+	option = {
+		name = japan_decisions.0003.a
+
+		# Send narrative fluff to other players (if any).
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				top_liege = scope:former_liege
+			}
+			trigger_event = japan_decisions.0004
+		}
+	}
+}
+
+japan_decisions.0004 = {
+	type = character_event
+	title = japan_decisions.0003.t
+	desc = {
+		first_valid = {
+			# Everybody reaction.
+			triggered_desc = {
+				trigger = {
+					NOT = { has_title = title:k_nippon }
+				}
+				desc = japan_decisions.0004.desc.others
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = faith.religious_head
+		animation = personality_zealous
+	}
+
+	option = {
+		name = japan_decisions.0004.a
+	}
+}
+
+##################################################
+# Forming the Muromachi Bakufu
+##################################################
+
+japan_decisions.0005 = {
+	type = character_event
+	title = japan_decisions.0005.t
+	desc = japan_decisions.0005.desc
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = faith.religious_head
+		animation = personality_zealous
+	}
+
+	immediate = {
+		play_music_cue = "mx_cue_epic_sacral_moment"
+		form_muromachi_bakufu_scripted_effect = yes
+		legend_seed_new_title_effect = yes
+	}
+	option = {
+		name = japan_decisions.0005.a
+
+		# Send narrative fluff to other players (if any).
+		every_player = {
+			limit = {
+				NOT = { this = root }
+				top_liege = scope:former_liege
+			}
+			trigger_event = japan_decisions.0006
+		}
+	}
+}
+
+japan_decisions.0006 = {
+	type = character_event
+	title = japan_decisions.0005.t
+	desc = {
+		first_valid = {
+			# Everybody reaction.
+			triggered_desc = {
+				trigger = {
+					NOT = { has_title = title:k_nippon }
+				}
+				desc = japan_decisions.0006.desc.others
+			}
+		}
+	}
+	theme = realm
+	left_portrait = {
+		character = root
+		animation = personality_bold
+	}
+	right_portrait = {
+		character = faith.religious_head
+		animation = personality_zealous
+	}
+
+	option = {
+		name = japan_decisions.0006.a
+	}
+}

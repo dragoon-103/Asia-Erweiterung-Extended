@@ -1,13 +1,30 @@
 ﻿l_russian:
- #Japanese 
- councillor_court_chaplain_shinto: "Шасофт" 
- councillor_court_chaplain_shinto_possessive: "Шасофт" 
- #Purely Shinto 
- #councillor_court_chaplain_shinto: "Годжи" 
- #councillor_court_chaplain_shinto_possessive: "Годжи" 
- #Korean 
- councillor_court_chaplain_koreanic_religion: "Муданг" 
- councillor_court_chaplain_koreanic_religion_possessive: "Муданг" 
- #Tai 
- councillor_court_chaplain_tai_religion: "Мофи" 
- councillor_court_chaplain_tai_religion_possessive: "Мофи" 
+#Shintoism
+ councillor_court_chaplain_shinto_county: "Шасо"
+ councillor_court_chaplain_shinto_county_possessive: "Шасо"
+ councillor_court_chaplain_shinto_duchy: "Шасо"
+ councillor_court_chaplain_shinto_duchy_possessive: "Шасо"
+ councillor_court_chaplain_shinto_kingdom: "Сайшу"
+ councillor_court_chaplain_shinto_kingdom_possessive: "Сайшу"
+ councillor_court_chaplain_shinto_empire: "Сайшу"
+ councillor_court_chaplain_shinto_empire_possessive: "Сайшу"
+
+#Utaki Shintoism
+ councillor_court_chaplain_utaki_county: "Норо"
+ councillor_court_chaplain_utaki_county_possessive: "Норо"
+ councillor_court_chaplain_utaki_duchy: "Норо"
+ councillor_court_chaplain_utaki_duchy_possessive: "Норо"
+ councillor_court_chaplain_utaki_kingdom: "Уфу-Норо"
+ councillor_court_chaplain_utaki_kingdom_possessive: "Уфу-Норо"
+ councillor_court_chaplain_utaki_empire: "Уфу-Норо"
+ councillor_court_chaplain_utaki_empire_possessive: "Уфу-Норо"
+
+#Korean Shamanism (Muism)
+ councillor_court_chaplain_muism_county: "Мудан"
+ councillor_court_chaplain_muism_county_possessive: "Мудана"
+ councillor_court_chaplain_muism_duchy: "Мудан"
+ councillor_court_chaplain_muism_duchy_possessive: "Мудана"
+ councillor_court_chaplain_muism_kingdom: "Чхонмудан"
+ councillor_court_chaplain_muism_kingdom_possessive: "Чхонмудана"
+ councillor_court_chaplain_muism_empire: "Чхонмудан"
+ councillor_court_chaplain_muism_empire_possessive: "Чхонмудана"

@@ -22,6 +22,8 @@
   duke_administrative_female_japanese_group_tohoku:0 "고쿠시" #国司
   duke_administrative_male_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
   duke_administrative_female_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
+  duke_administrative_male_japanese_group_chinjufu:0 "진수부장군" #鎮守府将軍
+  duke_administrative_female_japanese_group_chinjufu:0 "진수부장군" #鎮守府将軍
   king_administrative_male_japanese_group_japan:0 "섭정" #摂政
   king_administrative_female_japanese_group_japan:0 "섭정" #摂政
   emperor_administrative_male_japanese_group_japan:0 "대섭정" #大摂政
@@ -34,8 +36,8 @@
   count_feudal_female_japanese_group:0 "다이묘" #大名
   duke_feudal_male_japanese_group:0 "대다이묘" #大大名
   duke_feudal_female_japanese_group:0 "대다이묘" #大大名
-  duke_feudal_male_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
-  duke_feudal_female_japanese_group_dazaifu:0 "다자이노소치" #大宰帥
+  duke_feudal_male_japanese_group_chinjufu:0 "진수부장군" #鎮守府将軍
+  duke_feudal_female_japanese_group_chinjufu:0 "진수부장군" #鎮守府将軍
   king_feudal_male_japanese_group_japan:0 "무가의 동량" #武門之棟梁
   king_feudal_female_japanese_group_japan:0 "무가의 동량" #武門之棟梁
   king_feudal_male_japanese_group_shogunate:0 "쇼군" #将軍

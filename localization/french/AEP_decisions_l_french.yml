@@ -1,0 +1,18 @@
+﻿l_french:
+#Japanese Decisions
+ form_kamakura_bakufu_decision:0 "Établir le Shōgunat Kamakura"
+ form_kamakura_bakufu_decision_confirm:0 "Iza Kamakura !"
+ form_kamakura_bakufu_decision_desc:0 "Avec nos ennemis en ruines et l'influence de la Cour impériale considérablement diminuée, le moment est propice pour les Minamoto d'établir un nouvel ordre.\n\nPar décret impérial, je ferai entrer dans une nouvelle ère où l'harmonie est assurée par la puissance des samouraïs, avec le Shōgun comme véritable dirigeant du Japon."
+ form_kamakura_bakufu_decision_tooltip:0 "Le Shōgunat Kamakura sera établi."
+ 
+ form_fukuhara_bakufu_decision:0 "Établir le Shōgunat Fukuhara"
+ form_fukuhara_bakufu_decision_confirm:0 "Iza Fukuhara !"
+ form_fukuhara_bakufu_decision_desc:0 "Avec nos ennemis en ruines et l'influence de la Cour impériale considérablement diminuée, le moment est propice pour les Taira d'établir un nouvel ordre.\n\nPar décret impérial, je ferai entrer dans une nouvelle ère où l'harmonie est assurée par la puissance des samouraïs, avec le Shōgun comme véritable dirigeant du Japon."
+ form_fukuhara_bakufu_decision_tooltip:0 "Le Shōgunat Fukuhara sera établi."
+ 
+ form_muromachi_bakufu_decision:0 "Établir le Shōgunat Muromachi"
+ form_muromachi_bakufu_decision_confirm:0 "Iza Muromachi !"
+ form_muromachi_bakufu_decision_desc:0 "Avec nos ennemis en ruines et l'influence de la Cour impériale considérablement diminuée, le moment est propice pour les Ashikaga d'établir un nouvel ordre.\n\nPar décret impérial, je ferai entrer dans une nouvelle ère où l'harmonie est assurée par la puissance des samouraïs, avec le Shōgun comme véritable dirigeant du Japon."
+ form_muromachi_bakufu_decision_tooltip:0 "Le Shōgunat Muromachi sera établi."
+ 
+ ritsuryo_dismantled_tt:0 "Le système Ritsuryō sera aboli et tous les vassaux non impériaux [administrative|E] se convertiront en [feudal|E]."

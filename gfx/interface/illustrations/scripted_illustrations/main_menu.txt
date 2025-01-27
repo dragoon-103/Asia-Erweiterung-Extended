@@ -208,21 +208,6 @@ main_menu_background = {
 	}
 
 	texture = {
-		reference = "main_menu/fp1_frontend_tribal.dds"
-
-		trigger = {
-			has_graphical_eastern_siberia_region_trigger = yes
-		}
-	}
-	environment = {
-		reference = "environment_fp1_frontend_tribal_main"
-
-		trigger = {
-			has_graphical_eastern_siberia_region_trigger = yes
-		}
-	}
-
-	texture = {
 		reference = "main_menu/frontend_india.dds"
 
 		trigger = {
@@ -249,21 +234,6 @@ main_menu_background = {
 
 		trigger = {
 			has_graphical_southeast_asia_region_trigger = yes
-		}
-	}
-
-	texture = {
-		reference = "main_menu/fp1_frontend_tribal.dds"
-
-		trigger = {
-			has_graphical_papua_region_trigger = yes
-		}
-	}
-	environment = {
-		reference = "environment_fp1_frontend_tribal_main"
-
-		trigger = {
-			has_graphical_papua_region_trigger = yes
 		}
 	}
 

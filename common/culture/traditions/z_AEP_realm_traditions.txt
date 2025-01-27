@@ -1,0 +1,293 @@
+﻿#############################
+# REALM CULTURAL TRADITIONS #
+#############################
+
+tradition_angkorian_architecture = {
+	category = realm
+
+	layers = {
+		0 = diplo
+		1 = indian
+		3 = 1.dds
+		4 = angkorian_architecture.dds
+	}
+
+	is_shown = {
+		OR = {
+			this = culture:khmer
+			any_parent_culture_or_above = {
+				this = culture:khmer
+			}
+		}
+		NOT = { has_cultural_tradition = tradition_parochialism }
+	}
+	can_pick = {
+		OR ={
+			this = culture:khmer
+			any_parent_culture_or_above = {
+				this = culture:khmer
+			}
+		}
+		NOT = { has_cultural_tradition = tradition_parochialism }
+	}
+
+	parameters = {
+		enable_baray_duchy_building = yes
+		more_fervor_on_church_construction = yes
+		prestige_from_temple_construction = yes
+		build_bonuses_on_religious_traits = yes
+	}
+	province_modifier = {
+		supply_limit_mult = 0.25
+	}
+	character_modifier = {
+		ai_zeal = 25
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_communal = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_communal_spiritual_or_stoic_desc
+				}
+			}
+			if = {
+				limit = {
+					trigger_if = {
+						limit = {
+							scope:character = {
+								is_ai = no
+							}
+						}
+						NOT = {
+							any_ruler = {
+								count >= 5
+								culture = prev
+								primary_title.tier >= tier_county
+								faith = scope:character.faith
+								has_trait = zealous
+							}
+						}
+					}
+					trigger_else = {
+						always = no
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = rulers_with_same_faith_zealous_desc
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = {
+				scope:character = {
+					has_government = tribal_government
+				}
+			}
+			multiply = 0
+		}
+	}
+}
+
+tradition_austronesian_seafarers = {
+	category = realm
+
+	layers = {
+		0 = diplo
+		1 = indian
+		3 = 6.dds
+		4 = ship.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_malay
+			has_cultural_pillar = heritage_sumatran
+			has_cultural_pillar = heritage_chamic
+			has_cultural_pillar = heritage_javanese
+			has_cultural_pillar = heritage_dayak
+			has_cultural_pillar = heritage_north_borneo
+			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sea_gypsy
+			has_cultural_pillar = heritage_sulawesi
+			has_cultural_pillar = heritage_lesser_sunda
+			has_cultural_pillar = heritage_moluccan
+		}
+	}
+	
+	can_pick = {
+		OR = {
+			has_cultural_pillar = heritage_malay
+			has_cultural_pillar = heritage_sumatran
+			has_cultural_pillar = heritage_chamic
+			has_cultural_pillar = heritage_javanese
+			has_cultural_pillar = heritage_dayak
+			has_cultural_pillar = heritage_north_borneo
+			has_cultural_pillar = heritage_filipino
+			has_cultural_pillar = heritage_sea_gypsy
+			has_cultural_pillar = heritage_sulawesi
+			has_cultural_pillar = heritage_lesser_sunda
+			has_cultural_pillar = heritage_moluccan
+		}
+	}
+	
+	parameters = {
+		trade_ports_give_control_growth = yes
+		trade_ports_give_levies = yes
+		can_travel_along_rivers = yes
+		trade_ports_enabled_for_tribals = yes
+	}
+
+	culture_modifier = {
+		cultural_acceptance_gain_mult = 0.20
+	}
+	character_modifier = {
+		learn_language_scheme_power_mult = 0.1
+		embarkation_cost_mult = -0.3
+		sea_travel_danger = medium_sea_danger_reduction
+	}
+	#effect = {
+	#	same_tradition_opinion = yes
+	#}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_or_communal_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = { # Make stacking a bit less common
+			limit = {
+				OR = {
+					has_cultural_tradition = tradition_maritime_mercantilism
+					has_cultural_tradition = tradition_fishermen
+				}
+			}
+			multiply = 0.75
+		}
+		if = {
+			limit = {
+				NOT = {
+					scope:character = {
+						any_sub_realm_county = {
+							percent >= 0.3
+							any_county_province = {
+								is_coastal = yes
+							}
+						}
+					}
+				}
+			}
+			multiply = 0
+		}
+		if = {
+			limit = {
+				scope:character = {
+					any_sub_realm_county = {
+						percent >= 0.7
+						any_county_province = {
+							is_coastal = yes
+						}
+					}
+				}
+			}
+			multiply = 2
+		}
+	}
+}
+
+tradition_migratory = {
+	category = realm
+
+	layers = {
+		0 = steward
+		1 = medi
+		3 = 3.dds
+		4 = horses.dds
+	}
+
+	can_pick = {
+		scope:character = {
+			has_government = tribal_government
+		}
+	}
+
+	parameters = {
+		enable_migration_cb = yes
+	}
+	county_modifier = {
+		development_growth_factor = -0.10
+	}
+	character_modifier = {
+		levy_size = 0.10
+	}
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bellicose = { is_in_list = traits }
+						culture_pillar:ethos_stoic = { is_in_list = traits }
+						culture_pillar:ethos_communal = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bellicose_stoic_or_communal_desc
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = {
+		value = 0
+	}
+}

@@ -1,0 +1,27 @@
+﻿#Special succession types
+#If adding new types to the decision, use a trigger, otherwise they may break if the culture is split.
+
+historical_succession_access_single_heir_succession_law_trigger = {
+	OR = {
+		has_title = title:e_byzantium
+		has_title = title:k_austria
+		has_title = title:e_roman_empire
+		AND = {
+			has_title = title:e_france
+			is_target_in_global_variable_list = {
+				name = unavailable_unique_decisions
+				target = flag:flag_reformed_carolingian_empire
+			}
+		#Add any subsequent exceptions here.
+		}
+		AND = {
+			culture = { has_innovation = innovation_sinitic_bureaucracy }
+			NOR = {
+				government_has_flag = government_is_republic
+				government_has_flag = government_is_theocracy
+				government_has_flag = government_is_holy_order
+				government_has_flag = government_is_mercenary
+			}
+		}
+	}
+}
