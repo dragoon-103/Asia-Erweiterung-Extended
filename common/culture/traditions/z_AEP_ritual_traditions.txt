@@ -1,0 +1,98 @@
+﻿################################
+# RITUAL CULTURAL TRADITIONS #
+################################
+
+tradition_chinese_characters = {
+	category = ritual
+
+	layers = {
+		0 = learning
+		1 = default_todo.dds
+		3 = 4.dds
+		4 = chinese_characters.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_chinese
+			has_cultural_pillar = heritage_japanese
+			has_cultural_pillar = heritage_korean
+			has_cultural_pillar = heritage_viet
+		}
+	}
+	
+	can_pick = {
+		has_cultural_pillar = heritage_chinese
+		has_cultural_pillar = heritage_japanese
+		has_cultural_pillar = heritage_korean
+		has_cultural_pillar = heritage_viet
+	}
+	
+	parameters = {
+		better_ward_education = yes
+		wants_to_learn_liege_language = yes
+		extra_learn_language_success_chance_vs_liege = yes
+		innovation_from_learning_traits = yes
+	}
+	
+	character_modifier = {
+		monthly_learning_lifestyle_xp_gain_mult = 0.1
+		stewardship = 1
+		learning = 2
+	}
+	
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_bureaucratic = { is_in_list = traits }
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_bureaucratic_courtly_or_spiritual_desc
+				}
+			}
+			if = {
+				limit = {
+					has_dlc_feature = royal_court
+					OR = {
+						scope:character = { has_royal_court = no }
+						NOT = {
+							scope:character = {
+								court_grandeur_current_level >= very_high_court_grandeur_level
+							}
+						}
+					}
+				}
+				add = {
+					value = tradition_unfulfilled_criteria_penalty
+					desc = culture_head_court_grandeur_desc
+				}
+			}
+			
+			multiply = tradition_replacement_cost_if_relevant
+
+		}
+	}
+	
+	ai_will_do = {
+		value = 100
+		if = {
+			limit = { # Admin should be more into this
+				scope:character = {
+					government_allows = administrative
+				}
+			}
+			multiply = 2
+		}
+	}
+}

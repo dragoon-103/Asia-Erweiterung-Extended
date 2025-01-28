@@ -1,0 +1,4416 @@
+﻿##########################################
+### Gyeongju Kim Clan 경주 김씨/慶州金氏 ###
+##########################################
+kim_seonghan = {
+	name = Seonghan # 성한/星漢
+	dynasty = 60000001
+	religion = tengri_pagan
+	culture = xiongnu
+	2.1.1 = { # estimate
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	77.1.1 = { # estimate
+		death = yes
+	}
+	dna = kim_seonghan_dna_entry
+}
+kim_ado = {
+	name = Ado # 아도/阿道
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_seonghan
+	34.1.1 = {
+		birth = yes
+	}
+	112.1.1 = {
+		death = yes
+	}
+}
+kim_sulyu = {
+	name = Sulyu # 수류/首留
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_ado
+	69.1.1 = {
+		birth = yes
+	}
+	146.1.1 = {
+		death = yes
+	}
+}
+kim_ugbo = {
+	name = Ugbo # 욱보/郁甫
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_sulyu
+	104.1.1 = {
+		birth = yes
+	}
+	178.1.1 = {
+		death = yes
+	}
+}
+kim_gudo = {
+	name = Gudo # 구도/仇道
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_ugbo
+	169.1.1 = { # estimate
+		birth = yes
+	}
+	262.1.1 = {
+		death = yes
+	}
+}
+kim_michu = {
+	name = Michu # 미추/味鄒
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	trait = compassionate
+	father = kim_gudo
+	190.1.1 = {
+		birth = yes
+	}
+	260.1.1 = {
+		add_spouse = seok_gwangmyeong
+	}
+	284.1.1 = {
+		death = yes
+	}
+}
+kim_boban = {
+	name = Boban # 보반/寶飯
+	female = yes
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_michu
+	mother = seok_gwangmyeong
+	260.1.1 = { # estimate
+		birth = yes
+	}
+	299.1.1 = { #estimate
+		death = yes
+	}
+}
+kim_aryu = {
+	name = Aryu # 아류/阿留
+	female = yes
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_michu
+	mother = seok_gwangmyeong
+	263.1.1 = { # estimate
+		birth = yes
+	}
+	322.1.1 = { #estimate
+		death = yes
+	}
+}
+kim_ongmo = {
+	name = Ongmo # 옥모/玉帽
+	female = yes
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_gudo
+	194.1.1 = { # estimate
+		birth = yes
+	}
+	270.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_malgu = {
+	name = Malgu # 말구/末仇
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_gudo
+	242.1.1 = { # estimate
+		birth = yes
+	}
+	344.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_daeseoji = {
+	name = Daeseoji # 대서지/大西知
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_gudo
+	256.1.1 = { # estimate
+		birth = yes
+	}
+	382.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_silseong = {
+	name = Silseong # 실성/實聖
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_gudo
+	262.1.1 = { # estimate
+		birth = yes
+	}
+	417.1.1 = {
+		death = yes
+	}
+}
+kim_naemul = {
+	name = Naemul # 나물/奈勿
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_malgu
+	260.1.1 = { # estimate
+		birth = yes
+	}
+	290.1.1 = {
+		add_spouse = kim_boban
+	}
+	402.1.1 = {
+		death = yes
+	}
+}
+kim_nulji = {
+	name = Nulji # 눌기/訥祇
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_naemul
+	mother = kim_boban
+	293.1.1 = { # estimate
+		birth = yes
+	}
+	458.1.1 = {
+		death = yes
+	}
+}
+kim_jabi = {
+	name = Jabi # 자비/慈悲
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_nulji
+	406.1.1 = { # estimate
+		birth = yes
+	}
+	479.3.12 = {
+		death = yes
+	}
+}
+kim_soji = {
+	name = Soji # 소지/炤知
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_jabi
+	442.1.1 = { # estimate
+		birth = yes
+	}
+	500.1.1 = {
+		death = yes
+	}
+}
+kim_bokho = {
+	name = Bokho # 김복호/卜好
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_naemul
+	mother = kim_boban
+	296.1.1 = { # estimate
+		birth = yes
+	}
+	420.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_seupbo = {
+	name = Seupbo # 습보/習寶
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_bokho
+	370.1.1 = { # estimate
+		birth = yes
+	}
+	444.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_jijeung = {
+	name = Jidaero # 지대로/智大路
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_seupbo
+	437.1.1 = {
+		birth = yes
+	}
+	514.1.1 = {
+		death = yes
+		name = Jijeung # 지증/智證
+	}
+}
+kim_beopheung = {
+	name = Beopheung # 법흥/法興
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_jijeung
+	463.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	540.1.1 = {
+		death = yes
+	}
+}
+kim_ipjong = {
+	name = Ipjong # 입종/立宗
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_jijeung
+	465.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	537.1.1 = {
+		death = yes
+	}
+}
+kim_jinheung = {
+	name = Jinheung # 진흥/眞興
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_ipjong
+	526.1.1 = {
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	576.1.1 = {
+		death = yes
+	}
+}
+kim_dongryun = {
+	name = Dongryun # 동륜/銅輪
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_jinheung
+	549.1.1 = { # estimate
+		birth = yes
+	}
+	572.1.1 = {
+		death = yes
+	}
+}
+kim_jinpyeong = {
+	name = Jinpyeong # 백정/白淨
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	trait = zealous
+	father = kim_dongryun
+	567.1.1 = {
+		birth = yes
+	}
+	632.1.20 = {
+		death = yes
+		name = Jinpyeong2 # 진평/眞平
+	}
+}
+kim_cheonmyeong = {
+	name = Cheonmyeong # 천명/天明
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	trait = zealous
+	father = kim_jinpyeong
+	584.1.1 = { # estimate
+		birth = yes
+	}
+	600.1.1 = {
+		effect = {
+			set_relation_lover = character:kim_yongchun
+		}
+	}
+	554.1.1 = {
+		name = Munjeong # 문정/文貞 named Queen Dowager Munjeong following her son's coronation
+	}
+	660.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_deokmanseondeok = {
+	name = Deokman # 덕만/德曼
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+
+	diplomacy = 8
+	martial = 4
+	intrigue = 7
+	stewardship = 5
+	learning = 8
+	prowess = 3
+	trait = education_learning_3
+	trait = zealous
+	trait = generous
+	trait = forgiving
+	trait = just
+	trait = intellect_good_2
+	trait = beauty_good_3
+	trait = shrewd
+	disallow_random_traits = yes
+
+	father = kim_jinpyeong
+	595.1.1 = {
+		birth = yes
+	}
+	647.2.17 = {
+		death = yes
+		name = Seondeok # 선덕/善德
+	}
+}
+kim_gukban = {
+	name = Gukban # 국반/國飯
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_dongryun
+	570.1.1 = { # estimate
+		birth = yes
+	}
+	630.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_jindeok = {
+	name = Seungman # 승만/勝曼
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	trait = beauty_good_3
+	trait = poet
+	father = kim_gukban
+	600.1.1 = { # estimate
+		birth = yes
+	}
+	654.1.1 = {
+		death = yes
+		name = Jindeok # 진덕/眞德
+	}
+}
+kim_baekban = {
+	name = Baekban # 백반/伯飯
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_dongryun
+	573.1.1 = { # estimate
+		birth = yes
+	}
+	631.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_jinji = {
+	name = Geumryun # 금륜/金輪
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_jinheung
+	551.1.1 = { # estimate
+		birth = yes
+	}
+	579.7.17 = {
+		death = yes
+		name = Jinji # 진지/眞智
+	}
+}
+kim_guryun = {
+	name = Gu-Ryun # 구륜/仇輪
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_jinheung
+	555.1.1 = { # estimate
+		birth = yes
+	}
+	630.7.17 = { # estimate
+		death = yes
+	}
+}
+kim_yongchun = {
+	name = Yongchun # 용춘/龍春
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_jinji
+	575.1.1 = { # estimate
+		birth = yes
+	}
+	610.1.1 = {
+		add_spouse = kim_cheonmyeong
+	}
+	653.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_yongsu = {
+	name = Yongsu # 용수/龍樹
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_jinji
+	577.1.1 = { # estimate
+		birth = yes
+	}
+	604.1.1 = {
+		add_spouse = kim_cheonmyeong
+	}
+	610.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_muyeol = {
+	name = Chun-chu # 춘추/春秋
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_yongchun # was adopted by Yongchu following his brother's death
+	mother = kim_cheonmyeong
+	604.1.1 = {
+		birth = yes
+	}
+	661.6.1 = {
+		death = yes
+		name = Muyeol # 무열/武烈
+	}
+}
+kim_munmu = {
+	name = Beopmin # 법민/法敏
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_muyeol
+	626.1.1 = {
+		birth = yes
+	}
+	681.7.21 = {
+		death = yes
+		name = Munmu # 문무/文武
+	}
+}
+kim_inmun = {
+	name = Inmun # 인문/仁問
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_muyeol
+	629.1.1 = {
+		birth = yes
+	}
+	694.1.1 = {
+		death = yes
+	}
+}
+kim_sinmun = {
+	name = Jeong-myeong # 정명/政明
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_munmu
+	650.1.1 = { # estimate
+		birth = yes
+	}
+	692.8.19 = {
+		death = yes
+		name = Sinmun # 신문/神文
+	}
+}
+kim_hyoso = {
+	name = Igong # 이공/理恭
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmun
+	687.1.1 = {
+		birth = yes
+	}
+	702.8.24 = {
+		death = yes
+		name = Hyoso # 효소/孝昭
+	}
+}
+kim_seongdeok = {
+	name = Seongdeok # 성덕/聖德
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmun
+	690.1.1 = { # estimate
+		birth = yes
+	}
+	737.1.1 = {
+		death = yes
+	}
+}
+kim_hyoseong = {
+	name = Seung-gyeom # 승겸/承慶
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmun
+	721.1.1 = { # estimate
+		birth = yes
+	}
+	742.1.1 = {
+		death = yes
+		name = Hyoseong # 효성/孝成
+	}
+}
+kim_gyeongdeok = {
+	name = Heon-yeong # 헌영/憲英
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmun
+	724.1.1 = { # estimate
+		birth = yes
+	}
+	765.1.1 = {
+		death = yes
+		name = Gyeongdeok # 경덕/景德
+	}
+}
+kim_hyegong = {
+	name = Geon-un # 건운/乾運
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmun
+	758.1.1 = {
+		birth = yes
+	}
+	780.1.1 = {
+		death = yes
+		name = Hyegong # 공왕/恭王
+	}
+}
+kim_saso = {
+	name = Saso # 사소/四炤
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmun
+	727.1.1 = { # estimate
+		birth = yes
+	}
+	777.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_jinjong = {
+	name = Jinjong # 진종/真宗
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_jijeung
+	467.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	542.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_uichung = {
+	name = Uichung # 의충/依忠
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_jinjong
+	523.1.1 = { # estimate
+		birth = yes
+	}
+	601.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_sadaham = {
+	name = Sadaham # 사다함/斯多含
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_uichung
+	580.1.1 = { # estimate
+		birth = yes
+	}
+	657.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_wonhun = {
+	name = Wonhun # 원훈/元訓
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sadaham
+	636.1.1 = { # estimate
+		birth = yes
+	}
+	714.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_hyobang = {
+	name = Hyobang # 효방/孝芳
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_wonhun
+	693.1.1 = { # estimate
+		birth = yes
+	}
+	740.1.1 = {
+		add_spouse = kim_saso
+	}
+	771.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_yangsangseondeok = {
+	name = Yang-sang # 양상/良相
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_hyobang
+	mother = kim_saso
+	750.1.1 = { # estimate
+		birth = yes
+	}
+	785.2.26 = { # estimate
+		death = yes
+		name = Seondeok # 선덕/宣德
+	}
+}
+kim_misaheun = {
+	name = Misaheun # 미사흔/未斯欣
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_naemul
+	mother = kim_boban
+	299.1.1 = { # estimate
+		birth = yes
+	}
+	397.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_gucheon = {
+	name = Gucheon # 구천/仇天
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_misaheun
+	330.1.1 = { # estimate
+		birth = yes
+	}
+	412.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_chilbu = {
+	name = Chilbu # 칠부/柒夫
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_gucheon
+	377.1.1 = { # estimate
+		birth = yes
+	}
+	450.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_sunwon = {
+	name = Sun-won # 순원/順元
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_chilbu
+	420.1.1 = { # estimate
+		birth = yes
+	}
+	499.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_heumun = {
+	name = Heum-un # 흠운/欽運
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_sunwon
+	460.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	541.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_macha = {
+	name = Macha # 마차/摩次
+	dynasty = 60000001
+	religion = silla_sinhwa
+	culture = saro
+	father = kim_heumun
+	502.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	579.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_beobseon = {
+	name = Beobseon # 법선/法宣
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_macha
+	547.1.1 = { # estimate
+		birth = yes
+	}
+	623.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_uigwan = {
+	name = Uigwan # 의관/義寬
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_beobseon
+	595.1.1 = { # estimate
+		birth = yes
+	}
+	667.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_wimun = {
+	name = Wimun # 위문/魏文
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_uigwan
+	631.1.1 = { # estimate
+		birth = yes
+	}
+	716.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_hyoyang = {
+	name = Hyoyang # 효양/孝養
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_wimun
+	680.1.1 = { # estimate
+		birth = yes
+	}
+	752.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_wonseong = {
+	name = Gyeong-sin # 경신/敬信
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_hyoyang
+	721.1.1 = { # estimate
+		birth = yes
+	}
+	799.2.8 = {
+		death = yes
+		name = Wonseong2 # 원성/元聖
+	}
+}
+kim_ingyeom = {
+	name = In-gyeom # 인겸/仁謙
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_wonseong
+	746.1.1 = { # estimate
+		birth = yes
+	}
+	789.1.1 = { # estimate
+		death = yes
+		name = Hyechung # 혜충/惠忠
+	}
+}
+kim_soseong = {
+	name = Jun-ong # 준옹/俊邕
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_ingyeom
+	769.1.1 = { # estimate
+		birth = yes
+	}
+	800.1.1 = {
+		death = yes
+		name = Soseong # 소성/昭聖
+	}
+}
+kim_aejang = {
+	name = Cheong-myeong # 청명/淸明
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_soseong
+	788.1.1 = {
+		birth = yes
+	}
+	809.9.2 = {
+		death = {
+			death_reason = death_murder_known
+			killer = kim_heondeok
+		}
+		name = Aejang # 애장/哀莊
+	}
+}
+kim_janghwa = {
+	name = Janghwa # 장화/章和
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_soseong
+	790.1.1 = { # estimate
+		birth = yes
+	}
+	852.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_heondeok = {
+	name = Eon-seung # 언승/彦昇
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	trait = architect
+	father = kim_ingyeom
+	771.1.1 = { # estimate
+		birth = yes
+	}
+	826.1.1 = {
+		death = yes
+		name = Heondeok # 헌덕/憲德
+	}
+}
+kim_chunggong = {
+	name = Chunggong # 충공/忠恭
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_ingyeom
+	773.1.1 = { # estimate
+		birth = yes
+	}
+	820.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_minae = {
+	name = Myeong # 명/明
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_chunggong
+	793.1.1 = { # estimate
+		birth = yes
+	}
+	839.2.10 = { # estimate
+		death = {
+			death_reason = death_murder_known
+			killer = kim_sinmu
+		}
+		name = Minae # 민애/閔哀
+	}
+}
+kim_munmok = {
+	name = Munmok # 문목/文穆
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_chunggong
+	795.1.1 = { # estimate
+		birth = yes
+	}
+	888.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_heungdeok = {
+	name = Gyeong-hwi # 경휘/景徽
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_ingyeom
+	775.1.1 = { # estimate
+		birth = yes
+	}
+	800.1.1 = {
+		add_spouse = kim_janghwa
+	}
+	836.1.1 = {
+		death = yes
+		name = Heungdeok # 흥덕/興德
+	}
+}
+kim_iyeyeong = {
+	name = Iye-yeong # 례영/禮英
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_wonseong
+	750.1.1 = { # estimate
+		birth = yes
+	}
+	791.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_gyunjeong = {
+	name = Gyunjeong # 균정/均貞
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_iyeyeong
+	769.1.1 = { # estimate
+		birth = yes
+	}
+	836.1.1 = {
+		death = {
+			death_reason = death_murder_known
+			killer = kim_huigang
+		}
+	}
+}
+kim_sinmu = {
+	name = U-jing # 우징/祐徵
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_gyunjeong
+	787.1.1 = {
+		birth = yes
+	}
+	839.2.10 = {
+		trait = ill
+	}
+	839.9.4 = {
+		death = yes
+		name = Sinmu # 신무/神武
+	}
+}
+kim_munseong = {
+	name = Gyeong-eung # 경응/慶膺
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmu
+	803.1.1 = { # estimate
+		birth = yes
+	}
+	857.1.1 = {
+		death = yes
+		name = Munseong2 # 문성/文聖
+	}
+}
+kim_gwanghwa = {
+	name = Gwanghwa # 광화/光和
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_sinmu
+	816.1.1 = { # estimate
+		birth = yes
+	}
+	899.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_heonan = {
+	name = Ui-jeong # 의정/誼靖
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_gyunjeong
+	784.1.1 = { # estimate
+		birth = yes
+	}
+	861.3.14 = {
+		death = yes
+		name = Heonan # 헌안/憲安
+	}
+}
+110000006 = {
+	name = Munui # 문의/文懿
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_heonan
+	844.1.1 = { # estimate
+		birth = yes
+	}
+	888.1.1 = { # estimate
+		death = yes
+	}
+}
+1100000100 = {
+	name = Gung_Ye # 궁예/弓裔
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	trait = one_eyed
+	father = kim_heonan
+	857.1.1 = { # estimate
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	867.1.1 = {
+		trait = devoted
+		trait = ambitious
+		trait = rowdy
+	}
+	870.1.1 = {
+		remove_trait = rowdy
+	}
+	905.1.1 = {
+		trait = zealous
+	}
+	915.1.1 = {
+		trait = paranoid
+		trait = arbitrary
+		trait = lunatic_1
+	}
+	918.7.24 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+	dna = Gim_Gungye_dna_entry
+}
+kim_heonjeong = {
+	name = Heonjeong # 헌정/憲政
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_iyeyeong
+	770.1.1 = { # estimate
+		birth = yes
+	}
+	830.1.1 = {	# estimate
+		death = yes
+	}
+}
+kim_huigang = {
+	name = Je-ryung # 제륭/悌隆
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_heonjeong
+	790.1.1 = { # estimate
+		birth = yes
+	}
+	810.1.1 = {
+		add_spouse = kim_munmok
+	}
+	838.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+		name = Huigang # 희강/僖康
+	}
+}
+kim_gyemyeong = {
+	name = Gyemyeong # 계명/啓明
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_huigang
+	mother = kim_munmok
+	810.1.1 = { # estimate
+		birth = yes
+	}
+	840.1.1 = {
+		add_spouse = kim_gwanghwa
+	}
+	860.1.1 = { # estimate
+		death = yes
+	}
+}
+110000001 = {
+	name = Eungryeom # 응렴/膺廉
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_gyemyeong
+	mother = kim_gwanghwa
+	843.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	860.1.1 = {
+		add_spouse = 110000006 # # Kim Munui
+	}
+	875.7.9 = {
+		death = yes
+		name = Gyeongmun # 경문/景文
+	}
+	dna = Gim_Eungryeom_dna_entry
+}
+kim_heongang = {
+	name = Jeong # 정/晸
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = 110000001 # King Gyeongmun
+	mother = 110000006 # Queen Consort Munui
+	861.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	886.1.1 = {
+		death = yes
+		name = Heongang # 헌강/憲康
+	}
+	dna = Gim_Jeong_dna_entry
+}
+kim_uiseong = {
+	name = Uiseong # 의성/義成
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_heongang
+	880.1.1 = { # estimate
+		birth = yes
+	}
+	906.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_hyogong = {
+	name = Yo2 # 요/嶢
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_heongang
+	883.1.1 = {
+		birth = yes
+	}
+	907.1.1 = {
+		trait = drunkard
+	}
+	912.1.1 = {
+		death = yes
+		name = Hyogong # 효공/孝恭
+	}
+}
+kim_gyea = {
+	name = Gyea # 계아/桂娥
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_heongang
+	880.1.1 = { # estimate
+		birth = yes
+	}
+	923.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_jeonggang = {
+	name = Hwang # 황/晃
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = 110000001 # King Gyeongmun
+	mother = 110000006 # Queen Consort Munui
+	863.1.1 = {
+		birth = yes
+	}
+	886.1.1 = {
+		trait = ill
+	}
+	887.1.1 = {
+		death = yes
+		name = Jeonggang # 정강/定康
+	}
+}
+kim_jinseong = {
+	name = Man # 만/曼
+	female = yes
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = 110000001 # King Gyeongmun
+	mother = 110000006 # Queen Consort Munui
+	865.1.1 = {
+		birth = yes
+	}
+	887.7.9 = {
+		trait = intellect_good_2
+		trait = lustful
+		trait = generous
+		trait = lazy
+	}
+	897.7.4 = {
+		death = yes
+		name = Jinseong # 진성/眞聖
+	}
+}
+110000004 = {
+	name = An # 안/安
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_munseong
+	817.1.1 = {
+		birth = yes
+	}
+	892.1.1 = {
+		death = yes
+	}
+}
+110000005 = {
+	name = Wihong # 위홍/魏弘
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_gyemyeong
+	mother = kim_gwanghwa
+	840.1.1 = { # estimate
+		birth = yes
+	}
+	872.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_mingong = {
+	name = Mingong # 민공/敏恭
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = 110000004 # Gim Man
+	836.1.1 = { # estimate
+		birth = yes
+	}
+	912.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_silhong = {
+	name = Silhong # 실홍/實虹
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_mingong
+	852.1.1 = { # estimate
+		birth = yes
+	}
+	928.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_ingyeong = {
+	name = Ingyeong # 인경/仁慶
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_silhong
+	868.1.1 = { # estimate
+		birth = yes
+	}
+	944.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_hyojong = {
+	name = Hyojong # 효종/孝宗
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_ingyeong
+	881.1.1 = { # estimate
+		birth = yes
+	}
+	896.1.1 = {
+		add_spouse = kim_gyea
+	}
+	959.1.1 = { # estimate
+		death = yes
+	}
+}
+kim_gyeongsun = {
+	name = Bu # 부/傅
+	dynasty = 60000001
+	religion = mahayana
+	culture = saro
+	father = kim_hyojong
+	mother = kim_gyea
+	897.1.1 = {
+		birth = yes
+	}
+	978.5.13 = {
+		death = yes
+		name = Gyeongsun # 경순/敬順
+	}
+}
+
+##########################################
+### Miryang Park Clan 밀양 박씨/推火朴氏 ###
+##########################################
+
+park_hyeokgeose = {
+	name = Hyeokgeose # 혁거세/赫居世
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	-69.1.1 = {
+		birth = yes
+	}
+	4.1.1 = {
+		death = yes
+	}
+}
+park_namhae = {
+	name = Namhae # 남해/南解
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_hyeokgeose
+	-50.1.1 = {
+		birth = yes
+	}
+	24.1.1 = {
+		death = yes
+	}
+}
+park_yuri = {
+	name = Yuri # 유리/儒理
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_namhae
+	-8.1.1 = { # estimate
+		birth = yes
+	}
+	57.1.1 = {
+		death = yes
+	}
+}
+park_ilseong = {
+	name = Ilseong # 일성/逸聖
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	trait = arbitrary
+	father = park_yuri
+	44.1.1 = { # estimate
+		birth = yes
+	}
+	154.1.1 = {
+		death = yes
+	}
+}
+park_adalla = {
+	name = Asalla # 아달라/阿達羅
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	trait = arbitrary
+	father = park_ilseong
+	87.1.1 = { # estimate
+		birth = yes
+	}
+	184.1.1 = {
+		death = yes
+	}
+}
+park_pasa = {
+	name = Pasa # 파사/婆娑
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_yuri
+	46.1.1 = { # estimate
+		birth = yes
+	}
+	112.1.1 = {
+		death = yes
+	}
+}
+park_jima = {
+	name = Jima # 지마/祇摩
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_yuri
+	77.1.1 = { # estimate
+		birth = yes
+	}
+	134.1.1 = {
+		death = yes
+	}
+}
+park_ahyo = {
+	name = Ahyo # 아효/阿孝
+	female = yes
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_namhae
+	-5.1.1 = { # estimate
+		birth = yes
+	}
+	76.1.1 = { # estimate
+		death = yes
+	}
+}
+park_byeogbang = {
+	name = Byeogbang # 벽방/碧芳
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_adalla
+	120.1.1 = { # estimate
+		birth = yes
+	}
+	197.1.1 = { # estimate
+		death = yes
+	}
+}
+park_mooyoung = {
+	name = Mooyoung # 무영/武英
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_byeogbang
+	150.1.1 = { # estimate
+		birth = yes
+	}
+	229.1.1 = { # estimate
+		death = yes
+	}
+}
+park_pandeug = {
+	name = Pandeung # 판득/判得
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_mooyoung
+	193.1.1 = { # estimate
+		birth = yes
+	}
+	265.1.1 = { # estimate
+		death = yes
+	}
+}
+park_gwangheum = {
+	name = Gwangheum # 광흠/光欽
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_pandeug
+	230.1.1 = { # estimate
+		birth = yes
+	}
+	293.1.1 = { # estimate
+		death = yes
+	}
+}
+park_miil = {
+	name = Miil # 미일/美一
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_gwangheum
+	260.1.1 = { # estimate
+		birth = yes
+	}
+	337.1.1 = { # estimate
+		death = yes
+	}
+}
+park_naemul = {
+	name = Naemul2 # 내물/乃物
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_miil
+	283.1.1 = { # estimate
+		birth = yes
+	}
+	369.1.1 = { # estimate
+		death = yes
+	}
+}
+park_sanggeon = {
+	name = Sang-geon # 상건/相建
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_naemul
+	319.1.1 = { # estimate
+		birth = yes
+	}
+	398.1.1 = { # estimate
+		death = yes
+	}
+}
+park_inyeob = {
+	name = In-yeob # 인엽/仁燁
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_sanggeon
+	347.1.1 = { # estimate
+		birth = yes
+	}
+	433.1.1 = { # estimate
+		death = yes
+	}
+}
+park_gyebo = {
+	name = Gyebo # 계보/啓輔
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_inyeob
+	376.1.1 = { # estimate
+		birth = yes
+	}
+	453.1.1 = { # estimate
+		death = yes
+	}
+}
+park_myeongsin = {
+	name = Myeongsin # 명신/明信
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_gyebo
+	417.1.1 = { # estimate
+		birth = yes
+	}
+	490.1.1 = { # estimate
+		death = yes
+	}
+}
+park_jeonghwan = {
+	name = Jeonghwan # 정환/貞環
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_myeongsin
+	445.1.1 = { # estimate
+		birth = yes
+	}
+	522.1.1 = { # estimate
+		death = yes
+	}
+}
+park_nogyeom = {
+	name = Nogyeom # 노겸/露兼
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_jeonghwan
+	478.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	559.1.1 = { # estimate
+		death = yes
+	}
+}
+park_namseon = {
+	name = Namseon # 남선/楠善
+	dynasty = 60000002
+	religion = silla_sinhwa
+	culture = saro
+	father = park_nogyeom
+	520.1.1 = { # estimate
+		birth = yes
+	}
+	528.1.1 = {
+		religion = mahayana
+	}
+	588.1.1 = { # estimate
+		death = yes
+	}
+}
+park_geumsan = {
+	name = Geumsan # 금산/金山
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_namseon
+	547.1.1 = { # estimate
+		birth = yes
+	}
+	637.1.1 = { # estimate
+		death = yes
+	}
+}
+park_eungchan = {
+	name = Eungchan # 응찬/應瓚
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_geumsan
+	573.1.1 = { # estimate
+		birth = yes
+	}
+	660.1.1 = { # estimate
+		death = yes
+	}
+}
+park_deogheung = {
+	name = Deogheung # 덕흥/德興
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_eungchan
+	612.1.1 = { # estimate
+		birth = yes
+	}
+	691.1.1 = { # estimate
+		death = yes
+	}
+}
+park_daenyeong = {
+	name = Daenyeong # 대녕/大寧
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_deogheung
+	660.1.1 = { # estimate
+		birth = yes
+	}
+	732.1.1 = { # estimate
+		death = yes
+	}
+}
+park_nisun = {
+	name = Nisun # 니순/尼淳
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_daenyeong
+	692.1.1 = { # estimate
+		birth = yes
+	}
+	754.1.1 = { # estimate
+		death = yes
+	}
+}
+park_lyungsoe = {
+	name = Iyungsoe # 륭쇠/隆釗
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_nisun
+	716.1.1 = { # estimate
+		birth = yes
+	}
+	788.1.1 = { # estimate
+		death = yes
+	}
+}
+park_jigon = {
+	name = Jigon # 지곤/之坤
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_lyungsoe
+	738.1.1 = { # estimate
+		birth = yes
+	}
+	817.1.1 = { # estimate
+		death = yes
+	}
+}
+park_seongsun = {
+	name = Seongsun # 성순/成順
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_jigon
+	786.1.1 = { # estimate
+		birth = yes
+	}
+	855.1.1 = { # estimate
+		death = yes
+	}
+}
+park_yegyeom = {
+	name = Yegyeom # 예겸/乂謙
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_seongsun
+	805.1.1 = { # estimate
+		birth = yes
+	}
+	890.1.1 = { # estimate
+		death = yes
+	}
+}
+110000003 = {
+	name = Gyeong-hwi # 경휘/景暉
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = park_yegyeom
+	847.1.1 = { # estimate
+		birth = yes
+	}
+	900.1.1 = {
+		add_spouse = kim_uiseong
+	}
+	917.1.1 = {
+		death = yes
+		name = Sindeok # 신덕/神德
+	}
+}
+park_gyeongae = {
+	name = Wi-eung # 위응/魏膺
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = 110000003 # King Sindeok
+	mother = kim_uiseong
+	900.1.1 = { # estimate
+		birth = yes
+	}
+	924.1.1 = {
+		trait = reveler_1
+	}
+	927.1.1 = {
+		death = {
+			death_reason = death_suicide
+		}
+		name = Gyeongae # 경애/景哀
+	}
+}
+park_gyeongmyeong = {
+	name = Seung-yeong # 승영/昇英
+	dynasty = 60000002
+	religion = mahayana
+	culture = saro
+	father = 110000003 # King Sindeok
+	mother = kim_uiseong
+	902.1.1 = { # estimate
+		birth = yes
+	}
+	924.1.1 = {
+		death = yes
+		name = Gyeongmyeong # 경명/景明
+	}
+}
+
+###########################################
+### Wolseong Seok Clan 월성 석씨/月城昔氏 ###
+###########################################
+
+seok_talhae = {
+	name = Talhae # 탈해/脫解
+	dynasty = 60000003
+	religion = shinto
+	culture = yamato
+	-5.1.1 = {
+		birth = yes
+	}
+	8.1.1 = {
+		add_spouse = park_ahyo
+	}
+	80.1.1 = {
+		death = yes
+	}
+}
+seok_guchu = {
+	name = Guchu # 구추/仇鄒
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_talhae
+	59.1.1 = { # estimate
+		birth = yes
+	}
+	140.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_beolhyu = {
+	name = Beolhyu # 벌휴/伐休
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_guchu
+	120.1.1 = { # estimate
+		birth = yes
+	}
+	196.1.1 = {
+		death = yes
+	}
+}
+seok_goljeong = {
+	name = Goljeong # 골정/骨正
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_beolhyu
+	159.1.1 = { # estimate
+		birth = yes
+	}
+	214.1.1 = {
+		add_spouse = kim_ongmo
+	}
+	238.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_jobun = {
+	name = Jobun # 조분/助賁
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_goljeong
+	mother = kim_ongmo
+	214.1.1 = { # estimate
+		birth = yes
+	}
+	247.1.1 = {
+		death = yes
+	}
+}
+seok_yurye = {
+	name = Yurye # 유례/儒禮
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_jobun
+	236.1.1 = { # estimate
+		birth = yes
+	}
+	298.1.1 = {
+		death = yes
+	}
+}
+seok_gulsuk = {
+	name = Gul-suk # 걸숙/乞淑
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_jobun
+	238.1.1 = { # estimate
+		birth = yes
+	}
+	301.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_girim = {
+	name = Girim # 기림/基臨
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_gulsuk
+	260.1.1 = { # estimate
+		birth = yes
+	}
+	310.1.1 = {
+		death = yes
+	}
+}
+seok_myeongwon = {
+	name = Myeongwon # 명원/命元
+	female = yes
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_jobun
+	239.1.1 = { # estimate
+		birth = yes
+	}
+	293.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_gwangmyeong = {
+	name = Gwangmyeong # 광명/光明
+	female = yes
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_jobun
+	240.1.1 = { # estimate
+		birth = yes
+	}
+	296.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_cheomhae = {
+	name = Cheomhae # 첨해/沾解
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_goljeong
+	mother = kim_ongmo
+	216.1.1 = { # estimate
+		birth = yes
+	}
+	261.1.1 = {
+		death = yes
+	}
+}
+seok_imae = {
+	name = Imae # 이매/伊買
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_beolhyu
+	161.1.1 = { # estimate
+		birth = yes
+	}
+	214.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_naehae = {
+	name = Naehae # 내해/奈解
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_imae
+	179.1.1 = { # estimate
+		birth = yes
+	}
+	230.1.1 = {
+		death = yes
+	}
+}
+seok_uro = {
+	name = Uro # 우로/于老
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_naehae
+	202.1.1 = { # estimate
+		birth = yes
+	}
+	258.1.1 = {
+		add_spouse = seok_myeongwon
+	}
+	278.1.1 = { # estimate
+		death = yes
+	}
+}
+seok_heulhae = {
+	name = Heulhae # 흘해/訖解
+	dynasty = 60000003
+	religion = silla_sinhwa
+	culture = saro
+	father = seok_uro
+	mother = seok_myeongwon
+	253.1.1 = {
+		birth = yes
+	}
+	356.1.1 = {
+		death = yes
+	}
+}
+110000002 = {
+	name = Yong # 용/龍 Fictional Ruler of province
+	dynasty = 60000003
+	religion = mahayana
+	culture = saro
+	836.1.1 = {
+		birth = yes
+	}
+	900.1.1 = {
+		death = yes
+	}
+}
+
+##############################
+### House Buyeo 부여씨/夫餘氏 ###
+##############################
+
+buyeo_onjo = {
+	name = Onjo # 온조/溫祚
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_chumo
+	-36.1.1 = {
+		birth = yes
+	}
+	28.1.1 = {
+		death = yes
+	}
+}
+buyeo_daru = {
+	name = Daru # 다루/多婁
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_onjo
+	-9.1.1 = {
+		birth = yes
+	}
+	77.1.1 = {
+		death = yes
+	}
+}
+buyeo_giru = {
+	name = Giru # 기루/己婁
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_daru
+	48.1.1 = { # estimate
+		birth = yes
+	}
+	129.1.1 = {
+		death = yes
+	}
+}
+buyeo_gaeru = {
+	name = Gaeru # 개루/蓋婁
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_giru
+	103.1.1 = { # estimate
+		birth = yes
+	}
+	166.1.1 = {
+		death = yes
+	}
+}
+buyeo_goi = {
+	name = Goi # 고이/古爾
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_gaeru
+	164.1.1 = { # estimate
+		birth = yes
+	}
+	286.1.1 = {
+		death = yes
+	}
+}
+buyeo_chaekgye = {
+	name = Chaekgye # 책계/責稽
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_goi
+	200.1.1 = { # estimate
+		birth = yes
+	}
+	298.1.1 = {
+		death = yes
+	}
+}
+buyeo_bunseo = {
+	name = Bunseo # 분서/汾西
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_chaekgye
+	230.1.1 = { # estimate
+		birth = yes
+	}
+	304.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+buyeo_gye = {
+	name = Gye # 계/契
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_bunseo
+	260.1.1 = { # estimate
+		birth = yes
+	}
+	346.1.1 = {
+		death = yes
+	}
+}
+buyeo_chogo = {
+	name = Chogo # 초고/肖古
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_gaeru
+	139.1.1 = { # estimate
+		birth = yes
+	}
+	213.1.1 = {
+		death = yes
+	}
+}
+buyeo_gusu = {
+	name = Gusu # 구수/仇首
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_chogo
+	186.1.1 = { # estimate
+		birth = yes
+	}
+	234.1.1 = {
+		death = yes
+	}
+}
+buyeo_saban = {
+	name = Saban # 사반/沙伴
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_gusu
+	225.1.1 = { # estimate
+		birth = yes
+	}
+	298.1.1 = { # estimate
+		death = yes
+	}
+}
+buyeo_biryu = {
+	name = Biryu # 비류/比流
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_gusu
+	269.1.1 = { # estimate
+		birth = yes
+	}
+	348.1.1 = {
+		death = yes
+	}
+}
+buyeo_geunchogo = {
+	name = Geunchogo # 근초고/近肖古
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_biryu
+	324.1.1 = {
+		birth = yes
+	}
+	375.1.1 = {
+		death = yes
+	}
+}
+buyeo_geungusu = {
+	name = Geungusu # 근구수/近仇首
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_geunchogo
+	340.1.1 = { # estimate
+		birth = yes
+	}
+	384.1.1 = {
+		death = yes
+		name = Geungusu
+	}
+}
+buyeo_chimnyu = {
+	name = Chimnyu # 침류/枕流
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_geungusu
+	356.1.1 = { # estimate
+		birth = yes
+	}
+	385.1.1 = {
+		death = yes
+	}
+}
+buyeo_jinsa = {
+	name = Jinsa # 진사/辰斯
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_geungusu
+	355.1.1 = { # estimate
+		birth = yes
+	}
+	392.1.1 = {
+		death = yes
+	}
+}
+buyeo_asin = {
+	name = Asin # 아신/阿莘
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_chimnyu
+	372.1.1 = { # estimate
+		birth = yes
+	}
+	405.1.1 = {
+		death = yes
+	}
+}
+buyeo_jeonji = {
+	name = Yeong # 영/映
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_asin
+	388.1.1 = { # estimate
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+		name = Jeonji # 전지/腆支
+	}
+}
+buyeo_guisin = {
+	name = Guisin # 구이신/久爾辛
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_jeonji
+	404.1.1 = {
+		birth = yes
+	}
+	427.1.1 = {
+		death = yes
+	}
+}
+buyeo_biyu = {
+	name = Biyu # 비유/毗有
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_guisin
+	418.1.1 = { # estimate
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+buyeo_gaero = {
+	name = Gaero # 개로/蓋鹵
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_biyu
+	430.1.1 = { # estimate
+		birth = yes
+	}
+	475.1.1 = {
+		death = {
+			death_reason = death_battle
+		}
+	}
+}
+buyeo_munju = {
+	name = Munju # 문주/文周
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_gaero
+	448.1.1 = { # estimate
+		birth = yes
+	}
+	477.4.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+buyeo_samgeun = {
+	name = Samgeun # 삼근/三斤
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_munju
+	465.1.1 = { # estimate
+		birth = yes
+	}
+	479.11.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+buyeo_gonji = {
+	name = Gonji # 곤지/昆支
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_biyu
+	432.1.1 = { # estimate
+		birth = yes
+	}
+	477.1.1 = {
+		death = yes
+	}
+}
+buyeo_dongseong = {
+	name = Dongseong # 동성/東城
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_gonji
+	447.1.1 = { # estimate
+		birth = yes
+	}
+	501.1.1 = {
+		death = yes
+	}
+}
+buyeo_muryeong = {
+	name = Yung # 융/隆
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_dongseong
+	462.1.1 = {
+		birth = yes
+	}
+	523.1.1 = {
+		death = yes
+		name = Mureyong # 무령/武寧
+	}
+}
+buyeo_seong = {
+	name = Myeongnong # 명농/明襛
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_muryeong
+	480.1.1 = { # estimate
+		birth = yes
+	}
+	552.1.1 = {
+		religion = mahayana
+	}
+	554.7.1 = {
+		death = yes
+		name = Seong2 # 성/聖
+	}
+}
+buyeo_wideok = {
+	name = Chang # 창/昌
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_seong
+	525.1.1 = {
+		birth = yes
+	}
+	552.1.1 = {
+		religion = mahayana
+	}
+	598.12.1 = {
+		death = yes
+		name = Wideok # 위덕/威德
+	}
+}
+buyeo_hye = {
+	name = Gye # 계/季
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	father = buyeo_seong
+	527.1.1 = {
+		birth = yes
+	}
+	552.1.1 = {
+		religion = mahayana
+	}
+	599.1.1 = {
+		death = yes
+		name = Hye # 혜/惠
+	}
+}
+buyeo_beop = {
+	name = Seon # 선/宣
+	dynasty = 60000004
+	religion = dongmyeong_sinhwa
+	culture = baekje
+	trait = zealous
+	father = buyeo_hye
+	550.1.1 = { # estimate
+		birth = yes
+	}
+	552.1.1 = {
+		religion = mahayana
+	}
+	600.1.1 = {
+		death = yes
+		name = Beop # 법/法
+	}
+}
+buyeo_mu = {
+	name = Jang # 장/璋
+	dynasty = 60000004
+	religion = mahayana
+	culture = baekje
+	father = buyeo_beop
+	580.1.1 = {
+		birth = yes
+	}
+	641.1.1 = {
+		death = yes
+		name = Mu # 무/武
+	}
+}
+buyeo_uija = {
+	name = Uija # 의자/義慈
+	dynasty = 60000004
+	religion = mahayana
+	culture = baekje
+	father = buyeo_mu
+	599.1.1 = {
+		birth = yes
+	}
+	660.1.1 = {
+		death = yes
+	}
+}
+
+###################################
+### House Go (Goguryeo) 고씨/高氏 ###
+###################################
+
+goguryeo_chumo = {
+	name = Jumong # 주몽/朱蒙
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	-58.1.1 = {
+		birth = yes
+	}
+	-19.9.1 = {
+		death = yes
+		name = Chumo # 추모/鄒牟
+		give_nickname = nick_the_holy
+	}
+}
+goguryeo_biryu = {
+	name = Biryu # 비류/沸流
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_chumo
+	-37.1.1 = { # estimate
+		birth = yes
+	}
+	-19.1.1 = { # estimate
+		death = yes
+	}
+}
+goguryeo_yuri = {
+	name = Yuryu # 유류/儒留
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	trait = strategist
+	father = goguryeo_chumo
+	-38.1.1 = {
+		birth = yes
+	}
+	18.1.1 = {
+		death = yes
+		name = Yuri2 # 유리/瑠璃
+	}
+}
+goguryeo_daemusin = {
+	name = Muhyul # 무휼/無恤
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_yuri
+	4.1.1 = {
+		birth = yes
+	}
+	44.1.1 = {
+		death = yes
+		name = Daemusin # 대무신/大武神
+	}
+}
+goguryeo_mobon = {
+	name = Haeu # 해우/解憂
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_daemusin
+	30.1.1 = {
+		birth = yes
+	}
+	53.1.1 = {
+		death = yes
+		name = Mobon # 모본/慕本
+	}
+}
+goguryeo_minjung = {
+	name = Hae-saek-ju # 해색주/解色朱
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_yuri
+	6.1.1 = { # estimate
+		birth = yes
+	}
+	48.1.1 = {
+		death = yes
+		name = Minjung # 민중/	閔中
+	}
+}
+goguryeo_jaesa = {
+	name = Jaesa # /재사再思
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_yuri
+	8.1.1 = { # estimate
+		birth = yes
+	}
+	51.1.1 = { # estimate
+		death = yes
+	}
+}
+goguryeo_taejodae = {
+	name = Gung # 궁/宮
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_jaesa
+	47.1.1 = {
+		birth = yes
+	}
+	165.1.1 = {
+		death = yes
+		name = Taejodae # 태조대/太祖大
+	}
+}
+goguryeo_chadae = {
+	name = Suseong # 수성/遂成
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_jaesa
+	71.1.1 = {
+		birth = yes
+	}
+	165.1.1 = {
+		death = yes
+		name = Chadae # 차대/次大
+	}
+}
+goguryeo_sindae = {
+	name = Baekgo # 백고/伯固
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_jaesa
+	89.1.1 = {
+		birth = yes
+	}
+	179.1.1 = {
+		death = yes
+		name = Sindae # 신대/新大
+	}
+}
+goguryeo_sansang = {
+	name = Yeon-u # 연우/延優
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_sindae
+	149.1.1 = { # estimate
+		birth = yes
+	}
+	227.1.1 = {
+		death = yes
+		name = Sansang # 산상/山上
+	}
+}
+goguryeo_gogukcheon = {
+	name = Nammu # 남무/男武
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_sindae
+	151.1.1 = { # estimate
+		birth = yes
+	}
+	197.1.1 = {
+		death = yes
+		name = Gogukcheon # 
+	}
+}
+goguryeo_dongcheon = {
+	name = Uwigeo # 우위거/憂位居
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_sansang
+	209.1.1 = {
+		birth = yes
+	}
+	248.1.1 = {
+		death = yes
+		name = Dongcheon # 동천/東川
+	}
+}
+goguryeo_jungcheon = {
+	name = Yeon-bul # 연불/然弗
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_dongcheon
+	224.1.1 = {
+		birth = yes
+	}
+	270.1.1 = {
+		death = yes
+		name = Jungcheon # 중천/中川
+	}
+}
+goguryeo_seocheon = {
+	name = Yak-ro # 약로/藥盧
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_jungcheon
+	249.1.1 = { # estimate
+		birth = yes
+	}
+	292.1.1 = {
+		death = yes
+		name = Seocheon # 서천/西川
+	}
+}
+goguryeo_bongsang = {
+	name = Sang-bu # 상부/相夫
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_seocheon
+	272.1.1 = { # estimate
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+		name = Bongsang # 봉상/烽上
+	}
+}
+goguryeo_dolgo = {
+	name = Dol-go # 돌고/咄固
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_seocheon
+	274.1.1 = { # estimate
+		birth = yes
+	}
+	298.1.1 = { # estimate
+		death = yes
+	}
+}
+goguryeo_micheon = {
+	name = Eul-bul # 을불/乙弗
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_dolgo
+	299.1.1 = { # estimate
+		birth = yes
+	}
+	331.1.1 = {
+		death = yes
+		name = Micheon # 미천/美川
+	}
+}
+goguryeo_gogugwon = {
+	name = Sayu # 사유/斯由
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_micheon
+	324.1.1 = { # estimate
+		birth = yes
+	}
+	371.1.1 = {
+		death = yes
+		name = Gogugwon # 고국원/故國原
+	}
+}
+goguryeo_sosurim = {
+	name = Gubu # 구부/丘夫
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_gogugwon
+	347.1.1 = { # estimate
+		birth = yes
+	}
+	372.1.1 = {
+		religion = mahayana
+	}
+	384.1.1 = {
+		death = yes
+		name = Sosurim # 소수림/小獸林
+	}
+}
+goguryeo_gogugyang = {
+	name = I-ryeon # 이련/伊連
+	dynasty = 60000005
+	religion = dongmyeong_sinhwa
+	culture = goguryeo
+	father = goguryeo_gogugwon
+	349.1.1 = { # estimate
+		birth = yes
+	}
+	372.1.1 = {
+		religion = mahayana
+	}
+	391.1.1 = {
+		death = yes
+		name = Gogugyang # 고국양/故國壤
+	}
+}
+goguryeo_gwanggaeto = {
+	name = Damdeok # 담덕/談德
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+
+	diplomacy = 6
+	martial = 10
+	intrigue = 6
+	stewardship = 4
+	learning = 5
+	prowess = 9
+	trait = education_martial_4
+	trait = brave
+	trait = ambitious
+	trait = diligent
+	trait = strategist
+	trait = just
+	trait = architect
+	trait = intellect_good_3
+	trait = aggressive_attacker
+	trait = organizer
+	disallow_random_traits = yes
+
+	father = goguryeo_gogugyang
+	374.1.1 = {
+		birth = yes
+	}
+	412.1.1 = {
+		death = yes
+		name = Gwanggaeto # 광개토/廣開土
+		give_nickname = nick_the_great
+	}
+}
+goguryeo_jangsu = {
+	name = Georyeon # 거련/巨連
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	trait = whole_of_body
+	trait = intellect_good_2
+	trait = diplomat
+	father = goguryeo_gwanggaeto
+	394.1.1 = {
+		birth = yes
+	}
+	491.1.1 = {
+		death = yes
+		name = Jangsu # 장수/長壽
+	}
+}
+goguryeo_joda = {
+	name = Joda # 조다/助多
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_jangsu
+	419.1.1 = { # estimate
+		birth = yes
+	}
+	488.1.1 = { # estimate
+		death = yes
+	}
+}
+goguryeo_munjamyeong = {
+	name = Naun # 나운/羅雲
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_joda
+	444.1.1 = { # estimate
+		birth = yes
+	}
+	519.1.1 = {
+		death = yes
+		name = Munjamyeong # 문자명/文咨明
+	}
+}
+goguryeo_anjang = {
+	name = Heung-an # 흥안/興安
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_munjamyeong
+	468.1.1 = { # estimate
+		birth = yes
+	}
+	531.1.1 = {
+		death = yes
+		name = Anjang # 안장/安藏
+	}
+}
+goguryeo_anwon = {
+	name = Bo-yeon # 보연/寶延
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_munjamyeong
+	470.1.1 = { # estimate
+		birth = yes
+	}
+	545.1.1 = {
+		death = yes
+		name = Anwon # 안원/安原
+	}
+}
+goguryeo_yangwon = {
+	name = Pyeong-seong # 평성/平成
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_anwon
+	496.1.1 = { # estimate
+		birth = yes
+	}
+	559.1.1 = {
+		death = yes
+		name = Yangwon # 양원/陽原
+	}
+}
+goguryeo_pyeongwon = {
+	name = Yangseong # 양성/陽成
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_yangwon
+	521.1.1 = { # estimate
+		birth = yes
+	}
+	590.1.1 = {
+		death = yes
+		name = Pyeongwon # 평원/平原
+	}
+}
+goguryeo_yeongyang = {
+	name = Won # 원/元
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_pyeongwon
+	566.1.1 = { # estimate
+		birth = yes
+	}
+	618.1.1 = {
+		death = yes
+		name = Yeongyang # 영양태/嬰陽
+	}
+}
+goguryeo_yeongnyu = {
+	name = Geonmu # 건무/建武
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	trait = schemer
+	father = goguryeo_pyeongwon
+	568.1.1 = { # estimate
+		birth = yes
+	}
+	642.1.1 = {
+		death = {
+			death_reason = death_murder
+		}
+		name = Yeongnyu # 영류/榮留
+	}
+}
+goguryeo_daeyang = {
+	name = Daeyang # 대양/大陽
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_pyeongwon
+	570.1.1 = { # estimate
+		birth = yes
+	}
+	638.1.1 = { # estimate
+		death = yes
+	}
+}
+goguryeo_bojang = {
+	name = Jang # 장/臧
+	dynasty = 60000005
+	religion = mahayana
+	culture = goguryeo
+	father = goguryeo_daeyang
+	596.1.1 = { # estimate
+		birth = yes
+	}
+	682.1.1 = {
+		death = yes
+		name = Bojang # 보장/寶藏
+	}
+}
+
+##########################
+### House Wang 왕씨/王氏 ###
+##########################
+
+wang_ryung = {
+	name = Ryung # 륭/隆
+	dynasty = 60000006
+	religion = mahayana
+	culture = goguryeo
+	trait = just
+	trait = compassionate
+	trait = generous
+	trait = education_stewardship_3 # Merchant origins
+	829.1.1 = { # estimate
+		birth = yes
+	}
+	897.5.1 = {
+		death = yes
+		name = Sejo # 세조/世祖
+	}
+}
+wang_taejo = {
+	name = Geon # 왕건/王建
+	dynasty = 60000006
+	religion = mahayana
+	culture = goguryeo
+	trait = just
+	trait = generous
+	trait = humble
+	trait = shrewd
+	trait = intellect_good_3
+	trait = education_stewardship_4 # Merchant origins
+	father = wang_ryung # Wang Ryung
+	877.1.31 = {
+		birth = yes
+	}
+	918.7.25 = {
+		culture = goryeon
+	}
+	943.7.4 = {
+		death = yes
+		name = Taejo # 태조/太祖
+	}
+}
+wang_hyejong = {
+	name = Mu # 무/武
+	dynasty = 60000006
+	religion = mahayana
+	culture = goguryeo
+	father = wang_taejo
+	912.1.1 = {
+		birth = yes
+	}
+	918.7.25 = {
+		culture = goryeon
+	}
+	943.7.5 = {
+		name = Hyejong # 혜종/恵宗
+	}
+	945.10.23 = {
+		death = yes
+	}
+}
+wang_yojeongjong = {
+	name = Yo # 요/堯
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_taejo
+	923.1.1 = {
+		birth = yes
+	}
+	949.4.13 = {
+		death = yes
+		name = Jeongjong # 정종/定宗
+	}
+}
+wang_gwangjong = {
+	name = So # 소/昭
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_taejo
+	925.1.1 = {
+		birth = yes
+	}
+	975.7.4 = {
+		death = yes
+		name = Gwangjong # 광종/光宗
+	}
+}
+wang_daejong = {
+	name = Daejong # 대종/戴宗
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_taejo
+	928.1.1 = {
+		birth = yes
+	}
+	969.1.1 = {
+		death = yes
+	}
+}
+wang_anjong = {
+	name = Uk2 # 욱/郁
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_taejo
+	936.1.1 = {
+		birth = yes
+	}
+	996.7.24 = {
+		death = yes
+		name = Anjong # 안종/安宗
+	}
+}
+wang_gyeongjong = {
+	name = Ju # 주/伷
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_gwangjong
+	955.11.9 = {
+		birth = yes
+	}
+	981.8.13 = {
+		death = yes
+		name = Gyeongjong # 경종/景宗
+	}
+}
+wang_seongjong = {
+	name = Chi # 치/治
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_daejong
+	961.1.15 = {
+		birth = yes
+	}
+	997.11.9 = {
+		death = yes
+		name = Seongjong # 성종/成宗
+	}
+}
+wang_mokjong = {
+	name = Song # 송/訟
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_gyeongjong
+	980.7.5 = {
+		birth = yes
+	}
+	1009.3.2 = {
+		death = yes
+		name = Mokjong # 목종/穆宗
+	}
+}
+wang_hyeonjong = {
+	name = Sun # 순/詢
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_anjong
+	992.8.1 = {
+		birth = yes
+	}
+	1011.1.1 = {
+		add_spouse = queen_wonseong
+	}
+	1011.1.1 = {
+		add_spouse = queen_wonhye
+	}
+	1031.6.17 = {
+		death = yes
+		name = Hyeonjong # 현종/顯宗
+	}
+}
+wang_deokjong = {
+	name = Heum # 흠/欽
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_hyeonjong
+	mother = queen_wonseong
+	1016.6.9 = {
+		birth = yes
+	}
+	1034.10.31 = {
+		death = yes
+		name = Deokjong # 덕종/德宗
+	}
+}
+wang_hyeongjeongjong = {
+	name = Hyeong # 형/亨
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_hyeonjong
+	mother = queen_wonseong
+	1018.8.31 = {
+		birth = yes
+	}
+	1046.6.24 = {
+		death = yes
+		name = Jeongjong2 # 정종/靖宗
+	}
+}
+wang_munjong = {
+	name = Hwi # 휘/徽
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = generous
+	trait = diligent
+	trait = zealous
+	trait = education_martial_3
+	father = wang_hyeonjong
+	mother = queen_wonhye
+	1019.12.29 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1047.1.1 = {
+		add_spouse = queen_inye
+	}
+	1083.9.2 = {
+		death = yes
+		name = Munjong # 문종/文宗
+	}
+	dna = Wang_Munjong_dna_entry
+}
+wang_sunjong = {
+	name = Hyu # 휴/烋
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = spindly
+	father = wang_munjong
+	mother = queen_inye
+	1047.12.28 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1083.9.2 = {
+		trait = ill
+		trait = depressed_1
+	}
+	1083.12.5 = {
+		death = yes
+		name = Sunjong # 순종/順宗
+	}
+	dna = Wang_Sunjong_dna_entry
+}
+wang_seonjong = {
+	name = Jeung # 증/蒸
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = compassionate
+	trait = humble
+	trait = zealous
+	trait = education_diplomacy_3
+	trait = poet
+	father = wang_munjong
+	mother = queen_inye
+	1049.10.9 = {
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	1094.6.17 = {
+		death = yes
+		name = Seonjong # 선종/宣宗
+	}
+	dna = Wang_Seonjong_dna_entry
+}
+wang_sukjong = {
+	name = Hui2 # 희/熙
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_munjong
+	mother = queen_inye
+	1054.9.2 = {
+		birth = yes
+	}
+	1105.11.10 = {
+		death = yes
+		name = Sukjong # 숙종/肅宗
+	}
+}
+wang_uicheon = {
+	name = Uicheon # 의천/義天
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = scholar
+	trait = intellect_good_3
+	father = wang_munjong
+	mother = queen_inye
+	1055.6.1 = {
+		birth = yes
+	}
+	1065.1.1 = {
+		trait = devoted
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+wang_sangangong = {
+	name = Sang-an # 상안/常安
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_munjong
+	mother = queen_inye
+	1056.3.1 = {
+		birth = yes
+	}
+	1095.1.1 = {
+		death = yes
+	}
+}
+wang_taeng = {
+	name = Taeng # 탱/竀
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_munjong
+	mother = queen_inye
+	1058.1.1 = { #estimate
+		birth = yes
+	}
+	1070.1.1 = {
+		trait = devoted
+		trait = generous
+	}
+	1095.1.1 = {
+		death = {
+			death_reason = death_execution
+		}
+	}
+}
+wang_geumgwanhu = {
+	name = Bi # 비/㶨
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = intellect_good_2
+	father = wang_munjong
+	mother = queen_inye
+	1060.1.1 = { #estimate
+		birth = yes
+	}
+	1077.1.1 = {
+		name = Geumgwanhu # 금관후/金官侯
+	}
+	1092.5.22 = {
+		death = yes
+	}
+}
+wang_byeonhanhu = {
+	name = Yin # 음/愔
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = intellect_good_2
+	father = wang_munjong
+	mother = queen_inye
+	1062.1.1 = { #estimate
+		birth = yes
+	}
+	1077.1.1 = {
+		name = Byeonhanhu # 변한후/卞韓侯
+	}
+	1086.1.1 = {
+		death = yes
+	}
+}
+wang_chim = {
+	name = Chim # 침/忱
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = intellect_good_2
+	father = wang_munjong
+	mother = queen_inye
+	1064.1.1 = { #estimate
+		birth = yes
+	}
+	1083.1.1 = {
+		death = yes
+	}
+}
+wang_jeokgyeong = {
+	name = Jeokgyeong # 적경/積慶
+	female = yes
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = intellect_good_2
+	father = wang_munjong
+	mother = queen_inye
+	1070.1.1 = { #estimate
+		birth = yes
+	}
+	1100.1.1 = { #estimate
+		death = yes
+	}
+}
+wang_boryeong = {
+	name = Boryeong # 보령/保寧
+	female = yes
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	trait = intellect_good_2
+	father = wang_munjong
+	mother = queen_inye
+	1097.1.1 = { #estimate
+		birth = yes
+	}
+	1113.1.1 = {
+		death = yes
+	}
+}
+wang_jeonggan = {
+	name = Gi # 기/基
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_hyeonjong
+	mother = queen_wonhye
+	1021.1.1 = {
+		birth = yes
+	}
+	1069.1.1 = {
+		death = yes
+		name = Jeonggan # 정간/靖簡
+	}
+}
+wang_heonjong = {
+	name = Uk # 욱/昱
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_seonjong
+	1084.8.1 = {
+		birth = yes
+	}
+	1097.11.6 = {
+		death = yes
+		name = Heonjong # 정간/靖簡
+	}
+}
+wang_yejong = {
+	name = U # 우/俁
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_sukjong
+	1079.2.11 = {
+		birth = yes
+	}
+	1122.3.15 = {
+		death = yes
+		name = Yejong # 숙종/肅宗
+	}
+}
+wang_injong = {
+	name = Gu # 구/構
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_yejong
+	1109.10.29 = {
+		birth = yes
+	}
+	1146.4.10 = {
+		death = yes
+		name = Injong # 인종/仁宗
+	}
+}
+wang_uijong = {
+	name = Cheol # 철/徹
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_injong
+	1127.5.23 = {
+		birth = yes
+	}
+	1173.11.7 = {
+		death = yes
+		name = Uijong # 의종/毅宗
+	}
+}
+wang_myeongjong = {
+	name = Heun # 흔/昕
+	dynasty = 60000006
+	religion = mahayana
+	culture = goryeon
+	father = wang_injong
+	1131.11.8 = {
+		birth = yes
+	}
+	1202.12.3 = {
+		death = yes
+		name = Myeongjong # 명종/明宗
+	}
+}
+
+################################
+### House Go (Tamna) 고씨/高氏 ###
+################################
+
+tamna_seonju = {
+	name = Seonju # 선주善主
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	13.1.1 = { # estimate
+		birth = yes
+	}
+	93.1.1 = {
+		death = yes
+	}
+}
+tamna_jinam = {
+	name = Jinam # 지남/知南
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_seonju
+	63.1.1 = { # estimate
+		birth = yes
+	}
+	144.1.1 = {
+		death = yes
+	}
+}
+tamna_seongbang = {
+	name = Seongbang # 성방/聖邦
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_jinam
+	114.1.1 = { # estimate
+		birth = yes
+	}
+	195.1.1 = {
+		death = yes
+	}
+}
+tamna_munseong = {
+	name = Munseong # 문성/文星
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_seongbang
+	165.1.1 = { # estimate
+		birth = yes
+	}
+	243.1.1 = {
+		death = yes
+	}
+}
+tamna_ik = {
+	name = Ik # 익/翼
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_munseong
+	213.1.1 = { # estimate
+		birth = yes
+	}
+	293.1.1 = {
+		death = yes
+	}
+}
+tamna_jihyo = {
+	name = Jihyo # 지효/之孝
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_ik
+	273.1.1 = { # estimate
+		birth = yes
+	}
+	343.1.1 = {
+		death = yes
+	}
+}
+tamna_suk = {
+	name = Suk # 숙/淑
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_jihyo
+	313.1.1 = { # estimate
+		birth = yes
+	}
+	393.1.1 = {
+		death = yes
+	}
+}
+tamna_hyeonbang = {
+	name = Hyeonbang # 현방/賢方
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_suk
+	363.1.1 = { # estimate
+		birth = yes
+	}
+	423.1.1 = {
+		death = yes
+	}
+}
+tamna_gi = {
+	name = Gi # 기/璣
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_hyeonbang
+	393.1.1 = { # estimate
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+tamna_dam_elder = {
+	name = Dam # 담/聃
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_gi
+	423.1.1 = { # estimate
+		birth = yes
+	}
+	476.1.1 = {
+		religion = mahayana
+	}
+	483.1.1 = {
+		death = yes
+	}
+}
+tamna_jiun = {
+	name = Jiun # 지운/指雲
+	dynasty = 60000007
+	religion = tamna_musok
+	culture = tamna
+	father = tamna_dam_elder
+	453.1.1 = { # estimate
+		birth = yes
+	}
+	476.1.1 = {
+		religion = mahayana
+	}
+	508.1.1 = {
+		death = yes
+	}
+}
+tamna_seo = {
+	name = Seo # 서/瑞
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_jiun
+	478.1.1 = { # estimate
+		birth = yes
+	}
+	533.1.1 = {
+		death = yes
+	}
+}
+tamna_damyeong = {
+	name = Damyeong # 다명/多鳴
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_seo
+	503.1.1 = { # estimate
+		birth = yes
+	}
+	558.1.1 = {
+		death = yes
+	}
+}
+tamna_dam_younger = {
+	name = Dam # 담/談
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_damyeong
+	528.1.1 = { # estimate
+		birth = yes
+	}
+	583.1.1 = {
+		death = yes
+	}
+}
+tamna_cheseam = {
+	name = Cheseam # 체삼/體參
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_dam_younger
+	553.1.1 = { # estimate
+		birth = yes
+	}
+	608.1.1 = {
+		death = yes
+	}
+}
+tamna_seongjin = {
+	name = Seongjin # 성진/聲振
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_cheseam
+	578.1.1 = { # estimate
+		birth = yes
+	}
+	633.1.1 = {
+		death = yes
+	}
+}
+tamna_hong = {
+	name = Hong # 홍/鴻
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_seongjin
+	603.1.1 = { # estimate
+		birth = yes
+	}
+	658.1.1 = {
+		death = yes
+	}
+}
+tamna_cheoryang = {
+	name = Cheoryang # 처량/處良
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_hong
+	628.1.1 = { # estimate
+		birth = yes
+	}
+	683.1.1 = {
+		death = yes
+	}
+}
+tamna_won = {
+	name = Won2 # 원/遠
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_cheoryang
+	653.1.1 = { # estimate
+		birth = yes
+	}
+	708.1.1 = {
+		death = yes
+	}
+}
+tamna_pyoryun = {
+	name = Pyoryun # 표륜/表倫
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_won
+	678.1.1 = { # estimate
+		birth = yes
+	}
+	733.1.1 = {
+		death = yes
+	}
+}
+tamna_hyeong = {
+	name = Hyeong # 형/逈
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_pyoryun
+	703.1.1 = { # estimate
+		birth = yes
+	}
+	758.1.1 = {
+		death = yes
+	}
+}
+tamna_chido = {
+	name = Chido # 치도/致道
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_hyeong
+	728.1.1 = { # estimate
+		birth = yes
+	}
+	783.1.1 = {
+		death = yes
+	}
+}
+tamna_uk = {
+	name = Uk # 욱/勖
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_chido
+	753.1.1 = { # estimate
+		birth = yes
+	}
+	808.1.1 = {
+		death = yes
+	}
+}
+tamna_cheonwon = {
+	name = Cheonwon # 천원/天元
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_uk
+	778.1.1 = { # estimate
+		birth = yes
+	}
+	833.1.1 = {
+		death = yes
+	}
+}
+tamna_hogong = {
+	name = Hogong # 호공/好恭
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_cheonwon
+	803.1.1 = { # estimate
+		birth = yes
+	}
+	858.1.1 = {
+		death = yes
+	}
+}
+tamna_so = {
+	name = So # 소/昭
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_hogong
+	828.1.1 = { # estimate
+		birth = yes
+	}
+	883.1.1 = {
+		death = yes
+	}
+}
+tamna_gyeongjik = {
+	name = Gyeongjik # 경직/敬直
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_so
+	860.1.1 = { # estimate
+		birth = yes
+	}
+	908.1.1 = {
+		death = yes
+	}
+}
+tamna_min = {
+	name = Min # 민/岷
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_gyeongjik
+	890.1.1 = { # estimate
+		birth = yes
+	}
+	933.1.1 = {
+		death = yes
+	}
+}
+tamna_jagyeon = {
+	name = Jagyeon # 자견/自堅
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_min
+	910.1.1 = { # estimate
+		birth = yes
+	}
+	938.1.1 = {
+		death = yes
+	}
+}
+tamna_malro = {
+	name = Malro # 말로/末老
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_jagyeon
+	950.1.1 = { # estimate
+		birth = yes
+	}
+	1024.1.1 = {
+		death = yes
+	}
+}
+tamna_jumul = {
+	name = Jumul # 주물
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_malro
+	980.1.1 = { # estimate
+		birth = yes
+	}
+	1029.1.1 = {
+		death = yes
+	}
+}
+tamna_ohno = {
+	name = Ohno # 오노/五腦
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_jumul
+	1010.1.1 = { # estimate
+		birth = yes
+	}
+	1063.1.1 = {
+		death = yes
+	}
+}
+tamna_eil = {
+	name = Eil # 일/一日
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_ohno
+	1040.1.1 = { # estimate
+		birth = yes
+	}
+	1090.1.1 = {
+		death = yes
+	}
+}
+tamna_bokryeong = {
+	name = Bokryeong # 복령/福靈
+	dynasty = 60000007
+	religion = mahayana
+	culture = tamna
+	father = tamna_eil
+	1060.1.1 = { # estimate
+		birth = yes
+	}
+	1101.1.1 = {
+		death = yes
+	}
+}
+
+#########################
+### House Dae 대씨/大氏 ###
+#########################
+
+dae_jungsang = {
+	name = Jung-sang # 중상/仲象
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	629.1.1 = {
+		birth = yes
+	}
+	698.1.1 = {
+		death = yes
+	}
+}
+dae_go = {
+	name = Joyeong # 조영/祚榮
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_jungsang
+	659.1.1 = { # estimate
+		birth = yes
+	}
+	719.4.2 = {
+		death = yes
+		name = Go # 고/高
+	}
+}
+dae_mu = {
+	name = Mu # 무/武
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	trait = strategist
+	father = dae_go
+	690.1.1 = { # estimate
+		birth = yes
+	}
+	737.1.1 = {
+		death = yes
+	}
+}
+dae_mun = {
+	name = Mun # 문/文
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	trait = diplomat
+	father = dae_mu
+	723.1.1 = { # estimate
+		birth = yes
+	}
+	793.1.1 = {
+		death = yes
+	}
+}
+dae_wonui = {
+	name = Won-ui # 원의/元義
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	trait = paranoid
+	trait = wrathful
+	trait = vengeful
+	father = dae_mu
+	726.1.1 = { # estimate
+		birth = yes
+	}
+	793.7.1 = {
+		death = {
+			death_reason = death_murder
+		}
+	}
+}
+dae_goengrim = {
+	name = Goeng-rim # 굉림/宏臨
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_mun
+	748.1.1 = { # estimate
+		birth = yes
+	}
+	790.1.1 = { # estimate but predeceased father
+		death = yes
+	}
+}
+dae_seong = {
+	name = Seong # 성/成
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	trait = weak
+	father = dae_goengrim
+	772.1.1 = { # estimate
+		birth = yes
+	}
+	794.1.1 = {
+		death = yes
+		name = Hwa-yeo # 화여/華璵
+	}
+}
+dae_gang = {
+	name = Gang # 강/康
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_mun
+	751.1.1 = { # estimate
+		birth = yes
+	}
+	809.1.1 = {
+		death = yes
+		name = Sung-rin # 숭린/嵩璘
+	}
+}
+dae_jeong = {
+	name = Won-yu # 원유/元瑜
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_gang
+	773.1.1 = { # estimate
+		birth = yes
+	}
+	809.3.1 = {
+		death = yes
+		name = Jeong # 정/定
+	}
+}
+dae_hui = {
+	name = Eon-ui # 언의/言義
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_gang
+	775.1.1 = { # estimate
+		birth = yes
+	}
+	817.1.1 = {
+		death = yes
+		name = Hui # 희/僖
+	}
+}
+dae_gan = {
+	name = Myeong-chung # 명충/明忠
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_gang
+	777.1.1 = { # estimate
+		birth = yes
+	}
+	818.1.1 = {
+		death = yes
+		name = Gan # 간/簡
+	}
+}
+dae_yabal = {
+	name = Yabal # 야발/野勃
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_jungsang
+	661.1.1 = { # estimate
+		birth = yes
+	}
+	716.1.1 = { # estimate
+		death = yes
+	}
+}
+dae_wongi = {
+	name = Wongi # 원기/元璣
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_yabal
+	689.1.1 = { # estimate
+		birth = yes
+	}
+	759.1.1 = { # estimate
+		death = yes
+	}
+}
+dae_gwangdeok = {
+	name = Gwangdeok # 광덕/匡德
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_wongi
+	722.1.1 = { # estimate
+		birth = yes
+	}
+	794.1.1 = { # estimate
+		death = yes
+	}
+}
+dae_seon = {
+	name = Seon # 선/宣
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_gwangdeok
+	751.1.1 = { # estimate
+		birth = yes
+	}
+	830.1.1 = {
+		death = yes
+	}
+}
+dae_shindeok = {
+	name = Shindeok # 신덕/新德
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_seon
+	782.1.1 = { # estimate
+		birth = yes
+	}
+	826.1.1 = { # estimate but predeceased father
+		death = yes
+	}
+}
+dae_ijin = {
+	name = Ijin # 이진/彝震
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_shindeok
+	806.1.1 = { # estimate
+		birth = yes
+	}
+	857.1.1 = {
+		death = yes
+	}
+}
+120000001 = {
+	name = Geonhwang # 건황/虔晃
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_shindeok
+	810.1.1 = { # estimate
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	871.1.1 = {
+		death = yes
+	}
+	dna = tae_geonhwang_dna_entry
+}
+dae_huaiyuan = {
+	name = Mundeok # placeholder name
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = 120000001 # King Geonhwang
+	830.1.1 = { # estimate
+		birth = yes
+	}
+	866.1.1 = { # estimate but predeceased father
+		death = yes
+	}
+}
+dae_hyeonseok = {
+	name = Hyeonseok # 현석/玄錫
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_huaiyuan
+	851.1.1 = { # estimate
+		birth = yes
+		effect = {
+			add_character_flag = has_scripted_appearance
+		}	
+	}
+	894.1.1 = {
+		death = yes
+	}
+	dna = tae_hyeonseok_dna_entry
+}
+dae_wihae = {
+	name = Wihae # 위해/瑋瑎
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_hyeonseok
+	874.1.1 = { # estimate
+		birth = yes
+	}
+	907.1.1 = {
+		death = yes
+	}
+}
+dae_inseon = {
+	name = Inseon # 인선/諲譔
+	dynasty = 61000001
+	religion = mahayana
+	culture = balhae 
+	father = dae_wihae
+	900.1.1 = { # estimate
+		birth = yes
+	}
+	926.1.1 = {
+		death = yes
+	}
+}
+
+###########################################
+### Hadong Jeong Clan  하동 정씨/河東鄭氏 ###
+###########################################
+
+jeong_jungbu = {
+	name = Jungbu # 중부/仲夫
+	dynasty = 61000008
+	religion = mahayana
+	culture = goryeon 
+
+	diplomacy = 4
+	martial = 8
+	stewardship = 5
+	intrigue = 7
+	learning = 3
+	prowess = 8
+	trait = education_martial_4
+	trait = ambitious
+	trait = callous
+	trait = diligent
+	#trait = giant
+	trait = strong
+	trait = overseer
+	trait = intellect_good_2
+	trait = education_martial_prowess_2
+	trait = aggressive_attacker
+	disallow_random_traits = yes
+
+	1106.1.1 = {
+		birth = yes
+	}
+	1174.1.1 = {
+		set_realm_capital = title:c_ganghwa
+		set_primary_title_to = title:c_ganghwa
+	}
+	1179.10.18 = {
+		death = yes
+	}
+}
+
+##############
+### Others ###
+##############
+
+queen_wonseong = {
+	name = Yeongyeong # 연경/延慶
+	female = yes
+	religion = mahayana
+	culture = goryeon
+	996.1.1 = { #estimate
+		birth = yes
+	}
+	1028.8.15 = {
+		death = yes
+		name = Wonseong # 원성/元成
+	}
+}
+queen_wonhye = {
+	name = Anbok # 안복/安福
+	female = yes
+	religion = mahayana
+	culture = goryeon
+	996.1.1 = { #estimate
+		birth = yes
+	}
+	1022.7.31 = {
+		death = yes
+		name = Wonhye # 원혜/元惠
+	}
+}
+queen_inye = {
+	name = Yeondeok # 연덕/延德
+	female = yes
+	religion = mahayana
+	culture = goryeon
+	1023.1.1 = { #estimate
+		birth = yes
+	}
+	1092.10.5 = {
+		death = yes
+		name = Inyesundeok # 인예순덕/仁睿順德
+	}
+}

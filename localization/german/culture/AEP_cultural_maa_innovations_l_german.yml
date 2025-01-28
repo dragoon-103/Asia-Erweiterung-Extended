@@ -1,8 +1,9 @@
 ﻿l_german:
  #Tribal Era
  culture_parameter_unlock_maa_samurai:0 "Kann [GetMaA('samurai').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_sohei:0 "Kann [GetMaA('sohei').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_emishi:0 "Kann [GetMaA('emishi_riders').GetName] als [men_at_arms|E] rekrutieren"
- culture_parameter_unlock_maa_han:0 "Kann [GetMaA('chinese_pikemen').GetName] als [men_at_arms|E] rekrutieren"
+ culture_parameter_unlock_maa_ji_pikemen:0 "Kann [GetMaA('ji_pikemen').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_khitan:0 "Kann [GetMaA('heavy_khitan_cavalry').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_hwarang:0 "Kann [GetMaA('hwarang').GetName] als [men_at_arms|E] rekrutieren"
  culture_parameter_unlock_maa_gaemamusa:0 "Kann [GetMaA('gaemamusa').GetName] als [men_at_arms|E] rekrutieren"
@@ -22,10 +23,10 @@
  emishi_riders:0 "Emishi Riders" #蝦夷騎
  emishi_riders_flavor:0 "Die Emishi sind als hervorragende Kavalleristen bekannt, deren Wildheit sie in zahlreichen Schlachten zum Sieg geführt hat, obwohl sie zahlenmäßig stark unterlegen waren."
  
- tradition_chinese_pikemen_name:0 "Chinesische Pikeniere" #戟歩兵
- tradition_chinese_pikemen_desc:0 "These armor-clad pikemen equipped with the Ji Spear constitute the backbone of any Chinese Army."
- chinese_pikemen:0 "Chinesische Pikeniere" #戟歩兵
- chinese_pikemen_flavor:0 "Diese gepanzerten Pikeniere, die mit dem Ji-Speer ausgerüstet sind, bilden das Rückgrat jeder chinesischen Armee."
+ tradition_shumiyuan_name:0 "Shumiyuan" #樞密院
+ tradition_shumiyuan_desc:0 "Das Shumiyuan, oder Büro für Militärangelegenheiten, überwacht die Verwaltung der Kaiserlichen Armee mit dem Hauptziel, das Reich zu schützen und, wenn nötig, Macht über seine Grenzen hinaus zu projizieren."
+ ji_pikemen:0 "Ji Pikemen" #戟歩兵
+ ji_pikemen_flavor:0 "Diese gepanzerten Pikeniertruppen, ausgerüstet mit dem Ji-Speer, bilden das Rückgrat jeder chinesischen Armee."
  
  tradition_khitan_heavy_cavalry_name:0 "Khitan Schwere Kavallerie" #契丹鎧骑兵
  tradition_khitan_heavy_cavalry_desc:0 "Die Khitan sind bekannt für ihre schwere Kavallerie, deren Kampfkraft sie aus vielen Kämpfen mit ihren Nachbarn als Sieger hervorgehen ließ."
@@ -42,13 +43,13 @@
  gaemamusa:0 "Gaemamusa" #개마무사/鎧馬武士
  gaemamusa_flavor:0 "Die Gaemamusa zeichnen sich durch ihre reich verzierten Federn und schweren Rüstungen aus und gelten als eine der beeindruckendsten Kavallerietruppen in Ostasien."
  
- tradition_tiger_sons_name:0 "Tigersöhne"
- tradition_tiger_sons_desc:0 "Die Tigersöhne oder Luojuzi bildeten den Elitekern des Nanzhao-Militärs und wurden nur aus den stärksten Kriegern ausgewählt. Feigheit wurde bei den Luojuzi nicht geduldet, Rückzug wurde mit dem Tod bestraft."
+ tradition_luojuzi_name:0 "Tigersöhne"
+ tradition_luojuzi_desc:0 "Die Tigersöhne oder Luojuzi bildeten den Elitekern des Nanzhao-Militärs und wurden nur aus den stärksten Kriegern ausgewählt. Feigheit wurde bei den Luojuzi nicht geduldet, Rückzug wurde mit dem Tod bestraft."
  luojuzi:0 "Luojuzi" #罗苴子
  luojuzi_flavor:0 "Die Tigersöhne oder Luojuzi bildeten den Elitekern des Nanzhao-Militärs und wurden nur aus den stärksten Kriegern ausgewählt. Feigheit wurde bei den Luojuzi nicht geduldet, Rückzug wurde mit dem Tod bestraft."
  
- tradition_warrior_caste_name:0 "Kṣatrá" #ក្សត្រ
- tradition_warrior_caste_desc:0 "Die Kṣatrá bildeten die Kriegeraristokratie des Khmer-Reiches und waren bekannt für ihre Tapferkeit im Kampf."
+ tradition_ksatra_name:0 "Kṣatrá" #ក្សត្រ
+ tradition_ksatra_desc:0 "Die Kṣatrá bildeten die Kriegeraristokratie des Khmer-Reiches und waren bekannt für ihre Tapferkeit im Kampf."
  ksatra:0 "Kṣatrá" #ក្សត្រ
  ksatra_flavor:0 "Die Kṣatrá bildeten die Kriegeraristokratie des Khmer-Reiches und waren bekannt für ihre Tapferkeit im Kampf."
  

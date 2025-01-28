@@ -1,0 +1,33 @@
+﻿action_can_make_onnamusha = {
+	priority = 900
+	combine_into_one = yes
+	check_create_action = {
+		# Do you have the DLC?
+		if = {
+			limit = { has_fp1_dlc_trigger = yes }
+			every_close_family_member = {
+				limit = {
+					root = {
+						is_character_interaction_potentially_accepted = {
+							recipient = prev
+							interaction = designate_onnamusha_interaction
+						}
+					}
+				}
+				try_create_important_action = {
+					important_action_type = action_can_make_onnamusha
+					actor = root
+					recipient = this
+				}
+			}
+		}
+	}
+
+	effect = {
+		open_interaction_window = {
+			interaction = designate_onnamusha_interaction
+			actor = scope:actor
+			recipient = scope:recipient
+		}
+	}
+}

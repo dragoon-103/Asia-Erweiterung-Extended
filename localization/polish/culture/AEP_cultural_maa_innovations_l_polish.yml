@@ -1,0 +1,55 @@
+﻿l_polish:
+ #Tribal Era
+ culture_parameter_unlock_maa_samurai:0 "Can recruit [GetMaA('samurai').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_sohei:0 "Can recruit [GetMaA('sohei').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_:0 "Can recruit [GetMaA('emishi_riders').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_ji_pikemen:0 "Can recruit [GetMaA('ji_pikemen').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_khitan:0 "Can recruit [GetMaA('heavy_khitan_cavalry').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_hwarang:0 "Can recruit [GetMaA('hwarang').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_gaemamusa:0 "Can recruit [GetMaA('gaemamusa').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_luojuzi:0 "Can recruit [GetMaA('luojuzi').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_ksatra:0 "Can recruit [GetMaA('ksatra').GetName] as [men_at_arms|E]"
+
+ #Military
+ tradition_samurai_name:0 "Samurai" #侍
+ tradition_samurai_desc:0 "The Samurai represent Japan's elite warrior class, valued for their loyalty to their clan, martial prowess, and their service to powerful patrons. Their code emphasizes honor, courage, and dedication to those they protect, even in the face of death."
+ samurai:0 "Samurai" #侍
+ samurai_flavor:0 "Exhibiting exceptional discipline and rigorous training in the arts of horsemanship and archery, these warriors embody the epitome of the Japanese warrior ideal."
+ sohei:0 "Sōhei" #僧兵
+ sohei_flavor:0 "The Sōhei (lit. warrior monks) emerged during the Heian Period due to the decline of centralized authority. Their martial prowess, together with their zeal, have led to the Sōhei becoming both feared and respected throughout Japan."
+ 
+ tradition_emishi_riders_name:0 "Emishi Riders" #蝦夷騎
+ tradition_emishi_riders_desc:0 "The Emishi are renowned as superb cavalrymen whose fierceness has led them to victory in numerous battles despite being heavily outnumbered."
+ emishi_riders:0 "Emishi Riders" #蝦夷騎
+ emishi_riders_flavor:0 "The Emishi are renowned as superb cavalrymen whose fierceness has led them to victory in numerous battles despite being heavily outnumbered."
+ 
+ tradition_shumiyuan_name:0 "Shumiyuan" #樞密院
+ tradition_shumiyuan_desc:0 "The Shumiyuan, or Bureau of Military Affairs, oversees the management of the Imperial Army with its primary focus being to safeguard the empire and, when necessary, to project power beyond its borders."
+ ji_pikemen:0 "Ji Pikemen" #戟歩兵
+ ji_pikemen_flavor:0 "These armor-clad pikemen equipped with the Ji Spear constitute the backbone of any Chinese Army."
+ 
+ tradition_khitan_heavy_cavalry_name:0 "Khitan Heavy Cavalry" #契丹鎧骑兵
+ tradition_khitan_heavy_cavalry_desc:0 "The Khitan are renowned for their heavy cavalry, whose battle prowess has seen them emerge victorious in many bouts with their neighbors."
+ heavy_khitan_cavalry:0 "Khitan Heavy Cavalry" #契丹鎧骑兵
+ heavy_khitan_cavalry_flavor:0 "The Khitan are renowned for their heavy cavalry, whose battle prowess has seen them emerge victorious in many bouts with their neighbors."
+ 
+ tradition_hwarang_name:0 "Flowering Knights" #화랑/花郞
+ tradition_hwarang_desc:0 "The Hwarang (lit. Flowering Knights) was an elite warrior class of male youths in Silla renowned for their exceptional physical beauty and extensive training across diverse fields, ranging from administrative to military. They served as paragons of virtue within Sillan society, exemplifying the values of loyalty, bravery, and righteousness, and demonstrated a fanatical devotion to their sovereign."
+ hwarang:0 "Hwarang" #화랑/花郞
+ hwarang_flavor:0 "Renowned for their exceptional beauty, military expertise, and unwavering devotion to the king, these inexorable warriors will fight to the last man."
+ 
+ tradition_gaemamusa_name:0 "Gaemamusa" #개마무사/鎧馬武士
+ tradition_gaemamusa_desc:0 "The Gaemamusa comprised the elite cavalry force of Goguryeo and played a critical role in the nation's conquests. Renowned for their imposing armor and the ornate plumes adorning the rear of their horses' armor, they stood out as some of the most heavily equipped cavalry troops in East Asia."
+ gaemamusa:0 "Gaemamusa" #개마무사/鎧馬武士
+ gaemamusa_flavor:0 "Distinguished by their ornate plumes and heavy armor, the Gaemamusa stand out as one of the most impressive cavalry forces in Eastern Asia."
+ 
+ tradition_luojuzi_name:0 "Tiger Sons"
+ tradition_luojuzi_desc:0 "The Tiger Sons, or Luojuzi, formed the elite core of the Nanzhao Military and were chosen only from the strongest warriors. Cowardice wasn't tolerated among the Luojuzi, with retreat being punishable by death."
+ luojuzi:0 "Luojuzi" #罗苴子
+ luojuzi_flavor:0 "The Tiger Sons, or Luojuzi, formed the elite core of the Nanzhao Military and were chosen only from the strongest warriors. Cowardice wasn't tolerated among the Luojuzi, with retreat being punishable by death."
+ 
+ tradition_ksatra_name:0 "Kṣatrá" #क्षत्र
+ tradition_ksatra_desc:0 "The Ksatra constituted the Khmer Empire's warrior aristocracy, and were well known for their prowess in battle."
+ ksatra:0 "Kṣatrá" #क्षत्र
+ ksatra_flavor:0 "The Ksatra constituted the Khmer Empire's warrior aristocracy, and were well known for their prowess in battle."
+ 

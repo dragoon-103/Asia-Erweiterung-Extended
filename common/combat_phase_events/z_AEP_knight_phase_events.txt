@@ -1,0 +1,113 @@
+﻿knight_onnamusha_attack = {
+	type = knight
+
+	is_valid = {
+		has_trait = onnamusha
+		scope:combat_side.enemy_side = {
+			any_side_knight = {
+				is_alive = yes
+				this.prowess <= root.prowess_for_combat_event_opponent
+			}
+		}
+	}
+
+	chance = {
+		base = 30
+		modifier = {
+			factor = 1.5
+			has_perk = stalwart_leader_perk
+			is_ai = no
+		}
+		modifier = {
+			factor = 1.15
+			has_perk = stalwart_leader_perk
+			is_ai = yes
+		}
+		modifier = {
+			factor = 1.25
+			exists = dynasty
+			dynasty = {
+				has_dynasty_perk = warfare_legacy_3
+			}
+		}
+		modifier = {
+			factor = 2
+			has_trait = wrathful
+		}
+		modifier = {
+			factor = 10
+			has_trait = giant
+		}
+		modifier = {
+			factor = 1.25
+			has_trait_rank = {
+				trait = wounded
+				rank = 1
+			}
+		}
+		modifier = {
+			factor = 1.25
+			has_trait_rank = {
+				trait = wounded
+				rank = 2
+			}
+		}
+		modifier = {
+			factor = 1.25
+			has_trait_rank = {
+				trait = wounded
+				rank = 3
+			}
+		}
+		modifier = {
+			factor = 0.25
+			OR = {
+				has_trait = one_legged
+				has_trait = disfigured
+				has_trait = one_eyed
+				has_trait = maimed
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				scope:combat_side.enemy_side = {
+					any_side_knight = {
+						is_alive = yes
+						this.prowess <= root.prowess_for_combat_event_opponent
+					}
+				}
+			}
+			scope:combat_side.enemy_side = {
+				random_side_knight = {
+					limit = {
+						is_alive = yes
+						this.prowess <= root.prowess_for_combat_event_opponent
+					}
+					save_temporary_scope_as = enemy_knight
+				}
+			}
+			if = {
+				limit = {
+					root = { is_alive = yes }
+					scope:enemy_knight = { is_alive = yes }
+				}
+				add_prestige = knight_prestige_gain_on_kill
+				knight_increase_prowess_chance_effect = yes
+				onnamusha_kill_version_randomisation_effect = yes
+				scope:enemy_knight = {
+					if = {
+						limit = {
+							exists = accolade
+							accolade = { is_accolade_active = yes }
+						}
+						# Onna-musha are especially good at earning glory.
+						accolade = { add_glory = minor_glory_gain }
+					}
+				}
+			}
+		}
+	}
+}

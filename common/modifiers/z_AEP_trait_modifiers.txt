@@ -1,0 +1,47 @@
+﻿##################################################
+# #Onna-musha Character Modifiers
+
+onnamusha_level_martial_1_aep_modifier = {
+	icon = martial_positive
+	martial = 4
+}
+
+onnamusha_level_martial_2_aep_modifier = {
+	icon = martial_positive
+	martial = 8
+}
+
+onnamusha_level_martial_3_aep_modifier = {
+	icon = martial_positive
+	martial = 12
+}
+
+onnamusha_level_prowess_1_aep_modifier = {
+	icon = prowess_positive
+	prowess = 4
+}
+
+onnamusha_level_prowess_2_aep_modifier = {
+	icon = prowess_positive
+	prowess = 8
+}
+
+onnamusha_level_prowess_3_aep_modifier = {
+	icon = prowess_positive
+	prowess = 12
+}
+
+onnamusha_level_intrigue_1_aep_modifier = {
+	icon = intrigue_positive
+	intrigue = 4
+}
+
+onnamusha_level_intrigue_2_aep_modifier = {
+	icon = intrigue_positive
+	intrigue = 8
+}
+
+onnamusha_level_intrigue_3_aep_modifier = {
+	icon = intrigue_positive
+	intrigue = 12
+}

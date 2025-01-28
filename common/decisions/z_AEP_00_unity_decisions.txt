@@ -1,0 +1,185 @@
+﻿unity_establish_futuwaa_lodges_decision = {
+	ai_check_interval = 36
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/fp3/competitive.dds"
+	}
+	is_invisible = yes
+	sort_order = 60
+
+	desc = {
+		desc = unity_establish_futuwaa_lodges_decision_desc_intro
+		first_valid = {
+			# "People"
+			triggered_desc = {
+				trigger = {
+					OR = {
+						AND = {
+							has_dlc_feature = diverge_culture
+							culture = { has_cultural_parameter = martial_custom_equal_combatant } 
+						}
+						faith = { has_doctrine_parameter = combatant_can_be_either_gender_if_no_roco }
+						has_character_modifier = ignores_gender_army_rules
+						culture = { 
+							OR = {
+								has_cultural_parameter = has_access_to_shieldmaidens
+								has_cultural_parameter = has_access_to_onnamusha
+								has_cultural_parameter = high_prowess_ignores_knight_restrictions
+							}
+						}
+					}
+				}
+				desc = people
+			}
+			# "Women"
+			triggered_desc = {
+				trigger = {
+					OR = {
+						AND = {
+							has_dlc_feature = diverge_culture
+							culture = { has_cultural_parameter = martial_custom_female_only_combatant } 
+						}
+						faith = { has_doctrine_parameter = combatant_must_be_female_if_no_roco }
+					}
+				}
+				desc = women
+			}
+			# "Men"
+			triggered_desc = {
+				trigger = {
+					OR = {
+						AND = {
+							has_dlc_feature = diverge_culture
+							culture = { has_cultural_parameter = martial_custom_male_only_combatant } 
+						}
+						faith = { has_doctrine_parameter = combatant_must_be_male_if_no_roco }
+					}
+				}
+				desc = loc_men
+			}
+		}
+		desc = unity_establish_futuwaa_lodges_decision_desc_outro
+	}
+
+	cooldown = { years = 20 }
+
+	is_shown = {
+		government_has_flag = government_is_clan
+		is_landed = yes
+		exists = house
+		exists = capital_province # Sanity check
+		# TODO_CD_EREN: Allow this for people w/o the tradition but nerf it (and rename it)
+		# Otherwise, put it in the valid as well so the tooltip is surfaced to the player
+		culture = { has_cultural_tradition = tradition_futuwaa }
+	}
+
+	is_valid = {
+		house = {
+			OR = {
+				has_house_unity_stage = antagonistic
+				has_house_unity_stage = competitive
+			}
+		}
+	}
+
+	effect = {
+		save_scope_as = sponsor # For loc
+
+		# Yup this nonsense is necessary, custom_tooltip does not support triggered_desc
+		if = {
+			limit = {
+				OR = {
+					AND = {
+						has_dlc_feature = diverge_culture
+						culture = { has_cultural_parameter = martial_custom_equal_combatant } 
+					}
+					faith = { has_doctrine_parameter = combatant_can_be_either_gender_if_no_roco }
+					has_character_modifier = ignores_gender_army_rules
+					culture = {
+						OR = {
+							has_cultural_parameter = has_access_to_shieldmaidens
+							has_cultural_parameter = has_access_to_onnamusha
+							has_cultural_parameter = high_prowess_ignores_knight_restrictions
+						}
+					}
+				}
+			}
+			save_scope_as = any_combatants # This is relevant for a TT later on
+			custom_tooltip = { text = unity_establish_futuwaa_lodges_decision.tt_people }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					AND = {
+						has_dlc_feature = diverge_culture
+						culture = { has_cultural_parameter = martial_custom_female_only_combatant } 
+					}
+					faith = { has_doctrine_parameter = combatant_must_be_female_if_no_roco }
+				}
+			}
+			save_scope_as = female_combatants
+			custom_tooltip = { text = unity_establish_futuwaa_lodges_decision.tt_women }
+		}
+		else_if = {
+			limit = {
+				OR = {
+					AND = {
+						has_dlc_feature = diverge_culture
+						culture = { has_cultural_parameter = martial_custom_male_only_combatant } 
+					}
+					faith = { has_doctrine_parameter = combatant_must_be_male_if_no_roco }
+				}
+			}
+			save_scope_as = male_combatants
+			custom_tooltip = { text = unity_establish_futuwaa_lodges_decision.tt_men }
+		}
+		
+
+		if = {
+			limit = { exists = scope:any_combatants }
+			custom_tooltip = { text = unity_establish_futuwaa_lodges_decision.tt_num_people }
+		}
+		else_if = {
+			limit = { exists = scope:female_combatants }
+			custom_tooltip = { text = unity_establish_futuwaa_lodges_decision.tt_num_women }
+		}
+		else_if = {
+			limit = { exists = scope:male_combatants }
+			custom_tooltip = { text = unity_establish_futuwaa_lodges_decision.tt_num_men }
+		}
+
+		add_character_modifier = {
+			modifier = fp3_established_futuwaa_lodges_modifier
+			years = 20
+		}
+
+		add_character_flag = {
+			flag = fp3_established_futuwaa_lodges
+			years = 20
+		}
+		
+		create_story = story_cycle_futuwaa_lodges
+	}
+
+	cost = {
+		piety = { value = unity_minor_decision_piety_cost }
+	}
+
+	ai_will_do = {
+		base = 20
+		# Chance increases if root has lots of valid members
+		modifier = {
+			add = 40
+			any_courtier = {
+				count >= 2
+				fp3_is_valid_futuwaa_member = { SPONSOR = root }
+			}
+		}
+		modifier = {
+			add = 40
+			any_courtier = {
+				count >= 4
+				fp3_is_valid_futuwaa_member = { SPONSOR = root }
+			}
+		}
+	}
+}

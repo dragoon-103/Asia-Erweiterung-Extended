@@ -1,0 +1,23 @@
+﻿##################################################
+# Onna-musha Triggers
+
+suitable_onnamusha_gaoler_trigger = {
+	#Must be a Onna-musha.
+	has_trait = onnamusha
+	NOR = {
+		#Filter out prisoners that the Onna-musha would want to see freed.
+		has_friendly_relationship_trigger = { CHARACTER = root }
+		#And require that they don't hate their liege.
+		has_relation_rival = scope:imprisoner
+		#Make sure they don't really like root, in which case they'd let the escape slide.
+		opinion = {
+			target = root
+			value >= high_positive_opinion
+		}
+		#Aaaaand the inverse for actually really hating their host, in which case they don't care about escapees.
+		opinion = {
+			target = scope:imprisoner
+			value <= high_negative_opinion
+		}
+	}
+}

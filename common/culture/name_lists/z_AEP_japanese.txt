@@ -1,0 +1,420 @@
+﻿name_list_japanese = {
+
+	cadet_dynasty_names = {
+		"dynn_Abe" "dynn_Adachi" "dynn_Agatsuma" "dynn_Aiko" "dynn_Ajiki" "dynn_Akada" "dynn_Akahoshi" "dynn_Akai" "dynn_Akatsuka" "dynn_Akiha" "dynn_Akita" "dynn_Ama" "dynn_Amaha" "dynn_Amakusa" "dynn_Amari" "dynn_Ando" "dynn_Annaka" "dynn_Anzai" "dynn_Ao" "dynn_Arimoto" "dynn_Asaba" "dynn_Asahina" "dynn_Asaka" "dynn_Asari" "dynn_Asayama" "dynn_Ashida" "dynn_Ashikaga" "dynn_Ashina" "dynn_Ashizaki" "dynn_Asonuma" "dynn_Awata" "dynn_Beppu" "dynn_Bessho" "dynn_Chiba" "dynn_Chida" "dynn_Chikama" "dynn_Chino" "dynn_Chonan" "dynn_Chujo" "dynn_Chusonji" "dynn_Daigo" "dynn_Daihoji" "dynn_Daijo" "dynn_Daitokuji" "dynn_Danzaki" "dynn_Date" "dynn_Dohi" "dynn_Ebina" "dynn_Echigo" "dynn_Edo" "dynn_Ei" "dynn_Endo" "dynn_Erinji" "dynn_Fujisawa" "dynn_Fujishima" "dynn_Fuma" "dynn_Funadokoro" "dynn_Furugori" "dynn_Furusho" "dynn_Godo" "dynn_Gojoin" "dynn_Goto" "dynn_Gotonai" "dynn_Hachinohe" "dynn_Haga" "dynn_Hahakabe" "dynn_Hakonesan" "dynn_Hama" "dynn_Hamada" "dynn_Hanagasaki" "dynn_Hangaya" "dynn_Hara" "dynn_Hasebe" "dynn_Hasekura" "dynn_Hashida" "dynn_Hasuike" "dynn_Hatta" "dynn_Hayama" "dynn_Hayami" "dynn_Hayasibara" "dynn_Hayuka" "dynn_Hei" "dynn_Hienuki" "dynn_Hiki" "dynn_Hikita" "dynn_Hino" "dynn_Hioki" "dynn_Hirai" "dynn_Hirakawa" "dynn_Hirata" "dynn_Hiroyama" "dynn_Hishikari" "dynn_Hita" "dynn_Hizentakagi" "dynn_Hizume" "dynn_Hojo" "dynn_Honma" "dynn_Hori" "dynn_Horiguchi" "dynn_Ibusuki" "dynn_Ichijo" "dynn_Ichikawa" "dynn_Iga" "dynn_Igarame" "dynn_Iguchi" "dynn_Iho" "dynn_Ii" "dynn_Iida" "dynn_Iijima" "dynn_Ikarashi" "dynn_Inaba" "dynn_Inabe" "dynn_Inadu" "dynn_Inage" "dynn_Inawashiro" "dynn_Ino" "dynn_Inoie" "dynn_Inomata" "dynn_Inoue" "dynn_Into" "dynn_Inzai" "dynn_Irie" "dynn_Isa" "dynn_Isaku" "dynn_Isawa" "dynn_Ise" "dynn_Ishida" "dynn_Ishido" "dynn_Ishigame" "dynn_Ishikawa" "dynn_Ishimoda" "dynn_Itagaki" "dynn_Itai" "dynn_Itakura" "dynn_Ito" "dynn_Iwaki" "dynn_Iwakuni" "dynn_Iwamatsu" "dynn_Iwase" "dynn_Izaka" "dynn_Izumi" "dynn_Izusan" "dynn_Jou" "dynn_Kagawa" "dynn_Kai" "dynn_Kaji" "dynn_Kajiwara" "dynn_Kakeda" "dynn_Kamakura" "dynn_Kamei" "dynn_Kamitsumichi" "dynn_Kanagami" "dynn_Kanakubo" "dynn_Kanamochi" "dynn_Kaneda" "dynn_Kaneko" "dynn_Kanemaru" "dynn_Kaneuri" "dynn_Kano" "dynn_Karita" "dynn_Kasahara" "dynn_Kasai" "dynn_Kashima" "dynn_Kashiyama" "dynn_Kasuga" "dynn_Kasugabe" "dynn_Kasuya" "dynn_Katada" "dynn_Katagiri" "dynn_Katakura" "dynn_Kataoka" "dynn_Katsuki" "dynn_Katsumata" "dynn_Katta" "dynn_Kawabe" "dynn_Kawachi" "dynn_Kawada" "dynn_Kawagoe" "dynn_Kawai" "dynn_Kawanabe" "dynn_Kawarada" "dynn_Kawashima" "dynn_Kawawa" "dynn_Kawazu" "dynn_Kazusa" "dynn_Kemanai" "dynn_Kenmotsu" "dynn_Ki" "dynn_Kida" "dynn_Kii" "dynn_Kikuchi" "dynn_Kimotsuki" "dynn_Kinebuchi" "dynn_Kiryu" "dynn_Kita" "dynn_Kiuchi" "dynn_Kiyohara" "dynn_Kiyotake" "dynn_Kodama" "dynn_Koizumi" "dynn_Kokubu" "dynn_Kokubun" "dynn_Komuro" "dynn_Kon" "dynn_Kono" "dynn_Kondo" "dynn_Kori" "dynn_Koshi" "dynn_Kosuiji" "dynn_Koto" "dynn_Koyanagawa" "dynn_Kozuma" "dynn_Kudo" "dynn_Kuge" "dynn_Kujo" "dynn_Kumabe" "dynn_Kumagai" "dynn_Kumage" "dynn_Kumano" "dynn_Kumasaka" "dynn_Kumita" "dynn_Kunohe" "dynn_Kuragake" "dynn_Kurokawa" "dynn_Kusakabe" "dynn_Kusano" "dynn_Kushihashi" "dynn_Kuwahata" "dynn_Makabe" "dynn_Maki" "dynn_Makino" "dynn_Makuwari" "dynn_Manabe" "dynn_Mariyatsu" "dynn_Mashiko" "dynn_Matano" "dynn_Matsuba" "dynn_Matsuda" "dynn_Matsumoto" "dynn_Matsura" "dynn_Mibu" "dynn_Mike" "dynn_Minagawa" "dynn_Minami" "dynn_Minamie" "dynn_Mino" "dynn_Misumi" "dynn_Mita" "dynn_Miura" "dynn_Miyazaki" "dynn_Mizawa" "dynn_Mizuhai" "dynn_Mizushi" "dynn_Mochiduki" "dynn_Mogami" "dynn_Mogi" "dynn_Momonoi" "dynn_Mori" "dynn_Morozumi" "dynn_Motozawa" "dynn_Motsuji" "dynn_Murakami" "dynn_Murao" "dynn_Murayama" "dynn_Musashibo" "dynn_Muto" "dynn_Myoshinji" "dynn_Nagae" "dynn_Nagano" "dynn_Naganuma" "dynn_Nagao" "dynn_Nagasa" "dynn_Nagasaki" "dynn_Nagase" "dynn_Nagashio" "dynn_Nagata" "dynn_Nagoya" "dynn_Naka" "dynn_Nakaduma" "dynn_Nakamura" "dynn_Nakano" "dynn_Nakura" "dynn_Namegata" "dynn_Namioka" "dynn_Nanba" "dynn_Nanbu" "dynn_Naniwa" "dynn_Narisawa" "dynn_Narita" "dynn_Narumi" "dynn_Nasu" "dynn_Natori" "dynn_Nawa" "dynn_Nedu" "dynn_Nei" "dynn_Nihonmatsu" "dynn_Nii" "dynn_Niida" "dynn_Nikaho" "dynn_Nikaido" "dynn_Nikki" "dynn_Nikko" "dynn_Nimo" "dynn_Ninomiya" "dynn_Nishiyama" "dynn_Nita" "dynn_Nitta" "dynn_Nobesawa" "dynn_Nogami" "dynn_Nuka" "dynn_Numata" "dynn_Nunohiro" "dynn_Nuta" "dynn_Oba" "dynn_Obata" "dynn_Oda" "dynn_Odachi" "dynn_oe" "dynn_Oeda" "dynn_Ogamo" "dynn_Ogata" "dynn_Ogino" "dynn_Oguri" "dynn_Ogushi" "dynn_Oi" "dynn_Oka" "dynn_Okabe" "dynn_Okamoto" "dynn_Okawa" "dynn_Okuyama" "dynn_Omi" "dynn_Omori" "dynn_Oniwa" "dynn_Ooba" "dynn_Onjoji" "dynn_Ono" "dynn_Onodera" "dynn_Osada" "dynn_Osaki" "dynn_Osone" "dynn_Osuga" "dynn_Ota" "dynn_Otawa" "dynn_Ouchi" "dynn_Oura" "dynn_Oya" "dynn_Oyake" "dynn_Oyama" "dynn_Oyamada" "dynn_Ozawa" "dynn_Oze" "dynn_Rinsenji" "dynn_Rusu" "dynn_Saeki" "dynn_Sagara" "dynn_Sagoshi" "dynn_Sahara" "dynn_Saito" "dynn_Saji" "dynn_Saka" "dynn_Sakai" "dynn_Sakaminami" "dynn_Sakenobe" "dynn_Samejima" "dynn_Sanada" "dynn_Sannohe" "dynn_Sano" "dynn_Sasaki" "dynn_Satake" "dynn_Sato" "dynn_Satomi" "dynn_Sawa" "dynn_Seki" "dynn_Sekiya" "dynn_Senba" "dynn_Senda" "dynn_Senoo" "dynn_Senoue" "dynn_Serada" "dynn_Shiba" "dynn_Shibukawa" "dynn_Shibuya" "dynn_Shifukuji" "dynn_Shihara" "dynn_Shii" "dynn_Shimazaki" "dynn_Shimizu" "dynn_Shinagawa" "dynn_Shindo" "dynn_Shineha" "dynn_Shingu" "dynn_Shinohara" "dynn_Shiokawa" "dynn_Shionoya" "dynn_Shirai" "dynn_Shirakawa" "dynn_Shiroishi" "dynn_Shisa" "dynn_Shishido" "dynn_Shitara" "dynn_Shuin" "dynn_So" "dynn_Soma" "dynn_Sonobe" "dynn_Sosa" "dynn_Suda" "dynn_Sugenoya" "dynn_Sugimoto" "dynn_Suyama" "dynn_Suzuki" "dynn_Tachikawa" "dynn_Tachikida" "dynn_Tada" "dynn_Tagawa" "dynn_Tagaya" "dynn_Tago" "dynn_Taguchi" "dynn_Taima" "dynn_Tairako" "dynn_Taizai" "dynn_Tajibe" "dynn_Takasaka" "dynn_Takashima" "dynn_Takayama" "dynn_Takechi" "dynn_Takeda" "dynn_Takei" "dynn_Takeishi" "dynn_Takusari" "dynn_Tamura" "dynn_Tanaka" "dynn_Taniyama" "dynn_Tatara" "dynn_Tateoka" "dynn_Taya" "dynn_Tayubo" "dynn_Tendo" "dynn_Teramoto" "dynn_Terui" "dynn_Tezuka" "dynn_Tobe" "dynn_Togo" "dynn_Toki" "dynn_Tokihara" "dynn_Tokuda" "dynn_Tokugawa" "dynn_Tomida" "dynn_Tominaga" "dynn_Tomita" "dynn_Tomo" "dynn_Tomono" "dynn_Tomura" "dynn_Tosanobo" "dynn_Toshima" "dynn_Tou" "dynn_Toyota" "dynn_Tozawa" "dynn_Tsuchimochi" "dynn_Tsuchiya" "dynn_Tsuduki" "dynn_Tsugaru" "dynn_Tsuhada" "dynn_Tsukahara" "dynn_Tsukame" "dynn_Tsumaki" "dynn_Tsutsui" "dynn_Tsutsumi" "dynn_Uesugi" "dynn_Umi" "dynn_Unakami" "dynn_Uno" "dynn_Urushima" "dynn_Uryu" "dynn_Usanagi" "dynn_Usuginu" "dynn_Usui" "dynn_Usuki" "dynn_Uta" "dynn_Utsunomiya" "dynn_Wada" "dynn_Waga" "dynn_Waka" "dynn_Wakimoto" "dynn_Watanabe" "dynn_Watari" "dynn_Yabe" "dynn_Yako" "dynn_Yamada" "dynn_Yamaga" "dynn_Yamagata" "dynn_Yamaguchi" "dynn_Yamakawa" "dynn_Yamamoto" "dynn_Yamanouchi" "dynn_Yanada" "dynn_Yashiro" "dynn_Yasu" "dynn_Yasuhara" "dynn_Yato" "dynn_Yoda" "dynn_Yokawa" "dynn_Yokochi" "dynn_Yokose" "dynn_Yokosuga" "dynn_Yokota" "dynn_Yokoyama" "dynn_Yoshihashi" "dynn_Yuasa" "dynn_Yuki" "dynn_Yura" "dynn_Yuri"
+	}
+
+	dynasty_names = {
+		"dynn_Abe" "dynn_Adachi" "dynn_Agatsuma" "dynn_Aiko" "dynn_Ajiki" "dynn_Akada" "dynn_Akahoshi" "dynn_Akai" "dynn_Akatsuka" "dynn_Akiha" "dynn_Akita" "dynn_Ama" "dynn_Amaha" "dynn_Amakusa" "dynn_Amari" "dynn_Ando" "dynn_Annaka" "dynn_Anzai" "dynn_Ao" "dynn_Arimoto" "dynn_Asaba" "dynn_Asahina" "dynn_Asaka" "dynn_Asari" "dynn_Asayama" "dynn_Ashida" "dynn_Ashikaga" "dynn_Ashina" "dynn_Ashizaki" "dynn_Asonuma" "dynn_Awata" "dynn_Beppu" "dynn_Bessho" "dynn_Chiba" "dynn_Chida" "dynn_Chikama" "dynn_Chino" "dynn_Chonan" "dynn_Chujo" "dynn_Chusonji" "dynn_Daigo" "dynn_Daihoji" "dynn_Daijo" "dynn_Daitokuji" "dynn_Danzaki" "dynn_Date" "dynn_Dohi" "dynn_Ebina" "dynn_Echigo" "dynn_Edo" "dynn_Ei" "dynn_Endo" "dynn_Erinji" "dynn_Fujisawa" "dynn_Fujishima" "dynn_Fuma" "dynn_Funadokoro" "dynn_Furugori" "dynn_Furusho" "dynn_Godo" "dynn_Gojoin" "dynn_Goto" "dynn_Gotonai" "dynn_Hachinohe" "dynn_Haga" "dynn_Hahakabe" "dynn_Hakonesan" "dynn_Hama" "dynn_Hamada" "dynn_Hanagasaki" "dynn_Hangaya" "dynn_Hara" "dynn_Hasebe" "dynn_Hasekura" "dynn_Hashida" "dynn_Hasuike" "dynn_Hatta" "dynn_Hayama" "dynn_Hayami" "dynn_Hayasibara" "dynn_Hayuka" "dynn_Hei" "dynn_Hienuki" "dynn_Hiki" "dynn_Hikita" "dynn_Hino" "dynn_Hioki" "dynn_Hirai" "dynn_Hirakawa" "dynn_Hirata" "dynn_Hiroyama" "dynn_Hishikari" "dynn_Hita" "dynn_Hizentakagi" "dynn_Hizume" "dynn_Hojo" "dynn_Honma" "dynn_Hori" "dynn_Horiguchi" "dynn_Ibusuki" "dynn_Ichijo" "dynn_Ichikawa" "dynn_Iga" "dynn_Igarame" "dynn_Iguchi" "dynn_Iho""dynn_Ii"  "dynn_Iida" "dynn_Iijima" "dynn_Ikarashi" "dynn_Inaba" "dynn_Inabe" "dynn_Inadu" "dynn_Inage" "dynn_Inawashiro" "dynn_Ino" "dynn_Inoie" "dynn_Inomata" "dynn_Inoue" "dynn_Into" "dynn_Inzai" "dynn_Irie" "dynn_Isa" "dynn_Isaku" "dynn_Isawa" "dynn_Ise" "dynn_Ishida" "dynn_Ishido" "dynn_Ishigame" "dynn_Ishikawa" "dynn_Ishimoda" "dynn_Itagaki" "dynn_Itai" "dynn_Itakura" "dynn_Ito" "dynn_Iwaki" "dynn_Iwakuni" "dynn_Iwamatsu" "dynn_Iwase" "dynn_Izaka" "dynn_Izumi" "dynn_Izusan" "dynn_Jou" "dynn_Kagawa" "dynn_Kai" "dynn_Kaji" "dynn_Kajiwara" "dynn_Kakeda" "dynn_Kamakura" "dynn_Kamei" "dynn_Kamitsumichi" "dynn_Kanagami" "dynn_Kanakubo" "dynn_Kanamochi" "dynn_Kaneda" "dynn_Kaneko" "dynn_Kanemaru" "dynn_Kaneuri" "dynn_Kano" "dynn_Karita" "dynn_Kasahara" "dynn_Kasai" "dynn_Kashima" "dynn_Kashiyama" "dynn_Kasuga" "dynn_Kasugabe" "dynn_Kasuya" "dynn_Katada" "dynn_Katagiri" "dynn_Katakura" "dynn_Kataoka" "dynn_Katsuki" "dynn_Katsumata" "dynn_Katta" "dynn_Kawabe" "dynn_Kawachi" "dynn_Kawada" "dynn_Kawagoe" "dynn_Kawai" "dynn_Kawanabe" "dynn_Kawarada" "dynn_Kawashima" "dynn_Kawawa" "dynn_Kawazu" "dynn_Kazusa" "dynn_Kemanai" "dynn_Kenmotsu" "dynn_Ki" "dynn_Kida" "dynn_Kii" "dynn_Kikuchi" "dynn_Kimotsuki" "dynn_Kinebuchi" "dynn_Kiryu" "dynn_Kita" "dynn_Kiuchi" "dynn_Kiyohara" "dynn_Kiyotake" "dynn_Kodama" "dynn_Koizumi" "dynn_Kokubu" "dynn_Kokubun" "dynn_Komuro" "dynn_Kon" "dynn_Kono" "dynn_Kondo" "dynn_Kori" "dynn_Koshi" "dynn_Kosuiji" "dynn_Koto" "dynn_Koyanagawa" "dynn_Kozuma" "dynn_Kudo" "dynn_Kuge" "dynn_Kujo" "dynn_Kumabe" "dynn_Kumagai" "dynn_Kumage" "dynn_Kumano" "dynn_Kumasaka" "dynn_Kumita" "dynn_Kunohe" "dynn_Kuragake" "dynn_Kurokawa" "dynn_Kusakabe" "dynn_Kusano" "dynn_Kushihashi" "dynn_Kuwahata" "dynn_Makabe" "dynn_Maki" "dynn_Makino" "dynn_Makuwari" "dynn_Manabe" "dynn_Mariyatsu" "dynn_Mashiko" "dynn_Matano" "dynn_Matsuba" "dynn_Matsuda" "dynn_Matsumoto" "dynn_Matsura" "dynn_Mibu" "dynn_Mike" "dynn_Minagawa" "dynn_Minami" "dynn_Minamie" "dynn_Mino" "dynn_Misumi" "dynn_Mita" "dynn_Miura" "dynn_Miyazaki" "dynn_Mizawa" "dynn_Mizuhai" "dynn_Mizushi" "dynn_Mochiduki" "dynn_Mogami" "dynn_Mogi" "dynn_Momonoi" "dynn_Mori" "dynn_Morozumi" "dynn_Motozawa" "dynn_Motsuji" "dynn_Murakami" "dynn_Murao" "dynn_Murayama" "dynn_Musashibo" "dynn_Muto" "dynn_Myoshinji" "dynn_Nagae" "dynn_Nagano" "dynn_Naganuma" "dynn_Nagao" "dynn_Nagasa" "dynn_Nagasaki" "dynn_Nagase" "dynn_Nagashio" "dynn_Nagata" "dynn_Nagoya" "dynn_Naka" "dynn_Nakaduma" "dynn_Nakamura" "dynn_Nakano" "dynn_Nakura" "dynn_Namegata" "dynn_Namioka" "dynn_Nanba" "dynn_Nanbu" "dynn_Naniwa" "dynn_Narisawa" "dynn_Narita" "dynn_Narumi" "dynn_Nasu" "dynn_Natori" "dynn_Nawa" "dynn_Nedu" "dynn_Nei" "dynn_Nihonmatsu" "dynn_Nii" "dynn_Niida" "dynn_Nikaho" "dynn_Nikaido" "dynn_Nikki" "dynn_Nikko" "dynn_Nimo" "dynn_Ninomiya" "dynn_Nishiyama" "dynn_Nita" "dynn_Nitta" "dynn_Nobesawa" "dynn_Nogami" "dynn_Nuka" "dynn_Numata" "dynn_Nunohiro" "dynn_Nuta" "dynn_Oba" "dynn_Obata" "dynn_Oda" "dynn_Odachi" "dynn_oe" "dynn_Oeda" "dynn_Ogamo" "dynn_Ogata" "dynn_Ogino" "dynn_Oguri" "dynn_Ogushi" "dynn_Oi" "dynn_Oka" "dynn_Okabe" "dynn_Okamoto" "dynn_Okawa" "dynn_Okuyama" "dynn_Omi" "dynn_Omori" "dynn_Oniwa" "dynn_Ooba" "dynn_Onjoji" "dynn_Ono" "dynn_Onodera" "dynn_Osada" "dynn_Osaki" "dynn_Osone" "dynn_Osuga" "dynn_Ota" "dynn_Otawa" "dynn_Ouchi" "dynn_Oura" "dynn_Oya" "dynn_Oyake" "dynn_Oyama" "dynn_Oyamada" "dynn_Ozawa" "dynn_Oze" "dynn_Rinsenji" "dynn_Rusu" "dynn_Saeki" "dynn_Sagara" "dynn_Sagoshi" "dynn_Sahara" "dynn_Saito" "dynn_Saji" "dynn_Saka" "dynn_Sakai" "dynn_Sakaminami" "dynn_Sakenobe" "dynn_Samejima" "dynn_Sanada" "dynn_Sannohe" "dynn_Sano" "dynn_Sasaki" "dynn_Satake" "dynn_Sato" "dynn_Satomi" "dynn_Sawa" "dynn_Seki" "dynn_Sekiya" "dynn_Senba" "dynn_Senda" "dynn_Senoo" "dynn_Senoue" "dynn_Serada" "dynn_Shiba" "dynn_Shibukawa" "dynn_Shibuya" "dynn_Shifukuji" "dynn_Shihara" "dynn_Shii" "dynn_Shimazaki" "dynn_Shimizu" "dynn_Shinagawa" "dynn_Shindo" "dynn_Shineha" "dynn_Shingu" "dynn_Shinohara" "dynn_Shiokawa" "dynn_Shionoya" "dynn_Shirai" "dynn_Shirakawa" "dynn_Shiroishi" "dynn_Shisa" "dynn_Shishido" "dynn_Shitara" "dynn_Shuin" "dynn_So" "dynn_Soma" "dynn_Sonobe" "dynn_Sosa" "dynn_Suda" "dynn_Sugenoya" "dynn_Sugimoto" "dynn_Suyama" "dynn_Suzuki" "dynn_Tachikawa" "dynn_Tachikida" "dynn_Tada" "dynn_Tagawa" "dynn_Tagaya" "dynn_Tago" "dynn_Taguchi" "dynn_Taima" "dynn_Tairako" "dynn_Taizai" "dynn_Tajibe" "dynn_Takasaka" "dynn_Takashima" "dynn_Takayama" "dynn_Takechi" "dynn_Takeda" "dynn_Takei" "dynn_Takeishi" "dynn_Takusari" "dynn_Tamura" "dynn_Tanaka" "dynn_Taniyama" "dynn_Tatara" "dynn_Tateoka" "dynn_Taya" "dynn_Tayubo" "dynn_Tendo" "dynn_Teramoto" "dynn_Terui" "dynn_Tezuka" "dynn_Tobe" "dynn_Togo" "dynn_Toki" "dynn_Tokihara" "dynn_Tokuda" "dynn_Tokugawa" "dynn_Tomida" "dynn_Tominaga" "dynn_Tomita" "dynn_Tomo" "dynn_Tomono" "dynn_Tomura" "dynn_Tosanobo" "dynn_Toshima" "dynn_Tou" "dynn_Toyota" "dynn_Tozawa" "dynn_Tsuchimochi" "dynn_Tsuchiya" "dynn_Tsuduki" "dynn_Tsugaru" "dynn_Tsuhada" "dynn_Tsukahara" "dynn_Tsukame" "dynn_Tsumaki" "dynn_Tsutsui" "dynn_Tsutsumi" "dynn_Uesugi" "dynn_Umi" "dynn_Unakami" "dynn_Uno" "dynn_Urushima" "dynn_Uryu" "dynn_Usanagi" "dynn_Usuginu" "dynn_Usui" "dynn_Usuki" "dynn_Uta" "dynn_Utsunomiya" "dynn_Wada" "dynn_Waga" "dynn_Waka" "dynn_Wakimoto" "dynn_Watanabe" "dynn_Watari" "dynn_Yabe" "dynn_Yako" "dynn_Yamada" "dynn_Yamaga" "dynn_Yamagata" "dynn_Yamaguchi" "dynn_Yamakawa" "dynn_Yamamoto" "dynn_Yamanouchi" "dynn_Yanada" "dynn_Yashiro" "dynn_Yasu" "dynn_Yasuhara" "dynn_Yato" "dynn_Yoda" "dynn_Yokawa" "dynn_Yokochi" "dynn_Yokose" "dynn_Yokosuga" "dynn_Yokota" "dynn_Yokoyama" "dynn_Yoshihashi" "dynn_Yuasa" "dynn_Yuki" "dynn_Yura" "dynn_Yuri"
+	}
+
+	male_names = {
+		"Masayuki" "Moriyuki" "Yoshimasa" "Masamori" "Sukemasa" "Mitsumasa" "Tokimasa" "Michitsugu" "Nobutoki" "Nobuyoshi" "Masayasu" "Yasunobu" "Harumasa" "Harutsugu" "Takanobu" "Nobunao" "Toshinao" "Moroyuki" "Masanaga" "Yukimasa" "Yukimori" "Masayoshi" "Morimasa" "Masasuke" "Masamitsu" "Masatoki" "Tsugumichi" "Tokinobu" "Yoshinobu" "Yasumasa" "Nobuyasu" "Masaharu" "Tsuguharu" "Nobutaka" "Naonobu" "Naotoshi" "Yukimoro" "Nagamasa" "Motonobu" "Mitsunobu" "Masanobu" "Tamenori" "Morinobu" "Tamenobu" "Nobumoto" "Nobumitsu" "Nobumasa" "Noritame" "Nobumori" "Nobutame" "Akikuni" "Akiyoshi" "Akitomo" "Tomonaga" "Tomomune" "Tomokazu" "Akimura" "Kuniaki" "Yoshiaki" "Tomoaki" "Nagatomo" "Munetomo" "Kazutomo" "Muraaki" "Akitaka" "Tsuneaki" "Akisada" "Akizane" "Akinao" "Takaaki" "Akitsune" "Sadaaki" "Saneaki" "Naoaki" "Nobuzane" "Nobunaka" "Masazane" "Sanechika" "Sanenobu" "Nakanobu" "Sanemasa" "Chikazane" "Taneshige" "Haruie" "Terutoki" "Hirotada" "Shigetane" "Ieharu" "Tokiteru" "Tadahiro" "Yukiyoshi" "Yoshikatsu" "Yoshitada" "Tadachika" "Yoshiyuki" "Katsuyoshi" "Tadayoshi" "Chikatada" "Mochimune" "Narimune" "Hisamune" "Tanemune" "Harumune" "Munesada" "Munekiyo" "Sanemoto" "Tsunamune" "Motomune" "Terumune" "Masamune" "Masamichi" "Shigezane" "Munemochi" "Munenari" "Munehisa" "Munetane" "Muneharu" "Sadamune" "Kiyomune" "Motosane" "Munetsuna" "Munemoto" "Muneteru" "Munemasa" "Saneshige" "Kagemune" "Akimume" "Masakage" "Munekage" "Muneaki" "Kagemasa" "Harukiyo" "Harutane" "Chikanobu" "Harunobu" "Kiyoharu" "Taneharu" "Nobuchika" "Nobuharu" "Yoshinao" "Yoshikane" "Yoshitaka" "Naoyoshi" "Kaneyoshi" "Takayoshi" "Kageuji" "Tanekuni" "Haruuji" "Taneie" "Ujikage" "Kunitane" "Ujiharu" "Ietane" "Naomori" "Morihisa" "Moriakira" "Morishige" "Morikiyo" "Moriuji" "Morioki" "Moritaka" "Yoshihiro" "Morinao" "Hisamori" "Takamori" "Shigemori" "Kiyomori" "Ujimori" "Okimori" "Hiroyoshi" "Yukimitsu" "Yukiakira" "Haruyuki" "Teruyuki" "Moriyoshi" "Mitsuyuki" "Akiyuki" "Yukiteru" "Yukiharu" "Yoshimori" "Masakuni" "Murakuni" "Yoshiuji" "Yoshikuni" "Yoshitsugu" "Kunimasa" "Kunimura" "Ujiyoshi" "Kuniyoshi" "Tsuguyoshi" "Tanehiro" "Takatane" "Moritane" "Akitane" "Yoshitane" "Hirotane" "Tanetaka" "Tanemori" "Taneaki" "Taneyoshi" "Chikataka" "Tsunetaka" "Masataka" "Shigetaka" "Takachika" "Taketsune" "Takamasa" "Takeshige" "Yoshisada" "Yoshiatsu" "Yoshitatsu" "Yoshikiyo" "Mitsuuji" "Yorimune" "Mitsuie" "Mitsunao" "Naoie" "Kaneyori" "Mitsumoto" "Yoshimitsu" "Yoshitoki" "Yoshiyasu" "Sadayoshi" "Atsuyoshi" "Tatsuyoshi" "Kiyoyoshi" "Ujimitsu" "Muneyori" "Iemitsu" "Naomitsu" "Ienao" "Yorikane" "Motomistu" "Mitsuyoshi" "Tokiyoshi" "Yasuyoshi" "Yoshihisa" "Hisayoshi" "Yorinaga" "Yorisada" "Yorimichi" "Nagayori" "Sadayori" "Michiyori" "Yoshimasu" "Yoshioki" "Masuyoshi" "Okiyoshi" "Noriyori" "Norisuke" "Katsuyori" "Yorinori" "Sukenori" "Yorikatsu" "Tanemichi" "Terumichi" "Kagemichi" "Yoshimichi" "Harumichi" "Yasumichi" "Shigemichi" "Michitane" "Michiteru" "Michikage" "Michiyoshi" "Michiharu" "Michiyasu" "Michishige" "Tadamori" "Hidemori" "Michimori" "Yorimori" "Moriyasu" "Toyomori" "Nagamori" "Moritada" "Morihide" "Morimichi" "Moriyori" "Yasumori" "Moritoyo" "Morinaga" "Morisue" "Yasusue" "Yoshisue" "Masasue" "Tadasue" "Hirosue" "Kiyosue" "Chikasue" "Sanesue" "Suemori" "Sueyasu" "Sueyoshi" "Suemasa" "Suetada" "Suehiro" "Suekiyo" "Suechika" "Suezane" "Hideyoshi" "Nagayoshi" "Yoshihito" "Yoshitoshi" "Yoshiharu" "Yoshishige" "Yoshihide" "Yoshinaga" "Toshiyoshi" "Haruyoshi" "Shigeyoshi" "Mochiie" "Tomohisa" "Shigeharu" "Harutaka" "Iemochi" "Hisatomo" "Harushige" "Takaharu" "Tomomoto" "Naomoto" "Harumoto" "Iemoto" "Hisamoto" "Ujimoto" "Fusamoto" "Mototomo" "Motonao" "Motoharu" "Motoie" "Motohisa" "Motouji" "Motofusa" "Ujitsuna" "Mototsuna" "Mitsutsuna" "Mochitsuna" "Hitotsuna" "Akitsuna" "Masatsuna" "Shigetsuna" "Tadatsuna" "Okitsuna" "Naotsuna" "Hirotsuna" "Kunitsuna" "Tsunauji" "Tsunamoto" "Tsunamitsu" "Tsunamochi" "Tsunahito" "Tsunaaki" "Tsunamasa" "Tsunashige" "Tsunatada" "Tsunaoki" "Tsunanao" "Tsunahiro" "Tsunakuni" "Yasutomo" "Mitsuyasu" "Mochimasa" "Shigenaga" "Takatomo" "Hidetsuna" "Tomoyasu" "Yasumitsu" "Masamochi" "Nagashige" "Tomotaka" "Tsunahide" "Sukezane" "Sukefusa" "Takasuke" "Suketane" "Sukeharu" "Sanesuke" "Fusasuke" "Suketaka" "Tanesuke" "Harusuke" "Shigeuji" "Masauji" "Takamoto" "Fujiuji" "Ujishige" "Ujimasa" "Mototaka" "Ujifuji" "Tomomitsu" "Tomohiro" "Tokihiro" "Sadahiro" "Tomosuke" "Naotomo" "Motomitsu" "Mitsuhiro" "Ujitomo" "Mochitomo" "Shigetomo" "Ujihiro" "Masatomo" "Masakatsu" "Harutomo" "Mitsutomo" "Hirotomo" "Hirotoki" "Hirosada" "Suketomo" "Tomonao" "Hiromitsu" "Tomouji" "Tomomochi" "Tomoshige" "Hirouji" "Tomomasa" "Katsumasa" "Tomoharu" "Tanemasa" "Naritane" "Tanetsuna" "Tokitane" "Yoritane" "Noritane" "Katsutane" "Toshitane" "Chikatane" "Tanetomi" "Masatane" "Tanenari" "Tsunatane" "Tanetoki" "Taneyori" "Tanenori" "Tanekatsu" "Tanetoshi" "Tanechika" "Tomitane" "Nobuoki" "Nobukatsu" "Nobukiyo" "Okinobu" "Katsunobu" "Kiyonobu" "Yoshizane" "Yoshitoyo" "Yoshiyori" "Saneyoshi" "Toyoyoshi" "Yoriyoshi" "Tokishige" "Tokitada" "Tokimichi" "Yoritada" "Shigetoki" "Tadatoki" "Michitoki" "Tadayori" "Yoshifusa" "Yoshimune" "Fusayoshi" "Muneyoshi" "Noritada" "Fusaaki" "Norifusa" "Norihiro" "Norimasa" "Sadamasa" "Tomoyoshi" "Tomooki" "Tomosada" "Tadanori" "Akifusa" "Fusanori" "Hironori" "Masanori" "Masasada" "Yoshitomo" "Okitomo" "Sadatomo" "Sanekage" "Kagehito" "Sadakage" "Kagenaga" "Norinaga" "Akinaga" "Kagenaka" "Kagenobu" "Kageharu" "Kagezane" "Kagesada" "Nagakage" "Naganori" "Nagaaki" "Nakakage" "Nobukage" "Harukage" "Narihisa" "Norinari" "Nariuji" "Narimasa" "Narimori" "Hisanari" "Narinori" "Ujinari" "Masanari" "Morinari" "Nobutsuna" "Hidetane" "Yasutsuna" "Tsunanobu" "Tanehide" "Tsunayasu" "Kageshige" "Yasushige" "Narishige" "Kunishige" "Sadashige" "Shigekage" "Shigeyasu" "Shigenari" "Shigekuni" "Shigesada" "Sukeyasu" "Sukekiyo" "Sukenaga" "Sukeie" "Sukeyori" "Ujisuke" "Yasusuke" "Kiyosuke" "Nagasuke" "Iesuke" "Yorisuke" "Sukeuji" "Akiyasu" "Chikayasu" "Nagayasu" "Ujinaga" "Yasuaki" "Yasuchika" "Yasunaga" "Nagauji" "Yoriie" "Sanetomo" "Yoritsune" "Yoritsugu" "Ieyori" "Tomozane" "Tsuneyori" "Tsuguyori" "Yasutoki" "Tsunetoki" "Tokiyori" "Nagatoki" "Masamura" "Tokimune" "Sadatoki" "Morotoki" "Munenobu" "Mototoki" "Takatoki" "Moritoki" "Tokiyasu" "Tokitsune" "Yoritoki" "Tokinaga" "Munetoki" "Tokisada" "Tokimoro" "Nobumune" "Tokimoto" "Tokitaka" "Tokimori" "Kageaki" "Kageyoshi" "Kagechika" "Kagehiro" "Kagehisa" "Kagetoki" "Akikage" "Yoshikage" "Chikakage" "Hirokage" "Hisakage" "Tokikage" "Yoshizumi" "Yoshimura" "Yasumura" "Mitsumura" "Sumiyoshi" "Mitsukane" "Mochiuji" "Kanemitsu" "Ujimochi" "Yoriharu" "Saneyori" "Fujiyori" "Haruyori" "Yoriuji" "Yorizane" "Yorifuji" "Ujiyasu" "Ujinao" "Ujiteru" "Ujikuni" "Ujinori" "Ujitada" "Ujihide" "Ujifusa" "Yasuuji" "Naouji" "Teruuji" "Kuniuji" "Noriuji" "Tadauji" "Hideuji" "Fusauji" "Fusakata" "Tomokata" "Fusatomo" "Fusasada" "Sadazane" "Tomofusa" "Sadafusa" "Sanesada" "Kagetsune" "Takakage" "Kagefusa" "Yorikage" "Tamekage" "Kagetora" "Kagekatsu" "Tsunekage" "Kagetaka" "Fusakage" "Kageyori" "Kagetame" "Torakage" "Katsukage" "Chikatsuna" "Kagetsuna" "Tsunachika" "Tsunakage" "Kanetoyo" "Kanetsugu" "Hidekane" "Toyokane" "Tsugukane" "Kanehide" "Fusanaga" "Nagafusa" "Katsunaga" "Nagazane" "Nagakatsu" "Sanenaga" "Hiroharu" "Takahiro" "Haruhiro" "Hirotaka" "Kunimune" "Naganobu" "Nagamoto" "Nagazumi" "Naganari" "Nagakuni" "Ujinobu" "Munekuni" "Nobunaga" "Motonaga" "Kuninaga" "Nobuuji" "Yasuzumi" "Yasutane" "Yasutsune" "Sadayasu" "Nagatane" "Nagatsune" "Sumiyasu" "Taneyasu" "Tsuneyasu" "Yasusada" "Tanenaga" "Tsunenaga" "Mitsunori" "Yoshimoto" "Norimune" "Yoshitsuna" "Yoshinori" "Norimitsu" "Motoyoshi" "Munenori" "Tsunayoshi" "Noriyoshi" "Toshimune" "Takamune" "Tsugumune" "Munetoshi" "Munetaka" "Munetsugu" "Fusamitsu" "Tsugumitsu" "Morimitsu" "Mitsufusa" "Mitsutsugu" "Mitsumori" "Tsugutsura" "Tsunatsura" "Tsuratatsu" "Tsuratsugu" "Tsuratsuna" "Tatsutsura" "Takaie" "Masaie" "Mitsuharu" "Mitsunari" "Mochiharu" "Noriie" "Yasutaka" "Masachika" "Harusada" "Yasutoshi" "Ietaka" "Iemasa" "Harumitsu" "Narimitsu" "Harumochi" "Ienori" "Takayasu" "Chikamasa" "Sadaharu" "Toshiyasu" "Norikage" "Iekage" "Kageakira" "Kagenori" "Kagetake" "Kageie" "Takekage" "Kagemochi" "Kagetada" "Mochikage" "Tadakage" "Tokitsuna" "Nobutake" "Nobunari" "Nobushige" "Nobutora" "Tsunatoki" "Takenobu" "Narinobu" "Shigenobu" "Toranobu" "Mochiyuki" "Ujiyuki" "Yukimochi" "Yukiuji" "Yorimasa" "Yukitaka" "Nobuyuki" "Masayori" "Takayuki" "Yukinobu" "Yorikiyo" "Masakiyo" "Kiyoyori" "Kiyomasa" "Nagamune" "Munenaga" "Ietoyo" "Yoshiari" "Toyoie" "Ariyoshi" "Yorimitsu" "Yoritaka" "Yorishige" "Yoritoyo" "Mitsuyori" "Takayori" "Shigeyori" "Toyoyori" "Norikuni" "Yasunori" "Ujichika" "Ujizane" "Kuninori" "Noriyasu" "Chikauji" "Saneuji" "Yasuhiro" "Hiroyasu" "Naohira" "Naomune" "Naochika" "Naomasa" "Munenao" "Chikanao" "Masanao" "Nagachika" "Nobutada" "Kiyoyasu" "Motoyasu" "Ieyasu" "Hideyasu" "Hidetada" "Chikanaga" "Tadanobu" "Yasukiyo" "Yasuie" "Yasumoto" "Yasuhide" "Tadahide" "Tadakatsu" "Yasutada" "Tadatsugu" "Ietsugu" "Katsutada" "Tadayasu" "Tsugutada" "Tsuguie" "Tadatoshi" "Tadakazu" "Tadayo" "Toshitada" "Kazutada" "Yasukatsu" "Katsuyasu" "Mitsusada" "Toshiuji" "Sadamitsu" "Ujitoshi" "Toshinobu" "Nobusada" "Nobuhide" "Nobuhiro" "Hidetaka" "Hidenari" "Nobuteru" "Nagamasu" "Nobukane" "Hidekatsu" "Nobutoshi" "Sadanobu" "Hidenobu" "Hironobu" "Takahide" "Narihide" "Terunobu" "Masunaga" "Katsuhide" "Hidenaga" "Hidetsugu" "Hideyori" "Nagahide" "Tsuguhide" "Yorihide" "Katsuie" "Iekatsu" "Toshiharu" "Toshihisa" "Toshiie" "Toshinaga" "Toshitsune" "Harutoshi" "Hisatoshi" "Ietoshi" "Nagatoshi" "Tsunetoshi" "Masafusa" "Yoritake" "Yoriaki" "Fusamasa" "Takeyori" "Toshifuji" "Toshishige" "Toshimasa" "Fujitoshi" "Shigetoshi" "Masatoshi" "Mitsuhide" "Hidemitsu" "Masasato" "Kichika" "Tomonori" "Chikaki" "Noritomo" "Morisada" "Sadamori" "Yoshitsura" "Yoshito" "Toyoshi" "Nobukata" "Kuninobu" "Nobutoyo" "Motoaki" "Katanobu" "Nobukuni" "Toyonobu" "Akimoto" "Kataharu" "Hideharu" "Harukata" "Haruhide" "Motosada" "Kunisada" "Sadakatsu" "Sadamoto" "Sadakuni" "Katsusada" "Tadaie" "Tokiie" "Iekiyo" "Ietada" "Ietoki" "Kiyoie" "Yoshiakira" "Yoshimochi" "Yoshikazu" "Yoshiki" "Mochiyoshi" "Kazuyoshi" "Kiyouji" "Yoriyuki" "Mochimoto" "Katsumoto" "Masamoto" "Sumimoto" "Takakuni" "Fujitaka" "Tadaoki" "Ujikiyo" "Yukiyori" "Motomochi" "Motokatsu" "Motomasa" "Motozumi" "Kunitaka" "Takafuji" "Okitada" "Sadayuki" "Sadachika" "Sadamichi" "Sadatada" "Sadataka" "Yukisada" "Chikasada" "Tadasada" "Takasada" "Ujiyori" "Takatsune" "Mitsutaka" "Hisayori" "Yoshikata" "Tsunayori" "Takamitsu" "Yorihisa" "Katayoshi" "Takauji" "Takaakira" "Mochitaka" "Mochikiyo" "Masatsune" "Takakiyo" "Ujimune" "Ujitaka" "Takamochi" "Kiyomochi" "Tsunemasa" "Kiyotaka" "Hisamasa" "Masahisa" "Motokuni" "Mochikuni" "Mochinaga" "Hisanobu" "Yoshinari" "Ariuji" "Kunimoto" "Kunimochi" "Nagamochi" "Nobuhisa" "Nariyoshi" "Ujiari" "Masato" "Masashige" "Masahide" "Tomasa" "Shigemasa" "Hidemasa" "Naganao" "Nobunori" "Naonaga" "Norinobu" "Sumitane" "Kintane" "Tanezumi" "Tanekimi" "Iehide" "Iehiro" "Iemasu" "Hideie" "Hiroie" "Masuie" "Shigeoki" "Shigekane" "Shigehide" "Shigetsugu" "Kaneshige" "Hideshige" "Tsugushige" "Ujisada" "Ujitora" "Sadauji" "Torauji" "Muneshige" "Munemitsu" "Shigemune" "Mitsumune" "Tokiuji" "Moroyoshi" "Mochitoyo" "Noritoyo" "Masatoyo" "Munetoyo" "Suketoyo" "Yoshichika" "Katsutoyo" "Toyotoki" "Toyoshige" "Nobumichi" "Toyosada" "Toyokuni" "Ujitoki" "Yoshimoro" "Toyomochi" "Toyonori" "Toyomasa" "Toyomune" "Toyosuke" "Chikayoshi" "Toyokatsu" "Tokitoyo" "Shigetoyo" "Michinobu" "Sadatoyo" "Kunitoyo" "Munekata" "Kunikiyo" "Mototsugu" "Mototada" "Katamune" "Kiyokuni" "Tsugumoto" "Tadamoto" "Mochihisa" "Kiyosada" "Tsunehisa" "Kunihisa" "Okihisa" "Haruhisa" "Hidehisa" "Sanehisa" "Toyohisa" "Takahisa" "Katsuhisa" "Hisamochi" "Sadakiyo" "Hisatsune" "Hisakuni" "Hisaoki" "Hisaharu" "Hisahide" "Hisazane" "Hisatoyo" "Hisataka" "Hisakatsu" "Yukihisa" "Katsushige" "Yukimoto" "Hisayuki" "Shigekatsu" "Motoyuki" "Yukitsuna" "Hisatsuna" "Tsunayuki" "Tsunahisa" "Nagatsuna" "Korenori" "Tsunanaga" "Norikore" "Norimura" "Mitsusuke" "Yoshisuke" "Murahide" "Masahiro" "Muranori" "Sukemitsu" "Murayoshi" "Sukeyoshi" "Hidemura" "Hiromasa" "Toyomoto" "Norimoto" "Mototoyo" "Motonori" "Takashige" "Noriharu" "Norisada" "Nariharu" "Yasuharu" "Nagaharu" "Harunori" "Sadanori" "Harunari" "Haruyasu" "Harunaga" "Sukemune" "Muramune" "Munesuke" "Munemura" "Muneie" "Hisaie" "Yoshiie" "Okiie" "Akiie" "Iemune" "Iehisa" "Ieyoshi" "Ieoki" "Ieakira" "Munechika" "Iechika" "Motochika" "Chikamune" "Chikaie" "Chikamoto" "Sadahisa" "Hisasada" "Morifusa" "Hiromori" "Hironari" "Shigehiro" "Hiroyuki" "Hiroyo" "Moriharu" "Mochiyo" "Fusamori" "Morihiro" "Narihiro" "Hiroshige" "Yukihiro" "Hirofusa" "Okifusa" "Takafusa" "Fusahiro" "Fusaoki" "Fusataka" "Motoshige" "Mitsukazu" "Shigemoto" "Kazumitsu" "Tokichika" "Hiromoto" "Okimoto" "Motonari" "Terumoto" "Chikatoki" "Motohiro" "Motooki" "Narimoto" "Mototeru" "Tsunemoto" "Kunitsune" "Mototsune" "Okitsune" "Tsunekuni" "Tsuneoki" "Sadahira" "Haruhira" "Norihira" "Hirohira" "Takahira" "Sukehira" "Okihira" "Masahira" "Shigehira" "Sadakane" "Munekane" "Tadakane" "Fujikane" "Kanesada" "Kanemune" "Kanetada" "Kanefuji" "Yorioki" "Hiroyori" "Motoyori" "Okiyori" "Yorihiro" "Yorimoto" "Shigeyuki" "Saneyuki" "Yukishige" "Yukizane" "Yukinaga" "Nagayuki" "Sanetoshi" "Fuyuyasu" "Toshizane" "Yasufuyu" "Kazumasa" "Masakazu" "Michitomo" "Michitaka" "Michiyuki" "Michihisa" "Norimichi" "Michinao" "Tomomichi" "Takamichi" "Yukimichi" "Hisamichi" "Michinori" "Naomichi" "Takeyoshi" "Michifusa" "Yoshitake" "Fusamichi" "Fumikane" "Katsuchika" "Kunichika" "Chikakazu" "Morichika" "Kanefumi" "Chikakatsu" "Chikakuni" "Kazuchika" "Chikamori" "Motomori" "Kunitora" "Morimoto" "Torakuni" "Tsunesuke" "Kagesuke" "Moritsune" "Sadatsune" "Tadasuke" "Fuyusuke" "Yorisumi" "Suketsugu" "Sukemoto" "Fuyuhisa" "Masaoki" "Suketsune" "Sukekage" "Tsunemori" "Tsunesada" "Suketada" "Sukefuyu" "Sumiyori" "Tsugusuke" "Motosuke" "Hisafuyu" "Okimasa" "Sueie" "Suemasu" "Suetomo" "Ietsune" "Iekore" "Ieuji" "Iekazu" "Tanekazu" "Tanehisa" "Iesue" "Masusue" "Tomosue" "Tsuneie" "Koreie" "Ujiie" "Kazuie" "Kazutane" "Hisatane" "Masaru" "Kiyoshi" "Shigeru" "Masashi" "Sakou" "Itaru" "Takara" "Takashi" "Hiromu" "Terasu" "Akira" "Tadashi" "Hikaru" "Nagashi" "Chikashi" "Tsunezumi" "Tomozumi" "Iezumi" "Tsurazumi" "Sadazumi" "Sumiyo" "Mitsuzumi" "Ujizumi" "Takazumi" "Hisaaki" "Haruzumi" "Naozumi" "Sumitsune" "Sumitomo" "Sumiie" "Sumitsura" "Sumisada" "Sumimitsu" "Sumiuji" "Sumitaka" "Akihisa" "Sumiharu" "Suminao" "Chikahide" "Yoriyasu" "Ujitsugu" "Chikayo" "Chikaaki" "Mochinao" "Chikashige" "Chikaharu" "Hidechika" "Yasuyori" "Tsuguuji" "Naomochi" "Shigechika" "Haruchika" "Tsunemune" "Takanao" "Takefusa" "Taketoki" "Takehito" "Takemitsu" "Takemasa" "Taketomo" "Kanetomo" "Tamekuni" "Takekane" "Munetsune" "Naotaka" "Fusatake" "Tokitake" "Shigetake" "Mitsutake" "Masatake" "Tomotake" "Tomokane" "Kunitame" "Tsunetake" "Korenobu" "Koreyasu" "Koretsugu" "Koreyoshi" "Korekage" "Korekuni" "Koretoki" "Korenao" "Korezumi" "Koremura" "Koresato" "Koretada" "Koretoshi" "Korenaga" "Koretoyo" "Koremasa" "Koretane" "Koremitsu" "Nobukore" "Yasukore" "Tsugukore" "Yoshikore" "Kagekore" "Kunikore" "Tokikore" "Naokore" "Sumikore" "Murakore" "Satokore" "Tadakore" "Toshikore" "Nagakore" "Toyokore" "Masakore" "Tanekore" "Mitsukore" "Tadahisa" "Tadamune" "Ujihisa" "Morohisa" "Korehisa" "Tadakuni" "Tatsuhisa" "Tadamasa" "Tadaharu" "Tadataka" "Tadatsune" "Hisatada" "Munetada" "Hisauji" "Hisamoro" "Hisakore" "Kunitada" "Hisatatsu" "Masatada" "Harutada" "Takatada" "Hisakatsu" "Tsunetada" "Kanetoshi" "Kanetsune" "Kanemasu" "Kanesuke" "Kanehisa" "Akikane" "Kaneuji" "Kanemoto" "Kanetsura" "Kaneoki" "Kanemori" "Kaneyuki" "Toshikane" "Tsunekane" "Masukane" "Sukekane" "Hisakane" "Kaneaki" "Ujikane" "Motokane" "Tsurakane" "Okikane" "Morikane" "Yukikane" "Suketoki" "Sadasuke" "Sukemochi" "Suketatsu" "Sukekuni" "Tokisuke" "Sukesada" "Mochisuke" "Tatsusuke" "Kunisuke" "Sueshige" "Toshihiro" "Tsuguhiro" "Shigesue" "Hirotoshi" "Hirotsugu" "Sadasue" "Tsunesue" "Morosue" "Suesada" "Suetsune" "Suemoro" "Suemichi" "Michimasa" "Michisue" "Suetane" "Tanesue" "Suetsugu" "Tsugusue"
+	}
+	female_names = {
+		"Sai" "Fuse" "Tomoe" "Uta" "Mai" "Tsukasa" "Fumi" "Yume" "Nozomi" "Mitsu" "Sakae" "Akira" "Megumi" "Yoshi" "Kotobuki" "Fuku" "Sachi" "Yui" "Shinobu" "Shizuka" "Sei" "Tomo" "Haruka" "Yuu" "Hide" "Aya" "Miyabi" "Tae" "Rei" "Sato" "Miyako" "Shiori" "Suzu" "Koto" "Yumi" "Nishiki" "Kinu" "Mari" "Takara" "Tama" "Tamaki" "Madoka" "Hitomi" "Hikari" "Hikaru" "Hoshi" "Tsuki" "Cho" "Hotaru" "Tsuru" "Mio" "Migiwa" "Ushio" "Nami" "Nagisa" "Tsuyu" "Kiri" "Kasumi" "Yuki" "Fuu" "Kaoru" "Moe" "Kozue" "Hana" "Satsuki" "Tsuta" "Asa" "Yuzu" "An" "Ran" "Shino" "Azusa" "Katsura" "Kaede" "Tsuabaki" "Aoi" "Tachibana" "Fuji" "Kiku" "Momo" "Sakura" "Midori" "Ao" "Ai" "Akane" "Murasaki" "Kurenai" "Aki" "Fue" "Fuyu" "Haru" "Hibiki" "Izumi" "Minami" "Mutsumi" "Natsu" "Ren" "Sen" "Shizuku" "Sumire" "Toku" "Yukari" "Hina" "Ina" "Kaori" "Kyo" "Kiyo" "Makoto" "Matsu" "Mayu" "Michi" "Miki" "Minato" "Misaki" "Mizuki" "Rin" "Saki" "Suzume" "Take" "Tsubame" "Tsubasa" "Ume" "Yasu" "Akiko" "Asako" "Atsuko" "Chikako" "Fujiko" "Fusako" "Haruko" "Hiroko" "Hideko" "Isoko" "Iyako" "Kaoruko" "Kimiko" "Kiyoko" "Kotoko" "Kuniko" "Masako" "Moriko" "Motoko" "Miwako" "Mutsuko" "Muneko" "Naoko" "Nagako" "Nakako" "Nariko" "Noboruko" "Nobuko" "Noriko" "Okiko" "Sadako" "Sakiko" "Saneko" "Sachiko" "Sukeko" "Sumiko" "Tadako" "Takako" "Tameko" "Teruko" "Tokiko" "Tomoko" "Toshiko" "Tsuneko" "Yasuko" "Yoshiko"
+	}
+	
+	dynasty_title_names = yes
+	dynasty_name_first = yes
+	
+}
+name_list_amami = {
+
+	dynasty_names = {
+		"dynn_A_luA_"
+		"dynn_Ahanba"
+		"dynn_AiS_I_n"
+		"dynn_Amgun"
+		"dynn_Aolimi"
+		"dynn_Aotun"
+		"dynn_Atai"
+		"dynn_BujowA_"
+		"dynn_CA_ncun"
+		"dynn_Dilie"
+		"dynn_Fojomon"
+		"dynn_FuC_ian"
+		"dynn_Giagu"
+		"dynn_Giaoru"
+		"dynn_Guaiuruan"
+		"dynn_HA_S_I_riA_"
+		"dynn_HA_rsurgia"
+		"dynn_HeS_ilie"
+		"dynn_Huligai"
+		"dynn_Ikderi"
+		"dynn_Jang"
+		"dynn_Juhung"
+		"dynn_Khingan"
+		"dynn_MA_nin"
+		"dynn_Mengtemu"
+		"dynn_Nahu"
+		"dynn_Nalan"
+		"dynn_Nianhe"
+		"dynn_Odoli"
+		"dynn_Odori"
+		"dynn_Peiman"
+		"dynn_Puali"
+		"dynn_Pucha"
+		"dynn_Punuli"
+		"dynn_Pusan"
+		"dynn_S_I_jan"
+		"dynn_S_aron"
+		"dynn_S_uhu"
+		"dynn_S_uyaojia"
+		"dynn_Sahala"
+		"dynn_Suksuhu"
+		"dynn_Tangkuo"
+		"dynn_Tieli"
+		"dynn_Tudan"
+		"dynn_Tukdan"
+		"dynn_Tuowen"
+		"dynn_Tushan"
+		"dynn_Ugueisun"
+		"dynn_Ulyan"
+		"dynn_UndihA_n"
+		"dynn_Usaye"
+		"dynn_Wangiyyan"
+		"dynn_WangsurA_wei"
+		"dynn_Wendihen"
+		"dynn_Wongian"
+		"dynn_Wugulun"
+		"dynn_Wulinda"
+		"dynn_Wusazha"
+		"dynn_Yuelidu"
+	}
+
+	male_names = {
+		"Ichoku" "Ido" "Ikei" "Iki" "Ikitsu" "Ikyu" "Imei" "Isei" "Ishin" "Isho" "Ishu" "Ishun" "Iso" "Ito" "Itoku" "Iyu" "Jitsuchoku" "Jitsudo" "Jitsukei" "Jitsuki" "Jitsukitsu" "Jitsukyu" "Jitsumei" "Jitsusei" "Jitsushin" "Jitsusho" "Jitsushu" "Jitsushun" "Jitsuso" "Jitsuto" "Jitsutoku" "Jitsuyu" "Gura" "Hachimaru" "Hisamatsu" "Ijira" "Kantaru" "Kikuchiyo" "Kintaru" "Kinjiru" "Kisanru" "Matsuchiyo" "Mataru" "Sabura" "Sanjiru" "Tokuwan" "Torachiyo" "Toramatsu" "Umigura" "Umikamatu" "Umitara" "Umiyatu" "Yasanru" "Yataru" "Idaru" "Kamiju" "Kanimatsu"  "Maguji" "Maichi" "Maikusa" "Masakai" "Masanru" "Matsu" "Matsuju" "Maushi" "Mayamatu" "Meenu" "Shutaru" "Tama" "Taru" "Tokuju" "Tokutaru" "Toraju" "Tsuruju" "Umiduruju" "Umiguru" "Umijira" "Umikami" "Umikamiduru" "Umikana" "Umikani" "Umikanimatsu" "Umimatsu" "Uminabi" "Uminio" "Uminta" "Umitaru" "Umitu" "Umituku" "Umitukuju" "Umitukutaru"
+	}
+	female_names = {
+		"Aikana" "Aitsuru" "Dentsuru" "Ginkana" "Nabikana" "Sadatsuru" "Takematsu" "Tsurukana" "Tsurumatsu" "Uma" "Uratumi" "Utuma" "Yoshikana" "Yoshimatsu" "Kamadu"  "Maakadu"  "Maduru"  "Maguji" "Makami" "Mamatsu" "Maminaku" "Manabi" "Manyuku" "Mashiho" "Matamatsu" "Maushi" "Meenu" "Umiduru" "Umikami" "Umikamitaru" "Umikana" "Umikani" "Umimaduru" "Umimajini" "Umimanandaru" "Umimaushi" "Uminabi" "Uminta" "Umindaru" "Umitama" "Umitu" "Umiutu" "Utumasu" "Utumi" "Ututaru"
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes
+	
+}
+name_list_okinawa = {
+
+	dynasty_names = {
+		"dynn_A_luA_"
+		"dynn_Ahanba"
+		"dynn_AiS_I_n"
+		"dynn_Amgun"
+		"dynn_Aolimi"
+		"dynn_Aotun"
+		"dynn_Atai"
+		"dynn_BujowA_"
+		"dynn_CA_ncun"
+		"dynn_Dilie"
+		"dynn_Fojomon"
+		"dynn_FuC_ian"
+		"dynn_Giagu"
+		"dynn_Giaoru"
+		"dynn_Guaiuruan"
+		"dynn_HA_S_I_riA_"
+		"dynn_HA_rsurgia"
+		"dynn_HeS_ilie"
+		"dynn_Huligai"
+		"dynn_Ikderi"
+		"dynn_Jang"
+		"dynn_Juhung"
+		"dynn_Khingan"
+		"dynn_MA_nin"
+		"dynn_Mengtemu"
+		"dynn_Nahu"
+		"dynn_Nalan"
+		"dynn_Nianhe"
+		"dynn_Odoli"
+		"dynn_Odori"
+		"dynn_Peiman"
+		"dynn_Puali"
+		"dynn_Pucha"
+		"dynn_Punuli"
+		"dynn_Pusan"
+		"dynn_S_I_jan"
+		"dynn_S_aron"
+		"dynn_S_uhu"
+		"dynn_S_uyaojia"
+		"dynn_Sahala"
+		"dynn_Suksuhu"
+		"dynn_Tangkuo"
+		"dynn_Tieli"
+		"dynn_Tudan"
+		"dynn_Tukdan"
+		"dynn_Tuowen"
+		"dynn_Tushan"
+		"dynn_Ugueisun"
+		"dynn_Ulyan"
+		"dynn_UndihA_n"
+		"dynn_Usaye"
+		"dynn_Wangiyyan"
+		"dynn_WangsurA_wei"
+		"dynn_Wendihen"
+		"dynn_Wongian"
+		"dynn_Wugulun"
+		"dynn_Wulinda"
+		"dynn_Wusazha"
+		"dynn_Yuelidu"
+	}
+
+	male_names = {
+		"Boku" "Bun" "Chu" "Ei" "Eki" "En" "Etsu" "Furi" "Gen" "Hashi" "Ho" "Iku" "Jun" "Kaku" "Kan" "Kei" "Ken" "Ki" "Kimpuku" "Ko" "Kyo" "Kyu" "Nei" "On" "Sei" "Sen'i" "Shin" "Shiro" "Shisho" "Shitatsu" "Shitsu" "Shu" "Tai" "Taikyu" "Tei" "Tetsu" "Toku" "Wa" "Yo" "Zu" "Chobu" "Chobyo" "Chochoku" "Chochu" "Choei" "Choeki" "Chofuku" "Chogen" "Chogi" "Chohei" "Choho" "Choin" "Choju" "Chojun" "Chokan" "Chokaku" "Chokei" "Choken" "Choki" "Choko" "Chokyo" "Chokyu" "Choman" "Chomei" "Chori" "Chorin" "Choryo" "Chosei" "Choshi" "Choshin" "Chosho" "Choshu" "Choshun" "Choso" "Choson" "Chotatsu" "Chotei" "Choten" "Chotoku" "Choto" "Choton" "Chotsu" "Choyu" "Choyo" "Anbu" "Anchi" "Anchin" "Anchu" "Anei" "Angen" "Angi" "Anho" "Anin" "Anju" "Anjun" "Ankaku" "Ankan" "Ankei" "Anken" "Anki" "Anko" "Ankyo" "Ankyu" "Anmei" "Anri" "Anrin" "Anryo" "Ansei" "Anshi" "Anshin" "Ansho" "Anshu" "Antei" "Anto" "Anyo" "Anyu" "Anzoku" "Seian" "Seibu" "Seichi" "Seichin" "Seichu" "Seiei" "Seigen" "Seigi" "Seiho" "Seiin" "Seiju" "Seijun" "Seikaku" "Seikan" "Seikei" "Seiken" "Seiki" "Seiko" "Seikyo" "Seikyu" "Seimei" "Seiri" "Seirin" "Seiryo" "Seishi" "Seishin" "Seisho" "Seishu" "Seitei" "Seito" "Seiyo" "Seiyu" "Seizoku" "Shoan" "Shobu" "Shochi" "Shochin" "Shochu" "Shoei" "Shogen" "Shogi" "Shoho" "Shoin" "Shoju" "Shojun" "Shokaku" "Shokan" "Shokei" "Shoken" "Shoki" "Shoko" "Shokyo" "Shokyu" "Shomei" "Shori" "Shorin" "Shoryo" "Shosei" "Shoshi" "Shoshin" "Shoshu" "Shotei" "Shoto" "Shoyo" "Shoyu" "Shozoku" "Soan" "Sobu" "Sochi" "Sochin" "Sochu" "Soei" "Sogen" "Sogi" "Soho" "Soin" "Soju" "Sojun" "Sokaku" "Sokan" "Sokei" "Soken" "Soki" "Soko" "Sokyo" "Sokyu" "Somei" "Sori" "Sorin" "Soryo" "Sosei" "Soshi" "Soshin" "Sosho" "Soshu" "Sotei" "Soto" "Soyo" "Soyu" "Sozoku" "Ryoan" "Ryobu" "Ryochi" "Ryochin" "Ryochu" "Ryoei" "Ryogen" "Ryogi" "Ryoho" "Ryoin" "Ryoju" "Ryojun" "Ryokaku" "Ryokan" "Ryokei" "Ryoken" "Ryoki" "Ryoko" "Ryokyo" "Ryokyu" "Ryomei" "Ryori" "Ryorin" "Ryosei" "Ryoshi" "Ryoshin" "Ryosho" "Ryoshu" "Ryotei" "Ryoto" "Ryoyo" "Ryoyu" "Ryozoku" "Idaru" "Kamiju" "Kanimatsu"  "Maguji" "Maichi" "Maikusa" "Masakai" "Masanru" "Matsu" "Matsuju" "Maushi" "Mayamatu" "Meenu" "Shutaru" "Tama" "Taru" "Tokuju" "Tokutaru" "Toraju" "Tsuruju" "Umiduruju" "Umiguru" "Umijira" "Umikami" "Umikamiduru" "Umikana" "Umikani" "Umikanimatsu" "Umimatsu" "Uminabi" "Uminio" "Uminta" "Umitaru" "Umitu" "Umituku" "Umitukuju" "Umitukutaru"
+	}
+	female_names = {
+		"Anshitsu" "Baigaku" "Baigan" "Baigetsu" "Bainan" "Bairei" "Enshin" "Enso" "Fuko" "Fukugan" "Gekko" "Gentei" "Gentei" "Gessei" "Gesshin" "Getsurei" "Giun" "Goshin" "Gyokuren" "Hekiren" "Honko" "Honku" "Ikkyo" "Isshi" "Jakusho" "Jiko" "Jinko" "Jinshitsu" "Jion" "Jitsuzan" "Jiun" "Jizan" "Junsei" "Juntoku" "Kako" "Kansitsu" "Kanyo" "Keigaku" "Keigetsu" "Keishitsu" "Kenshitsu" "Kotoku" "Kyojin" "Myoko" "Nangaku" "Nanso" "Rankei" "Rankei" "Ranshitsu" "Ranso" "Reishitu" "Ryogetsu" "Saigetsu" "Seishin" "Seishitsu" "Seishuku" "Sengaku" "Sentoku" "Seteurei" "Setsutei" "Shinko" "Shukutoku" "Shunko" "Teishitsu" "Tesshin" "Tokudai" "Tokutaku" "Zenshitsu" "Zuishin" "Zuishitsu" "Zuiun" "Kamadu"  "Maakadu"  "Maduru"  "Maguji" "Makami" "Mamatsu" "Maminaku" "Manabi" "Manyuku" "Mashiho" "Matamatsu" "Maushi" "Meenu" "Umiduru" "Umikami" "Umikamitaru" "Umikana" "Umikani" "Umimaduru" "Umimajini" "Umimanandaru" "Umimaushi" "Uminabi" "Uminta" "Umindaru" "Umitama" "Umitu" "Umiutu" "Utumasu" "Utumi" "Ututaru"
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes
+	
+}
+name_list_miyako = {
+
+	dynasty_names = {
+		"dynn_A_luA_"
+		"dynn_Ahanba"
+		"dynn_AiS_I_n"
+		"dynn_Amgun"
+		"dynn_Aolimi"
+		"dynn_Aotun"
+		"dynn_Atai"
+		"dynn_BujowA_"
+		"dynn_CA_ncun"
+		"dynn_Dilie"
+		"dynn_Fojomon"
+		"dynn_FuC_ian"
+		"dynn_Giagu"
+		"dynn_Giaoru"
+		"dynn_Guaiuruan"
+		"dynn_HA_S_I_riA_"
+		"dynn_HA_rsurgia"
+		"dynn_HeS_ilie"
+		"dynn_Huligai"
+		"dynn_Ikderi"
+		"dynn_Jang"
+		"dynn_Juhung"
+		"dynn_Khingan"
+		"dynn_MA_nin"
+		"dynn_Mengtemu"
+		"dynn_Nahu"
+		"dynn_Nalan"
+		"dynn_Nianhe"
+		"dynn_Odoli"
+		"dynn_Odori"
+		"dynn_Peiman"
+		"dynn_Puali"
+		"dynn_Pucha"
+		"dynn_Punuli"
+		"dynn_Pusan"
+		"dynn_S_I_jan"
+		"dynn_S_aron"
+		"dynn_S_uhu"
+		"dynn_S_uyaojia"
+		"dynn_Sahala"
+		"dynn_Suksuhu"
+		"dynn_Tangkuo"
+		"dynn_Tieli"
+		"dynn_Tudan"
+		"dynn_Tukdan"
+		"dynn_Tuowen"
+		"dynn_Tushan"
+		"dynn_Ugueisun"
+		"dynn_Ulyan"
+		"dynn_UndihA_n"
+		"dynn_Usaye"
+		"dynn_Wangiyyan"
+		"dynn_WangsurA_wei"
+		"dynn_Wendihen"
+		"dynn_Wongian"
+		"dynn_Wugulun"
+		"dynn_Wulinda"
+		"dynn_Wusazha"
+		"dynn_Yuelidu"
+	}
+
+	male_names = {
+		"Chirimara" "Fusamui" "Kanamui" "Machiringani" "Masaku" "Masari" "Nakitatsu" "Akahachi" "Akamaya" "Akatana" "Fukuri" "Fukurimui" "Gisa" "Guza" "Honkawara" "Ishitu" "Ishitunu" "Kumaya" "Kurushi" "Mashi" "Mitsukeema" "Narekasanari" "Naretu" "Sakai" "Shishika" "Sunaitu" "Tsukuri" "Unitora" "Utuma" "Utu" "Yamatu" "Idaru" "Kamiju" "Kanimatsu"  "Maguji" "Maichi" "Maikusa" "Masakai" "Masanru" "Matsu" "Matsuju" "Maushi" "Mayamatu" "Meenu" "Shutaru" "Tama" "Taru" "Tokuju" "Tokutaru" "Toraju" "Tsuruju" "Umiduruju" "Umiguru" "Umijira" "Umikami" "Umikamiduru" "Umikana" "Umikani" "Umikanimatsu" "Umimatsu" "Uminabi" "Uminio" "Uminta" "Umitaru" "Umitu" "Umituku" "Umitukuju" "Umitukutaru"
+	}
+	female_names = {
+		"Kuemega" "Mabunari" "Utsumega" "Afugama" "Fukuya" "Hitunashi" "Ikahashi" "Itsuki" "Itsumui" "Kamata" "Kanamui" "Kuitsu" "Kuitsuba" "Kuigama" "Kuya"  "Mahai" "Mahi" "Maitsu" "Maitsuba" "Manashi" "Mari" "Nabiyama" "Namiyama" "Sakai" "Unahitu" "Unari" "Unarimui" "Yanashi" "Kamadu"  "Maakadu"  "Maduru"  "Maguji" "Makami" "Mamatsu" "Maminaku" "Manabi" "Manyuku" "Mashiho" "Matamatsu" "Maushi" "Meenu" "Umiduru" "Umikami" "Umikamitaru" "Umikana" "Umikani" "Umimaduru" "Umimajini" "Umimanandaru" "Umimaushi" "Uminabi" "Uminta" "Umindaru" "Umitama" "Umitu" "Umiutu" "Utumasu" "Utumi" "Ututaru"
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes
+	
+}
+name_list_yaeyama = {
+
+	dynasty_names = {
+		"dynn_A_luA_"
+		"dynn_Ahanba"
+		"dynn_AiS_I_n"
+		"dynn_Amgun"
+		"dynn_Aolimi"
+		"dynn_Aotun"
+		"dynn_Atai"
+		"dynn_BujowA_"
+		"dynn_CA_ncun"
+		"dynn_Dilie"
+		"dynn_Fojomon"
+		"dynn_FuC_ian"
+		"dynn_Giagu"
+		"dynn_Giaoru"
+		"dynn_Guaiuruan"
+		"dynn_HA_S_I_riA_"
+		"dynn_HA_rsurgia"
+		"dynn_HeS_ilie"
+		"dynn_Huligai"
+		"dynn_Ikderi"
+		"dynn_Jang"
+		"dynn_Juhung"
+		"dynn_Khingan"
+		"dynn_MA_nin"
+		"dynn_Mengtemu"
+		"dynn_Nahu"
+		"dynn_Nalan"
+		"dynn_Nianhe"
+		"dynn_Odoli"
+		"dynn_Odori"
+		"dynn_Peiman"
+		"dynn_Puali"
+		"dynn_Pucha"
+		"dynn_Punuli"
+		"dynn_Pusan"
+		"dynn_S_I_jan"
+		"dynn_S_aron"
+		"dynn_S_uhu"
+		"dynn_S_uyaojia"
+		"dynn_Sahala"
+		"dynn_Suksuhu"
+		"dynn_Tangkuo"
+		"dynn_Tieli"
+		"dynn_Tudan"
+		"dynn_Tukdan"
+		"dynn_Tuowen"
+		"dynn_Tushan"
+		"dynn_Ugueisun"
+		"dynn_Ulyan"
+		"dynn_UndihA_n"
+		"dynn_Usaye"
+		"dynn_Wangiyyan"
+		"dynn_WangsurA_wei"
+		"dynn_Wendihen"
+		"dynn_Wongian"
+		"dynn_Wugulun"
+		"dynn_Wulinda"
+		"dynn_Wusazha"
+		"dynn_Yuelidu"
+	}
+
+	male_names = {
+		"Chirimara" "Fusamui" "Kanamui" "Machiringani" "Masaku" "Masari" "Nakitatsu" "Akahachi" "Akamaya" "Akatana" "Fukuri" "Fukurimui" "Gisa" "Guza" "Honkawara" "Ishitu" "Ishitunu" "Kumaya" "Kurushi" "Mashi" "Mitsukeema" "Narekasanari" "Naretu" "Sakai" "Shishika" "Sunaitu" "Tsukuri" "Unitora" "Utuma" "Utu" "Yamatu" "Idaru" "Kamiju" "Kanimatsu"  "Maguji" "Maichi" "Maikusa" "Masakai" "Masanru" "Matsu" "Matsuju" "Maushi" "Mayamatu" "Meenu" "Shutaru" "Tama" "Taru" "Tokuju" "Tokutaru" "Toraju" "Tsuruju" "Umiduruju" "Umiguru" "Umijira" "Umikami" "Umikamiduru" "Umikana" "Umikani" "Umikanimatsu" "Umimatsu" "Uminabi" "Uminio" "Uminta" "Umitaru" "Umitu" "Umituku" "Umitukuju" "Umitukutaru"
+	}
+	female_names = {
+		"Kuemega" "Mabunari" "Utsumega" "Afugama" "Fukuya" "Hitunashi" "Ikahashi" "Itsuki" "Itsumui" "Kamata" "Kanamui" "Kuitsu" "Kuitsuba" "Kuigama" "Kuya"  "Mahai" "Mahi" "Maitsu" "Maitsuba" "Manashi" "Mari" "Nabiyama" "Namiyama" "Sakai" "Unahitu" "Unari" "Unarimui" "Yanashi" "Kamadu"  "Maakadu"  "Maduru"  "Maguji" "Makami" "Mamatsu" "Maminaku" "Manabi" "Manyuku" "Mashiho" "Matamatsu" "Maushi" "Meenu" "Umiduru" "Umikami" "Umikamitaru" "Umikana" "Umikani" "Umimaduru" "Umimajini" "Umimanandaru" "Umimaushi" "Uminabi" "Uminta" "Umindaru" "Umitama" "Umitu" "Umiutu" "Utumasu" "Utumi" "Ututaru"
+	}
+
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes
+	
+}
+name_list_ainu = {
+	
+	dynasty_names = {
+		"dynn_Amamsuke"
+		"dynn_Aptapet"
+		"dynn_Atsam"
+		"dynn_Choming"
+		"dynn_Chudo"
+		"dynn_Cipasir"
+		"dynn_Cipesani"
+		"dynn_Ciroti"
+		"dynn_Dowaha"
+		"dynn_Enrumkuomanay"
+		"dynn_Esausi"
+		"dynn_Etuoroop"
+		"dynn_Hartor"
+		"dynn_Hikoku"
+		"dynn_Huranui"
+		"dynn_Hurpira"
+		"dynn_Idoi"
+		"dynn_Iochi"
+		"dynn_Iskar"
+		"dynn_Iskarpet"
+		"dynn_Iwawnay"
+		"dynn_Kamchatka"
+		"dynn_Kameda"
+		"dynn_Kaminokuni"
+		"dynn_Kamuy_Kotan"
+		"dynn_Kinasir"
+		"dynn_Kumausi"
+		"dynn_Kusir"
+		"dynn_Kusiri"
+		"dynn_Kutcaro"
+		"dynn_Kuuji"
+		"dynn_Maske"
+		"dynn_Matomai"
+		"dynn_Menashi"
+		"dynn_Misoku"
+		"dynn_Mopet"
+		"dynn_Nayoro"
+		"dynn_Neode"
+		"dynn_Nganivo"
+		"dynn_Noyausi"
+		"dynn_Okudo"
+		"dynn_Omu"
+		"dynn_Onnepet"
+		"dynn_Otai"
+		"dynn_Otanay"
+		"dynn_Piporo"
+		"dynn_Piratur"
+		"dynn_Pitoro"
+		"dynn_Ponkinasir"
+		"dynn_Pontukes"
+		"dynn_Poronay"
+		"dynn_Rikuunpet"
+		"dynn_Ruotak"
+		"dynn_Ryuen"
+		"dynn_Sachinay"
+		"dynn_Saito"
+		"dynn_Sar"
+		"dynn_Satporopet"
+		"dynn_Setanay"
+		"dynn_Shakudo"
+		"dynn_Shari"
+		"dynn_Shiripet"
+		"dynn_Shiromkur"
+		"dynn_Sikutut"
+		"dynn_Sipa"
+		"dynn_Sipet"
+		"dynn_Sipicar"
+		"dynn_Sirutor"
+		"dynn_Sumamoy"
+		"dynn_Tabarakotan"
+		"dynn_Takoi"
+		"dynn_Taoromai"
+		"dynn_Tokoro"
+		"dynn_Tominay"
+		"dynn_Toya"
+		"dynn_Usor"
+		"dynn_Usoro"
+		"dynn_Wokomshiri"
+		"dynn_Worikakoy"
+		"dynn_Yadan"
+		"dynn_Yamakushinai"
+		"dynn_Yiliyu"
+		"dynn_Yuparo"
+		"dynn_Yupet"
+	}
+
+	male_names = { 
+		Ainiji Ainurakkur Airipunke Aukash Autoyo Aetomo Aehirica Akaraka Akishipe Aku Akosh Akorukamu Ashiriaino Atsukuru Assake Atoi Abakaainu Abeshiyoshi Amohoro Ayashi Arakemaushi Arimakina Antaino Anteponi Annen Ieikeu Ikatobefu Ikasmatuk Ikasesu Ikinunba Ikutomo Ikuhe Ikeskoaino Ikoefu Ikonroshike Isonashi Ishonnoashi Itakire Itakunippu Itakereku Itarise Icayankemu Inaworan Ipetaako Ihokai Imakuma Irusaaino Irochimain Usamudare Utarian Utereki Unata Uparette Ufukiri Unmashi Ekashike Ekashitomu Ekonumuke Etamairu Etenna Enotoku Ehiteki Ehechikari Eraraguru Otaushi Obefuki Kaikauku Kashicari Katsukura Kanahe Kanihi Kanekirauroko Kanemono Kabu Kaputain Kamuikocha Kamuima Kamokutain Garugaru Kantaku Kannariki Kannuku Kiihon Kiuchi Kikikoro Kikeninba Kishishika Kinekurain Kimurakai Kimesan Kiriho Kirorikata Kuikoro Kushiyunte Kuchigori Kutekira Kubuni Kumakain Kuwakaaino Kunne Getou Kemurutoi Kereba Koarofuni Kokashi Koshipa Koshamain Kotaka Kotanchire Kotanramu Koteka Koton Kobui Kohechiyahe Komonta Korappu Koreshipi Gonpa Saabuni Sakai Saketata Sakechin Sakeroku Satoruki Sanukuno Sahapo Saruko Zareama Sankitsu Sangea Sankeshiainu Santokuno Sanbe Sanroka Shianu Shiipirasa Shiukeri Shiurumi Shiecaca Shikahotsute Shikishima Shikuru Shikotsuaino Shikorebun Shishiya Shitane Shitente Shitokinra Shitona Shitomushi Shinureki Shinomi Shihirasa Shihori Shiyatanoi Shiyareshiko Shanri Shuttegan Shimano Shiyokima Shoya Shirakeshi Shirapeno Shiranbe Shiriu Shirikin Shirunka Shirekuainu Shirosan Shiwoi Shinta Shinmekuru Seuri Sekaya Senekkuru Senrumashi Sentoki Sourai Sokutori Soyaka Sorakaaino Taeama Takarumoshi Takeani Tataru Tarikona Chiusaku Chikafure Chikurake Chibie Cukomoire Couri Tsukitaaino Tsufuri Tenu Tekorupa Tetatori Tenpute Toafuke Toiyare Touinkara Toubi Tokateankuru Tokutoru Tosaranku Toshiyakui Toshiroku Tonokushain Topato Tobirasu Topenmonuku Tomikano Tomimaka Tomoramu Toriwa Torurian Toretsui Tonbi Naifutaashi Niihete Nishikomatsuke Nishirakeain Nita Nibiri Nipuse Nukanoto Nukuri Nukeran Nushiyue Nubohoainu Netokahe Noita Nochikusa Nohorika Hausanakuru Haunte Hakere Hajika Hasoran Happira Hamon Haruka Barufure Harou Hankuru Hanrokute Hiseriko Bitaka Buefufu Bufushi Fuyare Heishuku Bekenishi Hecaranke Henauke Pepenreku Houfui Honomain Poroka Hontanuki Hontomo Maukaaino Makashimo Makiri Mashima Mataechi Matuwo Mitonma Musakain Munetoku Mungege Moima Moshiranke Monokute Montereke Monshu Yaisaki Yaitotori Yaeshitoma Yakushu Yase Yamaru Yayashi Yankeaino Yuware Yokarumo Raase Ratafuku Ramui Ramukakushi Ranketoku Rikisan Rikushitaku Riken Rurishibi Reatai Rekisani Rokusun Roko Wajima Woikama Woshiyoma Wotashi Wotobe Wohande Wohiruka Wohon Womoaino Wontaraku
+		}
+	female_names = { 
+		Aikarishima Asamu Ashiri Ashirirera Atano Anikatan Ane Afaka Apeyanke Arikosan Arikore Awanunke Antaman Antoreku Ianpanu Iunte Ietsumachi Ikashire Ikarikinra Ikuramu Igokunu Ishiropa Itankisanke Inauesanmatsu Inishihare Ipihhine Ipuinematsu Ipokash Imarika Imekanu Iyamaka Irirui Irukamatsu Uinteki Ukaitekan Ukaechiu Usaatsu Usamatte Ushikima Ushimonka Ushintaroku Utekare Unarupeku Unukaru Uhohomatsu Urakunte Uratokka Ureshipa Ueashi Unkatoe Earisange Esan Esannoa Etamuketomu Etenoa Enenuaku Ehetoren Epewonu Ehoro Emuntomu Eyamatsu Otamachi Oroatsu Kaate Kaurankematto Kazukuchi Kakkematsu Kafuninha Kariha Kareappu Kannari Kinachiyari Kiri Gutemanma Kura Kuwaesan Kekere Koetoka Kotannu Kotomandeku Kopoanu Korafunima Konbekkino Saishiu Sakuan Satamo Sanure Sarean Sankuma Shiarumina Shishiraima Shinuton Shimitsu Shimoi Shutesan Siyuyan Shottokitae Shirunke Shintamachi Suru Seinunushi Setakore Sokonte Soreuku Taeki Taneama Taneranke Tapuki Tamanushite Tare Cekamu Chikamaha Chishinue Chinita Canrura Chiruso Tekatte Tekianno Tekeayo Teshike Tekkanno Toushuma Toetamatsu Tokure Toshise Tomematsu Natoku Nishitankote Nihekoshima Nuehokema Numate Nunnui Notomatsu Pasante Haru Harutoki Biiranke Piraraki Fuchisse Fucchi Furame Perasanke Horikure Ponposhita Ponopere Ponma Matsuneshita Mimitara Mukkoran Menokoshirima Mouru Monusappu Monoanno Morewashi Yaetoshiyu Yaenunke Yaeto Yoki Yokesan Ramutokka Reanu Rekotan Retonu Reheisamu Wokonutsu Woshiroma
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	founder_named_dynasties = yes
+}

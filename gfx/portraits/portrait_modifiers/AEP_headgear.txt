@@ -435,9 +435,9 @@ aep_headgear = {
 			base = 0
 			modifier = {
 				add = 50
-                portrait_royalty_trigger = {
-                    CULTURE_INPUT = japanese
-                }   
+                portrait_imperial_trigger = {
+                    CULTURE_INPUT = japanese 
+                }
 			}
 		}
 	}

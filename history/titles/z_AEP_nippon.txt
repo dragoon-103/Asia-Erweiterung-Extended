@@ -1,0 +1,4674 @@
+# Region of Japan
+
+d_koshitsu = { # Emperors of Japan (Including Legendary Emperors)
+	-661.2.11 = { # 660 BC
+		holder = jimmu_tenno
+	}
+	-582.1.1 = { # 581 BC
+		holder = suizei_tenno
+	}
+	-550.1.1 = { # 549 BC
+		holder = annei_tenno
+	}
+	-511.1.1 = { # 511 BC
+		holder = itoku_tenno
+	}
+	-476.1.1 = { # 475 BC
+		holder = kosho_tenno
+	}
+	-393.1.1 = { # 392 BC
+		holder = koan_tenno
+	}
+	-291.1.1 = { # 290 BC
+		holder = korei_tenno
+	}
+	-215.1.1 = { # 214 BC
+		holder = kogen_tenno
+	}
+	-158.1.1 = { # 158 BC
+		holder = kaika_tenno
+	}
+	-98.1.1 = { # 97 BC
+		holder = sujin_tenno
+	}
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = ojin_tenno
+	}
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.9.14 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.1.1 = {
+		holder = suiko_tenno
+	}
+	628.4.15 = {
+		holder = jomei_tenno
+	}
+	641.11.17 = {
+		holder = saimei_tenno
+	}
+	645.7.12 = {
+		holder = kotoku_tenno
+	}
+	654.11.24 = {
+		holder = saimei_tenno
+	}
+	661.8.24 = {
+		holder = tenji_tenno
+	}
+	672.1.7 = {
+		holder = kobun_tenno
+	}
+	672.8.21 = {
+		holder = tenmu_tenno
+	}
+	686.10.1 = {
+		holder = jito_tenno
+	}
+	697.8.22 = {
+		holder = monmu_tenno
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Emperor Montoku
+	}
+	858.10.7 = {
+		holder = 1600004 # Emperor Seiwa
+	}
+	876.12.18 = {
+		holder = yozei_tenno
+	}
+	884.3.5 = {
+		holder = koko_tenno
+	}
+	887.9.17 = {
+		holder = uda_tenno
+	}
+	897.8.4 = {
+		holder = daigo_tenno
+	}
+	930.10.16 = {
+		holder = suzaku_tenno
+	}
+	946.5.23 = {
+		holder = murakami_tenno
+	}
+	967.7.5 = {
+		holder = reizei_tenno
+	}
+	969.9.27 = {
+		holder = enyu_tenno
+	}
+	984.9.24 = {
+		holder = kazan_tenno
+	}
+	986.7.31 = {
+		holder = ichijo_tenno
+	}
+	1011.7.16 = {
+		holder = sanjo_tenno
+	}
+	1016.3.10 = {
+		holder = goichijo_tenno
+	}
+	1036.3.15 = {
+		holder = gosuzaku_tenno
+	}
+	1045.2.5 = {
+		holder = goreizei_tenno
+	}
+	1068.5.22 = {
+		holder = gosanjo_tenno
+	}
+	1073.1.18 = {
+		holder = shirakawa_tenno
+	}
+	1087.1.3 = {
+		holder = horikawa_tenno
+	}
+	1107.8.9 = {
+		holder = toba_tenno
+	}
+	1123.2.25 = {
+		holder = sutoku_tenno
+	}
+	1142.1.5 = {
+		holder = konoe_tenno
+	}
+	1155.8.22 = {
+		holder = goshirakawa_tenno
+	}
+	1158.9.5 = {
+		holder = nijo_tenno
+	}
+	1165.8.3 = {
+		holder = rokujo_tenno
+	}
+	1167.2.11 = {
+		liege = "k_nippon" # Establishment of the Taira Government
+	}
+	1168.4.9 = {
+		holder = takakura_tenno
+	}
+	1180.3.18 = {
+		holder = antoku_tenno
+	}
+	1183.9.8 = {
+		holder = gotoba_tenno
+	}
+	1185.4.25 = {
+		liege = "k_kamakura_bakufu" # Establishment of the Kamakura Bakufu
+	}
+	1318.3.29 = {
+		holder = godaigo_tenno
+	}
+	1333.6.5 = {
+		liege = 0 # Kenmu Restoration
+	}
+	1336.2.25 = {
+		liege = "k_muromachi_bakufu" # Establishment of the Muromachi Bakufu
+	}
+}
+
+k_yamato = { # Ancient Kings of the Yamato Kingship
+	-98.1.1 = { # 97 BC, Regarded by most historians as the first verifiable ruler, although he likley lived much later than what's recorded in the Nihon Shoki (probably 2nd century)
+		holder = sujin_tenno
+	}
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = ojin_tenno # under the regency of Empress Jingū until 269
+	}
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno # under the regency of Princess Iitoyo after 484
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.9.14 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.1.1 = {
+		holder = suiko_tenno # under the regency of Sesshō Shōtoku Taishi (shotoku_taishi) until 8 Apr 622, then under the de-facto regency of Soga no Emishi (soga_emishi)
+	}
+	628.4.15 = {
+		holder = jomei_tenno # under the de-facto regency of Soga no Emishi (soga_emishi)
+	}
+	641.11.17 = {
+		holder = saimei_tenno # Empress Kōgyoku, under the de-facto regency of Soga no Emishi (soga_emishi)
+	}
+	645.7.12 = {
+		holder = kotoku_tenno # under the de-facto regency of Prince Naka no Ōe (tenji_tenno)
+	}
+	654.11.24 = {
+		holder = saimei_tenno # Empress Saimei, under the regency of Sesshō Naka no Ōe (tenji_tenno)
+	}
+	661.8.24 = {
+		holder = tenji_tenno
+	}
+	672.1.7 = {
+		holder = kobun_tenno # Prince Ōtomo's succession to the Chrysanthemum Throne sparks the Jinshin War, ending in his defeat and Prince Ōama's ascension as Emperor Tenmu.
+	}
+	672.8.21 = {
+		holder = tenmu_tenno # under the regency of Prince Kusakabe (yamato_kusakabe) after 681
+	}
+	686.10.1 = {
+		holder = jito_tenno
+	}
+	697.8.22 = {
+		holder = monmu_tenno # under the Insei regency of Empress Emeritus Jitō Tennō until 703
+	}
+	703.1.13 = {
+		holder = 0 # The Taihō Code abolishes the Yamato Kingship
+		de_jure_liege = 0
+	}
+}
+
+k_nippon = { # Rulers of Imperial Japan since the enactment of the Taihō Code
+	703.1.13 = {
+		holder = monmu_tenno # Didn't rule de-facto until after the death of Empress Jitō in 703
+		de_jure_liege = "e_nippon"
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno # under the Insei regency of Emperor Emeritus Shōmu Tennō until 4 Jun 755
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Emperor Montoku
+	}
+	858.10.7 = {
+		holder = 1600004 # Emperor Seiwa, under the regency of Sesshō Fujiwara no Yoshifusa (1600001) and later Sesshō Fujiwara no Mototsune (1600005); Fujiwara Regency begins following the death of Emperor Montoku
+	}
+	876.12.18 = {
+		holder = yozei_tenno # under the regency of Sesshō and later Kampaku Fujiwara no Mototsune (1600005)
+	}
+	884.3.5 = {
+		holder = koko_tenno # under the regency of Kampaku Fujiwara no Mototsune (1600005)
+	}
+	887.9.17 = {
+		holder = uda_tenno # initially under the regency of Kampaku Fujiwara no Mototsune (1600005) until 25 Feb 891 when an early instance of Insei Rule begins
+	}
+	897.8.4 = {
+		holder = daigo_tenno # under the Insei regengcy of Emperor Emeritus Uda Tennō (uda_tenno)
+	}
+	930.10.16 = {
+		holder = suzaku_tenno # under the regency of Sesshō and later Kampaku Fujiwara no Tadahira (fujiwara_tadahira); Fujiwara Authority Restored
+	}
+	946.5.23 = {
+		holder = murakami_tenno # initially under the regency of Kampaku Fujiwara no Tadahira (fujiwara_tadahira) until 9 Sep 949 when another early instance of Insei Rule begins
+	}
+	967.7.5 = {
+		holder = reizei_tenno # under the regency of Kampaku Fujiwara no Saneyori (fujiwara_saneyori) starting from 31 Jul 967; Fujiwara authority restored again
+	}
+	969.9.27 = {
+		holder = enyu_tenno # under the regency of Sesshō Fujiwara no Saneyori (fujiwara_saneyori) until 24 Jun 970, then Sesshō Fujiwara no Koretada (fujiwara_koretada) until 9 Dec 972, then Kampaku Fujiwara no Kanemichi (fujiwara_kanemichi) until 20 Dec 977, then finally Fujiwara no Yoritada (fujiwara_yoritada)
+	}
+	984.9.24 = {
+		holder = kazan_tenno # under the regency of Kampaku Fujiwara no Yoritada (fujiwara_yoritada)
+	}
+	986.7.31 = {
+		holder = ichijo_tenno # under the regency of Sesshō and later Kampaku Fujiwara no Kaneie (fujiwara_kaneie) until 26 Jul 990, then Sesshō and later Kampaku Fujiwara no Michitaka (fujiwara_michitaka) until 16 May 995, then Fujiwara no Michikane (fujiwara_michikane) until 13 Jun 995, then finally Sesshō Fujiwara no Michinaga (fujiwara_michinaga)
+	}
+	1011.7.16 = {
+		holder = sanjo_tenno # under the regency of Sesshō Fujiwara no Michinaga (fujiwara_michinaga)
+	}
+	1016.3.10 = {
+		holder = goichijo_tenno # under the regency of Sesshō Fujiwara no Michinaga (fujiwara_michinaga), then Sesshō and later Kampaku Fujiwara no Yorimichi (fujiwara_yorimichi)
+	}
+	1036.3.15 = {
+		holder = gosuzaku_tenno # under the regency of Kampaku Fujiwara no Yorimichi (fujiwara_yorimichi)
+	}
+	1045.2.5 = {
+		holder = goreizei_tenno # under the regency of Kampaku Fujiwara no Yorimichi (fujiwara_yorimichi)
+	}
+	1068.5.22 = {
+		holder = gosanjo_tenno # Fujiwara Authority collapses following infighting between Fujiwara no Yorimichi and his brother Fujiwara no Norimichi leading to the establishment of Insei Rule
+	}
+	1073.1.18 = {
+		holder = shirakawa_tenno # under the Insei regency of Emperor Emeritus Go-Sanjō until 15 Jun 1073
+	}
+	1087.1.3 = {
+		holder = horikawa_tenno # under the Insei regency of Emperor Emeritus Shirakawa
+	}
+	1107.8.9 = {
+		holder = toba_tenno # under the Insei regency of Emperor Emeritus Shirakawa
+	}
+	1123.2.25 = {
+		holder = sutoku_tenno # under the Insei regency of Emperor Emeritus Shirakawa until 24 Jul 1129, then Emperor Emeritus Toba
+	}
+	1142.1.5 = {
+		holder = konoe_tenno # under the Insei regency of Emperor Emeritus Toba
+	}
+	1155.8.22 = {
+		holder = goshirakawa_tenno # under the Insei regency of Emperor Emeritus Toba until 20 Jul 1156
+	}
+	1158.9.5 = {
+		holder = nijo_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1165.8.3 = {
+		holder = rokujo_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1167.2.11 = {
+		holder = isetaira_kiyomori # Establishment of the Taira Government
+		government = feudal_government
+	}
+	1181.3.20 = {
+		holder = isetaira_munemori
+	}
+	1185.4.25 = {
+		holder = 0 # Taira Destroyed at Dan-no-ura; Minamoto Shōgunate Established
+	}
+	1333.7.4 = {
+		holder = godaigo_tenno # Kenmu Restoration
+	}
+	1336.2.25 = {
+		holder = 0 # Kyōto falls to the forces of Ashikaga Takauji; Ashikaga Shōgunate Established
+	}
+}
+
+#k_fukuhara_bakufu = { # Taira Shōgunate (Hypothetical)
+#}
+
+k_kamakura_bakufu = { # Minamoto Shōgunate
+	1185.4.25 = {
+		holder = kawachiminamoto_yoritomo
+		de_jure_liege = "e_nippon"
+		government = feudal_government
+	}
+	1333.7.4 = {
+		holder = 0 # Shikken Hōjō Mototoki Defeated at Kamakura; Imperial authority restored
+	}
+}
+
+k_muromachi_bakufu = { # Ashikaga Shōgunate
+	1336.2.25 = {
+		holder = ashikaga_takauji
+		de_jure_liege = "e_nippon"
+		government = feudal_government
+	}
+}
+
+d_kinai = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_yamashiro = {
+	867.1.1 = { change_development_level = 18 }
+	1066.1.1 = { change_development_level = 25 }
+	1178.1.1 = { change_development_level = 50 }
+	
+	511.1.1 = {
+		holder = keitai_tenno
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	740.1.1 = {
+		holder = shomu_tenno
+	}
+	784.1.1 = {
+		holder = kanmu_tenno
+	}
+	806.5.1 = {
+		holder = heizei_tenno
+	}
+	809.5.18 = {
+		holder = saga_tenno
+	}
+	823.5.29 = {
+		holder = junna_tenno
+	}
+	833.3.22 = {
+		holder = ninmyo_tenno
+	}
+	850.5.6 = {
+		holder = 1600007 # Emperor Montoku
+	}
+	858.10.7 = {
+		holder = 1600004 # Emperor Seiwa, under the regency of Sesshō Fujiwara no Yoshifusa (1600001) and later Sesshō Fujiwara no Mototsune (1600005); Fujiwara Regency begins following the death of Emperor Montoku
+	}
+	876.12.18 = {
+		holder = yozei_tenno # under the regency of Sesshō and later Kampaku Fujiwara no Mototsune (1600005)
+	}
+	884.3.5 = {
+		holder = koko_tenno # under the regency of Kampaku Fujiwara no Mototsune (1600005)
+	}
+	887.9.17 = {
+		holder = uda_tenno # initially under the regency of Kampaku Fujiwara no Mototsune (1600005) until 25 Feb 891 when an early instance of Insei Rule begins
+	}
+	897.8.4 = {
+		holder = daigo_tenno # under the Insei regengcy of Emperor Emeritus Uda Tennō (uda_tenno)
+	}
+	930.10.16 = {
+		holder = suzaku_tenno # under the regency of Sesshō and later Kampaku Fujiwara no Tadahira (fujiwara_tadahira); Fujiwara Authority Restored
+	}
+	946.5.23 = {
+		holder = murakami_tenno # initially under the regency of Kampaku Fujiwara no Tadahira (fujiwara_tadahira) until 9 Sep 949 when another early instance of Insei Rule begins
+	}
+	967.7.5 = {
+		holder = reizei_tenno # under the regency of Kampaku Fujiwara no Saneyori (fujiwara_saneyori) starting from 31 Jul 967; Fujiwara authority restored again
+	}
+	969.9.27 = {
+		holder = enyu_tenno # under the regency of Sesshō Fujiwara no Saneyori (fujiwara_saneyori) until 24 Jun 970, then Sesshō Fujiwara no Koretada (fujiwara_koretada) until 9 Dec 972, then Kampaku Fujiwara no Kanemichi (fujiwara_kanemichi) until 20 Dec 977, then finally Fujiwara no Yoritada (fujiwara_yoritada)
+	}
+	984.9.24 = {
+		holder = kazan_tenno # under the regency of Kampaku Fujiwara no Yoritada (fujiwara_yoritada)
+	}
+	986.7.31 = {
+		holder = ichijo_tenno # under the regency of Sesshō and later Kampaku Fujiwara no Kaneie (fujiwara_kaneie) until 26 Jul 990, then Sesshō and later Kampaku Fujiwara no Michitaka (fujiwara_michitaka) until 16 May 995, then Fujiwara no Michikane (fujiwara_michikane) until 13 Jun 995, then finally Sesshō Fujiwara no Michinaga (fujiwara_michinaga)
+	}
+	1011.7.16 = {
+		holder = sanjo_tenno # under the regency of Sesshō Fujiwara no Michinaga (fujiwara_michinaga)
+	}
+	1016.3.10 = {
+		holder = goichijo_tenno # under the regency of Sesshō Fujiwara no Michinaga (fujiwara_michinaga), then Sesshō and later Kampaku Fujiwara no Yorimichi (fujiwara_yorimichi)
+	}
+	1036.3.15 = {
+		holder = gosuzaku_tenno # under the regency of Kampaku Fujiwara no Yorimichi (fujiwara_yorimichi)
+	}
+	1045.2.5 = {
+		holder = goreizei_tenno # under the regency of Kampaku Fujiwara no Yorimichi (fujiwara_yorimichi)
+	}
+	1068.5.22 = {
+		holder = gosanjo_tenno # Fujiwara Authority collapses following infighting between Fujiwara no Yorimichi and his brother Fujiwara no Norimichi leading to the establishment of Insei Rule
+	}
+	1073.1.18 = {
+		holder = shirakawa_tenno # under the Insei regency of Emperor Emeritus Go-Sanjō until 15 Jun 1073
+	}
+	1087.1.3 = {
+		holder = horikawa_tenno # under the Insei regency of Emperor Emeritus Shirakawa
+	}
+	1107.8.9 = {
+		holder = toba_tenno # under the Insei regency of Emperor Emeritus Shirakawa
+	}
+	1123.2.25 = {
+		holder = sutoku_tenno # under the Insei regency of Emperor Emeritus Shirakawa until 24 Jul 1129, then Emperor Emeritus Toba
+	}
+	1142.1.5 = {
+		holder = konoe_tenno # under the Insei regency of Emperor Emeritus Toba
+	}
+	1155.8.22 = {
+		holder = goshirakawa_tenno # under the Insei regency of Emperor Emeritus Toba until 20 Jul 1156
+	}
+	1158.9.5 = {
+		holder = nijo_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1165.8.3 = {
+		holder = rokujo_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1167.2.11 = {
+		holder = rokujo_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1168.4.9 = {
+		holder = takakura_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1180.3.18 = {
+		holder = antoku_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa
+	}
+	1183.9.8 = {
+		holder = gotoba_tenno # under the Insei regency of Emperor Emeritus Go-Shirakawa until 26 Apr 1192
+	}
+}
+c_yamato = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	-661.2.11 = { # 660 BC
+		holder = jimmu_tenno
+	}
+	-582.1.1 = { # 581 BC
+		holder = suizei_tenno
+	}
+	-511.1.1 = { # 511 BC
+		holder = itoku_tenno
+	}
+	-476.1.1 = { # 475 BC
+		holder = kosho_tenno
+	}
+	-393.1.1 = { # 392 BC
+		holder = koan_tenno
+	}
+	-291.1.1 = { # 290 BC
+		holder = korei_tenno
+	}
+	-215.1.1 = { # 214 BC
+		holder = kogen_tenno
+	}
+	-158.1.1 = { # 158 BC
+		holder = kaika_tenno
+	}
+	-98.1.1 = { # 97 BC
+		holder = sujin_tenno
+	}
+	-30.1.1 = { # 29 BC
+		holder = suinin_tenno
+	}
+	71.1.1 = {
+		holder = keiko_tenno
+	}
+	192.1.1 = {
+		holder = chuai_tenno
+	}
+	204.1.1 = {
+		holder = jingu_kougou
+	}
+	270.1.1 = {
+		holder = ojin_tenno # under the regency of Empress Jingū until 269
+	}
+	400.1.1 = {
+		holder = richu_tenno
+	}
+	411.1.1 = {
+		holder = ingyo_tenno
+	}
+	454.2.28 = {
+		holder = anko_tenno
+	}
+	456.12.25 = {
+		holder = yuryaku_tenno
+	}
+	480.2.11 = {
+		holder = seinei_tenno # under the regency of Princess Iitoyo after 484
+	}
+	485.2.1 = {
+		holder = kenzo_tenno
+	}
+	488.2.4 = {
+		holder = ninken_tenno
+	}
+	499.1.12 = {
+		holder = buretsu_tenno
+	}
+	526.1.1 = {
+		holder = keitai_tenno
+	}
+	531.3.10 = {
+		holder = ankan_tenno
+	}
+	536.1.25 = {
+		holder = senka_tenno
+	}
+	539.12.15 = {
+		holder = kinmei_tenno
+	}
+	572.4.30 = {
+		holder = bidatsu_tenno
+	}
+	585.9.14 = {
+		holder = yomei_tenno
+	}
+	587.9.9 = {
+		holder = shushun_tenno
+	}
+	592.1.1 = {
+		holder = suiko_tenno # under the regency of Sesshō Shōtoku Taishi (shotoku_taishi) until 8 Apr 622, then under the de-facto regency of Soga no Emishi (soga_emishi)
+	}
+	628.4.15 = {
+		holder = jomei_tenno # under the de-facto regency of Soga no Emishi (soga_emishi)
+	}
+	641.11.17 = {
+		holder = saimei_tenno # Empress Kōgyoku, under the de-facto regency of Soga no Emishi (soga_emishi)
+	}
+	645.7.12 = {
+		holder = kotoku_tenno # under the de-facto regency of Prince Naka no Ōe (tenji_tenno)
+	}
+	654.11.24 = {
+		holder = saimei_tenno # Empress Saimei, under the regency of Sesshō Naka no Ōe (tenji_tenno)
+	}
+	673.3.20 = {
+		holder = tenmu_tenno # under the regency of Prince Kusakabe (yamato_kusakabe) after 681
+	}
+	686.10.1 = {
+		holder = jito_tenno
+	}
+	697.8.22 = {
+		holder = monmu_tenno # under the Insei regency of Empress Emeritus Jitō Tennō until 703
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	707.8.18 = {
+		holder = genmei_tenno
+	}
+	715.10.3 = {
+		holder = gensho_tenno
+	}
+	724.3.3 = {
+		holder = shomu_tenno
+	}
+	754.1.1 = {
+		holder = shomu_tenno
+	}
+	749.8.19 = {
+		holder = shotoku_tenno # under the Insei regency of Emperor Emeritus Shōmu Tennō until 4 Jun 755
+	}
+	758.1.1 = {
+		holder = junnin_tenno
+	}
+	764.11.1 = {
+		holder = shotoku_tenno
+	}
+	770.9.1 = {
+		holder = konin_tenno
+	}
+	781.4.30 = {
+		holder = kanmu_tenno
+	}
+	867.1.1 = {
+		holder = shikikefujiwara_motoo
+		liege = "k_nippon"
+	}
+	1050.1.1 = {
+		holder = yamatominamoto_yorinari
+		liege = "k_nippon"
+		government = government_feudal
+	}
+	1090.1.1 = {
+		holder = yamatominamoto_yoriharu
+	}
+	1130.1.1 = {
+		holder = yamatominamoto_chikahiro
+	}
+	1150.1.1 = {
+		holder = yamatominamoto_chikaharu
+	}
+}
+c_settsu = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	313.1.1 = {
+		holder = nintoku_tenno
+	}
+	507.3.3 = {
+		holder = keitai_tenno
+	}
+	650.1.1 = {
+		holder = kotoku_tenno
+	}
+	661.8.24 = {
+		holder = tenji_tenno
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	744.1.1 = {
+		holder = shomu_tenno
+	}
+	867.1.1 = { # placeholder
+		holder = settsu_placeholder_001
+		liege = "k_nippon"
+	}
+	1058.1.1 = {
+		holder = minamoto_yoritsuna
+		government = feudal_government
+	}
+	1160.2.11 = {
+		holder = isetaira_kiyomori
+	}
+}
+c_kawachi = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+	
+	-550.1.1 = { # 549 BC
+		holder = annei_tenno
+	}
+	406.3.15 = {
+		holder = hanzei_tenno
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = ariwara_yoshifuchi
+		liege = "k_nippon"
+	}
+	1048.6.1 = {
+		holder = kawachiminamoto_yoriyoshi
+		liege = "k_nippon"
+		government = feudal_government
+	}
+	1075.8.27 = {
+		holder = kawachiminamoto_yoshiie
+	}
+	1106.8.4 = {
+		holder = kawachiminamoto_yoshitada
+	}
+	1109.3.8 = {
+		holder = kawachiminamoto_tameyoshi
+	}
+	1156.8.17 = {
+		holder = kawachiminamoto_yoshitomo
+	}
+	1160.2.11 = {
+		holder = kawachiminamoto_yoshimoto
+	}
+}
+c_izumi = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = ariwara_yoshifuchi
+	}
+	1048.6.1 = { # placeholder
+		holder = kawachiminamoto_yoriyoshi
+	}
+	1170.1.1 = {
+		holder = kujo_kanezane
+		government = feudal_government
+		liege = "k_nippon"
+	}
+}
+c_omi = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	131.1.1 = {
+		holder = seimu_tenno
+	}
+	667.1.1 = {
+		holder = tenji_tenno
+	}
+	672.1.7 = {
+		holder = kobun_tenno # Prince Ōtomo's succession to the Chrysanthemum Throne sparks the Jinshin War, ending in his defeat and Prince Ōama's ascension as Emperor Tenmu.
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	864.1.1 = {
+		holder = harusumi_yoshitada
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = fujiwara_moronari
+		liege = "k_nippon"
+	}
+	1160.2.11 = {
+		holder = minominamoto_shigesada
+		government = feudal_government
+	}
+}
+b_azai = {
+	1100.1.1 = {
+		holder = yamamoto_yoshisada
+		government = feudal_government
+	}
+	1155.1.1 = {
+		holder = yamamoto_yoshitsune
+	}
+	1176.1.1 = {
+		holder = yamamoto_yoshikane
+	}
+}
+b_inukami = {
+	1000.1.1 = {
+		holder = sasaki_nariyori
+		government = feudal_government
+	}
+	1003.9.5 = {
+		holder = sasaki_noritsune
+	}
+	1058.1.1 = {
+		holder = sasaki_tsunekata
+	}
+	1100.1.1 = {
+		holder = sasaki_tametoshi
+	}
+	1136.1.1 = {
+		holder = sasaki_hideyoshi
+	}
+	1160.2.5 = {
+		holder = 0
+	}
+}
+c_iga = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = iga_placeholder_001
+		liege = "k_nippon"
+	}
+	1006.1.28 = {
+		holder = isetaira_korehira
+		government = feudal_government
+	}
+	1031.1.1 = {
+		holder = isetaira_masanori
+	}
+	1067.1.1 = {
+		holder = isetaira_masahira
+	}
+	1100.1.1 = {
+		holder = isetaira_masamori
+	}
+	1121.11.16 = {
+		holder = isetaira_tadamori
+	}
+	1130.1.1 = {
+		holder = isetaira_iesada
+	}
+	1167.6.17 = {
+		holder = isetaira_ietsugu
+	}
+}
+
+d_kanto = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	940.2.4 = {
+		holder = taira_masakado # Jōhei-Tengyō Rebellion
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		holder = 0
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_sagami = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = minamoto_ikeru
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	1036.10.14 = {
+		holder = kawachiminamoto_yoriyoshi
+	}
+	1051.1.1 = {
+		holder = kamakura_akina
+		liege = "k_nippon"
+	}
+	1088.1.1 = {
+		holder = kamakura_kagenari
+	}
+	1115.1.1 = {
+		holder = kamakura_kagemasa
+	}
+	1141.1.1 = {
+		holder = ooba_kagemune
+	}
+	1156.1.1 = {
+		holder = ooba_kageyoshi
+	}
+}
+c_musashi = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = tachibana_harunari
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1066.1.1 = {
+		holder = sugawara_koretsuna # didn't actually govern until 1075
+		liege = "k_nippon"
+	}
+	1154.1.1 = {
+		holder = yokoyama_tokishige
+		government = feudal_government
+	}
+}
+b_chichibu = {
+	1030.1.1 = {
+		holder = chichibutaira_masatsune
+	}
+	1057.1.1 = {
+		holder = chichibutaira_takemoto
+	}
+	1105.1.1 = {
+		holder = chichibutaira_taketsuna
+	}
+	1134.1.1 = {
+		holder = chichibutaira_shigetsuna
+	}
+	1148.1.1 = {
+		holder = chichibutaira_shigetaka
+	}
+	1155.9.14 = {
+		holder = hatakeyama_shigenobu
+	}
+}
+c_kozuke = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = yamato_kaya
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1064.1.1 = { # estimate
+		holder = taira_naokata
+		liege = "k_nippon"
+	}
+	1157.1.1 = {
+		holder = kawachiminamoto_yoshishige
+		government = feudal_government
+	}
+}
+c_shimotsuke = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = ki_aritsune
+		liege = "k_nippon"
+	}
+	940.1.27 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1066.1.1 = { # placeholder
+		holder = shimotsuke_placeholder_001
+		liege = "k_nippon"
+	}
+	1150.1.1 = {
+		holder = kawachiminamoto_yoshiyasu
+		government = feudal_government
+	}
+	1157.7.7 = {
+		holder = ashikaga_yoshikane
+	}
+}
+d_soshu = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	940.2.4 = {
+		holder = taira_masakado # Jōhei-Tengyō Rebellion
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		holder = 0
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_shimosa = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	864.1.1 = {
+		holder = oo_jinenmaro
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	940.1.27 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	1028.6.1 = {
+		holder = bosotaira_tadatsune
+		liege = 0 # 平忠常の乱
+
+	}
+	1031.6.28 = {
+		holder = bosotaira_tsunemasa
+		liege = "k_nippon"
+	}
+	1076.7.6 = {
+		holder = bosotaira_tsunenaga
+	}
+	1108.3.23 = {
+		holder = chiba_tsunekane
+	}
+	1126.4.4 = {
+		holder = chiba_tsuneshige
+	}
+	1180.5.28 = {
+		holder = chiba_tsunetane
+	}
+}
+c_hitachi = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	864.1.1 = {
+		holder = yamato_koretaka
+		liege = "k_nippon"
+	}
+	940.1.8 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		holder = taira_sadamori
+		liege = "k_nippon"
+	}
+	989.11.16 = {
+		holder = hitachitaira_koremoto
+	}
+	1021.1.1 = {
+		holder = hitachitaira_tamemoto
+	}
+	1049.1.1 = {
+		holder = hitachitaira_shigemoto
+		liege = "k_nippon"
+	}
+	1083.1.1 = {
+		holder = hitachitaira_kiyomoto
+	}
+	1110.1.1 = {
+		holder = hitachitaira_naomoto
+	}
+	1160.1.1 = {
+		holder = satake_takayoshi
+	}
+}
+b_kuji = {
+	1081.1.1 = {
+		holder = kawachiminamoto_yoshinari
+	}
+	1133.4.4 = {
+		holder = satake_masayoshi
+	}
+	1147.1.1 = {
+		holder = satake_takayoshi
+	}
+	1160.1.1 = {
+		holder = satake_yoshimasa
+	}
+}
+c_kazusa = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = yamato_motoyasu # didn't actually govern until 869
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	1028.6.1 = {
+		holder = bosotaira_tadatsune
+		liege = 0 # 平忠常の乱
+
+	}
+	1031.6.28 = {
+		holder = bosotaira_tsunemasa
+		liege = "k_nippon"
+	}
+	1076.7.6 = {
+		holder = bosotaira_tsunenaga
+	}
+	1108.3.23 = {
+		holder = kazusa_tsuneie
+	}
+	1130.1.1 = {
+		holder = kazusa_tsuneharu
+	}
+	1138.1.1 = {
+		holder = kazusa_tsunezumi
+	}
+	1164.1.1 = {
+		holder = kazusa_tsunekage
+	}
+}
+c_awa_so = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = yamato_motoyasu
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	1028.6.1 = {
+		holder = bosotaira_tadatsune
+		liege = 0 # 平忠常の乱
+
+	}
+	1031.6.28 = {
+		holder = bosotaira_tsunemasa
+		liege = "k_nippon"
+	}
+	1076.7.6 = {
+		holder = bosotaira_tsunenaga
+	}
+	1144.1.1 = {
+		holder = miura_yoshitsugu
+	}
+	1159.3.12 = {
+		holder = miura_yoshiaki
+	}
+}
+
+d_chubu = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_mino = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = fujiwara_yamakage
+		liege = "k_nippon"
+	}
+	868.1.1 = {
+		holder = oe_otondo
+	}
+	1061.1.1 = {
+		holder = minamoto_sanemoto
+	}
+	1065.1.1 = {
+		holder = minominamoto_kunifusa
+		government = feudal_government
+	}
+	1108.1.1 = {
+		holder = minominamoto_mitsukuni
+	}
+	1148.1.5 = {
+		holder = minominamoto_mitsunaga
+	}
+}
+c_hida = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # palceholder
+		holder = hida_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # palceholder
+		holder = hida_placeholder_002
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1177.1.1 = {
+		holder = itofujiwara_kageie
+	}
+}
+c_ise = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	864.1.1 = {
+		holder = minamoto_okoru
+	}
+	866.1.1 = {
+		liege = "k_nippon"
+	}
+	1006.1.28 = {
+		holder = isetaira_korehira
+		liege = "k_nippon"
+		government = feudal_government
+	}
+	1031.1.1 = {
+		holder = isetaira_masanori
+	}
+	1067.1.1 = {
+		holder = isetaira_masahira
+	}
+	1100.1.1 = {
+		holder = isetaira_masamori
+	}
+	1121.11.16 = {
+		holder = isetaira_tadamori
+	}
+	1153.2.10 = {
+		holder = isetaira_kiyomori
+	}
+	1160.2.11 = {
+		holder = isetaira_morikuni
+	}
+}
+c_shima = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	864.1.1 = { # palceholder
+		holder = minamoto_okoru
+	}
+	866.1.1 = {
+		liege = "k_nippon"
+	}
+	1006.1.28 = {
+		holder = isetaira_korehira
+		government = feudal_government
+	}
+	1006.1.28 = {
+		holder = isetaira_korehira
+		liege = "k_nippon"
+		government = feudal_government
+	}
+	1031.1.1 = {
+		holder = isetaira_masanori
+	}
+	1067.1.1 = {
+		holder = isetaira_masahira
+	}
+	1100.1.1 = {
+		holder = isetaira_masamori
+	}
+	1121.11.16 = {
+		holder = isetaira_tadamori
+	}
+	1135.1.1 = {
+		holder = itofujiwara_kagetsuna
+	}
+	1172.1.1 = {
+		holder = itofujiwara_tadakiyo
+	}
+}
+c_owari = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = kibi_matatsugu
+		liege = "k_nippon"
+	}
+	1065.1.1 = {
+		holder = taira_sadaie
+		liege = "k_nippon"
+	}
+	1166.1.1 = {
+		holder = isetaira_yasumori
+		government = government_feudal
+	}
+}
+
+d_tokai = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_suruga = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = kiyohara_michio
+		liege = "k_nippon"
+	}
+	1062.1.1 = {
+		holder = taira_koremori
+	}
+	1125.1.1 = {
+		holder = irie_kageyoshi
+		government = feudal_government
+	}
+	1155.1.1 = {
+		holder = kikkawa_tsuneyoshi
+	}
+}
+c_mikawa = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = nankefujiwara_hiromoto # 権守
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = fujiwara_akizane # didn't actually govern until 1069
+		liege = "k_nippon"
+	}
+	1158.1.1 = {
+		holder = isetaira_yorimori
+		government = government_feudal
+	}
+}
+c_totomi = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = kiyohara_koreoka # didn't actually govern until 870
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = fujiwara_ienori # didn't actually govern until 1067
+		liege = "k_nippon"
+	}
+	1160.1.1 = {
+		holder = sagara_yorishige
+		government = feudal_government
+	}
+}
+c_izu = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = nagamine_tsunenori
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	940.2.4 = {
+		holder = taira_masakado
+		government = feudal_government
+		liege = 0
+	}
+	940.3.25 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1066.1.1 = { # palceholder
+		holder = izu_placeholder_001
+		liege = "k_nippon"
+	}
+	1160.1.1 = {
+		holder = hojo_tokimasa
+		government = feudal_government
+	}
+}
+
+d_hokuriku = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1176.3.19 = {
+		holder = isetaira_michimori
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_echizen = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = minamoto_sunao # didn't actually govern until 892
+		liege = "k_nippon"
+	}
+	1062.1.1 = {
+		holder = fujiwara_sadashige # actually vacated the governorship by 1062 
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1176.3.19 = {
+		holder = isetaira_michimori
+	}
+}
+c_wakasa = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = wakasa_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = wakasa_placeholder_002
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.6 = {
+		holder = isetaira_moromori
+		liege = "d_hokuriku"
+	}
+}
+c_kaga = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = minamoto_yoshiari
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = yamatominamoto_yorifusa
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = kaga_placeholder_001
+		liege = "d_hokuriku"
+	}
+}
+c_noto = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = abe_takasada # didn't actually govern until 869
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = noto_placeholder_001
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1176.3.19 = {
+		holder = isetaira_tadafusa
+		liege = "d_hokuriku"
+	}
+}
+c_etchu = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	865.1.1 = {
+		holder = yamato_munesada
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	1061.1.1 = {
+		holder = fujiwara_masaie
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1176.1.1 = {
+		holder = kiyohara_yorinari
+		liege = "d_hokuriku"
+	}
+}
+
+d_koshinetsu = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_shinano = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = minamoto_hide
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = oe_narihira
+	}
+	1158.1.1 = {
+		holder = shinanomurakami_tamekuni
+		government = feudal_government
+	}
+	1176.1.1 = {
+		holder = shinanomurakami_nobukuni
+	}
+}
+b_chikuma = {
+	1151.1.1 = {
+		holder = kisonakahara_kaneto
+	}
+}
+c_kai = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = kai_placeholder_001
+		liege = "k_nippon"
+	}
+	1064.1.1 = {
+		holder = fujiwara_sanemasa
+		liege = "k_nippon"
+	}
+	1130.1.1 = {
+		holder = kaiminamoto_yoshikiyo
+		government = feudal_government
+	}
+	1149.8.27 = {
+		holder = kaiminamoto_kiyomitsu
+	}
+	1168.8.12 = {
+		holder = takeda_nobuyoshi
+	}
+}
+c_echigo = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {	# placeholder
+		holder = echigo_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # estimate
+		holder = nankefujiwara_suetsuna
+		liege = "k_nippon"
+	}
+	1160.2.5 = {
+		holder = jou_sukenaga
+		government = feudal_government
+	}
+}
+b_kanbara = {
+	1060.1.1 = {
+		holder = jou_shigemochi
+		government = feudal_government
+	}
+	1065.1.1 = {
+		holder = jou_sadamochi
+	}
+	1088.1.1 = {
+		holder = jou_nagamoto
+	}
+	1122.1.1 = {
+		holder = jou_sukekuni
+	}
+	1155.1.1 = {
+		holder = jou_sukenaga
+	}
+	1160.2.5 = {
+		holder = jou_nagamochi
+	}
+}
+c_sado = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {	# placeholder
+		holder = echigo_placeholder_001
+	}
+	1066.1.1 = { # placeholder
+		holder = nankefujiwara_suetsuna
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = sado_placeholder_001
+		liege = "k_nippon"
+	}
+}
+
+d_chugoku = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_tomomori
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_suo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = ki_yasuo # didn't actually govern until 882
+		liege = "k_nippon"
+	}
+	1066.3.6 = {
+		holder = fujiwara_nagafusa
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = suo_placeholder_001
+		liege = "d_chugoku"
+	}
+}
+c_nagato = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = fujiwara_yasumine
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = nagato_placeholder_001
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_tomomori
+	}
+}
+c_aki = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	865.1.1 = {
+		holder = yamato_motoe
+	}
+	866.1.1 = {
+		liege = "k_nippon"
+	}
+	1062.1.1 = {
+		holder = yamatominamoto_arimitsu
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = aki_placeholder_001
+		liege = "d_chugoku"
+	}
+}
+c_bingo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = bingo_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = fujiwara_sachiie # actually vacated governorship by 1059
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = bingo_placeholder_002
+		liege = "d_chugoku"
+	}
+}
+c_iwami = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = iwami_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = iwami_placeholder_002
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = iwami_placeholder_003
+		liege = "d_chugoku"
+	}
+}
+c_izumo = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = izumo_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = izumo_placeholder_002
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = izumo_placeholder_003
+		liege = "d_chugoku"
+	}
+}
+c_oki = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = izumo_placeholder_001
+	}
+	1066.1.1 = { # placeholder
+		holder = izumo_placeholder_002
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = izumo_placeholder_003
+	}
+}
+
+d_sanyo = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_munemori
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_harima = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = minamoto_tsutomu # didn't actually govern until 870
+		liege = "k_nippon"
+	}
+	940.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo siezes Harima and Bizen
+	}
+	1063.1.1 = {
+		holder = fujiwara_toshitsuna
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_munemori
+	}
+}
+c_bizen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = bizen_placeholder_001
+		liege = "k_nippon"
+	}
+	940.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo siezes Harima and Bizen
+	}
+	1066.1.1 = {
+		holder = minamoto_suketsuna
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = bizen_placeholder_002
+		liege = "d_sanyo"
+	}
+}
+c_mimasaka = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = minamoto_hikaru # didn't actually govern until 870
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = takashina_tameie # didn't actually govern until 1072
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = mimasaka_placeholder_001
+		liege = "d_sanyo"
+	}
+}
+c_bitchu = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = nankefujiwara_yasunori
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	1063.1.1 = {
+		holder = fujiwara_norisuke # actually vacated governorship around 1063
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = bitchu_placeholder_001
+		liege = "d_sanyo"
+	}
+}
+
+d_sanin = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_tsunemori
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_tanba = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = sakanoue_sadamori # didn't actually govern until 868
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = minamoto_takazane # didn't actually govern until 1068
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_tsunemasa
+		liege = "d_sanin"
+	}
+}
+c_tango = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = okasuga_sawanushi
+		liege = "k_nippon"
+	}
+	1066.1.1 = {
+		holder = shikikefujiwara_atsumoto # didn't actually govern until 1068
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_tsunemasa
+		liege = "d_sanin"
+	}
+}
+c_tajima = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = tajima_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # date unknown
+		holder = fujiwara_akitsuna
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_tsunemori
+	}
+}
+c_hoki = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = yoshimine_hideoka # didn't actually govern until 896
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = hoki_placeholder_001
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = hoki_placeholder_002
+		liege = "d_sanin"
+	}
+}
+c_inaba = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # palceholder
+		holder = inaba_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = inaba_placeholder_002
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = inaba_placeholder_003
+		liege = "d_sanin"
+	}
+}
+
+d_nankai = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_shigemori
+		liege = "k_nippon"
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_sanuki = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = nankefujiwara_arisada
+		liege = "k_nippon"
+	}
+	886.1.1 = {
+		holder = sugawara_michizane
+	}
+	1064.1.1 = {
+		holder = fujiwara_akiie # 権守
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = isetaira_shigemori
+	}
+}
+c_iyo = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	865.1.1 = {
+		holder = 1600005
+	}
+	866.1.1 = {
+		liege = "k_nippon"
+	}
+	939.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo rebels against the central government
+	}
+	1063.1.1 = {
+		holder = iyo_placeholder_001
+	}
+	1064.1.1 = {
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1170.1.1 = {
+		holder = kono_michikiyo
+	}
+	1178.1.1 = {
+		liege = "d_nankai"
+	}
+}
+c_awa = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = kiyohara_akio
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = awa_placeholder_001
+		liege = "k_nippon"
+	}
+	1130.1.1 = {
+		holder = taguchi_shigehide
+		government = feudal_government
+	}
+	1166.1.1 = {
+		holder = taguchi_shigeyoshi
+	}
+	1178.1.1 = {
+		liege = "d_nankai"
+	}
+}
+c_tosa = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	860.1.1 = {
+		holder = tachibana_tokieda # actually vacated the governorship by 855
+	}
+	866.1.1 = {
+		liege = "k_nippon"
+	}
+	1062.1.1 = {
+		holder = minamoto_nagasue
+	}
+	1064.1.1 = {
+		liege = "k_nippon"
+	}
+	1130.1.1 = {
+		holder = taguchi_shigehide
+		government = feudal_government
+	}
+	1166.1.1 = {
+		holder = taguchi_shigeyoshi
+	}
+	1178.1.1 = {
+		liege = "d_nankai"
+	}
+}
+c_kii = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 9 }
+	1178.1.1 = { change_development_level = 14 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	865.1.1 = {
+		holder = nankefujiwara_nakamune
+	}
+	866.1.1 = {
+		liege = "k_nippon"
+	}
+	1065.1.1 = {
+		holder = fujiwara_norinaga
+		liege = "k_nippon"
+	}
+	1148.1.1 = {
+		holder = yuasa_muneshige
+		government = feudal_government
+	}
+	1177.1.1 = {
+		holder = yuasa_munekage
+	}
+	1178.1.1 = {
+		liege = "d_nankai"
+	}
+}
+c_awaji = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = yoshimichi_netsugi
+		liege = "k_nippon"
+	}
+	1065.1.1 = {
+		holder = miyoshi_tamenaga
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = awaji_placeholder_001
+		liege = "d_nankai"
+	}
+}
+
+d_saikai = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	740.9.1 = {
+		holder = shikikefujiwara_hirotsugu # Fujiwara no Hirotsugu rebellion
+		liege = 0
+	}
+	740.11.24 = {
+		holder = 0
+	}
+	867.1.1 = { # in reality 874.1.10
+		holder = ariwara_yukihira
+		liege = "k_nippon"
+	}
+	941.1.1 = {
+		holder = fujiwara_sumitomo # Fujiwara no Sumitomo rebellion
+		liege = 0
+	}
+	1066.1.1 = { # in reality 1080.9.20
+		holder = fujiwara_sukenaka
+		liege = "k_nippon"
+	}
+	1177.1.6 = {
+		holder = minase_chikanobu
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+		government = feudal_government
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_chikuzen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	200.1.1 = {
+		holder = chuai_tenno
+	}
+	201.1.1 = {
+		holder = jingu_kougou
+	}
+	660.1.1 = {
+		holder = saimei_tenno
+	}
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	740.9.1 = {
+		holder = shikikefujiwara_hirotsugu
+		liege = 0
+	}
+	867.1.1 = {
+		holder = ariwara_yukihira
+		liege = "d_saikai"
+	}
+	941.1.1 = {
+		holder = fujiwara_sumitomo
+		liege = 0 # Fujiwara no Sumitomo captures Dazaifu
+	}
+	1066.1.1 = {
+		holder = fujiwara_sukenaka
+		liege = "d_saikai"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1177.1.6 = {
+		holder = minase_chikanobu
+	}
+}
+c_hizen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = hizen_placeholder_001
+		liege = "d_saikai"
+	}
+	1066.1.1 = { # placeholder
+		holder = hizen_placeholder_002
+		liege = "d_saikai"
+	}
+	1069.1.1 = {
+		holder = hizentakagi_fumisada
+		government = feudal_government
+	}
+	1124.1.1 = {
+		holder = hizentakagi_suesada
+	}
+	1134.1.1 = {
+		holder = hizentakagi_sadanaga
+	}
+	1150.1.1 = {
+		holder = hizentakagi_munenaga
+	}
+	1177.1.1 = {
+		holder = hizentakagi_muneie
+	}
+	1178.1.1 = {
+		liege = "d_saikai"
+	}
+}
+c_iki = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = ariwara_yukihira
+	}
+	1066.1.1 = { # placeholder
+		holder = fujiwara_sukenaka
+	}
+	1166.2.1 = {
+		holder = nanba_yoritsune
+		government = feudal_government
+	}
+	1178.1.1 = {
+		liege = "d_saikai"
+	}
+}
+c_tsushima = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = tsushima_placeholder_001
+		liege = "d_saikai"
+	}
+	1066.1.1 = { # placeholder
+		holder = tsushima_placeholder_002
+		liege = "d_saikai"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = tsushima_placeholder_003
+		liege = "d_saikai"
+	}
+}
+c_chikugo = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = chikugo_placeholder_001
+		liege = "d_saikai"
+	}
+	1066.1.1 = { # placeholder
+		holder = chikugo_placeholder_002
+		liege = "d_saikai"
+	}
+	1069.1.1 = {
+		holder = hizentakagi_fumisada
+		government = feudal_government
+	}
+	1124.1.1 = {
+		holder = hizentakagi_suesada
+	}
+	1134.1.1 = {
+		holder = hizentakagi_sadanaga
+	}
+	1150.1.1 = {
+		holder = hizentakagi_munenaga
+	}
+	1177.1.1 = {
+		holder = hizentakagi_muneie
+	}
+	1178.1.1 = {
+		liege = "d_saikai"
+	}
+}
+c_buzen = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	864.1.1 = {
+		holder = funya_masuyoshi # actually vacated the governorship around 864
+	}
+	867.1.1 = {
+		liege = "d_saikai"
+	}
+	1066.1.1 = { # placeholder
+		holder = buzen_placeholder_001
+		liege = "d_saikai"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1178.1.1 = {
+		holder = buzen_placeholder_002
+		liege = "d_saikai"
+	}
+}
+c_bungo_jp = {
+	867.1.1 = { change_development_level = 9 }
+	1066.1.1 = { change_development_level = 12 }
+	1178.1.1 = { change_development_level = 20 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = bungo_jp_placeholder_001
+		liege = "d_saikai"
+	}
+	1066.1.1 = { # placeholder
+		holder = bungo_jp_placeholder_002
+		liege = "d_saikai"
+	}
+	1160.1.1 = {
+		holder = nanba_yorisuke
+		government = feudal_government
+	}
+	1166.2.1 = {
+		holder = nanba_yoritsune
+	}
+	1178.1.1 = {
+		liege = "d_saikai"
+	}
+}
+
+d_kumaso = {
+	703.1.13 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_higo = {
+	867.1.1 = { change_development_level = 10 }
+	1066.1.1 = { change_development_level = 15 }
+	1178.1.1 = { change_development_level = 23 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	866.1.1 = {
+		holder = ariwara_yasusada
+	}
+	867.1.1 = {
+		liege = "d_saikai"
+	}
+	1066.1.1 = {
+		holder = fujiwara_koretsuna # didn't actually govern until after 1069
+		liege = "d_saikai"
+	}
+	1071.1.1 = {
+		holder = kikuchi_noritaka
+		government = feudal_government
+	}
+	1076.1.1 = {
+		holder = kikuchi_tsunetaka
+	}
+	1084.1.1 = {
+		holder = kikuchi_tsuneyori
+	}
+	1113.1.1 = {
+		holder = kikuchi_tsunemune
+	}
+	1145.1.1 = {
+		holder = kikuchi_tsunenao
+	}
+	1178.1.1 = {
+		holder = kikuchi_takanao
+		liege = "d_saikai"
+	}
+	1185.11.1 = {
+		holder = kikuchi_takasada
+	}
+	1204.1.1 = {
+		holder = kikuchi_yoshitaka
+	}
+}
+c_hyuga = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = hyuga_placeholder_001
+		liege = "k_nippon"
+	}
+	1066.1.1 = { # placeholder
+		holder = hyuga_placeholder_002
+		liege = "k_nippon"
+	}
+	1167.2.11 = {
+		government = feudal_government
+	}
+	1168.1.1 = {
+		holder = tsuchimochi_munetsuna
+	}
+	1178.1.1 = {
+		holder = tsuchimochi_nobutsuna
+	}
+}
+c_satsuma = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	865.1.1 = {
+		holder = sugano_munenori
+	}
+	867.1.1 = {
+		liege = "k_nippon"
+	}
+	1060.1.1 = {
+		holder = chinzeitaira_tametada
+		liege = "k_nippon"
+		government = feudal_government
+	}
+	1125.1.1 = {
+		holder = isaku_yoshimichi
+	}
+	1158.1.1 = {
+		holder = isaku_michifusa
+	}
+	1178.1.1 = {
+		holder = isaku_michitsuna
+	}
+}
+c_osumi = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = { # placeholder
+		holder = osumi_placeholder_001
+		liege = "k_nippon"
+	}
+	1060.1.1 = {
+		holder = kimotsuki_kanetoshi
+		liege = "k_nippon"
+		government = feudal_government
+	}
+	1100.1.1 = {
+		holder = kimotsuki_kanetsune
+	}
+	1143.1.1 = {
+		holder = kimotsuki_kanemasu
+	}
+}
+
+d_mutsu = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	712.1.1 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	848.1.1 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		holder = yoshimine_tsuneyo
+		liege = "k_nippon"
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+		liege = 0 # Abe clan revolts leading to the Zenkunen War
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoriyoshi
+		liege = "k_nippon" # Order restored following the death of Abe no Sadato
+	}
+	1063.2.25 = {
+		holder = yamatominamoto_yoritoshi
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehira
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1187.11.30 = {
+		holder = oshufujiwara_yasuhira
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+
+d_chinjufu = {
+	729.10.1 = {
+		liege = "k_nippon"
+		de_jure_liege = "k_nippon"
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	770.10.9 = {
+		holder = sakanoue_karitamaro
+	}
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	859.2.22 = {
+		holder = sakanoue_masamichi
+	}
+	940.6.3 = {
+		holder = fujiwara_hidesato
+	}
+	947.3.1 = {
+		holder = taira_sadamori
+	}
+	960.1.1 = { # estimate
+		holder = minamoto_tsunemoto
+	}
+	1020.1.1 = { # estimate
+		holder = minamoto_mitsunaka
+	}
+	1023.8.1 = {
+		holder = kawachiminamoto_yorinobu
+	}
+	1050.1.1 = { # estimate
+		holder = abe_yoritoki # de facto
+	}
+	1053.1.1 = {
+		holder = kawachiminamoto_yoriyoshi
+	}
+	1062.10.22 = {
+		holder = kiyohara_takenori
+	}
+	1083.1.1 = {
+		holder = kawachiminamoto_yoshiie
+	}
+	1087.1.1 = {
+		government = feudal_government
+	}
+	1170.7.10 = {
+		holder = oshufujiwara_hidehira
+	}
+}
+
+c_isawa = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	859.2.22 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1062.10.22 = {
+		holder = kiyohara_takenori
+		liege = "d_mutsu"
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehira
+	}
+	1187.11.30 = {
+		holder = oshufujiwara_yasuhira
+	}
+}
+c_shiwa = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	859.2.22 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1062.10.22 = {
+		holder = kiyohara_takenori
+		liege = "d_mutsu"
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1125.1.1 = { # estimate
+		holder = oshufujiwara_kiyotsuna
+	}
+	1168.1.1 = {
+		holder = hizume_toshihira
+		liege = "d_mutsu"
+	}
+}
+c_taga = {
+	867.1.1 = { change_development_level = 4 }
+	1066.1.1 = { change_development_level = 8 }
+	1178.1.1 = { change_development_level = 12 }
+	
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	796.1.1 = {
+		holder = sakanoue_tamuramaro
+	}
+	848.1.1 = {
+		holder = sakanoue_masamichi
+	}
+	867.1.1 = {
+		holder = yoshimine_tsuneyo
+	}
+	1050.1.1 = {
+		holder = abe_yoritoki
+	}
+	1057.8.28 = {
+		holder = abe_sadato
+	}
+	1063.2.25 = {
+		holder = yamatominamoto_yoritoshi
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1130.1.1 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehira
+	}
+	1187.11.30 = {
+		holder = oshufujiwara_yasuhira
+	}
+}
+c_iwaki = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	860.1.1 = {
+		holder = iwaki_placeholder_001
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1062.10.22 = {
+		holder = hitachitaira_norimichi
+		government = feudal_government
+	}
+	1063.2.25 = {
+		liege = "d_mutsu"
+	}
+	1082.1.1 = {
+		holder = hitachitaira_tadahira
+	}
+	1094.1.1 = {
+		holder = hitachitaira_shigehira
+	}
+	1135.1.1 = {
+		holder = iwaki_takahira
+	}
+	1164.1.1 = {
+		holder = iwaki_takamori
+		liege = "d_mutsu"
+	}
+	1189.1.1 = {
+		holder = souma_morotsune
+		government = feudal_government
+		liege = "k_kamakura_bakufu"
+	}
+	1201.5.1 = {
+		holder = souma_yoshitane
+	}
+}
+c_iwase = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	860.1.1 = {
+		holder = iwase_placeholder_001
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1063.1.1 = {
+		holder = mutsuishikawa_arimitsu
+		government = feudal_government
+	}
+	1063.2.25 = {
+		liege = "d_mutsu"
+	}
+	1086.10.2 = {
+		holder = mutsuishikawa_motomitsu
+	}
+	1099.9.20 = {
+		holder = mutsuishikawa_mitsuyoshi
+	}
+	1121.4.19 = {
+		holder = mutsuishikawa_yoshisue
+	}
+	1177.8.1 = {
+		holder = mutsuishikawa_motomitsu2
+	}
+}
+c_aizu = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	860.1.1 = {
+		holder = aizu_placeholder_001
+	}
+	867.1.1 = {
+		liege = "d_mutsu"
+	}
+	1066.1.1 = {
+		holder = aizu_placeholder_002
+		liege = "d_mutsu"
+		government = feudal_government
+	}
+	1160.2.5 = {
+		holder = jou_sukenaga
+		liege = "k_nippon"
+		government = feudal_government
+	}
+}
+c_tsugaru = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 5 }
+	
+	860.1.1 = {
+		holder = tsugaru_placeholder_001
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = tsugaru_placeholder_002
+	}
+	1063.2.25 = {
+		liege = 0
+	}
+	1071.2.1 = {
+		liege = "d_mutsu" # Enkyu Ezo War
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehisa
+		liege = "d_mutsu"
+	}
+}
+c_nukanobu = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 5 }
+	
+	860.1.1 = {
+		holder = nukanobu_placeholder_001
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = nukanobu_placeholder_002
+		liege = 0
+	}
+	1071.2.1 = {
+		liege = "d_mutsu" # Enkyu Ezo War
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehisa
+		liege = "d_mutsu"
+	}
+}
+c_hei = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 5 }
+	
+	860.1.1 = {
+		holder = hei_placeholder_001
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = hei_placeholder_002
+		liege = 0
+	}
+	1071.2.1 = {
+		liege = "d_mutsu" # Enkyu Ezo War
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1125.1.1 = { # estimate
+		holder = oshufujiwara_kiyotsuna
+	}
+	1168.1.1 = {
+		holder = hizume_toshihira
+		liege = "d_mutsu"
+	}
+}
+
+d_dewa = {
+	867.1.1 = { change_development_level = 3 }
+	1066.1.1 = { change_development_level = 7 }
+	1178.1.1 = { change_development_level = 9 }
+	
+	712.1.1 = {
+		de_jure_liege = "k_nippon"
+		government = administrative_government
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = nankefujiwara_okiyo # didn't actually govern until sometime after 870
+		liege = "k_nippon"
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoshiie
+		liege = "k_nippon"
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehira
+	}
+	1185.4.25 = {
+		de_jure_liege = "k_kamakura_bakufu"
+	}
+	1187.11.30 = {
+		holder = oshufujiwara_yasuhira
+	}
+	1333.6.5 = {
+		de_jure_liege = "k_nippon"
+	}
+	1336.2.25 = {
+		de_jure_liege = "k_muromachi_bakufu"
+	}
+}
+c_akita = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = nankefujiwara_okiyo
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoshiie
+		liege = "k_nippon"
+	}
+	1178.1.1 = {
+		holder = oshufujiwara_kunihira
+		government = feudal_government
+		liege = "d_dewa"
+	}
+}
+c_ogachi = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = ogachi_placeholder_001
+		liege = "d_dewa"
+	}
+	1062.10.22 = {
+		holder = kawachiminamoto_yoshiie
+		liege = "k_nippon"
+	}
+	1178.1.1 = {
+		holder = oshufujiwara_kunihira
+		government = feudal_government
+		liege = "d_dewa"
+	}
+}
+c_tagawa = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = tagawa_placeholder_001
+		liege = "d_dewa"
+	}
+	1066.1.1 = {
+		holder = kiyohara_mitsuyori
+		government = feudal_government
+		liege = "d_dewa"
+	}
+	1178.1.1 = {
+		holder = oshufujiwara_kunihira
+		liege = "d_dewa"
+	}
+}
+c_mogami = {
+	703.1.13 = {
+		government = administrative_government # Taihō Code
+		effect = {
+			if = {
+				limit = {
+					exists = holder
+					NOT = { has_dlc_feature = roads_to_power }
+				}
+				holder = {
+					change_government = feudal_government
+				}
+			}
+		}
+	}
+	867.1.1 = {
+		holder = mogami_placeholder_001
+		liege = "d_dewa"
+	}
+	1066.1.1 = {
+		holder = kiyohara_mitsuyori
+		government = feudal_government
+		liege = "d_dewa"
+	}
+	1178.1.1 = {
+		holder = oshufujiwara_kunihira
+		liege = "d_dewa"
+	}
+}
+c_hinai = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 5 }
+	
+	860.1.1 = {
+		holder = hinai_placeholder_001
+	}
+	867.1.1 = {
+		liege = 0
+	}
+	1060.1.1 = {
+		holder = hinai_placeholder_002
+	}
+	1062.10.22 = {
+		liege = 0
+	}
+	1071.2.1 = {
+		liege = "d_mutsu" # Enkyu Ezo War
+	}
+	1087.1.1 = {
+		holder = oshufujiwara_kiyohira
+		government = feudal_government
+	}
+	1128.8.10 = {
+		holder = oshufujiwara_motohira
+	}
+	1157.4.29 = {
+		holder = oshufujiwara_hidehisa
+		liege = "d_mutsu"
+	}
+}
+
+d_minamiezo = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+}
+
+c_ishikari = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+}
+
+c_tokachi = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+}
+
+c_kushiro = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+}
+
+k_ryukyu = {
+	867.1.1 = { change_development_level = 2 }
+	1066.1.1 = { change_development_level = 4 }
+	1178.1.1 = { change_development_level = 6 }
+}
+d_saki = {
+	867.1.1 = { change_development_level = 1 }
+	1066.1.1 = { change_development_level = 2 }
+	1178.1.1 = { change_development_level = 3 }
+}

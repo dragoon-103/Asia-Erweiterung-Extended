@@ -1,0 +1,1242 @@
+######################
+### Japan/k_nippon ###
+######################
+
+##d_kinai ####################################
+###c_yamashiro 
+11243 = {	#Kyoto
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+	special_building_slot = AEP_imperial_palace_kyoto
+	794.1.1 = { special_building = AEP_imperial_palace_kyoto }
+}
+11239 = {	#Fushimi
+	holding = city_holding
+	special_building_slot = generic_university
+	671.1.1 = {
+		special_building = generic_university # Daigaku-ryō
+	}
+}
+11241 = {	#Soraku
+	holding = none
+}
+
+###c_yamato 
+11265 = {	#Katsuragi
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11266 = {	#Nara
+	holding = city_holding
+}
+11267 = {	#Uda
+	holding = church_holding
+}
+11268 = {	#Yoshino
+	holding = none
+}
+
+###c_kawachi
+11287 = {	#Kawachi
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11313 = {	#Hiraoka
+	holding = none
+}
+
+###c_izumi
+11290 = {	#Izumi
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11288 = {	#Hine
+	holding = none
+}
+
+###c_settsu
+11359 = {	#Ubara
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11291 = {	#Osaka
+	holding = city_holding
+}
+11289 = {	#Mishima
+	holding = none
+}
+11212 = {	#Kawabe
+	holding = none
+}
+
+##d_tosan ####################################
+###c_omi 
+11301 = {	#Otsu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11300 = {	#Enryaku-Ji
+	holding = church_holding
+	special_building_slot = NEA_enryakuji
+	788.1.1 = { special_building = NEA_enryakuji }
+}
+11297 = {	#Inukami
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+	1160.2.5 = {
+		holding = none
+	}
+}
+11298 = {	#Azai
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_mino 
+11177 = {	#Mino
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11173 = {	#Ena
+	holding = none
+}
+11175 = {	#Kakami
+	holding = none
+}
+
+###c_hida
+11178 = {	#Hida
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11174 = {	#Mashita
+	holding = none
+}
+
+###c_shinano 
+11259 = {	#Shinano
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11353 = {	#Saku
+	holding = none
+}
+11354 = {	#Takai
+	holding = none
+}
+11369 = {	#Suwa
+	culture = yamato
+	religion = shinto
+	holding = church_holding
+}
+11260 = {	#Azumi
+	holding = none
+}
+11176 = {	#Chikuma
+	holding = none
+	1151.1.1 = {
+		holding = castle_holding
+	}
+}
+
+##d_tokai ####################################
+###c_ise 
+11248 = {	#Suzuka
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11244 = {	#Ise
+	holding = church_holding
+	special_building = NEA_ise_grand_shrine
+}
+11249 = {	#Ichishi
+	holding = city_holding
+}
+
+###c_shima
+11247 = {	#Shima
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_iga
+11246 = {	#Iga
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_owari 
+11139 = {	#Nakashima
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11140 = {	#Aichi
+	holding = church_holding
+}
+
+###c_mikawa
+11138 = {	#Hekikai
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11142 = {	#Atsumi
+	holding = none
+}
+11141 = {	#Shitara
+	holding = none
+}
+
+###c_totomi
+11311 = {	#Iwata
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11312 = {	#Saya
+	holding = none
+}
+
+###c_suruga 
+11309 = {	#Ihara
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11310 = {	#Suruga
+	holding = church_holding
+	special_building = NEA_mount_fuji
+}
+
+###c_izu
+11308 = {	#Izu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_kai 
+11337 = {	#Yamanashi
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11352 = {	#Yatsushiro
+	holding = none
+}
+
+##d_hokuriku  ####################################
+###c_echizen 
+11157 = {	#Nyu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11156 = {	#Sakai
+	holding = none
+}
+
+###c_kaga
+11220 = {	#Kaga
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11355 = {	#Enuma
+	holding = none
+}
+
+###c_wakasa
+11158 = {	#Wakasa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_etchu 
+11327 = {	#Imizu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11326 = {	#Niikawa
+	holding = none
+}
+
+###c_noto
+11219 = {	#Noto
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11218 = {	#Fugeshi
+	holding = none
+}
+
+###c_echigo 
+11270 = {	#Kubiki
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11272 = {	#Koshi
+	holding = none
+}
+11269 = {	#Kanbara
+	holding = none
+	1062.1.1 = {
+		holding = castle_holding
+	}
+}
+11271 = {	#Iwafune
+	holding = none
+}
+
+###c_sado
+11273 = {	#Sado
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+	special_building_slot = NEA_sado_gold_mine_01
+}
+
+##d_nankai  ####################################
+###c_kii 
+11329 = {	#Nagusa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11328 = {	#Arida
+	holding = none
+}
+11245 = {	#Muro
+	holding = church_holding
+}
+
+###c_awaji
+11211 = {	#Awaji
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_iyo 
+11153 = {	#Iyo
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11155 = {	#Uwa
+	holding = none
+}
+11152 = {	#Noma
+	holding = none
+}
+11154 = {	#Nii
+	holding = none
+}
+
+###c_sanuki 
+11225 = {	#Aya
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11226 = {	#Kagawa
+	holding = none
+}
+
+###c_awa 
+11318 = {	#Awa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11320 = {	#Miyoshi
+	holding = none
+}
+11319 = {	#Katsuura
+	holding = none
+}
+
+###c_tosa 
+11363 = {	#Tosa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11234 = {	#Kami
+	holding = none
+}
+11360 = {	#Hata
+	holding = none
+}
+11233 = {	#Agawa
+	holding = none
+}
+
+##d_sanin  ####################################
+###c_tanba 
+11240 = {	#Kuwada
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11358 = {	#Funai
+	holding = none
+}
+11214 = {	#Takai
+	holding = none
+}
+11238 = {	#Ikaruga
+	holding = none
+}
+
+###c_tango
+11242 = {	#Tanba
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_inaba 
+11323 = {	#Inaba
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_hoki
+11325 = {	#Hoki
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11324 = {	#Hino
+	holding = none
+}
+
+###c_tajima
+11215 = {	#Izushi
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11213 = {	#Mikata
+	holding = none
+}
+
+###c_izumo 
+11304 = {	#Izumo
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11303 = {	#Iishi
+	holding = church_holding
+	special_building = NEA_izumo_grand_shrine
+}
+
+###c_iwami
+11302 = {	#Iwami
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11305 = {	#Ano
+	holding = city_holding
+	special_building_slot = NEA_iwami_silver_mine_01
+}
+
+###c_oki
+11306 = {	#Oki
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+##d_sanyo  ####################################
+###c_bizen 
+11283 = {	#Jodo
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11279 = {	#Oku
+	holding = none
+}
+
+###c_mimasaka
+11280 = {	#Tomata
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11282 = {	#Katsuta
+	holding = none
+}
+11281 = {
+	holding = none
+}
+
+###c_bingo 
+11184 = {	#Sera
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11185 = {	#Eso
+	holding = none
+}
+11366 = {	#Yasuna
+	holding = none
+}
+
+###c_bitchu
+11284 = {	#Shimotsu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11362 = {	#Kayo
+	holding = none
+}
+
+###c_harima 
+11361 = {	#Shikama
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11209 = {	#Akashi
+	holding = none
+}
+11210 = {	#Ibo
+	holding = none
+}
+
+###c_aki 
+11183 = {	#Aki
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11186 = {	#Toyota
+	holding = none
+}
+11367 = {	#Takata
+	holding = none
+}
+
+###c_suo
+11364 = {	#Saba
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11334 = {	#Tsuno
+	holding = none
+}
+
+###c_nagato 
+11336 = {	#Toyoura
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11335 = {	#Asa
+	holding = none
+}
+11368 = {	#Abu
+	holding = none
+}
+
+##d_saikai  ####################################
+###c_chikuzen 
+11161 = {	#Sawara
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+	special_building_slot = NEA_dazaifu
+	663.1.1 = { special_building = NEA_dazaifu }
+}
+11162 = {	#Munakata
+	holding = none
+}
+11159 = {	#Yasu
+	holding = none
+}
+
+###c_chikugo
+11163 = {	#Mii
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11164 = {	#Yame
+	holding = none
+}
+
+###c_hizen 
+11293 = {	#Saga
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11292 = {	#Kishima
+	holding = none
+}
+11262 = {	#Matsuura
+	holding = none
+}
+11263 = {	#Nagasaki
+	holding = city_holding
+}
+11307 = {	#Goto
+	holding = none
+}
+
+###c_iki
+11261 = {	#Iki
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+###c_bungo
+11274 = {	#Oita
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11276 = {	#Amabe
+	holding = none
+}
+11275 = {	#Kusu
+	holding = none
+}
+11277 = {	#Naoiri
+	holding = none
+}
+
+###c_buzen
+11160 = {	#Nakatsu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11278 = {	#Usa
+	holding = church_holding
+}
+
+###c_tsushima 
+11264 = {	#Tsushima
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+##d_kumaso  ####################################
+###c_higo 
+11235 = {	#Amakusa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11237 = {	#Tamana
+	holding = none
+}
+11371 = {	#Mashiki
+	holding = none
+}
+11236 = {	#Kuma
+	holding = none
+}
+
+###c_hyuga 
+11257 = {	#Koyu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11256 = {	#Usuki
+	holding = none
+}
+11255 = {	#Morokata
+	holding = none
+}
+11258 = {	#Miyazaki
+	holding = church_holding
+}
+
+###c_satsuma 
+11370 = {	#Satsuma
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11229 = {	#Kagoshima
+	holding = city_holding
+}
+
+###c_osumi
+11228 = {	#Osumi
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11230 = {	#So
+	holding = none
+}
+11404 = {	#Tanegashima
+	holding = none
+}
+
+##d_mutsu ####################################
+###c_isawa
+11223 = {	#Isawa
+	culture = emishi
+	religion = shinto
+	holding = castle_holding
+	1000 = {
+		culture = yamato
+	}
+}
+11251 = {	#Ichinoseki
+	holding = none
+}
+
+###c_shiwa
+11224 = {	#Shiwa
+	culture = emishi
+	religion = shinto
+	holding = castle_holding
+	1000 = {
+		culture = yamato
+	}
+}
+11143 = {	#Iwate
+	holding = none
+}
+
+###c_taga
+11254 = {	#Taga
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11253 = {	#Tamatsukuri
+	holding = none
+}
+11250 = {	#Mono
+	holding = none
+}
+
+###c_iwaki 
+11168 = {	#Iwaki
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11170 = {	#Namekata
+	holding = none
+}
+11171 = {	#Uda
+	holding = none
+}
+
+###c_iwase 
+11169 = {	#Iwase
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11172 = {	#Shirakawa
+	holding = none
+}
+11167 = {	#Shinobu
+	holding = none
+}
+
+###c_aizu
+11165 = {	#Aizu
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11166 = {	#Enichi-Ji
+	holding = church_holding
+}
+
+###c_tsugaru
+11146 = {	#Tsugaru
+	culture = emishi
+	religion = moshir
+	holding = tribal_holding
+	1071 = {
+		religion = shinto
+		holding = castle_holding
+	}
+}
+12268 = {	#Inaka
+	holding = none
+}
+
+###c_nukanobu
+11148 = {	#Nukanobu
+	culture = emishi
+	religion = moshir
+	holding = tribal_holding
+	1071 = {
+		religion = shinto
+		holding = castle_holding
+	}
+}
+11222 = {	#Ninohe
+	holding = none
+}
+
+###c_hei
+11221 = {	#Hei
+	culture = emishi
+	religion = moshir
+	holding = tribal_holding
+	1071 = {
+		religion = shinto
+		holding = castle_holding
+	}
+}
+11252 = {	#Kesen
+	holding = none
+}
+
+##d_dewa ####################################
+###c_akita
+11340 = {	#Akita
+	culture = emishi
+	religion = shinto
+	holding = castle_holding
+	1000 = {
+		culture = yamato
+	}
+}
+11144 = {	#Senboku
+	holding = none
+}
+
+###c_ogachi
+11145 = {	#Ogachi
+	culture = emishi
+	religion = shinto
+	holding = castle_holding
+	1066.1.1 = {
+		culture = yamato
+	}
+}
+11333 = {	#Yuri
+	holding = none
+}
+
+###c_tagawa 
+11330 = {	#Tagawa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11331 = {	#Kitamogami
+	holding = none
+}
+
+###c_mogami
+11332 = {	#Mogami
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11349 = {	#Okitama
+	holding = none
+}
+
+###c_hinai
+11341 = {	#Hinai
+	culture = emishi
+	religion = moshir
+	holding = tribal_holding
+	1071 = {
+		religion = shinto
+		holding = castle_holding
+	}
+}
+11147 = {	#Kazuno
+	holding = none
+}
+
+##d_kanto  ####################################
+###c_musashi 
+11351 = {	#Tama
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11322 = {	#Edo
+	holding = none
+}
+11350 = {	#Kuraki
+	holding = none
+}
+11321 = {	#Saitama
+	holding = city_holding
+}
+11294 = {	#Chichibu
+	holding = none
+	1130.1.1 = {
+		holding = castle_holding
+	}
+}
+11296 = {	#Iruma
+	holding = none
+}
+
+###c_sagami 
+11231 = {	#Kamakura
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11232 = {	#Ashigara
+	holding = church_holding
+}
+
+###c_kozuke 
+11182 = {	#Gunma
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11179 = {	#Kataoka
+	holding = none
+}
+11181 = {	#Seta
+	holding = none
+}
+11180 = {	#Agatsuma
+	holding = none
+}
+11295 = {	#Hatara
+	holding = none
+}
+
+###c_shimotsuke 
+11317 = {	#Tsuga
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+	special_building_slot = NEA_futarasan_shrine
+	767.1.1 = { special_building = NEA_futarasan_shrine }
+}
+11315 = {	#Aso
+	holding = city_holding
+	special_building_slot = generic_university
+	842.1.1 = {
+		special_building = generic_university # Ashikaga Gakkō
+	}
+}
+11314 = {	#Haga
+	holding = none
+}
+11316 = {	#Shioya
+	holding = none
+}
+
+##d_soshu  ####################################
+###c_hitachi 
+11216 = {	#Niihari
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+11217 = {	#Kashima
+	holding = none
+}
+11346 = {	#Ibaraki
+	holding = none
+}
+11345 = {	#Kuji
+	holding = none
+	1081.1.1 = {
+		holding = castle_holding
+	}
+}
+
+###c_shimosa
+11348 = {	#Chiba
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+} 
+11151 = {	#Katori
+	holding = none
+}
+11347 = {	#Yuki
+	holding = none
+}
+
+###c_kazusa
+11150 = {	#Ichihara
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+} 
+11149 = {	#Musha
+	holding = none
+}
+
+###c_awa_so
+11342 = {	#Awa
+	culture = yamato
+	religion = shinto
+	holding = castle_holding
+}
+
+#################
+### Ezo/k_ezo ###
+#################
+
+##d_minamiezo ####################################
+###c_oshima 
+11191 = {	#Hiyama
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11386 = {	#Hakodate
+	holding = none
+}
+
+###c_shiribeshi
+11203 = {	#Shiribeshi
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11202 = {	#Yamakoshi
+	holding = none
+}
+
+###c_iburi
+11196 = {	#Abuta
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11192 = {	#Yufutsu
+	holding = none
+}
+
+###c_hidaka
+11193 = {	#Saru
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11204 = {	#Samani
+	holding = none
+}
+
+##d_kitaezo ####################################
+
+###c_ishikari 
+11194 = {	#Ishikari
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11188 = {	#Sorachi
+	holding = none
+}
+11195 = {	#Kamikawa
+	holding = none
+}
+
+###c_kitami
+11199 = {	#Monbetsu
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+11187 = {	#Abashiri
+	holding = none
+}
+11205 = {	#Soya
+	holding = none
+}
+
+###c_teshio 
+11198 = {	#Mashike
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+11207 = {	#Teshio
+	holding = none
+}
+11200 = {	#Nakagawa
+	holding = none
+}
+
+##d_higashiezo  ####################################
+
+###c_nemuro 
+11201 = {	#Nemuro
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+###c_kushiro 
+11197 = {	#Kushiro
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11189 = {	#Akkeshi
+	holding = none
+}
+11190 = {	#Ashoro
+	holding = none
+}
+
+###c_tokachi
+11208 = {	#Tokachi
+	culture = ainu
+	religion = moshir
+	holding = tribal_holding
+}
+11206 = {	#Shihoro
+	holding = none
+}
+
+###c_kunashiri
+11373 = {	#Kunashiri
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1000 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+###c_etorofu
+11372 = {	#Etorofu
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+###c_uruppu
+12523 = {	#Uruppu
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+###c_paramushiru
+12524 = {	#Paramushiru
+	culture = mishihase
+	religion = yzng
+	holding = tribal_holding
+	1200 = {
+		culture = ainu
+		religion = moshir
+	}
+}
+
+
+#######################
+### Ryukyu/k_ryukyu ###
+#######################
+
+##d_ryukyu ####################################
+###c_amami
+11227 = {	#Amami
+	culture = amami
+	religion = utaki
+	holding = tribal_holding
+}
+
+###c_ryukyu
+11286 = {	#Nanzan
+	culture = okinawa
+	religion = utaki
+	holding = tribal_holding
+}
+
+###c_hokuzan
+10927 = {	#Hokuzan
+	culture = okinawa
+	religion = utaki
+	holding = tribal_holding
+}
+
+###c_chuuzan
+12267 = {	#Chuzan
+	culture = okinawa
+	religion = utaki
+	holding = tribal_holding
+	special_building_slot = NEA_shuri_castle
+	1248.1.1 = { special_building = NEA_shuri_castle }
+}
+
+##d_saki ####################################
+###c_saki
+11285 = {	#Saki
+	culture = yaeyama
+	religion = utaki
+	holding = tribal_holding
+}
+
+###c_miyako
+10925 = {	#Miyako
+	culture = miyako
+	religion = utaki
+	holding = tribal_holding
+}

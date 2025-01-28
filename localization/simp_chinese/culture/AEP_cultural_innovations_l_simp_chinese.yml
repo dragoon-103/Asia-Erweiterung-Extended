@@ -1,52 +1,7 @@
 ﻿l_simp_chinese:
- innovation_yues_group:0 "百越的野心"
- innovation_yues_group_desc:0 "百越是指居住在南亚和东亚沿海地区以及大江大河流域的古代民族，他们是该地区最早的定居者，不断向内陆迁移。在漫长的历史中，他们逐渐融入了统一的王朝，但仍存在一些阻力。"
- 
- innovation_java_group:0 "千岛之王"
- innovation_java_group_desc:0 "南岛部落穿越数千个岛屿，随潮汐和风暴而行，统治着阳光下的海洋。"
- 
- innovation_tunguse_group:0 "白山黑水"
- innovation_tunguse_group_desc:0 "嫩江，黑龙江和兴安岭为许多渔猎部落提供了丰富的食物。在守护神“柳女娘娘”的庇佑下，部落不断壮大并逐渐迁出森林。"
- 
- innovation_nanman_group:0 "丛林大师"
- innovation_nanman_group_desc:0 "哀牢山至武夷山的荒野丛林中居住着勇敢的猎群。他们的祖先蚩尤与黄帝为争夺王位而战，成为中国古代的传奇。几个世纪过去了，他们依然保持着名声和凶猛。"
-
- innovation_yamato_group:0 "大和魂"
- innovation_yamato_group_desc:0 "大和人自古以来坚信天命，在花开花落，悲欢离合，音律绵长，剑心合一中体现。"
-
- innovation_goryeo_group:0 "山高水美"
- innovation_goryeo_group_desc:0 "高丽民族认为自己是韩国第一位国王檀君的后裔，并在高句丽王国的帮助下复兴。他们经历了无数次外来侵略和入侵。1592年，日本侵略仅仅几年时间，他们逐渐与唐朝失去联系，面临北方游牧政权的崛起和内部分裂。"
-
- innovation_mongolic_group:0 "蓝狼，白母鹿"
- innovation_mongolic_group_desc:0 "传说中，青狼和白鹿是游牧于长城以北，阴山以南广袤草原上的后裔。一旦联合起来，将对周边的王国和帝国构成巨大威胁。"
-
- innovation_centralization_of_authority:0 "大同"
- innovation_centralization_of_authority_desc:0 "秦始皇是中国历史上的第一位皇帝，他不仅统一了各个国家，还统一了重量，度量衡，语言和文字。汉文化以前所未有的方式传播开来，让来自不同方言和习惯的人们在这片广袤土地上实现了交流，交易，并团结在一个皇帝的统治下。"
- 
- innovation_world_cathay:0 "契丹的军事制度"
- innovation_world_cathay_desc:0 "辽朝的开国者契丹汗从各个部落中选取了1000多名最勇敢的勇士作为自己的亲卫。他的继任者将军队扩充到30万，并称之为毗湿军。"
-
- innovation_world_asia_korea:0 "高丽猎人"
- innovation_world_asia_korea_desc:0 "高丽人的土地被茂密的森林和山脉所覆盖，因此他们擅长制作狩猎工具，尤其擅长弓箭。如果他们被征召入伍，将成为出色的弓箭手。"
- 
- innovation_battleships:0 "大型战舰"
- innovation_battleships_desc:0 "这些战舰发展自古老的船只，外部有牛皮保护，甲板上有高塔，体积巨大，士兵可以在上面行走，甚至骑马。"
-
- innovation_horse_archery:0 "骑弓武士"
- innovation_horse_archery_desc:0 "日本的拱门可以追溯到史前时代，即绳文时代。其独特的长而不对称的弓形，手柄位于中心下方，起源于弥生文化。拱门成为权威和权力的象征。传说中的日本第一位天皇神武天皇总是携带弓。一些虾夷部落，包括日高见国部落，练习射箭，并引起大和宫廷的关注和恐惧。8世纪征服虾夷人的第一次重大尝试基本上没有成功。帝国军队以中国大陆军队为模板，在应对虾夷的游击战术时失败。随着帝国军队引入和发展骑射和虾夷使用的游击战术，军队很快获得成功，最终导致虾夷的失败。"
-
- master_of_bow:0 "弓箭大师"
- master_of_bow_desc:0 "射箭在日本战争中拥有悠久的历史，每个武士都被期望精通这门技艺。可以训练技术较差的战士进行集体射击，但精确的射击需要奉献精神和技巧，尤其是在激烈的战斗中。"
- 
- mountain_pattern_armour:0 "山纹铠甲"
- mountain_pattern_armour_desc:0 "在8世纪末，中国帝国军队的战术重心从骑兵转向步兵。他们将小块钢铁连锁在皮革衬里上，创造了既灵活舒适又具有强大防护能力的盔甲。这种盔甲使汉族士兵能够抵挡骑兵和弓箭手的攻击，并有效对抗步兵。"
- 
  innovation_outrigger_boats:1 "支腿船"
- innovation_outrigger_boats_desc:1 "我们的船只配备了支撑脚，以保持在波涛汹涌的水域中的稳定。这让我们能够轻松穿越海洋，同时保持敏捷和灵活性。"
- 
- innovation_indian_primogeniture:1 "不可分割的继承"
- innovation_indian_primogeniture_desc:1 "自古以来，长子继承制一直是印度土地上的法律。对国家的责任就像对家庭的责任一样，由父亲传承给长子，不可分割。"
- 
- innovation_tiger_sons:1 "老虎之子"
- innovation_tiger_sons_desc:1 "老虎之子是南诏军的精锐核心，他们都是从最强大的战士中选拔而出的。洛居子不容许懦弱，退却必然面临死亡。"
- 
+ innovation_outrigger_boats_desc:1 "我们的船配备了外支架，这是南岛语族创新的标志，能够在最汹涌的海域中也保持卓越的稳定性和快速性。这些船只将使我们能够掌控太平洋，并有可能定居遥远的土地。"
+ world_innovation_outrigger_boats:1 "南岛" 
+ innovation_sinitic_bureaucracy:0 "中华官僚体制"
+ innovation_sinitic_bureaucracy_desc:0 "中国历代王朝的官僚创新，例如科举制度和均田制，使中国成为中世纪最繁荣的国家。\n\n这些改革不仅影响了中国的治理，还影响了日本、韩国和越南等邻国，这些国家根据自身的特殊需求对这些创新进行了调整。"
+ world_innovation_sinitic_bureaucracy:0 "中华圈"

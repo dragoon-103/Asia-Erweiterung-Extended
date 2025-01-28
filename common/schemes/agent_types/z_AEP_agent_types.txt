@@ -1,0 +1,341 @@
+﻿# Muscle
+agent_muscle = {
+	contribution_type = success_chance_max
+	contribution = {
+		# Base value.
+		value = scheme_agent_general_bonuses_contribution_score_value
+		# Skills
+		## Prowess
+		add = {
+			value = prowess
+			max = agent_max_skill_value
+			desc = scheme_agent_aptitude.skill.prowess
+		}
+		# Traits
+		## Bonuses
+		### +++ physique_good_3
+		if = {
+			limit = { has_trait = physique_good_3 }
+			add = {
+				value = agent_trait_bonus_t3_value
+				desc = scheme_agent_aptitude.trait.physique_good_3
+			}
+		}
+		### ++ physique_good_2
+		if = {
+			limit = { has_trait = physique_good }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.physique_good_2
+			}
+		}
+		### + physique_good_!
+		if = {
+			limit = { has_trait = physique_good }
+			add = {
+				value = agent_trait_bonus_t1_value
+				desc = scheme_agent_aptitude.trait.physique_good_1
+			}
+		}
+		### +++ Strong
+		if = {
+			limit = { has_trait = strong }
+			add = {
+				value = agent_trait_bonus_t3_value
+				desc = scheme_agent_aptitude.trait.strong
+			}
+		}
+		### +++ Giant
+		if = {
+			limit = { has_trait = giant }
+			add = {
+				value = agent_trait_bonus_t3_value
+				desc = scheme_agent_aptitude.trait.giant
+			}
+		}
+		### +++ Athletic
+		if = {
+			limit = { has_trait = athletic }
+			add = {
+				value = agent_trait_bonus_t3_value
+				desc = scheme_agent_aptitude.trait.athletic
+			}
+		}
+		### ++ Shieldmaiden
+		if = {
+			limit = { has_trait = shieldmaiden }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.shieldmaiden
+			}
+		}
+		### ++ Onna-musha
+		if = {
+			limit = { has_trait = onnamusha }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.onnamusha
+			}
+		}
+		### ++ Berserker
+		if = {
+			limit = { has_trait = berserker }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.berserker
+			}
+		}
+		### ++ Varangian
+		if = {
+			limit = { has_trait = varangian }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.varangian
+			}
+		}
+		### + Brave
+		if = {
+			limit = { has_trait = brave }
+			add = {
+				value = agent_trait_bonus_t1_value
+				desc = scheme_agent_aptitude.trait.brave
+			}
+		}
+		## Maluses
+		### - Forgiving
+		if = {
+			limit = { has_trait = forgiving }
+			add = {
+				value = agent_trait_malus_t1_value
+				desc = scheme_agent_aptitude.trait.forgiving
+			}
+		}
+		### - Just
+		if = {
+			limit = { has_trait = just }
+			add = {
+				value = agent_trait_malus_t1_value
+				desc = scheme_agent_aptitude.trait.just
+			}
+		}
+		### -- Craven
+		if = {
+			limit = { has_trait = craven }
+			add = {
+				value = agent_trait_malus_t2_value
+				desc = scheme_agent_aptitude.trait.craven
+			}
+		}
+		### -- Compassionate
+		if = {
+			limit = { has_trait = compassionate }
+			add = {
+				value = agent_trait_malus_t2_value
+				desc = scheme_agent_aptitude.trait.compassionate
+			}
+		}
+		### --- Weak
+		if = {
+			limit = { has_trait = weak }
+			add = {
+				value = agent_trait_malus_t3_value
+				desc = scheme_agent_aptitude.trait.weak
+			}
+		}
+		### - physique_bad_1
+		if = {
+			limit = { has_trait = physique_bad_1 }
+			add = {
+				value = agent_trait_malus_t1_value
+				desc = scheme_agent_aptitude.trait.physique_bad_1
+			}
+		}
+		### -- physique_bad_2
+		if = {
+			limit = { has_trait = physique_bad_2 }
+			add = {
+				value = agent_trait_malus_t2_value
+				desc = scheme_agent_aptitude.trait.physique_bad_2
+			}
+		}
+		### --- physique_bad_3
+		if = {
+			limit = { has_trait = physique_bad_3 }
+			add = {
+				value = agent_trait_malus_t3_value
+				desc = scheme_agent_aptitude.trait.physique_bad_3
+			}
+		}
+		# Cap this off.
+		max = agent_scheme_contributor_max
+		min = agent_scheme_contributor_min
+	}
+}
+
+# Bodyguard
+agent_bodyguard = {
+	contribution_type = success_chance_max
+	contribution = {
+		# Base value.
+		value = scheme_agent_general_bonuses_contribution_score_value
+		# Skills
+		## Prowess
+		add = {
+			value = prowess
+			multiply = agent_3to1_3_skill_mult_value
+			ceiling = yes
+			max = agent_max_skill_value
+			desc = scheme_agent_aptitude.skill.prowess
+		}
+		## Martial
+		add = {
+			value = martial
+			multiply = agent_3to1_1_skill_mult_value
+			ceiling = yes
+			max = agent_max_skill_value
+			desc = scheme_agent_aptitude.skill.martial
+		}
+		# Traits
+		## Bonuses
+		### +++ physique_good_3
+		if = {
+			limit = { has_trait = physique_good_3 }
+			add = {
+				value = agent_trait_bonus_t3_value
+				desc = scheme_agent_aptitude.trait.physique_good_3
+			}
+		}
+		### ++ physique_good_2
+		if = {
+			limit = { has_trait = physique_good }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.physique_good_2
+			}
+		}
+		### + physique_good_!
+		if = {
+			limit = { has_trait = physique_good }
+			add = {
+				value = agent_trait_bonus_t1_value
+				desc = scheme_agent_aptitude.trait.physique_good_1
+			}
+		}
+		### +++ Strong
+		if = {
+			limit = { has_trait = strong }
+			add = {
+				value = agent_trait_bonus_t3_value
+				desc = scheme_agent_aptitude.trait.strong
+			}
+		}
+		### ++ Shieldmaiden
+		if = {
+			limit = { has_trait = shieldmaiden }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.shieldmaiden
+			}
+		}
+		### ++ Onna-musha
+		if = {
+			limit = { has_trait = onnamusha }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.onnamusha
+			}
+		}
+		### ++ Berserker
+		if = {
+			limit = { has_trait = berserker }
+			add = {
+				value = agent_trait_bonus_t2_value
+				desc = scheme_agent_aptitude.trait.berserker
+			}
+		}
+		### + Humble
+		if = {
+			limit = { has_trait = humble }
+			add = {
+				value = agent_trait_bonus_t1_value
+				desc = scheme_agent_aptitude.trait.humble
+			}
+		}
+		### + Wrathful
+		if = {
+			limit = { has_trait = wrathful }
+			add = {
+				value = agent_trait_bonus_t1_value
+				desc = scheme_agent_aptitude.trait.wrathful
+			}
+		}
+		### + vengeful
+		if = {
+			limit = { has_trait = vengeful }
+			add = {
+				value = agent_trait_bonus_t1_value
+				desc = scheme_agent_aptitude.trait.vengeful
+			}
+		}
+		## Maluses
+		### - physique_bad_1
+		if = {
+			limit = { has_trait = physique_bad_1 }
+			add = {
+				value = agent_trait_malus_t1_value
+				desc = scheme_agent_aptitude.trait.physique_bad_1
+			}
+		}
+		### -- physique_bad_2
+		if = {
+			limit = { has_trait = physique_bad_2 }
+			add = {
+				value = agent_trait_malus_t2_value
+				desc = scheme_agent_aptitude.trait.physique_bad_2
+			}
+		}
+		### --- physique_bad_3
+		if = {
+			limit = { has_trait = physique_bad_3 }
+			add = {
+				value = agent_trait_malus_t3_value
+				desc = scheme_agent_aptitude.trait.physique_bad_3
+			}
+		}
+		### - Temperate
+		if = {
+			limit = { has_trait = temperate }
+			add = {
+				value = agent_trait_malus_t1_value
+				desc = scheme_agent_aptitude.trait.temperate
+			}
+		}
+		### - Forgiving
+		if = {
+			limit = { has_trait = forgiving }
+			add = {
+				value = agent_trait_malus_t1_value
+				desc = scheme_agent_aptitude.trait.forgiving
+			}
+		}
+		### --- Craven
+		if = {
+			limit = { has_trait = craven }
+			add = {
+				value = agent_trait_malus_t3_value
+				desc = scheme_agent_aptitude.trait.craven
+			}
+		}
+		### --- Weak
+		if = {
+			limit = { has_trait = weak }
+			add = {
+				value = agent_trait_malus_t3_value
+				desc = scheme_agent_aptitude.trait.weak
+			}
+		}
+		# Cap this off.
+		max = agent_scheme_contributor_max
+		min = agent_scheme_contributor_min
+	}
+}

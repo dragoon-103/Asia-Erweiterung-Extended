@@ -1,0 +1,927 @@
+﻿### Chinese Dynasties
+
+80000001 = { # House of Li 李
+	name = "dynn_Li"
+	culture = "han"
+}
+80000004 = { # House of Lu 卢
+	name = "dynn_Lu"
+	culture = "han"
+}
+80000005 = { # House of Duo 铎
+	name = "dynn_Duo"
+	culture = "han"
+}
+80000006 = { # House of Gao 高
+	name = "dynn_Gao"
+	culture = "han"
+}
+80000007 = { # House of Hao 郝
+	name = "dynn_Hao"
+	culture = "han"
+}
+80000008 = { # House of La 羅
+	name = "dynn_La"
+	culture = "han"
+}
+80000009 = { # House of Wang 王
+	name = "dynn_Wang"
+	culture = "han"
+}
+80000011 = { # House of Heng 橫
+	name = "dynn_Heng"
+	culture = "han"
+}
+80000012 = { # House of Qian 幵
+	name = "dynn_Qian"
+	culture = "han"
+}
+80000013 = { # House of Tuoba 拓跋
+	name = "dynn_Tuoba"
+	culture = "han"
+}
+80000015 = { # House of Ping 平
+	name = "dynn_Ping"
+	culture = "han"
+}
+80000020 = { # House of Zheng 郑
+	name = "dynn_Zheng"
+	culture = "han"
+}
+80000021 = { # House of Du 杜
+	name = "dynn_Du"
+	culture = "han"
+}
+80000022 = { # House of Xiahou 夏侯
+	name = "dynn_Xiahou"
+	culture = "han"
+}
+80000023 = { # House of He 何
+	name = "dynn_He"
+	culture = "han"
+}
+80000027 = { # House of Kong 孔
+	name = "dynn_Kong"
+	culture = "han"
+}
+80000028 = { # House of Zhong 锺
+	name = "dynn_Zhong"
+	culture = "han"
+}
+80000029 = { # House of Chiau 赵
+	name = "dynn_Chiau"
+	culture = "han"
+}
+80000030 = { # House of Zhao 赵
+	name = "dynn_Zhao"
+	culture = "han"
+}
+han_d001 = { # House of Gao 高
+    name = "dynn_Gao"
+    culture = "han"
+}
+han_d002 = { # House of Du 杜
+    name = "dynn_Du"
+    culture = "han"
+}
+d_zheng = { # House of Zheng 郑
+    name = "dynn_Zheng"
+    culture = "han"
+}
+
+### Khitan Dynasties
+46600007 = { # Yaonian Clan 遙輦氏
+	name = "dynn_Yaonian"
+	culture = "khitan"
+}
+
+### Jurchen Dynasties
+80000031 = { # Wanyan Clan 完顏氏
+	name = "dynn_Wanyan"
+	culture = jurchen
+}
+
+### Japanese Dynasties
+
+40000001 = { # Fujiwara Clan 藤原氏
+	name = "dynn_fujiwara"
+	culture = "yamato"
+}
+40000101 = { # Imperial Family/Yamato 皇室
+	name = "dynn_yamato"
+	culture = "yamato"
+}
+40000201 = { # Kanmu Heishi 桓武平氏
+	name = "dynn_kanmu-heishi" 
+	culture = "yamato" 
+}
+40000202 = { # Ninmyō-Heishi 仁明平氏
+	name = "dynn_ninmyo-heishi" 
+	culture = "yamato" 
+}
+40000203 = { # Montoku-Heishi 文徳平氏
+	name = "dynn_montoku-heishi" 
+	culture = "yamato" 
+}
+40000204 = { # Kōkō-Heishi 光孝平氏
+	name = "dynn_koko-heishi" 
+	culture = "yamato" 
+}
+40000205 = { # Saga-Genji 嵯峨源氏
+	name = "dynn_saga-genji" 
+	culture = "yamato" 
+}
+40000206 = { # Ninmyō-Genji 仁明源氏
+	name = "dynn_ninmyo-genji"
+	culture = "yamato"
+}
+40000207 = { # Montoku-Genji 文徳源氏
+	name = "dynn_montoku-genji"
+	culture = "yamato"
+}
+40000208 = { # Seiwa-Genji 清和源氏
+	name = "dynn_seiwa-genji"
+	culture = "yamato"
+}
+40000209 = { # Yōzei-Genji 陽成源氏
+	name = "dynn_yozei-genji"
+	culture = "yamato"
+}
+40000210 = { # Kōkō-Genji 光孝源氏
+	name = "dynn_koko-genji"
+	culture = "yamato"
+}
+40000211 = { # Uda-Genji 宇多源氏
+	name = "dynn_uda-genji"
+	culture = "yamato"
+}
+40000212 = { # Daigo-Genji 醍醐源氏
+	name = "dynn_daigo-genji"
+	culture = "yamato"
+}
+40000213 = { # Murakami-Genji 村上源氏
+	name = "dynn_murakami-genji"
+	culture = "yamato"
+}
+40000214 = { # Reizei-Genji 冷泉源氏
+	name = "dynn_reizei-genji"
+	culture = "yamato"
+}
+40000215 = { # Kazan-Genji 花山源氏
+	name = "dynn_kazan-genji"
+	culture = "yamato"
+}
+40000216 = { # Sanjō-Genji 三条源氏
+	name = "dynn_sanjo-genji"
+	culture = "yamato"
+}
+40000217 = { # Tachibana Clan 橘氏
+	name = "dynn_tachibana"
+	culture = "yamato"
+}
+40000218 = { # Soga Clan 蘇我氏
+	name = "dynn_soga"
+	culture = "yamato"
+}
+40000219 = { # Mononobe Clan 物部氏
+	name = "dynn_mononobe"
+	culture = "yamato"
+}
+40000220 = { # Ki Clan 紀氏
+	name = "dynn_ki"
+	culture = "yamato"
+}
+40000221 = { # Ariwara Clan 在原氏
+	name = "dynn_ariwara"
+	culture = "yamato"
+}
+40000222 = { # Kiyohara Clan 清原氏
+	name = "dynn_kiyohara"
+	culture = "yamato"
+}
+40000223 = { # Sakanoue Clan 坂上氏
+	name = "dynn_sakanoue"
+	culture = "yamato"
+}
+40000224 = { # Kibi Clan 吉備氏
+	name = "dynn_kibi"
+	culture = "yamato"
+}
+40000225 = { # Ōe Clan 大江氏
+	name = "dynn_oe"
+	culture = "yamato"
+}
+40000226 = { # Funya Clan 文室氏
+	name = "dynn_funya"
+	culture = "yamato"
+}
+40000227 = { # Yoshimine Clan 良岑氏
+	name = "dynn_yoshimine"
+	culture = "yamato"
+}
+40000228 = { # Mutsu Ishikawa Clan 陸奥石川氏 [源氏]
+	name = "dynn_mutsuishikawa"
+	culture = "yamato"
+}
+40000229 = { # Chiba Clan 千葉氏 [平氏]
+	name = "dynn_chiba"
+	culture = "yamato"
+}
+40000230 = { # Miura Clan 三浦氏 [平氏]
+	name = "dynn_miura"
+	culture = "yamato"
+}
+40000231 = { # Kamakura Clan 鎌倉氏 [平氏]
+	name = "dynn_kamakura"
+	culture = "yamato"
+}
+40000232 = { #	Nagamine Clan 長岑氏
+	name = "dynn_nagamine"
+	culture = "yamato"
+}
+40000233 = { # Harusumi Clan 春澄氏
+	name = "dynn_harusumi"
+	culture = "yamato"
+}
+40000234 = { # Sugawara Clan 菅原氏
+	name = "dynn_sugawara"
+	culture = "yamato"
+}
+40000235 = { # Shimada Clan 島田氏
+	name = "dynn_shimada"
+	culture = "yamato"
+}
+40000236 = { # Ō Clan 多氏
+	name = "dynn_oo"
+	culture = "yamato"
+}
+40000237 = { # Abe Clan 安倍氏
+	name = "dynn_abe"
+	culture = "yamato"
+}
+40000238 = { # Yoshimichi Clan 善道氏
+	name = "dynn_yoshimichi"
+	culture = "yamato"
+}
+40000239 = { # Miyoshi Clan 三善氏
+	name = "dynn_miyoshi"
+	culture = "yamato"
+}
+40000240 = { # Takashina Clan 高階氏
+	name = "dynn_takashina"
+	culture = "yamato"
+}
+40000241 = { # Ōkasuga Clan 大春日氏
+	name = "dynn_okasuga"
+	culture = "yamato"
+}
+40000242 = { # Ashikaga Clan 足利氏 [源氏]
+	name = "dynn_ashikaga"
+	culture = "yamato"
+}
+40000243 = { # Yamato no Fuhito Clan 和史氏
+	name = "dynn_fuhitoyamato"
+	culture = "yamato"
+}
+40000244 = { # Sugano Clan 菅野氏
+	name = "dynn_sugano"
+	culture = "yamato"
+}
+40000245 = { # Hōjō Clan 北条氏 [平氏]
+	name = "dynn_Hojo"
+	culture = "yamato"
+}
+40000246 = { # Kudō Clan 工藤氏 [藤原]
+	name = "dynn_Kudo"
+	culture = "yamato"
+}
+40000247 = { # Ichijō Clan 一条氏 [藤原]
+	name = "dynn_Ichijo"
+	culture = "yamato"
+}
+40000248 = { # Ono Clan 小野氏
+	name = "dynn_Ono"
+	culture = "yamato"
+}
+40000249 = { # Sasaki Clan 佐々木氏 [源氏]
+	name = "dynn_Sasaki"
+	culture = "yamato"
+}
+40000250 = { # Iwaki Clan 岩城氏 [平氏]
+	name = "dynn_Iwaki"
+	culture = "yamato"
+}
+40000251 = { # Nitta Clan 新田氏 [源氏]
+	name = "dynn_Nitta"
+	culture = "yamato"
+}
+40000252 = { # Nakamura Clan 中村氏 (下野) [藤原]
+	name = "dynn_Nakamura"
+	culture = "yamato"
+}
+40000253 = { # Hatakeyama Clan 畠山氏 [平氏]
+	name = "dynn_Hatakeyama"
+	culture = "yamato"
+}
+40000254 = { # Oyamada Clan 小山田氏 [平氏]
+	name = "dynn_Oyamada"
+	culture = "yamato"
+}
+40000255 = { # Kazusa Clan 上総氏 [平氏]
+	name = "dynn_Kazusa"
+	culture = "yamato"
+}
+40000256 = { # Satake Clan 佐竹氏 [源氏]
+	name = "dynn_Satake"
+	culture = "yamato"
+}
+40000257 = { # Takeda Clan 武田氏 [源氏]
+	name = "dynn_Takeda"
+	culture = "yamato"
+}
+40000258 = { # Jō Clan 城氏 [平氏]
+	name = "dynn_Jou"
+	culture = "yamato"
+}
+40000259 = { # Toki Clan 土岐氏 [源氏]
+	name = "dynn_Toki"
+	culture = "yamato"
+}
+40000260 = { # Shinano Murakami Clan 信濃村上氏 [源氏]
+	name = "dynn_Shinanomurakami"
+	culture = "yamato"
+}
+40000261 = { # Nakahara Clan 中原氏 (木曾)
+	name = "dynn_Kisonakahara"
+	culture = "yamato"
+}
+40000262 = { # Tachibana Clan 橘氏 (伊予)
+	name = "dynn_Iyotachibana"
+	culture = "yamato"
+}
+40000263 = { # Ii Clan 井伊氏 [藤原]
+	name = "dynn_Ii"
+	culture = "yamato"
+}
+40000264 = { # Isaku/Kawabe Clan 伊作・河邊氏 [平氏]
+	name = "dynn_Isaku"
+	culture = "yamato"
+}
+40000265 = { # Kimotsuki Clan 肝付氏
+	name = "dynn_Kimotsuki"
+	culture = "yamato"
+}
+40000266 = { # Tsuchimochi Clan 土持氏
+	name = "dynn_Tsuchimochi"
+	culture = "yamato"
+}
+40000267 = { # Kikuchi Clan 菊池氏 [藤原]
+	name = "dynn_Kikuchi"
+	culture = "yamato"
+}
+40000268 = { # Nanba Clan 難波家 [藤原]
+	name = "dynn_Nanba"
+	culture = "yamato"
+}
+40000269 = { # Minase Clan 水無瀬家 [藤原]
+	name = "dynn_Minase"
+	culture = "yamato"
+}
+40000270 = { # Takagi Clan 肥前高木氏 [藤原]
+	name = "dynn_Hizentakagi"
+	culture = "yamato"
+}
+40000271 = { # Kōno Clan 河野氏
+	name = "dynn_Kono"
+	culture = "yamato"
+}
+40000272 = { # Yuasa Clan 湯浅氏 [藤原]
+	name = "dynn_Yuasa"
+	culture = "yamato"
+}
+40000273 = { # Kujō Clan 九条氏 [藤原]
+	name = "dynn_Kujo"
+	culture = "yamato"
+}
+40000274 = { # Yamamoto Clan 山本氏 [源氏]
+	name = "dynn_Yamamoto"
+	culture = "yamato"
+}
+40000275 = { # Taguchi Clan 田口氏
+	name = "dynn_Taguchi"
+	culture = "yamato"
+}
+40000276 = { # Musashibō Clan 武蔵坊氏
+	name = "dynn_Musashibo"
+	culture = "yamato"
+}
+
+### Korean Dynasties
+
+60000001 = { # Gyeongju Kim Clan 慶州金氏
+	name = "dynn_Gyeongju_Kim"
+	culture = "saro"
+}
+60000002 = { # Miryang Park Clan 推火朴氏
+	name = "dynn_Miryang_Park"
+	culture = "saro"
+}
+60000003 = { # Wolseong Seok Clan 月城昔氏
+	name = "dynn_Wolseong_Seok"
+	culture = "saro"
+}
+60000004 = { # House Buyeo 夫餘氏
+	name = "dynn_Buyeo"
+	culture = "baekje"
+}
+60000005 = { # House Go (Goguryeo) 高氏
+	name = "dynn_Go_Goguryeo"
+	culture = "goguryeo"
+}
+60000006 = { # House Wang 王氏
+	name = "dynn_Wang"
+	culture = "goryeon"
+}
+60000007 = { # House Go (Tamna) 高氏
+	name = "dynn_Go_Tamna"
+	culture = "tamna"
+}
+61000001 = { # House of Dae 大
+	name = "dynn_Tae"
+	culture = "balhae"
+}
+61000002 = { # Placeholder
+	name = "dynn_Zhi"
+	culture = "balhae"
+}
+61000003 = { # Placeholder
+	name = "dynn_Yin"
+	culture = "balhae"
+}
+61000004 = { # Placeholder
+	name = "dynn_Zhang"
+	culture = "balhae"
+}
+61000005 = { # Placeholder
+	name = "dynn_Shou"
+	culture = "balhae"
+}
+61000006 = { # Placeholder
+	name = "dynn_Yangzhi"
+	culture = "balhae"
+}
+61000007 = { # Placeholder
+	name = "dynn_Son"
+	culture = "balhae"
+}
+61000008 = { # Hadong Jeong Clan 河東鄭氏
+	name = "dynn_Hadong_Jeong"
+	culture = "goryeon"
+}
+
+### Vietnamese Dynsaties
+
+50000001 = {
+    name = "dynn_Khuc_vn"
+    culture = "kinh"
+}
+50000002 = {
+    name = "dynn_Hoang_vn"
+    culture = "kinh"
+}
+50000003 = {
+    name = "dynn_Pham_vn"
+    culture = "kinh"
+}
+50000004 = {
+    name = "dynn_Duong_vn"
+    culture = "kinh"
+}
+50000005 = {
+    name = "dynn_Kieu_vn"
+    culture = "kinh"
+}
+50000006 = {
+    name = "dynn_Ngo_vn"
+    culture = "kinh"
+}
+50000007 = {
+    name = "dynn_Ho_vn"
+    culture = "kinh"
+}
+50000008 = {
+    name = "dynn_Le_vn"
+    culture = "kinh"
+}
+50000009 = {
+    name = "dynn_Dinh_vn"
+    culture = "kinh"
+}
+50000010 = {
+    name = "dynn_Ly_vn"
+    culture = "kinh"
+}
+50000011 = {
+    name = "dynn_Tran_vn"
+    culture = "kinh"
+}
+50000012 = {
+    name = "dynn_Luu_vn"
+    culture = "kinh"
+}
+50000013 = {
+     name = "dynn_Bui_vn"
+	 culture = "kinh"
+}
+50000014 = {
+     name = "dynn_Buu_vn"
+	 culture = "kinh"
+}
+50000015 = {
+     name = "dynn_Cheng_vn"
+	 culture = "kinh"
+}
+50000016 = {
+     name = "dynn_Chon_vn"
+	 culture = "kinh"
+}
+50000017 = {
+     name = "dynn_Chuc_vn"
+	 culture = "kinh"
+}
+50000018 = {
+     name = "dynn_Chung_vn"
+	 culture = "kinh"
+}
+50000019 = {
+     name = "dynn_Cu_vn"
+	 culture = "kinh"
+}
+50000020 = {
+     name = "dynn_Cun_vn"
+	 culture = "kinh"
+}
+50000021 = {
+     name = "dynn_Dam_vn"
+	 culture = "kinh"
+}
+50000022 = {
+     name = "dynn_Dang_vn"
+	 culture = "kinh"
+}
+50000023 = {
+     name = "dynn_Danh_vn"
+	 culture = "kinh"
+}
+50000024 = {
+     name = "dynn_Dao_vn"
+	 culture = "kinh"
+}
+50000025 = {
+     name = "dynn_Den_vn"
+	 culture = "kinh"
+}
+50000026 = {
+     name = "dynn_Dich_vn"
+	 culture = "kinh"
+}
+50000027 = {
+     name = "dynn_Diem_vn"
+	 culture = "kinh"
+}
+50000028 = {
+     name = "dynn_Do_vn"
+	 culture = "kinh"
+}
+50000029 = {
+     name = "dynn_Doan_vn"
+	 culture = "kinh"
+}
+50000030 = {
+     name = "dynn_Giang_vn"
+	 culture = "kinh"
+}
+50000031 = {
+     name = "dynn_Giap_vn"
+	 culture = "kinh"
+}
+50000032 = {
+     name = "dynn_Hai_vn"
+	 culture = "kinh"
+}
+50000033 = {
+     name = "dynn_Han_vn"
+	 culture = "kinh"
+}
+50000034 = {
+     name = "dynn_Hanh_vn"
+	 culture = "kinh"
+}
+50000035 = {
+     name = "dynn_Hong_vn"
+	 culture = "kinh"
+}
+50000036 = {
+     name = "dynn_Hua_vn"
+	 culture = "kinh"
+}
+50000037 = {
+     name = "dynn_Huan_vn"
+	 culture = "kinh"
+}
+50000038 = {
+     name = "dynn_Hue_vn"
+	 culture = "kinh"
+}
+50000039 = {
+     name = "dynn_Huu_vn"
+	 culture = "kinh"
+}
+50000040 = {
+     name = "dynn_Huynh_vn"
+	 culture = "kinh"
+}
+50000041 = {
+     name = "dynn_Hy_vn"
+	 culture = "kinh"
+}
+50000042 = {
+     name = "dynn_Ken_vn"
+	 culture = "kinh"
+}
+50000043 = {
+     name = "dynn_Khac_vn"
+	 culture = "kinh"
+}
+50000044 = {
+     name = "dynn_Khuong_vn"
+	 culture = "kinh"
+}
+50000045 = {
+     name = "dynn_Kimi_vn"
+	 culture = "kinh"
+}
+50000046 = {
+     name = "dynn_Kiu_vn"
+	 culture = "kinh"
+}
+50000047 = {
+     name = "dynn_Kuo_vn"
+	 culture = "kinh"
+}
+50000048 = {
+     name = "dynn_Lam_vn"
+	 culture = "kinh"
+}
+50000049 = {
+     name = "dynn_Lan_vn"
+	 culture = "kinh"
+}
+50000050 = {
+     name = "dynn_Le_Thi_vn"
+	 culture = "kinh"
+}
+50000051 = {
+     name = "dynn_Lenh_vn"
+	 culture = "kinh"
+}
+50000052 = {
+     name = "dynn_Li_vn"
+	 culture = "kinh"
+}
+50000053 = {
+     name = "dynn_Lien_vn"
+	 culture = "kinh"
+}
+50000054 = {
+     name = "dynn_Lieu_vn"
+	 culture = "kinh"
+}
+50000055 = {
+     name = "dynn_Lin_vn"
+	 culture = "kinh"
+}
+50000056 = {
+     name = "dynn_Loi_vn"
+	 culture = "kinh"
+}
+50000057 = {
+     name = "dynn_Luong_vn"
+	 culture = "kinh"
+}
+50000058 = {
+     name = "dynn_Luy_vn"
+	 culture = "kinh"
+}
+50000059 = {
+     name = "dynn_Ma_vn"
+	 culture = "kinh"
+}
+50000060 = {
+     name = "dynn_Man_vn"
+	 culture = "kinh"
+}
+50000061 = {
+     name = "dynn_Mom_vn"
+	 culture = "kinh"
+}
+50000062 = {
+     name = "dynn_My_vn"
+	 culture = "kinh"
+}
+50000063 = {
+     name = "dynn_Ngan_vn"
+	 culture = "kinh"
+}
+50000064 = {
+     name = "dynn_Nghi_vn"
+	 culture = "kinh"
+}
+50000065 = {
+     name = "dynn_Nghiem_vn"
+	 culture = "kinh"
+}
+50000066 = {
+     name = "dynn_Nguyen_vn"
+	 culture = "kinh"
+}
+50000067 = {
+     name = "dynn_Nhung_vn"
+	 culture = "kinh"
+}
+50000068 = {
+     name = "dynn_Ninh_vn"
+	 culture = "kinh"
+}
+50000069 = {
+     name = "dynn_Nong_vn"
+	 culture = "kinh"
+}
+50000070 = {
+     name = "dynn_Ong_vn"
+	 culture = "kinh"
+}
+50000071 = {
+     name = "dynn_Phi_vn"
+	 culture = "kinh"
+}
+50000072 = {
+     name = "dynn_Phong_vn"
+	 culture = "kinh"
+}
+50000073 = {
+     name = "dynn_Phuong_vn"
+	 culture = "kinh"
+}
+50000074 = {
+     name = "dynn_Qu_vn"
+	 culture = "kinh"
+}
+50000075 = {
+     name = "dynn_Qui_vn"
+	 culture = "kinh"
+}
+50000076 = {
+     name = "dynn_Quy_vn"
+	 culture = "kinh"
+}
+50000077 = {
+     name = "dynn_Sa_vn"
+	 culture = "kinh"
+}
+50000078 = {
+     name = "dynn_Sam_vn"
+	 culture = "kinh"
+}
+50000079 = {
+     name = "dynn_Tang_vn"
+	 culture = "kinh"
+}
+50000080 = {
+     name = "dynn_Tanh_vn"
+	 culture = "kinh"
+}
+50000081 = {
+     name = "dynn_Tat_vn"
+	 culture = "kinh"
+}
+50000082 = {
+     name = "dynn_Thi_vn"
+	 culture = "kinh"
+}
+50000083 = {
+     name = "dynn_Thich_vn"
+	 culture = "kinh"
+}
+50000084 = {
+     name = "dynn_Toan_vn"
+	 culture = "kinh"
+}
+50000085 = {
+     name = "dynn_Ton_vn"
+	 culture = "kinh"
+}
+50000086 = {
+     name = "dynn_Tong_vn"
+	 culture = "kinh"
+}
+50000087 = {
+     name = "dynn_Tonthat_vn"
+	 culture = "kinh"
+}
+50000088 = {
+     name = "dynn_Tra_vn"
+	 culture = "kinh"
+}
+50000089 = {
+     name = "dynn_Trac_vn"
+	 culture = "kinh"
+}
+50000090 = {
+     name = "dynn_Trannguyen_vn"
+	 culture = "kinh"
+}
+50000091 = {
+     name = "dynn_Trung_vn"
+	 culture = "kinh"
+}
+50000092 = {
+     name = "dynn_Truong_vn"
+	 culture = "kinh"
+}
+50000093 = {
+     name = "dynn_Tuong_vn"
+	 culture = "kinh"
+}
+50000094 = {
+     name = "dynn_Uo_vn"
+	 culture = "kinh"
+}
+50000095 = {
+     name = "dynn_Van_vn"
+	 culture = "kinh"
+}
+50000096 = {
+     name = "dynn_Vi_vn"
+	 culture = "kinh"
+}
+50000097 = {
+     name = "dynn_Vinh_vn"
+	 culture = "kinh"
+}
+50000098 = {
+     name = "dynn_Vo_vn"
+	 culture = "kinh"
+}
+50000099 = {
+     name = "dynn_Vu_vn"
+	 culture = "kinh"
+}
+50000100 = {
+     name = "dynn_Xa_vn"
+	 culture = "kinh"
+}
+50000101 = {
+     name = "dynn_Xuan_vn"
+	 culture = "kinh"
+}
+50000102 = {
+     name = "dynn_Yen_vn"
+	 culture = "kinh"
+}
+50000103 = {
+     name = "dynn_Hau_vn"
+	 culture = "kinh"
+}
+
+### Mường Dynasties
+50000104 = {
+    name = "dynn_Phan_vn"
+    culture = "muong"
+}
+50000105 = {
+    name = "dynn_Chu_vn"
+    culture = "muong"
+}
+50000106 = {
+    name = "dynn_Vo__vn"
+    culture = "muong"
+}
+50000107 = {
+    name = "dynn_Mai_vn"
+    culture = "muong"
+}
+50000108 = {
+    name = "dynn_Quach_vn"
+    culture = "muong"
+}
+50000109 = {
+    name = "dynn_Trinh_vn"
+    culture = "muong"
+}
+
+### Thổ Dynasties
+50000110 = {
+    name = "dynn_Chu_vn"
+    culture = "tho"
+}

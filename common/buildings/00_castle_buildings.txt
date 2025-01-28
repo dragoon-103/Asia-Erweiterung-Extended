@@ -10,10 +10,8 @@
 @holding_illustration_china = "gfx/interface/illustrations/holding_types/castle_china.dds"
 @holding_illustration_korea = "gfx/interface/illustrations/holding_types/castle_korea.dds"
 @holding_illustration_japan = "gfx/interface/illustrations/holding_types/castle_japan.dds"
-@holding_illustration_eastern_siberia = "gfx/interface/illustrations/holding_types/castle_eastern_siberia.dds"
 @holding_illustration_tibet = "gfx/interface/illustrations/holding_types/castle_tibet.dds"
 @holding_illustration_southeast_asia = "gfx/interface/illustrations/holding_types/castle_southeast_asia.dds"
-@holding_illustration_papua = "gfx/interface/illustrations/holding_types/castle_papua.dds"
 
 castle_01 = {
 	construction_time = slow_construction_time
@@ -166,42 +164,6 @@ castle_01 = {
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-
-	### Eastern Siberian ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mena_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mediterranean_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_indian_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
 	
 	### Tibetan ###
 	asset = {
@@ -272,42 +234,6 @@ castle_01 = {
 		illustration = @holding_illustration_southeast_asia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { southeast_asian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-
-	### Papuan ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mena_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_mediterranean_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_01_indian_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 
@@ -808,42 +734,6 @@ castle_02 = {
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-
-	### Eastern Siberian ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mena_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mediterranean_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_indian_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
 	
 	### Tibetan ###
 	asset = {
@@ -914,42 +804,6 @@ castle_02 = {
 		illustration = @holding_illustration_southeast_asia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { southeast_asian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-
-	### Papuan ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mena_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_mediterranean_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_02_indian_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 
@@ -1433,42 +1287,6 @@ castle_03 = {
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-
-	### Eastern Siberian ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mena_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mediterranean_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_indian_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
 	
 	### Tibetan ###
 	asset = {
@@ -1539,42 +1357,6 @@ castle_03 = {
 		illustration = @holding_illustration_southeast_asia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { southeast_asian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-
-	### Papuan ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mena_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_mediterranean_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_03_indian_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 
@@ -2049,42 +1831,6 @@ castle_04 = {
 		graphical_cultures = { japanese_building_gfx }
 		graphical_regions = { graphical_india }
 	}
-
-	### Eastern Siberian ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mena_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mediterranean_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_indian_mesh"
-		illustration = @holding_illustration_eastern_siberia
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { eastern_siberian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
 	
 	### Tibetan ###
 	asset = {
@@ -2155,42 +1901,6 @@ castle_04 = {
 		illustration = @holding_illustration_southeast_asia
 		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
 		graphical_cultures = { southeast_asian_building_gfx }
-		graphical_regions = { graphical_india }
-	}
-
-	### Papuan ###
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mena_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mena }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_mediterranean_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
-		graphical_regions = { graphical_mediterranean }
-	}
-	
-	asset = {
-		type = pdxmesh
-		name = "fp1_building_norse_castle_04_indian_mesh"
-		illustration = @holding_illustration_papua
-		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/Castle/indian_castle" soundparameter = { "Tier" = 0 } }
-		graphical_cultures = { papuan_building_gfx }
 		graphical_regions = { graphical_india }
 	}
 

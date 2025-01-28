@@ -3,12 +3,12 @@
 
 [<img src="http://i.imgur.com/lxbhH1q.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958)
 
-AEP: **Beta 0.7.1**
-MP Checksum for 1.13.* (Basileus): **b05b**
+AEP: **Beta 0.9**
+MP Checksum for 1.13.* (Basileus): **6747**
 
 ***The Asia Expansion Project (AEP)*** is a mod that expands the world of *Crusader Kings III* by extending the game’s map to include the vast expanse of the Far East. From the rugged Manchurian frontier in the north to the western edges of Papua in the south, AEP offers players an expansive and immersive world to explore.
 
-AEP's hallmark lies in its meticulous attention to detail and historical accuracy, faithfully depicting the realms, cultures, characters, and religions of the Far East. The mod also aims to introduce new events, decisions, and challenges, providing fresh and engaging gameplay that will greatly enhance your CKIII experience.
+AEP's hallmark lies in its meticulous attention to detail and historical accuracy, faithfully depicting the realms, cultures, characters, and religions of the Far East. The mod also aims to introduce new events, decisions, and challenges, providing fresh and engaging gameplay that will greatly enhance your CK3 experience.
 
 [**Available on Steam Workshop**](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958)
 
@@ -34,7 +34,7 @@ For those wanting a playlist of mods known to work well with AEP be sure to chec
 
 [<img src="http://i.imgur.com/u31PjJx.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958)  [<img src="http://i.imgur.com/HIvUOyr.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958)
 
-The Asia Expansion Project offers comprehensive support for Chinese, Korean, English, German, Spanish, French, and Russian languages. Help is always wanted, and anyone desiring to lend their support is welcome to contact us using the project's [Discord Page](https://discord.gg/PHuf3HE6).
+The Asia Expansion Project offers comprehensive support for Chinese, Korean, English, German, Spanish, French, and Russian languages, with partial support for Polish as well. Help is always wanted regarding localization, and anyone desiring to lend their support is welcome to contact us using the project's [Discord Page](https://discord.gg/PHuf3HE6).
 
 [<img src="http://i.imgur.com/qiK70SF.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958)
 
@@ -82,20 +82,6 @@ In rare instances, the problem may arise from corrupted or missing game files in
 **A:** We always welcome help on the project. If you're interested, please consider reaching out to us on our [Discord Server](https://discord.gg/PHuf3HE6).
 
 **For more frequently asked questions be sure to swing by the** [AEP Community Discord Page](https://discord.gg/PHuf3HE6)
-
-[<img src="http://i.imgur.com/j1zaAoN.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958)
-
-In upcoming releases of the mod, players can look forward to a plethora of new content planned. Here's a preview of some of what's in store: </br>
- * Mandalay, Nomadic, and unique Chinese and Japanese Administrative Government Types 
- * Mandate of Heaven struggle mechanic and event chain for the collapse of Chinese Dynasties
- * Event chain for better illustrating the decline of Unified Silla
- * Event chain for the decline of Centralized Authority in Japan and the rise of the Samurai 
- * Decisions for creating a new Shogunate or restoring Direct Imperial Rule to Japan 
- * Decision to create Dai-Viet for Vietnamese rulers
- * Decisions for Tai rulers allowing them to establish Thai Kingdoms to the south.
- * Overhaul of religions, cultures, and polities in Southeast Asian
- * Special invasion causus belli against China for the Mongol Empire including a decision to form the Yuan Dynasty
- * More clothing variants for characters
 
 [<img src="http://i.imgur.com/5D2Jt08.png">](https://steamcommunity.com/sharedfiles/filedetails/?id=2970440958) </br>
  * [The Oriental Empires Team](https://steamcommunity.com/sharedfiles/filedetails/?id=2506311074) for providing the original idea and concept for the Asia Expansion Mod.

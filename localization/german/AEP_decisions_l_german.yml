@@ -1,0 +1,18 @@
+﻿l_german:
+#Japanese Decisions
+ form_kamakura_bakufu_decision:0 "Das Kamakura-Shōgunat etablieren"
+ form_kamakura_bakufu_decision_confirm:0 "Iza Kamakura!"
+ form_kamakura_bakufu_decision_desc:0 "Mit unseren Feinden in Trümmern und dem Einfluss des Kaiserhofs stark geschwächt, ist der Moment reif für die Minamoto, eine neue Ordnung zu etablieren.\n\nDurch das Dekret des Kaisers werde ich ein neues Zeitalter einleiten, in dem Harmonie durch die Macht der Samurai gesichert wird, mit dem Shōgun als dem wahren Herrscher Japans."
+ form_kamakura_bakufu_decision_tooltip:0 "Das Kamakura-Shōgunat wird etabliert."
+ 
+ form_fukuhara_bakufu_decision:0 "Das Fukuhara-Shōgunat etablieren"
+ form_fukuhara_bakufu_decision_confirm:0 "Iza Fukuhara!"
+ form_fukuhara_bakufu_decision_desc:0 "Mit unseren Feinden in Trümmern und dem Einfluss des Kaiserhofs stark geschwächt, ist der Moment reif für die Taira, eine neue Ordnung zu etablieren.\n\nDurch das Dekret des Kaisers werde ich ein neues Zeitalter einleiten, in dem Harmonie durch die Macht der Samurai gesichert wird, mit dem Shōgun als dem wahren Herrscher Japans."
+ form_fukuhara_bakufu_decision_tooltip:0 "Das Fukuhara-Shōgunat wird etabliert."
+ 
+ form_muromachi_bakufu_decision:0 "Das Muromachi-Shōgunat etablieren"
+ form_muromachi_bakufu_decision_confirm:0 "Iza Muromachi!"
+ form_muromachi_bakufu_decision_desc:0 "Mit unseren Feinden in Trümmern und dem Einfluss des Kaiserhofs stark geschwächt, ist der Moment reif für die Ashikaga, eine neue Ordnung zu etablieren.\n\nDurch das Dekret des Kaisers werde ich ein neues Zeitalter einleiten, in dem Harmonie durch die Macht der Samurai gesichert wird, mit dem Shōgun als dem wahren Herrscher Japans."
+ form_muromachi_bakufu_decision_tooltip:0 "Das Muromachi-Shōgunat wird etabliert."
+ 
+ ritsuryo_dismantled_tt:0 "Das Ritsuryō-System wird abgeschafft und alle nicht-kaiserlichen [administrative|E] Vasallen werden zu [feudal|E]."

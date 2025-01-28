@@ -1,0 +1,78 @@
+﻿tujia = {
+	color = { 150 110 193 }
+		
+	ethos = ethos_courtly
+	heritage = heritage_loloish
+	language = language_tujia
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_agrarian
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_yi
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_tibetan
+	}
+}
+	
+hani = {
+	color = { 132 69 198 }
+
+	ethos = ethos_courtly
+	heritage = heritage_loloish
+	language = language_hani
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_agrarian
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_hani
+	
+	coa_gfx = { burman_group_coa_gfx }
+	building_gfx = { southeast_asian_building_gfx }
+	clothing_gfx = { southeast_asian_clothing_gfx }
+	unit_gfx = { indian_unit_gfx }
+	
+	ethnicities = {
+		10 = sea_mainland_mon
+	}
+}
+	
+wuman = { 
+	color = { 130 90 173 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_loloish
+	language = language_loloish
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_luojuzi
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_agrarian
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_yi
+	
+	coa_gfx = { chinese_group_coa_gfx }
+	building_gfx = { chinese_building_gfx }
+	clothing_gfx = { chinese_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_tibetan
+	}
+}

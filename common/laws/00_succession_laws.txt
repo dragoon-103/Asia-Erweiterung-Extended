@@ -197,7 +197,10 @@
 			AND = {
 				OR = {
 					NOT = { government_allows = administrative }
-					culture = { has_innovation = innovation_centralization_of_authority }
+					AND = {
+						culture = { has_innovation = innovation_sinitic_bureaucracy }
+						is_independent_ruler = yes
+					}
 				}
 			}
 		}
@@ -240,7 +243,10 @@
 		potential = {
 			OR = {
 				NOT = { government_has_flag = government_is_administrative }
-				culture = { has_innovation = innovation_centralization_of_authority }
+				AND = {
+					culture = { has_innovation = innovation_sinitic_bureaucracy }
+					is_independent_ruler = yes
+				}
 			}
 		}
 	}
@@ -925,7 +931,6 @@ succession_gender_laws = {
 					has_doctrine = doctrine_gender_male_dominated
 					religion_tag = islam_religion
 					religion_tag = confucianism_religion
-					religion_tag = japonic_religion
 				}
 			}
 		}
@@ -997,7 +1002,6 @@ succession_gender_laws = {
 						NOT = {
 							religion_tag = islam_religion
 							religion_tag = confucianism_religion
-							religion_tag = japonic_religion
 						}
 						has_doctrine = doctrine_gender_male_dominated
 					}

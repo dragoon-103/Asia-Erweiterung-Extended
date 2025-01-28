@@ -1,4 +1,21 @@
-﻿l_english: 
+l_english:
+ form_kamakura_bakufu_decision:0 "Establish the Kamakura Shōgunate"
+ form_kamakura_bakufu_decision_confirm:0 "Iza Kamakura!"
+ form_kamakura_bakufu_decision_desc:0 "With our enemies in ruins and the Imperial Court's influence thoroughly diminished, the moment is ripe for the Minamoto to establish a new order.\n\nBy the Emperor's decree, I shall usher in a new age where harmony is secured through the might of the samurai, with the Shōgun as the true ruler of Japan."
+ form_kamakura_bakufu_decision_tooltip:0 "The Kamakura Shōgunate will be established."
+ 
+ form_fukuhara_bakufu_decision:0 "Establish the Fukuhara Shōgunate"
+ form_fukuhara_bakufu_decision_confirm:0 "Iza Fukuhara!"
+ form_fukuhara_bakufu_decision_desc:0 "With our enemies in ruins and the Imperial Court's influence thoroughly diminished, the moment is ripe for the Taira to establish a new order.\n\nBy the Emperor's decree, I shall usher in a new age where harmony is secured through the might of the samurai, with the Shōgun as the true ruler of Japan."
+ form_fukuhara_bakufu_decision_tooltip:0 "The Fukuhara Shōgunate will be established."
+ 
+ form_muromachi_bakufu_decision:0 "Establish the Muromachi Shōgunate"
+ form_muromachi_bakufu_decision_confirm:0 "Iza Muromachi!"
+ form_muromachi_bakufu_decision_desc:0 "With our enemies in ruins and the Imperial Court's influence thoroughly diminished, the moment is ripe for the Ashikaga Clan to establish a new order.\n\nBy the Emperor's decree, I shall usher in a new age where harmony is secured through the might of the samurai, with the Shōgun as the true ruler of Japan."
+ form_muromachi_bakufu_decision_tooltip:0 "The Muromachi Shōgunate will be established."
+ 
+ ritsuryo_dismantled_tt:0 "The Ritsuryō System will be abolished and all non-Imperial [administrative|E] vassals will convert to [feudal|E]."
+ 
  establish_east_asia_silk_production_decision: "Establish Silk Production"
 
  # China flavor
@@ -23,4 +40,3 @@
  mandate_of_heaven_barbarian_ending_decision_confirm:0 "$mandate_of_heaven_chinese_ending_decision_confirm$"
 
  mandate_of_heaven_struggle_form_china_title_tt:0 "The dynasty begins..."
- 

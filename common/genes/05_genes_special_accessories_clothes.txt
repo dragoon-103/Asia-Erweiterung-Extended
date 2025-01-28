@@ -2928,7 +2928,7 @@
 				}
 
 				female = {
-					1 = f_clothes_sec_mena_war_nob_01_hi
+					1 = f_clothes_sec_ep2_steppe_war_nob_01_hi
 				}
 				boy = male
 				girl = female

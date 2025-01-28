@@ -10,6 +10,10 @@
  hmong_adherent:0 "苗教徒"
  hmong_adherent_plural:0 "苗教徒"
  hmong_religion_desc:0 "苗族是中国南部各个苗族信仰的本土宗教，其核心信仰是相信世界上存在着可以通过萨满教占卜和祈求的神灵。苗族非常注重对祖先精神的崇敬，他们会在家庭祭坛上摆放供品，或参与巫师或家族族长主持的仪式。"
+ hmong_old:0 "旧苗教"
+ hmong_old_adj:0 "旧苗教"
+ hmong_old_adherent:0 "旧苗教徒"
+ hmong_old_adherent_plural:0 "旧苗教徒"
  
  hmongism_high_god_name:0 "Yawm Saub"
  hmongism_high_god_name_possessive:0 "Yawm Saub's"

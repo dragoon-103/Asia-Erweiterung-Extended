@@ -1,0 +1,41 @@
+﻿#### Local Types ####
+@sinitic_bureaucracy = "gfx/interface/icons/culture_innovations/innovation_sinitic_bureaucracy.dds"
+@outrigger_boats = "gfx/interface/icons/culture_innovations/innovation_outrigger_boats.dds"
+
+innovation_sinitic_bureaucracy = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_innovation_sinosphere
+	icon = @sinitic_bureaucracy
+
+	unlock_law = single_heir_succession_law
+	unlock_law = crown_authority_2
+	unlock_law = crown_authority_3
+
+	character_modifier = {
+		monthly_influence_mult = 0.1
+		development_growth_factor = 0.1
+		cultural_head_fascination_mult = 0.1
+	}
+	
+	flag = global_regional
+	flag = tribal_era_regional
+}
+
+innovation_outrigger_boats = {
+	group = culture_group_regional
+	culture_era = culture_era_tribal
+	region = world_innovation_outrigger_boats
+	icon = @outrigger_boats
+
+	custom = unlocks_naval_raiding
+	custom = unlocks_sailable_major_rivers
+
+	character_modifier = {
+		embarkation_cost_mult = -0.90
+		naval_movement_speed_mult = 0.10
+	}
+
+	flag = global_regional
+	flag = tribal_era_regional
+}

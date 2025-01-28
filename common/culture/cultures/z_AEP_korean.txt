@@ -1,0 +1,194 @@
+﻿# goguryeo - central and northern Korea
+goguryeo = {
+	color = { 0 206 167 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_korean
+	language = language_goguryeo
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_gaemamusa
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_castle_keepers
+		tradition_stalwart_defenders
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { korean_building_gfx }
+	clothing_gfx = { korean_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}
+# Koreanic elite from Goguryeo that ruled the northern state of Balhae
+balhae = {
+	color = { 160 160 134 }
+	created = 698.1.1
+	parents = { goguryeo mohese }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_korean
+	language = language_goguryeo
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_ruling_caste
+		tradition_chinese_characters
+		tradition_sacred_hunts
+	}
+	
+	dlc_tradition = {
+		trait = tradition_malleable_invaders
+		requires_dlc_flag = hybridize_culture
+	}
+	
+	name_list = name_list_korean
+
+	coa_gfx = { steppe_coa_gfx } 
+	building_gfx = { korean_building_gfx } 
+	clothing_gfx = { korean_clothing_gfx mongol_clothing_gfx } 
+	unit_gfx = { mongol_unit_gfx } 		
+
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}
+# Korean during Goryeo - from previous Koreanic cultures (for ingame purposes from Goguryeo and Silla)
+goryeon = {
+	color = { 19 137 228 }
+	
+	created = 918.7.25
+	parents = { goguryeo saro }
+	
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_astute_diplomats
+		tradition_castle_keepers
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { korean_building_gfx }
+	clothing_gfx = { korean_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}
+# silla
+saro = { # Saro
+	color = { 86 215 155 }
+
+	ethos = ethos_spiritual
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hwarang
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_castle_keepers
+		tradition_isolationist
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { korean_building_gfx }
+	clothing_gfx = { korean_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}
+# baekje
+baekje = {
+	color = { 9 175 126 }
+			
+	ethos = ethos_courtly
+	heritage = heritage_korean
+	language = language_korean
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mystical_ancestors
+		tradition_chinese_characters
+		tradition_agrarian
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { korean_building_gfx }
+	clothing_gfx = { korean_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}
+# jeju
+tamna = {
+	color = { 89 255 206 }
+	
+	ethos = ethos_communal
+	heritage = heritage_korean
+	language = language_tamnanese # Japonic Subgroup https://www.academia.edu/6360018/From_Koguryo_to_Tamna
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_family_entrepreneurship
+		tradition_mystical_ancestors
+		tradition_fishermen
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { korean_building_gfx }
+	clothing_gfx = { korean_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}
+# yemaek
+yemaek = {
+	color = { 85 187 191 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_korean
+	language = language_yemaek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sacred_mountains
+		tradition_sacred_groves
+		tradition_forest_folk
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_korean
+	
+	coa_gfx = { steppe_coa_gfx }
+	building_gfx = { korean_building_gfx }
+	clothing_gfx = { mongol_clothing_gfx }
+	unit_gfx = { mongol_unit_gfx }
+	
+	ethnicities = {
+		10 = east_asian_korean
+	}
+}

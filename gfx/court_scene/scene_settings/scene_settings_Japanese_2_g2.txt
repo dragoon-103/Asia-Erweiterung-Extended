@@ -1,5 +1,5 @@
 name="Japanese_2_g2"
-culture="japanese"
+culture="yamato"
 visual_culture_level=2
 cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
 environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"
@@ -47,9 +47,9 @@ camera={ {
  {
 		description="Throne View"
 		fov=50.000000
-		position={ 80.000000 175.000000 275.000000 }
-		pitch=12.000000
-		yaw=-24.000000
+		position={ 0.000000 150.000000 400.000000 }
+		pitch=8.000000
+		yaw=180.000000
 		camera_near_far={ 70.000000 2570.000000 }
 		is_camera_used_for_screenshots=yes
 		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
@@ -229,9 +229,9 @@ camera={ {
  {
 		description="artifact_throne_1"
 		fov=50.000000
-		position={ 80.000000 175.000000 275.000000 }
-		pitch=12.000000
-		yaw=-24.000000
+		position={ 118.800003 140.000000 310.800018 }
+		pitch=8.000000
+		yaw=-17.000000
 		camera_near_far={ 70.000000 2570.000000 }
 	}
  {
@@ -515,6 +515,8 @@ camera={ {
 	}
  }
 default_camera=0
+shadows_fade=1000.000000
+shadows_strength=1.000000
 lights={ {
 		description="Back light 1"
 		light={
@@ -527,7 +529,7 @@ lights={ {
 			pitch=90.000000
 			yaw=0.000000
 			color={ 1.000000 0.553223 0.285156 }
-			type=disc_light
+			type="disc_light"
 		}
 
 		shadow_camera={
@@ -555,7 +557,7 @@ lights={ {
 			intensity_variation=27.000000
 			intensity_variation_frequency=54.000000
 			animation=yes
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -578,7 +580,7 @@ lights={ {
 			pitch=0.000000
 			yaw=0.000000
 			color={ 1.000000 0.941116 0.867187 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -601,7 +603,7 @@ lights={ {
 			pitch=0.000000
 			yaw=0.000000
 			color={ 0.839844 0.657667 0.428944 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -624,7 +626,7 @@ lights={ {
 			pitch=0.000000
 			yaw=0.000000
 			color={ 0.957031 0.790871 0.582256 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -647,7 +649,7 @@ lights={ {
 			pitch=0.000000
 			yaw=0.000000
 			color={ 0.839844 0.657667 0.428944 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -670,7 +672,7 @@ lights={ {
 			pitch=0.000000
 			yaw=-36.000000
 			color={ 0.971680 0.775612 0.311241 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -693,7 +695,7 @@ lights={ {
 			pitch=0.000000
 			yaw=-36.000000
 			color={ 0.971680 0.775612 0.311241 }
-			type=point_light
+			type="point_light"
 		}
 
 		shadow_camera={
@@ -706,6 +708,7 @@ lights={ {
 	}
  }
 characters={ {
+		position={ 0.000000 25.000000 0.000000 }
 		locator="Ruler"
 		description="Ruler"
 		camera="Throne View"
@@ -829,6 +832,8 @@ characters={ {
 		roles={ inspired_person antiquarian jester poet flirty_flirts family low_prio_lone_courtier }
 	}
  {
+		position = { 0.000000 0.000000 362.000000 }
+		rotation = { 180.000000 10.000000 180.000000 }
 		locator="character_petitioner_kneeling"
 		description="Petitioner Kneeling"
 		roles={ kneeling }
@@ -1318,19 +1323,19 @@ artifacts={ {
 	}
  {
 		locator="artifact_wall_small_1"
-		position={ -254.600006 405.998993 553.101990 }
+		position={ -254.600006 405.998993 550.000000 }
 		direction=0.000010
 		slot="wall_small_1"
 	}
  {
 		locator="artifact_wall_small_2"
-		position={ 254.600006 405.998993 553.101990 }
+		position={ 254.600006 405.998993 550.000000 }
 		direction=0.000010
 		slot="wall_small_2"
 	}
  {
 		locator="artifact_wall_small_3"
-		position={ 0.000000 405.998993 553.101990 }
+		position={ 0.000000 405.998993 550.000000 }
 		slot="wall_small_3"
 	}
  {
@@ -1361,95 +1366,6 @@ artifacts={ {
 		locator="artifact_sculpture_2"
 		position={ 524.799988 15.100000 729.999939 }
 		direction=90.000000
-		slot="sculpture_2"
-	}
- {
-		locator="artifact_pedestal_locator_1"
-		position={ -190.000000 0.000000 360.000000 }
-		direction=182.000000
-		slot="pedestal_1"
-	}
- {
-		locator="artifact_pedestal_locator_2"
-		position={ 190.000000 0.000000 360.000000 }
-		direction=1.000000
-		slot="pedestal_2"
-	}
- {
-		locator="artifact_pedestal_locator_3"
-		position={ -190.000000 0.000000 100.000000 }
-		direction=178.000000
-		slot="pedestal_3"
-	}
- {
-		locator="artifact_pedestal_locator_4"
-		position={ 190.000000 0.000000 100.000000 }
-		slot="pedestal_4"
-	}
- }
-		locator="artifact_wall_large_1"
-		position={ -870.000000 300.000000 665.000000 }
-		direction=-90.000000
-		slot="wall_big_1"
-	}
- {
-		locator="artifact_wall_large_2"
-		position={ 870.000000 300.000000 665.000000 }
-		direction=90.000000
-		slot="wall_big_2"
-	}
- {
-		locator="artifact_wall_large_3"
-		position={ 0.000000 330.000000 995.000000 }
-		direction=0.000010
-		slot="wall_big_3"
-	}
- {
-		locator="artifact_wall_small_1"
-		position={ -300.000000 330.000000 995.000000 }
-		direction=0.000010
-		slot="wall_small_1"
-	}
- {
-		locator="artifact_wall_small_2"
-		position={ 300.000000 330.000000 995.000000 }
-		direction=0.000010
-		slot="wall_small_2"
-	}
- {
-		locator="artifact_wall_small_3"
-		position={ -870.000000 300.000000 375.000000 }
-		direction=-90.000000
-		slot="wall_small_3"
-	}
- {
-		locator="artifact_bookshelf_1"
-		position={ -550.000061 2.000000 -37.999939 }
-		direction=0.000010
-		slot="lectern_1"
-	}
- {
-		locator="artifact_bookshelf_2"
-		position={ -539.999939 2.000000 472.000061 }
-		direction=0.000010
-		slot="lectern_2"
-	}
- {
-		locator="artifact_throne_1"
-		position={ 0.000058 0.000000 660.000000 }
-		direction=0.000010
-		slot="throne"
-	}
- {
-		locator="artifact_sculpture_1"
-		position={ -418.999939 0.000000 751.000061 }
-		direction=0.000010
-		slot="sculpture_1"
-	}
- {
-		locator="artifact_sculpture_2"
-		position={ 419.000061 0.000000 729.999939 }
-		direction=0.000010
 		slot="sculpture_2"
 	}
  {

@@ -52,7 +52,9 @@
  river_gan_yujue:0 "Gan"
  river_urja:0 "Urja"
  river_wangji:0 "Wangji"
+ river_red_river:0 "Red River"
  river_chao_phraya:0 "Chao Phraya"
+ river_tanintharyi:0 "Tanintharyi River"
  river_yangtze:0 "Yangtze"
  river_yellow_river:0 "Yellow River"
  river_mekong:0 "Mekong"
@@ -62,6 +64,7 @@
  river_bahan:0 "Bahan"
  river_kayan:0 "Kayan"
  river_amur:0 "Amur"
+ river_pearl_river:0 "Pearl River"
  
  # SEA ZONES
  sea_east_china_sea:0 "East China Sea"

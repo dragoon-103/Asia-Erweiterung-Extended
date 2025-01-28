@@ -1,0 +1,55 @@
+﻿can_have_high_partition_succession_law_trigger = {
+	trigger_if = {
+		limit = {
+			NOT = { 
+				culture = { has_innovation = innovation_sinitic_bureaucracy }
+				culture = { has_cultural_parameter = can_enact_high_partition_succession_law }
+			}
+		}
+		culture = { has_innovation = innovation_heraldry }
+	}
+	custom_description = {
+		text = succession_laws_must_have_organised_government_tooltip
+		OR = {
+			government_has_flag = government_is_feudal
+		}
+	}
+}
+
+can_have_single_heir_succession_law_trigger = {
+	trigger_if = {
+		limit = {
+			NOT = { 
+				culture = { has_innovation = innovation_sinitic_bureaucracy }
+			}
+		}
+		culture = { has_innovation = innovation_primogeniture }
+	}
+	# Non-tribals only
+	custom_description = {
+		text = succession_laws_must_have_organised_government_tooltip
+		OR = {
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_clan
+		}
+	}
+	#NOT = { government_allows = administrative }
+}
+
+can_pass_law_ca2_trigger = {
+	culture = {
+		OR = {
+			has_innovation = innovation_royal_prerogative
+			has_innovation = innovation_sinitic_bureaucracy
+		}
+	}
+}
+
+can_pass_law_ca3_trigger = {
+	culture = {
+		OR = {
+			has_innovation = innovation_royal_prerogative
+			has_innovation = innovation_sinitic_bureaucracy
+		}
+	}
+}

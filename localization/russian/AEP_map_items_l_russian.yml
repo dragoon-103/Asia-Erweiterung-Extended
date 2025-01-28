@@ -1,5 +1,5 @@
 ﻿l_russian:
-  # LAKES 
+ # LAKES 
  lake_liangshanpo: "Ляншаньпо" 
  lake_inle: "Инле" 
  lake_tonle_sap: "Тонле Сап" 
@@ -31,7 +31,7 @@
  lake_mashu: "Масшу" 
  lake_saroma: "Сарома" 
   
-  # MAJOR RIVERS 
+ # MAJOR RIVERS 
  river_muleng: "Муленг" 
  river_bijin: "Биджин" 
  river_lalin: "Лалин" 
@@ -52,7 +52,9 @@
  river_gan_yujue: "Гань" 
  river_urja: "Урья" 
  river_wangji: "Вангджи" 
+ river_red_river: "Хонгха" 
  river_chao_phraya: "Чаупхрая" 
+ river_tanintharyi: "Танинтайи река" 
  river_yangtze: "Янцзы" 
  river_yellow_river: "Желтая река" 
  river_mekong: "Меконг" 
@@ -62,8 +64,9 @@
  river_bahan: "Бахан" 
  river_kayan: "Каян" 
  river_amur: "Амур"
+ river_pearl_river: "Чжуцзян" 
   
-  # SEA ZONES 
+ # SEA ZONES 
  sea_east_china_sea: "Восточно-Китайское море" 
  sea_south_china_sea: "Южно-Китайское море" 
  sea_bohai_sea: "Бохайское море" 

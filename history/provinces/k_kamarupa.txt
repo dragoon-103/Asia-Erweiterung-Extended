@@ -272,7 +272,7 @@
 	culture = khasi # Modded
 	religion = wa_animism # Modded
 	
-	holding = castle_holding
+	holding = tribal_holding
 	
 	# History
 

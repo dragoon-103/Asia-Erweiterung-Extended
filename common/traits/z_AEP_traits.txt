@@ -1,0 +1,25 @@
+﻿onnamusha = {
+	
+	category = fame
+	martial = 3
+	prowess = 3
+	
+	same_opinion = 10
+
+	ruler_designer_cost = 40
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_onnamusha_desc
+			}
+			desc = trait_onnamusha_character_desc
+		}
+	}
+
+	ai_boldness = 30
+	ai_energy = 30
+}

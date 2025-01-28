@@ -3280,6 +3280,85 @@ on_game_start_after_lobby = {
 					add_realm_law_skip_effects = camp_purpose_mercenaries
 				}
 			}
+			### AEP LAAMP Setup ###
+			## Minamoto no Yoshinaka
+			character:kawachiminamoto_yoshinaka ?= {
+				if = {
+					limit = { is_alive = yes }
+					add_realm_law_skip_effects = camp_purpose_wanderers
+					if = {
+						limit = {
+							character:kisonakahara_kaneto_musume = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoshinaka }
+							}
+						}
+						add_courtier = character:kisonakahara_kaneto_musume
+					}
+					if = {
+						limit = {
+							character:kawachiminamoto_yoshitaka2 = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoshinaka }
+							}
+						}
+						add_courtier = character:kawachiminamoto_yoshitaka2
+					}
+					if = {
+						limit = {
+							character:kisonakahara_tomoe_gozen = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoshinaka }
+							}
+						}
+						add_courtier = character:kisonakahara_tomoe_gozen
+					}
+					if = {
+						limit = {
+							character:kawachiminamoto_nakaie = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoshinaka }
+							}
+						}
+						add_courtier = character:kawachiminamoto_nakaie
+					}
+					if = {
+						limit = {
+							character:kawachiminamoto_miyagiku = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoshinaka }
+							}
+						}
+						add_courtier = character:kawachiminamoto_miyagiku
+					}
+				}
+			}
+			## Minamoto no Yoritomo
+			character:kawachiminamoto_yoritomo ?= {
+				if = {
+					limit = { is_alive = yes }
+					add_realm_law_skip_effects = camp_purpose_wanderers
+					if = {
+						limit = {
+							character:hojo_masako = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoritomo }
+							}
+						}
+						add_courtier = character:hojo_masako
+					}
+					if = {
+						limit = {
+							character:kawachiminamoto_noriyori = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoritomo }
+							}
+						}
+						add_courtier = character:kawachiminamoto_noriyori
+					}
+					if = {
+						limit = {
+							character:kawachiminamoto_mareyoshi = {
+								NOT = { is_courtier_of = character:kawachiminamoto_yoritomo }
+							}
+						}
+						add_courtier = character:kawachiminamoto_mareyoshi
+					}
+				}
+			}
 			every_independent_ruler = {
 				limit = { is_landless_adventurer = yes }
 				# C... food.

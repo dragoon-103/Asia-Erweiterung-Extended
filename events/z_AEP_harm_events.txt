@@ -1,0 +1,199 @@
+﻿@army_commander_vulnerable_to_health_problems_value = good_health
+@court_medic_able_to_help_value = very_high_skill_rating
+@random_harm_standard_skill_check_value = very_high_skill_rating
+@random_harm_easy_skill_check_value = mediocre_skill_rating
+
+namespace = harm
+
+harm.2041 = {
+	type = character_event
+	title = harm.2041.t
+	desc = harm.2041.desc
+	theme = skull
+	left_portrait = {
+		character = root
+		animation = fear
+	}
+	right_portrait = {
+		character = scope:killer
+		animation = aggressive_sword
+	}
+	override_background = { reference = bp1_bonfire }
+
+	cooldown = { years = 30 }
+
+	trigger = {
+		# Standard checks.
+		harm_game_rule_enablement_trigger = yes
+		# Requires you to be landed so we know where to pull the soldier from.
+		is_landed_or_landless_administrative = yes
+		# Army checks.
+		NOT = {
+			faith = { has_doctrine_parameter = warmonger }
+		}
+		days_of_continuous_war >= 9125
+	}
+
+	weight_multiplier = {
+		base = 0
+
+		# Add the weightings.
+		modifier = { add = harm_game_rule_likelihood_value }
+		# Some characters aren't popular with soldiers.
+		modifier = {
+			add = 0.5
+			OR = {
+				has_trait = shy
+				has_trait = wrathful
+				has_trait = impatient
+				has_trait = callous
+				has_trait = sadistic
+				has_trait = irritable
+			}
+		}
+		# And some characters can persuade their soldiers through thick'n'thin.
+		modifier = {
+			add = -0.75
+			OR = {
+				has_trait = gregarious
+				has_trait = calm
+				has_trait = patient
+				has_trait = compassionate
+			}
+		}
+	}
+
+	immediate = {
+		# Generate a suitable soldier to use.
+		create_character = {
+			template = retired_mercenary
+			location = root.location
+			culture = root.capital_county.culture
+			faith = root.capital_county.faith
+			gender_female_chance = root_soldier_female_chance
+			dynasty = none 
+			save_scope_as = killer
+		}
+	}
+
+	# Traitors! TRAITORS!
+	option = {
+		name = harm.2041.a
+
+		random_list = {
+			# You survive.
+			0 = {
+				modifier = { add = harm_event_random_list_low_odd_success_value }
+				desc = harm.2041.a.tt.success
+				send_interface_toast = {
+					type = event_toast_effect_good
+					title = harm.2041.a.tt.success
+					left_icon = root
+					custom_tooltip = harm.0000.tt.spared_for_now
+					log_harm_event_spared_as_variable_effect = yes
+				}
+			}
+			# You perish.
+			0 = {
+				modifier = { add = harm_event_random_list_low_odd_failure_value }
+				desc = harm.2041.a.tt.failure
+				send_interface_toast = {
+					type = event_toast_effect_bad
+					title = harm.2041.a.tt.failure
+					left_icon = root
+					death = { death_reason = death_assassinated_by_soldiers }
+					log_harm_event_death_as_variable_effect = yes
+				}
+			}
+		}
+
+		if = {
+			limit = { is_alive = yes }
+			stress_impact = {
+				base = medium_stress_impact_gain
+				calm = minor_stress_impact_loss
+			}
+		}
+		ai_chance = {
+			# Unless they've got a special option, the AI should always choose this.
+			base = 1
+		}
+	}
+	
+	# Only five? Have at thee, milksops!
+	option = {
+		name = harm.2041.b
+		trigger = { has_trait = lifestyle_blademaster }
+		trait = lifestyle_blademaster
+
+		custom_tooltip = harm.0000.tt.spared_for_now
+		log_harm_event_spared_as_variable_effect = yes
+
+		# Always gain stress from trait opt-outs.
+		stress_impact = {
+			base = massive_stress_impact_gain
+			calm = minor_stress_impact_loss
+		}
+		ai_chance = {
+			# The AI should essentially always take this option.
+			base = 1000
+		}
+	}
+	
+	# I'll make you bleed!
+	option = {
+		name = harm.2041.c
+		trigger = {
+			OR = {
+				prowess >= very_high_skill_rating
+				has_trait = berserker
+				has_trait = shieldmaiden
+				has_trait = onnamusha
+			}
+		}
+		skill = prowess
+		trait = berserker
+		trait = shieldmaiden
+		trait = onnamusha
+
+		random_list = {
+			# You survive.
+			0 = {
+				modifier = { add = harm_event_random_list_high_odd_success_value }
+				desc = harm.2041.c.tt.success
+				send_interface_toast = {
+					type = event_toast_effect_good
+					title = harm.2041.c.tt.success
+					left_icon = root
+					custom_tooltip = harm.0000.tt.spared_for_now
+					log_harm_event_spared_as_variable_effect = yes
+				}
+			}
+			# You perish.
+			0 = {
+				modifier = { add = harm_event_random_list_high_odd_failure_value }
+				desc = harm.2041.c.tt.failure
+				send_interface_toast = {
+					type = event_toast_effect_bad
+					title = harm.2041.c.tt.failure
+					left_icon = root
+					death = { death_reason = death_assassinated_by_soldiers }
+					log_harm_event_death_as_variable_effect = yes
+				}
+			}
+		}
+
+		# Always gain stress from skill tests.
+		if = {
+			limit = { is_alive = yes }
+			stress_impact = {
+				base = major_stress_impact_gain
+				calm = minor_stress_impact_loss
+			}
+		}
+		ai_chance = {
+			# The AI should take this option if a better one isn't available.
+			base = 100
+		}
+	}
+}
