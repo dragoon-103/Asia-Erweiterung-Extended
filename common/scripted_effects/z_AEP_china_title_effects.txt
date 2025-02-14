@@ -1,0 +1,106 @@
+﻿aep_base_china_title_effect = {
+	title:e_china = {
+		set_title_name = $NAME$
+		set_coa = $COA$
+		set_capital_county = title:$CAPITAL$
+		set_color_from_title = title:k_color_$COLOR$
+	}
+}
+
+## Main Dynasties ##
+
+aep_china_title_han_effect = {
+	aep_base_china_title_effect = {
+		NAME = e_han
+		COA = e_han
+		CAPITAL = c_changan
+		COLOR = yellow
+	}
+}
+
+aep_china_title_sui_effect = {
+	aep_base_china_title_effect = {
+		NAME = e_sui
+		COA = e_sui
+		CAPITAL = c_changan
+		COLOR = dark_blue
+	}
+}
+
+aep_china_title_tang_effect = {
+	aep_base_china_title_effect = {
+		NAME = e_tang
+		COA = e_tang
+		CAPITAL = c_changan
+		COLOR = gold
+	}
+}
+
+aep_china_title_song_effect = {
+	aep_base_china_title_effect = {
+		NAME = e_song
+		COA = e_song
+		CAPITAL = c_bianzhou
+		COLOR = red
+	}
+}
+
+aep_china_title_yuan_effect = {
+	aep_base_china_title_effect = {
+		NAME = e_yuan
+		COA = e_yuan
+		CAPITAL = c_youzhou
+		COLOR = light_blue
+	}
+}
+
+aep_china_title_ming_effect = {
+	aep_base_china_title_effect = {
+		NAME = e_ming
+		COA = e_ming
+		CAPITAL = c_jinling
+		COLOR = yellow
+	}
+}
+
+### Alternate Dynasties (5 Dynasties, excluding Later Han/Later Tang as those are above.) ###
+
+aep_china_title_qi_effect = {
+	# Qi Dynasty of Huang Chao 齊 (881–884)
+	aep_base_china_title_effect = {
+		NAME = e_huang_qi
+		COA = e_huang_qi
+		CAPITAL = c_changan
+		COLOR = pale_blue
+	}
+}
+
+aep_china_title_liang_effect = {
+	# Later Liang Dynasty 梁 (907–923)
+	aep_base_china_title_effect = {
+		NAME = e_later_liang
+		COA = e_later_liang
+		CAPITAL = c_bianzhou
+		COLOR = bright_green
+	}
+}
+
+aep_china_title_jin_effect = {
+	# Later Jin Dynasty 晉 (936–947)
+	aep_base_china_title_effect = {
+		NAME = e_later_jin
+		COA = e_later_jin
+		CAPITAL = c_bianzhou
+		COLOR = beige
+	}
+}
+
+aep_china_title_zhou_effect = {
+	# Later Zhou Dynasty 周 (951–960)
+	aep_base_china_title_effect = {
+		NAME = e_later_zhou
+		COA = e_later_zhou
+		CAPITAL = c_bianzhou
+		COLOR = beige
+	}
+}

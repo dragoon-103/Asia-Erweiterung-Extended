@@ -1726,7 +1726,7 @@ xian_prince_dna_entry = {
 	enabled=yes
 }
 
-xizong_prince_dna_entry = {
+tang_xizong_huangdi_dna_entry = {
 	portrait_info = {
 		genes={
 			hair_color={ 25 243 25 247 }
@@ -2961,7 +2961,7 @@ kawachiminamoto_yoshiie_dna_entry = {
 	enabled=yes
 }
 
-yingzong_huangdi_dna_entry = {
+song_yingzong_huangdi_dna_entry = {
 	portrait_info = {
 		genes={
 			hair_color={ 25 245 25 248 }
@@ -3086,7 +3086,7 @@ yingzong_huangdi_dna_entry = {
 	enabled=yes
 }
 
-shenzong_huangdi_dna_entry = {
+song_shenzong_huangdi_dna_entry = {
 	portrait_info = {
 		genes={
 			hair_color={ 25 245 25 251 }
@@ -3334,7 +3334,7 @@ weiming_liangzuo_dna_entry = {
 
 # Non-Bookmark Characters
 
-xuanzong_huangdi_dna_entry = {
+tang_xuanzong_ii_huangdi_dna_entry = {
 	portrait_info = {
 		genes={
 			hair_color={ 25 249 25 252 }
@@ -3448,7 +3448,7 @@ xuanzong_huangdi_dna_entry = {
 	enabled=yes
 }
 
-gongxian_empress_dna_entry = {
+wang_gongxian_dna_entry = {
 	portrait_info = {
 		genes={
 			hair_color={ 25 250 25 250 }

@@ -1,0 +1,187 @@
+﻿@never_primary_score = -1000
+
+# Used for Han + Ming
+k_color_yellow = {
+	color = { 250 250 10 }
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_luoyang
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Sui
+k_color_dark_blue = {
+	color = { 1 1 100 }
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_luoyang
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Tang
+k_color_gold = {
+	color = { 225 175 0 }
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_jinling
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Song
+k_color_red = {
+	color = { 160 50 50 }
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_changan
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Yuan
+k_color_light_blue = {
+	color = { 50 100 255 }
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_changan
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Qi
+k_color_pale_blue = {
+	color = { 102 105 136 }
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_changan
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_color_bright_green = {
+	color = { 132 235 75 }
+
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_bianzhou
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_color_beige = {
+	color = { 244 227 160 }
+
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_bianzhou
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+k_color_orange = {
+	color = { 240 95 20 }
+
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+	can_destroy = { always = no }
+
+	capital = c_bianzhou
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}

@@ -9,15 +9,15 @@
 		value = 290
 	}
 	
-	# Emperor Yizong of Tang, ID: 5100001
+	# Emperor Yizong of Tang, ID: tang_yizong_huangdi
 	character = {
 		name = "bookmark_far_east_tang"
-		history_id = 5100001
+		history_id = tang_yizong_huangdi
 		dynasty = 80000001
 		dynasty_splendor_level = 5
 		type = male
 		birth = 833.12.28
-		title = e_tang
+		title = e_china
 		government = administrative_government
 		culture = han
 		religion = mahayana
@@ -38,11 +38,11 @@
 			religion = shangqing
 		}
 		
-		# Yan, son and future Emperor Xizong, xizong_prince
+		# Yan, son and future Emperor Xizong, tang_xizong_huangdi
 		character = {
 			name = "bookmark_far_east_tang_alt_yan"
 			relation = "BOOKMARK_RELATION_SON"
-			history_id = xizong_prince
+			history_id = tang_xizong_huangdi
 			dynasty = 80000001
 			type = male
 			birth = 862.6.8
@@ -253,15 +253,15 @@ bm_1066_asia = {
 		value = 280
 	}
 	
-	# Emperor Yingzong of Song, ID: yingzong_huangdi
+	# Emperor Yingzong of Song, ID: song_yingzong_huangdi
 	character = {
 		name = "bookmark_two_sons_song"
-		history_id = yingzong_huangdi
+		history_id = song_yingzong_huangdi
 		dynasty = 80000030
 		dynasty_splendor_level = 3
 		type = male
 		birth = 1032.2.16
-		title = e_song
+		title = e_china
 		government = administrative_government
 		culture = han
 		religion = lixue
@@ -270,11 +270,11 @@ bm_1066_asia = {
 		
 		animation = personality_cynical
 		
-		# Prince Zhongzhen, future Emperor of China, shenzong_huangdi
+		# Prince Zhongzhen, future Emperor of China, song_shenzong_huangdi
 		character = {
 			name = "bookmark_two_sons_song_alt_shenzong"
 			relation = "BOOKMARK_RELATION_SON"
-			history_id = shenzong_huangdi
+			history_id = song_shenzong_huangdi
 			dynasty = 80000030
 			type = male
 			birth = 1048.5.25
