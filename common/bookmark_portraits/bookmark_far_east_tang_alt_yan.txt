@@ -1,5 +1,5 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
-# History database id:xizong_prince
+# History database id:tang_xizong_huangdi
 bookmark_far_east_tang_alt_yan={
 	type=boy
 	id=10980

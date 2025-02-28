@@ -4,6 +4,19 @@
 @smLysY = 0.26
 @smCross = 0.22
 
+# Placeholder (from e_han); should not be used.
+e_china = {
+	pattern = "pattern_solid.dds"
+	color1 = "yellow"
+	color2 = "black"
+	colored_emblem = {
+		texture = "d_hanzhong.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { position = { 0.5 0.45 } scale = { 1.3 1.3 }  }
+	}
+}
+
 e_sui = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"

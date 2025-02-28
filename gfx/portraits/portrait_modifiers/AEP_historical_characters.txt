@@ -6,7 +6,7 @@
 
 #----------------------------------------------------867 Asia------------------------------------------------------------#
 	
-	5100001 = { # Emperor Yizong
+	tang_yizong_huangdi = { # Emperor Yizong
 	    dna_modifiers = {
             accessory = {
                 mode = add
@@ -26,8 +26,8 @@
             modifier = {
                 add = 100
                 exists = this
-                exists = character:5100001
-                this = character:5100001
+                exists = character:tang_yizong_huangdi
+                this = character:tang_yizong_huangdi
             }
         }
 	}
@@ -57,7 +57,7 @@
             }
         }
     }
-    xizong_prince = { # Yan, future Emperor Xizong
+    tang_xizong_huangdi = { # Yan, future Emperor Xizong
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -77,8 +77,8 @@
             modifier = {
                 add = 100
                 exists = this
-                exists = character:xizong_prince
-                this = character:xizong_prince
+                exists = character:tang_xizong_huangdi
+                this = character:tang_xizong_huangdi
             }
         }
     }
@@ -397,7 +397,7 @@
 
 #----------------------------------------------------1066 Asia------------------------------------------------------------#
 
-    yingzong_huangdi = { # Emperor Yingzong of Song
+    song_yingzong_huangdi = { # Emperor Yingzong of Song
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -417,13 +417,13 @@
             modifier = {
                 add = 100
                 exists = this
-                exists = character:yingzong_huangdi
-                this = character:yingzong_huangdi
+                exists = character:song_yingzong_huangdi
+                this = character:song_yingzong_huangdi
             }
         }
     }
 		
-	shenzong_huangdi = { # Prince Zhongzhen, future Emperor of China
+	song_shenzong_huangdi = { # Prince Zhongzhen, future Emperor of China
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -443,8 +443,8 @@
             modifier = {
                 add = 100
                 exists = this
-                exists = character:shenzong_huangdi
-                this = character:shenzong_huangdi
+                exists = character:song_shenzong_huangdi
+                this = character:song_shenzong_huangdi
             }
         }
     }
@@ -869,7 +869,7 @@ musashibo_benkei = { # Renowned Warrior Monk, Benkei
 
 #----------------------------------------------------------------------# AEP Others (non-bookmarks) #----------------------------------------------------------------#
 
-    xuanzong_huangdi = { # Emperor Xuanzong (唐宣) of Tang
+    tang_xuanzong_ii_huangdi = { # Emperor Xuanzong (唐宣) of Tang
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -889,13 +889,13 @@ musashibo_benkei = { # Renowned Warrior Monk, Benkei
             modifier = {
                 add = 100
                 exists = this
-                exists = character:xuanzong_huangdi
-                this = character:xuanzong_huangdi
+                exists = character:tang_xuanzong_ii_huangdi
+                this = character:tang_xuanzong_ii_huangdi
             }
         }
     }
 
-    gongxian_empress = { # Empress Gongxian, wife of Emperor Yizong of Tang
+    wang_gongxian = { # Empress Gongxian, wife of Emperor Yizong of Tang
         dna_modifiers = {
             accessory = {
                 mode = add
@@ -915,8 +915,8 @@ musashibo_benkei = { # Renowned Warrior Monk, Benkei
             modifier = {
                 add = 100
                 exists = this
-                exists = character:gongxian_empress
-                this = character:gongxian_empress
+                exists = character:wang_gongxian
+                this = character:wang_gongxian
             }
         }
     }

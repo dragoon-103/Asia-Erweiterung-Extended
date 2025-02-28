@@ -252,7 +252,7 @@ k_panjalu = {
 
 	1240.1.1 = {
 		holder = rajasa_8
-		liege = "k_java"
+		# liege = "k_java" Commented out because kingdoms can't be vassals of other kingdoms.
 	}
 }
 

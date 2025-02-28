@@ -1,4 +1,7 @@
-﻿248149 = {
+﻿# Overrides vanilla Han characters to all have the Hexi culture instead, and adds a few appearances.
+# All else equal.
+
+248149 = {
 	name="Ding"
 	dynasty=1055021
 	religion="zhengyi"

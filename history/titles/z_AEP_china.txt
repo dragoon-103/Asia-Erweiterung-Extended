@@ -1,9 +1,15 @@
-### Dynasties
-e_tang = {	
+### China
+
+e_china = {
+
+	# Tang Dynasty
 	618.6.18 = {
-		holder = gaozu_huangdi # Emperor Gaozu, founder of Tang dynasty
+		holder = tang_gaozu_huangdi # Emperor Gaozu, founder of Tang dynasty
+
 		government = administrative_government
 		effect = {
+			aep_china_title_tang_effect = yes
+
 			if = {
 				limit = {
 					exists = holder
@@ -21,134 +27,131 @@ e_tang = {
 		}
 	}
 	626.9.4 = {
-		holder = taizong_huangdi
+		holder = tang_taizong_huangdi
 	}
 	649.7.10 = {
-		holder = gaozong_huangdi
+		holder = tang_gaozong_huangdi
 	}
 	683.12.27 = {
-		holder = zhongzong_huangdi # 1st reign
+		holder = tang_zhongzong_huangdi # 1st reign
 	}
 	684.2.27 = {
-		holder = ruizong_huangdi # 1st reign
+		holder = tang_ruizong_huangdi # 1st reign
 	}
 	690.10.16 = {
 		holder = 0 #Zhou Dynasty interregnum
 	}
 	705.2.23 = {
-		holder = zhongzong_huangdi # 2nd reign
+		holder = tang_zhongzong_huangdi # 2nd reign
 	}
 	710.7.3 = {
-		holder = ruizong_huangdi # 2nd reign
+		holder = tang_ruizong_huangdi # 2nd reign
 	}
 	712.9.8 = {
-		holder = first_xuanzong_huangdi
+		holder = tang_xuanzong_i_huangdi
 	}
 	756.8.12 = {
-		holder = suzong_huangdi
+		holder = tang_suzong_huangdi
 	}
 	762.5.16 = {
-		holder = daizong_huangdi
+		holder = tang_daizong_huangdi
 	}
 	779.6.10 = {
-		holder = dezong_huangdi
+		holder = tang_dezong_huangdi
 	}
 	805.2.25 = {
-		holder = shunzong_huangdi
+		holder = tang_shunzong_huangdi
 	}
 	805.8.28 = {
-		holder = xianzong_huangdi
+		holder = tang_xianzong_huangdi
 	}
 	820.2.14 = {
-		holder = muzong_huangdi
+		holder = tang_muzong_huangdi
 	}
 	824.2.25 = {
-		holder = jingzong_huangdi
+		holder = tang_jingzong_huangdi
 	}
 	827.1.9 = {
-		holder = wenzong_huangdi
+		holder = tang_wenzong_huangdi
 	}
 	840.2.10 = {
-		holder = wuzong_huangdi
+		holder = tang_wuzong_huangdi
 	}
 	846.4.22 = {
-		holder = xuanzong_huangdi # Emperor Xuanzong II
+		holder = tang_xuanzong_ii_huangdi # Emperor Xuanzong II
 	}
 	859.9.7 = {
-		holder = 5100001 # Emperor Yizong
+		holder = tang_yizong_huangdi # Emperor Yizong
 	}
 	873.8.15 = {
-		holder = xizong_prince
+		holder = tang_xizong_huangdi
 	}
 	888.4.20 = {
-		holder = zhaozong_prince
+		holder = tang_zhaozong_huangdi
 	}
 	904.9.22 = {
-		holder = ai_prince
+		holder = tang_ai_huangdi
 	}
 	907.6.1 = {
 		holder = 0
-	}	
-}
-
-e_song = {
+	}
+	
+	# Song Dynasty
 	960.2.4 = {
-		holder = taizu_huangdi # Emperor Taizu, founder of Song dynasty
-		government = administrative_government
+		holder = song_taizu_huangdi # Emperor Taizu, founder of Song dynasty
+
 		effect = {
-			if = {
-				limit = {
-					exists = holder
-					NOT = { has_dlc_feature = roads_to_power }
-				}
-				holder = {
-					change_government = feudal_government
-				}
-			}
-
-
-			set_global_variable = {
-				name = china_empire_title
-				value = this
-			}
+			aep_china_title_song_effect = yes
 		}
 	}
 	976.11.14 = {
-		holder = taizong_huangdi_song
+		holder = song_taizong_huangdi
 	}
 	997.5.8 = {
-		holder = zhenzong_huangdi
+		holder = song_zhenzong_huangdi
 	}
 	1022.3.23 = {
-		holder = renzong_huangdi
+		holder = song_renzong_huangdi
 	}
 	1063.4.30 = {
-		holder = yingzong_huangdi
+		holder = song_yingzong_huangdi
 	}
 	1067.1.25 = {
-		holder = shenzong_huangdi
+		holder = song_shenzong_huangdi
 	}
 	1085.4.1 = {
-		holder = zhezong_huangdi
+		holder = song_zhezong_huangdi
 	}
 	1100.2.23 = {
-		holder = huizong_huangdi
+		holder = song_huizong_huangdi
 	}
 	1126.1.18 = {
-		holder = qinzong_huangdi
+		holder = song_qinzong_huangdi
 	}
 	1127.3.20 = {
-		holder = gaozong_huangdi_song
+		holder = song_gaozong_huangdi
 	}
 	1162.7.24 = {
-		holder = xiaozong_huangdi
+		holder = song_xiaozong_huangdi
+	}
+
+	1279.3.19 = {
+		effect = {
+			aep_china_title_yuan_effect = yes
+		}
+	}
+
+	1368.9.14 = {
+		effect = {
+			aep_china_title_ming_effect = yes
+		}
 	}
 }
 
 ### Jingji Circuit
 k_jingji = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -163,27 +166,24 @@ k_jingji = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	859.9.7 = {
-		holder = 5100001 # Emperor Yizong
+		holder = tang_yizong_huangdi # Emperor Yizong
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = YONGXINGJUN
 	}
 	1066.1.1 = {
 		holder = jingji_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1080.1.1 = {
 		holder = 0
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_pingyi = {
@@ -206,7 +206,7 @@ d_pingyi = {
 		}
 	}
 	859.9.7 = {
-		holder = 5100001 # Emperor Yizong
+		holder = tang_yizong_huangdi # Emperor Yizong
 	}
 	873.8.15 = {
 		holder = 0
@@ -239,7 +239,7 @@ d_xijing = {
 		}
 	}
 	859.9.7 = {
-		holder = 5100001 # Emperor Yizong
+		holder = tang_yizong_huangdi # Emperor Yizong
 	}
 	873.8.15 = {
 		holder = 0
@@ -259,7 +259,7 @@ c_changan = {
 ### Hebei Circuit
 k_hebei = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -274,7 +274,7 @@ k_hebei = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100106
@@ -283,20 +283,17 @@ k_hebei = {
 		holder = 0
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 	}
 	1066.1.1 = {
 		holder = hebei_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1084.1.1 = {
 		holder = 0
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 
@@ -649,7 +646,7 @@ d_xiangwei = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100104
@@ -869,7 +866,7 @@ c_jilizhou = {
 ### Hedong Circuit
 k_hedong = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -884,7 +881,7 @@ k_hedong = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100107
@@ -893,20 +890,17 @@ k_hedong = {
 		holder = 0
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 	}
 	1066.1.1 = {
 		holder = hedong_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1074.1.1 = {
 		holder = 0
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 
@@ -1110,7 +1104,7 @@ d_hezhong = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100022
@@ -1231,7 +1225,7 @@ k_guannei = {
 	1178.1.1 = { change_development_level = 16 }
 	
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -1265,7 +1259,7 @@ d_xiazhou = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
     866.1.1 = {
 		holder = 5100005
@@ -1394,7 +1388,7 @@ d_shuofang = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}	
 	866.1.1 = {
 		holder = 5100006
@@ -1473,7 +1467,7 @@ d_ordos = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100004
@@ -1564,7 +1558,7 @@ d_fufang = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100027
@@ -1813,7 +1807,7 @@ c_yuanzou_xia = {
 ### Longyou Circuit
 k_longyou = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -1828,7 +1822,7 @@ k_longyou = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	860.1.1 = { # Fictional placeholder
 		holder = longyou_jiedushi_001
@@ -1842,20 +1836,17 @@ k_longyou = {
 }
 k_qinfeng = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 	}
 	1066.1.1 = {
 		holder = longyou_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1084.1.1 = {
 		holder = 0
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_longxi = {
@@ -1929,13 +1920,13 @@ c_qiuchi = {
 c_wudu = {
 	1178.1.1 = {
 		holder = shannanxi_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_yinping = {
 	1178.1.1 = {
 		holder = shannanxi_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 
@@ -2024,7 +2015,7 @@ d_shanzhou = { # Actually part of the Longyou Circuit (k_longyou)
 	}
 	#Tsongkha is taken by Song Dynasty in 1104 and governed by Zhao Huai'en
 	1104.1.1={
-		liege = "e_song" # AEP # Changed from no liege
+		liege = "e_china" # AEP # Changed from no liege
 		holder = 305972 # AEP # Changed from no holder
 	}
 }
@@ -2285,7 +2276,7 @@ c_kuozhou = {
 ### Jiannan Circuit
 k_jiannan = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -2300,33 +2291,30 @@ k_jiannan = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	860.1.1 = { # Fictional placeholder
 		holder = jiannan_jiedushi_001
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = CHENGDUFU
 	}
 	1066.1.1 = {
 		holder = jiannan_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = jiannan_jiedushi_003
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 k_zizhou = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -2342,17 +2330,14 @@ k_zizhou = {
 	}
 	1066.1.1 = {
 		holder = zizhou_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = zizhou_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_dongchuan = {
@@ -2542,7 +2527,7 @@ c_qiongzhou = {
 ### Shannanxi Circuit
 k_shannanxi = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -2557,7 +2542,7 @@ k_shannanxi = {
 		}
 	}
     865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100028
@@ -2566,22 +2551,19 @@ k_shannanxi = {
 		holder = 0
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = LIZHOU
 	}
 	1066.1.1 = {
 		holder = shannanxi_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = shannanxi_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_ba = {
@@ -2736,7 +2718,7 @@ k_duji = {
 	1178.1.1 = { change_development_level = 30 }
 	
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -2751,25 +2733,19 @@ k_duji = {
 		}
 	}
 	859.9.7 = {
-		holder = 5100001 # Emperor Yizong
+		holder = tang_yizong_huangdi # Emperor Yizong
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = JINGXI
 	}
 	1066.1.1 = {
 		holder = duji_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = duji_jiedushi_002
-		liege = "e_song"
-	}
-	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		liege = "e_china"
 	}
 }
 d_heluo = {
@@ -2792,7 +2768,7 @@ d_heluo = {
 		}
 	}
 	859.9.7 = {
-		holder = 5100001 # Emperor Yizong
+		holder = tang_yizong_huangdi # Emperor Yizong
 	}
 	873.8.15 = {
 		holder = 0
@@ -2937,7 +2913,7 @@ c_shaanzhou = {
 ### Henan Circuit
 k_henan = {	
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -2952,7 +2928,7 @@ k_henan = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100101
@@ -2961,21 +2937,18 @@ k_henan = {
 		holder = 0
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = JINGDONG
 	}
 	1066.1.1 = {
 		holder = henan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1079.1.1 = {
 		holder = 0
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 
@@ -3062,7 +3035,7 @@ d_biansong = {
 		holder = 0
 	}
 	1063.4.30 = {
-		holder = yingzong_huangdi
+		holder = song_yingzong_huangdi
 	}
 	1067.1.25 = {
 		holder = 0
@@ -3081,7 +3054,7 @@ c_bianzhou = {
     1178.1.1 = { change_development_level = 42 }
 
 	1063.4.30 = {
-		holder = yingzong_huangdi
+		holder = song_yingzong_huangdi
 	}
 	1067.1.25 = {
 		holder = 0
@@ -3094,7 +3067,7 @@ c_songzhou_song = {
 
 	1066.1.1 = {
 		holder = henan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_bozhou_song = {
@@ -3104,7 +3077,7 @@ c_bozhou_song = {
 
 	1066.1.1 = {
 		holder = henan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_yingzhou_song = {
@@ -3114,7 +3087,7 @@ c_yingzhou_song = {
 
 	1066.1.1 = {
 		holder = henan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 d_taining = {
@@ -3302,7 +3275,7 @@ d_pucao = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100104
@@ -3367,7 +3340,7 @@ d_zhenghua = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100104
@@ -3378,7 +3351,7 @@ d_zhenghua = {
 }
 c_huazhou_liang = {
 	1063.4.30 = {
-		holder = yingzong_huangdi
+		holder = song_yingzong_huangdi
 	}
 	1067.1.25 = {
 		holder = 0
@@ -3393,7 +3366,7 @@ c_huazhou_liang = {
 }
 c_zhengzhou = {
 	1063.4.30 = {
-		holder = yingzong_huangdi
+		holder = song_yingzong_huangdi
 	}
 	1067.1.25 = {
 		holder = 0
@@ -3422,7 +3395,7 @@ d_ziqing = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100104
@@ -3478,7 +3451,7 @@ d_denglai = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100104
@@ -3530,7 +3503,7 @@ c_mizhou_qi = {
 ### Shannandong Circuit
 k_shannandong = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -3545,28 +3518,22 @@ k_shannandong = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	860.1.1 = { # Fictional placeholder
 		holder = shannandong_jiedushi_001
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = HUBEI
 	}
 	1066.1.1 = {
 		holder = shannandong_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = shannandong_jiedushi_003
-		liege = "e_song"
-	}
-	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		liege = "e_china"
 	}
 }
 d_jinshang = {
@@ -3595,7 +3562,7 @@ d_jinshang = {
 c_shangzhou_qin = {
 	1066.1.1 = {
 		holder = jingji_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1080.1.1 = {
 		holder = 0
@@ -3742,7 +3709,7 @@ k_huainan = {
 	1178.1.1 = { change_development_level = 26 }
 	
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -3757,7 +3724,7 @@ k_huainan = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		holder = 5100100
@@ -3766,21 +3733,18 @@ k_huainan = {
 		holder = 0
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 	}
 	1066.1.1 = {
 		holder = huainan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = huainan_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 c_shouchun = {
@@ -3797,7 +3761,7 @@ c_yangzhou = {
 ### Jiangnanxi Circuit
 k_jiangnanxi = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -3812,7 +3776,7 @@ k_jiangnanxi = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	860.1.1 = { # Fictional placeholder
 		holder = jiangnanxi_jiedushi_001
@@ -3823,7 +3787,7 @@ k_jiangnanxi = {
 }
 k_jiangxi = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -3839,22 +3803,19 @@ k_jiangxi = {
 	}
 	1066.1.1 = {
 		holder = jiangnanxi_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = jiangnanxi_jiedushi_003
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 k_hunan = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -3870,17 +3831,14 @@ k_hunan = {
 	}
 	1066.1.1 = {
 		holder = hunan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = hunan_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_eyue = {
@@ -4072,7 +4030,7 @@ d_xuanshe = {
 	}
 	1178.1.1 = {
 		holder = xuanshe_duke_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_shezhou = {
@@ -4084,7 +4042,7 @@ c_shezhou = {
 ### Jiangnandong Circuit
 k_jiangnandong = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4099,29 +4057,26 @@ k_jiangnandong = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	860.1.1 = { # Fictional placeholder
 		holder = jiangnandong_jiedushi_001
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = LIANGZHE
 	}
 	1066.1.1 = {
 		holder = jiangnandong_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 k_fujian = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4137,17 +4092,14 @@ k_fujian = {
 	}
 	1066.1.1 = {
 		holder = fujian_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = fujian_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_zhenhai = {
@@ -4171,7 +4123,7 @@ d_zhenhai = {
 	}
 	1178.1.1 = {
 		holder = zhenhai_duke_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_guangde = {
@@ -4202,7 +4154,7 @@ d_zhexi = {
 		}
 	}
 	1162.7.24 = {
-		holder = xiaozong_huangdi
+		holder = song_xiaozong_huangdi
 	}
 }
 c_hangzhou = {
@@ -4230,12 +4182,12 @@ d_zhedong = {
 }
 c_yuezhou_yue = {
 	1162.7.24 = {
-		holder = xiaozong_huangdi
+		holder = song_xiaozong_huangdi
 	}
 }
 c_mingzhou = {
 	1162.7.24 = {
-		holder = xiaozong_huangdi
+		holder = song_xiaozong_huangdi
 	}
 }
 c_taizhou = {
@@ -4259,7 +4211,7 @@ c_taizhou = {
 	}
 	1178.1.1 = {
 		holder = taizhou_count_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_wenzhou_yue = {
@@ -4283,7 +4235,7 @@ c_wenzhou_yue = {
 	}
 	1178.1.1 = {
 		holder = taizhou_count_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 c_kuozhou_yue = {
@@ -4307,7 +4259,7 @@ c_kuozhou_yue = {
 	}
 	1178.1.1 = {
 		holder = taizhou_count_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 d_fujian = {
@@ -4375,7 +4327,7 @@ c_tingzhou_min = {
 ### Lingnan Circuit
 k_lingnan = {
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4390,7 +4342,7 @@ k_lingnan = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
     866.1.1 = {
 		holder = 5100015
@@ -4399,27 +4351,24 @@ k_lingnan = {
 		holder = 0
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		name = GUANGDONG
 	}
 	1066.1.1 = {
 		holder = lingnan_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = lingnan_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 k_guangxi = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4435,17 +4384,14 @@ k_guangxi = {
 	}
 	1066.1.1 = {
 		holder = guangxi_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = guangxi_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 
@@ -4465,7 +4411,7 @@ d_lingnan = {
 		}
 	}
 	865.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
     866.1.1 = {
 		holder = 5100015
@@ -4671,7 +4617,7 @@ k_qianzhong = {
 	1066.1.1 = { change_development_level = 8 }
 	
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4686,13 +4632,13 @@ k_qianzhong = {
 		}
 	}
 	859.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	860.1.1 = { # Fictional placeholder
 		holder = qianzhong_jiedushi_001
 	}
 	866.1.1 = {
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	910.1.1 = {
 		holder = 0
@@ -4703,7 +4649,7 @@ k_qianzhong = {
 }
 k_kuizhou = {
 	960.2.4 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4719,17 +4665,14 @@ k_kuizhou = {
 	}
 	1066.1.1 = {
 		holder = qianzhong_jiedushi_002
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1178.1.1 = {
 		holder = qianzhong_jiedushi_003
-		liege = "e_song"
+		liege = "e_china"
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 d_qianzhong = {
@@ -4815,7 +4758,7 @@ k_xia = {
 	1178.1.1 = { change_development_level = 16 }
 
 	618.6.18 = {
-		de_jure_liege = "e_tang"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -4847,7 +4790,7 @@ k_xia = {
 		}
 	}
 	960.2.4 = {
-		de_jure_liege = "e_song" # AEP
+		de_jure_liege = "e_china" # AEP
 	}
 	#Li Jiqian rebels against Song, foundations of Western Xia (Minyak) 982-1227
 	1038.1.1 = {
@@ -4890,10 +4833,7 @@ k_xia = {
 		holder = 0
 	}#destroyed by the Mongols and emperor killed shortly afterwards
 	1279.3.19 = {
-		de_jure_liege = "e_yuan" # AEP
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming" # AEP
+		de_jure_liege = "e_china" # AEP
 	}
 }
 
@@ -9163,7 +9103,7 @@ c_haltang = {
 ### Later Chinese Provinces
 k_yunnan = {
 	1253.1.1 = {
-		de_jure_liege = "e_song"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {
@@ -9178,16 +9118,13 @@ k_yunnan = {
 		}
 	}
 	1279.3.19 = {
-		de_jure_liege = "e_yuan"
-	}
-	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 	}
 }
 
 k_liaodong = {
 	1368.9.14 = {
-		de_jure_liege = "e_ming"
+		de_jure_liege = "e_china"
 		government = administrative_government
 		effect = {
 			if = {

@@ -43,7 +43,7 @@ k_nanzhong = {
 #k_dachanghe = {
 #	902.1.1 = {
 #        holder = 421200
-#		 de_jure_liege = "e_tang"
+#		 de_jure_liege = "e_china"
 #    }
 #    909.1.1 = {
 #        holder = zheng0007
@@ -1021,7 +1021,7 @@ c_wusa = {
 	}
 	1066.1.1 = {
 		holder = zizhou_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 
@@ -1037,7 +1037,7 @@ c_wumeng = {
 	}
 	1066.1.1 = {
 		holder = zizhou_jiedushi_001
-		liege = "e_song"
+		liege = "e_china"
 	}
 }
 
@@ -1144,14 +1144,14 @@ k_annan = {
 	}
 	761.1.1 = {
 		holder = abe_nakamaro
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	866.1.1 = {
 		name = JINGHAI
 	}
 	866.12.1 = {
 		holder = jiedushi_001
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	887.9.24 = {
 		holder = 0
@@ -1257,7 +1257,7 @@ c_thang_long = {
 	
 	866.12.1 = {
 		holder = jiedushi_001
-		liege = "e_tang"
+		liege = "e_china"
 	}
 	887.9.24 = {
 		holder = 0

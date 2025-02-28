@@ -248,21 +248,21 @@
  #矿=================================================================================================================================
  
  #盐田  
- building_type_yankuang_1:1 ""
- building_yankuang_1:1 "Salt Mine"   
- building_yankuang_1_desc:1 "There are a large number of salt mines and ponds here. Although the output is not as good as that in coastal areas, it takes a lot of freight to transport the coastal salt to inland cities, and the salt produced here is not only of high quality, but also cheap."
+ # building_type_yankuang_1:1 ""
+ # building_yankuang_1:1 "Salt Mine"   
+ # building_yankuang_1_desc:1 "There are a large number of salt mines and ponds here. Although the output is not as good as that in coastal areas, it takes a lot of freight to transport the coastal salt to inland cities, and the salt produced here is not only of high quality, but also cheap."
 
  building_type_yankuang_1:0 "Salt Mine"
  building_type_yankuang_1_desc:0 "There are abundant salt deposits here. If it can be mined, it will greatly support your economy and military."
- building_yankuang_1:0 "Salt field"
+ building_yankuang_1:0 "Salt Field"
  building_yankuang_1_desc:0 "The surface salt is very easy to mine and is also conducive to refining."
- building_yankuang_2:0 "Salt well"
+ building_yankuang_2:0 "Salt Well"
  building_yankuang_2_desc:1 "More rock salt needs to be obtained underground by sinking a well. This is a hard process, but it is indispensable."
  building_yankuang_3:0 "Saltern"
  building_yankuang_3_desc:0 "Brine needs to be boiled with firewood to get crystal salt."
- building_yankuang_4:0 "Large salt field"
+ building_yankuang_4:0 "Large Salt Field"
  building_yankuang_4_desc:0 "The complex large-scale salt field stretches for several miles. Salt miners and salt cooks work together to produce a large amount of white salt."
- building_yankuang_5:0 "Official salt store"
+ building_yankuang_5:0 "Official Salt Store"
  building_yankuang_5_desc:0 "The salt produced here is flowing throughout the Empire, supporting the survival from dignitaries to poor people."
 
  #首山铜矿

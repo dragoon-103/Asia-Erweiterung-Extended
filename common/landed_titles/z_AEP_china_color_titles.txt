@@ -1,0 +1,189 @@
+﻿@never_primary_score = -1000
+
+#### IMPORTANT NOTE: We use the set_color_from_title effect, which adds a slight random variation to the color.
+#### This means that if any color component is too close to 0 or 255, it may wrap around and turn into something
+#### completely different. E.g. (225, 175, 0) would wrap to (~225, ~175, 255!!) which is purple (not gold).
+#### From experimenting, a 5 unit buffer isn't quite enough, so we use 10. All colors are [10, 245].
+
+# Used for Han + Ming
+e_color_yellow = {
+	color = { 245 245 10 }
+	landless = yes
+	
+	no_automatic_claims = yes
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_luoyang
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Sui
+e_color_dark_blue = {
+	color = { 20 20 120 }
+	landless = yes
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_luoyang
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Tang
+e_color_gold = {
+	color = { 225 175 10 }
+	landless = yes
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_jinling
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Song
+e_color_red = {
+	color = { 160 50 50 }
+	landless = yes
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_changan
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Yuan
+e_color_blue = {
+	color = { 50 100 245 }
+	landless = yes
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_changan
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+# Used for Qi
+e_color_pale_blue = {
+	color = { 102 105 136 }
+	landless = yes
+	
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_changan
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+e_color_bright_green = {
+	color = { 132 235 75 }
+	landless = yes
+
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_bianzhou
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+e_color_beige = {
+	color = { 244 227 160 }
+	landless = yes
+
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_bianzhou
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}
+
+e_color_orange = {
+	color = { 240 95 20 }
+	landless = yes
+
+	no_automatic_claims = yes
+
+	ruler_uses_title_name = no
+	can_be_named_after_dynasty = no
+	de_jure_drift_disabled = yes
+
+	can_create = { always = no }
+	can_create_on_partition = { always = no}
+
+	capital = c_bianzhou
+
+	ai_primary_priority = {
+		add = @never_primary_score
+	}
+}

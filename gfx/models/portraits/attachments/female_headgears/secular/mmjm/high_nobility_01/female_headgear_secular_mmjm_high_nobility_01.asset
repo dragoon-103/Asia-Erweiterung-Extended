@@ -5,9 +5,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "female_headgear_secular_java_cfp_high_nobility_01Shape"
 		index = 0
-		texture_diffuse = "female_headgear_secular_mmjm_high_nobility_01_diffuse.dds"
-		texture_normal = "female_headgear_secular_mmjm_high_nobility_01_normal.dds"
-		texture_specular = "female_headgear_secular_mmjm_high_nobility_01_properties.dds"
+		texture_diffuse = "f_headgear_secular_mmjm_high_nobility_01_diffuse.dds"
+		texture_normal = "f_headgear_secular_mmjm_high_nobility_01_normal.dds"
+		texture_specular = "f_headgear_secular_mmjm_high_nobility_01_properties.dds"
 		shader = "portrait_attachment"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
@@ -15,9 +15,9 @@ pdxmesh = {
 	meshsettings = {
 		name = "female_headgear_secular_java_cfp_high_nobility_01_turbanShape"
 		index = 0
-		texture_diffuse = "female_headgear_secular_sub_saharan_common_01_diffuse.dds"
-		texture_normal = "female_headgear_secular_sub_saharan_common_01_normal.dds"
-		texture_specular = "female_headgear_secular_sub_saharan_common_01_properties.dds"
+		texture_diffuse = "f_headgear_secular_sub_saharan_com_01_diffuse.dds"
+		texture_normal = "f_headgear_secular_sub_saharan_com_01_normal.dds"
+		texture_specular = "f_headgear_secular_sub_saharan_com_01_properties.dds"
 		shader = "portrait_attachment_pattern"
 		shader_file = "gfx/FX/jomini/portrait.shader"
 	}
