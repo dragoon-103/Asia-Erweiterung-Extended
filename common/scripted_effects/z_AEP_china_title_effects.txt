@@ -3,7 +3,7 @@
 		set_title_name = $NAME$
 		set_coa = $COA$
 		set_capital_county = title:$CAPITAL$
-		set_color_from_title = title:k_color_$COLOR$
+		set_color_from_title = title:e_color_$COLOR$
 	}
 }
 
