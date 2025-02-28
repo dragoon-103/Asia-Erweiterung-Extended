@@ -2,11 +2,12 @@
 # Mandate of Heaven #
 #####################
 
-750.1.1 = {  # TODO Need historical data to fill in
+# End of Wu Zhou interregnum
+705.2.23 = {  # TODO Need historical data to fill in
 	effect = {
 		start_struggle = {
 			struggle_type = mandate_of_heaven_struggle
 			start_phase = struggle_mandate_of_heaven_phase_precious_harmony
-		}	
+		}
 	}
 }

@@ -25,7 +25,10 @@ mandate_of_heaven_chinese_ending_decision = {
 	is_valid = {
 		# Independent, involved (chinese culture), and not currently Emperor
 		is_independent_ruler = yes
-		NOT = { is_chinese_emperor_trigger = yes }
+		custom_tooltip = {
+			text = mandate_of_heaven_already_emperor_tt
+			NOT = { is_chinese_emperor_trigger = yes }
+		}
 
 		any_character_struggle = {
 			involvement = involved
@@ -34,22 +37,19 @@ mandate_of_heaven_chinese_ending_decision = {
 		}
 		
 		# No other involved/interloper ruler owns an empire title
-		any_independent_ruler = {
-			NOT = { this = root }
-			primary_title = { tier = tier_empire }
-			any_character_struggle = {
-				is_struggle_type = mandate_of_heaven_struggle
+		NOT = {
+			any_independent_ruler = {
+				NOT = { this = root }
+				primary_title = { tier = tier_empire }
+				any_character_struggle = {
+					is_struggle_type = mandate_of_heaven_struggle
+				}
 			}
 		}
 
-		# Holds enough titles
+		# Holds at least one kingdom
 		primary_title = {
 			tier >= tier_kingdom
-		}
-		any_held_title = {
-			count >= 3
-			tier = tier_kingdom
-			title_held_years >= 3
 		}
 
 		# Holds enough counties
@@ -135,7 +135,10 @@ mandate_of_heaven_barbarian_ending_decision = {
 	is_valid = {
 		# Independent, interloper (non-chinese culture), and not currently Emperor
 		is_independent_ruler = yes
-		NOT = { is_chinese_emperor_trigger = yes }
+		custom_tooltip = {
+			text = mandate_of_heaven_already_emperor_tt
+			NOT = { is_chinese_emperor_trigger = yes }
+		}
 
 		any_character_struggle = {
 			involvement = interloper
@@ -144,22 +147,19 @@ mandate_of_heaven_barbarian_ending_decision = {
 		}
 		
 		# No other involved/interloper ruler owns an empire title
-		any_independent_ruler = {
-			NOT = { this = root }
-			primary_title = { tier = tier_empire }
-			any_character_struggle = {
-				is_struggle_type = mandate_of_heaven_struggle
+		NOT = {
+			any_independent_ruler = {
+				NOT = { this = root }
+				primary_title = { tier = tier_empire }
+				any_character_struggle = {
+					is_struggle_type = mandate_of_heaven_struggle
+				}
 			}
 		}
 
 		# Holds enough titles
 		primary_title = {
 			tier >= tier_kingdom
-		}
-		any_held_title = {
-			count >= 3
-			tier = tier_kingdom
-			title_held_years >= 3
 		}
 
 		# Holds enough counties

@@ -23,11 +23,17 @@ any_barbarian_controls_percent_trigger = {
 }
 
 controls_mandate_of_heaven_counties_trigger = {
-	any_county_in_region = {
-		region = world_china
-		is_mandate_of_heaven_county_trigger = yes
-		add_to_temporary_list = mandate_county_list
-		count = all
+
+	# Save the counties in a list for later, but don't use this list as an actual check.
+	# If it is, then it would require all counties in China to have Chinese cultural pillar, which we don't want.
+	OR = {
+		any_county_in_region = {
+			region = world_china
+			is_mandate_of_heaven_county_trigger = yes
+			add_to_temporary_list = mandate_county_list
+			count = all
+		}
+		always = yes
 	}
 
 	any_in_list = {
@@ -51,8 +57,6 @@ controls_mandate_of_heaven_counties_trigger = {
 # Checks only for counties/independence; excludes primary title check.
 eligible_chinese_emperor_trigger = {
 	controls_mandate_of_heaven_counties_trigger = yes
-	is_landed = yes
-	is_independent_ruler = yes
 }
 
 is_chinese_emperor_trigger = {
