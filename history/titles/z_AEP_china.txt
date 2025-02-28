@@ -19,11 +19,6 @@ e_china = {
 					change_government = feudal_government
 				}
 			}
-
-			set_global_variable = {
-				name = china_empire_title
-				value = this
-			}
 		}
 	}
 	626.9.4 = {

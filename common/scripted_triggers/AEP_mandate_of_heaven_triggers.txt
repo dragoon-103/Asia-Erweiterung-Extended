@@ -51,35 +51,15 @@ controls_mandate_of_heaven_counties_trigger = {
 # Checks only for counties/independence; excludes primary title check.
 eligible_chinese_emperor_trigger = {
 	controls_mandate_of_heaven_counties_trigger = yes
-
-	exists = title:d_heluo.holder
-	title:d_heluo.holder = {
-		exists = top_liege
-		top_liege = {
-			is_independent_ruler = yes
-			save_temporary_scope_as = emperor
-		}
-	}
-	this = scope:emperor
+	is_landed = yes
+	is_independent_ruler = yes
 }
 
 is_chinese_emperor_trigger = {
 	controls_mandate_of_heaven_counties_trigger = yes
-
-	exists = title:d_heluo.holder
-	title:d_heluo.holder = {
-		exists = top_liege
-		top_liege = {
-			is_independent_ruler = yes
-			highest_held_title_tier = tier_empire
-			primary_title.tier = tier_empire
-			primary_title = {
-				this = global_var:china_empire_title
-			}
-			save_temporary_scope_as = emperor
-		}
-	}
-	this = scope:emperor
+	is_landed = yes
+	is_independent_ruler = yes
+	primary_title = title:e_china
 }
 
 is_chinese_subject_trigger = {
@@ -91,11 +71,7 @@ is_chinese_subject_trigger = {
 }
 
 chinese_emperor_exists_trigger = {
-	exists = title:d_heluo.holder
-	title:d_heluo.holder = {
-		exists = top_liege
-		top_liege = {
-			is_chinese_emperor_trigger = yes
-		}
+	title:e_china.holder = {
+		exists = yes
 	}
 }

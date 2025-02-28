@@ -287,12 +287,6 @@ aep_mandate_struggle.0200 = {
 		name = aep_mandate_struggle.0200.b
 
 		# Tang
-		trigger = {
-			NOT = {
-				global_var:china_empire_title = title:e_tang
-			}
-		}
-
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -307,22 +301,13 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		set_variable = {
-			name = new_title
-			value = title:e_tang
-		}
+		aep_china_title_tang_effect = yes
 	}
 
 	option = {
 		name = aep_mandate_struggle.0200.c
 
 		# Song
-		trigger = {
-			NOT = {
-				global_var:china_empire_title = title:e_song
-			}
-		}
-
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -338,22 +323,13 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		set_variable = {
-			name = new_title
-			value = title:e_song
-		}
+		aep_china_title_song_effect = yes
 	}
 
 	option = {
 		name = aep_mandate_struggle.0200.d
 
 		# Yuan
-		trigger = {
-			NOT = {
-				global_var:china_empire_title = title:e_yuan
-			}
-		}
-
 		ai_chance = {
 			base = 10
 			modifier = {
@@ -364,22 +340,13 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		set_variable = {
-			name = new_title
-			value = title:e_yuan
-		}
+		aep_china_title_yuan_effect = yes
 	}
 
 	option = {
 		name = aep_mandate_struggle.0200.e
 
 		# Ming
-		trigger = {
-			NOT = {
-				global_var:china_empire_title = title:e_ming
-			}
-		}
-
 		ai_chance = {
 			base = 1
 			modifier = {
@@ -394,80 +361,10 @@ aep_mandate_struggle.0200 = {
 			}
 		}
 
-		set_variable = {
-			name = new_title
-			value = title:e_ming
-		}
+		aep_china_title_ming_effect = yes
 	}
 
 	after = {
-		## UPDATE EMPIRE TITLE
-		if = {
-			limit = {
-				has_variable = new_title
-			}
-
-			# Create new title
-			create_title_and_vassal_change = {
-				type = created
-				save_scope_as = creation_change
-			}
-			var:new_title = {
-				change_title_holder = {
-					holder = root
-					change = scope:creation_change
-				}
-			}
-			resolve_title_and_vassal_change = scope:creation_change
-
-			# Transfer de jure kingdom titles
-			if = {
-				limit = {
-					has_global_variable = china_empire_title
-				}
-
-				global_var:china_empire_title = {
-					every_in_de_jure_hierarchy = {
-						limit = { tier = tier_kingdom }
-						set_de_jure_liege_title = var:new_title
-					}
-				}
-				destroy_title = global_var:china_empire_title
-			}
-
-			# Update variables
-			set_global_variable = {
-				name = china_empire_title
-				value = var:new_title
-			}
-			remove_variable = new_title
-		}
-		else = {
-			# Usurp old title
-			if = {
-				limit = {
-					has_global_variable = china_empire_title
-				}
-
-				create_title_and_vassal_change = {
-					type = usurped
-					save_scope_as = title_change
-				}
-				global_var:china_empire_title = {
-					change_title_holder = {
-						holder = root
-						change = scope:title_change
-					}
-				}
-				resolve_title_and_vassal_change = scope:creation_change
-			}
-		}
-
-		# Add all held kingdom titles to new title
-		every_held_title = {
-			limit = { tier = tier_kingdom }
-			set_de_jure_liege_title = global_var:china_empire_title
-		}
 
 		# Notifications
 		every_player = {
