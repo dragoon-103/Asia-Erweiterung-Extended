@@ -1,0 +1,817 @@
+﻿japonic_religion = {
+	family = rf_eastern
+	graphical_faith = shinto_gfx
+	doctrine = eastern_hostility_doctrine
+	
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_pluralistic
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_concubines
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+	
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_cremation # Due to Buddhist influence
+	
+	traits = {
+		virtues = {
+			generous
+			honest
+			just
+		}
+		sins = {
+			greedy
+			deceitful
+			arrogant
+		}
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s custom_faith_shinto_1 custom_faith_shinto_2
+	}
+	
+	holy_order_names = {
+		{ name = holy_order_guardians_of_divinerealm }
+		{ name = holy_order_faithful_of_highgod }
+		{ name = holy_order_warriors_of_the_symbol }
+	}
+	
+	holy_order_maa = { sohei }
+
+	localization = {
+		#HighGodName
+		HighGodName = japonic_religion_high_god_name
+		HighGodName2 = japonic_religion_high_god_name
+		HighGodNamePossessive = japonic_religion_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_THEY
+		HighGodHerselfHimself = CHARACTER_THEMSELVES
+		HighGodHerHis = CHARACTER_HERHIS_THEIR
+		HighGodNameAlternate = japonic_religion_high_god_alternate
+		HighGodNameAlternatePossessive = japonic_religion_high_god_alternate_possessive
+	
+		#Creator
+		CreatorName = japonic_religion_creator_god_name
+		CreatorNamePossessive = japonic_religion_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_THEY
+		CreatorHerHis = CHARACTER_HERHIS_THEIR
+		CreatorHerHim = CHARACTER_HERHIM_THEM
+	
+		#HealthGod
+		HealthGodName = japonic_religion_health_god_name
+		HealthGodNamePossessive = japonic_religion_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_THEY
+		HealthGodHerHis = CHARACTER_HERHIS_THEIR
+		HealthGodHerHim = CHARACTER_HERHIM_THEM
+		
+		#FertilityGod
+		FertilityGodName = japonic_religion_fertility_god_name
+		FertilityGodNamePossessive = japonic_religion_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_THEY
+		FertilityGodHerHis = CHARACTER_HERHIS_THEIR
+		FertilityGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#WealthGod
+		WealthGodName = japonic_religion_wealth_god_name
+		WealthGodNamePossessive = japonic_religion_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_THEY
+		WealthGodHerHis = CHARACTER_HERHIS_THEIR
+		WealthGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#HouseholdGod
+		HouseholdGodName = japonic_religion_household_god_name
+		HouseholdGodNamePossessive = japonic_religion_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+		HouseholdGodHerHis = CHARACTER_HERHIS_THEIR
+		HouseholdGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#FateGod
+		FateGodName = japonic_religion_fate_god_alternate
+		FateGodNamePossessive = japonic_religion_fate_god_alternate_possessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+	
+		#KnowledgeGod
+		KnowledgeGodName = japonic_religion_knowledge_god_name
+		KnowledgeGodNamePossessive = japonic_religion_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_THEY
+		KnowledgeGodHerHis = CHARACTER_HERHIS_THEIR
+		KnowledgeGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#WarGod
+		WarGodName = japonic_religion_war_god_name
+		WarGodNamePossessive = japonic_religion_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_THEY
+		WarGodHerHis = CHARACTER_HERHIS_THEIR
+		WarGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#TricksterGod
+		TricksterGodName = japonic_religion_trickster_god_name
+		TricksterGodNamePossessive = japonic_religion_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_THEY
+		TricksterGodHerHis = CHARACTER_HERHIS_THEIR
+		TricksterGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#NightGod
+		NightGodName = japonic_religion_night_god_name
+		NightGodNamePossessive = japonic_religion_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_THEY
+		NightGodHerHis = CHARACTER_HERHIS_THEIR
+		NightGodHerHim = CHARACTER_HERHIM_THEM
+	
+		#WaterGod
+		WaterGodName = japonic_religion_water_god_name
+		WaterGodNamePossessive = japonic_religion_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_THEY
+		WaterGodHerHis = CHARACTER_HERHIS_THEIR
+		WaterGodHerHim = CHARACTER_HERHIM_THEM
+		
+		PantheonTerm = buddhism_samsara
+		PantheonTerm2 = buddhism_samsara
+		PantheonTerm3 = buddhism_samsara
+		PantheonTermHasHave = pantheon_term_has
+		GoodGodNames = {
+			japonic_religion_high_god_name
+			japonic_religion_high_god_alternate
+		}
+		DevilName = japonic_religion_devil_name
+		DevilNamePossessive = japonic_religion_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_IT
+		DevilHerHis = CHARACTER_HERSHIS_ITS
+		DevilHerselfHimself = CHARACTER_HERHIM_IT
+		EvilGodNames = {
+			japonic_religion_devil_name
+		}
+		HouseOfWorship = japonic_religion_house_of_worship
+		HouseOfWorship2 = japonic_religion_house_of_worship
+		HouseOfWorship3 = japonic_religion_house_of_worship
+		HouseOfWorshipPlural = japonic_religion_house_of_worship_plural
+		ReligiousSymbol = japonic_religion_religious_symbol
+		ReligiousSymbol2 = japonic_religion_religious_symbol
+		ReligiousSymbol3 = japonic_religion_religious_symbol
+		ReligiousText = japonic_religion_religious_text
+		ReligiousText2 = japonic_religion_religious_text
+		ReligiousText3 = japonic_religion_religious_text
+		ReligiousHeadName = japonic_religion_religious_head_title
+		ReligiousHeadTitleName = japonic_religion_religious_head_title_name
+		DevoteeMale = japonic_religion_devotee_male
+		DevoteeMalePlural = japonic_religion_devotee_male_plural
+		DevoteeFemale = japonic_religion_devotee_female
+		DevoteeFemalePlural = japonic_religion_devotee_female_plural
+		DevoteeNeuter = japonic_religion_devotee_male
+		DevoteeNeuterPlural = japonic_religion_devotee_male_plural
+		PriestMale = japonic_religion_priest_neuter
+		PriestMalePlural = japonic_religion_priest_neuter_plural
+		PriestFemale = japonic_religion_priest_neuter
+		PriestFemalePlural = japonic_religion_priest_neuter_plural
+		PriestNeuter = japonic_religion_priest_neuter
+		PriestNeuterPlural = japonic_religion_priest_neuter_plural
+		AltPriestTermPlural = japonic_religion_priest_neuter_plural
+		BishopMale = japonic_religion_priest_neuter
+		BishopMalePlural = japonic_religion_priest_neuter_plural
+		BishopFemale = japonic_religion_priest_neuter
+		BishopFemalePlural = japonic_religion_priest_neuter_plural
+		BishopNeuter = japonic_religion_priest_neuter
+		BishopNeuterPlural = japonic_religion_priest_neuter_plural
+		DivineRealm = japonic_religion_divine_realm
+		DivineRealm2 = japonic_religion_divine_realm
+		DivineRealm3 = japonic_religion_divine_realm
+		PositiveAfterLife = japonic_religion_positive_afterlife
+		PositiveAfterLife2 = japonic_religion_positive_afterlife
+		PositiveAfterLife3 = japonic_religion_positive_afterlife
+		NegativeAfterLife = japonic_religion_negative_afterlife
+		NegativeAfterLife2 = japonic_religion_negative_afterlife
+		NegativeAfterLife3 = japonic_religion_negative_afterlife
+		DeathDeityName = japonic_religion_death_god_name
+		DeathDeityNamePossessive = japonic_religion_death_god_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
+		WitchGodName = japonic_religion_witch_god_name
+		WitchGodNamePossessive = japonic_religion_witch_god_name_possessive
+		WitchGodHerHis = CHARACTER_HERHIS_HIS
+		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodHerHim = CHARACTER_HERHIM_HIM
+		WitchGodMistressMaster = master
+		WitchGodMotherFather = father
+	
+	
+		GHWName = ghw_purification
+		GHWNamePlural = ghw_purifications
+	}
+
+	faiths = {
+		shinto = {
+			color = { 110 0 0 }
+			icon = shinto
+			
+			religious_head = d_koshitsu
+
+			holy_site = ise # 伊勢神宮
+			holy_site = izumo # 出雲大社
+			holy_site = kasuga # 春日大社
+			holy_site = atsuta # 熱田神宮
+			holy_site = yoshida # 吉田神社
+			holy_site = kumanosanzan # 熊野神社
+			holy_site = fujisan # 富士山
+
+			#Tenets
+			doctrine = tenet_monasticism
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_inner_journey
+			
+			doctrine = doctrine_temporal_head
+			doctrine = doctrine_divorce_approval
+			
+			#Special Doctrine for Eastern Syncretism
+			doctrine = special_doctrine_is_eastern_faith
+		}
+
+		onmyodo = { # 陰陽道
+			color = { 45 51 87 }
+			icon = onmyodo
+
+			holy_site = yoshida # 晴明神社
+			holy_site = dazaifu # 太宰府天満宮
+			holy_site = yoshinoyama # 吉野山
+			holy_site = osorezan # 恐山
+			holy_site = ise # 伊勢神宮
+			holy_site = izumo # 出雲大社
+			
+			#Tenets
+			doctrine = tenet_astrology
+			doctrine = tenet_esotericism
+			doctrine = tenet_ancestor_worship
+
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_witchcraft_virtuous
+			doctrine = doctrine_clerical_function_taxation
+			
+			#Special Doctrine for Eastern Syncretism
+			doctrine = special_doctrine_is_eastern_faith
+
+			localization = {
+				#HighGodName
+				HighGodName = onmyodo_high_god_name
+				HighGodName2 = onmyodo_high_god_name
+				HighGodNamePossessive = onmyodo_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_THEY
+				HighGodHerselfHimself = CHARACTER_THEMSELVES
+				HighGodHerHis = CHARACTER_HERHIS_THEIR
+				HighGodNameAlternate = onmyodo_high_god_alternate
+				HighGodNameAlternatePossessive = onmyodo_high_god_alternate_possessive
+			
+				#Creator
+				CreatorName = onmyodo_creator_god_name
+				CreatorNamePossessive = onmyodo_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_THEY
+				CreatorHerHis = CHARACTER_HERHIS_THEIR
+				CreatorHerHim = CHARACTER_HERHIM_THEM
+			
+				#HealthGod
+				HealthGodName = onmyodo_health_god_name
+				HealthGodNamePossessive = onmyodo_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_THEY
+				HealthGodHerHis = CHARACTER_HERHIS_THEIR
+				HealthGodHerHim = CHARACTER_HERHIM_THEM
+				
+				#FertilityGod
+				FertilityGodName = onmyodo_fertility_god_name
+				FertilityGodNamePossessive = onmyodo_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_THEY
+				FertilityGodHerHis = CHARACTER_HERHIS_THEIR
+				FertilityGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#WealthGod
+				WealthGodName = onmyodo_wealth_god_name
+				WealthGodNamePossessive = onmyodo_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_THEY
+				WealthGodHerHis = CHARACTER_HERHIS_THEIR
+				WealthGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#HouseholdGod
+				HouseholdGodName = onmyodo_household_god_name
+				HouseholdGodNamePossessive = onmyodo_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+				HouseholdGodHerHis = CHARACTER_HERHIS_THEIR
+				HouseholdGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#FateGod
+				FateGodName = onmyodo_fate_god_alternate
+				FateGodNamePossessive = onmyodo_fate_god_alternate_possessive
+				FateGodSheHe = CHARACTER_SHEHE_IT
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
+				FateGodHerHim = CHARACTER_HERHIM_IT
+			
+				#KnowledgeGod
+				KnowledgeGodName = onmyodo_knowledge_god_name
+				KnowledgeGodNamePossessive = onmyodo_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_THEY
+				KnowledgeGodHerHis = CHARACTER_HERHIS_THEIR
+				KnowledgeGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#WarGod
+				WarGodName = onmyodo_war_god_name
+				WarGodNamePossessive = onmyodo_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_THEY
+				WarGodHerHis = CHARACTER_HERHIS_THEIR
+				WarGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#TricksterGod
+				TricksterGodName = onmyodo_trickster_god_name
+				TricksterGodNamePossessive = onmyodo_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_THEY
+				TricksterGodHerHis = CHARACTER_HERHIS_THEIR
+				TricksterGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#NightGod
+				NightGodName = onmyodo_night_god_name
+				NightGodNamePossessive = onmyodo_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_THEY
+				NightGodHerHis = CHARACTER_HERHIS_THEIR
+				NightGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#WaterGod
+				WaterGodName = onmyodo_water_god_name
+				WaterGodNamePossessive = onmyodo_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_THEY
+				WaterGodHerHis = CHARACTER_HERHIS_THEIR
+				WaterGodHerHim = CHARACTER_HERHIM_THEM
+				
+				PantheonTerm = buddhism_samsara
+				PantheonTerm2 = buddhism_samsara
+				PantheonTerm3 = buddhism_samsara
+				PantheonTermHasHave = pantheon_term_has
+				GoodGodNames = {
+					onmyodo_high_god_name
+					onmyodo_high_god_alternate
+				}
+				DevilName = onmyodo_devil_name
+				DevilNamePossessive = onmyodo_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_IT
+				DevilHerHis = CHARACTER_HERSHIS_ITS
+				DevilHerselfHimself = CHARACTER_HERHIM_IT
+				EvilGodNames = {
+					onmyodo_devil_name
+				}
+				HouseOfWorship = onmyodo_house_of_worship
+				HouseOfWorship2 = onmyodo_house_of_worship
+				HouseOfWorship3 = onmyodo_house_of_worship
+				HouseOfWorshipPlural = onmyodo_house_of_worship_plural
+				ReligiousSymbol = onmyodo_religious_symbol
+				ReligiousSymbol2 = onmyodo_religious_symbol
+				ReligiousSymbol3 = onmyodo_religious_symbol
+				ReligiousText = onmyodo_religious_text
+				ReligiousText2 = onmyodo_religious_text
+				ReligiousText3 = onmyodo_religious_text
+				ReligiousHeadName = onmyodo_religious_head_title
+				ReligiousHeadTitleName = onmyodo_religious_head_title_name
+				DevoteeMale = onmyodo_devotee_male
+				DevoteeMalePlural = onmyodo_devotee_male_plural
+				DevoteeFemale = onmyodo_devotee_female
+				DevoteeFemalePlural = onmyodo_devotee_female_plural
+				DevoteeNeuter = onmyodo_devotee_male
+				DevoteeNeuterPlural = onmyodo_devotee_male_plural
+				PriestMale = onmyodo_priest_male
+				PriestMalePlural = onmyodo_priest_male_plural
+				PriestFemale = onmyodo_priest_female
+				PriestFemalePlural = onmyodo_priest_female_plural
+				PriestNeuter = onmyodo_priest_male
+				PriestNeuterPlural = onmyodo_priest_male_plural
+				AltPriestTermPlural = onmyodo_priest_male_plural
+				BishopMale = onmyodo_priest_male
+				BishopMalePlural = onmyodo_priest_male_plural
+				BishopFemale = onmyodo_priest_female
+				BishopFemalePlural = onmyodo_priest_female_plural
+				BishopNeuter = onmyodo_priest_male
+				BishopNeuterPlural = onmyodo_priest_male_plural
+				DivineRealm = onmyodo_divine_realm
+				DivineRealm2 = onmyodo_divine_realm
+				DivineRealm3 = onmyodo_divine_realm
+				PositiveAfterLife = onmyodo_positive_afterlife
+				PositiveAfterLife2 = onmyodo_positive_afterlife
+				PositiveAfterLife3 = onmyodo_positive_afterlife
+				NegativeAfterLife = onmyodo_negative_afterlife
+				NegativeAfterLife2 = onmyodo_negative_afterlife
+				NegativeAfterLife3 = onmyodo_negative_afterlife
+				DeathDeityName = onmyodo_death_god_name
+				DeathDeityNamePossessive = onmyodo_death_god_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
+				WitchGodName = onmyodo_witch_god_name
+				WitchGodNamePossessive = onmyodo_witch_god_name_possessive
+				WitchGodHerHis = CHARACTER_HERHIS_HIS
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HIM
+				WitchGodMistressMaster = master
+				WitchGodMotherFather = father
+			
+			
+				GHWName = ghw_purification
+				GHWNamePlural = ghw_purifications
+			}
+		}
+
+		shugendo = { # 修験道
+			color = { 55 61 87 }
+			icon = shugendo
+
+			holy_site = yoshinoyama # 吉野山
+			holy_site = hagurosan # 羽黒山
+			holy_site = mitakesan # 御岳山
+			holy_site = kumanosanzan # 熊野神社
+			holy_site = ishizuchisan # 石鎚山
+			holy_site = tateyama # 立山
+			holy_site = fujisan # 富士山
+			
+			#Tenets
+			doctrine = tenet_monasticism
+			doctrine = tenet_asceticism
+			doctrine = tenet_esotericism
+
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
+			doctrine = doctrine_bastardry_none
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_kinslaying_any_dynasty_member_crime
+			doctrine = doctrine_witchcraft_virtuous
+			doctrine = doctrine_pilgrimage_mandatory
+			
+			#Special Doctrine for Eastern Syncretism
+			doctrine = special_doctrine_is_eastern_faith
+
+			localization = {
+				#HighGodName
+				HighGodName = shugendo_high_god_name
+				HighGodName2 = shugendo_high_god_name
+				HighGodNamePossessive = shugendo_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_THEY
+				HighGodHerselfHimself = CHARACTER_THEMSELVES
+				HighGodHerHis = CHARACTER_HERHIS_THEIR
+				HighGodNameAlternate = shugendo_high_god_alternate
+				HighGodNameAlternatePossessive = shugendo_high_god_alternate_possessive
+			
+				#Creator
+				CreatorName = shugendo_creator_god_name
+				CreatorNamePossessive = shugendo_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_THEY
+				CreatorHerHis = CHARACTER_HERHIS_THEIR
+				CreatorHerHim = CHARACTER_HERHIM_THEM
+			
+				#HealthGod
+				HealthGodName = shugendo_health_god_name
+				HealthGodNamePossessive = shugendo_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_THEY
+				HealthGodHerHis = CHARACTER_HERHIS_THEIR
+				HealthGodHerHim = CHARACTER_HERHIM_THEM
+				
+				#FertilityGod
+				FertilityGodName = shugendo_fertility_god_name
+				FertilityGodNamePossessive = shugendo_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_THEY
+				FertilityGodHerHis = CHARACTER_HERHIS_THEIR
+				FertilityGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#WealthGod
+				WealthGodName = shugendo_wealth_god_name
+				WealthGodNamePossessive = shugendo_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_THEY
+				WealthGodHerHis = CHARACTER_HERHIS_THEIR
+				WealthGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#HouseholdGod
+				HouseholdGodName = shugendo_household_god_name
+				HouseholdGodNamePossessive = shugendo_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_THEY
+				HouseholdGodHerHis = CHARACTER_HERHIS_THEIR
+				HouseholdGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#FateGod
+				FateGodName = shugendo_fate_god_alternate
+				FateGodNamePossessive = shugendo_fate_god_alternate_possessive
+				FateGodSheHe = CHARACTER_SHEHE_IT
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
+				FateGodHerHim = CHARACTER_HERHIM_IT
+			
+				#KnowledgeGod
+				KnowledgeGodName = shugendo_knowledge_god_name
+				KnowledgeGodNamePossessive = shugendo_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_THEY
+				KnowledgeGodHerHis = CHARACTER_HERHIS_THEIR
+				KnowledgeGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#WarGod
+				WarGodName = shugendo_war_god_name
+				WarGodNamePossessive = shugendo_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_THEY
+				WarGodHerHis = CHARACTER_HERHIS_THEIR
+				WarGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#TricksterGod
+				TricksterGodName = shugendo_trickster_god_name
+				TricksterGodNamePossessive = shugendo_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_THEY
+				TricksterGodHerHis = CHARACTER_HERHIS_THEIR
+				TricksterGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#NightGod
+				NightGodName = shugendo_night_god_name
+				NightGodNamePossessive = shugendo_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_THEY
+				NightGodHerHis = CHARACTER_HERHIS_THEIR
+				NightGodHerHim = CHARACTER_HERHIM_THEM
+			
+				#WaterGod
+				WaterGodName = shugendo_water_god_name
+				WaterGodNamePossessive = shugendo_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_THEY
+				WaterGodHerHis = CHARACTER_HERHIS_THEIR
+				WaterGodHerHim = CHARACTER_HERHIM_THEM
+				
+				PantheonTerm = buddhism_samsara
+				PantheonTerm2 = buddhism_samsara
+				PantheonTerm3 = buddhism_samsara
+				PantheonTermHasHave = pantheon_term_has
+				GoodGodNames = {
+					shugendo_high_god_name
+					shugendo_high_god_alternate
+				}
+				DevilName = shugendo_devil_name
+				DevilNamePossessive = shugendo_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_IT
+				DevilHerHis = CHARACTER_HERSHIS_ITS
+				DevilHerselfHimself = CHARACTER_HERHIM_IT
+				EvilGodNames = {
+					shugendo_devil_name
+				}
+				HouseOfWorship = shugendo_house_of_worship
+				HouseOfWorship2 = shugendo_house_of_worship
+				HouseOfWorship3 = shugendo_house_of_worship
+				HouseOfWorshipPlural = shugendo_house_of_worship_plural
+				ReligiousSymbol = shugendo_religious_symbol
+				ReligiousSymbol2 = shugendo_religious_symbol
+				ReligiousSymbol3 = shugendo_religious_symbol
+				ReligiousText = shugendo_religious_text
+				ReligiousText2 = shugendo_religious_text
+				ReligiousText3 = shugendo_religious_text
+				ReligiousHeadName = shugendo_religious_head_title
+				ReligiousHeadTitleName = shugendo_religious_head_title_name
+				DevoteeMale = shugendo_devotee_male
+				DevoteeMalePlural = shugendo_devotee_male_plural
+				DevoteeFemale = shugendo_devotee_female
+				DevoteeFemalePlural = shugendo_devotee_female_plural
+				DevoteeNeuter = shugendo_devotee_male
+				DevoteeNeuterPlural = shugendo_devotee_male_plural
+				PriestMale = shugendo_priest_neuter
+				PriestMalePlural = shugendo_priest_neuter_plural
+				PriestFemale = shugendo_priest_neuter
+				PriestFemalePlural = shugendo_priest_neuter_plural
+				PriestNeuter = shugendo_priest_neuter
+				PriestNeuterPlural = shugendo_priest_neuter_plural
+				AltPriestTermPlural = shugendo_priest_neuter_plural
+				BishopMale = shugendo_priest_neuter
+				BishopMalePlural = shugendo_priest_neuter_plural
+				BishopFemale = shugendo_priest_neuter
+				BishopFemalePlural = shugendo_priest_neuter_plural
+				BishopNeuter = shugendo_priest_neuter
+				BishopNeuterPlural = shugendo_priest_neuter_plural
+				DivineRealm = shugendo_divine_realm
+				DivineRealm2 = shugendo_divine_realm
+				DivineRealm3 = shugendo_divine_realm
+				PositiveAfterLife = shugendo_positive_afterlife
+				PositiveAfterLife2 = shugendo_positive_afterlife
+				PositiveAfterLife3 = shugendo_positive_afterlife
+				NegativeAfterLife = shugendo_negative_afterlife
+				NegativeAfterLife2 = shugendo_negative_afterlife
+				NegativeAfterLife3 = shugendo_negative_afterlife
+				DeathDeityName = shugendo_death_god_name
+				DeathDeityNamePossessive = shugendo_death_god_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
+				WitchGodName = shugendo_witch_god_name
+				WitchGodNamePossessive = shugendo_witch_god_name_possessive
+				WitchGodHerHis = CHARACTER_HERHIS_HIS
+				WitchGodSheHe = CHARACTER_SHEHE_HE
+				WitchGodHerHim = CHARACTER_HERHIM_HIM
+				WitchGodMistressMaster = master
+				WitchGodMotherFather = father
+			
+			
+				GHWName = ghw_purification
+				GHWNamePlural = ghw_purifications
+			}
+		}
+
+		utaki = {
+			color = { 232 293 203 }
+			icon = ryukyu
+			reformed_icon = ryukyu_reformed
+			
+			holy_site = sefautaki
+			holy_site = amami
+			holy_site = miyako
+			holy_site = udo_jingu
+			holy_site = patungkuonu
+			holy_site = iraya
+
+			#Tenets
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_adorcism
+			
+			doctrine = doctrine_gender_equal
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_adultery_women_shunned
+			doctrine = doctrine_clerical_gender_female_only
+			doctrine = doctrine_funeral_stoic
+			doctrine = unreformed_faith_doctrine
+			
+			localization = {
+				HighGodName = utaki_high_god_name
+				HighGodName2 = utaki_high_god_name
+				HighGodNamePossessive = utaki_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_SHE
+				HighGodHerselfHimself = CHARACTER_HERSELF
+				HighGodHerHis = CHARACTER_HERHIS_HER
+				HighGodNameAlternate = utaki_high_god_name_alternate
+				HighGodNameAlternatePossessive = utaki_high_god_name_alternate_possessive
+		
+				#Creator
+				CreatorName = utaki_creator_god_name
+				CreatorNamePossessive = utaki_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_SHE
+				CreatorHerHis = CHARACTER_HERHIS_HER
+				CreatorHerHim = CHARACTER_HERHIM_HER
+		
+				#HealthGod
+				HealthGodName = utaki_health_god_name
+				HealthGodNamePossessive = utaki_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_SHE
+				HealthGodHerHis = CHARACTER_HERHIS_HER
+				HealthGodHerHim = CHARACTER_HERHIM_HER
+				
+				#FertilityGod
+				FertilityGodName = utaki_fertility_god_name
+				FertilityGodNamePossessive = utaki_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+		
+				#WealthGod
+				WealthGodName = utaki_wealth_god_name
+				WealthGodNamePossessive = utaki_wealth_god_name_possessive
+				WealthGodSheHe = CHARACTER_SHEHE_SHE
+				WealthGodHerHis = CHARACTER_HERHIS_HER
+				WealthGodHerHim = CHARACTER_HERHIM_HER
+		
+				#HouseholdGod
+				HouseholdGodName = utaki_household_god_name
+				HouseholdGodNamePossessive = utaki_household_god_name_possessive
+				HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+				HouseholdGodHerHis = CHARACTER_HERHIS_HER
+				HouseholdGodHerHim = CHARACTER_HERHIM_HER
+		
+				#FateGod
+				FateGodName = utaki_fate_god_name
+				FateGodNamePossessive = utaki_fate_god_name_possessive
+				FateGodSheHe = CHARACTER_SHEHE_IT
+				FateGodHerHis = CHARACTER_HERSHIS_ITS
+				FateGodHerHim = CHARACTER_HERHIM_IT
+		
+				#KnowledgeGod
+				KnowledgeGodName = utaki_knowledge_god_name
+				KnowledgeGodNamePossessive = utaki_knowledge_god_name_possessive
+				KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
+				KnowledgeGodHerHis = CHARACTER_HERHIS_HER
+				KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+		
+				#WarGod
+				WarGodName = utaki_war_god_name
+				WarGodNamePossessive = utaki_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_SHE
+				WarGodHerHis = CHARACTER_HERHIS_HER
+				WarGodHerHim = CHARACTER_HERHIM_HER
+		
+				#TricksterGod
+				TricksterGodName = utaki_trickster_god_name
+				TricksterGodNamePossessive = utaki_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+		
+				#NightGod
+				NightGodName = utaki_night_god_name
+				NightGodNamePossessive = utaki_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_HE
+				NightGodHerHis = CHARACTER_HERHIS_HIS
+				NightGodHerHim = CHARACTER_HERHIM_HIM
+		
+				#WaterGod
+				WaterGodName = utaki_water_god_name
+				WaterGodNamePossessive = utaki_water_god_name_possessive
+				WaterGodSheHe = CHARACTER_SHEHE_SHE
+				WaterGodHerHis = CHARACTER_HERHIS_HER
+				WaterGodHerHim = CHARACTER_HERHIM_HER
+		
+		
+				PantheonTerm = utaki_mother_earth_father_sky
+				PantheonTerm2 = utaki_mother_earth_father_sky
+				PantheonTerm3 = utaki_mother_earth_father_sky
+				PantheonTermHasHave = pantheon_term_have
+				GoodGodNames = {
+					utaki_high_god_name
+					utaki_good_god_father_sky
+					utaki_good_god_ancestors
+				}
+				DevilName = utaki_devil_name
+				DevilNamePossessive = utaki_devil_name_possessive
+				DevilSheHe = CHARACTER_SHEHE_IT
+				DevilHerHis = CHARACTER_HERSHIS_ITS
+				DevilHerselfHimself = utaki_devil_herselfhimself
+				EvilGodNames = {
+					utaki_devil_name
+					utaki_evil_god_decay
+				}
+				HouseOfWorship = utaki_house_of_worship
+				HouseOfWorship2 = utaki_house_of_worship
+				HouseOfWorship3 = utaki_house_of_worship
+				HouseOfWorshipPlural = utaki_house_of_worship_plural
+				ReligiousSymbol = utaki_religious_symbol
+				ReligiousSymbol2 = utaki_religious_symbol
+				ReligiousSymbol3 = utaki_religious_symbol
+				ReligiousText = utaki_religious_text
+				ReligiousText2 = utaki_religious_text
+				ReligiousText3 = utaki_religious_text
+				ReligiousHeadName = utaki_religious_head_title
+				ReligiousHeadTitleName = utaki_religious_head_title_name
+				DevoteeMale = utaki_devotee
+				DevoteeMalePlural = utaki_devoteeplural
+				DevoteeFemale = utaki_devotee
+				DevoteeFemalePlural = utaki_devoteeplural
+				DevoteeNeuter = utaki_devotee
+				DevoteeNeuterPlural = utaki_devoteeplural
+				PriestMale = utaki_priest_male
+				PriestMalePlural = utaki_priest_male_plural
+				PriestFemale = utaki_priest_female
+				PriestFemalePlural = utaki_priest_female_plural
+				PriestNeuter = utaki_priest_male
+				PriestNeuterPlural = utaki_priest_male_plural
+				AltPriestTermPlural = utaki_priest_alternate_plural
+				BishopMale = utaki_priest_male
+				BishopMalePlural = utaki_priest_male_plural
+				BishopFemale = utaki_priest_female
+				BishopFemalePlural = utaki_priest_female_plural
+				BishopNeuter = utaki_priest_male
+				BishopNeuterPlural = utaki_priest_male_plural
+				DivineRealm = utaki_divine_realm
+				DivineRealm2 = utaki_divine_realm
+				DivineRealm3 = utaki_divine_realm
+				PositiveAfterLife = utaki_divine_realm
+				PositiveAfterLife2 = utaki_divine_realm
+				PositiveAfterLife3 = utaki_divine_realm
+				NegativeAfterLife = utaki_afterlife
+				NegativeAfterLife2 = utaki_afterlife
+				NegativeAfterLife3 = utaki_afterlife
+				DeathDeityName = utaki_death_deity_name
+				DeathDeityNamePossessive = utaki_death_deity_name_possessive
+				DeathDeitySheHe = utaki_devil_shehe
+				DeathDeityHerHis = utaki_death_deity_herhis
+				DeathDeityHerHim = utaki_death_deity_herhis
+				WitchGodName = witchgodname_utaki_the_shadow
+				WitchGodNamePossessive = witchgodname_utaki_the_shadow
+				WitchGodSheHe = CHARACTER_SHEHE_IT
+				WitchGodHerHis = CHARACTER_HERSHIS_ITS
+				WitchGodHerHim = CHARACTER_HERHIM_IT
+				WitchGodMistressMaster = witch_spirit
+				WitchGodMotherFather = witch_source
+				
+				GHWName = ghw_great_holy_war
+				GHWNamePlural = ghw_great_holy_wars
+			}	
+		}
+	}
+}

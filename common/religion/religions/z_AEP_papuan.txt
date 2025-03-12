@@ -1,0 +1,236 @@
+﻿papuan_religion = {
+	family = rf_pagan
+	graphical_faith = pagan_gfx
+	doctrine = pagan_hostility_doctrine
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_no_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_lay_clergy
+	#doctrine = doctrine_right_to_rule_material
+
+	#Marriage
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_allowed
+	doctrine = doctrine_bastardry_none
+	doctrine = doctrine_consanguinity_cousins
+
+	#Crimes
+	doctrine = doctrine_homosexuality_shunned
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_shunned
+	doctrine = doctrine_witchcraft_shunned
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_alms_and_pacification
+	doctrine = doctrine_clerical_gender_male_only
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_appointment
+	
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_mummification
+
+	traits = {
+		virtues = { humble generous honest brave }
+		sins = { greedy deceitful arrogant }
+	}
+
+	custom_faith_icons = {
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
+	}
+
+	localization = {
+		#HighGod
+		HighGodName = papuan_religion_high_god_name
+		HighGodName2 = papuan_religion_high_god_name
+		HighGodNamePossessive = papuan_religion_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = papuan_religion_high_god_name_alternate
+		HighGodNameAlternatePossessive = papuan_religion_high_god_name_alternate_possessive
+	
+		#Creator
+		CreatorName = papuan_religion_creator_god_name
+		CreatorNamePossessive = papuan_religion_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+	
+		#HealthGod
+		HealthGodName = papuan_religion_health_god_name
+		HealthGodNamePossessive = papuan_religion_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#FertilityGod
+		FertilityGodName = papuan_religion_fertility_god_name
+		FertilityGodNamePossessive = papuan_religion_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+	
+		#WealthGod
+		WealthGodName = papuan_religion_wealth_god_name
+		WealthGodNamePossessive = papuan_religion_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_HE
+		WealthGodHerHis = CHARACTER_HERHIS_HIS
+		WealthGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#HouseholdGod
+		HouseholdGodName = papuan_religion_household_god_name
+		HouseholdGodNamePossessive = papuan_religion_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#FateGod
+		FateGodName = papuan_religion_fate_god_name
+		FateGodNamePossessive = papuan_religion_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_IT
+		FateGodHerHis = CHARACTER_HERSHIS_ITS
+		FateGodHerHim = CHARACTER_HERHIM_IT
+	
+		#KnowledgeGod
+		KnowledgeGodName = papuan_religion_knowledge_god_name
+		KnowledgeGodNamePossessive = papuan_religion_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#WarGod
+		WarGodName = papuan_religion_war_god_name
+		WarGodNamePossessive = papuan_religion_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#TricksterGod
+		TricksterGodName = papuan_religion_trickster_god_name
+		TricksterGodNamePossessive = papuan_religion_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+	
+		#NightGod
+		NightGodName = papuan_religion_night_god_name
+		NightGodNamePossessive = papuan_religion_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_SHE
+		NightGodHerHis = CHARACTER_HERHIS_HER
+		NightGodHerHim = CHARACTER_HERHIM_HER
+	
+		#WaterGod
+		WaterGodName = papuan_religion_water_god_name
+		WaterGodNamePossessive = papuan_religion_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+	
+		PantheonTerm = religion_the_gods
+		PantheonTerm2 = religion_the_gods
+		PantheonTerm3 = religion_the_gods
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = {
+			papuan_religion_high_god_name
+			papuan_religion_high_god_name_alternate
+			papuan_religion_good_god_mubyasei
+			papuan_religion_good_god_abba_chi
+			papuan_religion_good_god_abba_sei
+			papuan_religion_good_god_abba_mullah
+			papuan_religion_good_god_mutsitsu
+			papuan_religion_good_god_tugantsu
+			papuan_religion_good_god_mupitha
+		}
+		DevilName = papuan_religion_devil_name
+		DevilNamePossessive = papuan_religion_devil_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = papuan_religion_devil_herselfhimself
+		EvilGodNames = {
+			papuan_religion_devil_name
+			papuan_religion_evil_god_dul
+		}
+		HouseOfWorship = papuan_religion_house_of_worship
+		HouseOfWorship2 = papuan_religion_house_of_worship
+		HouseOfWorship3 = papuan_religion_house_of_worship
+		HouseOfWorshipPlural = papuan_religion_house_of_worship_plural
+		ReligiousSymbol = papuan_religion_religious_symbol
+		ReligiousSymbol2 = papuan_religion_religious_symbol
+		ReligiousSymbol3 = papuan_religion_religious_symbol
+		ReligiousText = papuan_religion_religious_text
+		ReligiousText2 = papuan_religion_religious_text
+		ReligiousText3 = papuan_religion_religious_text
+		ReligiousHeadName = papuan_religion_religious_head_title
+		ReligiousHeadTitleName = papuan_religion_religious_head_title_name
+		DevoteeMale = papuan_religion_devotee_male
+		DevoteeMalePlural = papuan_religion_devotee_male_plural
+		DevoteeFemale = papuan_religion_devotee_female
+		DevoteeFemalePlural = papuan_religion_devotee_female_plural
+		DevoteeNeuter = papuan_religion_devotee_neuter
+		DevoteeNeuterPlural = papuan_religion_devotee_neuter_plural
+		PriestMale = papuan_religion_priest
+		PriestMalePlural = papuan_religion_priest_plural
+		PriestFemale = papuan_religion_priest
+		PriestFemalePlural = papuan_religion_priest_plural
+		PriestNeuter = papuan_religion_priest
+		PriestNeuterPlural = papuan_religion_priest_plural
+		AltPriestTermPlural = papuan_religion_priest_term_plural
+		BishopMale = papuan_religion_priest
+		BishopMalePlural = papuan_religion_priest_plural
+		BishopFemale = papuan_religion_priest
+		BishopFemalePlural = papuan_religion_priest_plural
+		BishopNeuter = papuan_religion_priest
+		BishopNeuterPlural = papuan_religion_priest_plural
+		DivineRealm = papuan_religion_divine_realm
+		DivineRealm2 = papuan_religion_divine_realm
+		DivineRealm3 = papuan_religion_divine_realm
+		PositiveAfterLife = papuan_religion_afterlife
+		PositiveAfterLife2 = papuan_religion_afterlife
+		PositiveAfterLife3 = papuan_religion_afterlife
+		NegativeAfterLife = papuan_religion_afterlife
+		NegativeAfterLife2 = papuan_religion_afterlife
+		NegativeAfterLife3 = papuan_religion_afterlife
+		DeathDeityName = papuan_religion_death_name
+		DeathDeityNamePossessive = papuan_religion_death_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
+		WitchGodName = papuan_religion_evil_god_dul
+		WitchGodNamePossessive = papuan_religion_evil_god_dul
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+		WitchGodMotherFather = mother
+	
+		GHWName = ghw_purification
+		GHWNamePlural = ghw_purifications
+	}
+
+	faiths = {
+		papuan_animism = { 
+			color = { 127 0 0 }
+			icon = papuan
+			reformed_icon = papuan_reformed
+
+			holy_site = puncak_jaya
+			holy_site = lake_sentani
+			holy_site = mount_arfak
+			holy_site = goa_keramat
+
+			doctrine = unreformed_faith_doctrine
+
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_human_sacrifice #headhunting
+			doctrine = tenet_ritual_cannibalism
+		}
+	}
+}
