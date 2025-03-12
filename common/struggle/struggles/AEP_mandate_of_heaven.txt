@@ -210,7 +210,7 @@
 				struggle_mandate_of_heaven_phase_shared_defiance = {
 					catalysts = {
 						catalyst_minor_barbarian_control = medium_struggle_catalyst_over_time_gain
-						catalyst_major_barbarian_control = medium_struggle_catalyst_over_time_gain
+						catalyst_major_barbarian_control = major_struggle_catalyst_over_time_gain
 					}
 				}
 			}
@@ -318,7 +318,7 @@
 
 				struggle_mandate_of_heaven_phase_weapons_drawn = {
 					catalysts = {
-						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
+						catalyst_passing_of_time = minor_struggle_catalyst_over_time_gain
 						catalyst_win_any_war_within_the_region = major_struggle_catalyst_gain
 						catalyst_unnatural_death_important_character = medium_struggle_catalyst_gain
 						catalyst_passing_of_time = minimal_struggle_catalyst_over_time_gain
@@ -335,7 +335,7 @@
 				struggle_mandate_of_heaven_phase_shared_defiance = {
 					catalysts = {
 						catalyst_minor_barbarian_control = minor_struggle_catalyst_over_time_gain
-						catalyst_major_barbarian_control = minor_struggle_catalyst_over_time_gain
+						catalyst_major_barbarian_control = medium_struggle_catalyst_over_time_gain
 					}
 				}
 			}

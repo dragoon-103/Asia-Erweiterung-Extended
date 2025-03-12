@@ -30,19 +30,24 @@ mandate_of_heaven_chinese_ending_decision = {
 			NOT = { is_chinese_emperor_trigger = yes }
 		}
 
-		any_character_struggle = {
-			involvement = involved
-			is_struggle_type = mandate_of_heaven_struggle
-			is_struggle_phase = struggle_mandate_of_heaven_phase_precious_harmony
+		custom_tooltip = {
+			text = mandate_of_heaven_correct_phase_tt
+			any_character_struggle = {
+				involvement = involved
+				is_struggle_type = mandate_of_heaven_struggle
+				is_struggle_phase = struggle_mandate_of_heaven_phase_precious_harmony
+			}
 		}
 		
-		# No other involved/interloper ruler owns an empire title
-		NOT = {
-			any_independent_ruler = {
-				NOT = { this = root }
-				primary_title = { tier = tier_empire }
-				any_character_struggle = {
-					is_struggle_type = mandate_of_heaven_struggle
+		custom_tooltip = {
+			text = mandate_of_heaven_chinese_sole_emperor_tt
+			NOT = {
+				any_independent_ruler = {
+					NOT = { this = root }
+					primary_title = { tier = tier_empire }
+					any_character_struggle = {
+						is_struggle_type = mandate_of_heaven_struggle
+					}
 				}
 			}
 		}
@@ -53,7 +58,12 @@ mandate_of_heaven_chinese_ending_decision = {
 		}
 
 		# Holds enough counties
-		controls_mandate_of_heaven_counties_trigger = yes
+		custom_tooltip = {
+			text = mandate_of_heaven_correct_counties_tt
+			controls_mandate_of_heaven_counties_trigger = yes
+		}
+
+		controls_mandate_of_heaven_core_counties_trigger = yes
 		
 		# Legitimate and famous enough
 		legitimacy_level >= 4

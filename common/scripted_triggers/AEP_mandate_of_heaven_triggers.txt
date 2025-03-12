@@ -4,11 +4,14 @@
 }
 
 any_barbarian_controls_percent_trigger = {
-	any_county_in_region = {
-		region = world_china
-		is_mandate_of_heaven_county_trigger = yes
-		add_to_temporary_list = mandate_county_list
-		count = all
+	OR = {
+		any_county_in_region = {
+			region = world_china
+			is_mandate_of_heaven_county_trigger = yes
+			add_to_temporary_list = mandate_county_list
+			count = all
+		}
+		always = yes
 	}
 
 	any_in_list = {
@@ -40,8 +43,13 @@ controls_mandate_of_heaven_counties_trigger = {
 		list = mandate_county_list
 		percent >= 0.8
 
-		holder.top_liege = root
+		holder.top_liege = prev
 	}
+
+	controls_mandate_of_heaven_core_counties_trigger = yes
+}
+
+controls_mandate_of_heaven_core_counties_trigger = {
 
 	# Check for control of 2x ancient capitals and 4x geographic breadth
 	completely_controls = title:d_xijing # Chang'an/Xi'an
