@@ -1,7 +1,7 @@
 ﻿l_english:
 
- struggle_mandate_of_heaven:0 "Struggle for China" #texts WIP
- struggle_mandate_of_heaven_desc:1 "The Mandate of Heaven is represented by a struggle describing the reign and dissolution of a ruling dynasty."
+ mandate_of_heaven_struggle:0 "Struggle for China" #texts WIP
+ mandate_of_heaven_struggle_desc:1 "The Mandate of Heaven is represented by a struggle describing the reign and dissolution of a ruling dynasty."
 
  struggle_mandate_of_heaven_phase_mandated_by_heaven:0 "Mandated by Heaven"
  struggle_mandate_of_heaven_phase_mandated_by_heaven_desc:0 "China is united under a righteous emperor."
@@ -22,10 +22,28 @@
   # Catalysts
   ##################################################
 
- # catalyst_minor_barbarian_control = {} # 20% control
- # catalyst_major_barbarian_control = {} # 40% control
- # catalyst_not_minor_barbarian_control = {} # Less than 20% control
- # catalyst_not_major_barbarian_control = {} # Less than 40% control
+ # catalyst_minor_barbarian_control:0 {} # 20% control
+ # catalyst_major_barbarian_control:0 {} # 40% control
+ # catalyst_not_minor_barbarian_control:0 {} # Less than 20% control
+ # catalyst_not_major_barbarian_control:0 {} # Less than 40% control
+
+ catalyst_major_natural_disaster_desc:0 "Major Natural Disaster"
+ catalyst_apocalyptic_natural_disaster_desc:0 "Apocalyptic Natural Disaster"
+ catalyst_aep_interloper_uninvolved_gain_struggle_titles_generic_desc:0 "Interloper or Uninvolved Ruler gains titles"
+
+ # China-specific geographic catalysts
+ catalyst_minor_barbarian_control_desc:0 "Yearly drift: Barbarians control over 20% of China"
+ catalyst_major_barbarian_control_desc:0 "Yearly drift: Barbarians control over 40% of China"
+ catalyst_not_minor_barbarian_control_desc:0 "Yearly drift: Barbarians control less than 20% of China"
+ catalyst_not_major_barbarian_control_desc:0 "Yearly drift: Barbarians control less than 40% of China"
+
+ # Emperor-specific catalysts
+ catalyst_emperor_unification_desc:0 "Emperor can unify China"
+ catalyst_emperor_indebted_desc:0 "Yearly drift: Emperor is in debt"
+ catalyst_emperor_low_legitimacy_desc:0 "Yearly drift: Emperor has low legitimacy"
+ catalyst_emperor_unstable_death_desc:0 "Emperor dies unnaturally or with unstable succession"
+
+ catalyst_aep_debug:0 "AEP Debug Catalyst"
 
   ##################################################
   # Effects // naming standard tbd e.g. struggle_parameter
@@ -69,38 +87,36 @@
  struggle_mandate_of_heaven.0001.b:0 "Advance the upright and set aside the crooked, then the people will submit."
  struggle_mandate_of_heaven.0001.c:0 "Advance the crooked and set aside the upright... and we may stand to benefit."
 
- #struggle_mandate_of_heaven.0002.t:0
- #struggle_mandate_of_heaven.0002.desc:0
  
  ##################################################
   # Events
   ##################################################
 
-aep_mandate_struggle.0100.t:0 "Title for event 0100"
-aep_mandate_struggle.0100.desc:0 "Description for event 0100"
-aep_mandate_struggle.0100.desc.involved:0 "Description for involved in event 0100"
-aep_mandate_struggle.0100.desc.interloper:0 "Description for interloper in event 0100"
-aep_mandate_struggle.0100.a:0 "Option A for event 0100"
-aep_mandate_struggle.0200.t:0 "Title for event 0200"
-aep_mandate_struggle.0200.desc:0 "Description for event 0200"
-aep_mandate_struggle.0200.a:0 "Option A for event 0200"
-aep_mandate_struggle.0200.b:0 "Option B for event 0200"
-aep_mandate_struggle.0200.c:0 "Option C for event 0200"
-aep_mandate_struggle.0200.d:0 "Option D for event 0200"
-aep_mandate_struggle.0200.e:0 "Option E for event 0200"
-aep_mandate_struggle.0300.t:0 "Title for event 0300"
-aep_mandate_struggle.0300.desc:0 "Description for event 0300"
-aep_mandate_struggle.0300.a:0 "Option A for event 0300"
-aep_mandate_struggle.0301.t:0 "Title for event 0301"
-aep_mandate_struggle.0301.desc:0 "Description for event 0301"
-aep_mandate_struggle.0301.a:0 "Option A for event 0301"
-aep_mandate_struggle.0301.b:0 "Option B for event 0301"
-aep_mandate_struggle.0310.t:0 "Title for event 0310"
-aep_mandate_struggle.0310.desc:0 "Description for event 0310"
-aep_mandate_struggle.0310.a:0 "Option A for event 0310"
-aep_mandate_struggle.0311.t:0 "Title for event 0311"
-aep_mandate_struggle.0311.desc:0 "Description for event 0311"
-aep_mandate_struggle.0311.a:0 "Option A for event 0311"
-aep_mandate_struggle.0320.t:0 "Title for event 0320"
-aep_mandate_struggle.0320.desc:0 "Description for event 0320"
-aep_mandate_struggle.0320.a:0 "Option A for event 0320"
+aep_mandate_struggle.0100.t:0 "The Mandate of Heaven" # Intro Event
+aep_mandate_struggle.0100.desc:0 "China is in turmoil. The Middle Kingdom, once united, is host to a myriad of squabbling warlords."
+aep_mandate_struggle.0100.desc.involved:0 "Even so, we know one undeniable truth: China will be reunited once more."
+aep_mandate_struggle.0100.desc.interloper:0 "Now is the time to act - to seize the Mandate of Heaven for ourselves."
+aep_mandate_struggle.0100.a:0 "Who will be the one to unite China?"
+aep_mandate_struggle.0200.t:0 "A New Dynasty"
+aep_mandate_struggle.0200.desc:0 "China has been reunited by your dynasty. It is now time to proclaim a new dynastic name."
+aep_mandate_struggle.0200.a:0 "There is no need to change the current name."
+aep_mandate_struggle.0200.b:0 "We shall call ourselves the Tang!"
+aep_mandate_struggle.0200.c:0 "We shall call ourselves the Song!"
+aep_mandate_struggle.0200.d:0 "We shall call ourselves Great Yuan!"
+aep_mandate_struggle.0200.e:0 "We shall call ourselves Great Ming!"
+aep_mandate_struggle.0300.t:0 "Abandoned by Heaven"
+aep_mandate_struggle.0300.desc:0 "Natural disasters, famine, loss of territory, internal strife - our hold on the Mandate of Heaven is on the brink of collapse. Our once-loyal vassals jostle for power, and some may even seek independence..."
+aep_mandate_struggle.0300.a:0 "The rebels will be dealt with swiftly."
+aep_mandate_struggle.0301.t:0 "The Weak Emperor"
+aep_mandate_struggle.0301.desc:0 "The Emperor is weak; if there ever was a time to break from the unrighteous rule of the current dynasty, it is now."
+aep_mandate_struggle.0301.a:0 "We are loyal to the Emperor, troubled times or not."
+aep_mandate_struggle.0301.b:0 "We bow to no weakling!"
+aep_mandate_struggle.0310.t:0 "Loyal Vassal"
+aep_mandate_struggle.0310.desc:0 "Our vassal, [china_rebel_response_scope.GetTitledFirstName], has professed their loyalty to us."
+aep_mandate_struggle.0310.a:0 "A wise decision."
+aep_mandate_struggle.0311.t:0 "Rebellious Vassal"
+aep_mandate_struggle.0311.desc:0 "Our vassal, [china_rebel_response_scope.GetTitledFirstName], has declared independence!"
+aep_mandate_struggle.0311.a:0 "They must be brought to heel."
+aep_mandate_struggle.0320.t:0 "Lines Drawn"
+aep_mandate_struggle.0320.desc:0 "The chaos has settled, for now. We now know who is with us - and who is against us."
+aep_mandate_struggle.0320.a:0 "China will be united once more."

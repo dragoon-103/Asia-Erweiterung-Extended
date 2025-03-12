@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  form_kamakura_bakufu_decision:0 "Establish the Kamakura Shōgunate"
  form_kamakura_bakufu_decision_confirm:0 "Iza Kamakura!"
  form_kamakura_bakufu_decision_desc:0 "With our enemies in ruins and the Imperial Court's influence thoroughly diminished, the moment is ripe for the Minamoto to establish a new order.\n\nBy the Emperor's decree, I shall usher in a new age where harmony is secured through the might of the samurai, with the Shōgun as the true ruler of Japan."
@@ -22,7 +22,7 @@ l_english:
  establish_chinese_silk_production_decision_desc.boilerplate: "Since time immemorial, our people have been the world's greatest silkworm cultivators. Even so, the imperial court has much to gain from limiting the manufacture and sale of silk."
  establish_chinese_silk_production_decision_desc.emperor: "$establish_chinese_silk_production_decision_desc.boilerplate$\n\nAs the head of the imperial family, I can grant myself and my successors the privilege of its manufacture with but a wave of the hand."
  establish_chinese_silk_production_decision_desc: "$establish_chinese_silk_production_decision_desc.boilerplate$\n\nIt would be an expensive venture, but we could buy an imperial dispensation to be allowed to establish our own silk production in our family Estate."
- 
+ establish_east_asia_silk_production_decision_confirm: "Establish Silk Production"
  # Generic East-ish Asian
  establish_east_asia_silk_production_decision_desc.boilerplate: "Since the introduction of the first silkworms from China, silk manufacture and sale have always been tightly regulated."
  establish_east_asia_silk_production_decision_desc.emperor: "$establish_east_asia_silk_production_decision_desc.boilerplate$\n\nAs the head of the imperial family, I can grant myself and my successors the privilege of its manufacture with but a wave of the hand."
@@ -34,10 +34,13 @@ l_english:
  mandate_of_heaven_chinese_ending_decision_tooltip:0 "Claim the Mandate"
  mandate_of_heaven_chinese_ending_decision_confirm:0 "Claim the Mandate"
 
- mandate_of_heaven_barbarian_ending_decision:0 "$mandate_of_heaven_chinese_ending_decision$" # Unite China as a non-Chinese character
- mandate_of_heaven_barbarian_ending_decision_desc:0 "The throme of China belongs not to the Han, but to the [ROOT.Char.GetCulture.GetName]!"
+ mandate_of_heaven_barbarian_ending_decision:0 "Conquer China" # Unite China as a non-Chinese character
+ mandate_of_heaven_barbarian_ending_decision_desc:0 "The throne of China belongs not to the Han, but to the [ROOT.Char.GetCulture.GetName]!"
  mandate_of_heaven_barbarian_ending_decision_tooltip:0 "$mandate_of_heaven_chinese_ending_decision_tooltip$"
  mandate_of_heaven_barbarian_ending_decision_confirm:0 "$mandate_of_heaven_chinese_ending_decision_confirm$"
 
  mandate_of_heaven_struggle_form_china_title_tt:0 "The dynasty begins..."
- mandate_of_heaven_already_emperor_tt:0 "You are already the Emperor of China."
+ mandate_of_heaven_already_emperor_tt:0 "You are already the Emperor of China"
+ mandate_of_heaven_correct_phase_tt:0 "You are involved in the Struggle for China, and it is in the Precious Harmony phase"
+ mandate_of_heaven_chinese_sole_emperor_tt:0 "No other involved or interloper characters hold Empire-tier titles"
+ mandate_of_heaven_correct_counties_tt:0 "Control at least 80% of Chinese culture counties in East Asia"
