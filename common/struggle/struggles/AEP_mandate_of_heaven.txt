@@ -310,7 +310,7 @@
 						catalyst_became_friend_lover_with_character = minor_struggle_catalyst_gain
 						catalyst_release_important = medium_struggle_catalyst_gain
 						catalyst_ransom_important = minor_struggle_catalyst_gain
-						catalyst_gift_independent_ruler = minor_struggle_catalyst_gain
+						catalyst_gift_independent_ruler = minimal_struggle_catalyst_gain
 						catalyst_sign_truce_outside_war = minor_struggle_catalyst_gain
 						catalyst_invite_involved_as_honorary_guests_to_feast_hunt = minor_struggle_catalyst_gain
 					}
