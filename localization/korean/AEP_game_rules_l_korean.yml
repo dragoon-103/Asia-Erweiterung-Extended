@@ -1,0 +1,12 @@
+﻿l_korean:
+ rule_historicity_extra_feudal_east_asia: "@aep_icon! [feudal|E] [realms|E] — 동아시아"
+ setting_default_historicity_extra_feudal_east_asia: "기본값"
+ setting_default_historicity_extra_feudal_east_asia_desc: "동아시아의 모든 [administrative|E] [governments|E]는 모든 시작 연도에서 변경되지 않으며, 예상된 게임플레이와 일치합니다."
+ setting_enabled_historicity_extra_feudal_east_asia: "#high 봉건제#!"
+ setting_enabled_historicity_extra_feudal_east_asia_desc: "동아시아의 모든 [administrative|E] [governments|E]가 [feudal|E] [governments|E]로 변경되며, 이 설정은 게임플레이 균형에 영향을 미칠 수 있습니다."
+ 
+ rule_historicity_less_admin_vassals_japan: "@aep_icon! [administrative|E] [vassals|E] — 일본"
+ setting_default_historicity_less_admin_vassals_japan: "기본값"
+ setting_default_historicity_less_admin_vassals_japan_desc: "일본의 모든 [administrative|E] [vassals|E]은 모든 시작 연도에서 변경되지 않으며, 예상된 게임플레이와 일치합니다."
+ setting_enabled_historicity_less_admin_vassals_japan: "#high 공작령만#!"
+ setting_enabled_historicity_less_admin_vassals_japan_desc: "일본의 모든 [administrative|E] [vassals|E]은 867년과 1066년 시작 연도에서 [duchy|E]-[title_tier|E]으로 조정되며, 이 설정은 게임플레이 균형에 영향을 미칠 수 있습니다."

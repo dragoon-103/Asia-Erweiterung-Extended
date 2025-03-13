@@ -1,0 +1,79 @@
+﻿l_korean:
+  # No tooltip versions
+ #knight_default_no_tooltip:0 "Knight"
+ #knight_default_no_tooltip_plural:0 "Knights"
+# Tagalog
+ knight_tagalog_no_tooltip:0 "마할리카"
+ knight_tagalog_no_tooltip_plural:0 "마할리카"
+# Bisaya
+ knight_bisaya_no_tooltip:0 "티마와"
+ knight_bisaya_no_tooltip_plural:0 "티마와"
+# Tawo
+ knight_tawo_no_tooltip:0 "티마와"
+ knight_tawo_no_tooltip_plural:0 "티마와"
+# Manobo
+ knight_manobo_no_tooltip:0 "바가니"
+ knight_manobo_no_tooltip_plural:0 "바가니"
+# Batak
+ knight_batak_no_tooltip:0 "파랑간"
+ knight_batak_no_tooltip_plural:0 "파랑간"
+
+# Lolo Group
+ knight_lolo_group_no_tooltip:0 "라 존"
+ knight_lolo_group_no_tooltip_plural:0 "라 존"
+
+# Burman Group
+ knight_burman_group_no_tooltip:0 "미인무"
+ knight_burman_group_no_tooltip_plural:0 "미인무"
+
+  # Lowercase versions
+ #knight_default_no_tooltip_lowercase:0 "knight"
+ #knight_default_no_tooltip_lowercase_plural:0 "knights"
+ #knight_default_no_tooltip_lowercase_plural_possessive:0 "knights'"
+ #knight_default_no_tooltip_lowercase_adjective:0 "knightly"
+# Tagalog
+ knight_tagalog_no_tooltip_lowercase:0 "마할리카"
+ knight_tagalog_no_tooltip_lowercase_plural:0 "마할리카"
+# Bisaya
+ knight_bisaya_no_tooltip_lowercase_plural_possessive:0 "티마와"
+ knight_bisaya_no_tooltip_lowercase_adjective:0 "티마와"
+# Tawo
+ knight_tawo_no_tooltip_lowercase_plural_possessive:0 "티마와"
+ knight_tawo_no_tooltip_lowercase_adjective:0 "티마와"
+# Manobo
+ knight_manobo_no_tooltip_lowercase_plural_possessive:0 "바가니"
+ knight_manobo_no_tooltip_lowercase_adjective:0 "바가니"
+# Batak
+ knight_batak_no_tooltip_lowercase_plural_possessive:0 "파랑간"
+ knight_batak_no_tooltip_lowercase_adjective:0 "파랑간"
+
+# Lolo Group
+ knight_lolo_group_no_tooltip_lowercase_plural_possessive:0 "미인무"
+ knight_lolo_group_no_tooltip_lowercase_adjective:0 "미인무"
+
+  #Game Concept versions
+ #knight_default:0 "[Concept( 'knight', '$knight_default_no_tooltip|q$' )|E]"
+ #knight_default_plural:0 "[Concept( 'knight', '$knight_default_no_tooltip_plural|q$' )|E]"
+# Tagalog
+ knight_tagalog:0 "[Concept( 'knight', '$knight_tagalog_no_tooltip|q$' )|E]"
+ knight_tagalog_plural:0 "[Concept( 'knight', '$knight_tagalog_no_tooltip_plural|q$' )|E]"
+# Bisaya
+ knight_bisaya:0 "[Concept( 'knight', '$knight_bisaya_no_tooltip|q$' )|E]"
+ knight_bisaya_plural:0 "[Concept( 'knight', '$knight_bisaya_no_tooltip_plural|q$' )|E]"
+# Tawo
+ knight_tawo:0 "[Concept( 'knight', '$knight_tawo_no_tooltip|q$' )|E]"
+ knight_tawo_plural:0 "[Concept( 'knight', '$knight_tawo_no_tooltip_plural|q$' )|E]"
+# Manobo
+ knight_manobo:0 "[Concept( 'knight', '$knight_manobo_no_tooltip|q$' )|E]"
+ knight_manobo_plural:0 "[Concept( 'knight', '$knight_manobo_no_tooltip_plural|q$' )|E]"
+# Batak
+ knight_batak:0 "[Concept( 'knight', '$knight_batak_no_tooltip|q$' )|E]"
+ knight_batak_plural:0 "[Concept( 'knight', '$knight_batak_no_tooltip_plural|q$' )|E]"
+
+# Lolo Group
+ knight_lolo_group:0 "[Concept( 'knight', '$knight_lolo_group_no_tooltip|q$' )|E]"
+ knight_lolo_group_plural:0 "[Concept( 'knight', '$knight_lolo_group_no_tooltip_plural|q$' )|E]"
+
+# Burman Group
+ knight_burman_group:0 "[Concept( 'knight', '$knight_burman_group_no_tooltip|q$' )|E]"
+ knight_burman_group_plural:0 "[Concept( 'knight', '$knight_burman_group_no_tooltip_plural|q$' )|E]"

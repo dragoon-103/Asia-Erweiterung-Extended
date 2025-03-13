@@ -1,0 +1,393 @@
+﻿game_rule_historicity_less_admin_vassals_japan_867_effect = { 
+	create_title_and_vassal_change = {
+		type = granted
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:d_chubu = {
+		change_title_holder = {
+			holder = character:fujiwara_yamakage
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_yamakage
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_chugoku = {
+		change_title_holder = {
+			holder = character:ki_yasuo
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:ki_yasuo
+				change = scope:title_change
+			}
+		}
+	}
+	title:c_ogachi = {
+		change_title_holder = {
+			holder = character:nankefujiwara_okiyo
+			change = scope:title_change
+		}
+	}
+	title:c_tagawa = {
+		change_title_holder = {
+			holder = character:nankefujiwara_okiyo
+			change = scope:title_change
+		}
+	}
+	title:c_mogami = {
+		change_title_holder = {
+			holder = character:nankefujiwara_okiyo
+			change = scope:title_change
+		}
+	}
+	title:d_hokuriku = {
+		change_title_holder = {
+			holder = character:minamoto_sunao
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:minamoto_sunao
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_kanto = {
+		change_title_holder = {
+			holder = character:minamoto_ikeru
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:minamoto_ikeru
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_kinai = {
+		change_title_holder = {
+			holder = character:1600004
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:1600004
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_kumaso = {
+		change_title_holder = {
+			holder = character:ariwara_yasusada
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:ariwara_yasusada
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_koshinetsu = {
+		change_title_holder = {
+			holder = character:minamoto_hide
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:minamoto_hide
+				change = scope:title_change
+			}
+		}
+	}
+	title:c_iwaki = {
+		change_title_holder = {
+			holder = character:yoshimine_tsuneyo
+			change = scope:title_change
+		}
+	}
+	title:c_iwase = {
+		change_title_holder = {
+			holder = character:yoshimine_tsuneyo
+			change = scope:title_change
+		}
+	}
+	title:c_aizu = {
+		change_title_holder = {
+			holder = character:yoshimine_tsuneyo
+			change = scope:title_change
+		}
+	}
+	title:d_nankai = {
+		change_title_holder = {
+			holder = character:nankefujiwara_arisada
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:nankefujiwara_arisada
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_saikai = {
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:ariwara_yukihira
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_sanin = {
+		change_title_holder = {
+			holder = character:sakanoue_sadamori
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:sakanoue_sadamori
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_sanyo = {
+		change_title_holder = {
+			holder = character:minamoto_tsutomu
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:minamoto_tsutomu
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_soshu = {
+		change_title_holder = {
+			holder = character:oo_jinenmaro
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:oo_jinenmaro
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_tokai = {
+		change_title_holder = {
+			holder = character:kiyohara_michio
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:kiyohara_michio
+				change = scope:title_change
+			}
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+}
+
+game_rule_historicity_less_admin_vassals_japan_1066_effect = {
+	create_title_and_vassal_change = {
+		type = granted
+		save_scope_as = title_change
+		add_claim_on_loss = no
+	}
+	title:d_chubu = {
+		change_title_holder = {
+			holder = character:minominamoto_kunifusa
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:minominamoto_kunifusa
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_chugoku = {
+		change_title_holder = {
+			holder = character:fujiwara_nagafusa
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_nagafusa
+				change = scope:title_change
+			}
+		}
+	}
+	title:c_ogachi = {
+		change_title_holder = {
+			holder = character:kawachiminamoto_yoshiie
+			change = scope:title_change
+		}
+	}
+	title:c_tagawa = {
+		change_title_holder = {
+			holder = character:kawachiminamoto_yoshiie
+			change = scope:title_change
+		}
+	}
+	title:c_mogami = {
+		change_title_holder = {
+			holder = character:kawachiminamoto_yoshiie
+			change = scope:title_change
+		}
+	}
+	title:d_hokuriku = {
+		change_title_holder = {
+			holder = character:fujiwara_sadashige
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_sadashige
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_kanto = {
+		change_title_holder = {
+			holder = character:kamakura_akina
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:kamakura_akina
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_kinai = {
+		change_title_holder = {
+			holder = character:goreizei_tenno
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:goreizei_tenno
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_kumaso = {
+		change_title_holder = {
+			holder = character:fujiwara_koretsuna
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_koretsuna
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_koshinetsu = {
+		change_title_holder = {
+			holder = character:oe_narihira
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:oe_narihira
+				change = scope:title_change
+			}
+		}
+	}
+	title:c_iwaki = {
+		change_title_holder = {
+			holder = character:yamatominamoto_yoritoshi
+			change = scope:title_change
+		}
+	}
+	title:c_iwase = {
+		change_title_holder = {
+			holder = character:yamatominamoto_yoritoshi
+			change = scope:title_change
+		}
+	}
+	title:c_aizu = {
+		change_title_holder = {
+			holder = character:yamatominamoto_yoritoshi
+			change = scope:title_change
+		}
+	}
+	title:d_nankai = {
+		change_title_holder = {
+			holder = character:fujiwara_akiie
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_akiie
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_saikai = {
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_sukenaka
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_sanin = {
+		change_title_holder = {
+			holder = character:minamoto_takazane
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:minamoto_takazane
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_sanyo = {
+		change_title_holder = {
+			holder = character:fujiwara_toshitsuna
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:fujiwara_toshitsuna
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_soshu = {
+		change_title_holder = {
+			holder = character:bosotaira_tsunemasa
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:bosotaira_tsunemasa
+				change = scope:title_change
+			}
+		}
+	}
+	title:d_tokai = {
+		change_title_holder = {
+			holder = character:taira_koremori
+			change = scope:title_change
+		}
+		every_de_jure_county = {
+			change_title_holder = {
+				holder = character:taira_koremori
+				change = scope:title_change
+			}
+		}
+	}
+	resolve_title_and_vassal_change = scope:title_change
+}

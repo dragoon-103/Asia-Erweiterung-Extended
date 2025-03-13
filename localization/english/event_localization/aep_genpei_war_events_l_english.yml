@@ -1,0 +1,12 @@
+﻿l_english:
+ # Event Title & Description
+ aep_genpei_war.0001.t: "Ever-Rising Tides of the Taira"
+ aep_genpei_war.0001.desc: "Taira no Kiyomori’s clan holds the reins of power in the imperial court. Rumors of forced resignations, exiles, and even clandestine executions spread throughout the land. Local warlords tremble at the looming threat of absolute Taira dominance. How do you respond to their growing ascendancy?"
+
+ # Quietly Watch
+ aep_genpei_war.0001.a: "Quietly Watch"
+ aep_genpei_war.0001.a.tt: "Give the Taira no reason to suspect you, for now."
+
+ # Secretly Encourage Resistance
+ aep_genpei_war.0001.b: "Secretly Encourage Resistance"
+ aep_genpei_war.0001.b.tt: "Behind closed doors, you meet with those who still value the old imperial order."

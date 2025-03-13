@@ -1,0 +1,12 @@
+﻿l_russian:
+ rule_historicity_extra_feudal_east_asia: "@aep_icon! [feudal|E] [realms|E] — Восточная Азия"
+ setting_default_historicity_extra_feudal_east_asia: "По умолчанию"
+ setting_default_historicity_extra_feudal_east_asia_desc: "Все [administrative|E] [governments|E] в Восточной Азии останутся неизменными на всех стартовых датах в соответствии с ожидаемым игровым процессом."
+ setting_enabled_historicity_extra_feudal_east_asia: "#high Феодализм#!"
+ setting_enabled_historicity_extra_feudal_east_asia_desc: "Все [administrative|E] [governments|E] в Восточной Азии будут преобразованы в [feudal|E] [governments|E], хотя этот параметр может повлиять на баланс игры."
+ 
+ rule_historicity_less_admin_vassals_japan: "@aep_icon! [administrative|E] [vassals|E] — Япония"
+ setting_default_historicity_less_admin_vassals_japan: "По умолчанию"
+ setting_default_historicity_less_admin_vassals_japan_desc: "Все [administrative|E] [vassals|E] в Японии останутся неизменными на всех стартовых датах в соответствии с ожидаемым игровым процессом."
+ setting_enabled_historicity_less_admin_vassals_japan: "#high Только герцогства#!"
+ setting_enabled_historicity_less_admin_vassals_japan_desc: "Все [administrative|E] [vassals|E] в Японии будут понижены до уровня [duchy|E]-[title_tier|E] на стартовых датах 867 и 1066 годов, хотя этот параметр может повлиять на баланс игры."

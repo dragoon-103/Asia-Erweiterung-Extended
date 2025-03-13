@@ -1,0 +1,12 @@
+﻿l_english:
+ rule_historicity_extra_feudal_east_asia: "@aep_icon! [feudal|E] [realms|E] — East Asia"
+ setting_default_historicity_extra_feudal_east_asia: "Default"
+ setting_default_historicity_extra_feudal_east_asia_desc: "All [administrative|E] [governments|E] in East Asia will remain unchanged across all start dates, in line with expected gameplay."
+ setting_enabled_historicity_extra_feudal_east_asia: "#high Feudal#!"
+ setting_enabled_historicity_extra_feudal_east_asia_desc: "All [administrative|E] [governments|E] in East Asia will be changed to [feudal|E] [governments|E], though this setting may affect gameplay balance."
+ 
+ rule_historicity_less_admin_vassals_japan: "@aep_icon! [administrative|E] [vassals|E] — Japan"
+ setting_default_historicity_less_admin_vassals_japan: "Default"
+ setting_default_historicity_less_admin_vassals_japan_desc: "All [administrative|E] [vassals|E] in Japan will remain unchanged across all start dates, in line with expected gameplay."
+ setting_enabled_historicity_less_admin_vassals_japan: "#high Duchies Only#!"
+ setting_enabled_historicity_less_admin_vassals_japan_desc: "All [administrative|E] [vassals|E] in Japan will become [duchy|E]-[title_tier|E] in the 867 and 1066 start dates, though this setting may affect gameplay balance."

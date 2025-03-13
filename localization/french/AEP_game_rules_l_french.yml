@@ -1,0 +1,12 @@
+﻿l_french:
+ rule_historicity_extra_feudal_east_asia: "@aep_icon! [feudal|E] [realms|E] — Asie de l'Est"
+ setting_default_historicity_extra_feudal_east_asia: "Par défaut"
+ setting_default_historicity_extra_feudal_east_asia_desc: "Tous les [governments|E] [administrative|E] en Asie de l'Est resteront inchangés à toutes les dates de début, conformément au gameplay prévu."
+ setting_enabled_historicity_extra_feudal_east_asia: "#high Féodal#!"
+ setting_enabled_historicity_extra_feudal_east_asia_desc: "Tous les [governments|E] [administrative|E] en Asie de l'Est seront convertis en [governments|E] [feudal|E], bien que ce paramètre puisse affecter l'équilibre du jeu."
+ 
+ rule_historicity_less_admin_vassals_japan: "@aep_icon! [vassals|E] [administrative|E] — Japon"
+ setting_default_historicity_less_admin_vassals_japan: "Par défaut"
+ setting_default_historicity_less_admin_vassals_japan_desc: "Tous les [vassals|E] [administrative|E] au Japon resteront inchangés à toutes les dates de début, conformément au gameplay prévu."
+ setting_enabled_historicity_less_admin_vassals_japan: "#high Duchés uniquement#!"
+ setting_enabled_historicity_less_admin_vassals_japan_desc: "Tous les [vassals|E] [administrative|E] au Japon seront limités au rang de [duchy|E]-[title_tier|E] aux dates de début de 867 et 1066, bien que ce paramètre puisse affecter l'équilibre du jeu."

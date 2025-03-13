@@ -1,0 +1,12 @@
+﻿l_simp_chinese:
+ rule_historicity_extra_feudal_east_asia: "@aep_icon! [feudal|E] [realms|E] — 东亚"
+ setting_default_historicity_extra_feudal_east_asia: "默认"
+ setting_default_historicity_extra_feudal_east_asia_desc: "东亚的所有[administrative|E] [governments|E]在所有起始日期均保持不变，以符合预期的游戏玩法。"
+ setting_enabled_historicity_extra_feudal_east_asia: "#high 封建#!"
+ setting_enabled_historicity_extra_feudal_east_asia_desc: "东亚的所有[administrative|E] [governments|E]将更改为[feudal|E] [governments|E]，但此设置可能会影响游戏平衡。"
+ 
+ rule_historicity_less_admin_vassals_japan: "@aep_icon! [administrative|E] [vassals|E] — 日本"
+ setting_default_historicity_less_admin_vassals_japan: "默认"
+ setting_default_historicity_less_admin_vassals_japan_desc: "日本的所有[administrative|E] [vassals|E]在所有起始日期均保持不变，以符合预期的游戏玩法。"
+ setting_enabled_historicity_less_admin_vassals_japan: "#high 仅限公国#!"
+ setting_enabled_historicity_less_admin_vassals_japan_desc: "日本的所有[administrative|E] [vassals|E]在867年和1066年的起始日期将降为[duchy|E]-[title_tier|E]，但此设置可能会影响游戏平衡。"
